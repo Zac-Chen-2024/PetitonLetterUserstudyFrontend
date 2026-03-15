@@ -1,8 +1,7 @@
-import { useState, useRef, useCallback } from 'react';
+import { useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
-import type { MaterialData, DimensionDef, SystemRating, ScrollEvent, MaterialSetResult } from '../../types/index.ts';
+import type { MaterialData, DimensionDef, ScrollEvent } from '../../types/index.ts';
 import LetterColumn from './LetterColumn.tsx';
-import ConfirmModal from '../shared/ConfirmModal.tsx';
 
 const SYSTEM_LABELS = ['System A', 'System B', 'System C'];
 
@@ -12,90 +11,111 @@ interface ComparisonViewProps {
   columnOrder: number[];
   materialIndex: number;
   totalMaterials: number;
-  onComplete: (result: MaterialSetResult) => void;
+  scores: Record<string, number>[];
+  comments: string[];
+  scoringRevealed: boolean[];
+  onScoreChange: (sysIdx: number, dimId: string, value: number) => void;
+  onCommentChange: (sysIdx: number, value: string) => void;
+  onScoringRevealed: (colIdx: number) => void;
+  onScroll: (event: ScrollEvent) => void;
+  onBack?: () => void;
+  onNext: () => void;
+  allColumnsRevealed: boolean;
+  isLastMaterial: boolean;
 }
 
-export default function ComparisonView({ material, dimensions, columnOrder, materialIndex, totalMaterials, onComplete }: ComparisonViewProps) {
+export default function ComparisonView({
+  material, dimensions, columnOrder, materialIndex, totalMaterials,
+  scores, comments, scoringRevealed, onScoreChange, onCommentChange,
+  onScoringRevealed, onScroll, onBack, onNext, allColumnsRevealed, isLastMaterial,
+}: ComparisonViewProps) {
   const { t } = useTranslation();
-  const [showConfirm, setShowConfirm] = useState(false);
-  const [scoringRevealed, setScoringRevealed] = useState<boolean[]>([false, false, false]);
-  const scrollEventsRef = useRef<ScrollEvent[]>([]);
-  const readingStartRef = useRef(Date.now());
 
   const orderedSources = columnOrder.map(i => material.sources[i]);
-  const columnOrderIds = orderedSources.map(s => s.sourceId);
 
-  const [scores, setScores] = useState<Record<string, number>[]>(
-    SYSTEM_LABELS.map(() => Object.fromEntries(dimensions.map(d => [d.id, 50])))
+  // Determine if each column has been interacted with (score differs from default 50)
+  const columnScored = scores.map(colScores =>
+    Object.values(colScores).some(v => v !== 50)
   );
-  const [comments, setComments] = useState<string[]>(SYSTEM_LABELS.map(() => ''));
 
-  const allRevealed = scoringRevealed.every(Boolean);
-
-  const handleScroll = useCallback((event: ScrollEvent) => {
-    scrollEventsRef.current.push(event);
-  }, []);
-
-  const handleScoringRevealed = useCallback((colIdx: number) => {
-    setScoringRevealed(prev => {
-      const copy = [...prev];
-      copy[colIdx] = true;
-      return copy;
+  // Step dots for material progress
+  const stepDots = useMemo(() => {
+    return Array.from({ length: totalMaterials }, (_, i) => {
+      if (i < materialIndex) return 'completed';
+      if (i === materialIndex) return 'current';
+      return 'upcoming';
     });
-  }, []);
-
-  const updateScore = (sysIdx: number, dimId: string, value: number) => {
-    setScores(prev => {
-      const copy = [...prev];
-      copy[sysIdx] = { ...copy[sysIdx], [dimId]: value };
-      return copy;
-    });
-  };
-
-  const updateComment = (sysIdx: number, value: string) => {
-    setComments(prev => {
-      const copy = [...prev];
-      copy[sysIdx] = value;
-      return copy;
-    });
-  };
-
-  const doSubmit = () => {
-    const readingDuration = Math.round((Date.now() - readingStartRef.current) / 1000);
-    const ratings: SystemRating[] = SYSTEM_LABELS.map((label, i) => ({
-      systemLabel: label,
-      sourceId: columnOrderIds[i],
-      scores: scores[i],
-      comment: comments[i],
-    }));
-    onComplete({
-      materialId: material.materialId,
-      columnOrder: columnOrderIds,
-      readingDuration,
-      scrollEvents: scrollEventsRef.current,
-      ratings,
-    });
-  };
+  }, [materialIndex, totalMaterials]);
 
   return (
     <div className="flex flex-col h-full">
-      {/* Title bar with submit */}
-      <div className="px-6 py-3 border-b border-slate-200 flex items-center justify-between shrink-0">
-        <div className="flex items-center gap-3">
-          <h1 className="text-lg font-semibold text-slate-800">{t('phase1.title')}</h1>
+      {/* Header area */}
+      <div className="px-6 py-3 border-b border-slate-200 shrink-0">
+        {/* Row 1: Title + Progress dots */}
+        <div className="flex items-center justify-between">
+          <h1 className="text-lg font-semibold text-slate-800">Phase 1/3: Comparative Evaluation</h1>
+
           {totalMaterials > 1 && (
-            <span className="text-sm text-slate-500">
-              {t('phase1.material')} {materialIndex + 1} / {totalMaterials}
-            </span>
+            <div className="flex items-center gap-2">
+              {stepDots.map((status, i) => (
+                <div key={i} className="flex items-center gap-2">
+                  <div
+                    className={`step-dot w-2.5 h-2.5 rounded-full border-2 ${
+                      status === 'completed'
+                        ? 'bg-blue-600 border-blue-600'
+                        : status === 'current'
+                          ? 'bg-blue-600 border-blue-600 ring-4 ring-blue-100'
+                          : 'bg-white border-slate-300'
+                    }`}
+                  />
+                  {i < totalMaterials - 1 && (
+                    <div className={`w-6 h-px ${i < materialIndex ? 'bg-blue-400' : 'bg-slate-200'}`} />
+                  )}
+                </div>
+              ))}
+              <span className="text-xs text-slate-500 ml-2 tabular-nums">
+                {materialIndex + 1}/{totalMaterials}
+              </span>
+            </div>
           )}
         </div>
-        <button
-          onClick={() => setShowConfirm(true)}
-          disabled={!allRevealed}
-          className="px-4 py-1.5 rounded-lg text-xs font-medium bg-blue-600 text-white hover:bg-blue-700 disabled:bg-slate-200 disabled:text-slate-400 disabled:cursor-not-allowed transition-colors"
-        >
-          {t('phase1.submitRatings')}
-        </button>
+
+        {/* Row 2: Material title + Back/Next */}
+        <div className="flex items-center justify-between mt-2">
+          <p className="text-sm text-blue-600 font-medium">{material.title}</p>
+
+          <div className="flex items-center gap-2">
+            {onBack && (
+              <button
+                onClick={onBack}
+                className="px-3.5 py-1.5 rounded-lg text-xs font-medium border border-slate-200 text-slate-600 hover:bg-slate-50 transition-colors flex items-center gap-1"
+              >
+                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+                </svg>
+                {t('common.back')}
+              </button>
+            )}
+            <button
+              onClick={onNext}
+              disabled={!allColumnsRevealed}
+              className={`
+                px-3.5 py-1.5 rounded-lg text-xs font-medium transition-all duration-300 flex items-center gap-1
+                ${allColumnsRevealed
+                  ? 'bg-blue-600 text-white hover:bg-blue-700' + (isLastMaterial ? ' submit-pulse' : '')
+                  : 'bg-slate-200 text-slate-400 cursor-not-allowed'
+                }
+              `}
+            >
+              {isLastMaterial ? t('phase1.submitRatings') : t('common.next')}
+              {!isLastMaterial && (
+                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+              )}
+            </button>
+          </div>
+        </div>
       </div>
 
       {/* Instruction */}
@@ -104,34 +124,25 @@ export default function ComparisonView({ material, dimensions, columnOrder, mate
       </div>
 
       {/* Three columns */}
-      <div className="flex-1 px-4 pb-3 grid grid-cols-3 gap-4 min-h-0">
+      <div className="flex-1 px-5 pb-3 grid grid-cols-3 gap-5 min-h-0">
         {orderedSources.map((source, idx) => (
           <LetterColumn
             key={source.sourceId}
             label={SYSTEM_LABELS[idx]}
             sections={source.sections}
             columnIndex={idx}
-            onScroll={handleScroll}
-            onScoringRevealed={handleScoringRevealed}
+            onScroll={onScroll}
+            onScoringRevealed={onScoringRevealed}
             dimensions={dimensions}
             scores={scores[idx]}
-            onScoreChange={(dimId, v) => updateScore(idx, dimId, v)}
+            onScoreChange={(dimId, v) => onScoreChange(idx, dimId, v)}
             comment={comments[idx]}
-            onCommentChange={(v) => updateComment(idx, v)}
+            onCommentChange={(v) => onCommentChange(idx, v)}
+            isScored={columnScored[idx]}
+            forceShowScoring={scoringRevealed[idx]}
           />
         ))}
       </div>
-
-      {/* Confirm modal */}
-      <ConfirmModal
-        open={showConfirm}
-        title={t('phase1.submitRatings')}
-        message={t('phase1.confirmSubmit')}
-        confirmText={t('common.submit')}
-        cancelText={t('common.cancel')}
-        onConfirm={() => { setShowConfirm(false); doSubmit(); }}
-        onCancel={() => setShowConfirm(false)}
-      />
     </div>
   );
 }

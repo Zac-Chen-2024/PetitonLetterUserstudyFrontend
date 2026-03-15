@@ -86,12 +86,11 @@ export function getAllRecords(): StudyRecord[] {
           },
           counterbalance: state.counterbalance ?? {
             phase1ColumnOrder: [0, 1, 2],
-            phase2ConditionOrder: ['conditionA', 'conditionB'],
             seed: 0,
           },
           phase1: { materialSets: state.phase1Results || [] },
-          phase2: { tasks: state.phase2Results || [] },
-          postStudy: state.postStudySurvey || {},
+          phase2: state.phase2Result || null,
+          phase3: state.phase3Survey || {},
           totalDuration: state.totalElapsed || 0,
         });
       } catch {

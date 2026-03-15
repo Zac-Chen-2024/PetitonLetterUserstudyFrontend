@@ -5,18 +5,16 @@ import { useStudyTimer } from './hooks/useStudyTimer.ts';
 import { useCounterbalance } from './hooks/useCounterbalance.ts';
 import type { StudyStep } from './types/index.ts';
 import { STUDY_STEPS } from './types/index.ts';
-import StudyHeader from './components/layout/StudyHeader.tsx';
-
 import Phase1Page from './pages/Phase1Page.tsx';
 import Phase2Page from './pages/Phase2Page.tsx';
-import PostStudyPage from './pages/PostStudyPage.tsx';
+import Phase3Page from './pages/Phase3Page.tsx';
 import ThankYouPage from './pages/ThankYouPage.tsx';
 import AdminPage from './pages/AdminPage.tsx';
 
 const STEP_TO_PATH: Record<StudyStep, string> = {
   'phase1': '/',
   'phase2': '/phase2',
-  'post-study': '/post-study',
+  'phase3': '/phase3',
   'thank-you': '/thank-you',
 };
 
@@ -65,7 +63,7 @@ export default function App() {
     }
   }, []);
 
-  // Timer control
+  // Timer runs silently for data collection — not displayed
   useEffect(() => {
     if (state.currentStep !== 'thank-you') {
       timer.start();
@@ -81,14 +79,13 @@ export default function App() {
   }, [timer.elapsed, dispatch]);
 
   return (
-    <div className="flex flex-col min-h-screen bg-slate-50">
-      <StudyHeader timerFormatted={timer.formatted} />
-      <div className="flex-1 overflow-auto">
+    <div className="flex flex-col h-screen bg-slate-50">
+      <div className="flex-1 overflow-hidden">
         <StudyGuard>
           <Routes>
             <Route path="/" element={<Phase1Page />} />
             <Route path="/phase2" element={<Phase2Page />} />
-            <Route path="/post-study" element={<PostStudyPage />} />
+            <Route path="/phase3" element={<Phase3Page />} />
             <Route path="/thank-you" element={<ThankYouPage />} />
             <Route path="/admin" element={<AdminPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />

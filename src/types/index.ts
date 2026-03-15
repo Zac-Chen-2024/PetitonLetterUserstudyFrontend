@@ -2,13 +2,13 @@
 export type StudyStep =
   | 'phase1'
   | 'phase2'
-  | 'post-study'
+  | 'phase3'
   | 'thank-you';
 
 export const STUDY_STEPS: StudyStep[] = [
   'phase1',
   'phase2',
-  'post-study',
+  'phase3',
   'thank-you',
 ];
 
@@ -50,18 +50,15 @@ export interface SurveyResponse {
   [questionId: string]: string | number;
 }
 
-export interface TaskResult {
-  taskId: string;
-  condition: string;
+export interface Phase2Result {
   duration: number;            // seconds
   completed: boolean;
-  postTaskSurvey: SurveyResponse;
+  likertSurvey: SurveyResponse;
 }
 
 // ── Counterbalance ──
 export interface CounterbalanceConfig {
   phase1ColumnOrder: number[];    // e.g. [2, 0, 1] means source[2] goes to column A
-  phase2ConditionOrder: string[];
   seed: number;
 }
 
@@ -75,10 +72,8 @@ export interface StudyRecord {
   phase1: {
     materialSets: MaterialSetResult[];
   };
-  phase2: {
-    tasks: TaskResult[];
-  };
-  postStudy: SurveyResponse;
+  phase2: Phase2Result | null;
+  phase3: SurveyResponse;
   totalDuration: number;
 }
 

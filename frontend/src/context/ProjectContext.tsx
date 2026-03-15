@@ -12,7 +12,7 @@ import { legalStandards as defaultEB1AStandards } from '../data/legalStandards';
 
 const STORAGE_KEY_LLM_PROVIDER = 'evidence-system-llm-provider';
 const STORAGE_KEY_PROJECT_ID = 'evidence-system-project-id';
-const DEFAULT_PROJECT_ID = 'yaruo_qu';
+const DEFAULT_PROJECT_ID = 'dehuan_liu';
 
 export interface ProjectContextType {
   projectId: string;
@@ -34,7 +34,9 @@ const ProjectContext = createContext<ProjectContextType | undefined>(undefined);
 
 export function ProjectProvider({ children }: { children: ReactNode }) {
   const [projectId, setProjectIdState] = useState<string>(() => {
-    return localStorage.getItem(STORAGE_KEY_PROJECT_ID) || DEFAULT_PROJECT_ID;
+    // Userstudy: always use dehuan_liu, ignore cached value
+    localStorage.setItem(STORAGE_KEY_PROJECT_ID, DEFAULT_PROJECT_ID);
+    return DEFAULT_PROJECT_ID;
   });
 
   const setProjectId = useCallback((id: string) => {

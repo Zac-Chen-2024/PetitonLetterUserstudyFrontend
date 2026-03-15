@@ -15,11 +15,11 @@ export default function DimensionRating({ dimension, value, onChange }: Dimensio
   const showDesc = desc && desc !== 'TBD' && desc !== '待定';
 
   return (
-    <div>
-      <div className="flex items-baseline gap-2 mb-1">
-        <span className="text-xs font-medium text-slate-700">{name}</span>
+    <div className="bg-white rounded-md p-3 border border-slate-100 shadow-sm">
+      <div className="flex items-baseline gap-2 mb-0.5">
+        <span className="text-xs font-semibold text-slate-700">{name}</span>
         {showDesc && (
-          <span className="text-[10px] text-slate-400">{desc}</span>
+          <span className="text-[10px] text-slate-400 leading-tight">{desc}</span>
         )}
       </div>
       <ScoreSlider value={value} onChange={onChange} min={dimension.min} max={dimension.max} />

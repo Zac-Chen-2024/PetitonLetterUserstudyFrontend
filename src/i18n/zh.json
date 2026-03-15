@@ -105,17 +105,7 @@
     "loading": "正在加载系统..."
   },
   "postTask": {
-    "title": "任务后问卷",
-    "mentalDemand": "脑力需求",
-    "mentalDemandDesc": "这项任务对脑力的要求有多高？",
-    "effort": "努力程度",
-    "effortDesc": "您为达到当前表现水平付出了多大努力？",
-    "frustration": "挫败感",
-    "frustrationDesc": "您感到多大程度的不安、沮丧、烦躁、压力或恼怒？",
-    "satisfaction": "满意度",
-    "satisfactionDesc": "您对自己产出的结果有多满意？",
-    "low": "非常低",
-    "high": "非常高"
+    "title": "任务后问卷"
   },
   "postStudy": {
     "title": "研究后问卷",

@@ -105,17 +105,7 @@
     "loading": "Loading system..."
   },
   "postTask": {
-    "title": "Post-Task Questionnaire",
-    "mentalDemand": "Mental Demand",
-    "mentalDemandDesc": "How mentally demanding was the task?",
-    "effort": "Effort",
-    "effortDesc": "How hard did you have to work to accomplish your level of performance?",
-    "frustration": "Frustration",
-    "frustrationDesc": "How insecure, discouraged, irritated, stressed, or annoyed were you?",
-    "satisfaction": "Satisfaction",
-    "satisfactionDesc": "How satisfied are you with the result you produced?",
-    "low": "Very Low",
-    "high": "Very High"
+    "title": "Post-Task Questionnaire"
   },
   "postStudy": {
     "title": "Post-Study Questionnaire",

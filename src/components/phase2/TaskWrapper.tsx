@@ -92,16 +92,6 @@ export default function TaskWrapper({ systemUrl, onComplete }: TaskWrapperProps)
         />
       </div>
 
-      {!loadError && !loading && (
-        <div className="h-12 border-t border-slate-200 bg-white flex items-center justify-center px-4">
-          <button
-            onClick={onComplete}
-            className="px-4 py-1.5 rounded-lg text-xs font-medium bg-emerald-500 text-white hover:bg-emerald-600 transition-colors"
-          >
-            {t('phase2.completeTask')}
-          </button>
-        </div>
-      )}
     </div>
   );
 }

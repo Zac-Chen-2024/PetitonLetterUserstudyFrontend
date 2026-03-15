@@ -1,55 +1,208 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import type { SurveyResponse } from '../../types/index.ts';
-import ScoreSlider from '../phase1/ScoreSlider.tsx';
 
 interface PostTaskSurveyProps {
   onSubmit: (responses: SurveyResponse) => void;
 }
 
 const QUESTIONS = [
-  { id: 'mentalDemand', labelKey: 'postTask.mentalDemand', descKey: 'postTask.mentalDemandDesc' },
-  { id: 'effort', labelKey: 'postTask.effort', descKey: 'postTask.effortDesc' },
-  { id: 'frustration', labelKey: 'postTask.frustration', descKey: 'postTask.frustrationDesc' },
-  { id: 'satisfaction', labelKey: 'postTask.satisfaction', descKey: 'postTask.satisfactionDesc' },
+  {
+    id: 'sourceTraceability',
+    label: 'Source Traceability',
+    desc: 'I felt like I could trace each claim in the generated text back to a specific source document and page number.',
+  },
+  {
+    id: 'citationAccuracy',
+    label: 'Citation Accuracy',
+    desc: 'I felt confident that the exhibit citations (e.g., [Exhibit C2, p.2]) in the generated text accurately pointed to the correct source location.',
+  },
+  {
+    id: 'factualGrounding',
+    label: 'Factual Grounding',
+    desc: 'I felt confident that the generated text only contained facts from the provided source materials, without hallucinated or fabricated information.',
+  },
+  {
+    id: 'argumentOrganization',
+    label: 'Argument Organization',
+    desc: 'I felt like the tool helped me organize evidence into a coherent legal argument structure.',
+  },
+  {
+    id: 'legalReasoningQuality',
+    label: 'Legal Reasoning Quality',
+    desc: 'I felt like the generated text demonstrated sound legal reasoning — not just summarizing facts, but arguing why evidence satisfies the regulatory standard.',
+  },
+  {
+    id: 'processTransparency',
+    label: 'Process Transparency',
+    desc: 'I felt like I understood what the tool was doing at each stage of the writing process and could anticipate what the output would look like.',
+  },
+  {
+    id: 'efficiency',
+    label: 'Efficiency',
+    desc: 'I felt like using this tool saved me significant time compared to writing the same section from scratch.',
+  },
+  {
+    id: 'trust',
+    label: 'Trust',
+    desc: 'I would trust the generated text enough to include it in an actual petition filing after a brief review.',
+  },
+  {
+    id: 'learnability',
+    label: 'Learnability',
+    desc: 'I felt like I could quickly understand how to use the system\'s features without extensive training.',
+  },
 ] as const;
+
+const SCALE_LABELS = [
+  'Strongly Disagree',
+  'Disagree',
+  'Somewhat Disagree',
+  'Neutral',
+  'Somewhat Agree',
+  'Agree',
+  'Strongly Agree',
+];
+
+// Idle: all neutral gray outline, no color
+const IDLE_COLORS = [
+  'border-slate-300 hover:border-slate-400',
+  'border-slate-300 hover:border-slate-400',
+  'border-slate-300 hover:border-slate-400',
+  'border-slate-300 hover:border-slate-400',
+  'border-slate-300 hover:border-slate-400',
+  'border-slate-300 hover:border-slate-400',
+  'border-slate-300 hover:border-slate-400',
+];
+
+const SELECTED_COLORS = [
+  'bg-red-600 border-red-600 text-white shadow-lg',
+  'bg-red-500 border-red-500 text-white shadow-lg',
+  'bg-red-400 border-red-400 text-white shadow-lg',
+  'bg-slate-500 border-slate-500 text-white shadow-lg',
+  'bg-green-400 border-green-400 text-white shadow-lg',
+  'bg-green-500 border-green-500 text-white shadow-lg',
+  'bg-green-600 border-green-600 text-white shadow-lg',
+];
 
 export default function PostTaskSurvey({ onSubmit }: PostTaskSurveyProps) {
   const { t } = useTranslation();
-  const [responses, setResponses] = useState<SurveyResponse>(
-    Object.fromEntries(QUESTIONS.map(q => [q.id, 50]))
-  );
+  const [responses, setResponses] = useState<SurveyResponse>({});
+
+  const allAnswered = QUESTIONS.every(q => responses[q.id] !== undefined);
+
+  const handleSelect = (questionId: string, value: number) => {
+    setResponses(prev => ({ ...prev, [questionId]: value }));
+  };
 
   return (
-    <div className="max-w-2xl mx-auto px-6 py-8">
-      <h2 className="text-xl font-semibold text-slate-800 mb-1">{t('postTask.title')}</h2>
-      <p className="text-sm text-slate-500 mb-6">{t('phase2.taskComplete')}</p>
+    <div className="w-full px-16 py-10 overflow-y-auto h-full">
+      {/* Header */}
+      <div className="mb-10">
+        <h2 className="text-[36px] font-bold text-slate-900 mb-3">{t('postTask.title')}</h2>
+        <p className="text-[22px] text-slate-500">
+          Please rate your agreement with each statement on a 7-point scale.
+        </p>
+      </div>
 
-      <div className="bg-white rounded-xl border border-slate-200 shadow-sm p-6 space-y-6">
-        {QUESTIONS.map(q => (
-          <div key={q.id}>
-            <div className="mb-2">
-              <span className="text-sm font-medium text-slate-700">{t(q.labelKey)}</span>
-              <p className="text-xs text-slate-400">{t(q.descKey)}</p>
+      {/* Scale legend bar */}
+      <div className="rounded-xl border border-slate-200 bg-gradient-to-r from-red-50 via-slate-50 to-green-50 px-8 py-5 mb-8 flex items-center justify-between">
+        <span className="text-[18px] font-semibold text-red-500">1 = Strongly Disagree</span>
+        <div className="flex gap-8">
+          {SCALE_LABELS.map((label, i) => (
+            <div key={i} className="flex flex-col items-center gap-1">
+              <span className="text-[17px] font-bold text-slate-700">{i + 1}</span>
+              <span className="text-[13px] text-slate-400 leading-tight text-center w-16">{label}</span>
             </div>
-            <div className="flex items-center gap-3">
-              <span className="text-xs text-slate-400 w-14 text-right shrink-0">{t('postTask.low')}</span>
-              <div className="flex-1">
-                <ScoreSlider
-                  value={responses[q.id] as number}
-                  onChange={(v) => setResponses(prev => ({ ...prev, [q.id]: v }))}
-                />
+          ))}
+        </div>
+        <span className="text-[18px] font-semibold text-green-600">7 = Strongly Agree</span>
+      </div>
+
+      {/* Questions */}
+      <div className="space-y-6">
+        {QUESTIONS.map((q, qIdx) => {
+          const selected = responses[q.id] as number | undefined;
+          return (
+            <div
+              key={q.id}
+              className={`rounded-2xl border-2 shadow-sm p-8 transition-all duration-300 ${
+                selected !== undefined
+                  ? 'border-blue-300 bg-blue-50/40'
+                  : 'border-slate-200 bg-white'
+              }`}
+            >
+              {/* Question text */}
+              <div className="flex gap-5 mb-7">
+                <div className="w-12 h-12 rounded-full bg-slate-800 text-white flex items-center justify-center text-[22px] font-bold shrink-0">
+                  {qIdx + 1}
+                </div>
+                <div className="pt-1">
+                  <h3 className="text-[24px] font-bold text-slate-900">{q.label}</h3>
+                  <p className="text-[19px] text-slate-500 mt-2 leading-relaxed">{q.desc}</p>
+                </div>
               </div>
-              <span className="text-xs text-slate-400 w-14 shrink-0">{t('postTask.high')}</span>
-            </div>
-          </div>
-        ))}
 
+              {/* 7-point Likert scale */}
+              <div className="flex items-center px-6">
+                <span className="text-[18px] font-medium text-slate-500 w-32 text-right pr-6 shrink-0 leading-snug">
+                  Strongly<br />Disagree
+                </span>
+
+                <div className="flex items-center gap-5 flex-1 justify-center">
+                  {SCALE_LABELS.map((label, i) => {
+                    const value = i + 1;
+                    const isSelected = selected === value;
+                    const distance = Math.abs(i - 3);
+                    const sizes = ['w-12 h-12', 'w-[52px] h-[52px]', 'w-14 h-14', 'w-16 h-16'];
+                    const sizeClass = sizes[distance];
+
+                    return (
+                      <button
+                        key={value}
+                        onClick={() => handleSelect(q.id, value)}
+                        title={label}
+                        className={`
+                          ${sizeClass} rounded-full border-[3px] transition-all duration-200
+                          flex items-center justify-center text-[19px] font-bold cursor-pointer
+                          ${isSelected
+                            ? `${SELECTED_COLORS[i]} scale-110`
+                            : `${IDLE_COLORS[i]} text-slate-400`
+                          }
+                        `}
+                      >
+                        {value}
+                      </button>
+                    );
+                  })}
+                </div>
+
+                <span className="text-[18px] font-medium text-slate-500 w-32 pl-6 shrink-0 leading-snug">
+                  Strongly<br />Agree
+                </span>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      {/* Submit */}
+      <div className="mt-10 pb-10">
         <button
           onClick={() => onSubmit(responses)}
-          className="w-full py-2.5 rounded-lg text-sm font-medium bg-blue-500 text-white hover:bg-blue-600 transition-colors"
+          disabled={!allAnswered}
+          className={`
+            w-full py-5 rounded-2xl text-[22px] font-bold transition-all duration-300
+            ${allAnswered
+              ? 'bg-slate-800 text-white hover:bg-slate-900 shadow-lg'
+              : 'bg-slate-200 text-slate-400 cursor-not-allowed'
+            }
+          `}
         >
-          {t('common.submit')}
+          {allAnswered
+            ? t('common.submit')
+            : `Please answer all questions (${Object.keys(responses).length}/${QUESTIONS.length})`
+          }
         </button>
       </div>
     </div>

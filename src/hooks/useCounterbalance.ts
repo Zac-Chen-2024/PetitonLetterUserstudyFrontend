@@ -11,11 +11,6 @@ const PERMUTATIONS: number[][] = [
   [2, 1, 0],
 ];
 
-const PHASE2_CONDITIONS = [
-  ['conditionA', 'conditionB'],
-  ['conditionB', 'conditionA'],
-];
-
 /**
  * Deterministic counterbalance based on participant ID.
  * Hashes the ID string to a numeric seed, then selects permutations.
@@ -34,11 +29,9 @@ export function useCounterbalance(participantId: string): CounterbalanceConfig {
   return useMemo(() => {
     const seed = hashString(participantId);
     const phase1Index = seed % PERMUTATIONS.length;
-    const phase2Index = seed % PHASE2_CONDITIONS.length;
 
     return {
       phase1ColumnOrder: PERMUTATIONS[phase1Index],
-      phase2ConditionOrder: PHASE2_CONDITIONS[phase2Index],
       seed,
     };
   }, [participantId]);
