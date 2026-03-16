@@ -289,15 +289,26 @@ function PDFViewer({
       return;
     }
     if (selectedSnippetId === lastScrolledSnippetId.current) return;
-    lastScrolledSnippetId.current = selectedSnippetId;
 
     if (scrollToSnippet(selectedSnippetId)) {
+      lastScrolledSnippetId.current = selectedSnippetId;
       pendingScrollSnippetId.current = null;
     } else {
-      // PDF not loaded yet — queue scroll for after load
+      // PDF not loaded yet — wait for load, then scroll
       pendingScrollSnippetId.current = selectedSnippetId;
     }
   }, [selectedSnippetId, snippets]);
+
+  // When PDF finishes loading and there's a pending scroll, execute it
+  useEffect(() => {
+    if (!isLoading && pendingScrollSnippetId.current) {
+      const pending = pendingScrollSnippetId.current;
+      if (scrollToSnippet(pending)) {
+        lastScrolledSnippetId.current = pending;
+        pendingScrollSnippetId.current = null;
+      }
+    }
+  }, [isLoading, numPages]);
 
   // Filter snippets for this exhibit (case-insensitive)
   const exhibitIdLower = exhibitId.toLowerCase();
@@ -321,22 +332,6 @@ function PDFViewer({
     setNumPages(numPages);
     setIsLoading(false);
     setPdfError(null);
-
-    // Execute pending scroll after PDF pages render — retry until success
-    if (pendingScrollSnippetId.current) {
-      const pending = pendingScrollSnippetId.current;
-      let attempts = 0;
-      const tryScroll = () => {
-        if (pendingScrollSnippetId.current !== pending) return;
-        if (scrollToSnippet(pending)) {
-          pendingScrollSnippetId.current = null;
-        } else if (attempts < 10) {
-          attempts++;
-          setTimeout(tryScroll, 300);
-        }
-      };
-      setTimeout(tryScroll, 500);
-    }
   };
 
   const onDocumentLoadError = (error: Error) => {
