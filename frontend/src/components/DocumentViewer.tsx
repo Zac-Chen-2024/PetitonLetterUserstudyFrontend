@@ -220,8 +220,12 @@ function PDFViewer({
   const [isLoading, setIsLoading] = useState(true);
   const [containerWidth, setContainerWidth] = useState<number>(0);
 
+  // Ref to synchronously track PDF readiness (immune to React batching)
+  const pdfReadyRef = useRef(true);
+
   // Reset loading state when PDF URL changes (switching documents)
   useEffect(() => {
+    pdfReadyRef.current = false; // synchronous — visible to other effects in same batch
     setIsLoading(true);
     setNumPages(0);
   }, [pdfUrl]);
@@ -257,9 +261,8 @@ function PDFViewer({
     };
   }, []);
 
-  // Auto-scroll to center snippet's bounding box — only on first selection
+  // Auto-scroll to center snippet's bounding box
   const lastScrolledSnippetId = useRef<string | null>(null);
-  const pendingScrollSnippetId = useRef<string | null>(null);
 
   const scrollToSnippet = (snippetId: string) => {
     if (!containerRef.current) return false;
@@ -270,7 +273,7 @@ function PDFViewer({
     const targetPage = snippet.boundingBox.page;
     const pageElement = container.querySelector(`[data-page="${targetPage}"]`) as HTMLElement;
 
-    if (!pageElement) return false; // PDF not rendered yet
+    if (!pageElement) return false;
 
     const containerRect = container.getBoundingClientRect();
     const pageRect = pageElement.getBoundingClientRect();
@@ -288,33 +291,21 @@ function PDFViewer({
     return true;
   };
 
+  // Single unified scroll effect — uses pdfReadyRef to avoid race conditions
   useEffect(() => {
     if (!selectedSnippetId) {
       lastScrolledSnippetId.current = null;
-      pendingScrollSnippetId.current = null;
       return;
     }
     if (selectedSnippetId === lastScrolledSnippetId.current) return;
 
+    // PDF is switching — don't scroll yet, this effect will re-run when isLoading/numPages change
+    if (!pdfReadyRef.current) return;
+
     if (scrollToSnippet(selectedSnippetId)) {
       lastScrolledSnippetId.current = selectedSnippetId;
-      pendingScrollSnippetId.current = null;
-    } else {
-      // PDF not loaded yet — wait for load, then scroll
-      pendingScrollSnippetId.current = selectedSnippetId;
     }
-  }, [selectedSnippetId, snippets]);
-
-  // When PDF finishes loading and there's a pending scroll, execute it
-  useEffect(() => {
-    if (!isLoading && pendingScrollSnippetId.current) {
-      const pending = pendingScrollSnippetId.current;
-      if (scrollToSnippet(pending)) {
-        lastScrolledSnippetId.current = pending;
-        pendingScrollSnippetId.current = null;
-      }
-    }
-  }, [isLoading, numPages]);
+  }, [selectedSnippetId, snippets, isLoading, numPages]);
 
   // Filter snippets for this exhibit (case-insensitive)
   const exhibitIdLower = exhibitId.toLowerCase();
@@ -335,6 +326,7 @@ function PDFViewer({
   const fullPdfUrl = `${BACKEND_URL}${pdfUrl}`;
 
   const onDocumentLoadSuccess = ({ numPages }: { numPages: number }) => {
+    pdfReadyRef.current = true; // synchronous — scroll effect can now proceed
     setNumPages(numPages);
     setIsLoading(false);
     setPdfError(null);
