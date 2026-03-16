@@ -14,6 +14,11 @@
   box-sizing: border-box;
 }
 
+button, label, a, [role="button"], .select-none {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
 body {
   margin: 0;
   min-width: 320px;
