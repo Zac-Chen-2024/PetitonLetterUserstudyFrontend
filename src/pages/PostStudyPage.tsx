@@ -20,7 +20,7 @@ export default function PostStudyPage() {
   };
 
   const handleSubmit = () => {
-    dispatch({ type: 'SET_POST_STUDY', data: responses });
+    dispatch({ type: 'SET_PHASE3_SURVEY', data: responses });
     dispatch({ type: 'SET_STEP', step: 'thank-you' });
     navigate('/thank-you');
   };
