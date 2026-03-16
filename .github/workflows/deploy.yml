@@ -1,0 +1,60 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Build root app (user study)
+      - name: Install root dependencies
+        run: npm ci
+
+      - name: Build root app
+        run: npm run build
+
+      # Build frontend app (petition system)
+      - name: Install frontend dependencies
+        working-directory: frontend
+        run: npm ci
+
+      - name: Build frontend app
+        working-directory: frontend
+        run: npm run build
+
+      # Merge builds: root dist + frontend dist as /app/
+      - name: Merge builds
+        run: cp -r frontend/dist dist/app
+
+      # SPA fallback: copy index.html to 404.html for client-side routing
+      - name: SPA fallback
+        run: |
+          cp dist/index.html dist/404.html
+          cp dist/app/index.html dist/app/404.html
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
