@@ -1,0 +1,224 @@
+{
+  "version_id": "20260315_100000",
+  "timestamp": "2026-03-15T10:00:00+00:00",
+  "success": true,
+  "section": "scholarly_articles",
+  "paragraph_text": "The Beneficiary satisfies 8 C.F.R. §204.5(h)(3)(vi) by demonstrating authorship of scholarly articles in professional publications. The Beneficiary co-authored the scholarly article \"Online shopping among Chinese consumers: an exploratory investigation of demographics and value orientation,\" published in the International Journal of Consumer Studies. The author listing confirms the Beneficiary as a co-author alongside \"Lingfei Wu, Yi Cai, Dehuan Liu.\" [Exhibit D1, p.2] The article was \"First published: 27 January 2011\" with a DOI registered through Wiley, one of the world's largest academic publishers with over eight million articles across 1,600 journals. [Exhibit D1, p.2] The study \"was based on responses from a sample of 1620 respondents in five cities in China\" and employed logistic regression analysis and structural equation modelling to investigate the relationship between personal value orientations and online shopping behaviour. [Exhibit D1, p.3] The International Journal of Consumer Studies \"provides an international forum for academic and research papers with a focus on how consumers can enhance their security and well being\" and publishes \"articles of interest to an international audience and at the leading edge of consumer research throughout the world.\" [Exhibit D2, p.3] Dr. Lingfei Wu, Assistant Professor at the School of Computing and Information at the University of Pittsburgh, whose \"research has been published in prestigious journals, including Nature and PNAS,\" confirmed the article's exceptional citation impact. [Exhibit D3, p.3] Dr. Wu stated that \"this paper has been cited 59 times to date, placing it in the top 10% of papers published in this journal over the past fifteen years\" and that \"[t]hese citations come from various fields, such as market research, information science, economics, and others.\" [Exhibit D3, p.2] The Beneficiary further authored the article \"Children Born in July and August: A study on the age regulation of primary school admission and student's education access and development,\" published in Sociological Studies in 2015. [Exhibit D4, p.2] The article was co-authored with Xuelian Li, with the Beneficiary listed as first author: \"Author: Dehuan Liu, Xuelian Li.\" [Exhibit D4, p.2] The printed journal page confirms the article's publication in Sociological Studies, listing the authors as \"Liu, Dehuan Li, Xuelian\" with keywords including \"Educational equity; adolescent relative age effect; adjustment crisis.\" [Exhibit D5, p.2] The article's abstract reveals that \"students born in July and August show the lowest possibility of getting into the key senior middle schools, which is 16.7% - 22.8% lower than the rest of the student population, while their possibility to get into vocational school is the highest, 54.2% - 60.8% higher than the others.\" [Exhibit D4, p.2] This research was conducted as part of the \"National Social Science Foundation's key project 'Research on the influence and guidance of online games on adolescent development', subject number 11AZD112\" and \"was funded by the National Social Science Foundation.\" [Exhibit D4, p.3] Sociological Studies \"is a first-level professional academic journal sponsored by the Institute of Sociology, Chinese Academy of Social Sciences\" that \"has been ranked first in the subject rankings by four journal evaluation institutions, including the Chinese Academy of Social Sciences, Nanjing University, Peking University, and Wuhan University, and is hailed as an 'authoritative journal.'\" [Exhibit D6, p.2] The article has attracted 4,896 readers on the journal website, and Professor Liping Sun of Tsinghua University confirmed that the article \"attracted intensive attraction from the academic circle, society and government\" and that \"Professor Xie Yu from Princeton University and many other scholars were inspired by the article and further analyzed educational equality.\" [Exhibit G12, p.3] The Beneficiary also authored the article \"New Rules of Advertising Communication: From AIDMA, AISAS to ISMAS,\" published in Advertising Panorama. [Exhibit D7, p.2] The author listing confirms the Beneficiary as first author: \"Author: Dehuan Liu, Siluo Chen.\" [Exhibit D7, p.2] The article appeared in \"Advertising Panorama: General Edition, Issue No. 4, 2013, Pages 96-98\" and is classified under Economics Management - Advertising (F713.8). [Exhibit D7, p.2] In the article, the Beneficiary described the ISMAS model as representing a fundamental paradigm shift, writing that \"the core of the consumer market has completely changed, and the marketing model is undergoing a Copernican-style revolution.\" [Exhibit D8, p.2] The article's citation network demonstrates substantial scholarly impact, with 44 works in its cited literature, 144 second-level cited works, and 271 co-cited works. [Exhibit D7, p.2] Advertising Panorama is \"a professional journal of advertising, marketing and communication approved by the General Administration of Press and Publication of the People's Republic of China\" and is \"the only professional journal of advertising marketing and communication in China published in ten-day periodicals.\" [Exhibit D9, p.3] Therefore, the Beneficiary's authorship of these highly recognized scholarly articles, their publication in professional journals of international and national standing, and their broad influence and citations across multiple fields all serve to demonstrate that he meets the requirements of 8 C.F.R. §204.5(h)(3)(vi), establishing that he possesses extraordinary ability and is one of the small percentage who have risen to the very top of the field of communication and market research.",
+  "sentences": [
+    {
+      "text": "The Beneficiary satisfies 8 C.F.R. §204.5(h)(3)(vi) by demonstrating authorship of scholarly articles in professional publications.",
+      "snippet_ids": [],
+      "subargument_id": null,
+      "argument_id": "arg-003",
+      "exhibit_refs": [],
+      "sentence_type": "opening"
+    },
+    {
+      "text": "The Beneficiary co-authored the scholarly article \"Online shopping among Chinese consumers: an exploratory investigation of demographics and value orientation,\" published in the International Journal of Consumer Studies.",
+      "snippet_ids": ["snp_D1_a1b2c3d4"],
+      "subargument_id": "subarg-012",
+      "argument_id": "arg-003",
+      "exhibit_refs": ["D1-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The author listing confirms the Beneficiary as a co-author alongside \"Lingfei Wu, Yi Cai, Dehuan Liu.\" [Exhibit D1, p.2]",
+      "snippet_ids": ["snp_D1_e5f6a7b8"],
+      "subargument_id": "subarg-012",
+      "argument_id": "arg-003",
+      "exhibit_refs": ["D1-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The article was \"First published: 27 January 2011\" with a DOI registered through Wiley, one of the world's largest academic publishers with over eight million articles across 1,600 journals. [Exhibit D1, p.2]",
+      "snippet_ids": ["snp_D1_c9d0e1f2"],
+      "subargument_id": "subarg-012",
+      "argument_id": "arg-003",
+      "exhibit_refs": ["D1-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The study \"was based on responses from a sample of 1620 respondents in five cities in China\" and employed logistic regression analysis and structural equation modelling to investigate the relationship between personal value orientations and online shopping behaviour. [Exhibit D1, p.3]",
+      "snippet_ids": ["snp_D1_a3b4c5d6"],
+      "subargument_id": "subarg-012",
+      "argument_id": "arg-003",
+      "exhibit_refs": ["D1-3"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The International Journal of Consumer Studies \"provides an international forum for academic and research papers with a focus on how consumers can enhance their security and well being\" and publishes \"articles of interest to an international audience and at the leading edge of consumer research throughout the world.\" [Exhibit D2, p.3]",
+      "snippet_ids": ["snp_D2_e5f6a7b8"],
+      "subargument_id": "subarg-012",
+      "argument_id": "arg-003",
+      "exhibit_refs": ["D2-3"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "Dr. Lingfei Wu, Assistant Professor at the School of Computing and Information at the University of Pittsburgh, whose \"research has been published in prestigious journals, including Nature and PNAS,\" confirmed the article's exceptional citation impact. [Exhibit D3, p.3]",
+      "snippet_ids": ["snp_D3_e7f8a9b0"],
+      "subargument_id": "subarg-012",
+      "argument_id": "arg-003",
+      "exhibit_refs": ["D3-3"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "Dr. Wu stated that \"this paper has been cited 59 times to date, placing it in the top 10% of papers published in this journal over the past fifteen years\" and that \"[t]hese citations come from various fields, such as market research, information science, economics, and others.\" [Exhibit D3, p.2]",
+      "snippet_ids": ["snp_D3_e5f6a7b8", "snp_D3_a1b2c3d4"],
+      "subargument_id": "subarg-012",
+      "argument_id": "arg-003",
+      "exhibit_refs": ["D3-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The Beneficiary further authored the article \"Children Born in July and August: A study on the age regulation of primary school admission and student's education access and development,\" published in Sociological Studies in 2015. [Exhibit D4, p.2]",
+      "snippet_ids": ["snp_D4_a1b2c3d4"],
+      "subargument_id": "subarg-013",
+      "argument_id": "arg-003",
+      "exhibit_refs": ["D4-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The article was co-authored with Xuelian Li, with the Beneficiary listed as first author: \"Author: Dehuan Liu, Xuelian Li.\" [Exhibit D4, p.2]",
+      "snippet_ids": ["snp_D4_c9d0e1f2"],
+      "subargument_id": "subarg-013",
+      "argument_id": "arg-003",
+      "exhibit_refs": ["D4-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The printed journal page confirms the article's publication in Sociological Studies, listing the authors as \"Liu, Dehuan Li, Xuelian\" with keywords including \"Educational equity; adolescent relative age effect; adjustment crisis.\" [Exhibit D5, p.2]",
+      "snippet_ids": ["snp_D5_a1b2c3d4", "snp_D5_c9d0e1f2"],
+      "subargument_id": "subarg-013",
+      "argument_id": "arg-003",
+      "exhibit_refs": ["D5-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The article's abstract reveals that \"students born in July and August show the lowest possibility of getting into the key senior middle schools, which is 16.7% - 22.8% lower than the rest of the student population, while their possibility to get into vocational school is the highest, 54.2% - 60.8% higher than the others.\" [Exhibit D4, p.2]",
+      "snippet_ids": ["snp_D4_e5f6a7b8"],
+      "subargument_id": "subarg-013",
+      "argument_id": "arg-003",
+      "exhibit_refs": ["D4-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "This research was conducted as part of the \"National Social Science Foundation's key project 'Research on the influence and guidance of online games on adolescent development', subject number 11AZD112\" and \"was funded by the National Social Science Foundation.\" [Exhibit D4, p.3]",
+      "snippet_ids": ["snp_D4_e7f8a9b0"],
+      "subargument_id": "subarg-013",
+      "argument_id": "arg-003",
+      "exhibit_refs": ["D4-3"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "Sociological Studies \"is a first-level professional academic journal sponsored by the Institute of Sociology, Chinese Academy of Social Sciences\" that \"has been ranked first in the subject rankings by four journal evaluation institutions, including the Chinese Academy of Social Sciences, Nanjing University, Peking University, and Wuhan University, and is hailed as an 'authoritative journal.'\" [Exhibit D6, p.2]",
+      "snippet_ids": ["snp_D6_a1b2c3d4"],
+      "subargument_id": "subarg-013",
+      "argument_id": "arg-003",
+      "exhibit_refs": ["D6-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The article has attracted 4,896 readers on the journal website, and Professor Liping Sun of Tsinghua University confirmed that the article \"attracted intensive attraction from the academic circle, society and government\" and that \"Professor Xie Yu from Princeton University and many other scholars were inspired by the article and further analyzed educational equality.\" [Exhibit G12, p.3]",
+      "snippet_ids": ["snp_G12_c9d0e1f2"],
+      "subargument_id": "subarg-013",
+      "argument_id": "arg-003",
+      "exhibit_refs": ["G12-3"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The Beneficiary also authored the article \"New Rules of Advertising Communication: From AIDMA, AISAS to ISMAS,\" published in Advertising Panorama. [Exhibit D7, p.2]",
+      "snippet_ids": ["snp_D7_a1b2c3d4"],
+      "subargument_id": "subarg-014",
+      "argument_id": "arg-003",
+      "exhibit_refs": ["D7-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The author listing confirms the Beneficiary as first author: \"Author: Dehuan Liu, Siluo Chen.\" [Exhibit D7, p.2]",
+      "snippet_ids": ["snp_D7_e5f6a7b8"],
+      "subargument_id": "subarg-014",
+      "argument_id": "arg-003",
+      "exhibit_refs": ["D7-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The article appeared in \"Advertising Panorama: General Edition, Issue No. 4, 2013, Pages 96-98\" and is classified under Economics Management - Advertising (F713.8). [Exhibit D7, p.2]",
+      "snippet_ids": ["snp_D7_c9d0e1f2"],
+      "subargument_id": "subarg-014",
+      "argument_id": "arg-003",
+      "exhibit_refs": ["D7-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "In the article, the Beneficiary described the ISMAS model as representing a fundamental paradigm shift, writing that \"the core of the consumer market has completely changed, and the marketing model is undergoing a Copernican-style revolution.\" [Exhibit D8, p.2]",
+      "snippet_ids": ["snp_D8_c9d0e1f2"],
+      "subargument_id": "subarg-014",
+      "argument_id": "arg-003",
+      "exhibit_refs": ["D8-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The article's citation network demonstrates substantial scholarly impact, with 44 works in its cited literature, 144 second-level cited works, and 271 co-cited works. [Exhibit D7, p.2]",
+      "snippet_ids": ["snp_D7_a3b4c5d6"],
+      "subargument_id": "subarg-014",
+      "argument_id": "arg-003",
+      "exhibit_refs": ["D7-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "Advertising Panorama is \"a professional journal of advertising, marketing and communication approved by the General Administration of Press and Publication of the People's Republic of China\" and is \"the only professional journal of advertising marketing and communication in China published in ten-day periodicals.\" [Exhibit D9, p.3]",
+      "snippet_ids": ["snp_D9_f5a6b7c8"],
+      "subargument_id": "subarg-014",
+      "argument_id": "arg-003",
+      "exhibit_refs": ["D9-3"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "Therefore, the Beneficiary's authorship of these highly recognized scholarly articles, their publication in professional journals of international and national standing, and their broad influence and citations across multiple fields all serve to demonstrate that he meets the requirements of 8 C.F.R. §204.5(h)(3)(vi), establishing that he possesses extraordinary ability and is one of the small percentage who have risen to the very top of the field of communication and market research.",
+      "snippet_ids": [],
+      "subargument_id": null,
+      "argument_id": "arg-003",
+      "exhibit_refs": [],
+      "sentence_type": "closing"
+    }
+  ],
+  "provenance_index": {
+    "by_subargument": {
+      "subarg-012": [1, 2, 3, 4, 5, 6, 7],
+      "subarg-013": [8, 9, 10, 11, 12, 13, 14],
+      "subarg-014": [15, 16, 17, 18, 19, 20]
+    },
+    "by_argument": {
+      "arg-003": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    },
+    "by_snippet": {
+      "snp_D1_a1b2c3d4": [1],
+      "snp_D1_e5f6a7b8": [2],
+      "snp_D1_c9d0e1f2": [3],
+      "snp_D1_a3b4c5d6": [4],
+      "snp_D2_e5f6a7b8": [5],
+      "snp_D3_e7f8a9b0": [6],
+      "snp_D3_e5f6a7b8": [7],
+      "snp_D3_a1b2c3d4": [7],
+      "snp_D4_a1b2c3d4": [8],
+      "snp_D4_c9d0e1f2": [9],
+      "snp_D5_a1b2c3d4": [10],
+      "snp_D5_c9d0e1f2": [10],
+      "snp_D4_e5f6a7b8": [11],
+      "snp_D4_e7f8a9b0": [12],
+      "snp_D6_a1b2c3d4": [13],
+      "snp_G12_c9d0e1f2": [14],
+      "snp_D7_a1b2c3d4": [15],
+      "snp_D7_e5f6a7b8": [16],
+      "snp_D7_c9d0e1f2": [17],
+      "snp_D8_c9d0e1f2": [18],
+      "snp_D7_a3b4c5d6": [19],
+      "snp_D9_f5a6b7c8": [20]
+    }
+  },
+  "validation": {
+    "total_sentences": 22,
+    "traced_sentences": 20,
+    "warnings": []
+  }
+}

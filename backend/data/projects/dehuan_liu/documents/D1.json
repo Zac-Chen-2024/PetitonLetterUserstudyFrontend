@@ -1,0 +1,1131 @@
+{
+  "exhibit_id": "D1",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit D-1",
+          "bbox": {
+            "x1": 115,
+            "y1": 455,
+            "x2": 870,
+            "y2": 550
+          },
+          "bbox_list": [
+            115,
+            455,
+            870,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit D-1"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Learn more.",
+          "bbox": {
+            "x1": 95,
+            "y1": 78,
+            "x2": 256,
+            "y2": 99
+          },
+          "bbox_list": [
+            95,
+            78,
+            256,
+            99
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Pass it on.",
+          "bbox": {
+            "x1": 99,
+            "y1": 100,
+            "x2": 250,
+            "y2": 124
+          },
+          "bbox_list": [
+            99,
+            100,
+            250,
+            124
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# International Journal of Consumer Studies",
+          "bbox": {
+            "x1": 80,
+            "y1": 180,
+            "x2": 650,
+            "y2": 216
+          },
+          "bbox_list": [
+            80,
+            180,
+            650,
+            216
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Online shopping among Chinese consumers: an exploratory investigation of demographics and value orientation",
+          "bbox": {
+            "x1": 50,
+            "y1": 261,
+            "x2": 884,
+            "y2": 315
+          },
+          "bbox_list": [
+            50,
+            261,
+            884,
+            315
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Lingfei Wu, Yi Cai, Dehuan Liu",
+          "bbox": {
+            "x1": 52,
+            "y1": 339,
+            "x2": 325,
+            "y2": 358
+          },
+          "bbox_list": [
+            52,
+            339,
+            325,
+            358
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "First published: 27 January 2011 https://doi.org/10.1111/j.1470- 6431.2010.00982. x Citations: 18",
+          "bbox": {
+            "x1": 50,
+            "y1": 370,
+            "x2": 468,
+            "y2": 429
+          },
+          "bbox_list": [
+            50,
+            370,
+            468,
+            429
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Get access to the full version of this article. View access options below.",
+          "bbox": {
+            "x1": 118,
+            "y1": 481,
+            "x2": 785,
+            "y2": 503
+          },
+          "bbox_list": [
+            118,
+            481,
+            785,
+            503
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Institutional Login",
+          "bbox": {
+            "x1": 72,
+            "y1": 543,
+            "x2": 299,
+            "y2": 566
+          },
+          "bbox_list": [
+            72,
+            543,
+            299,
+            566
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Access through your institution",
+          "bbox": {
+            "x1": 147,
+            "y1": 590,
+            "x2": 472,
+            "y2": 610
+          },
+          "bbox_list": [
+            147,
+            590,
+            472,
+            610
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Log in to Wiley Online Library",
+          "bbox": {
+            "x1": 73,
+            "y1": 650,
+            "x2": 437,
+            "y2": 675
+          },
+          "bbox_list": [
+            73,
+            650,
+            437,
+            675
+          ]
+        },
+        {
+          "block_id": "p2_b10",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "If you have previously obtained access with your personal account, please log in.",
+          "bbox": {
+            "x1": 73,
+            "y1": 685,
+            "x2": 682,
+            "y2": 704
+          },
+          "bbox_list": [
+            73,
+            685,
+            682,
+            704
+          ]
+        },
+        {
+          "block_id": "p2_b11",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Purchase Instant Access",
+          "bbox": {
+            "x1": 75,
+            "y1": 774,
+            "x2": 372,
+            "y2": 797
+          },
+          "bbox_list": [
+            75,
+            774,
+            372,
+            797
+          ]
+        },
+        {
+          "block_id": "p2_b12",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "48- Hour online access",
+          "bbox": {
+            "x1": 95,
+            "y1": 820,
+            "x2": 352,
+            "y2": 840
+          },
+          "bbox_list": [
+            95,
+            820,
+            352,
+            840
+          ]
+        },
+        {
+          "block_id": "p2_b13",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Details",
+          "bbox": {
+            "x1": 125,
+            "y1": 859,
+            "x2": 178,
+            "y2": 873
+          },
+          "bbox_list": [
+            125,
+            859,
+            178,
+            873
+          ]
+        },
+        {
+          "block_id": "p2_b14",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Online- only access",
+          "bbox": {
+            "x1": 95,
+            "y1": 901,
+            "x2": 321,
+            "y2": 921
+          },
+          "bbox_list": [
+            95,
+            901,
+            321,
+            921
+          ]
+        },
+        {
+          "block_id": "p2_b15",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\\(\\) 18.00\\$",
+          "bbox": {
+            "x1": 845,
+            "y1": 900,
+            "x2": 916,
+            "y2": 917
+          },
+          "bbox_list": [
+            845,
+            900,
+            916,
+            917
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nLearn more.  \n\nPass it on.  \n\n# International Journal of Consumer Studies  \n\nOnline shopping among Chinese consumers: an exploratory investigation of demographics and value orientation  \n\nLingfei Wu, Yi Cai, Dehuan Liu  \n\nFirst published: 27 January 2011 https://doi.org/10.1111/j.1470- 6431.2010.00982. x Citations: 18  \n\nGet access to the full version of this article. View access options below.  \n\n## Institutional Login  \n\nAccess through your institution  \n\n## Log in to Wiley Online Library  \n\nIf you have previously obtained access with your personal account, please log in.  \n\n## Purchase Instant Access  \n\n48- Hour online access  \n\nDetails  \n\nOnline- only access  \n\n\\(\\) 18.00\\$"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Details",
+          "bbox": {
+            "x1": 115,
+            "y1": 47,
+            "x2": 168,
+            "y2": 60
+          },
+          "bbox_list": [
+            115,
+            47,
+            168,
+            60
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "PDF download and online access",
+          "bbox": {
+            "x1": 88,
+            "y1": 90,
+            "x2": 450,
+            "y2": 111
+          },
+          "bbox_list": [
+            88,
+            90,
+            450,
+            111
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Details",
+          "bbox": {
+            "x1": 115,
+            "y1": 131,
+            "x2": 168,
+            "y2": 145
+          },
+          "bbox_list": [
+            115,
+            131,
+            168,
+            145
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Abstract",
+          "bbox": {
+            "x1": 78,
+            "y1": 240,
+            "x2": 207,
+            "y2": 265
+          },
+          "bbox_list": [
+            78,
+            240,
+            207,
+            265
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The current study examined the relationship between Chinese consumers' personal value orientations and their Internet usage and online shopping behaviour. The study was based on responses from a sample of 1620 respondents in five cities in China. Based on Schwartz's value structure, four value orientations were identified and named as 'openness to change orientation', 'self- enhancement orientation', 'conservation orientation' and 'self- transcendence orientation.' Logistic regression analysis was used to investigate the relationship between respondents' demographics, socio- economic characteristics, value orientations and their Internet usage and online shopping behaviour. Also, a structural equation modelling analysis was employed. 'Openness to change orientation' and 'self- enhancement orientation' were found to have direct or indirect positive effect on respondents' online shopping behaviour; whereas 'conservation orientation' and 'self- transcendence orientation' were not significant in the equation estimation.",
+          "bbox": {
+            "x1": 75,
+            "y1": 283,
+            "x2": 944,
+            "y2": 559
+          },
+          "bbox_list": [
+            75,
+            283,
+            944,
+            559
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 30,
+            "y1": 618,
+            "x2": 970,
+            "y2": 937
+          },
+          "bbox_list": [
+            30,
+            618,
+            970,
+            937
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nDetails  \n\nPDF download and online access  \n\nDetails  \n\n## Abstract  \n\nThe current study examined the relationship between Chinese consumers' personal value orientations and their Internet usage and online shopping behaviour. The study was based on responses from a sample of 1620 respondents in five cities in China. Based on Schwartz's value structure, four value orientations were identified and named as 'openness to change orientation', 'self- enhancement orientation', 'conservation orientation' and 'self- transcendence orientation.' Logistic regression analysis was used to investigate the relationship between respondents' demographics, socio- economic characteristics, value orientations and their Internet usage and online shopping behaviour. Also, a structural equation modelling analysis was employed. 'Openness to change orientation' and 'self- enhancement orientation' were found to have direct or indirect positive effect on respondents' online shopping behaviour; whereas 'conservation orientation' and 'self- transcendence orientation' were not significant in the equation estimation.  "
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1/6/23, 12:48 PM Online shopping among Chinese consumers: an exploratory investigation of demographics and value orientation - Wu - 2011 - Inte...",
+          "bbox": {
+            "x1": 37,
+            "y1": 0,
+            "x2": 965,
+            "y2": 20
+          },
+          "bbox_list": [
+            37,
+            0,
+            965,
+            20
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Training and Support DMCA & Reporting Piracy",
+          "bbox": {
+            "x1": 370,
+            "y1": 43,
+            "x2": 623,
+            "y2": 87
+          },
+          "bbox_list": [
+            370,
+            43,
+            623,
+            87
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Opportunities",
+          "bbox": {
+            "x1": 415,
+            "y1": 102,
+            "x2": 580,
+            "y2": 126
+          },
+          "bbox_list": [
+            415,
+            102,
+            580,
+            126
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Subscription Agents Advertisers & Corporate Partners",
+          "bbox": {
+            "x1": 330,
+            "y1": 140,
+            "x2": 662,
+            "y2": 183
+          },
+          "bbox_list": [
+            330,
+            140,
+            662,
+            183
+          ]
+        },
+        {
+          "block_id": "p4_b4",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Connect with Wiley",
+          "bbox": {
+            "x1": 388,
+            "y1": 199,
+            "x2": 607,
+            "y2": 224
+          },
+          "bbox_list": [
+            388,
+            199,
+            607,
+            224
+          ]
+        },
+        {
+          "block_id": "p4_b5",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The Wiley Network Wiley Press Room",
+          "bbox": {
+            "x1": 403,
+            "y1": 240,
+            "x2": 592,
+            "y2": 283
+          },
+          "bbox_list": [
+            403,
+            240,
+            592,
+            283
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n1/6/23, 12:48 PM Online shopping among Chinese consumers: an exploratory investigation of demographics and value orientation - Wu - 2011 - Inte...  \n\nTraining and Support DMCA & Reporting Piracy  \n\nOpportunities  \n\nSubscription Agents Advertisers & Corporate Partners  \n\nConnect with Wiley  \n\nThe Wiley Network Wiley Press Room"
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## About Wiley Journals",
+          "bbox": {
+            "x1": 65,
+            "y1": 204,
+            "x2": 437,
+            "y2": 238
+          },
+          "bbox_list": [
+            65,
+            204,
+            437,
+            238
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Firmly established as the world's leading society publisher, Wiley offers an exceptional portfolio of over 8 million articles from 1,600 journals. Half of which are published in partnership with prestigious international scholarly and professional societies. Our titles cover the full spectrum of life, health and physical sciences, social science and the humanities, and include many titles ranked at the forefront of their field.",
+          "bbox": {
+            "x1": 64,
+            "y1": 253,
+            "x2": 930,
+            "y2": 365
+          },
+          "bbox_list": [
+            64,
+            253,
+            930,
+            365
+          ]
+        },
+        {
+          "block_id": "p5_b2",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Subscription & Licensing Options",
+          "bbox": {
+            "x1": 66,
+            "y1": 416,
+            "x2": 575,
+            "y2": 446
+          },
+          "bbox_list": [
+            66,
+            416,
+            575,
+            446
+          ]
+        },
+        {
+          "block_id": "p5_b3",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Wiley offers a range of subscription and licensing options to institutions and library consortia designed to meet your unique needs. Select a multi- year license for your holdings and take advantage of predictable pricing with optional collection access.",
+          "bbox": {
+            "x1": 66,
+            "y1": 459,
+            "x2": 909,
+            "y2": 525
+          },
+          "bbox_list": [
+            66,
+            459,
+            909,
+            525
+          ]
+        },
+        {
+          "block_id": "p5_b4",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The Wiley Enhanced Online License is designed to deliver high levels of value and flexibility in managing your library holdings and budgets. Take advantage of one price list, one negotiation, one renewal, and one set of terms and conditions agreed upon with your Account Manager.",
+          "bbox": {
+            "x1": 66,
+            "y1": 540,
+            "x2": 922,
+            "y2": 605
+          },
+          "bbox_list": [
+            66,
+            540,
+            922,
+            605
+          ]
+        },
+        {
+          "block_id": "p5_b5",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Benefits of the Wiley Online Enhanced License:",
+          "bbox": {
+            "x1": 68,
+            "y1": 618,
+            "x2": 684,
+            "y2": 646
+          },
+          "bbox_list": [
+            68,
+            618,
+            684,
+            646
+          ]
+        },
+        {
+          "block_id": "p5_b6",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "- Increased flexibility and cost control: Manage your Core Collection or expand your access to more titles via a Standard or Custom Collection of journals for a marginal additional fee. Choose the Database Model for access to the entire journal portfolio. We offer allowances so that you can adjust your core subscription holdings to match your institution's changing needs.- Choices: License directly with Wiley and pay direct or through your subscription agent, as a single institution or via a consortium.- Long-term sustainability: Through predictable pricing over multiple years and guaranteed perpetual access for paid-for years.",
+          "bbox": {
+            "x1": 90,
+            "y1": 660,
+            "x2": 925,
+            "y2": 888
+          },
+          "bbox_list": [
+            90,
+            660,
+            925,
+            888
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## About Wiley Journals  \n\nFirmly established as the world's leading society publisher, Wiley offers an exceptional portfolio of over 8 million articles from 1,600 journals. Half of which are published in partnership with prestigious international scholarly and professional societies. Our titles cover the full spectrum of life, health and physical sciences, social science and the humanities, and include many titles ranked at the forefront of their field.  \n\n## Subscription & Licensing Options  \n\nWiley offers a range of subscription and licensing options to institutions and library consortia designed to meet your unique needs. Select a multi- year license for your holdings and take advantage of predictable pricing with optional collection access.  \n\nThe Wiley Enhanced Online License is designed to deliver high levels of value and flexibility in managing your library holdings and budgets. Take advantage of one price list, one negotiation, one renewal, and one set of terms and conditions agreed upon with your Account Manager.  \n\n## Benefits of the Wiley Online Enhanced License:  \n\n- Increased flexibility and cost control: Manage your Core Collection or expand your access to more titles via a Standard or Custom Collection of journals for a marginal additional fee. Choose the Database Model for access to the entire journal portfolio. We offer allowances so that you can adjust your core subscription holdings to match your institution's changing needs.- Choices: License directly with Wiley and pay direct or through your subscription agent, as a single institution or via a consortium.- Long-term sustainability: Through predictable pricing over multiple years and guaranteed perpetual access for paid-for years."
+    },
+    {
+      "page_number": 6,
+      "text_blocks": [
+        {
+          "block_id": "p6_b0",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "- Archival access: Content dating back to 1997, in most cases, to all titles in your Core Collection.",
+          "bbox": {
+            "x1": 87,
+            "y1": 61,
+            "x2": 870,
+            "y2": 103
+          },
+          "bbox_list": [
+            87,
+            61,
+            870,
+            103
+          ]
+        },
+        {
+          "block_id": "p6_b1",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "- Generous licensing terms: Access journals across multi-site campuses and global corporations, ILL, and walk-in user access for academic institutions.",
+          "bbox": {
+            "x1": 87,
+            "y1": 120,
+            "x2": 846,
+            "y2": 163
+          },
+          "bbox_list": [
+            87,
+            120,
+            846,
+            163
+          ]
+        },
+        {
+          "block_id": "p6_b2",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "- Account Manager and post-sale support: Work with a dedicated Account Manager and take advantage of marketing resources available to promote awareness and usage in your institution. Tailored online training workshops available on request.",
+          "bbox": {
+            "x1": 87,
+            "y1": 179,
+            "x2": 929,
+            "y2": 244
+          },
+          "bbox_list": [
+            87,
+            179,
+            929,
+            244
+          ]
+        },
+        {
+          "block_id": "p6_b3",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Changes for 2022",
+          "bbox": {
+            "x1": 90,
+            "y1": 279,
+            "x2": 313,
+            "y2": 305
+          },
+          "bbox_list": [
+            90,
+            279,
+            313,
+            305
+          ]
+        },
+        {
+          "block_id": "p6_b4",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Click to see journal changes",
+          "bbox": {
+            "x1": 100,
+            "y1": 324,
+            "x2": 360,
+            "y2": 344
+          },
+          "bbox_list": [
+            100,
+            324,
+            360,
+            344
+          ]
+        },
+        {
+          "block_id": "p6_b5",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Journal Changes Flyer",
+          "bbox": {
+            "x1": 87,
+            "y1": 424,
+            "x2": 380,
+            "y2": 450
+          },
+          "bbox_list": [
+            87,
+            424,
+            380,
+            450
+          ]
+        },
+        {
+          "block_id": "p6_b6",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Download Journal Changes Flyer",
+          "bbox": {
+            "x1": 100,
+            "y1": 469,
+            "x2": 400,
+            "y2": 490
+          },
+          "bbox_list": [
+            100,
+            469,
+            400,
+            490
+          ]
+        },
+        {
+          "block_id": "p6_b7",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Journals on Wiley Online Library",
+          "bbox": {
+            "x1": 87,
+            "y1": 567,
+            "x2": 523,
+            "y2": 595
+          },
+          "bbox_list": [
+            87,
+            567,
+            523,
+            595
+          ]
+        },
+        {
+          "block_id": "p6_b8",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Browse Titles",
+          "bbox": {
+            "x1": 100,
+            "y1": 616,
+            "x2": 230,
+            "y2": 635
+          },
+          "bbox_list": [
+            100,
+            616,
+            230,
+            635
+          ]
+        },
+        {
+          "block_id": "p6_b9",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Journal Price Lists",
+          "bbox": {
+            "x1": 87,
+            "y1": 718,
+            "x2": 332,
+            "y2": 743
+          },
+          "bbox_list": [
+            87,
+            718,
+            332,
+            743
+          ]
+        },
+        {
+          "block_id": "p6_b10",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "View Price Lists",
+          "bbox": {
+            "x1": 100,
+            "y1": 767,
+            "x2": 245,
+            "y2": 785
+          },
+          "bbox_list": [
+            100,
+            767,
+            245,
+            785
+          ]
+        },
+        {
+          "block_id": "p6_b11",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Connect with Us",
+          "bbox": {
+            "x1": 90,
+            "y1": 868,
+            "x2": 306,
+            "y2": 891
+          },
+          "bbox_list": [
+            90,
+            868,
+            306,
+            891
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n- Archival access: Content dating back to 1997, in most cases, to all titles in your Core Collection.  \n\n- Generous licensing terms: Access journals across multi-site campuses and global corporations, ILL, and walk-in user access for academic institutions.  \n\n- Account Manager and post-sale support: Work with a dedicated Account Manager and take advantage of marketing resources available to promote awareness and usage in your institution. Tailored online training workshops available on request.  \n\n## Changes for 2022  \n\nClick to see journal changes  \n\nJournal Changes Flyer  \n\nDownload Journal Changes Flyer  \n\nJournals on Wiley Online Library  \n\nBrowse Titles  \n\nJournal Price Lists  \n\nView Price Lists  \n\nConnect with Us"
+    },
+    {
+      "page_number": 7,
+      "text_blocks": [
+        {
+          "block_id": "p7_b0",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Sign up for Library Email Alerts Follow us on Twitter Wiley Press Room",
+          "bbox": {
+            "x1": 87,
+            "y1": 63,
+            "x2": 381,
+            "y2": 127
+          },
+          "bbox_list": [
+            87,
+            63,
+            381,
+            127
+          ]
+        },
+        {
+          "block_id": "p7_b1",
+          "page_number": 7,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# About Wiley Online Library",
+          "bbox": {
+            "x1": 350,
+            "y1": 220,
+            "x2": 643,
+            "y2": 245
+          },
+          "bbox_list": [
+            350,
+            220,
+            643,
+            245
+          ]
+        },
+        {
+          "block_id": "p7_b2",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Privacy Policy Terms of Use About Cookies Manage Cookies Accessibility Wiley Research DE&I Statement and Publishing Policies Developing World Access",
+          "bbox": {
+            "x1": 235,
+            "y1": 259,
+            "x2": 757,
+            "y2": 401
+          },
+          "bbox_list": [
+            235,
+            259,
+            757,
+            401
+          ]
+        },
+        {
+          "block_id": "p7_b3",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Help & Support",
+          "bbox": {
+            "x1": 409,
+            "y1": 417,
+            "x2": 584,
+            "y2": 441
+          },
+          "bbox_list": [
+            409,
+            417,
+            584,
+            441
+          ]
+        },
+        {
+          "block_id": "p7_b4",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Contact Us Training and Support DMCA & Reporting Piracy",
+          "bbox": {
+            "x1": 370,
+            "y1": 456,
+            "x2": 617,
+            "y2": 516
+          },
+          "bbox_list": [
+            370,
+            456,
+            617,
+            516
+          ]
+        },
+        {
+          "block_id": "p7_b5",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Opportunities",
+          "bbox": {
+            "x1": 416,
+            "y1": 533,
+            "x2": 573,
+            "y2": 555
+          },
+          "bbox_list": [
+            416,
+            533,
+            573,
+            555
+          ]
+        },
+        {
+          "block_id": "p7_b6",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Subscription Agents Advertisers & Corporate Partners",
+          "bbox": {
+            "x1": 335,
+            "y1": 570,
+            "x2": 660,
+            "y2": 610
+          },
+          "bbox_list": [
+            335,
+            570,
+            660,
+            610
+          ]
+        },
+        {
+          "block_id": "p7_b7",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Connect with Wiley",
+          "bbox": {
+            "x1": 391,
+            "y1": 626,
+            "x2": 601,
+            "y2": 649
+          },
+          "bbox_list": [
+            391,
+            626,
+            601,
+            649
+          ]
+        },
+        {
+          "block_id": "p7_b8",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The Wiley Network Wiley Press Room",
+          "bbox": {
+            "x1": 405,
+            "y1": 664,
+            "x2": 586,
+            "y2": 705
+          },
+          "bbox_list": [
+            405,
+            664,
+            586,
+            705
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nSign up for Library Email Alerts  Follow us on Twitter  Wiley Press Room  \n\n# About Wiley Online Library  \n\nPrivacy Policy  Terms of Use  About Cookies  Manage Cookies  Accessibility  Wiley Research DE&I Statement and Publishing Policies  Developing World Access  \n\nHelp & Support  \n\nContact Us  Training and Support  DMCA & Reporting Piracy  \n\nOpportunities  \n\nSubscription Agents  Advertisers & Corporate Partners  \n\nConnect with Wiley  \n\nThe Wiley Network  Wiley Press Room"
+    }
+  ],
+  "total_blocks": 57
+}

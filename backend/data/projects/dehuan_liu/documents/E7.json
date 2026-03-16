@@ -1,0 +1,651 @@
+{
+  "exhibit_id": "E7",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Exhibit E-7",
+          "bbox": {
+            "x1": 123,
+            "y1": 450,
+            "x2": 872,
+            "y2": 550
+          },
+          "bbox_list": [
+            123,
+            450,
+            872,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit E-7"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 0,
+            "y1": 99,
+            "x2": 999,
+            "y2": 360
+          },
+          "bbox_list": [
+            0,
+            99,
+            999,
+            360
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# School Overview",
+          "bbox": {
+            "x1": 0,
+            "y1": 365,
+            "x2": 190,
+            "y2": 387
+          },
+          "bbox_list": [
+            0,
+            365,
+            190,
+            387
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "School Profile School History Organizational Structure School Center Degree Setting",
+          "bbox": {
+            "x1": 0,
+            "y1": 400,
+            "x2": 170,
+            "y2": 510
+          },
+          "bbox_list": [
+            0,
+            400,
+            170,
+            510
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Organizational Structure",
+          "bbox": {
+            "x1": 210,
+            "y1": 357,
+            "x2": 431,
+            "y2": 375
+          },
+          "bbox_list": [
+            210,
+            357,
+            431,
+            375
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Page 1",
+          "bbox": {
+            "x1": 210,
+            "y1": 380,
+            "x2": 344,
+            "y2": 399
+          },
+          "bbox_list": [
+            210,
+            380,
+            344,
+            399
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# School Administration Department",
+          "bbox": {
+            "x1": 210,
+            "y1": 469,
+            "x2": 480,
+            "y2": 486
+          },
+          "bbox_list": [
+            210,
+            469,
+            480,
+            486
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "School Administration DepartmentGang Chen: DeanDehuan Liu: Vice DeanKaihe Chen: Vice DeanWeijia Wang: Vice DeanAssistant to the Dean: Wei Wang, Huiyu Zhang",
+          "bbox": {
+            "x1": 210,
+            "y1": 492,
+            "x2": 551,
+            "y2": 600
+          },
+          "bbox_list": [
+            210,
+            492,
+            551,
+            600
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# School Party Committee",
+          "bbox": {
+            "x1": 600,
+            "y1": 460,
+            "x2": 789,
+            "y2": 477
+          },
+          "bbox_list": [
+            600,
+            460,
+            789,
+            477
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "School Party CommitteeJinnan Tang: Secretary of Party CommitteeLiang Lu: Vice Secretary of Party CommitteeMember of Party Committee:Jinnan Tang, Gang Chen, Liang Lu, Xinzhou XieJi Zhang Jincan Xu",
+          "bbox": {
+            "x1": 600,
+            "y1": 483,
+            "x2": 955,
+            "y2": 598
+          },
+          "bbox_list": [
+            600,
+            483,
+            955,
+            598
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Academic Committee (In order of Chinese stroke of last name)Dehuan Liu (Director), Kaihe Chen (Vice Director)Weijia Wang, Wei Li, Jing Wu, Gang ChenShaoyang Lu, Jinnan Tang, Xinzhou Xie",
+          "bbox": {
+            "x1": 211,
+            "y1": 621,
+            "x2": 583,
+            "y2": 732
+          },
+          "bbox_list": [
+            211,
+            621,
+            583,
+            732
+          ]
+        },
+        {
+          "block_id": "p2_b10",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Academic Degree Evaluation Committee BranchShaoyang Lu (President) Wei Li (Vice President)Xinzhou Xie, Gang Chen, Di Lu, Dehuan LiuZengzhi Shi, Rudong Chen, Jing Wu, Yong HuJing Xu, Kaihe Chen",
+          "bbox": {
+            "x1": 602,
+            "y1": 620,
+            "x2": 975,
+            "y2": 729
+          },
+          "bbox_list": [
+            602,
+            620,
+            975,
+            729
+          ]
+        },
+        {
+          "block_id": "p2_b11",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Teaching Steering Committee",
+          "bbox": {
+            "x1": 216,
+            "y1": 802,
+            "x2": 444,
+            "y2": 820
+          },
+          "bbox_list": [
+            216,
+            802,
+            444,
+            820
+          ]
+        },
+        {
+          "block_id": "p2_b12",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Kaihe Chen (Director)Di Lu, Gang Chen, Zengzhi ShiJiang Xu, Weijia Wang",
+          "bbox": {
+            "x1": 216,
+            "y1": 825,
+            "x2": 448,
+            "y2": 887
+          },
+          "bbox_list": [
+            216,
+            825,
+            448,
+            887
+          ]
+        },
+        {
+          "block_id": "p2_b13",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Appointment Committee",
+          "bbox": {
+            "x1": 607,
+            "y1": 800,
+            "x2": 798,
+            "y2": 816
+          },
+          "bbox_list": [
+            607,
+            800,
+            798,
+            816
+          ]
+        },
+        {
+          "block_id": "p2_b14",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Gang Chen (Director)Jinnan Tang, Liang Lu, Dehuan LiuKaihe Chen, Weijia Wang",
+          "bbox": {
+            "x1": 607,
+            "y1": 821,
+            "x2": 864,
+            "y2": 882
+          },
+          "bbox_list": [
+            607,
+            821,
+            864,
+            882
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# School Overview  \n\nSchool Profile School History Organizational Structure School Center Degree Setting  \n\n# Organizational Structure  \n\nPage 1  \n\n# School Administration Department  \n\nSchool Administration DepartmentGang Chen: DeanDehuan Liu: Vice DeanKaihe Chen: Vice DeanWeijia Wang: Vice DeanAssistant to the Dean: Wei Wang, Huiyu Zhang  \n\n# School Party Committee  \n\nSchool Party CommitteeJinnan Tang: Secretary of Party CommitteeLiang Lu: Vice Secretary of Party CommitteeMember of Party Committee:Jinnan Tang, Gang Chen, Liang Lu, Xinzhou XieJi Zhang Jincan Xu  \n\nAcademic Committee (In order of Chinese stroke of last name)Dehuan Liu (Director), Kaihe Chen (Vice Director)Weijia Wang, Wei Li, Jing Wu, Gang ChenShaoyang Lu, Jinnan Tang, Xinzhou Xie  \n\nAcademic Degree Evaluation Committee BranchShaoyang Lu (President) Wei Li (Vice President)Xinzhou Xie, Gang Chen, Di Lu, Dehuan LiuZengzhi Shi, Rudong Chen, Jing Wu, Yong HuJing Xu, Kaihe Chen  \n\n# Teaching Steering Committee  \n\nKaihe Chen (Director)Di Lu, Gang Chen, Zengzhi ShiJiang Xu, Weijia Wang  \n\n# Appointment Committee  \n\nGang Chen (Director)Jinnan Tang, Liang Lu, Dehuan LiuKaihe Chen, Weijia Wang"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 99,
+            "y1": 44,
+            "x2": 177,
+            "y2": 58
+          },
+          "bbox_list": [
+            99,
+            44,
+            177,
+            58
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Organizational Structure - School of Journalism & Communication, Peking University",
+          "bbox": {
+            "x1": 230,
+            "y1": 55,
+            "x2": 820,
+            "y2": 73
+          },
+          "bbox_list": [
+            230,
+            55,
+            820,
+            73
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## General Office",
+          "bbox": {
+            "x1": 206,
+            "y1": 83,
+            "x2": 320,
+            "y2": 99
+          },
+          "bbox_list": [
+            206,
+            83,
+            320,
+            99
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "General OfficeWei Wang (Director)Zhongxin Gao (Undergraduate Rongding Zhang (Postgraduate educational administration) educational administration)Bo Wei (General affairs) Rongru Lu (Party affairs)Yue Zhao (Secretary of Research) Xue Fang (Staff's Home)",
+          "bbox": {
+            "x1": 205,
+            "y1": 105,
+            "x2": 690,
+            "y2": 215
+          },
+          "bbox_list": [
+            205,
+            105,
+            690,
+            215
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Yuping Zeng (Continuing education)Jing Yang (Library Branch)",
+          "bbox": {
+            "x1": 725,
+            "y1": 171,
+            "x2": 990,
+            "y2": 213
+          },
+          "bbox_list": [
+            725,
+            171,
+            990,
+            213
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Students' Work",
+          "bbox": {
+            "x1": 207,
+            "y1": 244,
+            "x2": 345,
+            "y2": 261
+          },
+          "bbox_list": [
+            207,
+            244,
+            345,
+            261
+          ]
+        },
+        {
+          "block_id": "p3_b6",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Students' WorkZhen Wang (Secretary of the Youth League Committee)Ranyue Zhang (Vice Director of Student Affair Office)",
+          "bbox": {
+            "x1": 207,
+            "y1": 266,
+            "x2": 545,
+            "y2": 352
+          },
+          "bbox_list": [
+            207,
+            266,
+            545,
+            352
+          ]
+        },
+        {
+          "block_id": "p3_b7",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Digital Communication Teaching",
+          "bbox": {
+            "x1": 597,
+            "y1": 241,
+            "x2": 887,
+            "y2": 260
+          },
+          "bbox_list": [
+            597,
+            241,
+            887,
+            260
+          ]
+        },
+        {
+          "block_id": "p3_b8",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Experimental Center",
+          "bbox": {
+            "x1": 598,
+            "y1": 265,
+            "x2": 783,
+            "y2": 283
+          },
+          "bbox_list": [
+            598,
+            265,
+            783,
+            283
+          ]
+        },
+        {
+          "block_id": "p3_b9",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Fuchang Yan (Director)Yang Liu (Laboratory and Instrument Administrator)",
+          "bbox": {
+            "x1": 598,
+            "y1": 288,
+            "x2": 978,
+            "y2": 327
+          },
+          "bbox_list": [
+            598,
+            288,
+            978,
+            327
+          ]
+        },
+        {
+          "block_id": "p3_b10",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## School Union",
+          "bbox": {
+            "x1": 208,
+            "y1": 379,
+            "x2": 327,
+            "y2": 396
+          },
+          "bbox_list": [
+            208,
+            379,
+            327,
+            396
+          ]
+        },
+        {
+          "block_id": "p3_b11",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "School UnionJi Zhang (President)Jing Xu (Vice President and Women Work Commissioner)Wei Wang (Vice President and Welfare Commissioner)Hongzhe Wang (Youth Commissioner)Yang Liu (Art and Sports Commissioner)",
+          "bbox": {
+            "x1": 208,
+            "y1": 401,
+            "x2": 512,
+            "y2": 558
+          },
+          "bbox_list": [
+            208,
+            401,
+            512,
+            558
+          ]
+        },
+        {
+          "block_id": "p3_b12",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Research Institute Institute of Modern Advertising, Peking University New Media Marketing and Communication Research Center, Peking University Peking University Journalism Research Institute National School of Strategic Communication, Peking University Research Center for Public Communication and Social Development, Peking University",
+          "bbox": {
+            "x1": 0,
+            "y1": 574,
+            "x2": 333,
+            "y2": 707
+          },
+          "bbox_list": [
+            0,
+            574,
+            333,
+            707
+          ]
+        },
+        {
+          "block_id": "p3_b13",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Institute of Modern Publishing, Peking University Peking University Television Research Center Institute of Culture and Communication, Peking University Audio- visual Communication Research Center, Peking University",
+          "bbox": {
+            "x1": 355,
+            "y1": 584,
+            "x2": 673,
+            "y2": 691
+          },
+          "bbox_list": [
+            355,
+            584,
+            673,
+            691
+          ]
+        },
+        {
+          "block_id": "p3_b14",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "School of Journalism & Communication, Peking University",
+          "bbox": {
+            "x1": 738,
+            "y1": 621,
+            "x2": 872,
+            "y2": 664
+          },
+          "bbox_list": [
+            738,
+            621,
+            872,
+            664
+          ]
+        },
+        {
+          "block_id": "p3_b15",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Official WeChat",
+          "bbox": {
+            "x1": 875,
+            "y1": 666,
+            "x2": 992,
+            "y2": 681
+          },
+          "bbox_list": [
+            875,
+            666,
+            992,
+            681
+          ]
+        },
+        {
+          "block_id": "p3_b16",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Copyright Agreement: Creative Commons CC3.0 (BY- NC- ND) Permission is granted to disseminate the content of this Site to the public domain with \"Signature - Non- commercial - No deduction\" unless otherwise statedAddress: 5 Yiheyuan Road, Haidian District, Beijing School of Journalism & Communication, Peking University Post Code 100871 Tel. 010- 62754683 Fax: 010- 62754485 E- mail: sjc18@pku.edu.cn",
+          "bbox": {
+            "x1": 108,
+            "y1": 720,
+            "x2": 999,
+            "y2": 800
+          },
+          "bbox_list": [
+            108,
+            720,
+            999,
+            800
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nOrganizational Structure - School of Journalism & Communication, Peking University  \n\n## General Office  \n\nGeneral OfficeWei Wang (Director)Zhongxin Gao (Undergraduate Rongding Zhang (Postgraduate educational administration) educational administration)Bo Wei (General affairs) Rongru Lu (Party affairs)Yue Zhao (Secretary of Research) Xue Fang (Staff's Home)  \n\nYuping Zeng (Continuing education)Jing Yang (Library Branch)  \n\n## Students' Work  \n\nStudents' WorkZhen Wang (Secretary of the Youth League Committee)Ranyue Zhang (Vice Director of Student Affair Office)  \n\n## Digital Communication Teaching  \n\n## Experimental Center  \n\nFuchang Yan (Director)Yang Liu (Laboratory and Instrument Administrator)  \n\n## School Union  \n\nSchool UnionJi Zhang (President)Jing Xu (Vice President and Women Work Commissioner)Wei Wang (Vice President and Welfare Commissioner)Hongzhe Wang (Youth Commissioner)Yang Liu (Art and Sports Commissioner)  \n\nResearch Institute Institute of Modern Advertising, Peking University New Media Marketing and Communication Research Center, Peking University Peking University Journalism Research Institute National School of Strategic Communication, Peking University Research Center for Public Communication and Social Development, Peking University  \n\nInstitute of Modern Publishing, Peking University Peking University Television Research Center Institute of Culture and Communication, Peking University Audio- visual Communication Research Center, Peking University  \n\nSchool of Journalism & Communication, Peking University  \n\nOfficial WeChat  \n\nCopyright Agreement: Creative Commons CC3.0 (BY- NC- ND) Permission is granted to disseminate the content of this Site to the public domain with \"Signature - Non- commercial - No deduction\" unless otherwise statedAddress: 5 Yiheyuan Road, Haidian District, Beijing School of Journalism & Communication, Peking University Post Code 100871 Tel. 010- 62754683 Fax: 010- 62754485 E- mail: sjc18@pku.edu.cn"
+    }
+  ],
+  "total_blocks": 33
+}

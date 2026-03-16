@@ -1,0 +1,208 @@
+{
+  "exhibit_id": "C1",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit C-1",
+          "bbox": {
+            "x1": 120,
+            "y1": 451,
+            "x2": 875,
+            "y2": 550
+          },
+          "bbox_list": [
+            120,
+            451,
+            875,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit C-1"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# TIGER ROAR",
+          "bbox": {
+            "x1": 339,
+            "y1": 108,
+            "x2": 653,
+            "y2": 290
+          },
+          "bbox_list": [
+            339,
+            108,
+            653,
+            290
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "STARTING A NEW JOURNEY",
+          "bbox": {
+            "x1": 334,
+            "y1": 307,
+            "x2": 660,
+            "y2": 330
+          },
+          "bbox_list": [
+            334,
+            307,
+            660,
+            330
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Presented to",
+          "bbox": {
+            "x1": 439,
+            "y1": 411,
+            "x2": 565,
+            "y2": 430
+          },
+          "bbox_list": [
+            439,
+            411,
+            565,
+            430
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Mr. Dehuan Liu",
+          "bbox": {
+            "x1": 413,
+            "y1": 448,
+            "x2": 588,
+            "y2": 472
+          },
+          "bbox_list": [
+            413,
+            448,
+            588,
+            472
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "This is to certify that you are appointed as the Deputy Director of the 13th Tiger Roar Awards Organizing Committee",
+          "bbox": {
+            "x1": 280,
+            "y1": 484,
+            "x2": 725,
+            "y2": 565
+          },
+          "bbox_list": [
+            280,
+            484,
+            725,
+            565
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Executive President: Xubin Chen",
+          "bbox": {
+            "x1": 366,
+            "y1": 650,
+            "x2": 642,
+            "y2": 670
+          },
+          "bbox_list": [
+            366,
+            650,
+            642,
+            670
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "China Advertising Association of Commerce 1100000195568 (Seal)",
+          "bbox": {
+            "x1": 228,
+            "y1": 766,
+            "x2": 787,
+            "y2": 788
+          },
+          "bbox_list": [
+            228,
+            766,
+            787,
+            788
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Tiger Roar Awards Organizing Committee (Seal)",
+          "bbox": {
+            "x1": 308,
+            "y1": 797,
+            "x2": 710,
+            "y2": 819
+          },
+          "bbox_list": [
+            308,
+            797,
+            710,
+            819
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Apr. 2022",
+          "bbox": {
+            "x1": 467,
+            "y1": 828,
+            "x2": 551,
+            "y2": 848
+          },
+          "bbox_list": [
+            467,
+            828,
+            551,
+            848
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# TIGER ROAR  \n\nSTARTING A NEW JOURNEY  \n\nPresented to  \n\nMr. Dehuan Liu  \n\nThis is to certify that you are appointed as the Deputy Director of the 13th Tiger Roar Awards Organizing Committee  \n\nExecutive President: Xubin Chen  \n\nChina Advertising Association of Commerce 1100000195568 (Seal)  \n\nTiger Roar Awards Organizing Committee (Seal)  \n\nApr. 2022"
+    }
+  ],
+  "total_blocks": 10
+}

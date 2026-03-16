@@ -1,0 +1,201 @@
+{
+  "exhibit_id": "B7",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit B-7",
+          "bbox": {
+            "x1": 120,
+            "y1": 450,
+            "x2": 870,
+            "y2": 546
+          },
+          "bbox_list": [
+            120,
+            450,
+            870,
+            546
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit B-7"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Our Mission",
+          "bbox": {
+            "x1": 333,
+            "y1": 185,
+            "x2": 659,
+            "y2": 226
+          },
+          "bbox_list": [
+            333,
+            185,
+            659,
+            226
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 45,
+            "y1": 255,
+            "x2": 945,
+            "y2": 656
+          },
+          "bbox_list": [
+            45,
+            255,
+            945,
+            656
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "TikTok is the leading destination for short- form mobile video. Our mission is to inspire creativity and bring joy.",
+          "bbox": {
+            "x1": 303,
+            "y1": 680,
+            "x2": 696,
+            "y2": 744
+          },
+          "bbox_list": [
+            303,
+            680,
+            696,
+            744
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "TikTok has global offices including Los Angeles, New York, London, Paris, Berlin, Dubai, Mumbai, Singapore, Jakarta, Seoul, and Tokyo.",
+          "bbox": {
+            "x1": 306,
+            "y1": 774,
+            "x2": 693,
+            "y2": 828
+          },
+          "bbox_list": [
+            306,
+            774,
+            693,
+            828
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# Our Mission  \n\nTikTok is the leading destination for short- form mobile video. Our mission is to inspire creativity and bring joy.  \n\nTikTok has global offices including Los Angeles, New York, London, Paris, Berlin, Dubai, Mumbai, Singapore, Jakarta, Seoul, and Tokyo."
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Tiktok",
+          "bbox": {
+            "x1": 67,
+            "y1": 58,
+            "x2": 263,
+            "y2": 90
+          },
+          "bbox_list": [
+            67,
+            58,
+            263,
+            90
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 40,
+            "y1": 100,
+            "x2": 945,
+            "y2": 942
+          },
+          "bbox_list": [
+            40,
+            100,
+            945,
+            942
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# Tiktok  "
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# 三 TikTok",
+          "bbox": {
+            "x1": 62,
+            "y1": 60,
+            "x2": 261,
+            "y2": 92
+          },
+          "bbox_list": [
+            62,
+            60,
+            261,
+            92
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 45,
+            "y1": 100,
+            "x2": 950,
+            "y2": 600
+          },
+          "bbox_list": [
+            45,
+            100,
+            950,
+            600
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# 三 TikTok  "
+    }
+  ],
+  "total_blocks": 9
+}

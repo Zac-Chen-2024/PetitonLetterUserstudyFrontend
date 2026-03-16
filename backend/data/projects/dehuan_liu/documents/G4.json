@@ -1,0 +1,378 @@
+{
+  "exhibit_id": "G4",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit G-4",
+          "bbox": {
+            "x1": 110,
+            "y1": 449,
+            "x2": 880,
+            "y2": 549
+          },
+          "bbox_list": [
+            110,
+            449,
+            880,
+            549
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit G-4"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Peking University News Website",
+          "bbox": {
+            "x1": 68,
+            "y1": 89,
+            "x2": 440,
+            "y2": 112
+          },
+          "bbox_list": [
+            68,
+            89,
+            440,
+            112
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Home/News Profile",
+          "bbox": {
+            "x1": 69,
+            "y1": 126,
+            "x2": 234,
+            "y2": 144
+          },
+          "bbox_list": [
+            69,
+            126,
+            234,
+            144
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# \"The Study of Advertising and Development of Advertising Industry in China, and Academic Conference on the Fifth Anniversary for the First Publication of Journal of Advertising Study\" Was Organized in Peking University",
+          "bbox": {
+            "x1": 82,
+            "y1": 155,
+            "x2": 910,
+            "y2": 280
+          },
+          "bbox_list": [
+            82,
+            155,
+            910,
+            280
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "October 12, 2010 Information Source: School of Journalism and Communication",
+          "bbox": {
+            "x1": 70,
+            "y1": 314,
+            "x2": 680,
+            "y2": 333
+          },
+          "bbox_list": [
+            70,
+            314,
+            680,
+            333
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "On October 10, 2010, \"Journal of Advertising Study and Development of Advertising Industry in China, and Academic Conference on the Fifth Anniversary for the First Publication on Journal of Advertising Study\" was held at the conference center of Zhongguanyuan Global Village PKU. Scholars from 22 colleges and universities and experts from the industry were brought together in Peking University to discuss the current situation and development trends of the advertising study in China and summarize the development experiences of Journal of Advertising Study in these five years. More than 50 guests attended the conference, including Ruichun Duan, Executive President of China Association of National Advertisers, Junjie Ding, Vice President of Communication University of China, Shengmin Huang, Head of School of Advertising of Communication University of China, Ning Ni, Standard Vice President of School of Journalism of China Renmin University, Guoming Yu, Vice President of School of Journalism of China Renmin University, Tao Tian, Vice President of CTR Market Research, Xubin Chen, editor- in- chief of Advertising Panorama, Hong Shen, editor- in- chief of Journal of Advertising Study, etc. Qun Xiao, Executive Deputy Director of Department of Social Sciences of Peking University, Hong Xu, Executive Vice President of School of Journalism and Communication of Peking University, Zhiyue Feng, Secretary of Party Committee of School of Journalism and Communication of Peking University, and Manli Cheng, Vice President of School of Journalism and Communication of Peking University, attended the conference on behalf of then organizer. Gang Chen, director of the Editorial Board of Journal of Advertising Study and Vice President of School of Journalism and Communication of Peking University, presided over the seminar.",
+          "bbox": {
+            "x1": 72,
+            "y1": 368,
+            "x2": 933,
+            "y2": 840
+          },
+          "bbox_list": [
+            72,
+            368,
+            933,
+            840
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# Peking University News Website  \n\nHome/News Profile  \n\n# \"The Study of Advertising and Development of Advertising Industry in China, and Academic Conference on the Fifth Anniversary for the First Publication of Journal of Advertising Study\" Was Organized in Peking University  \n\nOctober 12, 2010 Information Source: School of Journalism and Communication  \n\nOn October 10, 2010, \"Journal of Advertising Study and Development of Advertising Industry in China, and Academic Conference on the Fifth Anniversary for the First Publication on Journal of Advertising Study\" was held at the conference center of Zhongguanyuan Global Village PKU. Scholars from 22 colleges and universities and experts from the industry were brought together in Peking University to discuss the current situation and development trends of the advertising study in China and summarize the development experiences of Journal of Advertising Study in these five years. More than 50 guests attended the conference, including Ruichun Duan, Executive President of China Association of National Advertisers, Junjie Ding, Vice President of Communication University of China, Shengmin Huang, Head of School of Advertising of Communication University of China, Ning Ni, Standard Vice President of School of Journalism of China Renmin University, Guoming Yu, Vice President of School of Journalism of China Renmin University, Tao Tian, Vice President of CTR Market Research, Xubin Chen, editor- in- chief of Advertising Panorama, Hong Shen, editor- in- chief of Journal of Advertising Study, etc. Qun Xiao, Executive Deputy Director of Department of Social Sciences of Peking University, Hong Xu, Executive Vice President of School of Journalism and Communication of Peking University, Zhiyue Feng, Secretary of Party Committee of School of Journalism and Communication of Peking University, and Manli Cheng, Vice President of School of Journalism and Communication of Peking University, attended the conference on behalf of then organizer. Gang Chen, director of the Editorial Board of Journal of Advertising Study and Vice President of School of Journalism and Communication of Peking University, presided over the seminar."
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 237,
+            "y1": 90,
+            "x2": 748,
+            "y2": 348
+          },
+          "bbox_list": [
+            237,
+            90,
+            748,
+            348
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Hong Xu delivered a keynote on behalf of the organizer at the beginning of the conference. She expressed a warm welcome to all guests at the conference on behalf of the School of Journalism and Communication of Peking University. He said, advertising is rising star in the field of academic research and education of journalism and communication in China. In the past 30 years, the discipline of advertising gradually developed from the initial imitation stage to the stage of increasingly mature. The study of advertising in China also experienced the process of follow- up with the development of the industry, synchronous interaction with the industry and new historical journey of leading the development of the industry. The development of the industry also requires for advertising research, while platforms for academic studies and academic publications are critical systems and symbols for the conversion between academic production and knowledge. In 2005, Journal of Advertising Study was born in response to the historical mission. After the efforts of five years, the magazine has become an academic platform with extensive influence.",
+          "bbox": {
+            "x1": 69,
+            "y1": 359,
+            "x2": 930,
+            "y2": 650
+          },
+          "bbox_list": [
+            69,
+            359,
+            930,
+            650
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In his speech, Ruichun Duan, on behalf of China Association of National Advertisers and its 120 member enterprises, express warmest congratulations on the fifth anniversary of the initial publication of Journal of Advertising Study. He expressed that the achievements of Journal of Advertising Study in the five years were obvious to all, and the magazine had developed its own style along with continuous increase of its influence in the academic community and the industry.",
+          "bbox": {
+            "x1": 72,
+            "y1": 656,
+            "x2": 930,
+            "y2": 770
+          },
+          "bbox_list": [
+            72,
+            656,
+            930,
+            770
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "On behalf of Department of Social Sciences of Peking University, Qun Xiao expressed warm congratulations on the opening of the conference, and extended sincere welcome to all guests at the conference. At the same time, he hopes that scholars could take advantage of the platform of Journal of Advertising Study to accept the opinions of scholars of other disciplines and industry experts with a forward- looking vision and work hard to promote the academic standards and",
+          "bbox": {
+            "x1": 74,
+            "y1": 775,
+            "x2": 931,
+            "y2": 888
+          },
+          "bbox_list": [
+            74,
+            775,
+            931,
+            888
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nHong Xu delivered a keynote on behalf of the organizer at the beginning of the conference. She expressed a warm welcome to all guests at the conference on behalf of the School of Journalism and Communication of Peking University. He said, advertising is rising star in the field of academic research and education of journalism and communication in China. In the past 30 years, the discipline of advertising gradually developed from the initial imitation stage to the stage of increasingly mature. The study of advertising in China also experienced the process of follow- up with the development of the industry, synchronous interaction with the industry and new historical journey of leading the development of the industry. The development of the industry also requires for advertising research, while platforms for academic studies and academic publications are critical systems and symbols for the conversion between academic production and knowledge. In 2005, Journal of Advertising Study was born in response to the historical mission. After the efforts of five years, the magazine has become an academic platform with extensive influence.  \n\nIn his speech, Ruichun Duan, on behalf of China Association of National Advertisers and its 120 member enterprises, express warmest congratulations on the fifth anniversary of the initial publication of Journal of Advertising Study. He expressed that the achievements of Journal of Advertising Study in the five years were obvious to all, and the magazine had developed its own style along with continuous increase of its influence in the academic community and the industry.  \n\nOn behalf of Department of Social Sciences of Peking University, Qun Xiao expressed warm congratulations on the opening of the conference, and extended sincere welcome to all guests at the conference. At the same time, he hopes that scholars could take advantage of the platform of Journal of Advertising Study to accept the opinions of scholars of other disciplines and industry experts with a forward- looking vision and work hard to promote the academic standards and"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "social reputation of the study of advertising to a higher level.",
+          "bbox": {
+            "x1": 68,
+            "y1": 85,
+            "x2": 501,
+            "y2": 103
+          },
+          "bbox_list": [
+            68,
+            85,
+            501,
+            103
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Junjie Ding expressed that, the higher education and study theories of advertising in China shall advocate the high, accurate and leading academic requirements. In addition to the supply of talents with strong practical capabilities, the higher education for advertising shall fulfill the responsibility of leading the academic development and promoting the advertising industry to forge ahead toward the direction of healthy and sustainable development. At presents, the academic studies about advertising still have much space for improvement, like insufficient planning, insufficient accumulation, certain drawbacks in academic standardization. He hoped that Journal of Advertising Study could continue its contribution to the improvement of the overall level of the study of advertising in China.",
+          "bbox": {
+            "x1": 66,
+            "y1": 113,
+            "x2": 925,
+            "y2": 312
+          },
+          "bbox_list": [
+            66,
+            113,
+            925,
+            312
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The book donation ceremony promoted the conference to a climax. On behalf of Journal of Advertising Study, Gang Chen, director of the Editorial Board, donated the bound volumes of Journal of Advertising Study in the previous five years to China Association of National Advertisers. At the same time, he declared the generation of a new editorial board for Journal of Advertising Study.",
+          "bbox": {
+            "x1": 67,
+            "y1": 321,
+            "x2": 925,
+            "y2": 432
+          },
+          "bbox_list": [
+            67,
+            321,
+            925,
+            432
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 250,
+            "y1": 440,
+            "x2": 738,
+            "y2": 688
+          },
+          "bbox_list": [
+            250,
+            440,
+            738,
+            688
+          ]
+        },
+        {
+          "block_id": "p4_b4",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Journal of Advertising Study is the first advertising academic journal in China jointly founded by School of Journalism and Communication of Peking University and Advertising Panorama magazine in 2005.",
+          "bbox": {
+            "x1": 68,
+            "y1": 698,
+            "x2": 925,
+            "y2": 750
+          },
+          "bbox_list": [
+            68,
+            698,
+            925,
+            750
+          ]
+        },
+        {
+          "block_id": "p4_b5",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In the past five years after the initial publication, Journal of Advertising Study totally published 29 issues, releasing more than 460 papers. Authors of such papers involved with 114 higher education institutions and research institutes. The quote rate of such papers keeps increasing year after year.",
+          "bbox": {
+            "x1": 68,
+            "y1": 757,
+            "x2": 925,
+            "y2": 839
+          },
+          "bbox_list": [
+            68,
+            757,
+            925,
+            839
+          ]
+        },
+        {
+          "block_id": "p4_b6",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Editor: Xin Su",
+          "bbox": {
+            "x1": 71,
+            "y1": 880,
+            "x2": 178,
+            "y2": 896
+          },
+          "bbox_list": [
+            71,
+            880,
+            178,
+            896
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nsocial reputation of the study of advertising to a higher level.  \n\nJunjie Ding expressed that, the higher education and study theories of advertising in China shall advocate the high, accurate and leading academic requirements. In addition to the supply of talents with strong practical capabilities, the higher education for advertising shall fulfill the responsibility of leading the academic development and promoting the advertising industry to forge ahead toward the direction of healthy and sustainable development. At presents, the academic studies about advertising still have much space for improvement, like insufficient planning, insufficient accumulation, certain drawbacks in academic standardization. He hoped that Journal of Advertising Study could continue its contribution to the improvement of the overall level of the study of advertising in China.  \n\nThe book donation ceremony promoted the conference to a climax. On behalf of Journal of Advertising Study, Gang Chen, director of the Editorial Board, donated the bound volumes of Journal of Advertising Study in the previous five years to China Association of National Advertisers. At the same time, he declared the generation of a new editorial board for Journal of Advertising Study.  \n\nJournal of Advertising Study is the first advertising academic journal in China jointly founded by School of Journalism and Communication of Peking University and Advertising Panorama magazine in 2005.  \n\nIn the past five years after the initial publication, Journal of Advertising Study totally published 29 issues, releasing more than 460 papers. Authors of such papers involved with 114 higher education institutions and research institutes. The quote rate of such papers keeps increasing year after year.  \n\nEditor: Xin Su"
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Copyright Reserved @Publicity Department of Party Committee of Peking University",
+          "bbox": {
+            "x1": 66,
+            "y1": 87,
+            "x2": 651,
+            "y2": 105
+          },
+          "bbox_list": [
+            66,
+            87,
+            651,
+            105
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nCopyright Reserved @Publicity Department of Party Committee of Peking University"
+    }
+  ],
+  "total_blocks": 18
+}

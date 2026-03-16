@@ -31,8 +31,8 @@ export default function ComparisonView({
 }: ComparisonViewProps) {
   const { t } = useTranslation();
 
-  const FONT_SIZES = [14, 16, 18] as const;
-  const [fontSizeIdx, setFontSizeIdx] = useState(1); // default: 16px (middle)
+  const FONT_SIZES = [13, 14, 16, 18, 20, 22] as const;
+  const [fontSizeIdx, setFontSizeIdx] = useState(2); // default: 16px
   const fontSize = FONT_SIZES[fontSizeIdx];
 
   const orderedSources = columnOrder.map(i => material.sources[i]);

@@ -1,0 +1,1636 @@
+{
+  "exhibit_id": "C3",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Exhibit C-3",
+          "bbox": {
+            "x1": 120,
+            "y1": 455,
+            "x2": 874,
+            "y2": 549
+          },
+          "bbox_list": [
+            120,
+            455,
+            874,
+            549
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit C-3"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 95,
+            "y1": 43,
+            "x2": 178,
+            "y2": 58
+          },
+          "bbox_list": [
+            95,
+            43,
+            178,
+            58
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Final Review of the 13<sup>th</sup> Tiger Roar Award Ended Successfully! _ Review _ Case _ ProcessSohu | News Sports Auto Real Estate Tourism Education Fashion Science and Technology Finance and Economics Entertainment More Barrier Free Login",
+          "bbox": {
+            "x1": 133,
+            "y1": 62,
+            "x2": 850,
+            "y2": 130
+          },
+          "bbox_list": [
+            133,
+            62,
+            850,
+            130
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Final Review of the 13<sup>th</sup> Tiger Roar Award Ended Successfully",
+          "bbox": {
+            "x1": 97,
+            "y1": 168,
+            "x2": 732,
+            "y2": 194
+          },
+          "bbox_list": [
+            97,
+            168,
+            732,
+            194
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Apr. 21, 2022 16:24",
+          "bbox": {
+            "x1": 98,
+            "y1": 236,
+            "x2": 257,
+            "y2": 254
+          },
+          "bbox_list": [
+            98,
+            236,
+            257,
+            254
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "From Apr. 14 to Apr. 16, 2022, final review of 13<sup>th</sup> Tiger Roar Award was ended successfully.",
+          "bbox": {
+            "x1": 98,
+            "y1": 286,
+            "x2": 891,
+            "y2": 336
+          },
+          "bbox_list": [
+            98,
+            286,
+            891,
+            336
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In the past weekend, a \"crucial battle\" exclusively for 92 final review judges, 416 shortlisted companies and over 1,000 selected case works of Tiger Roar Award went quietly, confidentially, intensely and smoothly.",
+          "bbox": {
+            "x1": 100,
+            "y1": 368,
+            "x2": 896,
+            "y2": 435
+          },
+          "bbox_list": [
+            100,
+            368,
+            896,
+            435
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 184,
+            "y1": 471,
+            "x2": 858,
+            "y2": 666
+          },
+          "bbox_list": [
+            184,
+            471,
+            858,
+            666
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To focus on the final review of this Tiger Roar Award, we could see the rigorous and responsible presidium, dedicated and diligent judges, vigorous panel discussion, meticulous work day and night, and full devote to overcome disadvantages such as home- based work...",
+          "bbox": {
+            "x1": 110,
+            "y1": 704,
+            "x2": 903,
+            "y2": 770
+          },
+          "bbox_list": [
+            110,
+            704,
+            903,
+            770
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The moving scenes further bring confidence to the Organizing Committee of Tiger Roar Award. It's their persistence to feelings, warmth and quality that encourages numerous excellent building personnel, leaders and thinkers in Chinese digital marketing",
+          "bbox": {
+            "x1": 111,
+            "y1": 804,
+            "x2": 906,
+            "y2": 871
+          },
+          "bbox_list": [
+            111,
+            804,
+            906,
+            871
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nFinal Review of the 13<sup>th</sup> Tiger Roar Award Ended Successfully! _ Review _ Case _ ProcessSohu | News Sports Auto Real Estate Tourism Education Fashion Science and Technology Finance and Economics Entertainment More Barrier Free Login  \n\n## Final Review of the 13<sup>th</sup> Tiger Roar Award Ended Successfully  \n\nApr. 21, 2022 16:24  \n\nFrom Apr. 14 to Apr. 16, 2022, final review of 13<sup>th</sup> Tiger Roar Award was ended successfully.  \n\nIn the past weekend, a \"crucial battle\" exclusively for 92 final review judges, 416 shortlisted companies and over 1,000 selected case works of Tiger Roar Award went quietly, confidentially, intensely and smoothly.  \n\nTo focus on the final review of this Tiger Roar Award, we could see the rigorous and responsible presidium, dedicated and diligent judges, vigorous panel discussion, meticulous work day and night, and full devote to overcome disadvantages such as home- based work...  \n\nThe moving scenes further bring confidence to the Organizing Committee of Tiger Roar Award. It's their persistence to feelings, warmth and quality that encourages numerous excellent building personnel, leaders and thinkers in Chinese digital marketing"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 94,
+            "y1": 42,
+            "x2": 177,
+            "y2": 57
+          },
+          "bbox_list": [
+            94,
+            42,
+            177,
+            57
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Final Review of the \\(13^{\\text{th}}\\) Tiger Roar Award Ended Successfully! _ Review _ Case _ Process to support the Tiger Roar Award to move forward.",
+          "bbox": {
+            "x1": 94,
+            "y1": 63,
+            "x2": 816,
+            "y2": 113
+          },
+          "bbox_list": [
+            94,
+            63,
+            816,
+            113
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Although the final review of this Tiger Roar Award was held online, the review process, competition rules and panel discussion requirements were successively carried out in a rigorous, strict and serious manner, mainly including meeting of the presidium, opening ceremony, online final review, panel discussion and other key processes.",
+          "bbox": {
+            "x1": 95,
+            "y1": 150,
+            "x2": 895,
+            "y2": 236
+          },
+          "bbox_list": [
+            95,
+            150,
+            895,
+            236
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 180,
+            "y1": 272,
+            "x2": 740,
+            "y2": 584
+          },
+          "bbox_list": [
+            180,
+            272,
+            740,
+            584
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Meeting of the Presidium - Professionalism Comes from Standards",
+          "bbox": {
+            "x1": 186,
+            "y1": 622,
+            "x2": 768,
+            "y2": 643
+          },
+          "bbox_list": [
+            186,
+            622,
+            768,
+            643
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The meeting of the presidium, as an important process for launching review rules, sorting out review process, and clarifying duties of the Chairman, is held one day before each year's final review, so as to help the members of the presidium to understand and strictly abide by the review rules.",
+          "bbox": {
+            "x1": 106,
+            "y1": 681,
+            "x2": 900,
+            "y2": 766
+          },
+          "bbox_list": [
+            106,
+            681,
+            900,
+            766
+          ]
+        },
+        {
+          "block_id": "p3_b6",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The meeting of the presidium of the \\(13^{\\text{th}}\\) Tiger Roar Award was presided over by Jun Yuan, Secretary General of the jury of Tiger Roar Award, where he, together with other members of the presidium, conducted comprehensive interpretation respectively on",
+          "bbox": {
+            "x1": 108,
+            "y1": 802,
+            "x2": 901,
+            "y2": 867
+          },
+          "bbox_list": [
+            108,
+            802,
+            901,
+            867
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nFinal Review of the \\(13^{\\text{th}}\\) Tiger Roar Award Ended Successfully! _ Review _ Case _ Process to support the Tiger Roar Award to move forward.  \n\nAlthough the final review of this Tiger Roar Award was held online, the review process, competition rules and panel discussion requirements were successively carried out in a rigorous, strict and serious manner, mainly including meeting of the presidium, opening ceremony, online final review, panel discussion and other key processes.  \n\nMeeting of the Presidium - Professionalism Comes from Standards  \n\nThe meeting of the presidium, as an important process for launching review rules, sorting out review process, and clarifying duties of the Chairman, is held one day before each year's final review, so as to help the members of the presidium to understand and strictly abide by the review rules.  \n\nThe meeting of the presidium of the \\(13^{\\text{th}}\\) Tiger Roar Award was presided over by Jun Yuan, Secretary General of the jury of Tiger Roar Award, where he, together with other members of the presidium, conducted comprehensive interpretation respectively on"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 96,
+            "y1": 44,
+            "x2": 178,
+            "y2": 59
+          },
+          "bbox_list": [
+            96,
+            44,
+            178,
+            59
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Final Review of the \\(13^{\\mathrm{th}}\\) Tiger Roar Award Ended Successfully! _ Review _ Case _ Process",
+          "bbox": {
+            "x1": 164,
+            "y1": 64,
+            "x2": 816,
+            "y2": 85
+          },
+          "bbox_list": [
+            164,
+            64,
+            816,
+            85
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "case notes, case qualification examination, release of panel judges for final review, composition and responsibility of panel members, review process, review rules, and review standards.",
+          "bbox": {
+            "x1": 96,
+            "y1": 90,
+            "x2": 888,
+            "y2": 156
+          },
+          "bbox_list": [
+            96,
+            90,
+            888,
+            156
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The meeting not only specified the strictness of qualification examination and determined the fairness of case review, but also conveyed the value of case content and defined the principle of case level, such as the institutions and enterprises exposed at 315 evening party, and case content publicized by misdeed celebrities, which defined competition participation qualification in details, and whether the nominated cases of level awards, especially the gold award, were of the guidance of positive values, etc.",
+          "bbox": {
+            "x1": 97,
+            "y1": 191,
+            "x2": 891,
+            "y2": 317
+          },
+          "bbox_list": [
+            97,
+            191,
+            891,
+            317
+          ]
+        },
+        {
+          "block_id": "p4_b4",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "It's the guidance and profession of the members of the presidium that fully shows respect for the judges, the awards, and each competition participant.",
+          "bbox": {
+            "x1": 100,
+            "y1": 352,
+            "x2": 892,
+            "y2": 397
+          },
+          "bbox_list": [
+            100,
+            352,
+            892,
+            397
+          ]
+        },
+        {
+          "block_id": "p4_b5",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Appointment Ceremony - Vitality Comes from People",
+          "bbox": {
+            "x1": 184,
+            "y1": 435,
+            "x2": 654,
+            "y2": 457
+          },
+          "bbox_list": [
+            184,
+            435,
+            654,
+            457
+          ]
+        },
+        {
+          "block_id": "p4_b6",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "One of the biggest highlights of the opening ceremony is the appointment ceremony of judges for final review of the \\(13^{\\mathrm{th}}\\) Tiger Roar Award.",
+          "bbox": {
+            "x1": 105,
+            "y1": 494,
+            "x2": 896,
+            "y2": 539
+          },
+          "bbox_list": [
+            105,
+            494,
+            896,
+            539
+          ]
+        },
+        {
+          "block_id": "p4_b7",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Although the judges for final review could not gather in Nanjing as planned for force majeure, the change of appointment mode had no effect on the serious, rational and practical atmosphere of the final review.",
+          "bbox": {
+            "x1": 107,
+            "y1": 574,
+            "x2": 898,
+            "y2": 641
+          },
+          "bbox_list": [
+            107,
+            574,
+            898,
+            641
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nFinal Review of the \\(13^{\\mathrm{th}}\\) Tiger Roar Award Ended Successfully! _ Review _ Case _ Process  \n\ncase notes, case qualification examination, release of panel judges for final review, composition and responsibility of panel members, review process, review rules, and review standards.  \n\nThe meeting not only specified the strictness of qualification examination and determined the fairness of case review, but also conveyed the value of case content and defined the principle of case level, such as the institutions and enterprises exposed at 315 evening party, and case content publicized by misdeed celebrities, which defined competition participation qualification in details, and whether the nominated cases of level awards, especially the gold award, were of the guidance of positive values, etc.  \n\nIt's the guidance and profession of the members of the presidium that fully shows respect for the judges, the awards, and each competition participant.  \n\nAppointment Ceremony - Vitality Comes from People  \n\nOne of the biggest highlights of the opening ceremony is the appointment ceremony of judges for final review of the \\(13^{\\mathrm{th}}\\) Tiger Roar Award.  \n\nAlthough the judges for final review could not gather in Nanjing as planned for force majeure, the change of appointment mode had no effect on the serious, rational and practical atmosphere of the final review."
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Final Review of the \\(13^{\\text{th}}\\) Tiger Roar Award Ended Successfully! _ Review _ Case _ Process",
+          "bbox": {
+            "x1": 164,
+            "y1": 66,
+            "x2": 816,
+            "y2": 87
+          },
+          "bbox_list": [
+            164,
+            66,
+            816,
+            87
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 195,
+            "y1": 97,
+            "x2": 750,
+            "y2": 303
+          },
+          "bbox_list": [
+            195,
+            97,
+            750,
+            303
+          ]
+        },
+        {
+          "block_id": "p5_b2",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In terms of the mode, 92 judges for final review gathered online, with uniform background, and accepted appointment one by one in an orderly and harmonious manner; in terms of content, the appointment sequence of the final review was subject to appointment of the presidium - appointment of the supervision and examination committee - appointment of judges for group final review. It not only broke the barrier of mode from body and mind to the largest extent and closed the distance among the judges, but also thoroughly integrated the scientific and rigorous principles of review for Tiger Roar Award and vitalized the whole online final review.",
+          "bbox": {
+            "x1": 100,
+            "y1": 341,
+            "x2": 896,
+            "y2": 489
+          },
+          "bbox_list": [
+            100,
+            341,
+            896,
+            489
+          ]
+        },
+        {
+          "block_id": "p5_b3",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Online Final Review - Normative Force Comes from Rules",
+          "bbox": {
+            "x1": 185,
+            "y1": 525,
+            "x2": 696,
+            "y2": 548
+          },
+          "bbox_list": [
+            185,
+            525,
+            696,
+            548
+          ]
+        },
+        {
+          "block_id": "p5_b4",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The orderly process of the final review is not only the window for Tiger Roar Award to show itself to the public and output content value, but also a realization of moving forward with strength and self- breakthrough, presenting the driving force and determination of Tiger Roar, as a creator of digital marketing value, in empowering enterprises' digital transformation to the whole industry.",
+          "bbox": {
+            "x1": 106,
+            "y1": 583,
+            "x2": 900,
+            "y2": 692
+          },
+          "bbox_list": [
+            106,
+            583,
+            900,
+            692
+          ]
+        },
+        {
+          "block_id": "p5_b5",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Speech of Xubin Chen, Founder of Tiger Roar Award",
+          "bbox": {
+            "x1": 189,
+            "y1": 728,
+            "x2": 655,
+            "y2": 750
+          },
+          "bbox_list": [
+            189,
+            728,
+            655,
+            750
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nFinal Review of the \\(13^{\\text{th}}\\) Tiger Roar Award Ended Successfully! _ Review _ Case _ Process  \n\nIn terms of the mode, 92 judges for final review gathered online, with uniform background, and accepted appointment one by one in an orderly and harmonious manner; in terms of content, the appointment sequence of the final review was subject to appointment of the presidium - appointment of the supervision and examination committee - appointment of judges for group final review. It not only broke the barrier of mode from body and mind to the largest extent and closed the distance among the judges, but also thoroughly integrated the scientific and rigorous principles of review for Tiger Roar Award and vitalized the whole online final review.  \n\n## Online Final Review - Normative Force Comes from Rules  \n\nThe orderly process of the final review is not only the window for Tiger Roar Award to show itself to the public and output content value, but also a realization of moving forward with strength and self- breakthrough, presenting the driving force and determination of Tiger Roar, as a creator of digital marketing value, in empowering enterprises' digital transformation to the whole industry.  \n\nSpeech of Xubin Chen, Founder of Tiger Roar Award"
+    },
+    {
+      "page_number": 6,
+      "text_blocks": [
+        {
+          "block_id": "p6_b0",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 115,
+            "y1": 44,
+            "x2": 192,
+            "y2": 59
+          },
+          "bbox_list": [
+            115,
+            44,
+            192,
+            59
+          ]
+        },
+        {
+          "block_id": "p6_b1",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Final Review of the \\(13^{\\mathrm{th}}\\) Tiger Roar Award Ended Successfully! _ Review _ Case _ Process",
+          "bbox": {
+            "x1": 164,
+            "y1": 65,
+            "x2": 816,
+            "y2": 85
+          },
+          "bbox_list": [
+            164,
+            65,
+            816,
+            85
+          ]
+        },
+        {
+          "block_id": "p6_b2",
+          "page_number": 6,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 177,
+            "y1": 92,
+            "x2": 660,
+            "y2": 290
+          },
+          "bbox_list": [
+            177,
+            92,
+            660,
+            290
+          ]
+        },
+        {
+          "block_id": "p6_b3",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "At the beginning of the final review, Mr. Xubin Chen, Founder of Tiger Roar Award, sincerely expressed his gratitude to the judges in the key words of \"feelings\" and \"rigorous\", and further emphasized on the process and rules of the final review.",
+          "bbox": {
+            "x1": 101,
+            "y1": 328,
+            "x2": 894,
+            "y2": 394
+          },
+          "bbox_list": [
+            101,
+            328,
+            894,
+            394
+          ]
+        },
+        {
+          "block_id": "p6_b4",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Facing the sudden disruption of rhythm, he mentioned that \"Although failing to meet you in person, sometimes regret shows how valuable it is to meet later\", encouraged every attending judge with a positive attitude, and noted that the quality of the final review of Tiger Roar Award will not be affected by the change of the review mode.",
+          "bbox": {
+            "x1": 102,
+            "y1": 430,
+            "x2": 896,
+            "y2": 516
+          },
+          "bbox_list": [
+            102,
+            430,
+            896,
+            516
+          ]
+        },
+        {
+          "block_id": "p6_b5",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In addition, facing the large increase in the quantity of various kinds of cases, Xubin Chen said it's both motivation and pressure. Considering the actual time factor, the term for this final review was set as three days. Compared with the previous offline final reviews, the term for judges' scoring was prolonged, so as to finish review in high quality.",
+          "bbox": {
+            "x1": 105,
+            "y1": 551,
+            "x2": 899,
+            "y2": 638
+          },
+          "bbox_list": [
+            105,
+            551,
+            899,
+            638
+          ]
+        },
+        {
+          "block_id": "p6_b6",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Release of Review Members by Xiaodong Zheng, Chairman of the Jury",
+          "bbox": {
+            "x1": 186,
+            "y1": 675,
+            "x2": 806,
+            "y2": 697
+          },
+          "bbox_list": [
+            186,
+            675,
+            806,
+            697
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nFinal Review of the \\(13^{\\mathrm{th}}\\) Tiger Roar Award Ended Successfully! _ Review _ Case _ Process  \n\nAt the beginning of the final review, Mr. Xubin Chen, Founder of Tiger Roar Award, sincerely expressed his gratitude to the judges in the key words of \"feelings\" and \"rigorous\", and further emphasized on the process and rules of the final review.  \n\nFacing the sudden disruption of rhythm, he mentioned that \"Although failing to meet you in person, sometimes regret shows how valuable it is to meet later\", encouraged every attending judge with a positive attitude, and noted that the quality of the final review of Tiger Roar Award will not be affected by the change of the review mode.  \n\nIn addition, facing the large increase in the quantity of various kinds of cases, Xubin Chen said it's both motivation and pressure. Considering the actual time factor, the term for this final review was set as three days. Compared with the previous offline final reviews, the term for judges' scoring was prolonged, so as to finish review in high quality.  \n\nRelease of Review Members by Xiaodong Zheng, Chairman of the Jury"
+    },
+    {
+      "page_number": 7,
+      "text_blocks": [
+        {
+          "block_id": "p7_b0",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 115,
+            "y1": 45,
+            "x2": 180,
+            "y2": 59
+          },
+          "bbox_list": [
+            115,
+            45,
+            180,
+            59
+          ]
+        },
+        {
+          "block_id": "p7_b1",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Final Review of the \\(13^{\\mathrm{th}}\\) Tiger Roar Award Ended Successfully! _ Review _ Case _ Process",
+          "bbox": {
+            "x1": 165,
+            "y1": 65,
+            "x2": 816,
+            "y2": 85
+          },
+          "bbox_list": [
+            165,
+            65,
+            816,
+            85
+          ]
+        },
+        {
+          "block_id": "p7_b2",
+          "page_number": 7,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 176,
+            "y1": 92,
+            "x2": 645,
+            "y2": 294
+          },
+          "bbox_list": [
+            176,
+            92,
+            645,
+            294
+          ]
+        },
+        {
+          "block_id": "p7_b3",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "After the appointment ceremony, Mr. Xiaodong Zheng, Chairman of the jury, shared breakthroughs of the \\(13^{\\mathrm{th}}\\) Tiger Roar Award in terms of competition collection data and the composition of judges of this session's Tiger Roar Award. Taking the post of Chairman of the jury of Tiger Roar Award for the second time, Xiaodong Zheng expressed his gratitude to the trust of the organizing committee of Tiger Roar Award, \"It's not only an honor, but also a trust\".",
+          "bbox": {
+            "x1": 101,
+            "y1": 330,
+            "x2": 896,
+            "y2": 459
+          },
+          "bbox_list": [
+            101,
+            330,
+            896,
+            459
+          ]
+        },
+        {
+          "block_id": "p7_b4",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Later, Xiaodong Zheng made a detailed instruction on the collection of the awards. He mentioned that the \\(13^{\\mathrm{th}}\\) Tiger Roar Award altogether received more than 4,000 case works of various categories (with a year- on- year growth of \\(22\\%\\) ) from more than 800 participating companies (with a year- on- year growth of \\(17\\%\\) ). Over \\(50\\%\\) 's participating companies were selected out for final review upon online review, to be specific, 416 companies. As to the whole case works, more than 1,000 works were selected out for final review, with the proportion of finalists of case works not higher than \\(27.5\\%\\) of the total cases.",
+          "bbox": {
+            "x1": 105,
+            "y1": 491,
+            "x2": 902,
+            "y2": 640
+          },
+          "bbox_list": [
+            105,
+            491,
+            902,
+            640
+          ]
+        },
+        {
+          "block_id": "p7_b5",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In the end, Xiaodong Zheng reminded and specified to the members of the presidium again to exercise functions and powers of reviewer with caution, and to lead the panel judges with impartiality, objectivity, high standards and strict requirements, to select out excellent works that could represent the positive values of the industry.",
+          "bbox": {
+            "x1": 110,
+            "y1": 674,
+            "x2": 902,
+            "y2": 761
+          },
+          "bbox_list": [
+            110,
+            674,
+            902,
+            761
+          ]
+        },
+        {
+          "block_id": "p7_b6",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Jun Yao, Chairman of Supervision and Examination Committee, Released Review Process and Rules",
+          "bbox": {
+            "x1": 112,
+            "y1": 794,
+            "x2": 902,
+            "y2": 840
+          },
+          "bbox_list": [
+            112,
+            794,
+            902,
+            840
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nFinal Review of the \\(13^{\\mathrm{th}}\\) Tiger Roar Award Ended Successfully! _ Review _ Case _ Process  \n\nAfter the appointment ceremony, Mr. Xiaodong Zheng, Chairman of the jury, shared breakthroughs of the \\(13^{\\mathrm{th}}\\) Tiger Roar Award in terms of competition collection data and the composition of judges of this session's Tiger Roar Award. Taking the post of Chairman of the jury of Tiger Roar Award for the second time, Xiaodong Zheng expressed his gratitude to the trust of the organizing committee of Tiger Roar Award, \"It's not only an honor, but also a trust\".  \n\nLater, Xiaodong Zheng made a detailed instruction on the collection of the awards. He mentioned that the \\(13^{\\mathrm{th}}\\) Tiger Roar Award altogether received more than 4,000 case works of various categories (with a year- on- year growth of \\(22\\%\\) ) from more than 800 participating companies (with a year- on- year growth of \\(17\\%\\) ). Over \\(50\\%\\) 's participating companies were selected out for final review upon online review, to be specific, 416 companies. As to the whole case works, more than 1,000 works were selected out for final review, with the proportion of finalists of case works not higher than \\(27.5\\%\\) of the total cases.  \n\nIn the end, Xiaodong Zheng reminded and specified to the members of the presidium again to exercise functions and powers of reviewer with caution, and to lead the panel judges with impartiality, objectivity, high standards and strict requirements, to select out excellent works that could represent the positive values of the industry.  \n\nJun Yao, Chairman of Supervision and Examination Committee, Released Review Process and Rules"
+    },
+    {
+      "page_number": 8,
+      "text_blocks": [
+        {
+          "block_id": "p8_b0",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 115,
+            "y1": 45,
+            "x2": 192,
+            "y2": 60
+          },
+          "bbox_list": [
+            115,
+            45,
+            192,
+            60
+          ]
+        },
+        {
+          "block_id": "p8_b1",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Final Review of the \\(13^{\\mathrm{th}}\\) Tiger Roar Award Ended Successfully! _ Review _ Case _ Process",
+          "bbox": {
+            "x1": 163,
+            "y1": 64,
+            "x2": 816,
+            "y2": 84
+          },
+          "bbox_list": [
+            163,
+            64,
+            816,
+            84
+          ]
+        },
+        {
+          "block_id": "p8_b2",
+          "page_number": 8,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 176,
+            "y1": 95,
+            "x2": 660,
+            "y2": 300
+          },
+          "bbox_list": [
+            176,
+            95,
+            660,
+            300
+          ]
+        },
+        {
+          "block_id": "p8_b3",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "As the Chairman of the supervision and examination committee, Mr. Jun Yao interpreted the process and rules of final review for the concerned judges.",
+          "bbox": {
+            "x1": 102,
+            "y1": 338,
+            "x2": 892,
+            "y2": 383
+          },
+          "bbox_list": [
+            102,
+            338,
+            892,
+            383
+          ]
+        },
+        {
+          "block_id": "p8_b4",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Firstly, Jun Yao explained the major adjustment to the structural setting of the jury of this year's Tiger Roar Award, where it's the first time to place the supervision and examination committee independent from the jury, and the supervision and examination committee would take full charge of the supervision and examination process and the quality control, and be accountable to the organizing committee of Tiger Roar Award together with the jury.",
+          "bbox": {
+            "x1": 104,
+            "y1": 418,
+            "x2": 897,
+            "y2": 526
+          },
+          "bbox_list": [
+            104,
+            418,
+            897,
+            526
+          ]
+        },
+        {
+          "block_id": "p8_b5",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Later, he emphasized judge avoidance, motions and seconds for panel discussion and other important principles involved in the final review of this Tiger Roar Award, and read out the Confidentiality Undertaking of Judge of the \\(13^{\\mathrm{th}}\\) (2021- 2022) Tiger Roar Award, to urge the supervision and examination chairmen to exercise respective functions and powers independently without interference, and to insist on review principles and bottom lines.",
+          "bbox": {
+            "x1": 108,
+            "y1": 560,
+            "x2": 901,
+            "y2": 689
+          },
+          "bbox_list": [
+            108,
+            560,
+            901,
+            689
+          ]
+        },
+        {
+          "block_id": "p8_b6",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Speech of Xisha Li, Chairman of China Advertising Association of Commerce & Chairman of Organizing Committee of Tiger Roar Award",
+          "bbox": {
+            "x1": 112,
+            "y1": 721,
+            "x2": 901,
+            "y2": 767
+          },
+          "bbox_list": [
+            112,
+            721,
+            901,
+            767
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nFinal Review of the \\(13^{\\mathrm{th}}\\) Tiger Roar Award Ended Successfully! _ Review _ Case _ Process  \n\nAs the Chairman of the supervision and examination committee, Mr. Jun Yao interpreted the process and rules of final review for the concerned judges.  \n\nFirstly, Jun Yao explained the major adjustment to the structural setting of the jury of this year's Tiger Roar Award, where it's the first time to place the supervision and examination committee independent from the jury, and the supervision and examination committee would take full charge of the supervision and examination process and the quality control, and be accountable to the organizing committee of Tiger Roar Award together with the jury.  \n\nLater, he emphasized judge avoidance, motions and seconds for panel discussion and other important principles involved in the final review of this Tiger Roar Award, and read out the Confidentiality Undertaking of Judge of the \\(13^{\\mathrm{th}}\\) (2021- 2022) Tiger Roar Award, to urge the supervision and examination chairmen to exercise respective functions and powers independently without interference, and to insist on review principles and bottom lines.  \n\nSpeech of Xisha Li, Chairman of China Advertising Association of Commerce & Chairman of Organizing Committee of Tiger Roar Award"
+    },
+    {
+      "page_number": 9,
+      "text_blocks": [
+        {
+          "block_id": "p9_b0",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 115,
+            "y1": 46,
+            "x2": 180,
+            "y2": 61
+          },
+          "bbox_list": [
+            115,
+            46,
+            180,
+            61
+          ]
+        },
+        {
+          "block_id": "p9_b1",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Final Review of the \\(13^{\\mathrm{th}}\\) Tiger Roar Award Ended Successfully! _ Review _ Case _ Process",
+          "bbox": {
+            "x1": 165,
+            "y1": 66,
+            "x2": 816,
+            "y2": 86
+          },
+          "bbox_list": [
+            165,
+            66,
+            816,
+            86
+          ]
+        },
+        {
+          "block_id": "p9_b2",
+          "page_number": 9,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 177,
+            "y1": 92,
+            "x2": 660,
+            "y2": 303
+          },
+          "bbox_list": [
+            177,
+            92,
+            660,
+            303
+          ]
+        },
+        {
+          "block_id": "p9_b3",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In the end of the opening ceremony, the summative speech of Chairman Xisha Li made it clearer to all attendees of the responsibilities and faiths needed in the era of digital economy to bring mutual assistance between the competition platform and quality content, to constantly output high- quality innovative content, to shoulder the responsibility and mission of the development of digital economy, and to explore brand new growth point of market- oriented economy in the broad environment.",
+          "bbox": {
+            "x1": 102,
+            "y1": 340,
+            "x2": 897,
+            "y2": 469
+          },
+          "bbox_list": [
+            102,
+            340,
+            897,
+            469
+          ]
+        },
+        {
+          "block_id": "p9_b4",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Considering the enthusiastic participation of 92 judges for final review, he further conveyed his sentiment and concerns, and shared with all attendees his key ideas in normalized pandemic.",
+          "bbox": {
+            "x1": 105,
+            "y1": 501,
+            "x2": 897,
+            "y2": 569
+          },
+          "bbox_list": [
+            105,
+            501,
+            897,
+            569
+          ]
+        },
+        {
+          "block_id": "p9_b5",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"Judges for the final review of Tiger Roar Award are benchmark and leading figures of the digital marketing industry. Based on the review of this competition, on the one hand, I hope you can find quality content from the cases, and explore methodology leading the healthy development of the industry; on the other hand, I hope you could have a restricted view of the review to think on what every digital personnel could do in the rapid development of digital economy, and rethink on what kind of energy digital marketing could bring to the digital economy when getting back into the routine.\"",
+          "bbox": {
+            "x1": 106,
+            "y1": 601,
+            "x2": 902,
+            "y2": 752
+          },
+          "bbox_list": [
+            106,
+            601,
+            902,
+            752
+          ]
+        },
+        {
+          "block_id": "p9_b6",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In the end, Chairman Xisha Li expressed his good vision on the industry, expecting that all marketing personnel and all industrial companies could develop and grow into talents and enterprises contributing to the society.",
+          "bbox": {
+            "x1": 112,
+            "y1": 784,
+            "x2": 903,
+            "y2": 854
+          },
+          "bbox_list": [
+            112,
+            784,
+            903,
+            854
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nFinal Review of the \\(13^{\\mathrm{th}}\\) Tiger Roar Award Ended Successfully! _ Review _ Case _ Process  \n\nIn the end of the opening ceremony, the summative speech of Chairman Xisha Li made it clearer to all attendees of the responsibilities and faiths needed in the era of digital economy to bring mutual assistance between the competition platform and quality content, to constantly output high- quality innovative content, to shoulder the responsibility and mission of the development of digital economy, and to explore brand new growth point of market- oriented economy in the broad environment.  \n\nConsidering the enthusiastic participation of 92 judges for final review, he further conveyed his sentiment and concerns, and shared with all attendees his key ideas in normalized pandemic.  \n\n\"Judges for the final review of Tiger Roar Award are benchmark and leading figures of the digital marketing industry. Based on the review of this competition, on the one hand, I hope you can find quality content from the cases, and explore methodology leading the healthy development of the industry; on the other hand, I hope you could have a restricted view of the review to think on what every digital personnel could do in the rapid development of digital economy, and rethink on what kind of energy digital marketing could bring to the digital economy when getting back into the routine.\"  \n\nIn the end, Chairman Xisha Li expressed his good vision on the industry, expecting that all marketing personnel and all industrial companies could develop and grow into talents and enterprises contributing to the society."
+    },
+    {
+      "page_number": 10,
+      "text_blocks": [
+        {
+          "block_id": "p10_b0",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 115,
+            "y1": 46,
+            "x2": 179,
+            "y2": 61
+          },
+          "bbox_list": [
+            115,
+            46,
+            179,
+            61
+          ]
+        },
+        {
+          "block_id": "p10_b1",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Final Review of the \\(13^{\\mathrm{th}}\\) Tiger Roar Award Ended Successfully! _ Review _ Case _ Process",
+          "bbox": {
+            "x1": 164,
+            "y1": 65,
+            "x2": 816,
+            "y2": 87
+          },
+          "bbox_list": [
+            164,
+            65,
+            816,
+            87
+          ]
+        },
+        {
+          "block_id": "p10_b2",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Panel Discussion Comment - Competitiveness Comes from Quality",
+          "bbox": {
+            "x1": 174,
+            "y1": 92,
+            "x2": 757,
+            "y2": 115
+          },
+          "bbox_list": [
+            174,
+            92,
+            757,
+            115
+          ]
+        },
+        {
+          "block_id": "p10_b3",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Panel discussion comment, as a \"key part\" of the final review of each year's Tiger Roar Award, always brings the whole judging atmosphere to a climax.",
+          "bbox": {
+            "x1": 97,
+            "y1": 152,
+            "x2": 889,
+            "y2": 198
+          },
+          "bbox_list": [
+            97,
+            152,
+            889,
+            198
+          ]
+        },
+        {
+          "block_id": "p10_b4",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Upon give- and- back, heated debate, online frequent sharing and mutual persuasion, this year's nine groups of judges finally reached consensus on the strict norms of scoring standards and weigh, reduction and observance of proportion of level awards for various case categories, qualification examination and strict examination for competition participation, further making the review of Tiger Roar Award more professional, more objective and more scientific, and making the winning of Tiger Roar Award more solid, with higher weight and value.",
+          "bbox": {
+            "x1": 98,
+            "y1": 232,
+            "x2": 892,
+            "y2": 360
+          },
+          "bbox_list": [
+            98,
+            232,
+            892,
+            360
+          ]
+        },
+        {
+          "block_id": "p10_b5",
+          "page_number": 10,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 183,
+            "y1": 396,
+            "x2": 840,
+            "y2": 586
+          },
+          "bbox_list": [
+            183,
+            396,
+            840,
+            586
+          ]
+        },
+        {
+          "block_id": "p10_b6",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"Profession\" is Incisively and Vividly Presented.",
+          "bbox": {
+            "x1": 190,
+            "y1": 625,
+            "x2": 606,
+            "y2": 647
+          },
+          "bbox_list": [
+            190,
+            625,
+            606,
+            647
+          ]
+        },
+        {
+          "block_id": "p10_b7",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Some judges prepared a thick stack of comment files on each case before the panel discussion, with highlights and deficiencies recorded; some even further refined each case's data for analysis and comparison, to check whether the case was qualified for registration norms one by one;",
+          "bbox": {
+            "x1": 110,
+            "y1": 682,
+            "x2": 903,
+            "y2": 770
+          },
+          "bbox_list": [
+            110,
+            682,
+            903,
+            770
+          ]
+        },
+        {
+          "block_id": "p10_b8",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In the panel discussion, some judges reported to the chairmen of the jury and the supervision and examination committee without delay the deficiencies exposed in concerned cases, inapplicable review rules and other special conditions, and solved problems under rational",
+          "bbox": {
+            "x1": 113,
+            "y1": 802,
+            "x2": 906,
+            "y2": 871
+          },
+          "bbox_list": [
+            113,
+            802,
+            906,
+            871
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nFinal Review of the \\(13^{\\mathrm{th}}\\) Tiger Roar Award Ended Successfully! _ Review _ Case _ Process  \n\nPanel Discussion Comment - Competitiveness Comes from Quality  \n\nPanel discussion comment, as a \"key part\" of the final review of each year's Tiger Roar Award, always brings the whole judging atmosphere to a climax.  \n\nUpon give- and- back, heated debate, online frequent sharing and mutual persuasion, this year's nine groups of judges finally reached consensus on the strict norms of scoring standards and weigh, reduction and observance of proportion of level awards for various case categories, qualification examination and strict examination for competition participation, further making the review of Tiger Roar Award more professional, more objective and more scientific, and making the winning of Tiger Roar Award more solid, with higher weight and value.  \n\n\"Profession\" is Incisively and Vividly Presented.  \n\nSome judges prepared a thick stack of comment files on each case before the panel discussion, with highlights and deficiencies recorded; some even further refined each case's data for analysis and comparison, to check whether the case was qualified for registration norms one by one;  \n\nIn the panel discussion, some judges reported to the chairmen of the jury and the supervision and examination committee without delay the deficiencies exposed in concerned cases, inapplicable review rules and other special conditions, and solved problems under rational"
+    },
+    {
+      "page_number": 11,
+      "text_blocks": [
+        {
+          "block_id": "p11_b0",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 95,
+            "y1": 45,
+            "x2": 178,
+            "y2": 60
+          },
+          "bbox_list": [
+            95,
+            45,
+            178,
+            60
+          ]
+        },
+        {
+          "block_id": "p11_b1",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Final Review of the \\(13^{\\text{th}}\\) Tiger Roar Award Ended Successfully! _ Review _ Case _ Process discussion and friendly exchange, where they not only exercised their rights correctly and properly, but also fulfilled their responsibilities of the review meticulously;",
+          "bbox": {
+            "x1": 95,
+            "y1": 66,
+            "x2": 888,
+            "y2": 135
+          },
+          "bbox_list": [
+            95,
+            66,
+            888,
+            135
+          ]
+        },
+        {
+          "block_id": "p11_b2",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "After the panel discussion, some judges instigated into the whole industry through the cases, sorted out and reviewed on the trends, changes, highlights and deficiencies shown on the market, to provide penetrating judgement for the review experts and even the industry.",
+          "bbox": {
+            "x1": 96,
+            "y1": 172,
+            "x2": 890,
+            "y2": 237
+          },
+          "bbox_list": [
+            96,
+            172,
+            890,
+            237
+          ]
+        },
+        {
+          "block_id": "p11_b3",
+          "page_number": 11,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 181,
+            "y1": 275,
+            "x2": 635,
+            "y2": 608
+          },
+          "bbox_list": [
+            181,
+            275,
+            635,
+            608
+          ]
+        },
+        {
+          "block_id": "p11_b4",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "No matter how it is or how it is performed, the 92 judges spared no effort and devoted themselves to define \"profession\" with the spirit of \"constantly striving for progress\".",
+          "bbox": {
+            "x1": 108,
+            "y1": 647,
+            "x2": 900,
+            "y2": 691
+          },
+          "bbox_list": [
+            108,
+            647,
+            900,
+            691
+          ]
+        },
+        {
+          "block_id": "p11_b5",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "From the perspective of review, the strict standard in panel discussion is a process setting up the benchmark of the industry. Once the standards are set, all cases shall be subject to the quality. All judges score with the same ruler, and only the cases up to the standards could be selected out. From the perspective of competition participant, the process keeping moving toward the benchmark is also the process of self- improvement. Therefore, the competition of this session's Tiger Roar Award is the fiercest, for that each award- winning case is generated upon strict scoring and debate.",
+          "bbox": {
+            "x1": 109,
+            "y1": 727,
+            "x2": 904,
+            "y2": 875
+          },
+          "bbox_list": [
+            109,
+            727,
+            904,
+            875
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nFinal Review of the \\(13^{\\text{th}}\\) Tiger Roar Award Ended Successfully! _ Review _ Case _ Process discussion and friendly exchange, where they not only exercised their rights correctly and properly, but also fulfilled their responsibilities of the review meticulously;  \n\nAfter the panel discussion, some judges instigated into the whole industry through the cases, sorted out and reviewed on the trends, changes, highlights and deficiencies shown on the market, to provide penetrating judgement for the review experts and even the industry.  \n\nNo matter how it is or how it is performed, the 92 judges spared no effort and devoted themselves to define \"profession\" with the spirit of \"constantly striving for progress\".  \n\nFrom the perspective of review, the strict standard in panel discussion is a process setting up the benchmark of the industry. Once the standards are set, all cases shall be subject to the quality. All judges score with the same ruler, and only the cases up to the standards could be selected out. From the perspective of competition participant, the process keeping moving toward the benchmark is also the process of self- improvement. Therefore, the competition of this session's Tiger Roar Award is the fiercest, for that each award- winning case is generated upon strict scoring and debate."
+    },
+    {
+      "page_number": 12,
+      "text_blocks": [
+        {
+          "block_id": "p12_b0",
+          "page_number": 12,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 96,
+            "y1": 45,
+            "x2": 178,
+            "y2": 60
+          },
+          "bbox_list": [
+            96,
+            45,
+            178,
+            60
+          ]
+        },
+        {
+          "block_id": "p12_b1",
+          "page_number": 12,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Final Review of the \\(13^{\\mathrm{th}}\\) Tiger Roar Award Ended Successfully! _ Review _ Case _ Process",
+          "bbox": {
+            "x1": 164,
+            "y1": 66,
+            "x2": 816,
+            "y2": 87
+          },
+          "bbox_list": [
+            164,
+            66,
+            816,
+            87
+          ]
+        },
+        {
+          "block_id": "p12_b2",
+          "page_number": 12,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The formal conclusion of the final review is not the end, but the start of Tiger Roar Award putting forward higher requirements on awarding winning cases' quality, competition rules, category setting, qualification examination and concerned details. We are looking forward to see more abundant, more innovative and more excellent works in future Tiger Roar Award selection, so as to leave more stories worth recording for the surging era.",
+          "bbox": {
+            "x1": 95,
+            "y1": 121,
+            "x2": 890,
+            "y2": 229
+          },
+          "bbox_list": [
+            95,
+            121,
+            890,
+            229
+          ]
+        },
+        {
+          "block_id": "p12_b3",
+          "page_number": 12,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Industry is an ecology, and award is a kind of mark. It's the efforts of the judges that the wonderful review results are generated. We would like to express our deepest respect and gratitude to each and every one of the judges again!",
+          "bbox": {
+            "x1": 98,
+            "y1": 262,
+            "x2": 892,
+            "y2": 330
+          },
+          "bbox_list": [
+            98,
+            262,
+            892,
+            330
+          ]
+        },
+        {
+          "block_id": "p12_b4",
+          "page_number": 12,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## About Tiger Roar Award",
+          "bbox": {
+            "x1": 184,
+            "y1": 370,
+            "x2": 401,
+            "y2": 390
+          },
+          "bbox_list": [
+            184,
+            370,
+            401,
+            390
+          ]
+        },
+        {
+          "block_id": "p12_b5",
+          "page_number": 12,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Tiger Roar Award is the comprehensive award of the most professional influence in the digitization of Chinese brand marketing. Guided by the Digital Marketing Committee of China Advertising Association of Commerce, and adhering to the purpose of \"being building personnel of the industry\", Tiger Roar Award is constantly outputting various kinds of value contents for the industry and brand enterprises.",
+          "bbox": {
+            "x1": 102,
+            "y1": 424,
+            "x2": 900,
+            "y2": 533
+          },
+          "bbox_list": [
+            102,
+            424,
+            900,
+            533
+          ]
+        },
+        {
+          "block_id": "p12_b6",
+          "page_number": 12,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Tiger Roar Award has a large jury made up of more than 600 well- known practical experts in the industry. Upon online review, offline final review, defense for gold award and other rigorous and normative review process, it always maintains a gold award winning rate of \\(1\\%\\) . Its principle of putting quality before quantity and ensuring value has selected out and recorded excellent cases of each year for the industry, and has outputted valuable contents to the industry through case insight. By now, Tiger Roar Award has been successfully held for 13 sessions. Back to Sohu to View More",
+          "bbox": {
+            "x1": 105,
+            "y1": 565,
+            "x2": 904,
+            "y2": 715
+          },
+          "bbox_list": [
+            105,
+            565,
+            904,
+            715
+          ]
+        },
+        {
+          "block_id": "p12_b7",
+          "page_number": 12,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Statement: The opinions expressed are solely those of the author. Sohu is an information release platform, providing information storage space services only.",
+          "bbox": {
+            "x1": 110,
+            "y1": 747,
+            "x2": 902,
+            "y2": 790
+          },
+          "bbox_list": [
+            110,
+            747,
+            902,
+            790
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nFinal Review of the \\(13^{\\mathrm{th}}\\) Tiger Roar Award Ended Successfully! _ Review _ Case _ Process  \n\nThe formal conclusion of the final review is not the end, but the start of Tiger Roar Award putting forward higher requirements on awarding winning cases' quality, competition rules, category setting, qualification examination and concerned details. We are looking forward to see more abundant, more innovative and more excellent works in future Tiger Roar Award selection, so as to leave more stories worth recording for the surging era.  \n\nIndustry is an ecology, and award is a kind of mark. It's the efforts of the judges that the wonderful review results are generated. We would like to express our deepest respect and gratitude to each and every one of the judges again!  \n\n## About Tiger Roar Award  \n\nTiger Roar Award is the comprehensive award of the most professional influence in the digitization of Chinese brand marketing. Guided by the Digital Marketing Committee of China Advertising Association of Commerce, and adhering to the purpose of \"being building personnel of the industry\", Tiger Roar Award is constantly outputting various kinds of value contents for the industry and brand enterprises.  \n\nTiger Roar Award has a large jury made up of more than 600 well- known practical experts in the industry. Upon online review, offline final review, defense for gold award and other rigorous and normative review process, it always maintains a gold award winning rate of \\(1\\%\\) . Its principle of putting quality before quantity and ensuring value has selected out and recorded excellent cases of each year for the industry, and has outputted valuable contents to the industry through case insight. By now, Tiger Roar Award has been successfully held for 13 sessions. Back to Sohu to View More  \n\nStatement: The opinions expressed are solely those of the author. Sohu is an information release platform, providing information storage space services only."
+    }
+  ],
+  "total_blocks": 82
+}

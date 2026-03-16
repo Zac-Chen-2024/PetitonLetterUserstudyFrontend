@@ -1,0 +1,389 @@
+{
+  "version": "4.0",
+  "exhibit_id": "E3",
+  "extracted_at": "2026-03-15T21:32:55.048824+00:00",
+  "applicant_name": "Dehuan Liu",
+  "document_summary": "Dehuan Liu's faculty profile page at School of New Media, Peking University. Lists his title as Professor, position as Vice Dean, with a Doctorate degree. Education: BS (1985-1989), MS (1989-1992), PhD (1999-2001) all in Sociology at Peking University. Career: Lecturer (1992-2001), Associate Professor (2002-2007), Professor (2007-2014) at School of J&C, then Professor and Vice Dean at School of New Media (Feb. 2014-present). Also President of CMRA, Vice President of China Association of Market Information and Research, Director of Market and Media Research Center at PKU.",
+  "snippets": [
+    {
+      "snippet_id": "snp_E3_a1b2c3d4",
+      "exhibit_id": "E3",
+      "document_id": "doc_E3",
+      "text": "Title: Professor Position: Vice Dean",
+      "page": 2,
+      "bbox": {
+        "x1": 493,
+        "y1": 455,
+        "x2": 768,
+        "y2": 473
+      },
+      "block_id": "p2_b10",
+      "subject": "Liu's title as Professor and position as Vice Dean",
+      "subject_role": "applicant",
+      "recommender_name": null,
+      "is_applicant_achievement": true,
+      "evidence_type": "leadership",
+      "evidence_purpose": "direct_proof",
+      "evidence_layer": "proof",
+      "confidence": 0.95,
+      "reasoning": "Directly confirms Liu's position as Professor and Vice Dean at PKU School of New Media.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_E3_e5f6a7b8",
+      "exhibit_id": "E3",
+      "document_id": "doc_E3",
+      "text": "Department: School of New Media of Peking University",
+      "page": 2,
+      "bbox": {
+        "x1": 492,
+        "y1": 408,
+        "x2": 900,
+        "y2": 446
+      },
+      "block_id": "p2_b9",
+      "subject": "Liu's department affiliation",
+      "subject_role": "applicant",
+      "recommender_name": null,
+      "is_applicant_achievement": true,
+      "evidence_type": "leadership",
+      "evidence_purpose": "supporting_context",
+      "evidence_layer": "context",
+      "confidence": 0.9,
+      "reasoning": "Confirms Liu's affiliation with PKU School of New Media.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_E3_c9d0e1f2",
+      "exhibit_id": "E3",
+      "document_id": "doc_E3",
+      "text": "Feb. 2014 to the present Professor and Vice Dean of School of New Media of Peking University",
+      "page": 3,
+      "bbox": {
+        "x1": 100,
+        "y1": 260,
+        "x2": 900,
+        "y2": 305
+      },
+      "block_id": "p3_b4",
+      "subject": "Liu's career timeline: Professor and Vice Dean since Feb. 2014",
+      "subject_role": "applicant",
+      "recommender_name": null,
+      "is_applicant_achievement": true,
+      "evidence_type": "leadership",
+      "evidence_purpose": "direct_proof",
+      "evidence_layer": "proof",
+      "confidence": 0.95,
+      "reasoning": "Shows Liu has held the combined Professor and Vice Dean position since Feb. 2014.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_E3_a3b4c5d6",
+      "exhibit_id": "E3",
+      "document_id": "doc_E3",
+      "text": "Currently serving as the of School of New Media of Peking University, President of China Marketing Research Association, Vice President of China Association Of Market Information and Research, Director of Market and Media Research Center of Peking University, and a doctoral supervisor.",
+      "page": 3,
+      "bbox": {
+        "x1": 102,
+        "y1": 310,
+        "x2": 896,
+        "y2": 395
+      },
+      "block_id": "p3_b5",
+      "subject": "Liu's multiple leadership positions: CMRA President, CAMIR VP, Research Center Director, doctoral supervisor",
+      "subject_role": "applicant",
+      "recommender_name": null,
+      "is_applicant_achievement": true,
+      "evidence_type": "leadership",
+      "evidence_purpose": "direct_proof",
+      "evidence_layer": "proof",
+      "confidence": 0.95,
+      "reasoning": "Enumerates Liu's multiple concurrent leadership positions including CMRA President and doctoral supervisor.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_E3_e7f8a9b0",
+      "exhibit_id": "E3",
+      "document_id": "doc_E3",
+      "text": "1985- 1989 Bachelor of Sociology, Sociology Department of Peking University;",
+      "page": 2,
+      "bbox": {
+        "x1": 194,
+        "y1": 808,
+        "x2": 842,
+        "y2": 832
+      },
+      "block_id": "p2_b16",
+      "subject": "Education: Bachelor of Sociology from PKU",
+      "subject_role": "applicant",
+      "recommender_name": null,
+      "is_applicant_achievement": true,
+      "evidence_type": "publication",
+      "evidence_purpose": "supporting_context",
+      "evidence_layer": "context",
+      "confidence": 0.85,
+      "reasoning": "Documents Liu's undergraduate education at PKU Sociology Department.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_E3_666fdeaa",
+      "exhibit_id": "E3",
+      "document_id": "doc_E3",
+      "text": "From Feb. 2005 to Jan. 2006, he served as a visiting scholar at Harvard University.",
+      "page": 3,
+      "bbox": {
+        "x1": 189,
+        "y1": 735,
+        "x2": 864,
+        "y2": 758
+      },
+      "block_id": "p3_b12",
+      "subject": "Dehuan Liu",
+      "subject_role": "applicant",
+      "recommender_name": null,
+      "is_applicant_achievement": true,
+      "evidence_type": "other",
+      "evidence_purpose": "direct_proof",
+      "evidence_layer": "proof",
+      "confidence": 0.95,
+      "reasoning": "Liu served as visiting scholar at Harvard University for nearly a year, demonstrating international academic recognition.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_E3_a8f446ce",
+      "exhibit_id": "E3",
+      "document_id": "doc_E3",
+      "text": "In 2007, he was selected as \"Top Ten Teachers of Peking University\"",
+      "page": 8,
+      "bbox": {
+        "x1": 100,
+        "y1": 400,
+        "x2": 900,
+        "y2": 430
+      },
+      "block_id": "p8_b6",
+      "subject": "Dehuan Liu",
+      "subject_role": "applicant",
+      "recommender_name": null,
+      "is_applicant_achievement": true,
+      "evidence_type": "award",
+      "evidence_purpose": "direct_proof",
+      "evidence_layer": "proof",
+      "confidence": 0.95,
+      "reasoning": "Liu was selected as one of Top Ten Teachers at PKU in 2007, demonstrating exceptional teaching recognition at China's top university.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_E3_f20ee448",
+      "exhibit_id": "E3",
+      "document_id": "doc_E3",
+      "text": "In 2008, he was selected as a scholar of Beijing \"Hundred Talents Project\"",
+      "page": 8,
+      "bbox": {
+        "x1": 100,
+        "y1": 435,
+        "x2": 900,
+        "y2": 465
+      },
+      "block_id": "p8_b7",
+      "subject": "Dehuan Liu",
+      "subject_role": "applicant",
+      "recommender_name": null,
+      "is_applicant_achievement": true,
+      "evidence_type": "award",
+      "evidence_purpose": "direct_proof",
+      "evidence_layer": "proof",
+      "confidence": 0.95,
+      "reasoning": "Selection into Beijing Hundred Talents Project is a prestigious government talent program recognizing exceptional scholars.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_E3_b5a18ab3",
+      "exhibit_id": "E3",
+      "document_id": "doc_E3",
+      "text": "His book Age Theory: Social Time in Social Space won the third prize of the Award for Outstanding Achievements in Scientific Research of Higher Education Institutions (Humanities and Social Sciences).",
+      "page": 8,
+      "bbox": {
+        "x1": 100,
+        "y1": 470,
+        "x2": 900,
+        "y2": 520
+      },
+      "block_id": "p8_b8",
+      "subject": "Dehuan Liu",
+      "subject_role": "applicant",
+      "recommender_name": null,
+      "is_applicant_achievement": true,
+      "evidence_type": "award",
+      "evidence_purpose": "direct_proof",
+      "evidence_layer": "proof",
+      "confidence": 0.95,
+      "reasoning": "Confirms Age Theory won MOE Third Prize - a national-level academic award administered by the Ministry of Education.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_E3_ef0806e8",
+      "exhibit_id": "E3",
+      "document_id": "doc_E3",
+      "text": "8. Age Theory: Social Time in Social Space, China Industry & Commerce Associated Press, Mar. 2007 9. The Future is Happening - Ethnic Groups and Trend of Mobile Phone Users, Dehuan Liu, Xiangqing Liu, Kai Cui, Jing Jing, China Machine Press, May 2012 10. Road to Internet for the Banking Industry, Dehuan Liu, Fei Ji, Xia Li, China Machine Press, Sep. 2012 11. Insight in E-commerce - Research on Online Shopping Consumers, Dehuan Liu, Huafeng Chen, Dongjin Ren, Kai Cui, Jun. 2013 12. Subversion and Reorganization - Community and Nomadic Mobile Phone Users, Dehuan Liu, Kai Cui, Xiangqing Liu, China Machine Press, Jul. 2013 13. The Future without Limits - Comprehensive Structure Industry of Mobile Phone Users, Dehuan Liu, Jie Fu, Kai Cui, China Machine Press, Jun. 2014",
+      "page": 4,
+      "bbox": {
+        "x1": 100,
+        "y1": 116,
+        "x2": 897,
+        "y2": 590
+      },
+      "block_id": "p4_b1",
+      "subject": "Dehuan Liu",
+      "subject_role": "applicant",
+      "recommender_name": null,
+      "is_applicant_achievement": true,
+      "evidence_type": "publication",
+      "evidence_purpose": "direct_proof",
+      "evidence_layer": "proof",
+      "confidence": 0.95,
+      "reasoning": "Official monograph list from PKU CV showing Age Theory, the research trilogy, and other key publications with co-authors and publishers.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    }
+  ],
+  "entities": [
+    {
+      "id": "ent_E3_0",
+      "name": "Dehuan Liu",
+      "type": "person",
+      "identity": "applicant",
+      "relation_to_applicant": "self",
+      "snippet_ids": [
+        "snp_E3_a1b2c3d4",
+        "snp_E3_e5f6a7b8",
+        "snp_E3_c9d0e1f2",
+        "snp_E3_a3b4c5d6",
+        "snp_E3_e7f8a9b0"
+      ],
+      "exhibit_ids": [
+        "E3"
+      ],
+      "mentioned_in_blocks": [
+        "p2_b1",
+        "p2_b8",
+        "p2_b10",
+        "p2_b12"
+      ],
+      "aliases": [],
+      "is_merged": false,
+      "merged_from": []
+    },
+    {
+      "id": "ent_E3_1",
+      "name": "School of New Media of Peking University",
+      "type": "organization",
+      "identity": "department",
+      "relation_to_applicant": "employer",
+      "snippet_ids": [
+        "snp_E3_e5f6a7b8",
+        "snp_E3_c9d0e1f2"
+      ],
+      "exhibit_ids": [
+        "E3"
+      ],
+      "mentioned_in_blocks": [
+        "p2_b1",
+        "p2_b9",
+        "p3_b4"
+      ],
+      "aliases": [],
+      "is_merged": false,
+      "merged_from": []
+    },
+    {
+      "id": "ent_E3_2",
+      "name": "China Marketing Research Association",
+      "type": "organization",
+      "identity": "academic_organization",
+      "relation_to_applicant": "led_by_applicant",
+      "snippet_ids": [
+        "snp_E3_a3b4c5d6"
+      ],
+      "exhibit_ids": [
+        "E3"
+      ],
+      "mentioned_in_blocks": [
+        "p3_b5"
+      ],
+      "aliases": [
+        "CMRA"
+      ],
+      "is_merged": false,
+      "merged_from": []
+    },
+    {
+      "id": "ent_E3_3",
+      "name": "Peking University",
+      "type": "organization",
+      "identity": "university",
+      "relation_to_applicant": "employer",
+      "snippet_ids": [
+        "snp_E3_e7f8a9b0"
+      ],
+      "exhibit_ids": [
+        "E3"
+      ],
+      "mentioned_in_blocks": [
+        "p2_b1",
+        "p2_b16"
+      ],
+      "aliases": [
+        "PKU"
+      ],
+      "is_merged": false,
+      "merged_from": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel_E3_0",
+      "from_entity": "ent_E3_0",
+      "to_entity": "ent_E3_1",
+      "relation_type": "leads",
+      "context": "Liu serves as Vice Dean of School of New Media",
+      "source_snippet_ids": [
+        "snp_E3_a1b2c3d4",
+        "snp_E3_c9d0e1f2"
+      ],
+      "source_blocks": [
+        "p2_b10",
+        "p3_b4"
+      ]
+    },
+    {
+      "id": "rel_E3_1",
+      "from_entity": "ent_E3_0",
+      "to_entity": "ent_E3_2",
+      "relation_type": "leads",
+      "context": "Liu serves as President of CMRA",
+      "source_snippet_ids": [
+        "snp_E3_a3b4c5d6"
+      ],
+      "source_blocks": [
+        "p3_b5"
+      ]
+    }
+  ],
+  "stats": {
+    "snippet_count": 5,
+    "entity_count": 4,
+    "relation_count": 2,
+    "applicant_snippets": 5,
+    "other_snippets": 0
+  }
+}

@@ -1,0 +1,657 @@
+{
+  "exhibit_id": "E11",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit E-11",
+          "bbox": {
+            "x1": 131,
+            "y1": 448,
+            "x2": 860,
+            "y2": 536
+          },
+          "bbox_list": [
+            131,
+            448,
+            860,
+            536
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit E-11"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# crunchbase",
+          "bbox": {
+            "x1": 72,
+            "y1": 52,
+            "x2": 446,
+            "y2": 98
+          },
+          "bbox_list": [
+            72,
+            52,
+            446,
+            98
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# MIXUE Mixuebingcheng",
+          "bbox": {
+            "x1": 70,
+            "y1": 112,
+            "x2": 380,
+            "y2": 140
+          },
+          "bbox_list": [
+            70,
+            112,
+            380,
+            140
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Summary Financials Investments People Technology Signals & News Similar Companies",
+          "bbox": {
+            "x1": 70,
+            "y1": 157,
+            "x2": 951,
+            "y2": 180
+          },
+          "bbox_list": [
+            70,
+            157,
+            951,
+            180
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## About",
+          "bbox": {
+            "x1": 92,
+            "y1": 216,
+            "x2": 163,
+            "y2": 236
+          },
+          "bbox_list": [
+            92,
+            216,
+            163,
+            236
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Mixuebingcheng is a national beverage chain brand.",
+          "bbox": {
+            "x1": 92,
+            "y1": 253,
+            "x2": 494,
+            "y2": 272
+          },
+          "bbox_list": [
+            92,
+            253,
+            494,
+            272
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Henan, Henan, China 10001+ www.mxbc.com/ 2 3,435",
+          "bbox": {
+            "x1": 110,
+            "y1": 289,
+            "x2": 270,
+            "y2": 375
+          },
+          "bbox_list": [
+            110,
+            289,
+            270,
+            375
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Highlights",
+          "bbox": {
+            "x1": 90,
+            "y1": 425,
+            "x2": 206,
+            "y2": 448
+          },
+          "bbox_list": [
+            90,
+            425,
+            206,
+            448
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Investments 1",
+          "bbox": {
+            "x1": 111,
+            "y1": 476,
+            "x2": 216,
+            "y2": 519
+          },
+          "bbox_list": [
+            111,
+            476,
+            216,
+            519
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Total Funding Amount CN¥2B",
+          "bbox": {
+            "x1": 111,
+            "y1": 550,
+            "x2": 295,
+            "y2": 594
+          },
+          "bbox_list": [
+            111,
+            550,
+            295,
+            594
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Employee Profiles 2",
+          "bbox": {
+            "x1": 111,
+            "y1": 624,
+            "x2": 262,
+            "y2": 667
+          },
+          "bbox_list": [
+            111,
+            624,
+            262,
+            667
+          ]
+        },
+        {
+          "block_id": "p2_b10",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Investors 3",
+          "bbox": {
+            "x1": 111,
+            "y1": 698,
+            "x2": 191,
+            "y2": 740
+          },
+          "bbox_list": [
+            111,
+            698,
+            191,
+            740
+          ]
+        },
+        {
+          "block_id": "p2_b11",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Similar Companies 2",
+          "bbox": {
+            "x1": 111,
+            "y1": 771,
+            "x2": 267,
+            "y2": 814
+          },
+          "bbox_list": [
+            111,
+            771,
+            267,
+            814
+          ]
+        },
+        {
+          "block_id": "p2_b12",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Recent News & Activity",
+          "bbox": {
+            "x1": 87,
+            "y1": 875,
+            "x2": 345,
+            "y2": 896
+          },
+          "bbox_list": [
+            87,
+            875,
+            345,
+            896
+          ]
+        },
+        {
+          "block_id": "p2_b13",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Funding Round · Apr 24, 2022",
+          "bbox": {
+            "x1": 90,
+            "y1": 913,
+            "x2": 336,
+            "y2": 930
+          },
+          "bbox_list": [
+            90,
+            913,
+            336,
+            930
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# crunchbase  \n\n# MIXUE Mixuebingcheng  \n\nSummary Financials Investments People Technology Signals & News Similar Companies  \n\n## About  \n\nMixuebingcheng is a national beverage chain brand.  \n\nHenan, Henan, China 10001+ www.mxbc.com/ 2 3,435  \n\n## Highlights  \n\nInvestments 1  \n\nTotal Funding Amount CN¥2B  \n\nEmployee Profiles 2  \n\nInvestors 3  \n\nSimilar Companies 2  \n\n## Recent News & Activity  \n\nFunding Round · Apr 24, 2022"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Chicken Catering raised \\(1,430,000 / Corporate Round from Mixuebingcheng Discover more funding rounds",
+          "bbox": {
+            "x1": 98,
+            "y1": 42,
+            "x2": 685,
+            "y2": 78
+          },
+          "bbox_list": [
+            98,
+            42,
+            685,
+            78
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Mixuebingcheng",
+          "bbox": {
+            "x1": 96,
+            "y1": 115,
+            "x2": 373,
+            "y2": 140
+          },
+          "bbox_list": [
+            96,
+            115,
+            373,
+            140
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Summary Financials Investments People Technology Signals & News Similar Companies",
+          "bbox": {
+            "x1": 50,
+            "y1": 159,
+            "x2": 951,
+            "y2": 179
+          },
+          "bbox_list": [
+            50,
+            159,
+            951,
+            179
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Details",
+          "bbox": {
+            "x1": 94,
+            "y1": 219,
+            "x2": 173,
+            "y2": 238
+          },
+          "bbox_list": [
+            94,
+            219,
+            173,
+            238
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Headquarters Regions Asia- Pacific (APAC)",
+          "bbox": {
+            "x1": 98,
+            "y1": 265,
+            "x2": 281,
+            "y2": 298
+          },
+          "bbox_list": [
+            98,
+            265,
+            281,
+            298
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Founded Date 1997",
+          "bbox": {
+            "x1": 98,
+            "y1": 317,
+            "x2": 213,
+            "y2": 348
+          },
+          "bbox_list": [
+            98,
+            317,
+            213,
+            348
+          ]
+        },
+        {
+          "block_id": "p3_b6",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Founders Zhang Hongchao, Zhang Hongfu",
+          "bbox": {
+            "x1": 98,
+            "y1": 370,
+            "x2": 348,
+            "y2": 403
+          },
+          "bbox_list": [
+            98,
+            370,
+            348,
+            403
+          ]
+        },
+        {
+          "block_id": "p3_b7",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Operating Status Active",
+          "bbox": {
+            "x1": 98,
+            "y1": 422,
+            "x2": 237,
+            "y2": 454
+          },
+          "bbox_list": [
+            98,
+            422,
+            237,
+            454
+          ]
+        },
+        {
+          "block_id": "p3_b8",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Last Funding Type Series A",
+          "bbox": {
+            "x1": 98,
+            "y1": 474,
+            "x2": 248,
+            "y2": 506
+          },
+          "bbox_list": [
+            98,
+            474,
+            248,
+            506
+          ]
+        },
+        {
+          "block_id": "p3_b9",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Also Known As 蜜雪冰城, MXBC",
+          "bbox": {
+            "x1": 98,
+            "y1": 526,
+            "x2": 224,
+            "y2": 558
+          },
+          "bbox_list": [
+            98,
+            526,
+            224,
+            558
+          ]
+        },
+        {
+          "block_id": "p3_b10",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Hub Tags Unicorn",
+          "bbox": {
+            "x1": 98,
+            "y1": 578,
+            "x2": 176,
+            "y2": 609
+          },
+          "bbox_list": [
+            98,
+            578,
+            176,
+            609
+          ]
+        },
+        {
+          "block_id": "p3_b11",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Phone Number 400- 700- 6146",
+          "bbox": {
+            "x1": 98,
+            "y1": 650,
+            "x2": 221,
+            "y2": 682
+          },
+          "bbox_list": [
+            98,
+            650,
+            221,
+            682
+          ]
+        },
+        {
+          "block_id": "p3_b12",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Mixuebingcheng is a national chain brand that sells fresh ice cream and tea to teenagers. It is dedicated to promoting better and faster growth in the global ice cream and tea industries. It has always adhered to the principle of high quality at a low price since its inception in 1997.",
+          "bbox": {
+            "x1": 98,
+            "y1": 700,
+            "x2": 901,
+            "y2": 746
+          },
+          "bbox_list": [
+            98,
+            700,
+            901,
+            746
+          ]
+        },
+        {
+          "block_id": "p3_b13",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Lists Featuring This Company",
+          "bbox": {
+            "x1": 94,
+            "y1": 797,
+            "x2": 424,
+            "y2": 820
+          },
+          "bbox_list": [
+            94,
+            797,
+            424,
+            820
+          ]
+        },
+        {
+          "block_id": "p3_b14",
+          "page_number": 3,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 98,
+            "y1": 844,
+            "x2": 195,
+            "y2": 917
+          },
+          "bbox_list": [
+            98,
+            844,
+            195,
+            917
+          ]
+        },
+        {
+          "block_id": "p3_b15",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Asia Companies With More Than 10 Employees (Top 10K)",
+          "bbox": {
+            "x1": 219,
+            "y1": 872,
+            "x2": 661,
+            "y2": 889
+          },
+          "bbox_list": [
+            219,
+            872,
+            661,
+            889
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nChicken Catering raised \\(1,430,000 / Corporate Round from Mixuebingcheng Discover more funding rounds  \n\n## Mixuebingcheng  \n\nSummary Financials Investments People Technology Signals & News Similar Companies  \n\n## Details  \n\nHeadquarters Regions Asia- Pacific (APAC)  \n\nFounded Date 1997  \n\nFounders Zhang Hongchao, Zhang Hongfu  \n\nOperating Status Active  \n\nLast Funding Type Series A  \n\nAlso Known As 蜜雪冰城, MXBC  \n\nHub Tags Unicorn  \n\nPhone Number 400- 700- 6146  \n\nMixuebingcheng is a national chain brand that sells fresh ice cream and tea to teenagers. It is dedicated to promoting better and faster growth in the global ice cream and tea industries. It has always adhered to the principle of high quality at a low price since its inception in 1997.  \n\n## Lists Featuring This Company  \n\nAsia Companies With More Than 10 Employees (Top 10K)"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 67,
+            "y1": 45,
+            "x2": 930,
+            "y2": 333
+          },
+          "bbox_list": [
+            67,
+            45,
+            930,
+            333
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 60,
+            "y1": 375,
+            "x2": 930,
+            "y2": 955
+          },
+          "bbox_list": [
+            60,
+            375,
+            930,
+            955
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n====================="
+    }
+  ],
+  "total_blocks": 33
+}

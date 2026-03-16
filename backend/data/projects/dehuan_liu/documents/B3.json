@@ -1,0 +1,1573 @@
+{
+  "exhibit_id": "B3",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit B-3",
+          "bbox": {
+            "x1": 120,
+            "y1": 451,
+            "x2": 870,
+            "y2": 550
+          },
+          "bbox_list": [
+            120,
+            451,
+            870,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit B-3"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 115,
+            "y1": 88,
+            "x2": 186,
+            "y2": 101
+          },
+          "bbox_list": [
+            115,
+            88,
+            186,
+            101
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The List of Individual and Enterprise Winners of First Umeng + 2019 UBDC \"Data Awards\" was Announced",
+          "bbox": {
+            "x1": 150,
+            "y1": 109,
+            "x2": 800,
+            "y2": 127
+          },
+          "bbox_list": [
+            150,
+            109,
+            800,
+            127
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Umenq+ Products Developer Center Community Brand Dynamics Log in",
+          "bbox": {
+            "x1": 170,
+            "y1": 168,
+            "x2": 878,
+            "y2": 189
+          },
+          "bbox_list": [
+            170,
+            168,
+            878,
+            189
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# The List of Individual and Enterprise Winners of the First Umeng + 2019",
+          "bbox": {
+            "x1": 141,
+            "y1": 212,
+            "x2": 861,
+            "y2": 236
+          },
+          "bbox_list": [
+            141,
+            212,
+            861,
+            236
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "UBDC \"Data Awards\" was Announced",
+          "bbox": {
+            "x1": 310,
+            "y1": 251,
+            "x2": 693,
+            "y2": 273
+          },
+          "bbox_list": [
+            310,
+            251,
+            693,
+            273
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Latest News · Brand News",
+          "bbox": {
+            "x1": 190,
+            "y1": 301,
+            "x2": 434,
+            "y2": 321
+          },
+          "bbox_list": [
+            190,
+            301,
+            434,
+            321
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "16018",
+          "bbox": {
+            "x1": 189,
+            "y1": 341,
+            "x2": 271,
+            "y2": 360
+          },
+          "bbox_list": [
+            189,
+            341,
+            271,
+            360
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Nov. 19, 2019",
+          "bbox": {
+            "x1": 189,
+            "y1": 373,
+            "x2": 331,
+            "y2": 393
+          },
+          "bbox_list": [
+            189,
+            373,
+            331,
+            393
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Abstract: \"Data Awards\" has the same pronunciation as \"beacon\" in Chinese. As one of the most influential awards in the field of mobile Internet, it aims to motivate benchmarking enterprises for data- based construction in the big data industry, as well as experts with outstanding contributions and influence, to jointly lead the forward development of the industry and promote the intelligent process of industry data.",
+          "bbox": {
+            "x1": 116,
+            "y1": 404,
+            "x2": 891,
+            "y2": 516
+          },
+          "bbox_list": [
+            116,
+            404,
+            891,
+            516
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "On Nov. 19, the 2019 Universal Big Data Conference with the theme of \"Gathering in the Cloud · Seeing the Extraordinary\" was held in Beijing. Xinyu Peng, CEO of Umeng +, Jinpeng Luo, President of Umeng + jointly discussed the trend and application of data intelligence with more than 40 well- known enterprise leaders and industry experts; shared how to establish a data intelligence platform, how to use the advantages of cloud technology to solve the problem of enterprise data, and jointly helped and promoted the industry to accelerate the process of data.",
+          "bbox": {
+            "x1": 117,
+            "y1": 526,
+            "x2": 891,
+            "y2": 661
+          },
+          "bbox_list": [
+            117,
+            526,
+            891,
+            661
+          ]
+        },
+        {
+          "block_id": "p2_b10",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In addition to wonderful theme sharing and cutting- edge technical ability exhibition of guests at the conference, the much- anticipated winners of the first \"Data Awards\" 2019 were also announced at the main conference venue.",
+          "bbox": {
+            "x1": 119,
+            "y1": 670,
+            "x2": 891,
+            "y2": 737
+          },
+          "bbox_list": [
+            119,
+            670,
+            891,
+            737
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nThe List of Individual and Enterprise Winners of First Umeng + 2019 UBDC \"Data Awards\" was Announced  \n\nUmenq+ Products Developer Center Community Brand Dynamics Log in  \n\n# The List of Individual and Enterprise Winners of the First Umeng + 2019  \n\nUBDC \"Data Awards\" was Announced  \n\nLatest News · Brand News  \n\n16018  \n\nNov. 19, 2019  \n\nAbstract: \"Data Awards\" has the same pronunciation as \"beacon\" in Chinese. As one of the most influential awards in the field of mobile Internet, it aims to motivate benchmarking enterprises for data- based construction in the big data industry, as well as experts with outstanding contributions and influence, to jointly lead the forward development of the industry and promote the intelligent process of industry data.  \n\nOn Nov. 19, the 2019 Universal Big Data Conference with the theme of \"Gathering in the Cloud · Seeing the Extraordinary\" was held in Beijing. Xinyu Peng, CEO of Umeng +, Jinpeng Luo, President of Umeng + jointly discussed the trend and application of data intelligence with more than 40 well- known enterprise leaders and industry experts; shared how to establish a data intelligence platform, how to use the advantages of cloud technology to solve the problem of enterprise data, and jointly helped and promoted the industry to accelerate the process of data.  \n\nIn addition to wonderful theme sharing and cutting- edge technical ability exhibition of guests at the conference, the much- anticipated winners of the first \"Data Awards\" 2019 were also announced at the main conference venue."
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 116,
+            "y1": 87,
+            "x2": 188,
+            "y2": 100
+          },
+          "bbox_list": [
+            116,
+            87,
+            188,
+            100
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The List of Individual and Enterprise Winners of First Umen \\(^+\\) 2019 UBDC \"Data Awards\" was Announced",
+          "bbox": {
+            "x1": 152,
+            "y1": 108,
+            "x2": 802,
+            "y2": 125
+          },
+          "bbox_list": [
+            152,
+            108,
+            802,
+            125
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 195,
+            "y1": 133,
+            "x2": 937,
+            "y2": 484
+          },
+          "bbox_list": [
+            195,
+            133,
+            937,
+            484
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(Some representatives of award- winning enterprises received the awards on stage)",
+          "bbox": {
+            "x1": 216,
+            "y1": 494,
+            "x2": 867,
+            "y2": 514
+          },
+          "bbox_list": [
+            216,
+            494,
+            867,
+            514
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"Helping global enterprises achieve data- based transformation and driving business growth\" is the corporate vision and mission of Umen \\(^+\\) . Through nine years of deep work in the field of big data, Umen \\(^+\\) has become the leader in the field of big data in China. The purpose is to stimulate the industry's data construction benchmark enterprises, as well as outstanding contribution and influence of experts, so as to promote the process of data and intelligence in the industry.",
+          "bbox": {
+            "x1": 118,
+            "y1": 525,
+            "x2": 891,
+            "y2": 660
+          },
+          "bbox_list": [
+            118,
+            525,
+            891,
+            660
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"Data Awards\" is pronounced the same as \"beacon\" in Chinese. As one of the most influential awards in the field of mobile Internet, \"Data Awards\" is jointly launched by Umen \\(^+\\) , Zhongguancun Big Data Industry Alliance, Tsingdata Big Data Industries Association and China Big Data Industry Observation. It aims to encourage the benchmarking enterprises for data- based construction in the industry, as well as experts with outstanding contributions and influence, to jointly lead the forward development of the industry and promote the intelligent process of industry data.",
+          "bbox": {
+            "x1": 118,
+            "y1": 670,
+            "x2": 894,
+            "y2": 824
+          },
+          "bbox_list": [
+            118,
+            670,
+            894,
+            824
+          ]
+        },
+        {
+          "block_id": "p3_b6",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The first \"Data Awards\" in 2019 invited a jury of 21 judges from dozens of authorities and industry experts and scholars including China Academy of Information and Communications Technology, Tsinghua University and Peking University. During the two- month review period,",
+          "bbox": {
+            "x1": 120,
+            "y1": 834,
+            "x2": 894,
+            "y2": 901
+          },
+          "bbox_list": [
+            120,
+            834,
+            894,
+            901
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nThe List of Individual and Enterprise Winners of First Umen \\(^+\\) 2019 UBDC \"Data Awards\" was Announced  \n\n(Some representatives of award- winning enterprises received the awards on stage)  \n\n\"Helping global enterprises achieve data- based transformation and driving business growth\" is the corporate vision and mission of Umen \\(^+\\) . Through nine years of deep work in the field of big data, Umen \\(^+\\) has become the leader in the field of big data in China. The purpose is to stimulate the industry's data construction benchmark enterprises, as well as outstanding contribution and influence of experts, so as to promote the process of data and intelligence in the industry.  \n\n\"Data Awards\" is pronounced the same as \"beacon\" in Chinese. As one of the most influential awards in the field of mobile Internet, \"Data Awards\" is jointly launched by Umen \\(^+\\) , Zhongguancun Big Data Industry Alliance, Tsingdata Big Data Industries Association and China Big Data Industry Observation. It aims to encourage the benchmarking enterprises for data- based construction in the industry, as well as experts with outstanding contributions and influence, to jointly lead the forward development of the industry and promote the intelligent process of industry data.  \n\nThe first \"Data Awards\" in 2019 invited a jury of 21 judges from dozens of authorities and industry experts and scholars including China Academy of Information and Communications Technology, Tsinghua University and Peking University. During the two- month review period,"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 115,
+            "y1": 88,
+            "x2": 184,
+            "y2": 102
+          },
+          "bbox_list": [
+            115,
+            88,
+            184,
+            102
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The List of Individual and Enterprise Winners of First Umeng + 2019 UBDC \"Data Awards\" was Announced through the development of professional selection models, seven categories of Data Awards finally emerged, with a total of 40 Data enterprises and 28 Data individuals standing out.",
+          "bbox": {
+            "x1": 115,
+            "y1": 110,
+            "x2": 886,
+            "y2": 180
+          },
+          "bbox_list": [
+            115,
+            110,
+            886,
+            180
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## List of Winners in the Enterprise Category of Data Awards in 2019:",
+          "bbox": {
+            "x1": 252,
+            "y1": 224,
+            "x2": 823,
+            "y2": 245
+          },
+          "bbox_list": [
+            252,
+            224,
+            823,
+            245
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Data Awards· Best Data-Driven Growth Award",
+          "bbox": {
+            "x1": 338,
+            "y1": 256,
+            "x2": 739,
+            "y2": 276
+          },
+          "bbox_list": [
+            338,
+            256,
+            739,
+            276
+          ]
+        },
+        {
+          "block_id": "p4_b4",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "They always use the data analysis results to promote business growth, and apply the data in marketing promotion, user operation and other aspects. Through continuous data- driven and self- practice, the business has finally been helped to achieve significant growth. The enterprises who won the Data Awards· Best Data- Driven Growth Award are as follows:",
+          "bbox": {
+            "x1": 114,
+            "y1": 288,
+            "x2": 888,
+            "y2": 378
+          },
+          "bbox_list": [
+            114,
+            288,
+            888,
+            378
+          ]
+        },
+        {
+          "block_id": "p4_b5",
+          "page_number": 4,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 196,
+            "y1": 390,
+            "x2": 925,
+            "y2": 653
+          },
+          "bbox_list": [
+            196,
+            390,
+            925,
+            653
+          ]
+        },
+        {
+          "block_id": "p4_b6",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Data Awards · Best Data Technology Innovation Award",
+          "bbox": {
+            "x1": 309,
+            "y1": 702,
+            "x2": 775,
+            "y2": 722
+          },
+          "bbox_list": [
+            309,
+            702,
+            775,
+            722
+          ]
+        },
+        {
+          "block_id": "p4_b7",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "They have long attached importance to enterprise data technology development, as well as data science team construction. Through constantly digging data value, or using external data analysis tools to explore a variety of application scenarios of data fusion, enterprises can finally achieve sustained and rapid business growth. The enterprises who won the Data Awards · Best Data Technology Innovation Award are as follows:",
+          "bbox": {
+            "x1": 118,
+            "y1": 733,
+            "x2": 891,
+            "y2": 844
+          },
+          "bbox_list": [
+            118,
+            733,
+            891,
+            844
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nThe List of Individual and Enterprise Winners of First Umeng + 2019 UBDC \"Data Awards\" was Announced through the development of professional selection models, seven categories of Data Awards finally emerged, with a total of 40 Data enterprises and 28 Data individuals standing out.  \n\n## List of Winners in the Enterprise Category of Data Awards in 2019:  \n\n## Data Awards· Best Data-Driven Growth Award  \n\nThey always use the data analysis results to promote business growth, and apply the data in marketing promotion, user operation and other aspects. Through continuous data- driven and self- practice, the business has finally been helped to achieve significant growth. The enterprises who won the Data Awards· Best Data- Driven Growth Award are as follows:  \n\n## Data Awards · Best Data Technology Innovation Award  \n\nThey have long attached importance to enterprise data technology development, as well as data science team construction. Through constantly digging data value, or using external data analysis tools to explore a variety of application scenarios of data fusion, enterprises can finally achieve sustained and rapid business growth. The enterprises who won the Data Awards · Best Data Technology Innovation Award are as follows:"
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 116,
+            "y1": 88,
+            "x2": 186,
+            "y2": 101
+          },
+          "bbox_list": [
+            116,
+            88,
+            186,
+            101
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The List of Individual and Enterprise Winners of First Umeng + 2019 UBDC \"Data Awards\" was Announced",
+          "bbox": {
+            "x1": 152,
+            "y1": 110,
+            "x2": 802,
+            "y2": 127
+          },
+          "bbox_list": [
+            152,
+            110,
+            802,
+            127
+          ]
+        },
+        {
+          "block_id": "p5_b2",
+          "page_number": 5,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 194,
+            "y1": 135,
+            "x2": 852,
+            "y2": 428
+          },
+          "bbox_list": [
+            194,
+            135,
+            852,
+            428
+          ]
+        },
+        {
+          "block_id": "p5_b3",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Data Awards \\(\\cdot\\) Dark Horse of the Year Award",
+          "bbox": {
+            "x1": 196,
+            "y1": 472,
+            "x2": 580,
+            "y2": 491
+          },
+          "bbox_list": [
+            196,
+            472,
+            580,
+            491
+          ]
+        },
+        {
+          "block_id": "p5_b4",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "They are in popular and competitive industries, but in a short period of time through data operation, promotion and other means to achieve rapid business growth, and stand out in the industry. The enterprises who won the Data Awards \\(\\cdot\\) Dark Horse of the Year Award are as follows:",
+          "bbox": {
+            "x1": 117,
+            "y1": 503,
+            "x2": 890,
+            "y2": 569
+          },
+          "bbox_list": [
+            117,
+            503,
+            890,
+            569
+          ]
+        },
+        {
+          "block_id": "p5_b5",
+          "page_number": 5,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 196,
+            "y1": 578,
+            "x2": 958,
+            "y2": 844
+          },
+          "bbox_list": [
+            196,
+            578,
+            958,
+            844
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nThe List of Individual and Enterprise Winners of First Umeng + 2019 UBDC \"Data Awards\" was Announced  \n\n## Data Awards \\(\\cdot\\) Dark Horse of the Year Award  \n\nThey are in popular and competitive industries, but in a short period of time through data operation, promotion and other means to achieve rapid business growth, and stand out in the industry. The enterprises who won the Data Awards \\(\\cdot\\) Dark Horse of the Year Award are as follows:  "
+    },
+    {
+      "page_number": 6,
+      "text_blocks": [
+        {
+          "block_id": "p6_b0",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 115,
+            "y1": 89,
+            "x2": 185,
+            "y2": 102
+          },
+          "bbox_list": [
+            115,
+            89,
+            185,
+            102
+          ]
+        },
+        {
+          "block_id": "p6_b1",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The List of Individual and Enterprise Winners of First Umeng + 2019 UBDC \"Data Awards\" was Announced",
+          "bbox": {
+            "x1": 150,
+            "y1": 110,
+            "x2": 800,
+            "y2": 128
+          },
+          "bbox_list": [
+            150,
+            110,
+            800,
+            128
+          ]
+        },
+        {
+          "block_id": "p6_b2",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Data Awards · The Most Popular Award of the Year",
+          "bbox": {
+            "x1": 194,
+            "y1": 138,
+            "x2": 630,
+            "y2": 158
+          },
+          "bbox_list": [
+            194,
+            138,
+            630,
+            158
+          ]
+        },
+        {
+          "block_id": "p6_b3",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "They have many super users and fans, and the products are sought after and supported by users. In the content, user experience, product design and other aspects are popular with users. The enterprises who won the Data Awards · The Most Popular Award of the Year are as follows:",
+          "bbox": {
+            "x1": 115,
+            "y1": 170,
+            "x2": 886,
+            "y2": 234
+          },
+          "bbox_list": [
+            115,
+            170,
+            886,
+            234
+          ]
+        },
+        {
+          "block_id": "p6_b4",
+          "page_number": 6,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 194,
+            "y1": 245,
+            "x2": 937,
+            "y2": 576
+          },
+          "bbox_list": [
+            194,
+            245,
+            937,
+            576
+          ]
+        },
+        {
+          "block_id": "p6_b5",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## List of Winners in the Individual Category of Data Awards in 2019:",
+          "bbox": {
+            "x1": 196,
+            "y1": 618,
+            "x2": 763,
+            "y2": 639
+          },
+          "bbox_list": [
+            196,
+            618,
+            763,
+            639
+          ]
+        },
+        {
+          "block_id": "p6_b6",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Data Awards · Most Influential Award of the Year",
+          "bbox": {
+            "x1": 197,
+            "y1": 651,
+            "x2": 617,
+            "y2": 671
+          },
+          "bbox_list": [
+            197,
+            651,
+            617,
+            671
+          ]
+        },
+        {
+          "block_id": "p6_b7",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "They are all veterans in the field of mobile Internet and leaders in the process of data intelligence. They continuously promote the transformation and upgrading of internal data of enterprises, and drive business practice through many years of data accumulation, and successfully realize the rapid development of enterprises. The individuals who won the Data Awards · Most Influential Award of the Year are as follows:",
+          "bbox": {
+            "x1": 118,
+            "y1": 682,
+            "x2": 891,
+            "y2": 793
+          },
+          "bbox_list": [
+            118,
+            682,
+            891,
+            793
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nThe List of Individual and Enterprise Winners of First Umeng + 2019 UBDC \"Data Awards\" was Announced  \n\n## Data Awards · The Most Popular Award of the Year  \n\nThey have many super users and fans, and the products are sought after and supported by users. In the content, user experience, product design and other aspects are popular with users. The enterprises who won the Data Awards · The Most Popular Award of the Year are as follows:  \n\n## List of Winners in the Individual Category of Data Awards in 2019:  \n\n## Data Awards · Most Influential Award of the Year  \n\nThey are all veterans in the field of mobile Internet and leaders in the process of data intelligence. They continuously promote the transformation and upgrading of internal data of enterprises, and drive business practice through many years of data accumulation, and successfully realize the rapid development of enterprises. The individuals who won the Data Awards · Most Influential Award of the Year are as follows:"
+    },
+    {
+      "page_number": 7,
+      "text_blocks": [
+        {
+          "block_id": "p7_b0",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 115,
+            "y1": 87,
+            "x2": 186,
+            "y2": 100
+          },
+          "bbox_list": [
+            115,
+            87,
+            186,
+            100
+          ]
+        },
+        {
+          "block_id": "p7_b1",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The List of Individual and Enterprise Winners of First Umeng + 2019 UBDC \"Data Awards\" was Announced",
+          "bbox": {
+            "x1": 152,
+            "y1": 109,
+            "x2": 802,
+            "y2": 127
+          },
+          "bbox_list": [
+            152,
+            109,
+            802,
+            127
+          ]
+        },
+        {
+          "block_id": "p7_b2",
+          "page_number": 7,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 194,
+            "y1": 135,
+            "x2": 919,
+            "y2": 310
+          },
+          "bbox_list": [
+            194,
+            135,
+            919,
+            310
+          ]
+        },
+        {
+          "block_id": "p7_b3",
+          "page_number": 7,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Data Awards \\(\\cdot\\) Data Legacy of the Year Award",
+          "bbox": {
+            "x1": 194,
+            "y1": 354,
+            "x2": 590,
+            "y2": 374
+          },
+          "bbox_list": [
+            194,
+            354,
+            590,
+            374
+          ]
+        },
+        {
+          "block_id": "p7_b4",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "They have been working deeply in the field of big data and mobile Internet for many years, spreading their insights and experiences and educating the whole industry. They lead many Internet practitioners to continuously inherit data application, industry methodology and scientific research, and always guide the development of the industry. The individuals who won the Data Awards \\(\\cdot\\) Data Legacy of the Year Award are as follows:",
+          "bbox": {
+            "x1": 115,
+            "y1": 384,
+            "x2": 891,
+            "y2": 497
+          },
+          "bbox_list": [
+            115,
+            384,
+            891,
+            497
+          ]
+        },
+        {
+          "block_id": "p7_b5",
+          "page_number": 7,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 196,
+            "y1": 540,
+            "x2": 965,
+            "y2": 883
+          },
+          "bbox_list": [
+            196,
+            540,
+            965,
+            883
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nThe List of Individual and Enterprise Winners of First Umeng + 2019 UBDC \"Data Awards\" was Announced  \n\n## Data Awards \\(\\cdot\\) Data Legacy of the Year Award  \n\nThey have been working deeply in the field of big data and mobile Internet for many years, spreading their insights and experiences and educating the whole industry. They lead many Internet practitioners to continuously inherit data application, industry methodology and scientific research, and always guide the development of the industry. The individuals who won the Data Awards \\(\\cdot\\) Data Legacy of the Year Award are as follows:  "
+    },
+    {
+      "page_number": 8,
+      "text_blocks": [
+        {
+          "block_id": "p8_b0",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 113,
+            "y1": 87,
+            "x2": 183,
+            "y2": 100
+          },
+          "bbox_list": [
+            113,
+            87,
+            183,
+            100
+          ]
+        },
+        {
+          "block_id": "p8_b1",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The List of Individual and Enterprise Winners of First Umenq + 2019 UBDC \"Data Awards\" was Announced",
+          "bbox": {
+            "x1": 150,
+            "y1": 108,
+            "x2": 800,
+            "y2": 126
+          },
+          "bbox_list": [
+            150,
+            108,
+            800,
+            126
+          ]
+        },
+        {
+          "block_id": "p8_b2",
+          "page_number": 8,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Data Awards \\(\\cdot\\) Best Data Practice Award of the Year",
+          "bbox": {
+            "x1": 192,
+            "y1": 136,
+            "x2": 633,
+            "y2": 156
+          },
+          "bbox_list": [
+            192,
+            136,
+            633,
+            156
+          ]
+        },
+        {
+          "block_id": "p8_b3",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "They are pioneers of data practice and finally stand out in the 2019 \"Umenq Cup\" Data Analysis Competition and win the first, second, and third prizes, respectively. The individuals who won the Data Awards \\(\\cdot\\) Best Data Practice Award of the Year are as follows:",
+          "bbox": {
+            "x1": 113,
+            "y1": 167,
+            "x2": 886,
+            "y2": 234
+          },
+          "bbox_list": [
+            113,
+            167,
+            886,
+            234
+          ]
+        },
+        {
+          "block_id": "p8_b4",
+          "page_number": 8,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 193,
+            "y1": 245,
+            "x2": 919,
+            "y2": 415
+          },
+          "bbox_list": [
+            193,
+            245,
+            919,
+            415
+          ]
+        },
+        {
+          "block_id": "p8_b5",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2019 Umenq + Universal Big Data Conference, the first \"Data Awards\" ceremony has come to an end, but our pace of progress in the data ocean will never stop. Umenq + hopes that more enterprises and individuals like beacons will emerge in the era of Data Intelligence 3.0, act as navigators in the ocean of big data, illuminate the direction of progress, and lead enterprises and data industry practitioners to explore an unlimited possible future.",
+          "bbox": {
+            "x1": 113,
+            "y1": 428,
+            "x2": 888,
+            "y2": 540
+          },
+          "bbox_list": [
+            113,
+            428,
+            888,
+            540
+          ]
+        },
+        {
+          "block_id": "p8_b6",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Articles you may be interested in",
+          "bbox": {
+            "x1": 195,
+            "y1": 586,
+            "x2": 460,
+            "y2": 604
+          },
+          "bbox_list": [
+            195,
+            586,
+            460,
+            604
+          ]
+        },
+        {
+          "block_id": "p8_b7",
+          "page_number": 8,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 188,
+            "y1": 617,
+            "x2": 949,
+            "y2": 747
+          },
+          "bbox_list": [
+            188,
+            617,
+            949,
+            747
+          ]
+        },
+        {
+          "block_id": "p8_b8",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "[Umenq +] Statement: Resolutely resist network hijacking!",
+          "bbox": {
+            "x1": 195,
+            "y1": 761,
+            "x2": 666,
+            "y2": 782
+          },
+          "bbox_list": [
+            195,
+            761,
+            666,
+            782
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nThe List of Individual and Enterprise Winners of First Umenq + 2019 UBDC \"Data Awards\" was Announced  \n\n## Data Awards \\(\\cdot\\) Best Data Practice Award of the Year  \n\nThey are pioneers of data practice and finally stand out in the 2019 \"Umenq Cup\" Data Analysis Competition and win the first, second, and third prizes, respectively. The individuals who won the Data Awards \\(\\cdot\\) Best Data Practice Award of the Year are as follows:  \n\n2019 Umenq + Universal Big Data Conference, the first \"Data Awards\" ceremony has come to an end, but our pace of progress in the data ocean will never stop. Umenq + hopes that more enterprises and individuals like beacons will emerge in the era of Data Intelligence 3.0, act as navigators in the ocean of big data, illuminate the direction of progress, and lead enterprises and data industry practitioners to explore an unlimited possible future.  \n\nArticles you may be interested in  \n\n[Umenq +] Statement: Resolutely resist network hijacking!"
+    },
+    {
+      "page_number": 9,
+      "text_blocks": [
+        {
+          "block_id": "p9_b0",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 115,
+            "y1": 90,
+            "x2": 184,
+            "y2": 103
+          },
+          "bbox_list": [
+            115,
+            90,
+            184,
+            103
+          ]
+        },
+        {
+          "block_id": "p9_b1",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The List of Individual and Enterprise Winners of First Umeng + 2019 UBDC \"Data Awards\" was Announced",
+          "bbox": {
+            "x1": 149,
+            "y1": 111,
+            "x2": 800,
+            "y2": 129
+          },
+          "bbox_list": [
+            149,
+            111,
+            800,
+            129
+          ]
+        },
+        {
+          "block_id": "p9_b2",
+          "page_number": 9,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 194,
+            "y1": 140,
+            "x2": 919,
+            "y2": 270
+          },
+          "bbox_list": [
+            194,
+            140,
+            919,
+            270
+          ]
+        },
+        {
+          "block_id": "p9_b3",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ADplus Brand Advertisement Monitoring and Strategic Cooperation of Tmall CO Branding Paln",
+          "bbox": {
+            "x1": 115,
+            "y1": 283,
+            "x2": 886,
+            "y2": 328
+          },
+          "bbox_list": [
+            115,
+            283,
+            886,
+            328
+          ]
+        },
+        {
+          "block_id": "p9_b4",
+          "page_number": 9,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 185,
+            "y1": 373,
+            "x2": 949,
+            "y2": 436
+          },
+          "bbox_list": [
+            185,
+            373,
+            949,
+            436
+          ]
+        },
+        {
+          "block_id": "p9_b5",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The game industry is expected to spend the winter as soon as possible after the release number approval is restarted?",
+          "bbox": {
+            "x1": 115,
+            "y1": 457,
+            "x2": 886,
+            "y2": 502
+          },
+          "bbox_list": [
+            115,
+            457,
+            886,
+            502
+          ]
+        },
+        {
+          "block_id": "p9_b6",
+          "page_number": 9,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Hot Articles",
+          "bbox": {
+            "x1": 207,
+            "y1": 522,
+            "x2": 323,
+            "y2": 542
+          },
+          "bbox_list": [
+            207,
+            522,
+            323,
+            542
+          ]
+        },
+        {
+          "block_id": "p9_b7",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "- Umeng + Zhiguo Lyu: Outdoor Marketing Has Entered the Era of Data Intelligence- Umeng + Message Push, U-Push, Providing Compliant and Efficient Push Services for Developers",
+          "bbox": {
+            "x1": 115,
+            "y1": 560,
+            "x2": 888,
+            "y2": 641
+          },
+          "bbox_list": [
+            115,
+            560,
+            888,
+            641
+          ]
+        },
+        {
+          "block_id": "p9_b8",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "- Analysis of Startup, Memory, Carton, User Experience with It?- Hupu Works with Umeng + U-APM to Jointly Build a Good Application Performance Experience",
+          "bbox": {
+            "x1": 115,
+            "y1": 650,
+            "x2": 888,
+            "y2": 727
+          },
+          "bbox_list": [
+            115,
+            650,
+            888,
+            727
+          ]
+        },
+        {
+          "block_id": "p9_b9",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "- Umeng + Won the Double Awards of the China Advertising CAMA \"Digital Marketing Company of the Year\" and the \"Intime Department Store Outdoor Precision Marketing\" Influence Case",
+          "bbox": {
+            "x1": 115,
+            "y1": 735,
+            "x2": 890,
+            "y2": 802
+          },
+          "bbox_list": [
+            115,
+            735,
+            890,
+            802
+          ]
+        },
+        {
+          "block_id": "p9_b10",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "- Alibaba DAMO Academy, in Conjunction with Umeng +, Launched the First Intelligent Push in China",
+          "bbox": {
+            "x1": 117,
+            "y1": 812,
+            "x2": 890,
+            "y2": 856
+          },
+          "bbox_list": [
+            117,
+            812,
+            890,
+            856
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nThe List of Individual and Enterprise Winners of First Umeng + 2019 UBDC \"Data Awards\" was Announced  \n\nADplus Brand Advertisement Monitoring and Strategic Cooperation of Tmall CO Branding Paln  \n\nThe game industry is expected to spend the winter as soon as possible after the release number approval is restarted?  \n\n## Hot Articles  \n\n- Umeng + Zhiguo Lyu: Outdoor Marketing Has Entered the Era of Data Intelligence- Umeng + Message Push, U-Push, Providing Compliant and Efficient Push Services for Developers  \n\n- Analysis of Startup, Memory, Carton, User Experience with It?- Hupu Works with Umeng + U-APM to Jointly Build a Good Application Performance Experience  \n\n- Umeng + Won the Double Awards of the China Advertising CAMA \"Digital Marketing Company of the Year\" and the \"Intime Department Store Outdoor Precision Marketing\" Influence Case  \n\n- Alibaba DAMO Academy, in Conjunction with Umeng +, Launched the First Intelligent Push in China"
+    },
+    {
+      "page_number": 10,
+      "text_blocks": [
+        {
+          "block_id": "p10_b0",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 115,
+            "y1": 90,
+            "x2": 185,
+            "y2": 103
+          },
+          "bbox_list": [
+            115,
+            90,
+            185,
+            103
+          ]
+        },
+        {
+          "block_id": "p10_b1",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The List of Individual and Enterprise Winners of First Umeng + 2019 UBDC \"Data Awards\" was Announced",
+          "bbox": {
+            "x1": 152,
+            "y1": 111,
+            "x2": 800,
+            "y2": 130
+          },
+          "bbox_list": [
+            152,
+            111,
+            800,
+            130
+          ]
+        },
+        {
+          "block_id": "p10_b2",
+          "page_number": 10,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## About Us",
+          "bbox": {
+            "x1": 207,
+            "y1": 148,
+            "x2": 299,
+            "y2": 167
+          },
+          "bbox_list": [
+            207,
+            148,
+            299,
+            167
+          ]
+        },
+        {
+          "block_id": "p10_b3",
+          "page_number": 10,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 162,
+            "y1": 194,
+            "x2": 225,
+            "y2": 240
+          },
+          "bbox_list": [
+            162,
+            194,
+            225,
+            240
+          ]
+        },
+        {
+          "block_id": "p10_b4",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Officer Service Number of Umeng Data Keep abreast of the latest product trends of Umeng +",
+          "bbox": {
+            "x1": 272,
+            "y1": 187,
+            "x2": 696,
+            "y2": 240
+          },
+          "bbox_list": [
+            272,
+            187,
+            696,
+            240
+          ]
+        },
+        {
+          "block_id": "p10_b5",
+          "page_number": 10,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 162,
+            "y1": 273,
+            "x2": 225,
+            "y2": 319
+          },
+          "bbox_list": [
+            162,
+            273,
+            225,
+            319
+          ]
+        },
+        {
+          "block_id": "p10_b6",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Umeng Global Data New trends of cutting- edge industry data",
+          "bbox": {
+            "x1": 272,
+            "y1": 264,
+            "x2": 602,
+            "y2": 317
+          },
+          "bbox_list": [
+            272,
+            264,
+            602,
+            317
+          ]
+        },
+        {
+          "block_id": "p10_b7",
+          "page_number": 10,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 162,
+            "y1": 344,
+            "x2": 225,
+            "y2": 393
+          },
+          "bbox_list": [
+            162,
+            344,
+            225,
+            393
+          ]
+        },
+        {
+          "block_id": "p10_b8",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Umeng Data Officer View your data reports anytime and anywhere",
+          "bbox": {
+            "x1": 272,
+            "y1": 345,
+            "x2": 644,
+            "y2": 398
+          },
+          "bbox_list": [
+            272,
+            345,
+            644,
+            398
+          ]
+        },
+        {
+          "block_id": "p10_b9",
+          "page_number": 10,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 112,
+            "y1": 494,
+            "x2": 941,
+            "y2": 888
+          },
+          "bbox_list": [
+            112,
+            494,
+            941,
+            888
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nThe List of Individual and Enterprise Winners of First Umeng + 2019 UBDC \"Data Awards\" was Announced  \n\n## About Us  \n\nOfficer Service Number of Umeng Data  Keep abreast of the latest product trends of Umeng +  \n\nUmeng Global Data  New trends of cutting- edge industry data  \n\nUmeng Data Officer  View your data reports anytime and anywhere  "
+    },
+    {
+      "page_number": 11,
+      "text_blocks": [
+        {
+          "block_id": "p11_b0",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 115,
+            "y1": 88,
+            "x2": 184,
+            "y2": 101
+          },
+          "bbox_list": [
+            115,
+            88,
+            184,
+            101
+          ]
+        },
+        {
+          "block_id": "p11_b1",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The List of Individual and Enterprise Winners of First Umenq + 2019 UBDC \"Data Awards\" was Announced",
+          "bbox": {
+            "x1": 150,
+            "y1": 109,
+            "x2": 800,
+            "y2": 127
+          },
+          "bbox_list": [
+            150,
+            109,
+            800,
+            127
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nThe List of Individual and Enterprise Winners of First Umenq + 2019 UBDC \"Data Awards\" was Announced"
+    }
+  ],
+  "total_blocks": 79
+}

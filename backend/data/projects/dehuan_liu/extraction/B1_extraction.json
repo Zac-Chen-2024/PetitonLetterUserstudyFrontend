@@ -1,0 +1,115 @@
+{
+  "version": "4.0",
+  "exhibit_id": "B1",
+  "extracted_at": "2026-03-15T00:00:00+00:00",
+  "applicant_name": "Dehuan Liu",
+  "document_summary": "This exhibit contains a translated photograph of the Data Awards 2019 trophy awarded to Liu, Dehuan from Peking University. The trophy confirms Liu received the 'Data Legacy of the Year Award' at the 2019 Data Awards ceremony, serving as direct physical proof of the award.",
+  "snippets": [
+    {
+      "snippet_id": "snp_B1_b1000001",
+      "exhibit_id": "B1",
+      "document_id": "doc_B1",
+      "text": "DATA AWARDS -2019-",
+      "page": 2,
+      "bbox": {"x1": 421, "y1": 306, "x2": 577, "y2": 391},
+      "block_id": "p2_b1",
+      "subject": "Data Awards 2019",
+      "subject_role": "organization",
+      "recommender_name": null,
+      "is_applicant_achievement": true,
+      "evidence_type": "award",
+      "evidence_purpose": "direct_proof",
+      "evidence_layer": "proof",
+      "confidence": 0.95,
+      "reasoning": "The title on the award trophy confirming this is the 2019 Data Awards.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_B1_b1000002",
+      "exhibit_id": "B1",
+      "document_id": "doc_B1",
+      "text": "Liu, Dehuan Peking University",
+      "page": 2,
+      "bbox": {"x1": 409, "y1": 633, "x2": 588, "y2": 675},
+      "block_id": "p2_b2",
+      "subject": "Dehuan Liu",
+      "subject_role": "applicant",
+      "recommender_name": null,
+      "is_applicant_achievement": true,
+      "evidence_type": "award",
+      "evidence_purpose": "direct_proof",
+      "evidence_layer": "proof",
+      "confidence": 0.98,
+      "reasoning": "The award recipient's name and affiliation engraved on the trophy, directly proving Liu received this award.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_B1_b1000003",
+      "exhibit_id": "B1",
+      "document_id": "doc_B1",
+      "text": "Data Awards Data Legacy of the Year Award",
+      "page": 2,
+      "bbox": {"x1": 339, "y1": 733, "x2": 658, "y2": 776},
+      "block_id": "p2_b3",
+      "subject": "Dehuan Liu",
+      "subject_role": "applicant",
+      "recommender_name": null,
+      "is_applicant_achievement": true,
+      "evidence_type": "award",
+      "evidence_purpose": "direct_proof",
+      "evidence_layer": "proof",
+      "confidence": 0.98,
+      "reasoning": "The specific award category name on the trophy: Data Legacy of the Year Award, confirming the exact award Liu received.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    }
+  ],
+  "entities": [
+    {
+      "id": "ent_B1_0",
+      "name": "Dehuan Liu",
+      "type": "person",
+      "identity": "Recipient of the Data Legacy of the Year Award 2019 from Peking University",
+      "relation_to_applicant": "self",
+      "snippet_ids": ["snp_B1_b1000002", "snp_B1_b1000003"],
+      "exhibit_ids": ["B1"],
+      "mentioned_in_blocks": ["p2_b2"],
+      "aliases": ["Liu, Dehuan"],
+      "is_merged": false,
+      "merged_from": []
+    },
+    {
+      "id": "ent_B1_1",
+      "name": "Data Awards",
+      "type": "award",
+      "identity": "Annual data industry awards recognizing outstanding enterprises and individuals in the big data field",
+      "relation_to_applicant": "awarding_body",
+      "snippet_ids": ["snp_B1_b1000001", "snp_B1_b1000003"],
+      "exhibit_ids": ["B1"],
+      "mentioned_in_blocks": ["p2_b1", "p2_b3"],
+      "aliases": ["Data Legacy of the Year Award"],
+      "is_merged": false,
+      "merged_from": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel_B1_0",
+      "from_entity": "ent_B1_0",
+      "to_entity": "ent_B1_1",
+      "relation_type": "awarded_by",
+      "context": "Liu received the Data Legacy of the Year Award at the 2019 Data Awards",
+      "source_snippet_ids": ["snp_B1_b1000002", "snp_B1_b1000003"],
+      "source_blocks": ["p2_b2", "p2_b3"]
+    }
+  ],
+  "stats": {
+    "snippet_count": 3,
+    "entity_count": 2,
+    "relation_count": 1,
+    "applicant_snippets": 3,
+    "other_snippets": 0
+  }
+}

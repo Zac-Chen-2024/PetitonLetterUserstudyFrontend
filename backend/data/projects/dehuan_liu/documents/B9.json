@@ -1,0 +1,542 @@
+{
+  "exhibit_id": "B9",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit B-9",
+          "bbox": {
+            "x1": 115,
+            "y1": 451,
+            "x2": 866,
+            "y2": 546
+          },
+          "bbox_list": [
+            115,
+            451,
+            866,
+            546
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit B-9"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# The Ministry of Education shall be responsible for:",
+          "bbox": {
+            "x1": 290,
+            "y1": 321,
+            "x2": 904,
+            "y2": 383
+          },
+          "bbox_list": [
+            290,
+            321,
+            904,
+            383
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1",
+          "bbox": {
+            "x1": 325,
+            "y1": 415,
+            "x2": 395,
+            "y2": 460
+          },
+          "bbox_list": [
+            325,
+            415,
+            395,
+            460
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To draw up strategies, policies and plans for educational reform and development; and to draft relevant rules and regulations, and supervise their implementation.",
+          "bbox": {
+            "x1": 415,
+            "y1": 415,
+            "x2": 897,
+            "y2": 555
+          },
+          "bbox_list": [
+            415,
+            415,
+            897,
+            555
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2",
+          "bbox": {
+            "x1": 325,
+            "y1": 598,
+            "x2": 400,
+            "y2": 642
+          },
+          "bbox_list": [
+            325,
+            598,
+            400,
+            642
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To take charge of the overall planning, coordination and management of all forms of education at various levels; to formulate, in collaboration with relevant departments, the standards for the setting- up of schools of all types at various levels; to guide the reform of education and teaching methods; and to take charge of the statistics, analysis, and release of basic educational information.",
+          "bbox": {
+            "x1": 415,
+            "y1": 596,
+            "x2": 904,
+            "y2": 878
+          },
+          "bbox_list": [
+            415,
+            596,
+            904,
+            878
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# The Ministry of Education shall be responsible for:  \n\n1  \n\nTo draw up strategies, policies and plans for educational reform and development; and to draft relevant rules and regulations, and supervise their implementation.  \n\n2  \n\nTo take charge of the overall planning, coordination and management of all forms of education at various levels; to formulate, in collaboration with relevant departments, the standards for the setting- up of schools of all types at various levels; to guide the reform of education and teaching methods; and to take charge of the statistics, analysis, and release of basic educational information."
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To promote all- round development of compulsory education and equitable education; to take charge of the macrougidance and coordination of compulsory education; and to direct the regular senior secondary education, preschool education, and special education. To lay down requirements for and basic documents for teaching in elementary education; to organize the examination and approval of unified course materials for elementary education; and to carry on quality- oriented education in an allround way.",
+          "bbox": {
+            "x1": 415,
+            "y1": 42,
+            "x2": 896,
+            "y2": 442
+          },
+          "bbox_list": [
+            415,
+            42,
+            896,
+            442
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To provide guidance for the supervision over education nationwide, organize and direct the inspection and evaluation of the implementation of the nine- year compulsory education and the literacy campaign among the young and the middleaged, and to monitor the quality and level of the development of elementary education.",
+          "bbox": {
+            "x1": 160,
+            "y1": 550,
+            "x2": 888,
+            "y2": 717
+          },
+          "bbox_list": [
+            160,
+            550,
+            888,
+            717
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To provide guidance for the development and reform of employment- oriented vocational education; to formulate the curriculum catalogues for secondary vocational education, documents for the guidance of teaching, and standards of teaching assessment; to enhance the compiling of teaching materials for secondary vocational education and to improve the occupational counselling.",
+          "bbox": {
+            "x1": 160,
+            "y1": 757,
+            "x2": 880,
+            "y2": 953
+          },
+          "bbox_list": [
+            160,
+            757,
+            880,
+            953
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTo promote all- round development of compulsory education and equitable education; to take charge of the macrougidance and coordination of compulsory education; and to direct the regular senior secondary education, preschool education, and special education. To lay down requirements for and basic documents for teaching in elementary education; to organize the examination and approval of unified course materials for elementary education; and to carry on quality- oriented education in an allround way.  \n\nTo provide guidance for the supervision over education nationwide, organize and direct the inspection and evaluation of the implementation of the nine- year compulsory education and the literacy campaign among the young and the middleaged, and to monitor the quality and level of the development of elementary education.  \n\nTo provide guidance for the development and reform of employment- oriented vocational education; to formulate the curriculum catalogues for secondary vocational education, documents for the guidance of teaching, and standards of teaching assessment; to enhance the compiling of teaching materials for secondary vocational education and to improve the occupational counselling."
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To direct the development and reform of higher education, and further deepen the reform of the administrative system of universities under the direct affiliation of the Ministry of Education.",
+          "bbox": {
+            "x1": 158,
+            "y1": 58,
+            "x2": 900,
+            "y2": 170
+          },
+          "bbox_list": [
+            158,
+            58,
+            900,
+            170
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To formulate the curriculum catalogues and documents for the guidance of teaching; to examine and verify, in collaboration with relevant departments, the establishment, renaming, abolishment and adjustment of higher education institutions; to undertake the implementation and coordination of Project 211 and Project 985; to direct and coordinate all forms of higher education and continuing education; and to provide guidance for the improvement of the assessment of the higher education.",
+          "bbox": {
+            "x1": 157,
+            "y1": 174,
+            "x2": 895,
+            "y2": 429
+          },
+          "bbox_list": [
+            157,
+            174,
+            895,
+            429
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To take charge of the overall management of the educational funds under the jurisdiction of this Ministry, take part in formulating policies for the raising and allocation of educational funds, and capital investment in construction for educational purposes, and to prepare statistics of the funds for education across the country.",
+          "bbox": {
+            "x1": 159,
+            "y1": 468,
+            "x2": 900,
+            "y2": 636
+          },
+          "bbox_list": [
+            159,
+            468,
+            900,
+            636
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To plan and direct the educational work for the ethnic minority groups, and to coordinate the educational aids to the ethnic minority groups and ethnic minority areas.",
+          "bbox": {
+            "x1": 160,
+            "y1": 679,
+            "x2": 690,
+            "y2": 789
+          },
+          "bbox_list": [
+            160,
+            679,
+            690,
+            789
+          ]
+        },
+        {
+          "block_id": "p4_b4",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To direct the work of ideology and political education, moral, physical, health, arts, and national defence education in all types of schools at various levels; and to direct the",
+          "bbox": {
+            "x1": 161,
+            "y1": 830,
+            "x2": 686,
+            "y2": 938
+          },
+          "bbox_list": [
+            161,
+            830,
+            686,
+            938
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTo direct the development and reform of higher education, and further deepen the reform of the administrative system of universities under the direct affiliation of the Ministry of Education.  \n\nTo formulate the curriculum catalogues and documents for the guidance of teaching; to examine and verify, in collaboration with relevant departments, the establishment, renaming, abolishment and adjustment of higher education institutions; to undertake the implementation and coordination of Project 211 and Project 985; to direct and coordinate all forms of higher education and continuing education; and to provide guidance for the improvement of the assessment of the higher education.  \n\nTo take charge of the overall management of the educational funds under the jurisdiction of this Ministry, take part in formulating policies for the raising and allocation of educational funds, and capital investment in construction for educational purposes, and to prepare statistics of the funds for education across the country.  \n\nTo plan and direct the educational work for the ethnic minority groups, and to coordinate the educational aids to the ethnic minority groups and ethnic minority areas.  \n\nTo direct the work of ideology and political education, moral, physical, health, arts, and national defence education in all types of schools at various levels; and to direct the"
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "construction of the Party in institutions of higher learning.",
+          "bbox": {
+            "x1": 157,
+            "y1": 28,
+            "x2": 656,
+            "y2": 80
+          },
+          "bbox_list": [
+            157,
+            28,
+            656,
+            80
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To administer teachers' work; to formulate and supervise the implementation of the standards for qualification for teachers of various types and at various levels together in collaboration with relevant departments; and to direct the training of people for the education system.",
+          "bbox": {
+            "x1": 155,
+            "y1": 121,
+            "x2": 673,
+            "y2": 319
+          },
+          "bbox_list": [
+            155,
+            121,
+            673,
+            319
+          ]
+        },
+        {
+          "block_id": "p5_b2",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To manage the entrance examination for academic credentials for higher education and the administration of records of students' enrolment status; to make recruitment plans for higher education in collaboration with relevant departments; to take part in drawing up the employment policies for college and university graduates; and to direct regular colleges and universities in their work to facilitate the graduates' job hunting and starting of their own businesses.",
+          "bbox": {
+            "x1": 155,
+            "y1": 360,
+            "x2": 888,
+            "y2": 585
+          },
+          "bbox_list": [
+            155,
+            360,
+            888,
+            585
+          ]
+        },
+        {
+          "block_id": "p5_b3",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To plan and guide the research by institutions of higher education in natural sciences, philosophy and social sciences; to coordinate and guide the institutions of higher education to take part in developing the national innovation system, and undertake the State's key projects and programmes for the development of science and technology; to guide the construction and development of the scientific and technological innovation of institutions of higher education; to direct the informatisation of education and promote the integration of production, teaching and research.",
+          "bbox": {
+            "x1": 155,
+            "y1": 625,
+            "x2": 893,
+            "y2": 910
+          },
+          "bbox_list": [
+            155,
+            625,
+            893,
+            910
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nconstruction of the Party in institutions of higher learning.  \n\nTo administer teachers' work; to formulate and supervise the implementation of the standards for qualification for teachers of various types and at various levels together in collaboration with relevant departments; and to direct the training of people for the education system.  \n\nTo manage the entrance examination for academic credentials for higher education and the administration of records of students' enrolment status; to make recruitment plans for higher education in collaboration with relevant departments; to take part in drawing up the employment policies for college and university graduates; and to direct regular colleges and universities in their work to facilitate the graduates' job hunting and starting of their own businesses.  \n\nTo plan and guide the research by institutions of higher education in natural sciences, philosophy and social sciences; to coordinate and guide the institutions of higher education to take part in developing the national innovation system, and undertake the State's key projects and programmes for the development of science and technology; to guide the construction and development of the scientific and technological innovation of institutions of higher education; to direct the informatisation of education and promote the integration of production, teaching and research."
+    },
+    {
+      "page_number": 6,
+      "text_blocks": [
+        {
+          "block_id": "p6_b0",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To organize and guide international educational exchanges and cooperation; to formulate policies of programmes for Chinese students studying abroad and foreign students studying in China, joint educational programmes by Chinese and foreign educational institutions, and the management of schools for the children of foreign nationals. To plan, coordinate and direct the work of promoting the Chinese language in the world. To carry out educational cooperation and exchanges with Hong Kong, Macao and Taiwan.",
+          "bbox": {
+            "x1": 156,
+            "y1": 41,
+            "x2": 900,
+            "y2": 299
+          },
+          "bbox_list": [
+            156,
+            41,
+            900,
+            299
+          ]
+        },
+        {
+          "block_id": "p6_b1",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To formulate guidelines and policies for the nationwide standardisation and promotion of the spoken and written Chinese language; to compile medium and long- term plans for the development of the Chinese language; to formulate standards and criteria for Chinese and languages of ethnic minority groups and to organize and coordinate the supervision and the examination of the implementation of the standards and criteria; to direct the popularization of Putonghua and the training of teachers of Putonghua.",
+          "bbox": {
+            "x1": 156,
+            "y1": 338,
+            "x2": 896,
+            "y2": 592
+          },
+          "bbox_list": [
+            156,
+            338,
+            896,
+            592
+          ]
+        },
+        {
+          "block_id": "p6_b2",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To take charge of the work of the conferring of academic degrees; to be responsible for the implementation of the conferral system for academic degrees; to be responsible for the work towards international reciprocity in academic degrees, mutual recognition of academic degrees and so on.",
+          "bbox": {
+            "x1": 160,
+            "y1": 632,
+            "x2": 875,
+            "y2": 772
+          },
+          "bbox_list": [
+            160,
+            632,
+            875,
+            772
+          ]
+        },
+        {
+          "block_id": "p6_b3",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To coordinate between the State departments and the UNESCO for cooperation in education, science and technology, culture and other areas; to take charge of the liaison of the State departments with the UNESCO Secretariat and relevant institutions and organizations.",
+          "bbox": {
+            "x1": 160,
+            "y1": 812,
+            "x2": 904,
+            "y2": 950
+          },
+          "bbox_list": [
+            160,
+            812,
+            904,
+            950
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTo organize and guide international educational exchanges and cooperation; to formulate policies of programmes for Chinese students studying abroad and foreign students studying in China, joint educational programmes by Chinese and foreign educational institutions, and the management of schools for the children of foreign nationals. To plan, coordinate and direct the work of promoting the Chinese language in the world. To carry out educational cooperation and exchanges with Hong Kong, Macao and Taiwan.  \n\nTo formulate guidelines and policies for the nationwide standardisation and promotion of the spoken and written Chinese language; to compile medium and long- term plans for the development of the Chinese language; to formulate standards and criteria for Chinese and languages of ethnic minority groups and to organize and coordinate the supervision and the examination of the implementation of the standards and criteria; to direct the popularization of Putonghua and the training of teachers of Putonghua.  \n\nTo take charge of the work of the conferring of academic degrees; to be responsible for the implementation of the conferral system for academic degrees; to be responsible for the work towards international reciprocity in academic degrees, mutual recognition of academic degrees and so on.  \n\nTo coordinate between the State departments and the UNESCO for cooperation in education, science and technology, culture and other areas; to take charge of the liaison of the State departments with the UNESCO Secretariat and relevant institutions and organizations."
+    },
+    {
+      "page_number": 7,
+      "text_blocks": [
+        {
+          "block_id": "p7_b0",
+          "page_number": 7,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# To carry out other work assigned by the State Council.",
+          "bbox": {
+            "x1": 160,
+            "y1": 60,
+            "x2": 792,
+            "y2": 85
+          },
+          "bbox_list": [
+            160,
+            60,
+            792,
+            85
+          ]
+        },
+        {
+          "block_id": "p7_b1",
+          "page_number": 7,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 25,
+            "y1": 290,
+            "x2": 965,
+            "y2": 820
+          },
+          "bbox_list": [
+            25,
+            290,
+            965,
+            820
+          ]
+        },
+        {
+          "block_id": "p7_b2",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Statement | Contact us",
+          "bbox": {
+            "x1": 368,
+            "y1": 833,
+            "x2": 623,
+            "y2": 853
+          },
+          "bbox_list": [
+            368,
+            833,
+            623,
+            853
+          ]
+        },
+        {
+          "block_id": "p7_b3",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ICP Registration Number: 10028400",
+          "bbox": {
+            "x1": 368,
+            "y1": 864,
+            "x2": 623,
+            "y2": 880
+          },
+          "bbox_list": [
+            368,
+            864,
+            623,
+            880
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# To carry out other work assigned by the State Council.  \n\nStatement | Contact us  \n\nICP Registration Number: 10028400"
+    }
+  ],
+  "total_blocks": 26
+}

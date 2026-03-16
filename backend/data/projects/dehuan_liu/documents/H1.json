@@ -1,0 +1,353 @@
+{
+  "exhibit_id": "H1",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit H",
+          "bbox": {
+            "x1": 135,
+            "y1": 455,
+            "x2": 850,
+            "y2": 560
+          },
+          "bbox_list": [
+            135,
+            455,
+            850,
+            560
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit H"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Career Plan After Immigrating to the United States",
+          "bbox": {
+            "x1": 270,
+            "y1": 79,
+            "x2": 714,
+            "y2": 99
+          },
+          "bbox_list": [
+            270,
+            79,
+            714,
+            99
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Dear Sir/Madam:",
+          "bbox": {
+            "x1": 98,
+            "y1": 137,
+            "x2": 240,
+            "y2": 155
+          },
+          "bbox_list": [
+            98,
+            137,
+            240,
+            155
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "My name is Dehuan Liu, and I am currently a professor and associate dean at Peking University. I hope to immigrate to the United States in order to further develop my research and professional expertise. After immigrating to the United States, I plan to continue working in the field of social science research methods and collaborate with colleagues in the American academic community. My goal is to improve and enhance social science research methods in the United States and promote academic exchange and collaboration.",
+          "bbox": {
+            "x1": 97,
+            "y1": 165,
+            "x2": 880,
+            "y2": 281
+          },
+          "bbox_list": [
+            97,
+            165,
+            880,
+            281
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Additionally, I will also dedicate myself to strengthening deep communication and cooperation with the market research industry in the United States, contributing to a better understanding of East Asian consumer market demands for American businesses. As a professor of social sciences, renowned scholar, and expert in survey research methods, I have prepared extensively for my work after immigrating to the United States and will leverage my diverse strengths.",
+          "bbox": {
+            "x1": 96,
+            "y1": 289,
+            "x2": 878,
+            "y2": 405
+          },
+          "bbox_list": [
+            96,
+            289,
+            878,
+            405
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The specific plans include but are not limited to:",
+          "bbox": {
+            "x1": 131,
+            "y1": 414,
+            "x2": 525,
+            "y2": 433
+          },
+          "bbox_list": [
+            131,
+            414,
+            525,
+            433
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1. I will accept an invitation from Professor Lingfei Wu of University of Pittsburgh (with whom I have jointly published papers) to be a visiting scholar at the School of Computing and Information. During my visit, we will engage in academic research collaboration, particularly in the field of data analysis, taking on the responsibility of data modeling. We will conduct in-depth research on data analysis methods and aim to co-publish high-level research papers. Additionally, while at the University of Pittsburgh, I will also explore data analysis models with Professor Xinghua Lu, an expert in biostatistics, and attempt to collaborate with him.",
+          "bbox": {
+            "x1": 130,
+            "y1": 443,
+            "x2": 884,
+            "y2": 595
+          },
+          "bbox_list": [
+            130,
+            443,
+            884,
+            595
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2. Having conducted empirical research in China for over 30 years, I have accumulated years of research and knowledge in various areas such as social life, thought patterns, values, and religious beliefs of Chinese and East Asian people. After immigrating to the United States, I intend to utilize the connections I have established during my one-year tenure as a visiting scholar at Harvard University to engage in in-depth exchanges and collaborations and organize workshops and lectures with scholars in the field of East Asian studies at Harvard University.",
+          "bbox": {
+            "x1": 130,
+            "y1": 594,
+            "x2": 875,
+            "y2": 728
+          },
+          "bbox_list": [
+            130,
+            594,
+            875,
+            728
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "3. I have represented Peking University and collaborated with Professor James Shanahan from Indiana University to promote and facilitate the joint training program between the Media School of Indiana University and the School of New Media of Peking University. Therefore, I have extensive experience in talent cultivation and international cooperation. I plan to collaborate with more universities in the United States, especially in the field of media studies. I intend to engage in discussions and exchanges with Professor Yvonne Wu from the University of Missouri, Associate Professor Huatong Sun from the University of Washington, Professor Hairong Li from Michigan State University, and Professor Cong Li from the University of Miami, to explore joint talent",
+          "bbox": {
+            "x1": 130,
+            "y1": 727,
+            "x2": 881,
+            "y2": 898
+          },
+          "bbox_list": [
+            130,
+            727,
+            881,
+            898
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## Career Plan After Immigrating to the United States  \n\nDear Sir/Madam:  \n\nMy name is Dehuan Liu, and I am currently a professor and associate dean at Peking University. I hope to immigrate to the United States in order to further develop my research and professional expertise. After immigrating to the United States, I plan to continue working in the field of social science research methods and collaborate with colleagues in the American academic community. My goal is to improve and enhance social science research methods in the United States and promote academic exchange and collaboration.  \n\nAdditionally, I will also dedicate myself to strengthening deep communication and cooperation with the market research industry in the United States, contributing to a better understanding of East Asian consumer market demands for American businesses. As a professor of social sciences, renowned scholar, and expert in survey research methods, I have prepared extensively for my work after immigrating to the United States and will leverage my diverse strengths.  \n\nThe specific plans include but are not limited to:  \n\n1. I will accept an invitation from Professor Lingfei Wu of University of Pittsburgh (with whom I have jointly published papers) to be a visiting scholar at the School of Computing and Information. During my visit, we will engage in academic research collaboration, particularly in the field of data analysis, taking on the responsibility of data modeling. We will conduct in-depth research on data analysis methods and aim to co-publish high-level research papers. Additionally, while at the University of Pittsburgh, I will also explore data analysis models with Professor Xinghua Lu, an expert in biostatistics, and attempt to collaborate with him.  \n\n2. Having conducted empirical research in China for over 30 years, I have accumulated years of research and knowledge in various areas such as social life, thought patterns, values, and religious beliefs of Chinese and East Asian people. After immigrating to the United States, I intend to utilize the connections I have established during my one-year tenure as a visiting scholar at Harvard University to engage in in-depth exchanges and collaborations and organize workshops and lectures with scholars in the field of East Asian studies at Harvard University.  \n\n3. I have represented Peking University and collaborated with Professor James Shanahan from Indiana University to promote and facilitate the joint training program between the Media School of Indiana University and the School of New Media of Peking University. Therefore, I have extensive experience in talent cultivation and international cooperation. I plan to collaborate with more universities in the United States, especially in the field of media studies. I intend to engage in discussions and exchanges with Professor Yvonne Wu from the University of Missouri, Associate Professor Huatong Sun from the University of Washington, Professor Hairong Li from Michigan State University, and Professor Cong Li from the University of Miami, to explore joint talent"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "cultivation programs and implementation plans between the United States and China. Due to my years of experience as a professor at Peking University and my good relationships with numerous universities in China, the collaborating universities are not limited to Peking University and can involve multiple outstanding universities and institutes. In addition to promoting the joint training program for master's students, we can also organize bilateral academic exchanges, student exchanges, teacher visits, and other activities to enhance the academic level and talent quality of both sides.",
+          "bbox": {
+            "x1": 168,
+            "y1": 77,
+            "x2": 884,
+            "y2": 212
+          },
+          "bbox_list": [
+            168,
+            77,
+            884,
+            212
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "4. In terms of cooperation in the transformation of scientific research achievements, I plan to collaborate with Professor Wen Limin from Boston College, who is responsible for the transformation of scientific research achievements, to explore new possibilities for the transformation of research results in American universities. If there is a chance to participate in the work of the Technology Transfer and Innovation Center at Boston College in the future, I will strive for it. This institution collaborates with a large number of startups and research institutions in the Boston area to transform research results into commercial applications and push these applications into the US market. At Boston College, I will also be able to collaborate with people from various backgrounds and fields, including entrepreneurs, engineers, marketers, and investors. I believe this will help me better understand how to transform research results into practical applications and how to collaborate with people from different backgrounds in a team. During my time at Boston College, I will also make efforts to expand my professional network. I plan to participate in various academic and industry activities, such as lectures and seminars organized by Boston College, as well as networking events with the local entrepreneurial community. Through these activities, I will be able to establish connections with professionals from other fields and share my experiences and ideas with them.",
+          "bbox": {
+            "x1": 140,
+            "y1": 211,
+            "x2": 890,
+            "y2": 553
+          },
+          "bbox_list": [
+            140,
+            211,
+            890,
+            553
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "5. Due to my previous role as the President of the China Marketing Research Association (CMRA) for two terms, I have led multiple multinational companies such as Nielsen, Kantar, Ipsos, GFK, and domestic market research institutions like Zero Point in expanding into the Chinese market. I am one of the most important experts in the field of market research in China. I have provided market research services to top Chinese companies such as Tencent, Alibaba, Baidu, NetEase, Sina, Sohu, Xiaomi, Vanke, Poly, and Mini Snow Ice City, as well as consulting services to international brands such as Procter & Gamble. In recent years, the automotive companies I have served include NIO, MG, Volkswagen, Mercedes-Benz, Volvo, Toyota, Great Wall, Blue Valley, and Changan Ford. I have a profound understanding of the Chinese market and a unique insight into consumer behavior. After immigrating to the United States, my plan is to collaborate with American companies and provide professional consulting and market research services to facilitate their healthy development in the East Asian market.",
+          "bbox": {
+            "x1": 134,
+            "y1": 551,
+            "x2": 890,
+            "y2": 800
+          },
+          "bbox_list": [
+            134,
+            551,
+            890,
+            800
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "6. During my prior stay in the United States, I had extensive collaboration and exchange with Christian research scholar, Dr. Zhongxin Wang, in Boston. I delivered multiple speeches on Chinese religious beliefs at Harvard University, San Jose State University, and other venues, under the auspices of American Christian organizations. After I immigrate to the United States, I intend to collaborate with American Christian churches,",
+          "bbox": {
+            "x1": 133,
+            "y1": 797,
+            "x2": 886,
+            "y2": 894
+          },
+          "bbox_list": [
+            133,
+            797,
+            886,
+            894
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\ncultivation programs and implementation plans between the United States and China. Due to my years of experience as a professor at Peking University and my good relationships with numerous universities in China, the collaborating universities are not limited to Peking University and can involve multiple outstanding universities and institutes. In addition to promoting the joint training program for master's students, we can also organize bilateral academic exchanges, student exchanges, teacher visits, and other activities to enhance the academic level and talent quality of both sides.  \n\n4. In terms of cooperation in the transformation of scientific research achievements, I plan to collaborate with Professor Wen Limin from Boston College, who is responsible for the transformation of scientific research achievements, to explore new possibilities for the transformation of research results in American universities. If there is a chance to participate in the work of the Technology Transfer and Innovation Center at Boston College in the future, I will strive for it. This institution collaborates with a large number of startups and research institutions in the Boston area to transform research results into commercial applications and push these applications into the US market. At Boston College, I will also be able to collaborate with people from various backgrounds and fields, including entrepreneurs, engineers, marketers, and investors. I believe this will help me better understand how to transform research results into practical applications and how to collaborate with people from different backgrounds in a team. During my time at Boston College, I will also make efforts to expand my professional network. I plan to participate in various academic and industry activities, such as lectures and seminars organized by Boston College, as well as networking events with the local entrepreneurial community. Through these activities, I will be able to establish connections with professionals from other fields and share my experiences and ideas with them.  \n\n5. Due to my previous role as the President of the China Marketing Research Association (CMRA) for two terms, I have led multiple multinational companies such as Nielsen, Kantar, Ipsos, GFK, and domestic market research institutions like Zero Point in expanding into the Chinese market. I am one of the most important experts in the field of market research in China. I have provided market research services to top Chinese companies such as Tencent, Alibaba, Baidu, NetEase, Sina, Sohu, Xiaomi, Vanke, Poly, and Mini Snow Ice City, as well as consulting services to international brands such as Procter & Gamble. In recent years, the automotive companies I have served include NIO, MG, Volkswagen, Mercedes-Benz, Volvo, Toyota, Great Wall, Blue Valley, and Changan Ford. I have a profound understanding of the Chinese market and a unique insight into consumer behavior. After immigrating to the United States, my plan is to collaborate with American companies and provide professional consulting and market research services to facilitate their healthy development in the East Asian market.  \n\n6. During my prior stay in the United States, I had extensive collaboration and exchange with Christian research scholar, Dr. Zhongxin Wang, in Boston. I delivered multiple speeches on Chinese religious beliefs at Harvard University, San Jose State University, and other venues, under the auspices of American Christian organizations. After I immigrate to the United States, I intend to collaborate with American Christian churches,"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "social organizations, and government institutions to organize and participate in philanthropic and educational activities. My goal is to strengthen research on religious beliefs, social integration and development, and international cultural exchange for ethnic minorities.",
+          "bbox": {
+            "x1": 168,
+            "y1": 77,
+            "x2": 872,
+            "y2": 155
+          },
+          "bbox_list": [
+            168,
+            77,
+            872,
+            155
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In the past thirty years, I have been engaged in the exploration and practice of social science research methods, and have achieved great respect from academia and industry. In the field of digital marketing, my ISMAS model (Interest, Search, Mouth, Action, Share) for consumer engagement with marketing information (advertisements), which I created, has gained wide recognition from academia and industry. It has become a mainstream cognitive model in the advertising and digital marketing industries. As a renowned scholar and expert in research methods, I am able to collaborate with American universities and companies in multiple areas to jointly promote the development and advancement of the social sciences, and to facilitate mutually beneficial cooperation and exchange between China and the United States.Thank you so much!",
+          "bbox": {
+            "x1": 101,
+            "y1": 183,
+            "x2": 888,
+            "y2": 357
+          },
+          "bbox_list": [
+            101,
+            183,
+            888,
+            357
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Thank you so much!",
+          "bbox": {
+            "x1": 102,
+            "y1": 365,
+            "x2": 270,
+            "y2": 384
+          },
+          "bbox_list": [
+            102,
+            365,
+            270,
+            384
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "SignatureDehuan LiuMay 1, 2023",
+          "bbox": {
+            "x1": 765,
+            "y1": 425,
+            "x2": 870,
+            "y2": 504
+          },
+          "bbox_list": [
+            765,
+            425,
+            870,
+            504
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nsocial organizations, and government institutions to organize and participate in philanthropic and educational activities. My goal is to strengthen research on religious beliefs, social integration and development, and international cultural exchange for ethnic minorities.  \n\nIn the past thirty years, I have been engaged in the exploration and practice of social science research methods, and have achieved great respect from academia and industry. In the field of digital marketing, my ISMAS model (Interest, Search, Mouth, Action, Share) for consumer engagement with marketing information (advertisements), which I created, has gained wide recognition from academia and industry. It has become a mainstream cognitive model in the advertising and digital marketing industries. As a renowned scholar and expert in research methods, I am able to collaborate with American universities and companies in multiple areas to jointly promote the development and advancement of the social sciences, and to facilitate mutually beneficial cooperation and exchange between China and the United States.Thank you so much!  \n\nThank you so much!  \n\nSignatureDehuan LiuMay 1, 2023"
+    }
+  ],
+  "total_blocks": 17
+}

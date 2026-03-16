@@ -1,0 +1,767 @@
+{
+  "exhibit_id": "B8",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit B-8",
+          "bbox": {
+            "x1": 112,
+            "y1": 455,
+            "x2": 864,
+            "y2": 550
+          },
+          "bbox_list": [
+            112,
+            455,
+            864,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit B-8"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Ministry of Education of the People's Republic of China",
+          "bbox": {
+            "x1": 67,
+            "y1": 84,
+            "x2": 528,
+            "y2": 103
+          },
+          "bbox_list": [
+            67,
+            84,
+            528,
+            103
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Ministry of Education of the People's Republic of ChinaInformation Name: Decision of the Ministry of Education on Outstanding Achievement Award for Scientific Research of Higher Education Institutions (Humanities and Social Sciences)Information Index: 360A13- 14- 2009- 0306- 1 Generation Date: September 4, 2009Issue Agency: Ministry of Education of the People's Republic of ChinaDocument Issue No.: Jiao She Ke (2009) 5 Information Category: Scientific ResearchesBrief Introduction to Contents: Ministry of Education announced the results of the Outstanding Achievement Award for Scientific Research of Higher Education Institutions (Humanities and Social Sciences). A total of 648 achievements won the award, including first prize of 38 achievements, second prize of 205 achievements, third prize of 392 achievements, and 13 achievement popularization rewards. Now, we hereby release the list of awards (refer to the appendix for details).",
+          "bbox": {
+            "x1": 67,
+            "y1": 137,
+            "x2": 921,
+            "y2": 316
+          },
+          "bbox_list": [
+            67,
+            137,
+            921,
+            316
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Decision of the Ministry of Education on the Award for Outstanding Achievements in Scientific Research of Higher Education Institutions (Humanities and Social Sciences)",
+          "bbox": {
+            "x1": 78,
+            "y1": 355,
+            "x2": 911,
+            "y2": 420
+          },
+          "bbox_list": [
+            78,
+            355,
+            911,
+            420
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Sciences)",
+          "bbox": {
+            "x1": 446,
+            "y1": 436,
+            "x2": 542,
+            "y2": 457
+          },
+          "bbox_list": [
+            446,
+            436,
+            542,
+            457
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The evaluation of the Award for Outstanding Achievements in Scientific Research of Higher Education Institutions (Humanities and Social Sciences), has been completed. According to the Ministry's \"Award for Outstanding Achievements in Scientific Research in Higher Education (Humanities and Social Sciences)\", a total of 648 achievements have been awarded, including 38 first prizes, 205 second prizes, 392 third prizes and 13 achievement popularization prizes, after evaluation by experts, public announcement and review by the Award Committee. Now the list of winners will be announced (see annex).",
+          "bbox": {
+            "x1": 68,
+            "y1": 497,
+            "x2": 925,
+            "y2": 700
+          },
+          "bbox_list": [
+            68,
+            497,
+            925,
+            700
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The award evaluation work for the Outstanding Achievement Award for Scientific Research of Higher Education Institutions (Humanities and Social Sciences) is an important initiative arranged by the Ministry of Education to commend the outstanding achievements made by workers in humanities and social sciences of national higher education institutions. The purposes of the award are to encourage scientific research personnel to actively explore and dare for innovation under the guide of Marxism and principle of linking theories with practices to promote the innovation in discipline system, academic points of views",
+          "bbox": {
+            "x1": 70,
+            "y1": 708,
+            "x2": 925,
+            "y2": 877
+          },
+          "bbox_list": [
+            70,
+            708,
+            925,
+            877
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## Ministry of Education of the People's Republic of China  \n\nMinistry of Education of the People's Republic of ChinaInformation Name: Decision of the Ministry of Education on Outstanding Achievement Award for Scientific Research of Higher Education Institutions (Humanities and Social Sciences)Information Index: 360A13- 14- 2009- 0306- 1 Generation Date: September 4, 2009Issue Agency: Ministry of Education of the People's Republic of ChinaDocument Issue No.: Jiao She Ke (2009) 5 Information Category: Scientific ResearchesBrief Introduction to Contents: Ministry of Education announced the results of the Outstanding Achievement Award for Scientific Research of Higher Education Institutions (Humanities and Social Sciences). A total of 648 achievements won the award, including first prize of 38 achievements, second prize of 205 achievements, third prize of 392 achievements, and 13 achievement popularization rewards. Now, we hereby release the list of awards (refer to the appendix for details).  \n\n# Decision of the Ministry of Education on the Award for Outstanding Achievements in Scientific Research of Higher Education Institutions (Humanities and Social Sciences)  \n\n## Sciences)  \n\nThe evaluation of the Award for Outstanding Achievements in Scientific Research of Higher Education Institutions (Humanities and Social Sciences), has been completed. According to the Ministry's \"Award for Outstanding Achievements in Scientific Research in Higher Education (Humanities and Social Sciences)\", a total of 648 achievements have been awarded, including 38 first prizes, 205 second prizes, 392 third prizes and 13 achievement popularization prizes, after evaluation by experts, public announcement and review by the Award Committee. Now the list of winners will be announced (see annex).  \n\nThe award evaluation work for the Outstanding Achievement Award for Scientific Research of Higher Education Institutions (Humanities and Social Sciences) is an important initiative arranged by the Ministry of Education to commend the outstanding achievements made by workers in humanities and social sciences of national higher education institutions. The purposes of the award are to encourage scientific research personnel to actively explore and dare for innovation under the guide of Marxism and principle of linking theories with practices to promote the innovation in discipline system, academic points of views"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "and scientific research methods, promote the prosperity and development of the humanities and social sciences in higher education institutions, and make a higher contribution to the construction of the socialism with Chinese characteristics. Various local education administrative authorities and higher education institutions shall take advantage of opportunities of this award evaluation work to summarize experiences, and take the guide of Deng Xiaoping Theory and the important thoughts of \"Three Representatives\" to carry out the scientific outlook on development, attach high importance on improving the research quality and innovation level, further enhance the social service abilities and make higher contribution to the construction of an innovation- oriented country and comprehensive achievement of the objective of building a well- off society.",
+          "bbox": {
+            "x1": 66,
+            "y1": 82,
+            "x2": 923,
+            "y2": 345
+          },
+          "bbox_list": [
+            66,
+            82,
+            923,
+            345
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Appendix: List of Winners of Outstanding Achievement Award for Scientific Research of Higher Education Institutions (Humanities and Social Sciences) (648 achievements)",
+          "bbox": {
+            "x1": 68,
+            "y1": 380,
+            "x2": 921,
+            "y2": 438
+          },
+          "bbox_list": [
+            68,
+            380,
+            921,
+            438
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Ministry of Education of the People's Republic of ChinaSeptember 4, 2009",
+          "bbox": {
+            "x1": 235,
+            "y1": 480,
+            "x2": 699,
+            "y2": 531
+          },
+          "bbox_list": [
+            235,
+            480,
+            699,
+            531
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nand scientific research methods, promote the prosperity and development of the humanities and social sciences in higher education institutions, and make a higher contribution to the construction of the socialism with Chinese characteristics. Various local education administrative authorities and higher education institutions shall take advantage of opportunities of this award evaluation work to summarize experiences, and take the guide of Deng Xiaoping Theory and the important thoughts of \"Three Representatives\" to carry out the scientific outlook on development, attach high importance on improving the research quality and innovation level, further enhance the social service abilities and make higher contribution to the construction of an innovation- oriented country and comprehensive achievement of the objective of building a well- off society.  \n\nAppendix: List of Winners of Outstanding Achievement Award for Scientific Research of Higher Education Institutions (Humanities and Social Sciences) (648 achievements)  \n\nMinistry of Education of the People's Republic of ChinaSeptember 4, 2009"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# List of Outstanding Achievements in Scientific Research of Higher Education Institutions (Humanities and Social Sciences)",
+          "bbox": {
+            "x1": 170,
+            "y1": 92,
+            "x2": 815,
+            "y2": 133
+          },
+          "bbox_list": [
+            170,
+            92,
+            815,
+            133
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# List of Outstanding Achievements in Scientific Research of Higher Education Institutions (Humanities and Social Sciences)"
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# First Prize (38)",
+          "bbox": {
+            "x1": 411,
+            "y1": 177,
+            "x2": 562,
+            "y2": 196
+          },
+          "bbox_list": [
+            411,
+            177,
+            562,
+            196
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "table",
+          "block_type_cn": "表格",
+          "text_content": "<table><tr><td colspan=\"5\">Marxist Theory (2)</td></tr><tr><td>Research on the basic issues of socialism with Chinese characteristics</td><td>Books</td><td>Wuhan University Press</td><td>May 2007</td><td>Mei Rongzheng</td></tr><tr><td>Theory and practice of human modernization</td><td>Books</td><td>People&#x27;s Publishing House</td><td>April 2006</td><td>Cheng Yong Ting et al</td></tr><tr><td colspan=\"5\">Management Studies (2)</td></tr><tr><td>Research on strategic Behavior of Chinese enterprises in transition</td><td>Books</td><td>South China University of Technology Press</td><td>July 2007</td><td>Blue Helin et al</td></tr><tr><td>IP Theory - A new business model in the era of mesh economy</td><td>Books</td><td>Peking University Press</td><td>May 2007</td><td>Wang Jianguo</td></tr><tr><td colspan=\"5\">Philosophy<br>(1)</td></tr><tr><td>Shi Tao Studies</td><td>Books</td><td>Peking University Press</td><td>April 2005</td><td>Zhu Liangzhi</td></tr><tr><td colspan=\"5\">Logic (none)</td></tr><tr><td colspan=\"5\">Religious Studies (none)</td></tr><tr><td colspan=\"5\">Linguistics (5)</td></tr><tr><td>On &quot;Renunciation of benevolence and Renunciation of righteousness&quot; and &quot;Renunciation of sanctification&quot; in Laozi</td><td>Essay</td><td>Studies on Unearthed Documents and Ancient Characters</td><td>December 2006 (Series 1)</td><td>Ju Seok-gyu</td></tr><tr><td>Yangxiong Dialect Verification Certificate (upper and lower volumes)</td><td>Books</td><td>Zhonghua Book Company</td><td>September 2006</td><td>Hua Xuecheng Transfer Certificate</td></tr></table>",
+          "bbox": {
+            "x1": 100,
+            "y1": 270,
+            "x2": 899,
+            "y2": 999
+          },
+          "bbox_list": [
+            100,
+            270,
+            899,
+            999
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# First Prize (38)  \n\n<table><tr><td colspan=\"5\">Marxist Theory (2)</td></tr><tr><td>Research on the basic issues of socialism with Chinese characteristics</td><td>Books</td><td>Wuhan University Press</td><td>May 2007</td><td>Mei Rongzheng</td></tr><tr><td>Theory and practice of human modernization</td><td>Books</td><td>People&#x27;s Publishing House</td><td>April 2006</td><td>Cheng Yong Ting et al</td></tr><tr><td colspan=\"5\">Management Studies (2)</td></tr><tr><td>Research on strategic Behavior of Chinese enterprises in transition</td><td>Books</td><td>South China University of Technology Press</td><td>July 2007</td><td>Blue Helin et al</td></tr><tr><td>IP Theory - A new business model in the era of mesh economy</td><td>Books</td><td>Peking University Press</td><td>May 2007</td><td>Wang Jianguo</td></tr><tr><td colspan=\"5\">Philosophy<br>(1)</td></tr><tr><td>Shi Tao Studies</td><td>Books</td><td>Peking University Press</td><td>April 2005</td><td>Zhu Liangzhi</td></tr><tr><td colspan=\"5\">Logic (none)</td></tr><tr><td colspan=\"5\">Religious Studies (none)</td></tr><tr><td colspan=\"5\">Linguistics (5)</td></tr><tr><td>On &quot;Renunciation of benevolence and Renunciation of righteousness&quot; and &quot;Renunciation of sanctification&quot; in Laozi</td><td>Essay</td><td>Studies on Unearthed Documents and Ancient Characters</td><td>December 2006 (Series 1)</td><td>Ju Seok-gyu</td></tr><tr><td>Yangxiong Dialect Verification Certificate (upper and lower volumes)</td><td>Books</td><td>Zhonghua Book Company</td><td>September 2006</td><td>Hua Xuecheng Transfer Certificate</td></tr></table>"
+    },
+    {
+      "page_number": 6,
+      "text_blocks": [
+        {
+          "block_id": "p6_b0",
+          "page_number": 6,
+          "block_type": "table",
+          "block_type_cn": "表格",
+          "text_content": "",
+          "bbox": {
+            "x1": 100,
+            "y1": 75,
+            "x2": 896,
+            "y2": 895
+          },
+          "bbox_list": [
+            100,
+            75,
+            896,
+            895
+          ]
+        },
+        {
+          "block_id": "p6_b1",
+          "page_number": 6,
+          "block_type": "table_caption",
+          "block_type_cn": "表格标题",
+          "text_content": "Translation <table><tr><td>Archaeology (none)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Economics (3)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Financial development and peasant income growth in China</td><td>Dissertati on</td><td>Economic Research</td><td>Issue 9, 2005</td><td>Wen Tao, Xiong Deping</td><td>Ran Guanghe,</td></tr><tr><td>Rome -- Byzantine Economic History</td><td>Books</td><td>The Commerci al Press</td><td>Septemb er 2006</td><td>Li Yining</td><td></td></tr><tr><td>New views on China&#x27;s unified Market</td><td>Books</td><td>China Renmin University Press</td><td>December 2007</td><td>Ji Baocheng Editor and Chen Yongjun Associate editor</td><td></td></tr><tr><td>Political Science (none)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Law (2)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>On the humanistic development trend of modern international law</td><td>Dissertati on</td><td>Social Sciences in China</td><td>Issue 1, 2007</td><td>Tseng Lingliang</td><td></td></tr><tr><td>Fiscal and taxation laws are poorly discussed</td><td>Books</td><td>Peking University Press</td><td>May 2005</td><td>Zhang Shouwen</td><td></td></tr><tr><td>Sociology (none)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Ethnology (1)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>The history of ancient China</td><td>Books</td><td>People&#x27;s Publishi ng House</td><td>May 2007</td><td>Cui Mingde</td><td></td></tr><tr><td>Journalism and Communication (none)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Books, Information and Documentation (2)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>The Application of Concept Map in Knowledge Representation and Knowledge Evaluation (I, II, III)</td><td>Essay</td><td>Journal of Chinese Library Science</td><td>Issues 3-5, 2006</td><td>Ma Fei Cheng,</td><td>Hao Jinxin g</td></tr></table>",
+          "bbox": {
+            "x1": 98,
+            "y1": 34,
+            "x2": 185,
+            "y2": 49
+          },
+          "bbox_list": [
+            98,
+            34,
+            185,
+            49
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation   \n\n<table><tr><td>Archaeology (none)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Economics (3)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Financial development and peasant income growth in China</td><td>Dissertati on</td><td>Economic Research</td><td>Issue 9, 2005</td><td>Wen Tao, Xiong Deping</td><td>Ran Guanghe,</td></tr><tr><td>Rome -- Byzantine Economic History</td><td>Books</td><td>The Commerci al Press</td><td>Septemb er 2006</td><td>Li Yining</td><td></td></tr><tr><td>New views on China&#x27;s unified Market</td><td>Books</td><td>China Renmin University Press</td><td>December 2007</td><td>Ji Baocheng Editor and Chen Yongjun Associate editor</td><td></td></tr><tr><td>Political Science (none)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Law (2)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>On the humanistic development trend of modern international law</td><td>Dissertati on</td><td>Social Sciences in China</td><td>Issue 1, 2007</td><td>Tseng Lingliang</td><td></td></tr><tr><td>Fiscal and taxation laws are poorly discussed</td><td>Books</td><td>Peking University Press</td><td>May 2005</td><td>Zhang Shouwen</td><td></td></tr><tr><td>Sociology (none)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Ethnology (1)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>The history of ancient China</td><td>Books</td><td>People&#x27;s Publishi ng House</td><td>May 2007</td><td>Cui Mingde</td><td></td></tr><tr><td>Journalism and Communication (none)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Books, Information and Documentation (2)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>The Application of Concept Map in Knowledge Representation and Knowledge Evaluation (I, II, III)</td><td>Essay</td><td>Journal of Chinese Library Science</td><td>Issues 3-5, 2006</td><td>Ma Fei Cheng,</td><td>Hao Jinxin g</td></tr></table>"
+    },
+    {
+      "page_number": 7,
+      "text_blocks": [
+        {
+          "block_id": "p7_b0",
+          "page_number": 7,
+          "block_type": "table",
+          "block_type_cn": "表格",
+          "text_content": "",
+          "bbox": {
+            "x1": 100,
+            "y1": 75,
+            "x2": 895,
+            "y2": 540
+          },
+          "bbox_list": [
+            100,
+            75,
+            895,
+            540
+          ]
+        },
+        {
+          "block_id": "p7_b1",
+          "page_number": 7,
+          "block_type": "table_caption",
+          "block_type_cn": "表格标题",
+          "text_content": "Translation <table><tr><td>Library industry change and development trend</td><td>Essay</td><td>Journal of Chinese Library Science</td><td>Issue 3, 2007</td><td>~ Chen Chuanfu,</td><td>Wu, Gan g</td></tr><tr><td colspan=\"6\">Education (6)</td></tr><tr><td>A study on the contribution of education to Chongqing&#x27;s economic development</td><td>Research on the report category</td><td>Department of Policies and Regulations, Ministry of Education, Chongqing Municipal Party Committee, Municipal Research Office, etc</td><td>November 2007</td><td>Song Naijing, Wen Tao, Zhao Xiuyu,</td><td>Peng Zhiyong, Mou Yanlin, Wan Mingchun, etc</td></tr><tr><td>On &quot;New Basic Education&quot; -- An Exploration and Understanding of School Reform in contemporary China</td><td>Books</td><td>Educational Science Press</td><td>September 2006</td><td>Lan Ye</td><td></td></tr><tr><td>Introduction to Imperial Examinati on</td><td>Books</td><td>Central China Normal University Press</td><td>In August 2005</td><td>Liu Haifeng</td><td></td></tr></table>",
+          "bbox": {
+            "x1": 99,
+            "y1": 35,
+            "x2": 185,
+            "y2": 50
+          },
+          "bbox_list": [
+            99,
+            35,
+            185,
+            50
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation   \n\n<table><tr><td>Library industry change and development trend</td><td>Essay</td><td>Journal of Chinese Library Science</td><td>Issue 3, 2007</td><td>~ Chen Chuanfu,</td><td>Wu, Gan g</td></tr><tr><td colspan=\"6\">Education (6)</td></tr><tr><td>A study on the contribution of education to Chongqing&#x27;s economic development</td><td>Research on the report category</td><td>Department of Policies and Regulations, Ministry of Education, Chongqing Municipal Party Committee, Municipal Research Office, etc</td><td>November 2007</td><td>Song Naijing, Wen Tao, Zhao Xiuyu,</td><td>Peng Zhiyong, Mou Yanlin, Wan Mingchun, etc</td></tr><tr><td>On &quot;New Basic Education&quot; -- An Exploration and Understanding of School Reform in contemporary China</td><td>Books</td><td>Educational Science Press</td><td>September 2006</td><td>Lan Ye</td><td></td></tr><tr><td>Introduction to Imperial Examinati on</td><td>Books</td><td>Central China Normal University Press</td><td>In August 2005</td><td>Liu Haifeng</td><td></td></tr></table>"
+    },
+    {
+      "page_number": 8,
+      "text_blocks": [
+        {
+          "block_id": "p8_b0",
+          "page_number": 8,
+          "block_type": "table",
+          "block_type_cn": "表格",
+          "text_content": "",
+          "bbox": {
+            "x1": 97,
+            "y1": 72,
+            "x2": 895,
+            "y2": 730
+          },
+          "bbox_list": [
+            97,
+            72,
+            895,
+            730
+          ]
+        },
+        {
+          "block_id": "p8_b1",
+          "page_number": 8,
+          "block_type": "table_caption",
+          "block_type_cn": "表格标题",
+          "text_content": "Translation <table><tr><td>Research on the development status and countermeasures of basic education for Ethnic minorities in Northwest China</td><td>Books</td><td>Ethnic Publishing House</td><td>August 2006</td><td>Jiayi Wang and Guoguang Lu</td></tr><tr><td>Modern Teaching Theory (Three volumes)</td><td>Books</td><td>People&#x27;s Education Press</td><td>September-October 2005</td><td>Dina Pei,</td></tr><tr><td>Exploring educational change: Perspectives on economics and management Policy</td><td>Books</td><td>Educational Science Press</td><td>In September 2005</td><td>Min Weifang</td></tr><tr><td colspan=\"5\">Psychology (1)</td></tr><tr><td>Research on Text Reading Information Processing -- The Theory and Experiment of Chinese Text Reading Double Processing</td><td>Literature</td><td>Guangdong Higher Education Press</td><td>November 2007</td><td>Lei Mo, Ying Leng, Ruiming Wang</td></tr><tr><td colspan=\"5\">Statistics (1)</td></tr><tr><td>Regression Coefficient and Autoregressive Order Shrinkage and Selection Via the Lasso</td><td>Essay</td><td>Journal Royal Society</td><td>of the Statistical Issue 1, 2007</td><td>Wang Li Hansheng, Cai Zhiling</td></tr><tr><td>Research on Hong Kong, Macao and Taiwan Issues (none)</td><td></td><td></td><td></td><td></td></tr><tr><td>International Studies (none)</td><td></td><td></td><td></td><td></td></tr><tr><td>Research on integrated and cross-cutting Issues (none)</td><td></td><td></td><td></td><td></td></tr></table>",
+          "bbox": {
+            "x1": 97,
+            "y1": 35,
+            "x2": 184,
+            "y2": 50
+          },
+          "bbox_list": [
+            97,
+            35,
+            184,
+            50
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation   \n\n<table><tr><td>Research on the development status and countermeasures of basic education for Ethnic minorities in Northwest China</td><td>Books</td><td>Ethnic Publishing House</td><td>August 2006</td><td>Jiayi Wang and Guoguang Lu</td></tr><tr><td>Modern Teaching Theory (Three volumes)</td><td>Books</td><td>People&#x27;s Education Press</td><td>September-October 2005</td><td>Dina Pei,</td></tr><tr><td>Exploring educational change: Perspectives on economics and management Policy</td><td>Books</td><td>Educational Science Press</td><td>In September 2005</td><td>Min Weifang</td></tr><tr><td colspan=\"5\">Psychology (1)</td></tr><tr><td>Research on Text Reading Information Processing -- The Theory and Experiment of Chinese Text Reading Double Processing</td><td>Literature</td><td>Guangdong Higher Education Press</td><td>November 2007</td><td>Lei Mo, Ying Leng, Ruiming Wang</td></tr><tr><td colspan=\"5\">Statistics (1)</td></tr><tr><td>Regression Coefficient and Autoregressive Order Shrinkage and Selection Via the Lasso</td><td>Essay</td><td>Journal Royal Society</td><td>of the Statistical Issue 1, 2007</td><td>Wang Li Hansheng, Cai Zhiling</td></tr><tr><td>Research on Hong Kong, Macao and Taiwan Issues (none)</td><td></td><td></td><td></td><td></td></tr><tr><td>International Studies (none)</td><td></td><td></td><td></td><td></td></tr><tr><td>Research on integrated and cross-cutting Issues (none)</td><td></td><td></td><td></td><td></td></tr></table>"
+    },
+    {
+      "page_number": 9,
+      "text_blocks": [
+        {
+          "block_id": "p9_b0",
+          "page_number": 9,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Second Prize (205)",
+          "bbox": {
+            "x1": 402,
+            "y1": 116,
+            "x2": 545,
+            "y2": 153
+          },
+          "bbox_list": [
+            402,
+            116,
+            545,
+            153
+          ]
+        },
+        {
+          "block_id": "p9_b1",
+          "page_number": 9,
+          "block_type": "table",
+          "block_type_cn": "表格",
+          "text_content": "<table><tr><td colspan=\"6\">Marxist Theory (10)</td></tr><tr><td>A Historical Study on the Ideological and Theoretical Education of the Communist Party of China since the founding of New China (Upper and lower)</td><td>Books</td><td>China Social Sciences Press</td><td>June 2007</td><td>Shi Yunxia</td><td></td></tr><tr><td>Titanic heading for an Iceberg - Contemporary capitalism in the eyes of Western left-wing thinkers</td><td>Books</td><td>People&#x27;s Publishing House</td><td>December 2007</td><td>Chen Xueming</td><td></td></tr><tr><td>Interpretation of Human-based Moral Education Ontology - Also on the historical development of moral education influenced by &quot;people-oriented&quot; thought to &quot;human-based&quot; moral education</td><td>Dissertations</td><td>Educational Research</td><td>Issue 12, 2005</td><td>Chen Binggong</td><td></td></tr><tr><td>Research on Socialist Core value system</td><td>Books</td><td>People&#x27;s Publishing House</td><td>October 2007</td><td>Edited by Ilan Zhen</td><td></td></tr><tr><td>A Comparative Study of Marxist theoretical education in the world</td><td>books</td><td>Central Compilation Publishing House</td><td>November 2006</td><td>Chiu Kangta</td><td></td></tr></table>",
+          "bbox": {
+            "x1": 100,
+            "y1": 201,
+            "x2": 897,
+            "y2": 732
+          },
+          "bbox_list": [
+            100,
+            201,
+            897,
+            732
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# Second Prize (205)  \n\n<table><tr><td colspan=\"6\">Marxist Theory (10)</td></tr><tr><td>A Historical Study on the Ideological and Theoretical Education of the Communist Party of China since the founding of New China (Upper and lower)</td><td>Books</td><td>China Social Sciences Press</td><td>June 2007</td><td>Shi Yunxia</td><td></td></tr><tr><td>Titanic heading for an Iceberg - Contemporary capitalism in the eyes of Western left-wing thinkers</td><td>Books</td><td>People&#x27;s Publishing House</td><td>December 2007</td><td>Chen Xueming</td><td></td></tr><tr><td>Interpretation of Human-based Moral Education Ontology - Also on the historical development of moral education influenced by &quot;people-oriented&quot; thought to &quot;human-based&quot; moral education</td><td>Dissertations</td><td>Educational Research</td><td>Issue 12, 2005</td><td>Chen Binggong</td><td></td></tr><tr><td>Research on Socialist Core value system</td><td>Books</td><td>People&#x27;s Publishing House</td><td>October 2007</td><td>Edited by Ilan Zhen</td><td></td></tr><tr><td>A Comparative Study of Marxist theoretical education in the world</td><td>books</td><td>Central Compilation Publishing House</td><td>November 2006</td><td>Chiu Kangta</td><td></td></tr></table>"
+    },
+    {
+      "page_number": 10,
+      "text_blocks": [
+        {
+          "block_id": "p10_b0",
+          "page_number": 10,
+          "block_type": "table",
+          "block_type_cn": "表格",
+          "text_content": "",
+          "bbox": {
+            "x1": 95,
+            "y1": 75,
+            "x2": 895,
+            "y2": 390
+          },
+          "bbox_list": [
+            95,
+            75,
+            895,
+            390
+          ]
+        },
+        {
+          "block_id": "p10_b1",
+          "page_number": 10,
+          "block_type": "table_caption",
+          "block_type_cn": "表格标题",
+          "text_content": "Translation <table><tr><td>The Dual Nature of Fundamental Rights</td><td>Dissertatio n</td><td>Journal of Legal Studies</td><td>Issue 3, 2005</td><td>Xiang Zhang</td></tr><tr><td>Study on the justification of the ruling benchmark</td><td>Dissertatio n</td><td>Chinese Jurisprudence</td><td>Issue 6, 2007</td><td>Youyon Zhou</td></tr><tr><td>The Regulation Of Anti-circumvention China</td><td>Dissertatio n</td><td>Journal of the Copy Right Society of the USA</td><td>Vol. 54, Nos. 2 -3, winter-spring, 2007</td><td>Hui jia, Xie</td></tr><tr><td>Personality Law Research</td><td>Dissertatio n</td><td>People&#x27;s University of China Press</td><td>Issue 7, 2005</td><td>Liming Wang</td></tr><tr><td>Study of skewed configuration of rights</td><td>Dissertatio n</td><td>Chinese Social Science</td><td>Issue 3, 2006</td><td>Ying, Feihu</td></tr></table>",
+          "bbox": {
+            "x1": 97,
+            "y1": 35,
+            "x2": 184,
+            "y2": 50
+          },
+          "bbox_list": [
+            97,
+            35,
+            184,
+            50
+          ]
+        },
+        {
+          "block_id": "p10_b2",
+          "page_number": 10,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Sociology y (6)",
+          "bbox": {
+            "x1": 108,
+            "y1": 400,
+            "x2": 181,
+            "y2": 430
+          },
+          "bbox_list": [
+            108,
+            400,
+            181,
+            430
+          ]
+        },
+        {
+          "block_id": "p10_b3",
+          "page_number": 10,
+          "block_type": "table",
+          "block_type_cn": "表格",
+          "text_content": "<table><tr><td>A New Perspective in Guiding Ethnic Relations in the 21st Century: &quot;De-politicization&quot; of Ethnicity in China</td><td>Thesis</td><td>Asian Ethnicity</td><td>Vol.8,No.3(Oct 2007)</td><td>The Dijohors n e</td></tr><tr><td>The origin and expansion of Chinese sociology</td><td>Thesis</td><td>China Renmin University Press</td><td>June 2007</td><td>Liu Shaojie</td></tr><tr><td>The State and the Market in the process of Market Transformation: An examination based on the retirement age of the workforce</td><td>Thesis</td><td>Social Sciences in China</td><td>5,2007</td><td>Leung Yucheng</td></tr><tr><td>The Ilustle and Bustle of a Town -- An interpretation of the political operation of a town</td><td>Thesis</td><td>Life · Reading · New Knowledge Sanlian Bookstore</td><td>October 2007</td><td>wu yi</td></tr><tr><td>New Dualistic Society and the Transformation of Chinese Society</td><td>Thesis</td><td>Social Sciences in China</td><td>1,2007</td><td>liu flat</td></tr><tr><td>Study on the discipline system of demography</td><td>Thesis</td><td>China Renmin University Press</td><td>November 2006</td><td>Wu Cangping, Ed</td></tr></table>",
+          "bbox": {
+            "x1": 98,
+            "y1": 432,
+            "x2": 896,
+            "y2": 896
+          },
+          "bbox_list": [
+            98,
+            432,
+            896,
+            896
+          ]
+        },
+        {
+          "block_id": "p10_b4",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Ethnology y (4)",
+          "bbox": {
+            "x1": 111,
+            "y1": 906,
+            "x2": 186,
+            "y2": 935
+          },
+          "bbox_list": [
+            111,
+            906,
+            186,
+            935
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation   \n\n<table><tr><td>The Dual Nature of Fundamental Rights</td><td>Dissertatio n</td><td>Journal of Legal Studies</td><td>Issue 3, 2005</td><td>Xiang Zhang</td></tr><tr><td>Study on the justification of the ruling benchmark</td><td>Dissertatio n</td><td>Chinese Jurisprudence</td><td>Issue 6, 2007</td><td>Youyon Zhou</td></tr><tr><td>The Regulation Of Anti-circumvention China</td><td>Dissertatio n</td><td>Journal of the Copy Right Society of the USA</td><td>Vol. 54, Nos. 2 -3, winter-spring, 2007</td><td>Hui jia, Xie</td></tr><tr><td>Personality Law Research</td><td>Dissertatio n</td><td>People&#x27;s University of China Press</td><td>Issue 7, 2005</td><td>Liming Wang</td></tr><tr><td>Study of skewed configuration of rights</td><td>Dissertatio n</td><td>Chinese Social Science</td><td>Issue 3, 2006</td><td>Ying, Feihu</td></tr></table>  \n\n# Sociology y (6)  \n\n<table><tr><td>A New Perspective in Guiding Ethnic Relations in the 21st Century: &quot;De-politicization&quot; of Ethnicity in China</td><td>Thesis</td><td>Asian Ethnicity</td><td>Vol.8,No.3(Oct 2007)</td><td>The Dijohors n e</td></tr><tr><td>The origin and expansion of Chinese sociology</td><td>Thesis</td><td>China Renmin University Press</td><td>June 2007</td><td>Liu Shaojie</td></tr><tr><td>The State and the Market in the process of Market Transformation: An examination based on the retirement age of the workforce</td><td>Thesis</td><td>Social Sciences in China</td><td>5,2007</td><td>Leung Yucheng</td></tr><tr><td>The Ilustle and Bustle of a Town -- An interpretation of the political operation of a town</td><td>Thesis</td><td>Life · Reading · New Knowledge Sanlian Bookstore</td><td>October 2007</td><td>wu yi</td></tr><tr><td>New Dualistic Society and the Transformation of Chinese Society</td><td>Thesis</td><td>Social Sciences in China</td><td>1,2007</td><td>liu flat</td></tr><tr><td>Study on the discipline system of demography</td><td>Thesis</td><td>China Renmin University Press</td><td>November 2006</td><td>Wu Cangping, Ed</td></tr></table>  \n\nEthnology y (4)"
+    },
+    {
+      "page_number": 11,
+      "text_blocks": [
+        {
+          "block_id": "p11_b0",
+          "page_number": 11,
+          "block_type": "table",
+          "block_type_cn": "表格",
+          "text_content": "<table><tr><td>National Interests in the Geopolitical Landscape: Reflections on “East Turkestan” Forces and Terrorist Activities at Home and Abroad</td><td>Dissertation</td><td>China International Institute for Strategic Studies, etc.</td><td>August, 2008</td><td>Permanent Gao, Yaqing Xu<br>Yue Tianming, Hu Shangzhe, and<br>Tang Ruxian, Chen Mingxin</td></tr><tr><td>History of the development of the Chinese nation</td><td>Dissertation</td><td>Yunnan Publishing Group</td><td>February, 2007</td><td>Zhong You</td></tr><tr><td>General Theory of Chinese Minorities</td><td>Dissertation</td><td>Nation Press</td><td>August, 2005</td><td>Jianxin Yang</td></tr><tr><td>Oasis of Culture: Silk Road Language and Western Civilization</td><td>Dissertation</td><td>Xinjiang People&#x27;s Publishing House</td><td>August, 2006</td><td>Niu Ruji et al.</td></tr><tr><td>Journalism and Communication (5)</td><td></td><td></td><td></td><td></td></tr></table>",
+          "bbox": {
+            "x1": 94,
+            "y1": 149,
+            "x2": 896,
+            "y2": 599
+          },
+          "bbox_list": [
+            94,
+            149,
+            896,
+            599
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n<table><tr><td>National Interests in the Geopolitical Landscape: Reflections on “East Turkestan” Forces and Terrorist Activities at Home and Abroad</td><td>Dissertation</td><td>China International Institute for Strategic Studies, etc.</td><td>August, 2008</td><td>Permanent Gao, Yaqing Xu<br>Yue Tianming, Hu Shangzhe, and<br>Tang Ruxian, Chen Mingxin</td></tr><tr><td>History of the development of the Chinese nation</td><td>Dissertation</td><td>Yunnan Publishing Group</td><td>February, 2007</td><td>Zhong You</td></tr><tr><td>General Theory of Chinese Minorities</td><td>Dissertation</td><td>Nation Press</td><td>August, 2005</td><td>Jianxin Yang</td></tr><tr><td>Oasis of Culture: Silk Road Language and Western Civilization</td><td>Dissertation</td><td>Xinjiang People&#x27;s Publishing House</td><td>August, 2006</td><td>Niu Ruji et al.</td></tr><tr><td>Journalism and Communication (5)</td><td></td><td></td><td></td><td></td></tr></table>"
+    },
+    {
+      "page_number": 12,
+      "text_blocks": [
+        {
+          "block_id": "p12_b0",
+          "page_number": 12,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Third Prize (392)",
+          "bbox": {
+            "x1": 402,
+            "y1": 143,
+            "x2": 580,
+            "y2": 164
+          },
+          "bbox_list": [
+            402,
+            143,
+            580,
+            164
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nThird Prize (392)"
+    },
+    {
+      "page_number": 13,
+      "text_blocks": [
+        {
+          "block_id": "p13_b0",
+          "page_number": 13,
+          "block_type": "table",
+          "block_type_cn": "表格",
+          "text_content": "<table><tr><td colspan=\"6\">Marxist Theory<br>(13)</td></tr><tr><td>\"Leapfrog Theory\" and the economic development path of backward countries</td><td>Books</td><td>Wuhan University Press</td><td>January 2006</td><td>Sun Laibin</td><td></td></tr><tr><td>Research on Economic Globalization and Socialist Ideology Construction</td><td>Books</td><td>People&#x27;s Publishing House</td><td>September 2005</td><td>Wang Yonggui et al</td><td></td></tr><tr><td>Systematic Theory of Moral Education (2nd Ed.)</td><td>Books</td><td>Zhengzhou University Press</td><td>May 2007</td><td>Jiang Duyun</td><td></td></tr><tr><td>Modernity and its Transcendence - a Marxist interpretation</td><td>Thesis Class</td><td>Social Science Fronts</td><td>2, 2005</td><td>Toh Ming Ah</td><td></td></tr><tr><td>Socialist modernization and cultural innovation</td><td>Books</td><td>People&#x27;s Publishing House</td><td>July 2006</td><td>Yu Sixin</td><td></td></tr><tr><td>Why mental health education becomes the research field of ideological and political education</td><td>Dissertation</td><td>Studies in Marxism</td><td>Issue 3, 2007</td><td>She Shuanghao</td><td></td></tr><tr><td>On the law of Spiritual Civilization Development</td><td>Books</td><td>Shandong University Press</td><td>July 2005</td><td>Zhou Xiangjun et al</td><td></td></tr><tr><td>The view of honor and disgrace in Chinese excellent traditional moral culture</td><td>Essay Class</td><td>Theoretical Front of Colleges and Universities</td><td>No. 9, 2006</td><td>Wu Dongsheng</td><td></td></tr><tr><td>Chinese Characteristics and Chinese Model: A Study of Deng Xiaoping&#x27;s View of Socialist Characteristics</td><td>Books</td><td>People&#x27;s Publishing House</td><td>August 2006</td><td>Liu Jianwu</td><td></td></tr><tr><td>On Marx&#x27;s &quot;Reflection of the Problem Perspective&quot;</td><td>Treatise</td><td>Social Sciences in China</td><td>6, 2006</td><td>ren flat</td><td></td></tr></table>",
+          "bbox": {
+            "x1": 100,
+            "y1": 120,
+            "x2": 897,
+            "y2": 900
+          },
+          "bbox_list": [
+            100,
+            120,
+            897,
+            900
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n<table><tr><td colspan=\"6\">Marxist Theory<br>(13)</td></tr><tr><td>\"Leapfrog Theory\" and the economic development path of backward countries</td><td>Books</td><td>Wuhan University Press</td><td>January 2006</td><td>Sun Laibin</td><td></td></tr><tr><td>Research on Economic Globalization and Socialist Ideology Construction</td><td>Books</td><td>People&#x27;s Publishing House</td><td>September 2005</td><td>Wang Yonggui et al</td><td></td></tr><tr><td>Systematic Theory of Moral Education (2nd Ed.)</td><td>Books</td><td>Zhengzhou University Press</td><td>May 2007</td><td>Jiang Duyun</td><td></td></tr><tr><td>Modernity and its Transcendence - a Marxist interpretation</td><td>Thesis Class</td><td>Social Science Fronts</td><td>2, 2005</td><td>Toh Ming Ah</td><td></td></tr><tr><td>Socialist modernization and cultural innovation</td><td>Books</td><td>People&#x27;s Publishing House</td><td>July 2006</td><td>Yu Sixin</td><td></td></tr><tr><td>Why mental health education becomes the research field of ideological and political education</td><td>Dissertation</td><td>Studies in Marxism</td><td>Issue 3, 2007</td><td>She Shuanghao</td><td></td></tr><tr><td>On the law of Spiritual Civilization Development</td><td>Books</td><td>Shandong University Press</td><td>July 2005</td><td>Zhou Xiangjun et al</td><td></td></tr><tr><td>The view of honor and disgrace in Chinese excellent traditional moral culture</td><td>Essay Class</td><td>Theoretical Front of Colleges and Universities</td><td>No. 9, 2006</td><td>Wu Dongsheng</td><td></td></tr><tr><td>Chinese Characteristics and Chinese Model: A Study of Deng Xiaoping&#x27;s View of Socialist Characteristics</td><td>Books</td><td>People&#x27;s Publishing House</td><td>August 2006</td><td>Liu Jianwu</td><td></td></tr><tr><td>On Marx&#x27;s &quot;Reflection of the Problem Perspective&quot;</td><td>Treatise</td><td>Social Sciences in China</td><td>6, 2006</td><td>ren flat</td><td></td></tr></table>"
+    },
+    {
+      "page_number": 14,
+      "text_blocks": [
+        {
+          "block_id": "p14_b0",
+          "page_number": 14,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Translation",
+          "bbox": {
+            "x1": 99,
+            "y1": 35,
+            "x2": 186,
+            "y2": 50
+          },
+          "bbox_list": [
+            99,
+            35,
+            186,
+            50
+          ]
+        },
+        {
+          "block_id": "p14_b1",
+          "page_number": 14,
+          "block_type": "table",
+          "block_type_cn": "表格",
+          "text_content": "<table><tr><td>and its contemporary significance</td><td></td><td></td><td></td><td></td></tr><tr><td>The Modern Pursuit of Chinese philosophy</td><td>Books</td><td>China Social Sciences Press</td><td>December 2006</td><td>Yan modes g t</td></tr><tr><td>Some reflections on the subject of Marxist theory innovation</td><td>Dissertation</td><td>Guide Journal of Ideological and Theoretical Education</td><td>Issue 6, 2005</td><td>Liang Shufa</td></tr><tr><td>A Study of Marxist Oriental Social Theory</td><td>Books</td><td>Party School Press of the CPC Central Committee</td><td>July 2006</td><td>Yu Liangzao</td></tr><tr><td colspan=\"5\">Management (38)</td></tr><tr><td>Theoretic structure of financial management</td><td>Books</td><td>China Renmin University Press</td><td>April 2006</td><td>Wang Huacheng</td></tr><tr><td>A Study on the Influencing Factors of Capital structure of listed companies in China -- Theory and Evidence</td><td>Books</td><td>China Finance and Economics Press</td><td>November 2005</td><td>Xiao Zuoping</td></tr></table>",
+          "bbox": {
+            "x1": 98,
+            "y1": 73,
+            "x2": 897,
+            "y2": 555
+          },
+          "bbox_list": [
+            98,
+            73,
+            897,
+            555
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# Translation  \n\n<table><tr><td>and its contemporary significance</td><td></td><td></td><td></td><td></td></tr><tr><td>The Modern Pursuit of Chinese philosophy</td><td>Books</td><td>China Social Sciences Press</td><td>December 2006</td><td>Yan modes g t</td></tr><tr><td>Some reflections on the subject of Marxist theory innovation</td><td>Dissertation</td><td>Guide Journal of Ideological and Theoretical Education</td><td>Issue 6, 2005</td><td>Liang Shufa</td></tr><tr><td>A Study of Marxist Oriental Social Theory</td><td>Books</td><td>Party School Press of the CPC Central Committee</td><td>July 2006</td><td>Yu Liangzao</td></tr><tr><td colspan=\"5\">Management (38)</td></tr><tr><td>Theoretic structure of financial management</td><td>Books</td><td>China Renmin University Press</td><td>April 2006</td><td>Wang Huacheng</td></tr><tr><td>A Study on the Influencing Factors of Capital structure of listed companies in China -- Theory and Evidence</td><td>Books</td><td>China Finance and Economics Press</td><td>November 2005</td><td>Xiao Zuoping</td></tr></table>"
+    },
+    {
+      "page_number": 15,
+      "text_blocks": [
+        {
+          "block_id": "p15_b0",
+          "page_number": 15,
+          "block_type": "table",
+          "block_type_cn": "表格",
+          "text_content": "",
+          "bbox": {
+            "x1": 102,
+            "y1": 75,
+            "x2": 897,
+            "y2": 895
+          },
+          "bbox_list": [
+            102,
+            75,
+            897,
+            895
+          ]
+        },
+        {
+          "block_id": "p15_b1",
+          "page_number": 15,
+          "block_type": "table_caption",
+          "block_type_cn": "表格标题",
+          "text_content": "Translation <table><tr><td>A survey on social integration and Stability of outmigration in the Three Gorges Area</td><td>Research reports</td><td>Three Gorges Office of The State Council, Immigration Office of Sichuan Provincial People&#x27;s Government</td><td>January 2007</td><td>Song Ziran</td></tr><tr><td>Choice: State-owned Enterprise Reform and Worker Survival Action</td><td>Books</td><td>Social Sciences Academic Press</td><td>April 2005</td><td>Liu Aiyu</td></tr><tr><td>Social Exclusion in the Welfare Triangle: An empirical study of China&#x27;s urban New poor communities</td><td>Books</td><td>Shanghai People&#x27;s Publishing House</td><td>January 2007</td><td>Peng Huamin</td></tr><tr><td>Migration and Development: An Empirical Study of China since its reform and opening up</td><td>Books</td><td>Science Press</td><td>November 2005</td><td>Wang Guixin et al</td></tr><tr><td colspan=\"5\">Ethnology (9)</td></tr><tr><td>General Theory of Ethnic relations</td><td>Books</td><td>Minzu University Press of China</td><td>October 2007</td><td>Kim Byung-ho</td></tr><tr><td>Drug hazards and countermeasures in Southwest ethnic areas</td><td>Books</td><td>Sichuan Nationalities Publishing House</td><td>In May 2005</td><td>Qin Heping</td></tr><tr><td>Niu Jie: The transformation of an urban Hui community</td><td>Books</td><td>Minzu University Press of China</td><td>May 2006</td><td>Ryong Police Woo</td></tr><tr><td>Tibetan document of Western Xia in China</td><td>Books</td><td>Gansu People&#x27;s Publishing House Dunhuang Literature and Art Publishing House</td><td>July 2005</td><td>Yuning Chen and Jianlu Du, Ed</td></tr><tr><td>The various forms of &quot;authenticity&quot; in the ethnographic perspective</td><td>Essay</td><td>Social Sciences in China</td><td>Issue 2, 2006</td><td>Peng Zhaorong</td></tr></table>",
+          "bbox": {
+            "x1": 100,
+            "y1": 33,
+            "x2": 186,
+            "y2": 48
+          },
+          "bbox_list": [
+            100,
+            33,
+            186,
+            48
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation   \n\n<table><tr><td>A survey on social integration and Stability of outmigration in the Three Gorges Area</td><td>Research reports</td><td>Three Gorges Office of The State Council, Immigration Office of Sichuan Provincial People&#x27;s Government</td><td>January 2007</td><td>Song Ziran</td></tr><tr><td>Choice: State-owned Enterprise Reform and Worker Survival Action</td><td>Books</td><td>Social Sciences Academic Press</td><td>April 2005</td><td>Liu Aiyu</td></tr><tr><td>Social Exclusion in the Welfare Triangle: An empirical study of China&#x27;s urban New poor communities</td><td>Books</td><td>Shanghai People&#x27;s Publishing House</td><td>January 2007</td><td>Peng Huamin</td></tr><tr><td>Migration and Development: An Empirical Study of China since its reform and opening up</td><td>Books</td><td>Science Press</td><td>November 2005</td><td>Wang Guixin et al</td></tr><tr><td colspan=\"5\">Ethnology (9)</td></tr><tr><td>General Theory of Ethnic relations</td><td>Books</td><td>Minzu University Press of China</td><td>October 2007</td><td>Kim Byung-ho</td></tr><tr><td>Drug hazards and countermeasures in Southwest ethnic areas</td><td>Books</td><td>Sichuan Nationalities Publishing House</td><td>In May 2005</td><td>Qin Heping</td></tr><tr><td>Niu Jie: The transformation of an urban Hui community</td><td>Books</td><td>Minzu University Press of China</td><td>May 2006</td><td>Ryong Police Woo</td></tr><tr><td>Tibetan document of Western Xia in China</td><td>Books</td><td>Gansu People&#x27;s Publishing House Dunhuang Literature and Art Publishing House</td><td>July 2005</td><td>Yuning Chen and Jianlu Du, Ed</td></tr><tr><td>The various forms of &quot;authenticity&quot; in the ethnographic perspective</td><td>Essay</td><td>Social Sciences in China</td><td>Issue 2, 2006</td><td>Peng Zhaorong</td></tr></table>"
+    },
+    {
+      "page_number": 16,
+      "text_blocks": [
+        {
+          "block_id": "p16_b0",
+          "page_number": 16,
+          "block_type": "table",
+          "block_type_cn": "表格",
+          "text_content": "",
+          "bbox": {
+            "x1": 100,
+            "y1": 75,
+            "x2": 896,
+            "y2": 880
+          },
+          "bbox_list": [
+            100,
+            75,
+            896,
+            880
+          ]
+        },
+        {
+          "block_id": "p16_b1",
+          "page_number": 16,
+          "block_type": "table_caption",
+          "block_type_cn": "表格标题",
+          "text_content": "Translation <table><tr><td>The history and civilization of the Tibetan Plateau</td><td>Books</td><td>China Tibetology Central Press</td><td>Septembe r 2007</td><td>Shi shuo</td></tr><tr><td>Interaction, Adjustment and Reconstruction -- A Study on Hui Communities and their cultural changes in Northwest cities</td><td>Books</td><td>Ethnic Publishing House</td><td>March 2007</td><td>Yang Wenjiong</td></tr><tr><td>Tibetan cultural ecology</td><td>Books</td><td>China Tibetology Publishing House</td><td>In January 2006</td><td>He Feng</td></tr><tr><td>A Study on Harmonious Development among ethnic regions -- Taking Laifeng County of Hubei Province and Longshan County of Hunan Province as examples</td><td>Dissertation</td><td>Journal of South-Central University for Nationalities (Humanities and Social Sciences Edition)</td><td>Issue 6, 2006</td><td>Chao Duan</td></tr><tr><td colspan=\"5\">Journalism and Communication (10)</td></tr><tr><td>The Messenger Image: The Construction and Resolution of Journalistic Professionalism</td><td>Books</td><td>Fudan University Press</td><td>December 2005</td><td>Dan Huang</td></tr><tr><td>History of Communication Thought in China (four volumes)</td><td>Books</td><td>Shanghai Jiao Tong University Press</td><td>March 2005</td><td>Guanjun Jing, Won Kwang Dai</td></tr><tr><td>Research on the Development Strategy of China&#x27;s Digital Entertainment Industry</td><td>Books</td><td>Social Sciences Academic Press</td><td>December 2007</td><td>Jie Li et al.</td></tr><tr><td>Age Theory: Social Time in Social Space</td><td>Books</td><td>China Industry &amp;amp; Commerce Associated Press Co., Ltd.</td><td>March 2007</td><td>Dehuan Liu</td></tr><tr><td>Duchess TV: Modern Media and the Daily Life of Ethnic Minority Villages Daily Life</td><td>Books</td><td>Shandong People&#x27;s Publishing House</td><td>May 2005</td><td>Jianbin Guo</td></tr></table>",
+          "bbox": {
+            "x1": 98,
+            "y1": 35,
+            "x2": 185,
+            "y2": 50
+          },
+          "bbox_list": [
+            98,
+            35,
+            185,
+            50
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation   \n\n<table><tr><td>The history and civilization of the Tibetan Plateau</td><td>Books</td><td>China Tibetology Central Press</td><td>Septembe r 2007</td><td>Shi shuo</td></tr><tr><td>Interaction, Adjustment and Reconstruction -- A Study on Hui Communities and their cultural changes in Northwest cities</td><td>Books</td><td>Ethnic Publishing House</td><td>March 2007</td><td>Yang Wenjiong</td></tr><tr><td>Tibetan cultural ecology</td><td>Books</td><td>China Tibetology Publishing House</td><td>In January 2006</td><td>He Feng</td></tr><tr><td>A Study on Harmonious Development among ethnic regions -- Taking Laifeng County of Hubei Province and Longshan County of Hunan Province as examples</td><td>Dissertation</td><td>Journal of South-Central University for Nationalities (Humanities and Social Sciences Edition)</td><td>Issue 6, 2006</td><td>Chao Duan</td></tr><tr><td colspan=\"5\">Journalism and Communication (10)</td></tr><tr><td>The Messenger Image: The Construction and Resolution of Journalistic Professionalism</td><td>Books</td><td>Fudan University Press</td><td>December 2005</td><td>Dan Huang</td></tr><tr><td>History of Communication Thought in China (four volumes)</td><td>Books</td><td>Shanghai Jiao Tong University Press</td><td>March 2005</td><td>Guanjun Jing, Won Kwang Dai</td></tr><tr><td>Research on the Development Strategy of China&#x27;s Digital Entertainment Industry</td><td>Books</td><td>Social Sciences Academic Press</td><td>December 2007</td><td>Jie Li et al.</td></tr><tr><td>Age Theory: Social Time in Social Space</td><td>Books</td><td>China Industry &amp;amp; Commerce Associated Press Co., Ltd.</td><td>March 2007</td><td>Dehuan Liu</td></tr><tr><td>Duchess TV: Modern Media and the Daily Life of Ethnic Minority Villages Daily Life</td><td>Books</td><td>Shandong People&#x27;s Publishing House</td><td>May 2005</td><td>Jianbin Guo</td></tr></table>"
+    }
+  ],
+  "total_blocks": 35
+}

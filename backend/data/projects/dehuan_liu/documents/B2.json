@@ -1,0 +1,56 @@
+{
+  "exhibit_id": "B2",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit B-2",
+          "bbox": {
+            "x1": 121,
+            "y1": 455,
+            "x2": 870,
+            "y2": 550
+          },
+          "bbox_list": [
+            121,
+            455,
+            870,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit B-2"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 115,
+            "y1": 81,
+            "x2": 884,
+            "y2": 911
+          },
+          "bbox_list": [
+            115,
+            81,
+            884,
+            911
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n====================="
+    }
+  ],
+  "total_blocks": 2
+}

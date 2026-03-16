@@ -1,0 +1,764 @@
+{
+  "exhibit_id": "G7",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit G-7",
+          "bbox": {
+            "x1": 110,
+            "y1": 450,
+            "x2": 880,
+            "y2": 550
+          },
+          "bbox_list": [
+            110,
+            450,
+            880,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit G-7"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Donghua University Home /Announcement",
+          "bbox": {
+            "x1": 68,
+            "y1": 85,
+            "x2": 257,
+            "y2": 133
+          },
+          "bbox_list": [
+            68,
+            85,
+            257,
+            133
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Notice on Declaring the Selection of National Planning Textbook in the 11th Five-",
+          "bbox": {
+            "x1": 85,
+            "y1": 176,
+            "x2": 904,
+            "y2": 201
+          },
+          "bbox_list": [
+            85,
+            176,
+            904,
+            201
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Year Plan of General Higher Education",
+          "bbox": {
+            "x1": 293,
+            "y1": 216,
+            "x2": 696,
+            "y2": 239
+          },
+          "bbox_list": [
+            293,
+            216,
+            696,
+            239
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Date: 2005- 11- 01 Issuing Department: Educational Affairs Department",
+          "bbox": {
+            "x1": 70,
+            "y1": 256,
+            "x2": 707,
+            "y2": 278
+          },
+          "bbox_list": [
+            70,
+            256,
+            707,
+            278
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To all faculties and related units:",
+          "bbox": {
+            "x1": 70,
+            "y1": 323,
+            "x2": 338,
+            "y2": 342
+          },
+          "bbox_list": [
+            70,
+            323,
+            338,
+            342
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "According to the notice from the Department of Higher Education of the Ministry of Education, the declaration work of \"Selection of National Planning Textbook in the '11th Five- Year Plan' of General Higher Education\" will be started soon. The following is the notification of the declaration work:",
+          "bbox": {
+            "x1": 68,
+            "y1": 379,
+            "x2": 928,
+            "y2": 461
+          },
+          "bbox_list": [
+            68,
+            379,
+            928,
+            461
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "### I. Please attach great importance to this work in each college and organize it carefully.",
+          "bbox": {
+            "x1": 70,
+            "y1": 499,
+            "x2": 816,
+            "y2": 520
+          },
+          "bbox_list": [
+            70,
+            499,
+            816,
+            520
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Textbooks are the basic tools for teaching and an important guarantee for improving teaching quality. Textbook construction is an important content of teaching reform and an important reflection of the results of teaching reform. Each college should pay great attention to it.",
+          "bbox": {
+            "x1": 70,
+            "y1": 528,
+            "x2": 928,
+            "y2": 609
+          },
+          "bbox_list": [
+            70,
+            528,
+            928,
+            609
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "National Planning Textbook in the 11th Five- Year Plan of General Higher Education are the only \"National Planning Textbooks\" during the period of the \\(11^{\\text{th}}\\) Five- year Plan in China. The compilation of these textbooks not only reflects the level of textbook construction and teaching level of each university, but also provides an opportunity for all institutions of higher education in China (including 211 universities) to compete and cooperate on the same platform. The planning cycle of these teaching materials is 5 years, and the compilation work is urgent. All schools should pay great attention to it and organize teachers to actively participate in the declaration work.",
+          "bbox": {
+            "x1": 70,
+            "y1": 616,
+            "x2": 930,
+            "y2": 818
+          },
+          "bbox_list": [
+            70,
+            616,
+            930,
+            818
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "For the current selection about the National Planning Textbook in the 11th Five- Year Plan, universities shall declare and apply to relevant publishing houses, and the relevant publishing houses will then declare",
+          "bbox": {
+            "x1": 73,
+            "y1": 824,
+            "x2": 930,
+            "y2": 877
+          },
+          "bbox_list": [
+            73,
+            824,
+            930,
+            877
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nDonghua University  Home /Announcement  \n\n# Notice on Declaring the Selection of National Planning Textbook in the 11th Five-  \n\n# Year Plan of General Higher Education  \n\nDate: 2005- 11- 01 Issuing Department: Educational Affairs Department  \n\nTo all faculties and related units:  \n\nAccording to the notice from the Department of Higher Education of the Ministry of Education, the declaration work of \"Selection of National Planning Textbook in the '11th Five- Year Plan' of General Higher Education\" will be started soon. The following is the notification of the declaration work:  \n\n### I. Please attach great importance to this work in each college and organize it carefully.  \n\nTextbooks are the basic tools for teaching and an important guarantee for improving teaching quality. Textbook construction is an important content of teaching reform and an important reflection of the results of teaching reform. Each college should pay great attention to it.  \n\nNational Planning Textbook in the 11th Five- Year Plan of General Higher Education are the only \"National Planning Textbooks\" during the period of the \\(11^{\\text{th}}\\) Five- year Plan in China. The compilation of these textbooks not only reflects the level of textbook construction and teaching level of each university, but also provides an opportunity for all institutions of higher education in China (including 211 universities) to compete and cooperate on the same platform. The planning cycle of these teaching materials is 5 years, and the compilation work is urgent. All schools should pay great attention to it and organize teachers to actively participate in the declaration work.  \n\nFor the current selection about the National Planning Textbook in the 11th Five- Year Plan, universities shall declare and apply to relevant publishing houses, and the relevant publishing houses will then declare"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "and apply to Department of Higher Education of the Ministry of Education. Upon the organization of review for subjects declared by various publishing houses, the Department of Higher Education will issue the approval of the projects.",
+          "bbox": {
+            "x1": 65,
+            "y1": 78,
+            "x2": 920,
+            "y2": 164
+          },
+          "bbox_list": [
+            65,
+            78,
+            920,
+            164
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## II. Dedicated staff and careful planning.",
+          "bbox": {
+            "x1": 68,
+            "y1": 202,
+            "x2": 416,
+            "y2": 222
+          },
+          "bbox_list": [
+            68,
+            202,
+            416,
+            222
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Each colleges shall organize all departments to have symposium, and complete the declaration work about the selection based on practical results and experiences of teaching reform in various disciplines in recent years and the implementation progress of subject construction, quality course construction and teaching reform programs. Various schools shall establish a teaching reform and textbook construction team presided over by academic leader, professor and vice- professor. The members of the team shall include core teacher. We should try our best to make breakthrough in the declaration work about the selection of National Planning Textbook in the 11th Five- Year Plan of General Higher Education, and lay a sound foundation for the improvement of the teaching standard and quality, the declaration of the future teaching achievement awards and construction of quality courses.",
+          "bbox": {
+            "x1": 66,
+            "y1": 228,
+            "x2": 925,
+            "y2": 492
+          },
+          "bbox_list": [
+            66,
+            228,
+            925,
+            492
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The compilation of national- level teaching materials will become an important part of the teaching reform achievements and can be used to participate in the evaluation and assessment of the next national and municipal teaching achievement awards.",
+          "bbox": {
+            "x1": 70,
+            "y1": 495,
+            "x2": 925,
+            "y2": 580
+          },
+          "bbox_list": [
+            70,
+            495,
+            925,
+            580
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## III. Focuses of Declaration",
+          "bbox": {
+            "x1": 74,
+            "y1": 620,
+            "x2": 306,
+            "y2": 640
+          },
+          "bbox_list": [
+            74,
+            620,
+            306,
+            640
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1. Textbook Revision",
+          "bbox": {
+            "x1": 75,
+            "y1": 650,
+            "x2": 252,
+            "y2": 670
+          },
+          "bbox_list": [
+            75,
+            650,
+            252,
+            670
+          ]
+        },
+        {
+          "block_id": "p3_b6",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "As for Textbooks of Courses for 21st Century edited by our university that are published before December 31, 2003 and planning textbooks for \"Ninth Five- year\" and \"Tenth Five- year\" of various ministries and commissions (Teaching Instruction Commission), we may declare and apply for the t selection about the revision of textbooks according to development of science and technology, disciplinary development and demands of teaching reform. Various schools shall attach high importance on the declaration of various textbooks to avoid missed reporting, and inform editor- in- chief of textbooks to actively participate in the deflation work.",
+          "bbox": {
+            "x1": 72,
+            "y1": 672,
+            "x2": 931,
+            "y2": 879
+          },
+          "bbox_list": [
+            72,
+            672,
+            931,
+            879
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nand apply to Department of Higher Education of the Ministry of Education. Upon the organization of review for subjects declared by various publishing houses, the Department of Higher Education will issue the approval of the projects.  \n\n## II. Dedicated staff and careful planning.  \n\nEach colleges shall organize all departments to have symposium, and complete the declaration work about the selection based on practical results and experiences of teaching reform in various disciplines in recent years and the implementation progress of subject construction, quality course construction and teaching reform programs. Various schools shall establish a teaching reform and textbook construction team presided over by academic leader, professor and vice- professor. The members of the team shall include core teacher. We should try our best to make breakthrough in the declaration work about the selection of National Planning Textbook in the 11th Five- Year Plan of General Higher Education, and lay a sound foundation for the improvement of the teaching standard and quality, the declaration of the future teaching achievement awards and construction of quality courses.  \n\nThe compilation of national- level teaching materials will become an important part of the teaching reform achievements and can be used to participate in the evaluation and assessment of the next national and municipal teaching achievement awards.  \n\n## III. Focuses of Declaration  \n\n1. Textbook Revision  \n\nAs for Textbooks of Courses for 21st Century edited by our university that are published before December 31, 2003 and planning textbooks for \"Ninth Five- year\" and \"Tenth Five- year\" of various ministries and commissions (Teaching Instruction Commission), we may declare and apply for the t selection about the revision of textbooks according to development of science and technology, disciplinary development and demands of teaching reform. Various schools shall attach high importance on the declaration of various textbooks to avoid missed reporting, and inform editor- in- chief of textbooks to actively participate in the deflation work."
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 2. New Textbooks",
+          "bbox": {
+            "x1": 66,
+            "y1": 85,
+            "x2": 216,
+            "y2": 103
+          },
+          "bbox_list": [
+            66,
+            85,
+            216,
+            103
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Newly compiled textbooks shall be declared within the scope of subject selection in the Guide for the Declaration of Eleventh Five- Year National Planning Textbooks for General Higher Education (Appendix I). Textbooks reflecting the latest achievements in modern science, technology and culture that have obvious features in contents and systems; textbooks with relatively significant influence from teaching reform, and textbooks of emerging disciplines, interdisciplinary subjects and cross- specialty subject; supporting textbooks in series; textbooks under emergent need in teaching. In organizing the declaration, various schools shall highlight the features and advantages of our university, and select textbooks that are well- known in China and have certain influence in specific fields as the subject for the declaration of new textbooks.",
+          "bbox": {
+            "x1": 64,
+            "y1": 110,
+            "x2": 923,
+            "y2": 373
+          },
+          "bbox_list": [
+            64,
+            110,
+            923,
+            373
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "3. The textbooks declared shall be submitted before the end of December, 2010.",
+          "bbox": {
+            "x1": 68,
+            "y1": 380,
+            "x2": 716,
+            "y2": 402
+          },
+          "bbox_list": [
+            68,
+            380,
+            716,
+            402
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## IV. Declaration Method",
+          "bbox": {
+            "x1": 70,
+            "y1": 443,
+            "x2": 276,
+            "y2": 461
+          },
+          "bbox_list": [
+            70,
+            443,
+            276,
+            461
+          ]
+        },
+        {
+          "block_id": "p4_b4",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Editor- in- chief downloads the application materials and complete all required contents in Appendix 2 Application for National Planning Textbook in the 11th Five- Year Plan of General Higher Education. After preliminary examination, the school shall submit the application to the Office of Academic Affairs. Office of Academic Affairs will organize the relevant experts to review the application and then submit it to the relevant publishing houses. The relevant publishing houses will directly declare to the Department of Higher Education. Among them, in terms of the declaration of subject selection of planning textbooks, the editor- in- chief may select the publishing house according to contents of textbooks. The publishing houses selected shall have traditional advantages in publishing textbooks in the corresponding category. According to the notice from the Ministry of Education, editor- in- chief may also directly contact with relevant publishing house independently, and then submit the relevant materials to Office of Academic Affairs for signature and comments before November 21, 2005.",
+          "bbox": {
+            "x1": 68,
+            "y1": 468,
+            "x2": 928,
+            "y2": 790
+          },
+          "bbox_list": [
+            68,
+            468,
+            928,
+            790
+          ]
+        },
+        {
+          "block_id": "p4_b5",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## V. Download and Complete the Application and Declaration Materials",
+          "bbox": {
+            "x1": 73,
+            "y1": 827,
+            "x2": 680,
+            "y2": 848
+          },
+          "bbox_list": [
+            73,
+            827,
+            680,
+            848
+          ]
+        },
+        {
+          "block_id": "p4_b6",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The editor- in- chief shall complete the required contents in Application for 11th Five- year National",
+          "bbox": {
+            "x1": 75,
+            "y1": 855,
+            "x2": 925,
+            "y2": 878
+          },
+          "bbox_list": [
+            75,
+            855,
+            925,
+            878
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## 2. New Textbooks  \n\nNewly compiled textbooks shall be declared within the scope of subject selection in the Guide for the Declaration of Eleventh Five- Year National Planning Textbooks for General Higher Education (Appendix I). Textbooks reflecting the latest achievements in modern science, technology and culture that have obvious features in contents and systems; textbooks with relatively significant influence from teaching reform, and textbooks of emerging disciplines, interdisciplinary subjects and cross- specialty subject; supporting textbooks in series; textbooks under emergent need in teaching. In organizing the declaration, various schools shall highlight the features and advantages of our university, and select textbooks that are well- known in China and have certain influence in specific fields as the subject for the declaration of new textbooks.  \n\n3. The textbooks declared shall be submitted before the end of December, 2010.  \n\n## IV. Declaration Method  \n\nEditor- in- chief downloads the application materials and complete all required contents in Appendix 2 Application for National Planning Textbook in the 11th Five- Year Plan of General Higher Education. After preliminary examination, the school shall submit the application to the Office of Academic Affairs. Office of Academic Affairs will organize the relevant experts to review the application and then submit it to the relevant publishing houses. The relevant publishing houses will directly declare to the Department of Higher Education. Among them, in terms of the declaration of subject selection of planning textbooks, the editor- in- chief may select the publishing house according to contents of textbooks. The publishing houses selected shall have traditional advantages in publishing textbooks in the corresponding category. According to the notice from the Ministry of Education, editor- in- chief may also directly contact with relevant publishing house independently, and then submit the relevant materials to Office of Academic Affairs for signature and comments before November 21, 2005.  \n\n## V. Download and Complete the Application and Declaration Materials  \n\nThe editor- in- chief shall complete the required contents in Application for 11th Five- year National"
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Planning Textbooks for General Higher Education (Appendix II) (one electronic version and two paper versions) and lecture notes (original textbooks shall be accompanied for revised textbooks) in duplicate. The electronic version shall be sent to fanghong@ dhu.edu.cn. After the preliminary examination, various schools shall send the application and declaration materials in paper version to Teacher Baohong Fang in Teaching Research Division of Office of Academic Affairs.",
+          "bbox": {
+            "x1": 64,
+            "y1": 80,
+            "x2": 920,
+            "y2": 222
+          },
+          "bbox_list": [
+            64,
+            80,
+            920,
+            222
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The above declaration notice and relevant forms could be downloaded from the relevant websites. Notice on Declaring the Subject Selection of 11th Five- year National Planning Textbooks for Normal Higher Education (Jiao Gao Si Letter No. [2005] 195) of the Ministry of Education could be downloaded from Website for National Textbooks of General Higher Education; the Letter about Completing the Declaration on the Subject Selection of 11th Five Year National Planning Textbooks in Science, Engineering, Agriculture and Medical Science for General Higher Education released by Higher Education Press could be downloaded from Higher Science and Engineering Publishing Center of Higher Education Press.",
+          "bbox": {
+            "x1": 64,
+            "y1": 228,
+            "x2": 923,
+            "y2": 460
+          },
+          "bbox_list": [
+            64,
+            228,
+            923,
+            460
+          ]
+        },
+        {
+          "block_id": "p5_b2",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Office of Academic Affairs have already uploaded these documents and appendixes to the server of our university. Down address: click Document Download under the main page of Office of Academic Affairs, find the corresponding textbook reform column and click to download. Relevant documents and appendixes",
+          "bbox": {
+            "x1": 67,
+            "y1": 467,
+            "x2": 923,
+            "y2": 581
+          },
+          "bbox_list": [
+            67,
+            467,
+            923,
+            581
+          ]
+        },
+        {
+          "block_id": "p5_b3",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1. Notice on Declaring the Selection of National Planning Textbook in the 11th Five-Year Plan of General Higher Education",
+          "bbox": {
+            "x1": 68,
+            "y1": 586,
+            "x2": 923,
+            "y2": 640
+          },
+          "bbox_list": [
+            68,
+            586,
+            923,
+            640
+          ]
+        },
+        {
+          "block_id": "p5_b4",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2. Declaration and Application Materials for Selection of 11th National Planning Textbook in the 11th Five-Year Plan",
+          "bbox": {
+            "x1": 68,
+            "y1": 646,
+            "x2": 923,
+            "y2": 700
+          },
+          "bbox_list": [
+            68,
+            646,
+            923,
+            700
+          ]
+        },
+        {
+          "block_id": "p5_b5",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "3. Contact information of publishing houses participating in the selection",
+          "bbox": {
+            "x1": 68,
+            "y1": 707,
+            "x2": 666,
+            "y2": 730
+          },
+          "bbox_list": [
+            68,
+            707,
+            666,
+            730
+          ]
+        },
+        {
+          "block_id": "p5_b6",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Letter about Completing the Declaration",
+          "bbox": {
+            "x1": 70,
+            "y1": 738,
+            "x2": 415,
+            "y2": 759
+          },
+          "bbox_list": [
+            70,
+            738,
+            415,
+            759
+          ]
+        },
+        {
+          "block_id": "p5_b7",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "on the Subject Selection of 11th Five Year National Planning Textbooks in Science, Engineering, Agriculture, and Medical Science for General Higher Education released by Higher Education Press Notice of China Machine Press on Organizing the Declaration of 11th Five-year National Planning Textbooks for Normal Higher Education",
+          "bbox": {
+            "x1": 70,
+            "y1": 764,
+            "x2": 925,
+            "y2": 878
+          },
+          "bbox_list": [
+            70,
+            764,
+            925,
+            878
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nPlanning Textbooks for General Higher Education (Appendix II) (one electronic version and two paper versions) and lecture notes (original textbooks shall be accompanied for revised textbooks) in duplicate. The electronic version shall be sent to fanghong@ dhu.edu.cn. After the preliminary examination, various schools shall send the application and declaration materials in paper version to Teacher Baohong Fang in Teaching Research Division of Office of Academic Affairs.  \n\nThe above declaration notice and relevant forms could be downloaded from the relevant websites. Notice on Declaring the Subject Selection of 11th Five- year National Planning Textbooks for Normal Higher Education (Jiao Gao Si Letter No. [2005] 195) of the Ministry of Education could be downloaded from Website for National Textbooks of General Higher Education; the Letter about Completing the Declaration on the Subject Selection of 11th Five Year National Planning Textbooks in Science, Engineering, Agriculture and Medical Science for General Higher Education released by Higher Education Press could be downloaded from Higher Science and Engineering Publishing Center of Higher Education Press.  \n\nOffice of Academic Affairs have already uploaded these documents and appendixes to the server of our university. Down address: click Document Download under the main page of Office of Academic Affairs, find the corresponding textbook reform column and click to download. Relevant documents and appendixes  \n\n1. Notice on Declaring the Selection of National Planning Textbook in the 11th Five-Year Plan of General Higher Education  \n\n2. Declaration and Application Materials for Selection of 11th National Planning Textbook in the 11th Five-Year Plan  \n\n3. Contact information of publishing houses participating in the selection  \n\nLetter about Completing the Declaration  \n\non the Subject Selection of 11th Five Year National Planning Textbooks in Science, Engineering, Agriculture, and Medical Science for General Higher Education released by Higher Education Press Notice of China Machine Press on Organizing the Declaration of 11th Five-year National Planning Textbooks for Normal Higher Education"
+    },
+    {
+      "page_number": 6,
+      "text_blocks": [
+        {
+          "block_id": "p6_b0",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## VI. Declaration and Application Time",
+          "bbox": {
+            "x1": 66,
+            "y1": 113,
+            "x2": 394,
+            "y2": 133
+          },
+          "bbox_list": [
+            66,
+            113,
+            394,
+            133
+          ]
+        },
+        {
+          "block_id": "p6_b1",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "From today to 10:00 a.m. on November 21, 2005.",
+          "bbox": {
+            "x1": 65,
+            "y1": 143,
+            "x2": 470,
+            "y2": 162
+          },
+          "bbox_list": [
+            65,
+            143,
+            470,
+            162
+          ]
+        },
+        {
+          "block_id": "p6_b2",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Contact Person: Baohong Fang Tel: 67792063 Email: fanghong@dhu.edu.cn",
+          "bbox": {
+            "x1": 65,
+            "y1": 171,
+            "x2": 781,
+            "y2": 193
+          },
+          "bbox_list": [
+            65,
+            171,
+            781,
+            193
+          ]
+        },
+        {
+          "block_id": "p6_b3",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Student at School / Alumni / Candidates and Visitors /E- mail Login / Administrator Login / Site Map /Join Us /Party Affairs",
+          "bbox": {
+            "x1": 65,
+            "y1": 231,
+            "x2": 919,
+            "y2": 283
+          },
+          "bbox_list": [
+            65,
+            231,
+            919,
+            283
+          ]
+        },
+        {
+          "block_id": "p6_b4",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Information Disclosure / Telephone List /E- mail of General Secretary /E- mail of President /Sponsorship for Students /Alumni Work / News Center",
+          "bbox": {
+            "x1": 65,
+            "y1": 291,
+            "x2": 919,
+            "y2": 342
+          },
+          "bbox_list": [
+            65,
+            291,
+            919,
+            342
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## VI. Declaration and Application Time  \n\nFrom today to 10:00 a.m. on November 21, 2005.  \n\nContact Person: Baohong Fang Tel: 67792063 Email: fanghong@dhu.edu.cn  \n\nStudent at School / Alumni / Candidates and Visitors /E- mail Login / Administrator Login / Site Map /Join Us /Party Affairs  \n\nInformation Disclosure / Telephone List /E- mail of General Secretary /E- mail of President /Sponsorship for Students /Alumni Work / News Center"
+    }
+  ],
+  "total_blocks": 38
+}

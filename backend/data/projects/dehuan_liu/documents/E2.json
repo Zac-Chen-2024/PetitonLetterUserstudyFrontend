@@ -1,0 +1,271 @@
+{
+  "exhibit_id": "E2",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit E-2",
+          "bbox": {
+            "x1": 120,
+            "y1": 451,
+            "x2": 870,
+            "y2": 550
+          },
+          "bbox_list": [
+            120,
+            451,
+            870,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit E-2"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 113,
+            "y1": 58,
+            "x2": 182,
+            "y2": 70
+          },
+          "bbox_list": [
+            113,
+            58,
+            182,
+            70
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Profile - School of New Media of Peking University",
+          "bbox": {
+            "x1": 250,
+            "y1": 78,
+            "x2": 562,
+            "y2": 93
+          },
+          "bbox_list": [
+            250,
+            78,
+            562,
+            93
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 112,
+            "y1": 100,
+            "x2": 880,
+            "y2": 160
+          },
+          "bbox_list": [
+            112,
+            100,
+            880,
+            160
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "table",
+          "block_type_cn": "表格",
+          "text_content": "<table><tr><td>Homepage</td><td>Profile</td><td>Teaching Resources</td><td>News</td><td>Admission Information</td><td>Academic Trends</td><td>Lab</td><td>Research Center</td><td>Achievement</td><td>Notice</td></tr></table>",
+          "bbox": {
+            "x1": 75,
+            "y1": 173,
+            "x2": 918,
+            "y2": 214
+          },
+          "bbox_list": [
+            75,
+            173,
+            918,
+            214
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "About us / Profile",
+          "bbox": {
+            "x1": 112,
+            "y1": 244,
+            "x2": 260,
+            "y2": 261
+          },
+          "bbox_list": [
+            112,
+            244,
+            260,
+            261
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Home > Profile > Profile",
+          "bbox": {
+            "x1": 730,
+            "y1": 244,
+            "x2": 879,
+            "y2": 259
+          },
+          "bbox_list": [
+            730,
+            244,
+            879,
+            259
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "> Profile Founded in Feb. 2014, School of New Media of Peking University is a scientific research and teaching institution focusing on the innovation and development of new media. Relying on the academic accumulation of Peking University, the School is committed to promoting new media theoretical research, technological innovation and industrial development, and strives to become an internationally renowned and domestic leading think tank, talent pool and achievement database.",
+          "bbox": {
+            "x1": 110,
+            "y1": 290,
+            "x2": 884,
+            "y2": 415
+          },
+          "bbox_list": [
+            110,
+            290,
+            884,
+            415
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "School of New Media has excellent faculty and scientific research force, and the disciplinary background of teachers and researchers includes communication, information, management, sociology, psychology, computer science and other fields, and they are competent for cross- professional, interdisciplinary and multi- perspective teaching and research requirements and industry- university- research interaction. There are 4 professors, 3 associate professors, 4 doctoral supervisors and 7 master supervisors among the full- time teachers at the School. The School also has invited well- known scholars and industry experts at home and abroad as chair professors and external experts, forming a diversified, high- level and open faculty research team structure with full- time teachers as the core, relying on chair professors and supported by external experts.",
+          "bbox": {
+            "x1": 115,
+            "y1": 451,
+            "x2": 886,
+            "y2": 652
+          },
+          "bbox_list": [
+            115,
+            451,
+            886,
+            652
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "School of New Media is committed to creating characteristic disciplines and advantageous majors, focusing on teaching and scientific research in the fields of new media communication, new media industry policy, new media operation and management, network user behavior analysis, new media education, new media technology, network security, data mining and other fields. School of New Media has extensively cooperated with the industry and academia, and established laboratories and research bases such as \"Public Opinion Management and Industry Intelligence Laboratory\", \"Information Exchange and Network Security Laboratory\", and \"New Interactive Internet Strategy Laboratory\" to build an industry- university- research interactive platform in big data public opinion analysis, digital",
+          "bbox": {
+            "x1": 118,
+            "y1": 688,
+            "x2": 888,
+            "y2": 864
+          },
+          "bbox_list": [
+            118,
+            688,
+            888,
+            864
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nProfile - School of New Media of Peking University  \n\n<table><tr><td>Homepage</td><td>Profile</td><td>Teaching Resources</td><td>News</td><td>Admission Information</td><td>Academic Trends</td><td>Lab</td><td>Research Center</td><td>Achievement</td><td>Notice</td></tr></table>  \n\nAbout us / Profile  \n\nHome > Profile > Profile  \n\n> Profile Founded in Feb. 2014, School of New Media of Peking University is a scientific research and teaching institution focusing on the innovation and development of new media. Relying on the academic accumulation of Peking University, the School is committed to promoting new media theoretical research, technological innovation and industrial development, and strives to become an internationally renowned and domestic leading think tank, talent pool and achievement database.  \n\nSchool of New Media has excellent faculty and scientific research force, and the disciplinary background of teachers and researchers includes communication, information, management, sociology, psychology, computer science and other fields, and they are competent for cross- professional, interdisciplinary and multi- perspective teaching and research requirements and industry- university- research interaction. There are 4 professors, 3 associate professors, 4 doctoral supervisors and 7 master supervisors among the full- time teachers at the School. The School also has invited well- known scholars and industry experts at home and abroad as chair professors and external experts, forming a diversified, high- level and open faculty research team structure with full- time teachers as the core, relying on chair professors and supported by external experts.  \n\nSchool of New Media is committed to creating characteristic disciplines and advantageous majors, focusing on teaching and scientific research in the fields of new media communication, new media industry policy, new media operation and management, network user behavior analysis, new media education, new media technology, network security, data mining and other fields. School of New Media has extensively cooperated with the industry and academia, and established laboratories and research bases such as \"Public Opinion Management and Industry Intelligence Laboratory\", \"Information Exchange and Network Security Laboratory\", and \"New Interactive Internet Strategy Laboratory\" to build an industry- university- research interactive platform in big data public opinion analysis, digital"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ecosystem construction, and new media user behavior analysis. School of New Media recruits masters and doctoral students, fully integrates with the international and industry in terms of training programs and courses, and invites well- known scholars and outstanding practitioners at home and abroad in the field of new media to participate in teaching. The School offers a number of cutting- edge courses, including social media research, data mining and analysis, social network analysis, mobile Internet research, etc., and is committed to cultivating compound talents with rich knowledge of humanities and social sciences, solid new media theory and research foundation, modern awareness, international vision and innovative spirit.",
+          "bbox": {
+            "x1": 115,
+            "y1": 101,
+            "x2": 882,
+            "y2": 261
+          },
+          "bbox_list": [
+            115,
+            101,
+            882,
+            261
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "School of New Media has extensive international cooperation and exchanges. It has established good cooperative relations with new media research institutions of many internationally renowned universities such as Harvard University and Oxford University. It also invites internationally renowned scholars to lecture and teach, actively learns the excellent teaching and research achievements, resources and experience of foreign universities, strengthens international connection with the curriculum system, teaching methods and teaching management, and adopts bilingual teaching in some courses to meet the demands of the internationalization of scientific research and teaching and enhance international influence. In front of the ever- changing new media technology and ideological innovation, School of New Media of Peking University adheres to the concept of collaborative innovation and open schooling, strives to build a high- level scientific research and teaching platform, constructs a scientific research highland and talent base in the field of new media, and promotes the continuous development of Chinese new media industry, university and research.",
+          "bbox": {
+            "x1": 116,
+            "y1": 298,
+            "x2": 884,
+            "y2": 556
+          },
+          "bbox_list": [
+            116,
+            298,
+            884,
+            556
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 120,
+            "y1": 623,
+            "x2": 884,
+            "y2": 739
+          },
+          "bbox_list": [
+            120,
+            623,
+            884,
+            739
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\necosystem construction, and new media user behavior analysis. School of New Media recruits masters and doctoral students, fully integrates with the international and industry in terms of training programs and courses, and invites well- known scholars and outstanding practitioners at home and abroad in the field of new media to participate in teaching. The School offers a number of cutting- edge courses, including social media research, data mining and analysis, social network analysis, mobile Internet research, etc., and is committed to cultivating compound talents with rich knowledge of humanities and social sciences, solid new media theory and research foundation, modern awareness, international vision and innovative spirit.  \n\nSchool of New Media has extensive international cooperation and exchanges. It has established good cooperative relations with new media research institutions of many internationally renowned universities such as Harvard University and Oxford University. It also invites internationally renowned scholars to lecture and teach, actively learns the excellent teaching and research achievements, resources and experience of foreign universities, strengthens international connection with the curriculum system, teaching methods and teaching management, and adopts bilingual teaching in some courses to meet the demands of the internationalization of scientific research and teaching and enhance international influence. In front of the ever- changing new media technology and ideological innovation, School of New Media of Peking University adheres to the concept of collaborative innovation and open schooling, strives to build a high- level scientific research and teaching platform, constructs a scientific research highland and talent base in the field of new media, and promotes the continuous development of Chinese new media industry, university and research.  "
+    }
+  ],
+  "total_blocks": 13
+}

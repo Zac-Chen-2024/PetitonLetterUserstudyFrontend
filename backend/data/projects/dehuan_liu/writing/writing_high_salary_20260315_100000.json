@@ -1,0 +1,316 @@
+{
+  "version_id": "20260315_100000",
+  "timestamp": "2026-03-15T10:00:00+00:00",
+  "success": true,
+  "section": "high_salary",
+  "paragraph_text": "The Beneficiary satisfies 8 C.F.R. §204.5(h)(3)(ix) by demonstrating a high salary relative to others in the field, with total compensation approximately three times the national average and supplemented by significant external consulting income. [Exhibit F1, p.2; Exhibit F2, p.2; Exhibit F3, p.3] The Beneficiary has been employed by Peking University since July 1992 and currently serves as a professor in the School of Journalism and Communication. [Exhibit F1, p.2] According to a certificate issued by the Office of Human Resources at Peking University, the Beneficiary's total pre-tax compensation from March 2021 to February 2022 was ¥961,710.00 RMB. [Exhibit F1, p.2] This figure corresponds to a monthly pre-tax salary of ¥80,142.50 RMB. [Exhibit F1, p.2] During that same period, Peking University withheld and paid income tax of ¥161,556.85 RMB on the Beneficiary's behalf. [Exhibit F1, p.2] Data from SalaryExpert, powered by the Economic Research Institute (ERI), indicates that the average annual base salary for a professor in China is ¥323,032 CNY. [Exhibit F2, p.2] SalaryExpert further reports that an entry-level professor with one to three years of experience earns approximately ¥228,864 CNY per year, while a senior-level professor with eight or more years of experience earns approximately ¥405,245 CNY per year. [Exhibit F2, p.2] The Beneficiary's annual compensation of ¥961,710 RMB is therefore approximately three times the national average professor salary of ¥323,032 CNY and approximately 2.37 times the senior-level professor salary of ¥405,245 CNY. [Exhibit F1, p.2; Exhibit F2, p.2] SalaryExpert reports that the average professor gross salary in China is ¥323,032 CNY per year, with an average bonus of ¥11,080 CNY and an equivalent hourly rate of $155 USD. [Exhibit F2, p.2] These figures are derived from salary surveys collected directly from employers and anonymous employees in China, and the underlying database encompasses over 11,000 job titles with advanced analytics. [Exhibit F2, p.2] SalaryExpert projects a 29% increase in professor salaries over the next five years, yielding an estimated average salary of ¥418,203 CNY by 2028; the Beneficiary's current compensation of ¥961,710 RMB already exceeds that projected 2028 average by approximately 2.30 times. [Exhibit F2, p.2] In addition to his university salary, the Beneficiary earned supplemental income through a training contract with iQIYI, one of the largest online video platforms in the world. [Exhibit F3, p.3; Exhibit F3, p.12] Under the contract, iQIYI appointed the Beneficiary to provide training services in \"User Insights and Data Decisions,\" reflecting the industry's demand for his specialized expertise in data-driven market analysis. [Exhibit F3, p.3] The agreed training fee was RMB 150,000, described as \"the total amount hereunder that Party A shall pay to Party B,\" representing substantial supplemental income beyond the Beneficiary's university compensation. [Exhibit F3, p.5] iQIYI is \"currently one of the largest online video sites in the world, with nearly 6 billion hours spent on its service each month and over 500 million monthly active users,\" and raised $2.25 billion in its 2018 U.S. IPO — underscoring the caliber of the enterprise that sought the Beneficiary's expertise. [Exhibit F3, p.12] In sum, the Beneficiary's annual university compensation of ¥961,710 RMB — approximately three times the national average professor salary — together with supplemental consulting income from enterprises such as iQIYI, clearly establishes that the Beneficiary commands remuneration significantly exceeding industry norms, placing him among the small percentage of professionals who have risen to the very top of the field. [Exhibit F1, p.2; Exhibit F2, p.2; Exhibit F3, p.5]",
+  "sentences": [
+    {
+      "text": "The Beneficiary satisfies 8 C.F.R. §204.5(h)(3)(ix) by demonstrating a high salary relative to others in the field, with total compensation approximately three times the national average and supplemented by significant external consulting income. [Exhibit F1, p.2; Exhibit F2, p.2; Exhibit F3, p.3]",
+      "snippet_ids": [
+        "snp_F1_e5f6a7b8",
+        "snp_F2_a1c2e3f4",
+        "snp_F3_e5f6a7b8"
+      ],
+      "subargument_id": "subarg-023",
+      "argument_id": "arg-005",
+      "exhibit_refs": [
+        "F1-2",
+        "F2-2",
+        "F3-3"
+      ],
+      "sentence_type": "opening"
+    },
+    {
+      "text": "The Beneficiary has been employed by Peking University since July 1992 and currently serves as a professor in the School of Journalism and Communication. [Exhibit F1, p.2]",
+      "snippet_ids": [
+        "snp_F1_a1b2c3d4"
+      ],
+      "subargument_id": "subarg-023",
+      "argument_id": "arg-005",
+      "exhibit_refs": [
+        "F1-2"
+      ],
+      "sentence_type": "body"
+    },
+    {
+      "text": "According to a certificate issued by the Office of Human Resources at Peking University, the Beneficiary's total pre-tax compensation from March 2021 to February 2022 was ¥961,710.00 RMB. [Exhibit F1, p.2]",
+      "snippet_ids": [
+        "snp_F1_e5f6a7b8"
+      ],
+      "subargument_id": "subarg-023",
+      "argument_id": "arg-005",
+      "exhibit_refs": [
+        "F1-2"
+      ],
+      "sentence_type": "body"
+    },
+    {
+      "text": "This figure corresponds to a monthly pre-tax salary of ¥80,142.50 RMB. [Exhibit F1, p.2]",
+      "snippet_ids": [
+        "snp_F1_c9d0e1f2"
+      ],
+      "subargument_id": "subarg-023",
+      "argument_id": "arg-005",
+      "exhibit_refs": [
+        "F1-2"
+      ],
+      "sentence_type": "body"
+    },
+    {
+      "text": "During that same period, Peking University withheld and paid income tax of ¥161,556.85 RMB on the Beneficiary's behalf. [Exhibit F1, p.2]",
+      "snippet_ids": [
+        "snp_F1_ab12cd34"
+      ],
+      "subargument_id": "subarg-023",
+      "argument_id": "arg-005",
+      "exhibit_refs": [
+        "F1-2"
+      ],
+      "sentence_type": "body"
+    },
+    {
+      "text": "Data from SalaryExpert, powered by the Economic Research Institute (ERI), indicates that the average annual base salary for a professor in China is ¥323,032 CNY. [Exhibit F2, p.2]",
+      "snippet_ids": [
+        "snp_F2_a1c2e3f4"
+      ],
+      "subargument_id": "subarg-023",
+      "argument_id": "arg-005",
+      "exhibit_refs": [
+        "F2-2"
+      ],
+      "sentence_type": "body"
+    },
+    {
+      "text": "SalaryExpert further reports that an entry-level professor with one to three years of experience earns approximately ¥228,864 CNY per year, while a senior-level professor with eight or more years of experience earns approximately ¥405,245 CNY per year. [Exhibit F2, p.2]",
+      "snippet_ids": [
+        "snp_F2_c3e5a7b9"
+      ],
+      "subargument_id": "subarg-023",
+      "argument_id": "arg-005",
+      "exhibit_refs": [
+        "F2-2"
+      ],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The Beneficiary's annual compensation of ¥961,710 RMB is therefore approximately three times the national average professor salary of ¥323,032 CNY and approximately 2.37 times the senior-level professor salary of ¥405,245 CNY. [Exhibit F1, p.2; Exhibit F2, p.2]",
+      "snippet_ids": [
+        "snp_F1_e5f6a7b8",
+        "snp_F2_a1c2e3f4",
+        "snp_F2_c3e5a7b9"
+      ],
+      "subargument_id": "subarg-023",
+      "argument_id": "arg-005",
+      "exhibit_refs": [
+        "F1-2",
+        "F2-2"
+      ],
+      "sentence_type": "body"
+    },
+    {
+      "text": "SalaryExpert reports that the average professor gross salary in China is ¥323,032 CNY per year, with an average bonus of ¥11,080 CNY and an equivalent hourly rate of $155 USD. [Exhibit F2, p.2]",
+      "snippet_ids": [
+        "snp_F2_a1c2e3f4",
+        "snp_F2_b2d4f6a8"
+      ],
+      "subargument_id": "subarg-024",
+      "argument_id": "arg-005",
+      "exhibit_refs": [
+        "F2-2"
+      ],
+      "sentence_type": "body"
+    },
+    {
+      "text": "These figures are derived from salary surveys collected directly from employers and anonymous employees in China, and the underlying database encompasses over 11,000 job titles with advanced analytics. [Exhibit F2, p.2]",
+      "snippet_ids": [
+        "snp_F2_d4f6b8c0"
+      ],
+      "subargument_id": "subarg-024",
+      "argument_id": "arg-005",
+      "exhibit_refs": [
+        "F2-2"
+      ],
+      "sentence_type": "body"
+    },
+    {
+      "text": "SalaryExpert projects a 29% increase in professor salaries over the next five years, yielding an estimated average salary of ¥418,203 CNY by 2028; the Beneficiary's current compensation of ¥961,710 RMB already exceeds that projected 2028 average by approximately 2.30 times. [Exhibit F2, p.2]",
+      "snippet_ids": [
+        "snp_F2_c3e5a7b9",
+        "snp_F2_b2d4f6a8"
+      ],
+      "subargument_id": "subarg-024",
+      "argument_id": "arg-005",
+      "exhibit_refs": [
+        "F2-2"
+      ],
+      "sentence_type": "body"
+    },
+    {
+      "text": "In addition to his university salary, the Beneficiary earned supplemental income through a training contract with iQIYI, one of the largest online video platforms in the world. [Exhibit F3, p.3; Exhibit F3, p.12]",
+      "snippet_ids": [
+        "snp_F3_e5f6a7b8",
+        "snp_F3_34567890"
+      ],
+      "subargument_id": "subarg-027",
+      "argument_id": "arg-005",
+      "exhibit_refs": [
+        "F3-3",
+        "F3-12"
+      ],
+      "sentence_type": "body"
+    },
+    {
+      "text": "Under the contract, iQIYI appointed the Beneficiary to provide training services in \"User Insights and Data Decisions,\" reflecting the industry's demand for his specialized expertise in data-driven market analysis. [Exhibit F3, p.3]",
+      "snippet_ids": [
+        "snp_F3_e5f6a7b8"
+      ],
+      "subargument_id": "subarg-027",
+      "argument_id": "arg-005",
+      "exhibit_refs": [
+        "F3-3"
+      ],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The agreed training fee was RMB 150,000, described as \"the total amount hereunder that Party A shall pay to Party B,\" representing substantial supplemental income beyond the Beneficiary's university compensation. [Exhibit F3, p.5]",
+      "snippet_ids": [
+        "snp_F3_c9d0e1f2"
+      ],
+      "subargument_id": "subarg-027",
+      "argument_id": "arg-005",
+      "exhibit_refs": [
+        "F3-5"
+      ],
+      "sentence_type": "body"
+    },
+    {
+      "text": "iQIYI is \"currently one of the largest online video sites in the world, with nearly 6 billion hours spent on its service each month and over 500 million monthly active users,\" and raised $2.25 billion in its 2018 U.S. IPO — underscoring the caliber of the enterprise that sought the Beneficiary's expertise. [Exhibit F3, p.12]",
+      "snippet_ids": [
+        "snp_F3_34567890"
+      ],
+      "subargument_id": "subarg-027",
+      "argument_id": "arg-005",
+      "exhibit_refs": [
+        "F3-12"
+      ],
+      "sentence_type": "body"
+    },
+    {
+      "text": "In sum, the Beneficiary's annual university compensation of ¥961,710 RMB — approximately three times the national average professor salary — together with supplemental consulting income from enterprises such as iQIYI, clearly establishes that the Beneficiary commands remuneration significantly exceeding industry norms, placing him among the small percentage of professionals who have risen to the very top of the field. [Exhibit F1, p.2; Exhibit F2, p.2; Exhibit F3, p.5]",
+      "snippet_ids": [
+        "snp_F1_e5f6a7b8",
+        "snp_F2_a1c2e3f4",
+        "snp_F3_c9d0e1f2"
+      ],
+      "subargument_id": "subarg-027",
+      "argument_id": "arg-005",
+      "exhibit_refs": [
+        "F1-2",
+        "F2-2",
+        "F3-5"
+      ],
+      "sentence_type": "closing"
+    }
+  ],
+  "provenance_index": {
+    "by_subargument": {
+      "subarg-023": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "subarg-024": [
+        8,
+        9,
+        10
+      ],
+      "subarg-027": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "by_argument": {
+      "arg-005": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "by_snippet": {
+      "snp_F1_e5f6a7b8": [
+        0,
+        2,
+        7,
+        15
+      ],
+      "snp_F2_a1c2e3f4": [
+        0,
+        5,
+        7,
+        8,
+        15
+      ],
+      "snp_F3_e5f6a7b8": [
+        0,
+        11,
+        12
+      ],
+      "snp_F1_a1b2c3d4": [
+        1
+      ],
+      "snp_F1_c9d0e1f2": [
+        3
+      ],
+      "snp_F1_ab12cd34": [
+        4
+      ],
+      "snp_F2_c3e5a7b9": [
+        6,
+        7,
+        10
+      ],
+      "snp_F2_b2d4f6a8": [
+        8,
+        10
+      ],
+      "snp_F2_d4f6b8c0": [
+        9
+      ],
+      "snp_F3_34567890": [
+        11,
+        14
+      ],
+      "snp_F3_c9d0e1f2": [
+        13,
+        15
+      ]
+    }
+  },
+  "validation": {
+    "total_sentences": 16,
+    "traced_sentences": 16,
+    "warnings": []
+  }
+}

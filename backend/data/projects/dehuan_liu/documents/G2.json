@@ -1,0 +1,170 @@
+{
+  "exhibit_id": "G2",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit G-2",
+          "bbox": {
+            "x1": 112,
+            "y1": 451,
+            "x2": 880,
+            "y2": 550
+          },
+          "bbox_list": [
+            112,
+            451,
+            880,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit G-2"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Home Periodical Introduction Contribution Guide Contribution via E-mail Contact Us Current Position > Home / Periodical Introduction",
+          "bbox": {
+            "x1": 68,
+            "y1": 83,
+            "x2": 923,
+            "y2": 168
+          },
+          "bbox_list": [
+            68,
+            83,
+            923,
+            168
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Periodical Introduction",
+          "bbox": {
+            "x1": 394,
+            "y1": 204,
+            "x2": 599,
+            "y2": 223
+          },
+          "bbox_list": [
+            394,
+            204,
+            599,
+            223
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Source: Marketing Research",
+          "bbox": {
+            "x1": 70,
+            "y1": 234,
+            "x2": 319,
+            "y2": 255
+          },
+          "bbox_list": [
+            70,
+            234,
+            319,
+            255
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Column: periodical introduction",
+          "bbox": {
+            "x1": 70,
+            "y1": 264,
+            "x2": 336,
+            "y2": 284
+          },
+          "bbox_list": [
+            70,
+            264,
+            336,
+            284
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Relevant description: official website of Marketing Research, magazine of Marketing Research, Periodical Office of Marketing Research; trade and economic type periodicals; it is sponsored by the Statistical Information Consulting Center of Henan Province; the domestic issue number is 41- 1348/C, and ISSN is 1672- 4216; monthly publication; publicly issued at home and abroad.",
+          "bbox": {
+            "x1": 69,
+            "y1": 291,
+            "x2": 925,
+            "y2": 405
+          },
+          "bbox_list": [
+            69,
+            291,
+            925,
+            405
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Marketing Research magazine was founded in 1953 and is sponsored by the Statistical Information Consulting Center of Henan Province. It focuses on market research and information and is openly distributed in China and abroad. It is a periodical in the category of trade and economy. the domestic issue number is 41- 1348/C, and ISSN is 1672. 4216. Marketing Research is a monthly periodical. The purpose of the periodical is to promote developments in market research and information. Contributions from trade and economic units and related authors are welcome.",
+          "bbox": {
+            "x1": 69,
+            "y1": 440,
+            "x2": 926,
+            "y2": 612
+          },
+          "bbox_list": [
+            69,
+            440,
+            926,
+            612
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Contribution Made to Marketing Research Editorial Office of Marketing Research Release of Marketing Research Papers Latest Contents of Marketing Research",
+          "bbox": {
+            "x1": 100,
+            "y1": 650,
+            "x2": 896,
+            "y2": 700
+          },
+          "bbox_list": [
+            100,
+            650,
+            896,
+            700
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nHome Periodical Introduction Contribution Guide Contribution via E-mail Contact Us Current Position > Home / Periodical Introduction  \n\n## Periodical Introduction  \n\nSource: Marketing Research  \n\nColumn: periodical introduction  \n\nRelevant description: official website of Marketing Research, magazine of Marketing Research, Periodical Office of Marketing Research; trade and economic type periodicals; it is sponsored by the Statistical Information Consulting Center of Henan Province; the domestic issue number is 41- 1348/C, and ISSN is 1672- 4216; monthly publication; publicly issued at home and abroad.  \n\nMarketing Research magazine was founded in 1953 and is sponsored by the Statistical Information Consulting Center of Henan Province. It focuses on market research and information and is openly distributed in China and abroad. It is a periodical in the category of trade and economy. the domestic issue number is 41- 1348/C, and ISSN is 1672. 4216. Marketing Research is a monthly periodical. The purpose of the periodical is to promote developments in market research and information. Contributions from trade and economic units and related authors are welcome.  \n\nContribution Made to Marketing Research Editorial Office of Marketing Research Release of Marketing Research Papers Latest Contents of Marketing Research"
+    }
+  ],
+  "total_blocks": 8
+}

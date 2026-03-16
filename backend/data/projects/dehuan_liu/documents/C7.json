@@ -1,0 +1,189 @@
+{
+  "exhibit_id": "C7",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit C-7",
+          "bbox": {
+            "x1": 115,
+            "y1": 451,
+            "x2": 875,
+            "y2": 550
+          },
+          "bbox_list": [
+            115,
+            451,
+            875,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit C-7"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Digital Marketing",
+          "bbox": {
+            "x1": 395,
+            "y1": 174,
+            "x2": 595,
+            "y2": 199
+          },
+          "bbox_list": [
+            395,
+            174,
+            595,
+            199
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Committee of China",
+          "bbox": {
+            "x1": 410,
+            "y1": 207,
+            "x2": 580,
+            "y2": 224
+          },
+          "bbox_list": [
+            410,
+            207,
+            580,
+            224
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# The First China Digital Marketing Conference",
+          "bbox": {
+            "x1": 192,
+            "y1": 232,
+            "x2": 800,
+            "y2": 262
+          },
+          "bbox_list": [
+            192,
+            232,
+            800,
+            262
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "& China Digital Marketing Commendation Conference",
+          "bbox": {
+            "x1": 214,
+            "y1": 275,
+            "x2": 777,
+            "y2": 298
+          },
+          "bbox_list": [
+            214,
+            275,
+            777,
+            298
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Judge Dehuan Liu",
+          "bbox": {
+            "x1": 375,
+            "y1": 352,
+            "x2": 618,
+            "y2": 378
+          },
+          "bbox_list": [
+            375,
+            352,
+            618,
+            378
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 380,
+            "y1": 428,
+            "x2": 616,
+            "y2": 479
+          },
+          "bbox_list": [
+            380,
+            428,
+            616,
+            479
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Digital Marketing Committee of China",
+          "bbox": {
+            "x1": 413,
+            "y1": 485,
+            "x2": 585,
+            "y2": 522
+          },
+          "bbox_list": [
+            413,
+            485,
+            585,
+            522
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Beijing, China Jan. 2016",
+          "bbox": {
+            "x1": 408,
+            "y1": 585,
+            "x2": 592,
+            "y2": 601
+          },
+          "bbox_list": [
+            408,
+            585,
+            592,
+            601
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# Digital Marketing  \n\nCommittee of China  \n\n# The First China Digital Marketing Conference  \n\n& China Digital Marketing Commendation Conference  \n\n# Judge Dehuan Liu  \n\nDigital Marketing  Committee of China  \n\nBeijing, China Jan. 2016"
+    }
+  ],
+  "total_blocks": 9
+}

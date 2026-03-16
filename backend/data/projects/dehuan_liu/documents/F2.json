@@ -1,0 +1,2404 @@
+{
+  "exhibit_id": "F2",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit F-2",
+          "bbox": {
+            "x1": 123,
+            "y1": 450,
+            "x2": 863,
+            "y2": 545
+          },
+          "bbox_list": [
+            123,
+            450,
+            863,
+            545
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit F-2"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Professor",
+          "bbox": {
+            "x1": 120,
+            "y1": 112,
+            "x2": 214,
+            "y2": 128
+          },
+          "bbox_list": [
+            120,
+            112,
+            214,
+            128
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Average Base Salary \\ \\(323,032 (CNY)/yr\\)",
+          "bbox": {
+            "x1": 120,
+            "y1": 142,
+            "x2": 245,
+            "y2": 209
+          },
+          "bbox_list": [
+            120,
+            142,
+            245,
+            209
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Entry \\ \\(228,864",
+          "bbox": {
+            "x1": 123,
+            "y1": 225,
+            "x2": 220,
+            "y2": 250
+          },
+          "bbox_list": [
+            123,
+            225,
+            220,
+            250
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 320,
+            "y1": 110,
+            "x2": 530,
+            "y2": 225
+          },
+          "bbox_list": [
+            320,
+            110,
+            530,
+            225
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Average \\ \\(323,032",
+          "bbox": {
+            "x1": 380,
+            "y1": 225,
+            "x2": 444,
+            "y2": 250
+          },
+          "bbox_list": [
+            380,
+            225,
+            444,
+            250
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Explore Our Salary Database",
+          "bbox": {
+            "x1": 595,
+            "y1": 111,
+            "x2": 848,
+            "y2": 130
+          },
+          "bbox_list": [
+            595,
+            111,
+            848,
+            130
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Quickly search for salaries in other careers and locations in our salary database.",
+          "bbox": {
+            "x1": 595,
+            "y1": 135,
+            "x2": 870,
+            "y2": 163
+          },
+          "bbox_list": [
+            595,
+            135,
+            870,
+            163
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Search Our Database",
+          "bbox": {
+            "x1": 668,
+            "y1": 252,
+            "x2": 797,
+            "y2": 266
+          },
+          "bbox_list": [
+            668,
+            252,
+            797,
+            266
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Compensation Data Based on Experience",
+          "bbox": {
+            "x1": 210,
+            "y1": 318,
+            "x2": 456,
+            "y2": 332
+          },
+          "bbox_list": [
+            210,
+            318,
+            456,
+            332
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The average professor gross salary in China is \\(323,032 or an equivalent hourly rate of\\) 155. In addition, they earn an average bonus of \\(11,080. Salary estimates based on salary since data collected directly from employers and anonymous employees in China. An entry level professor (1- 3 years of experience) earns an average salary of\\) 228,864. On the other end, a senior level professor (8+ years of experience) earns an average salary of\\) 405,245.",
+          "bbox": {
+            "x1": 120,
+            "y1": 342,
+            "x2": 530,
+            "y2": 431
+          },
+          "bbox_list": [
+            120,
+            342,
+            530,
+            431
+          ]
+        },
+        {
+          "block_id": "p2_b10",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Data powered by ERI's Salary Expert Database",
+          "bbox": {
+            "x1": 333,
+            "y1": 444,
+            "x2": 530,
+            "y2": 456
+          },
+          "bbox_list": [
+            333,
+            444,
+            530,
+            456
+          ]
+        },
+        {
+          "block_id": "p2_b11",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Disclaimer",
+          "bbox": {
+            "x1": 595,
+            "y1": 325,
+            "x2": 690,
+            "y2": 342
+          },
+          "bbox_list": [
+            595,
+            325,
+            690,
+            342
+          ]
+        },
+        {
+          "block_id": "p2_b12",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "This page is a promotion for SalaryExpert's Assessor Platform and is not intended for professional use.",
+          "bbox": {
+            "x1": 595,
+            "y1": 356,
+            "x2": 870,
+            "y2": 380
+          },
+          "bbox_list": [
+            595,
+            356,
+            870,
+            380
+          ]
+        },
+        {
+          "block_id": "p2_b13",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Professionals should subscribe to SalaryExpert's Assessor Platform.",
+          "bbox": {
+            "x1": 595,
+            "y1": 384,
+            "x2": 857,
+            "y2": 407
+          },
+          "bbox_list": [
+            595,
+            384,
+            857,
+            407
+          ]
+        },
+        {
+          "block_id": "p2_b14",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ERI's compensation data are based on salary surveys conducted and researched by ERI. Cost of labor data in the Assessor Series are based on actual housing sales data from commercially available sources, plus rental rates, gasoline prices, consumables, medical care premium costs, property taxes, effective income tax rates, etc.",
+          "bbox": {
+            "x1": 595,
+            "y1": 413,
+            "x2": 864,
+            "y2": 483
+          },
+          "bbox_list": [
+            595,
+            413,
+            864,
+            483
+          ]
+        },
+        {
+          "block_id": "p2_b15",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## DO YOU WORK IN HR OR COMPENSATION?",
+          "bbox": {
+            "x1": 219,
+            "y1": 506,
+            "x2": 440,
+            "y2": 541
+          },
+          "bbox_list": [
+            219,
+            506,
+            440,
+            541
+          ]
+        },
+        {
+          "block_id": "p2_b16",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Try our professional compensation software to generate detailed salary and cost of living reports.",
+          "bbox": {
+            "x1": 198,
+            "y1": 545,
+            "x2": 456,
+            "y2": 583
+          },
+          "bbox_list": [
+            198,
+            545,
+            456,
+            583
+          ]
+        },
+        {
+          "block_id": "p2_b17",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Most Popular Skills for Professor",
+          "bbox": {
+            "x1": 595,
+            "y1": 532,
+            "x2": 800,
+            "y2": 567
+          },
+          "bbox_list": [
+            595,
+            532,
+            800,
+            567
+          ]
+        },
+        {
+          "block_id": "p2_b18",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 105,
+            "y1": 560,
+            "x2": 236,
+            "y2": 660
+          },
+          "bbox_list": [
+            105,
+            560,
+            236,
+            660
+          ]
+        },
+        {
+          "block_id": "p2_b19",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 260,
+            "y1": 562,
+            "x2": 550,
+            "y2": 660
+          },
+          "bbox_list": [
+            260,
+            562,
+            550,
+            660
+          ]
+        },
+        {
+          "block_id": "p2_b20",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Salary Potential",
+          "bbox": {
+            "x1": 125,
+            "y1": 690,
+            "x2": 268,
+            "y2": 710
+          },
+          "bbox_list": [
+            125,
+            690,
+            268,
+            710
+          ]
+        },
+        {
+          "block_id": "p2_b21",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Estimated Salary in",
+          "bbox": {
+            "x1": 128,
+            "y1": 725,
+            "x2": 288,
+            "y2": 744
+          },
+          "bbox_list": [
+            128,
+            725,
+            288,
+            744
+          ]
+        },
+        {
+          "block_id": "p2_b22",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2028:",
+          "bbox": {
+            "x1": 183,
+            "y1": 748,
+            "x2": 230,
+            "y2": 763
+          },
+          "bbox_list": [
+            183,
+            748,
+            230,
+            763
+          ]
+        },
+        {
+          "block_id": "p2_b23",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\\(418,203 (CNY)\\)",
+          "bbox": {
+            "x1": 147,
+            "y1": 768,
+            "x2": 265,
+            "y2": 815
+          },
+          "bbox_list": [
+            147,
+            768,
+            265,
+            815
+          ]
+        },
+        {
+          "block_id": "p2_b24",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "5 Year Change:",
+          "bbox": {
+            "x1": 147,
+            "y1": 834,
+            "x2": 270,
+            "y2": 853
+          },
+          "bbox_list": [
+            147,
+            834,
+            270,
+            853
+          ]
+        },
+        {
+          "block_id": "p2_b25",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "29%",
+          "bbox": {
+            "x1": 168,
+            "y1": 857,
+            "x2": 245,
+            "y2": 876
+          },
+          "bbox_list": [
+            168,
+            857,
+            245,
+            876
+          ]
+        },
+        {
+          "block_id": "p2_b26",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 595,
+            "y1": 580,
+            "x2": 872,
+            "y2": 777
+          },
+          "bbox_list": [
+            595,
+            580,
+            872,
+            777
+          ]
+        },
+        {
+          "block_id": "p2_b27",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "See how skills can impact your salary",
+          "bbox": {
+            "x1": 595,
+            "y1": 794,
+            "x2": 820,
+            "y2": 808
+          },
+          "bbox_list": [
+            595,
+            794,
+            820,
+            808
+          ]
+        },
+        {
+          "block_id": "p2_b28",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Salary Difference by Location",
+          "bbox": {
+            "x1": 595,
+            "y1": 849,
+            "x2": 858,
+            "y2": 869
+          },
+          "bbox_list": [
+            595,
+            849,
+            858,
+            869
+          ]
+        },
+        {
+          "block_id": "p2_b29",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "London 49.1%",
+          "bbox": {
+            "x1": 633,
+            "y1": 900,
+            "x2": 835,
+            "y2": 916
+          },
+          "bbox_list": [
+            633,
+            900,
+            835,
+            916
+          ]
+        },
+        {
+          "block_id": "p2_b30",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Los Angeles 64.5%",
+          "bbox": {
+            "x1": 633,
+            "y1": 930,
+            "x2": 835,
+            "y2": 945
+          },
+          "bbox_list": [
+            633,
+            930,
+            835,
+            945
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# Professor  \n\nAverage Base Salary \\ \\(323,032 (CNY)/yr\\)  \n\nEntry \\ \\(228,864  \n\nAverage \\ \\(323,032  \n\n## Explore Our Salary Database  \n\nQuickly search for salaries in other careers and locations in our salary database.  \n\nSearch Our Database  \n\n## Compensation Data Based on Experience  \n\nThe average professor gross salary in China is \\(323,032 or an equivalent hourly rate of\\) 155. In addition, they earn an average bonus of \\(11,080. Salary estimates based on salary since data collected directly from employers and anonymous employees in China. An entry level professor (1- 3 years of experience) earns an average salary of\\) 228,864. On the other end, a senior level professor (8+ years of experience) earns an average salary of\\) 405,245.  \n\nData powered by ERI's Salary Expert Database  \n\n## Disclaimer  \n\nThis page is a promotion for SalaryExpert's Assessor Platform and is not intended for professional use.  \n\nProfessionals should subscribe to SalaryExpert's Assessor Platform.  \n\nERI's compensation data are based on salary surveys conducted and researched by ERI. Cost of labor data in the Assessor Series are based on actual housing sales data from commercially available sources, plus rental rates, gasoline prices, consumables, medical care premium costs, property taxes, effective income tax rates, etc.  \n\n## DO YOU WORK IN HR OR COMPENSATION?  \n\nTry our professional compensation software to generate detailed salary and cost of living reports.  \n\n## Most Popular Skills for Professor  \n\nSalary Potential  \n\nEstimated Salary in  \n\n2028:  \n\n\\(418,203 (CNY)\\)  \n\n5 Year Change:  \n\n29%  \n\nSee how skills can impact your salary  \n\n## Salary Difference by Location  \n\nLondon 49.1%  \n\nLos Angeles 64.5%"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 118,
+            "y1": 20,
+            "x2": 490,
+            "y2": 123
+          },
+          "bbox_list": [
+            118,
+            20,
+            490,
+            123
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "image_caption",
+          "block_type_cn": "image_caption",
+          "text_content": "<center>Based on our compensation data, the estimated salary potential for Professor with increase \\(29\\%\\) over 5 years. </center>",
+          "bbox": {
+            "x1": 120,
+            "y1": 123,
+            "x2": 496,
+            "y2": 151
+          },
+          "bbox_list": [
+            120,
+            123,
+            496,
+            151
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 118,
+            "y1": 230,
+            "x2": 490,
+            "y2": 390
+          },
+          "bbox_list": [
+            118,
+            230,
+            490,
+            390
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "image_caption",
+          "block_type_cn": "image_caption",
+          "text_content": "<center>Education </center>",
+          "bbox": {
+            "x1": 123,
+            "y1": 202,
+            "x2": 213,
+            "y2": 218
+          },
+          "bbox_list": [
+            123,
+            202,
+            213,
+            218
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "This chart displays the highest level of education for: Professor, the majority at \\(83\\%\\) with doctorates.",
+          "bbox": {
+            "x1": 122,
+            "y1": 430,
+            "x2": 432,
+            "y2": 459
+          },
+          "bbox_list": [
+            122,
+            430,
+            432,
+            459
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Typical Field of Study: Educational Evaluation and Research",
+          "bbox": {
+            "x1": 123,
+            "y1": 465,
+            "x2": 473,
+            "y2": 480
+          },
+          "bbox_list": [
+            123,
+            465,
+            473,
+            480
+          ]
+        },
+        {
+          "block_id": "p3_b6",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "See how education can impact your salary",
+          "bbox": {
+            "x1": 123,
+            "y1": 487,
+            "x2": 372,
+            "y2": 501
+          },
+          "bbox_list": [
+            123,
+            487,
+            372,
+            501
+          ]
+        },
+        {
+          "block_id": "p3_b7",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Country Overview",
+          "bbox": {
+            "x1": 123,
+            "y1": 546,
+            "x2": 281,
+            "y2": 563
+          },
+          "bbox_list": [
+            123,
+            546,
+            281,
+            563
+          ]
+        },
+        {
+          "block_id": "p3_b8",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## China \\(\\) \\$ \\$ \\$",
+          "bbox": {
+            "x1": 123,
+            "y1": 576,
+            "x2": 395,
+            "y2": 606
+          },
+          "bbox_list": [
+            123,
+            576,
+            395,
+            606
+          ]
+        },
+        {
+          "block_id": "p3_b9",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Cost of living is calculated based on accumulating the cost of food, transportation, health services, rent, utilities, taxes, and miscellaneous.",
+          "bbox": {
+            "x1": 122,
+            "y1": 615,
+            "x2": 515,
+            "y2": 659
+          },
+          "bbox_list": [
+            122,
+            615,
+            515,
+            659
+          ]
+        },
+        {
+          "block_id": "p3_b10",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## View Cost of Living Page",
+          "bbox": {
+            "x1": 123,
+            "y1": 666,
+            "x2": 272,
+            "y2": 680
+          },
+          "bbox_list": [
+            123,
+            666,
+            272,
+            680
+          ]
+        },
+        {
+          "block_id": "p3_b11",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "China (Chinese: 中国; pinyin: Zhongguo), officially the People's Republic of China (PRC), is a country in East Asia. It is the world's most populous country, with a population exceeding 1.4 billion, slightly ahead of India. China spans the equivalent of five time zones and borders fourteen countries by land, the most of any country in the world, tied with Russia. With an area of approximately 9.6 million square kilometres (3,700,000 sq mi), it is the world's third largest country by total land area...",
+          "bbox": {
+            "x1": 122,
+            "y1": 693,
+            "x2": 528,
+            "y2": 813
+          },
+          "bbox_list": [
+            122,
+            693,
+            528,
+            813
+          ]
+        },
+        {
+          "block_id": "p3_b12",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Sourced from Wikipedia",
+          "bbox": {
+            "x1": 123,
+            "y1": 821,
+            "x2": 266,
+            "y2": 834
+          },
+          "bbox_list": [
+            123,
+            821,
+            266,
+            834
+          ]
+        },
+        {
+          "block_id": "p3_b13",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Job Description",
+          "bbox": {
+            "x1": 123,
+            "y1": 877,
+            "x2": 264,
+            "y2": 894
+          },
+          "bbox_list": [
+            123,
+            877,
+            264,
+            894
+          ]
+        },
+        {
+          "block_id": "p3_b14",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Teaches one or more college or university courses, such as economics, chemistry, law, or medicine, to undergraduate or graduate students. Educates students, using various teaching methods,",
+          "bbox": {
+            "x1": 122,
+            "y1": 908,
+            "x2": 528,
+            "y2": 952
+          },
+          "bbox_list": [
+            122,
+            908,
+            528,
+            952
+          ]
+        },
+        {
+          "block_id": "p3_b15",
+          "page_number": 3,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 630,
+            "y1": 21,
+            "x2": 840,
+            "y2": 144
+          },
+          "bbox_list": [
+            630,
+            21,
+            840,
+            144
+          ]
+        },
+        {
+          "block_id": "p3_b16",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Salary by Country",
+          "bbox": {
+            "x1": 595,
+            "y1": 225,
+            "x2": 752,
+            "y2": 243
+          },
+          "bbox_list": [
+            595,
+            225,
+            752,
+            243
+          ]
+        },
+        {
+          "block_id": "p3_b17",
+          "page_number": 3,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 595,
+            "y1": 270,
+            "x2": 840,
+            "y2": 410
+          },
+          "bbox_list": [
+            595,
+            270,
+            840,
+            410
+          ]
+        },
+        {
+          "block_id": "p3_b18",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "View More",
+          "bbox": {
+            "x1": 696,
+            "y1": 440,
+            "x2": 760,
+            "y2": 452
+          },
+          "bbox_list": [
+            696,
+            440,
+            760,
+            452
+          ]
+        },
+        {
+          "block_id": "p3_b19",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Salary Expert - An ERI company",
+          "bbox": {
+            "x1": 651,
+            "y1": 499,
+            "x2": 793,
+            "y2": 528
+          },
+          "bbox_list": [
+            651,
+            499,
+            793,
+            528
+          ]
+        },
+        {
+          "block_id": "p3_b20",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Learn About Our Products",
+          "bbox": {
+            "x1": 595,
+            "y1": 534,
+            "x2": 825,
+            "y2": 551
+          },
+          "bbox_list": [
+            595,
+            534,
+            825,
+            551
+          ]
+        },
+        {
+          "block_id": "p3_b21",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "SalaryExpert, powered by ERI, provides verified salary and cost of living data to the public with a comprehensive platform for evaluating compensation, career, relocation, and education decisions.",
+          "bbox": {
+            "x1": 594,
+            "y1": 556,
+            "x2": 865,
+            "y2": 629
+          },
+          "bbox_list": [
+            594,
+            556,
+            865,
+            629
+          ]
+        },
+        {
+          "block_id": "p3_b22",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Access Our Assessor Products",
+          "bbox": {
+            "x1": 595,
+            "y1": 641,
+            "x2": 790,
+            "y2": 654
+          },
+          "bbox_list": [
+            595,
+            641,
+            790,
+            654
+          ]
+        },
+        {
+          "block_id": "p3_b23",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Assessor Products",
+          "bbox": {
+            "x1": 625,
+            "y1": 670,
+            "x2": 748,
+            "y2": 683
+          },
+          "bbox_list": [
+            625,
+            670,
+            748,
+            683
+          ]
+        },
+        {
+          "block_id": "p3_b24",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## How Much Should You Be Paid?",
+          "bbox": {
+            "x1": 594,
+            "y1": 728,
+            "x2": 830,
+            "y2": 761
+          },
+          "bbox_list": [
+            594,
+            728,
+            830,
+            761
+          ]
+        },
+        {
+          "block_id": "p3_b25",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Calculate your market salary using our salary calculator.",
+          "bbox": {
+            "x1": 594,
+            "y1": 767,
+            "x2": 825,
+            "y2": 795
+          },
+          "bbox_list": [
+            594,
+            767,
+            825,
+            795
+          ]
+        },
+        {
+          "block_id": "p3_b26",
+          "page_number": 3,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 594,
+            "y1": 800,
+            "x2": 870,
+            "y2": 930
+          },
+          "bbox_list": [
+            594,
+            800,
+            870,
+            930
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n<center>Based on our compensation data, the estimated salary potential for Professor with increase \\(29\\%\\) over 5 years. </center>  \n\n<center>Education </center>  \n\nThis chart displays the highest level of education for: Professor, the majority at \\(83\\%\\) with doctorates.  \n\nTypical Field of Study: Educational Evaluation and Research  \n\nSee how education can impact your salary  \n\n## Country Overview  \n\n## China \\(\\) \\$ \\$ \\$  \n\nCost of living is calculated based on accumulating the cost of food, transportation, health services, rent, utilities, taxes, and miscellaneous.  \n\n## View Cost of Living Page  \n\nChina (Chinese: 中国; pinyin: Zhongguo), officially the People's Republic of China (PRC), is a country in East Asia. It is the world's most populous country, with a population exceeding 1.4 billion, slightly ahead of India. China spans the equivalent of five time zones and borders fourteen countries by land, the most of any country in the world, tied with Russia. With an area of approximately 9.6 million square kilometres (3,700,000 sq mi), it is the world's third largest country by total land area...  \n\nSourced from Wikipedia  \n\n## Job Description  \n\nTeaches one or more college or university courses, such as economics, chemistry, law, or medicine, to undergraduate or graduate students. Educates students, using various teaching methods,  \n\n## Salary by Country  \n\nView More  \n\nSalary Expert - An ERI company  \n\n## Learn About Our Products  \n\nSalaryExpert, powered by ERI, provides verified salary and cost of living data to the public with a comprehensive platform for evaluating compensation, career, relocation, and education decisions.  \n\n## Access Our Assessor Products  \n\nAssessor Products  \n\n## How Much Should You Be Paid?  \n\nCalculate your market salary using our salary calculator.  "
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "following curriculum guidelines or requirements of state and school. Develops course objectives and curriculum outlines for course of study, and presents lectures to students. Read More",
+          "bbox": {
+            "x1": 123,
+            "y1": 23,
+            "x2": 520,
+            "y2": 67
+          },
+          "bbox_list": [
+            123,
+            23,
+            520,
+            67
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Similar Job Titles",
+          "bbox": {
+            "x1": 595,
+            "y1": 37,
+            "x2": 752,
+            "y2": 55
+          },
+          "bbox_list": [
+            595,
+            37,
+            752,
+            55
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "University Professor",
+          "bbox": {
+            "x1": 595,
+            "y1": 71,
+            "x2": 714,
+            "y2": 84
+          },
+          "bbox_list": [
+            595,
+            71,
+            714,
+            84
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Jobs That May Interest You",
+          "bbox": {
+            "x1": 124,
+            "y1": 112,
+            "x2": 368,
+            "y2": 131
+          },
+          "bbox_list": [
+            124,
+            112,
+            368,
+            131
+          ]
+        },
+        {
+          "block_id": "p4_b4",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "No jobs found for this position",
+          "bbox": {
+            "x1": 124,
+            "y1": 145,
+            "x2": 302,
+            "y2": 159
+          },
+          "bbox_list": [
+            124,
+            145,
+            302,
+            159
+          ]
+        },
+        {
+          "block_id": "p4_b5",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "View more",
+          "bbox": {
+            "x1": 295,
+            "y1": 177,
+            "x2": 360,
+            "y2": 189
+          },
+          "bbox_list": [
+            295,
+            177,
+            360,
+            189
+          ]
+        },
+        {
+          "block_id": "p4_b6",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Latest Compensation News",
+          "bbox": {
+            "x1": 124,
+            "y1": 224,
+            "x2": 367,
+            "y2": 242
+          },
+          "bbox_list": [
+            124,
+            224,
+            367,
+            242
+          ]
+        },
+        {
+          "block_id": "p4_b7",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "With a PhD- level research team in house, SalaryExpert, provides up- to- date salary and compensation data. Download our free white papers to learn more.",
+          "bbox": {
+            "x1": 123,
+            "y1": 251,
+            "x2": 530,
+            "y2": 295
+          },
+          "bbox_list": [
+            123,
+            251,
+            530,
+            295
+          ]
+        },
+        {
+          "block_id": "p4_b8",
+          "page_number": 4,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 120,
+            "y1": 312,
+            "x2": 533,
+            "y2": 470
+          },
+          "bbox_list": [
+            120,
+            312,
+            533,
+            470
+          ]
+        },
+        {
+          "block_id": "p4_b9",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "View All White Papers",
+          "bbox": {
+            "x1": 264,
+            "y1": 479,
+            "x2": 395,
+            "y2": 492
+          },
+          "bbox_list": [
+            264,
+            479,
+            395,
+            492
+          ]
+        },
+        {
+          "block_id": "p4_b10",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "View more",
+          "bbox": {
+            "x1": 595,
+            "y1": 111,
+            "x2": 765,
+            "y2": 125
+          },
+          "bbox_list": [
+            595,
+            111,
+            765,
+            125
+          ]
+        },
+        {
+          "block_id": "p4_b11",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Subscribe to SalaryExpert's Emails",
+          "bbox": {
+            "x1": 343,
+            "y1": 541,
+            "x2": 650,
+            "y2": 561
+          },
+          "bbox_list": [
+            343,
+            541,
+            650,
+            561
+          ]
+        },
+        {
+          "block_id": "p4_b12",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "For the latest in HR and compensation news, subscribe to our monthly e- newsletters, blogs, and white papers.",
+          "bbox": {
+            "x1": 108,
+            "y1": 570,
+            "x2": 743,
+            "y2": 585
+          },
+          "bbox_list": [
+            108,
+            570,
+            743,
+            585
+          ]
+        },
+        {
+          "block_id": "p4_b13",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Subscribe",
+          "bbox": {
+            "x1": 788,
+            "y1": 571,
+            "x2": 850,
+            "y2": 584
+          },
+          "bbox_list": [
+            788,
+            571,
+            850,
+            584
+          ]
+        },
+        {
+          "block_id": "p4_b14",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## For Job Seekers",
+          "bbox": {
+            "x1": 116,
+            "y1": 634,
+            "x2": 263,
+            "y2": 652
+          },
+          "bbox_list": [
+            116,
+            634,
+            263,
+            652
+          ]
+        },
+        {
+          "block_id": "p4_b15",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Salary Calculator Research Salaries Cost of Living Comparison Research Cost of Living Job Finder Skills Glossary",
+          "bbox": {
+            "x1": 115,
+            "y1": 666,
+            "x2": 226,
+            "y2": 807
+          },
+          "bbox_list": [
+            115,
+            666,
+            226,
+            807
+          ]
+        },
+        {
+          "block_id": "p4_b16",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## For Employers",
+          "bbox": {
+            "x1": 508,
+            "y1": 634,
+            "x2": 637,
+            "y2": 653
+          },
+          "bbox_list": [
+            508,
+            634,
+            637,
+            653
+          ]
+        },
+        {
+          "block_id": "p4_b17",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Salary Assessor Executive Compensation Assessor Geographic Assessor Global Salary Calculator Relocation Assessor Nonprofit Comparables Assessor",
+          "bbox": {
+            "x1": 506,
+            "y1": 666,
+            "x2": 720,
+            "y2": 808
+          },
+          "bbox_list": [
+            506,
+            666,
+            720,
+            808
+          ]
+        },
+        {
+          "block_id": "p4_b18",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Occupational Assessor Our Process Request a Quote",
+          "bbox": {
+            "x1": 506,
+            "y1": 816,
+            "x2": 650,
+            "y2": 880
+          },
+          "bbox_list": [
+            506,
+            816,
+            650,
+            880
+          ]
+        },
+        {
+          "block_id": "p4_b19",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## More Info",
+          "bbox": {
+            "x1": 117,
+            "y1": 904,
+            "x2": 207,
+            "y2": 921
+          },
+          "bbox_list": [
+            117,
+            904,
+            207,
+            921
+          ]
+        },
+        {
+          "block_id": "p4_b20",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Blog",
+          "bbox": {
+            "x1": 117,
+            "y1": 936,
+            "x2": 147,
+            "y2": 949
+          },
+          "bbox_list": [
+            117,
+            936,
+            147,
+            949
+          ]
+        },
+        {
+          "block_id": "p4_b21",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Contact Us",
+          "bbox": {
+            "x1": 508,
+            "y1": 905,
+            "x2": 608,
+            "y2": 921
+          },
+          "bbox_list": [
+            508,
+            905,
+            608,
+            921
+          ]
+        },
+        {
+          "block_id": "p4_b22",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "feedback@salaryexpert.com",
+          "bbox": {
+            "x1": 508,
+            "y1": 936,
+            "x2": 677,
+            "y2": 949
+          },
+          "bbox_list": [
+            508,
+            936,
+            677,
+            949
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nfollowing curriculum guidelines or requirements of state and school. Develops course objectives and curriculum outlines for course of study, and presents lectures to students. Read More  \n\n## Similar Job Titles  \n\nUniversity Professor  \n\n## Jobs That May Interest You  \n\nNo jobs found for this position  \n\nView more  \n\n## Latest Compensation News  \n\nWith a PhD- level research team in house, SalaryExpert, provides up- to- date salary and compensation data. Download our free white papers to learn more.  \n\nView All White Papers  \n\nView more  \n\n## Subscribe to SalaryExpert's Emails  \n\nFor the latest in HR and compensation news, subscribe to our monthly e- newsletters, blogs, and white papers.  \n\nSubscribe  \n\n## For Job Seekers  \n\nSalary Calculator Research Salaries Cost of Living Comparison Research Cost of Living Job Finder Skills Glossary  \n\n## For Employers  \n\nSalary Assessor Executive Compensation Assessor Geographic Assessor Global Salary Calculator Relocation Assessor Nonprofit Comparables Assessor  \n\nOccupational Assessor Our Process Request a Quote  \n\n## More Info  \n\nBlog  \n\n## Contact Us  \n\nfeedback@salaryexpert.com"
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Want to see how we can help your business with salary benchmarking and compensation analysis?",
+          "bbox": {
+            "x1": 147,
+            "y1": 288,
+            "x2": 411,
+            "y2": 331
+          },
+          "bbox_list": [
+            147,
+            288,
+            411,
+            331
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "For Employers",
+          "bbox": {
+            "x1": 181,
+            "y1": 345,
+            "x2": 270,
+            "y2": 358
+          },
+          "bbox_list": [
+            181,
+            345,
+            270,
+            358
+          ]
+        },
+        {
+          "block_id": "p5_b2",
+          "page_number": 5,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 440,
+            "y1": 263,
+            "x2": 888,
+            "y2": 420
+          },
+          "bbox_list": [
+            440,
+            263,
+            888,
+            420
+          ]
+        },
+        {
+          "block_id": "p5_b3",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Want to see how we can help you evaluate your career and plan for your future?",
+          "bbox": {
+            "x1": 146,
+            "y1": 551,
+            "x2": 363,
+            "y2": 593
+          },
+          "bbox_list": [
+            146,
+            551,
+            363,
+            593
+          ]
+        },
+        {
+          "block_id": "p5_b4",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "For Job Seekers",
+          "bbox": {
+            "x1": 180,
+            "y1": 608,
+            "x2": 280,
+            "y2": 620
+          },
+          "bbox_list": [
+            180,
+            608,
+            280,
+            620
+          ]
+        },
+        {
+          "block_id": "p5_b5",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Why SalaryExpert?",
+          "bbox": {
+            "x1": 409,
+            "y1": 825,
+            "x2": 577,
+            "y2": 844
+          },
+          "bbox_list": [
+            409,
+            825,
+            577,
+            844
+          ]
+        },
+        {
+          "block_id": "p5_b6",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Since 2000, SalaryExpert has been utilizing ERl's \\(3 0 +\\) years of experience to provide the public and employers with research on compensation by pulling salary survey data and integrating that data into our custom salary products. Our only business is data, and the accuracy of our compensation data is our number one priority. Thousands of companies rely on SalaryExpert's data for their compensation planning needs. We have no conflict of interest from consulting or contracting, which allows us to stay independent and objective. We employ Ph.D. level data scientists and seasoned compensation professionals who provide an unrivaled level of expertise.",
+          "bbox": {
+            "x1": 165,
+            "y1": 860,
+            "x2": 818,
+            "y2": 948
+          },
+          "bbox_list": [
+            165,
+            860,
+            818,
+            948
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nWant to see how we can help your business with salary benchmarking and compensation analysis?\n\nFor Employers\n\nWant to see how we can help you evaluate your career and plan for your future?\n\nFor Job Seekers\n\n## Why SalaryExpert?\n\nSince 2000, SalaryExpert has been utilizing ERl's \\(3 0 +\\) years of experience to provide the public and employers with research on compensation by pulling salary survey data and integrating that data into our custom salary products. Our only business is data, and the accuracy of our compensation data is our number one priority. Thousands of companies rely on SalaryExpert's data for their compensation planning needs. We have no conflict of interest from consulting or contracting, which allows us to stay independent and objective. We employ Ph.D. level data scientists and seasoned compensation professionals who provide an unrivaled level of expertise."
+    },
+    {
+      "page_number": 6,
+      "text_blocks": [
+        {
+          "block_id": "p6_b0",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Advanced analytics, such as machine learning, longitudinal analysis, and meta- analysis, are all part of our methodology, which enables us to understand how each job fits into its organization, location, and industry, and how market forces influence compensation. Compensation data sourced from internal surveys, third- party surveys, and public sources provide a robust sample that is second to none in terms of volume and quality. Convergent validation has shown \\(99\\%\\) agreement between Salary Assessor results and time- matched survey responses.",
+          "bbox": {
+            "x1": 170,
+            "y1": 25,
+            "x2": 815,
+            "y2": 113
+          },
+          "bbox_list": [
+            170,
+            25,
+            815,
+            113
+          ]
+        },
+        {
+          "block_id": "p6_b1",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Our Process",
+          "bbox": {
+            "x1": 152,
+            "y1": 193,
+            "x2": 238,
+            "y2": 207
+          },
+          "bbox_list": [
+            152,
+            193,
+            238,
+            207
+          ]
+        },
+        {
+          "block_id": "p6_b2",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Our Process",
+          "bbox": {
+            "x1": 150,
+            "y1": 224,
+            "x2": 262,
+            "y2": 241
+          },
+          "bbox_list": [
+            150,
+            224,
+            262,
+            241
+          ]
+        },
+        {
+          "block_id": "p6_b3",
+          "page_number": 6,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 150,
+            "y1": 255,
+            "x2": 230,
+            "y2": 315
+          },
+          "bbox_list": [
+            150,
+            255,
+            230,
+            315
+          ]
+        },
+        {
+          "block_id": "p6_b4",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Data Collection",
+          "bbox": {
+            "x1": 235,
+            "y1": 258,
+            "x2": 350,
+            "y2": 272
+          },
+          "bbox_list": [
+            235,
+            258,
+            350,
+            272
+          ]
+        },
+        {
+          "block_id": "p6_b5",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Data are gathered from 3 sources: surveys we conduct, surveys purchased from other organizations, and reports from publicly traded organizations.",
+          "bbox": {
+            "x1": 234,
+            "y1": 274,
+            "x2": 793,
+            "y2": 303
+          },
+          "bbox_list": [
+            234,
+            274,
+            793,
+            303
+          ]
+        },
+        {
+          "block_id": "p6_b6",
+          "page_number": 6,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 150,
+            "y1": 330,
+            "x2": 230,
+            "y2": 388
+          },
+          "bbox_list": [
+            150,
+            330,
+            230,
+            388
+          ]
+        },
+        {
+          "block_id": "p6_b7",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Data Verification",
+          "bbox": {
+            "x1": 235,
+            "y1": 331,
+            "x2": 361,
+            "y2": 345
+          },
+          "bbox_list": [
+            235,
+            331,
+            361,
+            345
+          ]
+        },
+        {
+          "block_id": "p6_b8",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "After compiling our compensation data, we conduct QA to ensure our data is vetted, verified, and of the highest quality.",
+          "bbox": {
+            "x1": 234,
+            "y1": 347,
+            "x2": 836,
+            "y2": 377
+          },
+          "bbox_list": [
+            234,
+            347,
+            836,
+            377
+          ]
+        },
+        {
+          "block_id": "p6_b9",
+          "page_number": 6,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 150,
+            "y1": 403,
+            "x2": 230,
+            "y2": 461
+          },
+          "bbox_list": [
+            150,
+            403,
+            230,
+            461
+          ]
+        },
+        {
+          "block_id": "p6_b10",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Analysis",
+          "bbox": {
+            "x1": 235,
+            "y1": 405,
+            "x2": 301,
+            "y2": 419
+          },
+          "bbox_list": [
+            235,
+            405,
+            301,
+            419
+          ]
+        },
+        {
+          "block_id": "p6_b11",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "SalaryExpert conducts advanced analytics to accurately capture the market value of each occupation in our salary survey database.",
+          "bbox": {
+            "x1": 234,
+            "y1": 420,
+            "x2": 818,
+            "y2": 450
+          },
+          "bbox_list": [
+            234,
+            420,
+            818,
+            450
+          ]
+        },
+        {
+          "block_id": "p6_b12",
+          "page_number": 6,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 150,
+            "y1": 477,
+            "x2": 230,
+            "y2": 535
+          },
+          "bbox_list": [
+            150,
+            477,
+            230,
+            535
+          ]
+        },
+        {
+          "block_id": "p6_b13",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Quality Assurance",
+          "bbox": {
+            "x1": 235,
+            "y1": 479,
+            "x2": 373,
+            "y2": 493
+          },
+          "bbox_list": [
+            235,
+            479,
+            373,
+            493
+          ]
+        },
+        {
+          "block_id": "p6_b14",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "SalaryExpert analysts double- check the results for each job every quarter. Our verified salary survey information helps set benchmark pay.",
+          "bbox": {
+            "x1": 234,
+            "y1": 494,
+            "x2": 835,
+            "y2": 524
+          },
+          "bbox_list": [
+            234,
+            494,
+            835,
+            524
+          ]
+        },
+        {
+          "block_id": "p6_b15",
+          "page_number": 6,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 150,
+            "y1": 550,
+            "x2": 230,
+            "y2": 608
+          },
+          "bbox_list": [
+            150,
+            550,
+            230,
+            608
+          ]
+        },
+        {
+          "block_id": "p6_b16",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## SalaryExpert Results",
+          "bbox": {
+            "x1": 235,
+            "y1": 553,
+            "x2": 391,
+            "y2": 567
+          },
+          "bbox_list": [
+            235,
+            553,
+            391,
+            567
+          ]
+        },
+        {
+          "block_id": "p6_b17",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Explore SalaryExpert's wage, salary, and compensation databases of over 11,000 job titles, 1,100 industries, and 8,500 locations.",
+          "bbox": {
+            "x1": 234,
+            "y1": 568,
+            "x2": 825,
+            "y2": 597
+          },
+          "bbox_list": [
+            234,
+            568,
+            825,
+            597
+          ]
+        },
+        {
+          "block_id": "p6_b18",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Schedule Time with a Rep",
+          "bbox": {
+            "x1": 140,
+            "y1": 733,
+            "x2": 333,
+            "y2": 749
+          },
+          "bbox_list": [
+            140,
+            733,
+            333,
+            749
+          ]
+        },
+        {
+          "block_id": "p6_b19",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Schedule time with our certified representatives to learn more about our tools for salary and cost of living analyses.",
+          "bbox": {
+            "x1": 140,
+            "y1": 753,
+            "x2": 457,
+            "y2": 794
+          },
+          "bbox_list": [
+            140,
+            753,
+            457,
+            794
+          ]
+        },
+        {
+          "block_id": "p6_b20",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Schedule Time to Learn More",
+          "bbox": {
+            "x1": 141,
+            "y1": 804,
+            "x2": 315,
+            "y2": 817
+          },
+          "bbox_list": [
+            141,
+            804,
+            315,
+            817
+          ]
+        },
+        {
+          "block_id": "p6_b21",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Try Our Products",
+          "bbox": {
+            "x1": 545,
+            "y1": 732,
+            "x2": 671,
+            "y2": 748
+          },
+          "bbox_list": [
+            545,
+            732,
+            671,
+            748
+          ]
+        },
+        {
+          "block_id": "p6_b22",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Try Our ProductsUtilize our compensation planning tools to help you find everything from reliable and verified salary survey data to executive compensation benchmarking data.",
+          "bbox": {
+            "x1": 544,
+            "y1": 752,
+            "x2": 857,
+            "y2": 793
+          },
+          "bbox_list": [
+            544,
+            752,
+            857,
+            793
+          ]
+        },
+        {
+          "block_id": "p6_b23",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Try a Demo",
+          "bbox": {
+            "x1": 545,
+            "y1": 803,
+            "x2": 614,
+            "y2": 816
+          },
+          "bbox_list": [
+            545,
+            803,
+            614,
+            816
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nAdvanced analytics, such as machine learning, longitudinal analysis, and meta- analysis, are all part of our methodology, which enables us to understand how each job fits into its organization, location, and industry, and how market forces influence compensation. Compensation data sourced from internal surveys, third- party surveys, and public sources provide a robust sample that is second to none in terms of volume and quality. Convergent validation has shown \\(99\\%\\) agreement between Salary Assessor results and time- matched survey responses.  \n\n## Our Process  \n\n## Our Process  \n\n## Data Collection  \n\nData are gathered from 3 sources: surveys we conduct, surveys purchased from other organizations, and reports from publicly traded organizations.  \n\n## Data Verification  \n\nAfter compiling our compensation data, we conduct QA to ensure our data is vetted, verified, and of the highest quality.  \n\n## Analysis  \n\nSalaryExpert conducts advanced analytics to accurately capture the market value of each occupation in our salary survey database.  \n\n## Quality Assurance  \n\nSalaryExpert analysts double- check the results for each job every quarter. Our verified salary survey information helps set benchmark pay.  \n\n## SalaryExpert Results  \n\nExplore SalaryExpert's wage, salary, and compensation databases of over 11,000 job titles, 1,100 industries, and 8,500 locations.  \n\n## Schedule Time with a Rep  \n\nSchedule time with our certified representatives to learn more about our tools for salary and cost of living analyses.  \n\nSchedule Time to Learn More  \n\n## Try Our Products  \n\nTry Our ProductsUtilize our compensation planning tools to help you find everything from reliable and verified salary survey data to executive compensation benchmarking data.  \n\nTry a Demo"
+    },
+    {
+      "page_number": 7,
+      "text_blocks": [
+        {
+          "block_id": "p7_b0",
+          "page_number": 7,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Subscribe to SalaryExpert's Emails",
+          "bbox": {
+            "x1": 343,
+            "y1": 78,
+            "x2": 650,
+            "y2": 99
+          },
+          "bbox_list": [
+            343,
+            78,
+            650,
+            99
+          ]
+        },
+        {
+          "block_id": "p7_b1",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "For the latest in HR and compensation news, subscribe to our monthly e- newsletters, blogs, and white papers.",
+          "bbox": {
+            "x1": 110,
+            "y1": 106,
+            "x2": 744,
+            "y2": 123
+          },
+          "bbox_list": [
+            110,
+            106,
+            744,
+            123
+          ]
+        },
+        {
+          "block_id": "p7_b2",
+          "page_number": 7,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## For Job Seekers",
+          "bbox": {
+            "x1": 117,
+            "y1": 171,
+            "x2": 264,
+            "y2": 191
+          },
+          "bbox_list": [
+            117,
+            171,
+            264,
+            191
+          ]
+        },
+        {
+          "block_id": "p7_b3",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Salary Calculator Research Salaries Cost of Living Comparison Research Cost of Living Job Finder Skills Glossary",
+          "bbox": {
+            "x1": 115,
+            "y1": 203,
+            "x2": 275,
+            "y2": 345
+          },
+          "bbox_list": [
+            115,
+            203,
+            275,
+            345
+          ]
+        },
+        {
+          "block_id": "p7_b4",
+          "page_number": 7,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## For Employers",
+          "bbox": {
+            "x1": 508,
+            "y1": 171,
+            "x2": 637,
+            "y2": 192
+          },
+          "bbox_list": [
+            508,
+            171,
+            637,
+            192
+          ]
+        },
+        {
+          "block_id": "p7_b5",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Salary Assessor Executive Compensation Assessor Geographic Assessor Global Salary Calculator Relocation Assessor Nonprofit Comparables Assessor Occupational Assessor Our Process Request a Quote",
+          "bbox": {
+            "x1": 504,
+            "y1": 203,
+            "x2": 704,
+            "y2": 430
+          },
+          "bbox_list": [
+            504,
+            203,
+            704,
+            430
+          ]
+        },
+        {
+          "block_id": "p7_b6",
+          "page_number": 7,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## More Info",
+          "bbox": {
+            "x1": 116,
+            "y1": 444,
+            "x2": 205,
+            "y2": 461
+          },
+          "bbox_list": [
+            116,
+            444,
+            205,
+            461
+          ]
+        },
+        {
+          "block_id": "p7_b7",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Blog White Papers About Us Contact Us Terms of Use Privacy Policy",
+          "bbox": {
+            "x1": 115,
+            "y1": 475,
+            "x2": 201,
+            "y2": 615
+          },
+          "bbox_list": [
+            115,
+            475,
+            201,
+            615
+          ]
+        },
+        {
+          "block_id": "p7_b8",
+          "page_number": 7,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Contact Us",
+          "bbox": {
+            "x1": 508,
+            "y1": 444,
+            "x2": 607,
+            "y2": 461
+          },
+          "bbox_list": [
+            508,
+            444,
+            607,
+            461
+          ]
+        },
+        {
+          "block_id": "p7_b9",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "feedback@salaryexpert.com (800) 627- 3697",
+          "bbox": {
+            "x1": 505,
+            "y1": 475,
+            "x2": 676,
+            "y2": 515
+          },
+          "bbox_list": [
+            505,
+            475,
+            676,
+            515
+          ]
+        },
+        {
+          "block_id": "p7_b10",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "in",
+          "bbox": {
+            "x1": 505,
+            "y1": 525,
+            "x2": 533,
+            "y2": 546
+          },
+          "bbox_list": [
+            505,
+            525,
+            533,
+            546
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## Subscribe to SalaryExpert's Emails  \n\nFor the latest in HR and compensation news, subscribe to our monthly e- newsletters, blogs, and white papers.  \n\n## For Job Seekers  \n\nSalary Calculator  Research Salaries  Cost of Living Comparison  Research Cost of Living  Job Finder  Skills Glossary  \n\n## For Employers  \n\nSalary Assessor  Executive Compensation Assessor  Geographic Assessor  Global Salary Calculator  Relocation Assessor  Nonprofit Comparables Assessor  Occupational Assessor  Our Process  Request a Quote  \n\n## More Info  \n\nBlog  White Papers  About Us  Contact Us  Terms of Use  Privacy Policy  \n\n## Contact Us  \n\nfeedback@salaryexpert.com  (800) 627- 3697  \n\nin"
+    }
+  ],
+  "total_blocks": 124
+}

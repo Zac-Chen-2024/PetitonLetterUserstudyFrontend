@@ -1,0 +1,57 @@
+{
+  "version": "4.0",
+  "exhibit_id": "G3",
+  "extracted_at": "2026-03-15T00:00:00+00:00",
+  "applicant_name": "Dehuan Liu",
+  "document_summary": "Letter of Appointment from Journal of Advertising Study appointing Dehuan Liu as an editor for the editorial board, with a three-year term starting from October 10, 2010.",
+  "snippets": [
+    {
+      "snippet_id": "snp_G3_a1b2c3d4",
+      "exhibit_id": "G3",
+      "document_id": "doc_G3",
+      "text": "Hereby, we appoint Mr. Dehuan Liu as an editor for the editorial board of Journal of Advertising Study magazine, with the term of appointment starting from October 10, 2010, for a period of three years.",
+      "page": 2,
+      "bbox": {"x1": 106, "y1": 199, "x2": 872, "y2": 255},
+      "block_id": "p2_b1",
+      "subject": "Dehuan Liu",
+      "subject_role": "applicant",
+      "recommender_name": null,
+      "is_applicant_achievement": true,
+      "evidence_type": "judging",
+      "evidence_purpose": "direct_proof",
+      "evidence_layer": "proof",
+      "confidence": 0.95,
+      "reasoning": "Official appointment of Liu to the editorial board of Journal of Advertising Study, demonstrating his role as a judge/reviewer of others' work in the field.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_G3_e5f6a7b8",
+      "exhibit_id": "G3",
+      "document_id": "doc_G3",
+      "text": "Journal of Advertising Study (Advertising Panorama) Editorial Department October 10, 2010 (Seal)",
+      "page": 2,
+      "bbox": {"x1": 260, "y1": 286, "x2": 873, "y2": 325},
+      "block_id": "p2_b2",
+      "subject": "Journal of Advertising Study",
+      "subject_role": "organization",
+      "recommender_name": null,
+      "is_applicant_achievement": true,
+      "evidence_type": "judging",
+      "evidence_purpose": "credibility_evidence",
+      "evidence_layer": "meta",
+      "confidence": 0.88,
+      "reasoning": "Issuing authority and date of the editorial board appointment letter, with official seal.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    }
+  ],
+  "entities": [
+    {"id": "ent_G3_0", "name": "Dehuan Liu", "type": "person", "identity": "Professor, Peking University", "relation_to_applicant": "self", "snippet_ids": ["snp_G3_a1b2c3d4"], "exhibit_ids": ["G3"], "mentioned_in_blocks": ["p2_b1"], "aliases": [], "is_merged": false, "merged_from": []},
+    {"id": "ent_G3_1", "name": "Journal of Advertising Study", "type": "publication", "identity": "First advertising academic journal in China, founded 2005", "relation_to_applicant": "editorial_board_member", "snippet_ids": ["snp_G3_e5f6a7b8"], "exhibit_ids": ["G3"], "mentioned_in_blocks": ["p2_b1", "p2_b2"], "aliases": ["Advertising Panorama"], "is_merged": false, "merged_from": []}
+  ],
+  "relations": [
+    {"id": "rel_G3_0", "from_entity": "ent_G3_0", "to_entity": "ent_G3_1", "relation_type": "editorial_board_member", "context": "Appointed as editor for the editorial board starting October 10, 2010", "source_snippet_ids": ["snp_G3_a1b2c3d4"], "source_blocks": ["p2_b1"]}
+  ],
+  "stats": {"snippet_count": 2, "entity_count": 2, "relation_count": 1, "applicant_snippets": 2, "other_snippets": 0}
+}

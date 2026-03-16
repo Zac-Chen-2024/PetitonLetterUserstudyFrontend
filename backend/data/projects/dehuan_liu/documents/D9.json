@@ -1,0 +1,1459 @@
+{
+  "exhibit_id": "D9",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit D-9",
+          "bbox": {
+            "x1": 115,
+            "y1": 451,
+            "x2": 875,
+            "y2": 550
+          },
+          "bbox_list": [
+            115,
+            451,
+            875,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit D-9"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Service Platform for Chinese Periodicals",
+          "bbox": {
+            "x1": 68,
+            "y1": 88,
+            "x2": 460,
+            "y2": 110
+          },
+          "bbox_list": [
+            68,
+            88,
+            460,
+            110
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Website Navigation Journal Review Report Open Acquisition of Journal Download APP",
+          "bbox": {
+            "x1": 70,
+            "y1": 123,
+            "x2": 765,
+            "y2": 144
+          },
+          "bbox_list": [
+            70,
+            123,
+            765,
+            144
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Advertising Panorama: Comprehensive Edition",
+          "bbox": {
+            "x1": 68,
+            "y1": 183,
+            "x2": 470,
+            "y2": 204
+          },
+          "bbox_list": [
+            68,
+            183,
+            470,
+            204
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Number of Works: 8539 Citations: 1390 H Index: 10",
+          "bbox": {
+            "x1": 70,
+            "y1": 212,
+            "x2": 562,
+            "y2": 234
+          },
+          "bbox_list": [
+            70,
+            212,
+            562,
+            234
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Advertising Panorama: Comprehensive Edition adheres to the mission of \"new vision, new insights and new sense of responsibility\" and focuses on \"influencing the mainstream advertising population.\" It focuses on researching and grasping industry trends, exploring the science of laws and rules and offering constructive opinions, and focusing on major events and highlights in advertising, marketing, and communications. Click for more >>",
+          "bbox": {
+            "x1": 68,
+            "y1": 270,
+            "x2": 928,
+            "y2": 420
+          },
+          "bbox_list": [
+            68,
+            270,
+            928,
+            420
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Former Name: Advertising Panorama;",
+          "bbox": {
+            "x1": 71,
+            "y1": 423,
+            "x2": 395,
+            "y2": 444
+          },
+          "bbox_list": [
+            71,
+            423,
+            395,
+            444
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Sponsor: Jiangsu Broadcasting Cooperation",
+          "bbox": {
+            "x1": 72,
+            "y1": 453,
+            "x2": 432,
+            "y2": 474
+          },
+          "bbox_list": [
+            72,
+            453,
+            432,
+            474
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "International Standard Serial Number (ISSN): ISSN 1672- 9005 Domestic Unified Serial Publication No.: CN 32- 1730/F Publishing Cycle: Monthly journal",
+          "bbox": {
+            "x1": 72,
+            "y1": 480,
+            "x2": 928,
+            "y2": 533
+          },
+          "bbox_list": [
+            72,
+            480,
+            928,
+            533
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Introduction to the Periodical",
+          "bbox": {
+            "x1": 73,
+            "y1": 570,
+            "x2": 316,
+            "y2": 590
+          },
+          "bbox_list": [
+            73,
+            570,
+            316,
+            590
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Advertising Panorama: Comprehensive Edition adheres to the mission of \"new vision,new insights and new sense of responsibility\" and focuses on \"influencing the mainstream advertising population.\"It focuses on researching and grasping industry trends, exploring the science of laws and rules and offering constructive opinions,and focusing on major events and highlights in advertising, marketing, and communications, providing in- depth components for various circumstances in the sector to play the role of supervision for advertising and public opinions. It also analyzes the methods and strategies about the media operation and branched media communication from different perspectives. The readers mainly include core marketing professionals, executives of advertising agencies, employees of media and advertising production companies, and scholars of relevant institutions.",
+          "bbox": {
+            "x1": 70,
+            "y1": 595,
+            "x2": 933,
+            "y2": 858
+          },
+          "bbox_list": [
+            70,
+            595,
+            933,
+            858
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## Service Platform for Chinese Periodicals  \n\nWebsite Navigation Journal Review Report Open Acquisition of Journal Download APP  \n\n## Advertising Panorama: Comprehensive Edition  \n\nNumber of Works: 8539 Citations: 1390 H Index: 10  \n\nAdvertising Panorama: Comprehensive Edition adheres to the mission of \"new vision, new insights and new sense of responsibility\" and focuses on \"influencing the mainstream advertising population.\" It focuses on researching and grasping industry trends, exploring the science of laws and rules and offering constructive opinions, and focusing on major events and highlights in advertising, marketing, and communications. Click for more >>  \n\nFormer Name: Advertising Panorama;  \n\nSponsor: Jiangsu Broadcasting Cooperation  \n\nInternational Standard Serial Number (ISSN): ISSN 1672- 9005 Domestic Unified Serial Publication No.: CN 32- 1730/F Publishing Cycle: Monthly journal  \n\nIntroduction to the Periodical  \n\nAdvertising Panorama: Comprehensive Edition adheres to the mission of \"new vision,new insights and new sense of responsibility\" and focuses on \"influencing the mainstream advertising population.\"It focuses on researching and grasping industry trends, exploring the science of laws and rules and offering constructive opinions,and focusing on major events and highlights in advertising, marketing, and communications, providing in- depth components for various circumstances in the sector to play the role of supervision for advertising and public opinions. It also analyzes the methods and strategies about the media operation and branched media communication from different perspectives. The readers mainly include core marketing professionals, executives of advertising agencies, employees of media and advertising production companies, and scholars of relevant institutions."
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "People.cn",
+          "bbox": {
+            "x1": 68,
+            "y1": 87,
+            "x2": 150,
+            "y2": 105
+          },
+          "bbox_list": [
+            68,
+            87,
+            150,
+            105
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "People.cn >> Media >> Media Topics >> Show of Media Periodicals: Advertising Panorama; 11th Issue in 2012",
+          "bbox": {
+            "x1": 68,
+            "y1": 113,
+            "x2": 875,
+            "y2": 135
+          },
+          "bbox_list": [
+            68,
+            113,
+            875,
+            135
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Excellent Periodical Show: Advertising Panorama",
+          "bbox": {
+            "x1": 70,
+            "y1": 177,
+            "x2": 639,
+            "y2": 203
+          },
+          "bbox_list": [
+            70,
+            177,
+            639,
+            203
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Introduction to Advertising Panorama:",
+          "bbox": {
+            "x1": 70,
+            "y1": 215,
+            "x2": 405,
+            "y2": 235
+          },
+          "bbox_list": [
+            70,
+            215,
+            405,
+            235
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Advertising Panorama is a professional journal of advertising, marketing and communication approved by the General Administration of Press and Publication of the People's Republic of China and open to the public at home and abroad. It is the only professional journal of advertising marketing and communication in China published in ten- day periodicals. It publishes \"Advertising Panorama (Comprehensive Edition)\" (the first issue, i.e. \"Creative Communication\"), \"Advertising Panorama (Theory Edition)\" (the middle issue, i.e. \"Advertising Research\") and \"Advertising Panorama (Media Edition)\" (the second issue, i.e. \"Media\") respectively.",
+          "bbox": {
+            "x1": 68,
+            "y1": 242,
+            "x2": 928,
+            "y2": 444
+          },
+          "bbox_list": [
+            68,
+            242,
+            928,
+            444
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In response to the increasing rise of interactive marketing, the magazine also established the first professional electronic multimedia online magazine focusing on interactive media marketing communication represented by the Internet - Interactive Marketing (monthly, published as a magazine within a magazine in the comprehensive edition). It is available for free online download.",
+          "bbox": {
+            "x1": 70,
+            "y1": 450,
+            "x2": 928,
+            "y2": 563
+          },
+          "bbox_list": [
+            70,
+            450,
+            928,
+            563
+          ]
+        },
+        {
+          "block_id": "p3_b6",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Advertising Panorama (Comprehensive Edition) is the only professional reading material designated by the China Association of National Advertisers for advertising, marketing and communications, and is the guiding publication for members of the China Association of National Advertisers. The purpose of the publication: insight into the whole creative marketing, focus on communication value enhancement. It focuses on major events and hot news in the field of brand communication, and gives in- depth commentary on hot issues and events; analyzes the media communication strategies of brands from different perspectives; takes the pulse of market trends, inspects consumer behavior, and performs the practical process of brand and marketing communication cases in an all- round way, emphasizing the modern way of running the magazine with communication and interaction. The readers of the magazine are corporate brand strategy managers, brand communication managers, brand operation executives, market and marketing core personnel, advertising and marketing communication agency executives, media",
+          "bbox": {
+            "x1": 72,
+            "y1": 568,
+            "x2": 930,
+            "y2": 888
+          },
+          "bbox_list": [
+            72,
+            568,
+            930,
+            888
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nPeople.cn  \n\nPeople.cn >> Media >> Media Topics >> Show of Media Periodicals: Advertising Panorama; 11th Issue in 2012  \n\n## Excellent Periodical Show: Advertising Panorama  \n\n## Introduction to Advertising Panorama:  \n\nAdvertising Panorama is a professional journal of advertising, marketing and communication approved by the General Administration of Press and Publication of the People's Republic of China and open to the public at home and abroad. It is the only professional journal of advertising marketing and communication in China published in ten- day periodicals. It publishes \"Advertising Panorama (Comprehensive Edition)\" (the first issue, i.e. \"Creative Communication\"), \"Advertising Panorama (Theory Edition)\" (the middle issue, i.e. \"Advertising Research\") and \"Advertising Panorama (Media Edition)\" (the second issue, i.e. \"Media\") respectively.  \n\nIn response to the increasing rise of interactive marketing, the magazine also established the first professional electronic multimedia online magazine focusing on interactive media marketing communication represented by the Internet - Interactive Marketing (monthly, published as a magazine within a magazine in the comprehensive edition). It is available for free online download.  \n\nAdvertising Panorama (Comprehensive Edition) is the only professional reading material designated by the China Association of National Advertisers for advertising, marketing and communications, and is the guiding publication for members of the China Association of National Advertisers. The purpose of the publication: insight into the whole creative marketing, focus on communication value enhancement. It focuses on major events and hot news in the field of brand communication, and gives in- depth commentary on hot issues and events; analyzes the media communication strategies of brands from different perspectives; takes the pulse of market trends, inspects consumer behavior, and performs the practical process of brand and marketing communication cases in an all- round way, emphasizing the modern way of running the magazine with communication and interaction. The readers of the magazine are corporate brand strategy managers, brand communication managers, brand operation executives, market and marketing core personnel, advertising and marketing communication agency executives, media"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "advertising management personnel as well as experts and scholars from relevant professional universities and colleges.",
+          "bbox": {
+            "x1": 67,
+            "y1": 84,
+            "x2": 920,
+            "y2": 137
+          },
+          "bbox_list": [
+            67,
+            84,
+            920,
+            137
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The capacity of the magazine is about 176 pages. The contents are designed into ten top sections (Industry Overview, Important Features, Special Attention, Brand Strategy, Market Insights, Innovative Communication, Communication Management, City Brand, Column of Famous Figures). The magazine is published on the 1st of each month with a maximum circulation of 50,000 copies.",
+          "bbox": {
+            "x1": 67,
+            "y1": 144,
+            "x2": 922,
+            "y2": 256
+          },
+          "bbox_list": [
+            67,
+            144,
+            922,
+            256
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Positioning and publishing",
+          "bbox": {
+            "x1": 70,
+            "y1": 296,
+            "x2": 304,
+            "y2": 316
+          },
+          "bbox_list": [
+            70,
+            296,
+            304,
+            316
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Positioning of contents: Highlighting effective advertising operations, it combines theory, appreciation and operability.",
+          "bbox": {
+            "x1": 70,
+            "y1": 324,
+            "x2": 921,
+            "y2": 377
+          },
+          "bbox_list": [
+            70,
+            324,
+            921,
+            377
+          ]
+        },
+        {
+          "block_id": "p4_b4",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Positioning of readers: The core of corporate marketing, senior staff of advertising agencies, media advertising departments and scholars of relevant professional universities and colleges, etc.",
+          "bbox": {
+            "x1": 70,
+            "y1": 383,
+            "x2": 922,
+            "y2": 436
+          },
+          "bbox_list": [
+            70,
+            383,
+            922,
+            436
+          ]
+        },
+        {
+          "block_id": "p4_b5",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Distribution method: public distribution through post offices in China; subscription organized by various advertising management agencies and associations; sales of professional bookstores, and wholesale of book wholesalers, etc.",
+          "bbox": {
+            "x1": 70,
+            "y1": 442,
+            "x2": 923,
+            "y2": 525
+          },
+          "bbox_list": [
+            70,
+            442,
+            923,
+            525
+          ]
+        },
+        {
+          "block_id": "p4_b6",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Distribution targets: large and medium- sized advertising companies, media institutions, advertising and design colleges and universities, and well- known brand enterprises in China; Inkjet production, design and output companies.",
+          "bbox": {
+            "x1": 70,
+            "y1": 530,
+            "x2": 923,
+            "y2": 614
+          },
+          "bbox_list": [
+            70,
+            530,
+            923,
+            614
+          ]
+        },
+        {
+          "block_id": "p4_b7",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Profile of People's Daily About People.cn Candidate Services Joint Us Cooperation &Alliance Contribution Services Website Lawyer Call Center ENGLISH",
+          "bbox": {
+            "x1": 70,
+            "y1": 708,
+            "x2": 925,
+            "y2": 761
+          },
+          "bbox_list": [
+            70,
+            708,
+            925,
+            761
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nadvertising management personnel as well as experts and scholars from relevant professional universities and colleges.  \n\nThe capacity of the magazine is about 176 pages. The contents are designed into ten top sections (Industry Overview, Important Features, Special Attention, Brand Strategy, Market Insights, Innovative Communication, Communication Management, City Brand, Column of Famous Figures). The magazine is published on the 1st of each month with a maximum circulation of 50,000 copies.  \n\n## Positioning and publishing  \n\nPositioning of contents: Highlighting effective advertising operations, it combines theory, appreciation and operability.  \n\nPositioning of readers: The core of corporate marketing, senior staff of advertising agencies, media advertising departments and scholars of relevant professional universities and colleges, etc.  \n\nDistribution method: public distribution through post offices in China; subscription organized by various advertising management agencies and associations; sales of professional bookstores, and wholesale of book wholesalers, etc.  \n\nDistribution targets: large and medium- sized advertising companies, media institutions, advertising and design colleges and universities, and well- known brand enterprises in China; Inkjet production, design and output companies.  \n\nProfile of People's Daily About People.cn Candidate Services Joint Us Cooperation &Alliance Contribution Services Website Lawyer Call Center ENGLISH"
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Home >>",
+          "bbox": {
+            "x1": 170,
+            "y1": 163,
+            "x2": 247,
+            "y2": 178
+          },
+          "bbox_list": [
+            170,
+            163,
+            247,
+            178
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## About Us",
+          "bbox": {
+            "x1": 194,
+            "y1": 205,
+            "x2": 336,
+            "y2": 231
+          },
+          "bbox_list": [
+            194,
+            205,
+            336,
+            231
+          ]
+        },
+        {
+          "block_id": "p5_b2",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(People's Daily Online) 11:12, July 29, 2020",
+          "bbox": {
+            "x1": 194,
+            "y1": 251,
+            "x2": 525,
+            "y2": 270
+          },
+          "bbox_list": [
+            194,
+            251,
+            525,
+            270
+          ]
+        },
+        {
+          "block_id": "p5_b3",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## About Us",
+          "bbox": {
+            "x1": 210,
+            "y1": 309,
+            "x2": 373,
+            "y2": 340
+          },
+          "bbox_list": [
+            210,
+            309,
+            373,
+            340
+          ]
+        },
+        {
+          "block_id": "p5_b4",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Introduction to People's Daily Online",
+          "bbox": {
+            "x1": 168,
+            "y1": 373,
+            "x2": 411,
+            "y2": 390
+          },
+          "bbox_list": [
+            168,
+            373,
+            411,
+            390
+          ]
+        },
+        {
+          "block_id": "p5_b5",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "People's Daily Online, founded on January 1, 1997, is the online version of People's Daily. It is a publicly traded media and culture company, with People's Daily having a controlling stake.",
+          "bbox": {
+            "x1": 194,
+            "y1": 409,
+            "x2": 789,
+            "y2": 510
+          },
+          "bbox_list": [
+            194,
+            409,
+            789,
+            510
+          ]
+        },
+        {
+          "block_id": "p5_b6",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Chinese leaders attach great importance to the development of People's Daily Online. On February 19, 2016, Xi Jinping, Chinese president, general secretary of the Communist Party of China (CPC) Central Committee and chairman of the Central Military Commission made an inspection tour of People's Daily. In a People's Daily Online studio, he had a video talk with residents living in Chixi village, Ningde city, southeast China's Fujian Province. On January 25, 2019, the Political Bureau of the CPC Central Committee held a group study session on the all- media era and integrated media development at People's Daily Online. President Xi presided over the study and delivered an important speech.",
+          "bbox": {
+            "x1": 198,
+            "y1": 523,
+            "x2": 789,
+            "y2": 839
+          },
+          "bbox_list": [
+            198,
+            523,
+            789,
+            839
+          ]
+        },
+        {
+          "block_id": "p5_b7",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "On June 20, 2008, Hu Jintao, then Chinese president, visited People's Daily and engaged with Internet users through People's Daily Online's Qiangguo Forum.",
+          "bbox": {
+            "x1": 203,
+            "y1": 850,
+            "x2": 730,
+            "y2": 926
+          },
+          "bbox_list": [
+            203,
+            850,
+            730,
+            926
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nHome >>  \n\n## About Us  \n\n(People's Daily Online) 11:12, July 29, 2020  \n\n## About Us  \n\nIntroduction to People's Daily Online  \n\nPeople's Daily Online, founded on January 1, 1997, is the online version of People's Daily. It is a publicly traded media and culture company, with People's Daily having a controlling stake.  \n\nChinese leaders attach great importance to the development of People's Daily Online. On February 19, 2016, Xi Jinping, Chinese president, general secretary of the Communist Party of China (CPC) Central Committee and chairman of the Central Military Commission made an inspection tour of People's Daily. In a People's Daily Online studio, he had a video talk with residents living in Chixi village, Ningde city, southeast China's Fujian Province. On January 25, 2019, the Political Bureau of the CPC Central Committee held a group study session on the all- media era and integrated media development at People's Daily Online. President Xi presided over the study and delivered an important speech.  \n\nOn June 20, 2008, Hu Jintao, then Chinese president, visited People's Daily and engaged with Internet users through People's Daily Online's Qiangguo Forum."
+    },
+    {
+      "page_number": 6,
+      "text_blocks": [
+        {
+          "block_id": "p6_b0",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "On April 26, 2000, Jiang Zemin, then Chinese president, referred to People's Daily Online for related reports on his trip abroad while on a visit to South Africa.",
+          "bbox": {
+            "x1": 197,
+            "y1": 46,
+            "x2": 761,
+            "y2": 123
+          },
+          "bbox_list": [
+            197,
+            46,
+            761,
+            123
+          ]
+        },
+        {
+          "block_id": "p6_b1",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "On July 1, 2006, the www.cpcnews.cn (cpc.people.com.cn), operated by People's Daily Online, was rolled out, becoming the official website for introducing and promoting the ideas, theories, policies and information of the CPC.",
+          "bbox": {
+            "x1": 198,
+            "y1": 135,
+            "x2": 780,
+            "y2": 240
+          },
+          "bbox_list": [
+            198,
+            135,
+            780,
+            240
+          ]
+        },
+        {
+          "block_id": "p6_b2",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "People's Daily Online constructed the official websites for the press centers during the 17th, 18th and 19th CPC national congresses, along with establishing a series of official websites featuring thematic educational activities for the Party members.",
+          "bbox": {
+            "x1": 199,
+            "y1": 250,
+            "x2": 792,
+            "y2": 381
+          },
+          "bbox_list": [
+            199,
+            250,
+            792,
+            381
+          ]
+        },
+        {
+          "block_id": "p6_b3",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In 2021, People's Daily Online launched the official website and WeChat account for the CPC history learning and education campaign on the occasion of commemorating the 100th anniversary of the founding of the CPC.",
+          "bbox": {
+            "x1": 201,
+            "y1": 392,
+            "x2": 780,
+            "y2": 496
+          },
+          "bbox_list": [
+            201,
+            392,
+            780,
+            496
+          ]
+        },
+        {
+          "block_id": "p6_b4",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Under the leadership of the People's Daily editorial board, the leaders of People's Daily Online have rallied all company employees to strengthen their consciousness of the need to maintain political integrity, think in big- picture terms, follow the leadership core, and keep in alignment with the central Party's leadership. They have also enhanced their confidence in the path, theory, system, and culture of socialism with Chinese characteristics. They firmly uphold General Secretary Xi Jinping's core position in both the CPC Central Committee and the Party as a whole, and respect the CPC Central Committee's authority and its centralized, unified leadership.",
+          "bbox": {
+            "x1": 202,
+            "y1": 507,
+            "x2": 797,
+            "y2": 824
+          },
+          "bbox_list": [
+            202,
+            507,
+            797,
+            824
+          ]
+        },
+        {
+          "block_id": "p6_b5",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "People's Daily Online always takes reporting on General Secretary Xi Jinping and the promotion of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era as its top political task and most important political",
+          "bbox": {
+            "x1": 207,
+            "y1": 832,
+            "x2": 801,
+            "y2": 936
+          },
+          "bbox_list": [
+            207,
+            832,
+            801,
+            936
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nOn April 26, 2000, Jiang Zemin, then Chinese president, referred to People's Daily Online for related reports on his trip abroad while on a visit to South Africa.  \n\nOn July 1, 2006, the www.cpcnews.cn (cpc.people.com.cn), operated by People's Daily Online, was rolled out, becoming the official website for introducing and promoting the ideas, theories, policies and information of the CPC.  \n\nPeople's Daily Online constructed the official websites for the press centers during the 17th, 18th and 19th CPC national congresses, along with establishing a series of official websites featuring thematic educational activities for the Party members.  \n\nIn 2021, People's Daily Online launched the official website and WeChat account for the CPC history learning and education campaign on the occasion of commemorating the 100th anniversary of the founding of the CPC.  \n\nUnder the leadership of the People's Daily editorial board, the leaders of People's Daily Online have rallied all company employees to strengthen their consciousness of the need to maintain political integrity, think in big- picture terms, follow the leadership core, and keep in alignment with the central Party's leadership. They have also enhanced their confidence in the path, theory, system, and culture of socialism with Chinese characteristics. They firmly uphold General Secretary Xi Jinping's core position in both the CPC Central Committee and the Party as a whole, and respect the CPC Central Committee's authority and its centralized, unified leadership.  \n\nPeople's Daily Online always takes reporting on General Secretary Xi Jinping and the promotion of Xi Jinping Thought on Socialism with Chinese Characteristics for a New Era as its top political task and most important political"
+    },
+    {
+      "page_number": 7,
+      "text_blocks": [
+        {
+          "block_id": "p7_b0",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "responsibility. By giving full play to its role as the flagship platform under People's Daily for promoting in-depth integrated media development, People's Daily Online strives to expand its influence to reach more places and more people, while ensuring that the content it produces becomes increasingly wide-ranging in its coverage. It also strives to take the initiative in leading and guiding public opinion, while strengthening its flagship role in the domain of online media.",
+          "bbox": {
+            "x1": 198,
+            "y1": 42,
+            "x2": 784,
+            "y2": 279
+          },
+          "bbox_list": [
+            198,
+            42,
+            784,
+            279
+          ]
+        },
+        {
+          "block_id": "p7_b1",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Taking content as its core, People's Daily Online has taken steps to further refine and strengthen its content creation, and expand its business activities in the areas of operations, risk control as well as the aggregation and distribution of content.",
+          "bbox": {
+            "x1": 201,
+            "y1": 291,
+            "x2": 784,
+            "y2": 420
+          },
+          "bbox_list": [
+            201,
+            291,
+            784,
+            420
+          ]
+        },
+        {
+          "block_id": "p7_b2",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In addition to its Chinese version, People's Daily Online also publishes versions in seven ethnic minority languages and in 12 foreign languages. People's Daily Online has endeavored to develop its content business in four aspects, including opinions and commentaries, in-depth stories, policy analysis and policy recommendations.",
+          "bbox": {
+            "x1": 202,
+            "y1": 432,
+            "x2": 792,
+            "y2": 589
+          },
+          "bbox_list": [
+            202,
+            432,
+            792,
+            589
+          ]
+        },
+        {
+          "block_id": "p7_b3",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The database for Xi Jinping's speeches has been visited more than 8oo million times, being an important source of information for foreign media outlets in their reports on China. People's Daily's social media platforms, which are operated by People's Daily Online, have continued to rank among the top 1o social media platforms for mainstream international media outlets in terms of influence and the number of followers.",
+          "bbox": {
+            "x1": 204,
+            "y1": 600,
+            "x2": 797,
+            "y2": 809
+          },
+          "bbox_list": [
+            204,
+            600,
+            797,
+            809
+          ]
+        },
+        {
+          "block_id": "p7_b4",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "People's Daily Online has more than 563 million readers on various media platforms, including its websites, mobile apps, and social media platforms, among other formats. Using the mobile app \"People's Daily Online Plus\" as an umbrella",
+          "bbox": {
+            "x1": 206,
+            "y1": 819,
+            "x2": 800,
+            "y2": 923
+          },
+          "bbox_list": [
+            206,
+            819,
+            800,
+            923
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nresponsibility. By giving full play to its role as the flagship platform under People's Daily for promoting in-depth integrated media development, People's Daily Online strives to expand its influence to reach more places and more people, while ensuring that the content it produces becomes increasingly wide-ranging in its coverage. It also strives to take the initiative in leading and guiding public opinion, while strengthening its flagship role in the domain of online media.  \n\nTaking content as its core, People's Daily Online has taken steps to further refine and strengthen its content creation, and expand its business activities in the areas of operations, risk control as well as the aggregation and distribution of content.  \n\nIn addition to its Chinese version, People's Daily Online also publishes versions in seven ethnic minority languages and in 12 foreign languages. People's Daily Online has endeavored to develop its content business in four aspects, including opinions and commentaries, in-depth stories, policy analysis and policy recommendations.  \n\nThe database for Xi Jinping's speeches has been visited more than 8oo million times, being an important source of information for foreign media outlets in their reports on China. People's Daily's social media platforms, which are operated by People's Daily Online, have continued to rank among the top 1o social media platforms for mainstream international media outlets in terms of influence and the number of followers.  \n\nPeople's Daily Online has more than 563 million readers on various media platforms, including its websites, mobile apps, and social media platforms, among other formats. Using the mobile app \"People's Daily Online Plus\" as an umbrella"
+    },
+    {
+      "page_number": 8,
+      "text_blocks": [
+        {
+          "block_id": "p8_b0",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "platform, People's Daily Online also operates the Leaders' Message Board, People's Doctors, People's Video, a Party building app, a shopping app, and a consumer rights protection platform, providing various services for people to pursue a better life.",
+          "bbox": {
+            "x1": 198,
+            "y1": 43,
+            "x2": 784,
+            "y2": 172
+          },
+          "bbox_list": [
+            198,
+            43,
+            784,
+            172
+          ]
+        },
+        {
+          "block_id": "p8_b1",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "People's Daily Online is a 33- time winner of the China News Prize, winning the Special Award once and the First Prize 14 times.",
+          "bbox": {
+            "x1": 199,
+            "y1": 185,
+            "x2": 782,
+            "y2": 261
+          },
+          "bbox_list": [
+            199,
+            185,
+            782,
+            261
+          ]
+        },
+        {
+          "block_id": "p8_b2",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "On April 27, 2012, People's Daily Online went public on the Shanghai Stock Exchange (code: 603000). Through its market operations, People's Daily Online has further optimized its business layout, having primarily established a ConTech system, becoming one of the top state- owned media and culture companies in China in terms of market value and ranking among the world's top 500 media outlets.",
+          "bbox": {
+            "x1": 199,
+            "y1": 273,
+            "x2": 794,
+            "y2": 456
+          },
+          "bbox_list": [
+            199,
+            273,
+            794,
+            456
+          ]
+        },
+        {
+          "block_id": "p8_b3",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "So far, People's Daily Online has established 33 branches on the Chinese mainland and set up 15 subsidiary companies or representative offices outside of the mainland. People's Daily Online has a number of subsidiaries, including Peopleyun.cn, Haiwainet.cn, Huanqiu.com, People's Health, People's Video & Audio, People's Information Technology, People's Venture Capital, People's Sports, and People's Technology. The industry funds under the management of People's Daily Online have already been invested into dozens of different projects.",
+          "bbox": {
+            "x1": 200,
+            "y1": 467,
+            "x2": 796,
+            "y2": 730
+          },
+          "bbox_list": [
+            200,
+            467,
+            796,
+            730
+          ]
+        },
+        {
+          "block_id": "p8_b4",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In recent years, People's Daily Online has continued to push forward its technology- driven ConTech business. It has devoted to the research and development of a smart AI- empowered \"Risk Control Brain\", jumpstarting the promotion of smart AI technology with an aim of providing technological services for the management of online content and information security. People's Daily Online has",
+          "bbox": {
+            "x1": 203,
+            "y1": 741,
+            "x2": 789,
+            "y2": 921
+          },
+          "bbox_list": [
+            203,
+            741,
+            789,
+            921
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nplatform, People's Daily Online also operates the Leaders' Message Board, People's Doctors, People's Video, a Party building app, a shopping app, and a consumer rights protection platform, providing various services for people to pursue a better life.  \n\nPeople's Daily Online is a 33- time winner of the China News Prize, winning the Special Award once and the First Prize 14 times.  \n\nOn April 27, 2012, People's Daily Online went public on the Shanghai Stock Exchange (code: 603000). Through its market operations, People's Daily Online has further optimized its business layout, having primarily established a ConTech system, becoming one of the top state- owned media and culture companies in China in terms of market value and ranking among the world's top 500 media outlets.  \n\nSo far, People's Daily Online has established 33 branches on the Chinese mainland and set up 15 subsidiary companies or representative offices outside of the mainland. People's Daily Online has a number of subsidiaries, including Peopleyun.cn, Haiwainet.cn, Huanqiu.com, People's Health, People's Video & Audio, People's Information Technology, People's Venture Capital, People's Sports, and People's Technology. The industry funds under the management of People's Daily Online have already been invested into dozens of different projects.  \n\nIn recent years, People's Daily Online has continued to push forward its technology- driven ConTech business. It has devoted to the research and development of a smart AI- empowered \"Risk Control Brain\", jumpstarting the promotion of smart AI technology with an aim of providing technological services for the management of online content and information security. People's Daily Online has"
+    },
+    {
+      "page_number": 9,
+      "text_blocks": [
+        {
+          "block_id": "p9_b0",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "established the State Key Laboratory of Communication Content Cognition, which focuses on the study of AI in such areas as the precise dissemination of mainstream values, smart content review and risk control, the national governance of cyberspace, and the construction of intelligent computing facilities.",
+          "bbox": {
+            "x1": 196,
+            "y1": 43,
+            "x2": 784,
+            "y2": 200
+          },
+          "bbox_list": [
+            196,
+            43,
+            784,
+            200
+          ]
+        },
+        {
+          "block_id": "p9_b1",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "People's Daily Online adheres to the principle of the Party exercising leadership over talent management and reinvigorating the company through human resources. It offers three directions for career development, allowing employees to choose a path towards becoming management personnel, specialists, or entrepreneurs.",
+          "bbox": {
+            "x1": 198,
+            "y1": 211,
+            "x2": 780,
+            "y2": 368
+          },
+          "bbox_list": [
+            198,
+            211,
+            780,
+            368
+          ]
+        },
+        {
+          "block_id": "p9_b2",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "People's Daily Online has fostered Party building brands, such as \"Reading Books Recommended by Xi Jinping\" and \"Experience Center for Smart Party Building.\"",
+          "bbox": {
+            "x1": 200,
+            "y1": 379,
+            "x2": 770,
+            "y2": 456
+          },
+          "bbox_list": [
+            200,
+            379,
+            770,
+            456
+          ]
+        },
+        {
+          "block_id": "p9_b3",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "People's Daily Online has won many national- level honorary titles such as \"Outstanding Grass- roots Party Organization\", \"National Role Model Organization\", and \"National March 8th Red- banner Collective,\" and more.",
+          "bbox": {
+            "x1": 201,
+            "y1": 468,
+            "x2": 785,
+            "y2": 570
+          },
+          "bbox_list": [
+            201,
+            468,
+            785,
+            570
+          ]
+        },
+        {
+          "block_id": "p9_b4",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The strength of People's Daily Online lies in its unique political value, communication value, brand value, platform value and investment value. As an important resource and vehicle for the CPC in national governance, People's Daily Online will continue to take content as its core business, striving to fulfill its role as the most professional source of information on the Party and disseminator of its standpoint, while serving as the staunchest defender of the Chinese people's interests, as well as a strong pillar in guiding online public opinion. In the new social division of labor of content industry, People's Daily Online plays an essential role in leading, linking up and formulating industry standards. It will build up core capabilities in guaranteeing that the Party",
+          "bbox": {
+            "x1": 201,
+            "y1": 583,
+            "x2": 789,
+            "y2": 923
+          },
+          "bbox_list": [
+            201,
+            583,
+            789,
+            923
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nestablished the State Key Laboratory of Communication Content Cognition, which focuses on the study of AI in such areas as the precise dissemination of mainstream values, smart content review and risk control, the national governance of cyberspace, and the construction of intelligent computing facilities.  \n\nPeople's Daily Online adheres to the principle of the Party exercising leadership over talent management and reinvigorating the company through human resources. It offers three directions for career development, allowing employees to choose a path towards becoming management personnel, specialists, or entrepreneurs.  \n\nPeople's Daily Online has fostered Party building brands, such as \"Reading Books Recommended by Xi Jinping\" and \"Experience Center for Smart Party Building.\"  \n\nPeople's Daily Online has won many national- level honorary titles such as \"Outstanding Grass- roots Party Organization\", \"National Role Model Organization\", and \"National March 8th Red- banner Collective,\" and more.  \n\nThe strength of People's Daily Online lies in its unique political value, communication value, brand value, platform value and investment value. As an important resource and vehicle for the CPC in national governance, People's Daily Online will continue to take content as its core business, striving to fulfill its role as the most professional source of information on the Party and disseminator of its standpoint, while serving as the staunchest defender of the Chinese people's interests, as well as a strong pillar in guiding online public opinion. In the new social division of labor of content industry, People's Daily Online plays an essential role in leading, linking up and formulating industry standards. It will build up core capabilities in guaranteeing that the Party"
+    },
+    {
+      "page_number": 10,
+      "text_blocks": [
+        {
+          "block_id": "p10_b0",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "exercises leadership over the management of data, and become a leading player in the ConTech business.",
+          "bbox": {
+            "x1": 197,
+            "y1": 44,
+            "x2": 728,
+            "y2": 93
+          },
+          "bbox_list": [
+            197,
+            44,
+            728,
+            93
+          ]
+        },
+        {
+          "block_id": "p10_b1",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "People's Daily Online will also accelerate the in- depth integration of media development, as well as pushing for the integration of Party building and business development in order to build itself into a new type of mainstream media outlet with strong influence and competitiveness.",
+          "bbox": {
+            "x1": 197,
+            "y1": 106,
+            "x2": 784,
+            "y2": 237
+          },
+          "bbox_list": [
+            197,
+            106,
+            784,
+            237
+          ]
+        },
+        {
+          "block_id": "p10_b2",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(Updated September 2021)",
+          "bbox": {
+            "x1": 200,
+            "y1": 250,
+            "x2": 465,
+            "y2": 272
+          },
+          "bbox_list": [
+            200,
+            250,
+            465,
+            272
+          ]
+        },
+        {
+          "block_id": "p10_b3",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "People's Daily Online English Edition",
+          "bbox": {
+            "x1": 168,
+            "y1": 293,
+            "x2": 412,
+            "y2": 310
+          },
+          "bbox_list": [
+            168,
+            293,
+            412,
+            310
+          ]
+        },
+        {
+          "block_id": "p10_b4",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Mail Address: New Media Tower of People's Daily, No.2 Jintai Xilu, Chaoyang District, Beijing, China",
+          "bbox": {
+            "x1": 200,
+            "y1": 329,
+            "x2": 743,
+            "y2": 380
+          },
+          "bbox_list": [
+            200,
+            329,
+            743,
+            380
+          ]
+        },
+        {
+          "block_id": "p10_b5",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Email: en@people.cn",
+          "bbox": {
+            "x1": 201,
+            "y1": 394,
+            "x2": 413,
+            "y2": 416
+          },
+          "bbox_list": [
+            201,
+            394,
+            413,
+            416
+          ]
+        },
+        {
+          "block_id": "p10_b6",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Fax: +8610- 65363688",
+          "bbox": {
+            "x1": 201,
+            "y1": 430,
+            "x2": 424,
+            "y2": 451
+          },
+          "bbox_list": [
+            201,
+            430,
+            424,
+            451
+          ]
+        },
+        {
+          "block_id": "p10_b7",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(Web editor: Du Mingming, Liang Jun)",
+          "bbox": {
+            "x1": 448,
+            "y1": 532,
+            "x2": 830,
+            "y2": 555
+          },
+          "bbox_list": [
+            448,
+            532,
+            830,
+            555
+          ]
+        },
+        {
+          "block_id": "p10_b8",
+          "page_number": 10,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Photos",
+          "bbox": {
+            "x1": 201,
+            "y1": 613,
+            "x2": 303,
+            "y2": 636
+          },
+          "bbox_list": [
+            201,
+            613,
+            303,
+            636
+          ]
+        },
+        {
+          "block_id": "p10_b9",
+          "page_number": 10,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 207,
+            "y1": 656,
+            "x2": 445,
+            "y2": 760
+          },
+          "bbox_list": [
+            207,
+            656,
+            445,
+            760
+          ]
+        },
+        {
+          "block_id": "p10_b10",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Magnificent decorations greet upcoming Lantern Festival in E China's Shandong",
+          "bbox": {
+            "x1": 465,
+            "y1": 656,
+            "x2": 770,
+            "y2": 691
+          },
+          "bbox_list": [
+            465,
+            656,
+            770,
+            691
+          ]
+        },
+        {
+          "block_id": "p10_b11",
+          "page_number": 10,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 207,
+            "y1": 789,
+            "x2": 446,
+            "y2": 894
+          },
+          "bbox_list": [
+            207,
+            789,
+            446,
+            894
+          ]
+        },
+        {
+          "block_id": "p10_b12",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Various folk cultural activities held to welcome upcoming Lantern Festival in China",
+          "bbox": {
+            "x1": 465,
+            "y1": 789,
+            "x2": 761,
+            "y2": 842
+          },
+          "bbox_list": [
+            465,
+            789,
+            761,
+            842
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nexercises leadership over the management of data, and become a leading player in the ConTech business.  \n\nPeople's Daily Online will also accelerate the in- depth integration of media development, as well as pushing for the integration of Party building and business development in order to build itself into a new type of mainstream media outlet with strong influence and competitiveness.  \n\n(Updated September 2021)  \n\nPeople's Daily Online English Edition  \n\nMail Address: New Media Tower of People's Daily, No.2 Jintai Xilu, Chaoyang District, Beijing, China  \n\nEmail: en@people.cn  \n\nFax: +8610- 65363688  \n\n(Web editor: Du Mingming, Liang Jun)  \n\n## Photos  \n\nMagnificent decorations greet upcoming Lantern Festival in E China's Shandong  \n\nVarious folk cultural activities held to welcome upcoming Lantern Festival in China"
+    },
+    {
+      "page_number": 11,
+      "text_blocks": [
+        {
+          "block_id": "p11_b0",
+          "page_number": 11,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 196,
+            "y1": 46,
+            "x2": 435,
+            "y2": 145
+          },
+          "bbox_list": [
+            196,
+            46,
+            435,
+            145
+          ]
+        },
+        {
+          "block_id": "p11_b1",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Tibet lures tourists for winter visits",
+          "bbox": {
+            "x1": 454,
+            "y1": 46,
+            "x2": 720,
+            "y2": 62
+          },
+          "bbox_list": [
+            454,
+            46,
+            720,
+            62
+          ]
+        },
+        {
+          "block_id": "p11_b2",
+          "page_number": 11,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 198,
+            "y1": 183,
+            "x2": 435,
+            "y2": 286
+          },
+          "bbox_list": [
+            198,
+            183,
+            435,
+            286
+          ]
+        },
+        {
+          "block_id": "p11_b3",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Kunming Dounan Flower Market, largest fresh cut flower trading market in Asia",
+          "bbox": {
+            "x1": 454,
+            "y1": 182,
+            "x2": 767,
+            "y2": 217
+          },
+          "bbox_list": [
+            454,
+            182,
+            767,
+            217
+          ]
+        },
+        {
+          "block_id": "p11_b4",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "About People's Daily Online | Join Us | Contact Us Copyright © 2023 People's Daily Online. All Rights Reserved.",
+          "bbox": {
+            "x1": 296,
+            "y1": 343,
+            "x2": 696,
+            "y2": 380
+          },
+          "bbox_list": [
+            296,
+            343,
+            696,
+            380
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTibet lures tourists for winter visits  \n\nKunming Dounan Flower Market, largest fresh cut flower trading market in Asia  \n\nAbout People's Daily Online | Join Us | Contact Us  Copyright © 2023 People's Daily Online. All Rights Reserved."
+    }
+  ],
+  "total_blocks": 73
+}

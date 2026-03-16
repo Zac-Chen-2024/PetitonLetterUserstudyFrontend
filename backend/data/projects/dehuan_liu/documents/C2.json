@@ -1,0 +1,897 @@
+{
+  "exhibit_id": "C2",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit C-2",
+          "bbox": {
+            "x1": 120,
+            "y1": 455,
+            "x2": 875,
+            "y2": 549
+          },
+          "bbox_list": [
+            120,
+            455,
+            875,
+            549
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit C-2"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# 中国商务广告协会About CAAC",
+          "bbox": {
+            "x1": 577,
+            "y1": 145,
+            "x2": 708,
+            "y2": 181
+          },
+          "bbox_list": [
+            577,
+            145,
+            708,
+            181
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "协会简介",
+          "bbox": {
+            "x1": 66,
+            "y1": 160,
+            "x2": 255,
+            "y2": 177
+          },
+          "bbox_list": [
+            66,
+            160,
+            255,
+            177
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "协会章程",
+          "bbox": {
+            "x1": 66,
+            "y1": 188,
+            "x2": 121,
+            "y2": 201
+          },
+          "bbox_list": [
+            66,
+            188,
+            121,
+            201
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "创新发展智库专家名单...",
+          "bbox": {
+            "x1": 66,
+            "y1": 215,
+            "x2": 207,
+            "y2": 229
+          },
+          "bbox_list": [
+            66,
+            215,
+            207,
+            229
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "联系我们",
+          "bbox": {
+            "x1": 66,
+            "y1": 243,
+            "x2": 121,
+            "y2": 256
+          },
+          "bbox_list": [
+            66,
+            243,
+            121,
+            256
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "中国商务广告协会原为中国对外经济贸易广告协会（简称外广协），成立于1981年，是我国第一个全国性广告行业社团组织。2005年9月，随着国家政府机构改革，经商务部和民政部批准，中国对外经济贸易广告协会更名为中国商务广告协会（简称商广协）。",
+          "bbox": {
+            "x1": 333,
+            "y1": 205,
+            "x2": 952,
+            "y2": 260
+          },
+          "bbox_list": [
+            333,
+            205,
+            952,
+            260
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "As the ever first national association of advertising industry, China Advertising Association of Commerce was founded in 1981 and successively named as China Advertising Association of Foreign Economy and Trade, abbreviated as CAAFET and China Advertising Association of Foreign Trade, abbreviated as CAAFT. In September 2005, with the restructuring of the governmental organizations and approved by the Ministry of Commerce and the Ministry of Civil Affairs, China Advertising Association of Foreign Trade officially changed its name into China Advertising Association of Commerce, CAAC in short.",
+          "bbox": {
+            "x1": 333,
+            "y1": 262,
+            "x2": 955,
+            "y2": 395
+          },
+          "bbox_list": [
+            333,
+            262,
+            955,
+            395
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# CAAC",
+          "bbox": {
+            "x1": 567,
+            "y1": 410,
+            "x2": 718,
+            "y2": 440
+          },
+          "bbox_list": [
+            567,
+            410,
+            718,
+            440
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# 中国商务广告协会",
+          "bbox": {
+            "x1": 515,
+            "y1": 444,
+            "x2": 775,
+            "y2": 464
+          },
+          "bbox_list": [
+            515,
+            444,
+            775,
+            464
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "China Advertising Association of Commerce",
+          "bbox": {
+            "x1": 516,
+            "y1": 465,
+            "x2": 774,
+            "y2": 478
+          },
+          "bbox_list": [
+            516,
+            465,
+            774,
+            478
+          ]
+        },
+        {
+          "block_id": "p2_b10",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "中文名：中国商务广告协会英文名：CHINA ADVERTISING ASSOCIATION OF COMMERCE英文缩写：CAAC成立时间：1981年8月21日原名：中国对外经济贸易广告协会职能：传承文化经典，缔造品牌价值，推动消费繁荣，传播善行公益。Name in Chinese: 中国商务广告协会Name in English: China Advertising Association of CommerceAbbreviation: CAACDate of foundation: August 21st, 1981Original Name: China Advertising Association of Foreign Economy and TradeFunction: to carry on cultural classics, to create brand value, to help increase consumption, to communicate commonweal and charity",
+          "bbox": {
+            "x1": 336,
+            "y1": 503,
+            "x2": 710,
+            "y2": 747
+          },
+          "bbox_list": [
+            336,
+            503,
+            710,
+            747
+          ]
+        },
+        {
+          "block_id": "p2_b11",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 发展历史|The History",
+          "bbox": {
+            "x1": 340,
+            "y1": 770,
+            "x2": 500,
+            "y2": 786
+          },
+          "bbox_list": [
+            340,
+            770,
+            500,
+            786
+          ]
+        },
+        {
+          "block_id": "p2_b12",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1981- 1993",
+          "bbox": {
+            "x1": 341,
+            "y1": 790,
+            "x2": 421,
+            "y2": 802
+          },
+          "bbox_list": [
+            341,
+            790,
+            421,
+            802
+          ]
+        },
+        {
+          "block_id": "p2_b13",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1979年，伴随着改革开放的春风，中国当代广告业迅速兴起，中国对外贸易广告首当其冲。我国投入出口商品广告宣传费十年间增长了十多倍；有外贸广告经营权的广告公司也从仅有1家发展到近50家。在这种大背景下，中国第一个全国性广告行业组织---中国对外贸易广告协会（简称外广协，今中国商务广告协会）诞生。这一时期，外广协的主要任务是服务于出口贸易，推动生产，加强商品的对外广告宣传，并为此不断加强理论和实务建设。这期间，为了让世界经济贸易界、广告界了解中国，让中国了解世界，发挥广告在促进经济发展中的作用，外广协与英国《南方》杂志于1987年6月16- 20日在北京人民大会堂共同举办了“第三世界广告大会”，",
+          "bbox": {
+            "x1": 340,
+            "y1": 805,
+            "x2": 961,
+            "y2": 919
+          },
+          "bbox_list": [
+            340,
+            805,
+            961,
+            919
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# 中国商务广告协会About CAAC  \n\n协会简介  \n\n协会章程  \n\n创新发展智库专家名单...  \n\n联系我们  \n\n中国商务广告协会原为中国对外经济贸易广告协会（简称外广协），成立于1981年，是我国第一个全国性广告行业社团组织。2005年9月，随着国家政府机构改革，经商务部和民政部批准，中国对外经济贸易广告协会更名为中国商务广告协会（简称商广协）。  \n\nAs the ever first national association of advertising industry, China Advertising Association of Commerce was founded in 1981 and successively named as China Advertising Association of Foreign Economy and Trade, abbreviated as CAAFET and China Advertising Association of Foreign Trade, abbreviated as CAAFT. In September 2005, with the restructuring of the governmental organizations and approved by the Ministry of Commerce and the Ministry of Civil Affairs, China Advertising Association of Foreign Trade officially changed its name into China Advertising Association of Commerce, CAAC in short.  \n\n# CAAC  \n\n# 中国商务广告协会  \n\nChina Advertising Association of Commerce  \n\n中文名：中国商务广告协会英文名：CHINA ADVERTISING ASSOCIATION OF COMMERCE英文缩写：CAAC成立时间：1981年8月21日原名：中国对外经济贸易广告协会职能：传承文化经典，缔造品牌价值，推动消费繁荣，传播善行公益。Name in Chinese: 中国商务广告协会Name in English: China Advertising Association of CommerceAbbreviation: CAACDate of foundation: August 21st, 1981Original Name: China Advertising Association of Foreign Economy and TradeFunction: to carry on cultural classics, to create brand value, to help increase consumption, to communicate commonweal and charity  \n\n## 发展历史|The History  \n\n1981- 1993  \n\n1979年，伴随着改革开放的春风，中国当代广告业迅速兴起，中国对外贸易广告首当其冲。我国投入出口商品广告宣传费十年间增长了十多倍；有外贸广告经营权的广告公司也从仅有1家发展到近50家。在这种大背景下，中国第一个全国性广告行业组织---中国对外贸易广告协会（简称外广协，今中国商务广告协会）诞生。这一时期，外广协的主要任务是服务于出口贸易，推动生产，加强商品的对外广告宣传，并为此不断加强理论和实务建设。这期间，为了让世界经济贸易界、广告界了解中国，让中国了解世界，发挥广告在促进经济发展中的作用，外广协与英国《南方》杂志于1987年6月16- 20日在北京人民大会堂共同举办了“第三世界广告大会”，"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "这是中外广告人共同谱写的重要历史事件，大会受到国内外各界的广泛关注，中国国家主席李先念接见了全体中外代表。",
+          "bbox": {
+            "x1": 328,
+            "y1": 41,
+            "x2": 947,
+            "y2": 75
+          },
+          "bbox_list": [
+            328,
+            41,
+            947,
+            75
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Starting from the year of 1979, the China contemporary advertising industry grew up rapidly with the reform and opening of the China market. The advertising growth of China foreign trade boomed up out of the norm. During these 10 years, the advertising cost China spent on its export commodities increased by ten times than that of the previous 10 years. The number of agencies qualified to do advertising for foreign trade also increased from 1 to nearly 50. Under this kind of circumstances, the former entity of today's China Advertising Association of Commerce, China Advertising Association of Foreign Economy and Trade was born as the first national association of advertising industry. In this stage, the main task for the Association was to serve the trade of export, to help increase production and to enhance the advertising for export goods and meanwhile, to continuously build up and consolidate the advertising industry from both theoretical and practical aspects. During this period of time, in order to make China known in the global circle of economy, trade and advertising, and to have China get to know the world, moreover, to strengthen the advertising role in the economy development, CAAFT jointly held the Third World Advertising Congress together with South Magazine at the Great Hall of People in June 16 - 20, 1987 in Beijing. This was an important historical event made by the Chinese and the world advertising men. The congress attracted vast attention of its peer from both domestic and worldwide. Li Xiannian, the Chairman of the People's Republic of China, received all delegates from both domestic and abroad.",
+          "bbox": {
+            "x1": 328,
+            "y1": 78,
+            "x2": 952,
+            "y2": 401
+          },
+          "bbox_list": [
+            328,
+            78,
+            952,
+            401
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 1994-2004",
+          "bbox": {
+            "x1": 335,
+            "y1": 424,
+            "x2": 414,
+            "y2": 437
+          },
+          "bbox_list": [
+            335,
+            424,
+            414,
+            437
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "这期间，中国广告业进入稳步发展期。中国的《广告法》正式实施，企业的市场营销，消费者的品牌意识逐步被认知，广告创作与传播走向兴旺和成熟，外资开始大步进入中国。1994年外广协首创举办了“国际广告新媒体、新技术、新设备、新材料展”；1995年与中国传媒大学（北京广播学院）联合推出第一部有关城市消费者行为和生活形态的年鉴《1995IMI消费者行为和形态年鉴》；1996年首次引进“广告饕餮之夜”；1997年买断美国《广告时代》中国版权；2004年与中国传媒大学（北京广播学院）、IAI国际广告研究所共同编撰出版中英文版文献史书《中国广告猛进史1979- 2003年》和《中国营销25年》。",
+          "bbox": {
+            "x1": 335,
+            "y1": 440,
+            "x2": 954,
+            "y2": 552
+          },
+          "bbox_list": [
+            335,
+            440,
+            954,
+            552
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In this decade, China advertising industry entered the stage of stable development. The Advertising Law was officially put into effect. Local enterprises and consumers obtained more marketing sense and brand perceptions. The creativity and communication of advertising moved towards thriving and matured. Foreign investments into China market began to speed up. In 1994, CAAFT initially held the exhibition on New Media, New Technology, New Equipment and New Materials of International Advertising. In 1995, together with the Communication University of China (previously named Beijing Broadcasting Institute), CAAFT released the first yearbook on the urban consumer behavior and life style which is named “1995 IMI Yearbook on Consumer Behavior and Lifestyle”. In 1996, CAAFT introduced “The Night of The Ad Eaters” for the first time. In 1997, CAAFT bought out the exclusive right of “Adverting Age” to China. In 2004, jointly with the Communication University of China (Beijing Broadcasting Institute) and IAI (International Advertising Institute), CAAFT edited and published the historical literature “The Accelerated Growth of China Advertising History 1979 - 2003” and “The China Marketing in 25 Years” in both Chinese and English versions.",
+          "bbox": {
+            "x1": 336,
+            "y1": 555,
+            "x2": 958,
+            "y2": 799
+          },
+          "bbox_list": [
+            336,
+            555,
+            958,
+            799
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 2005-2015",
+          "bbox": {
+            "x1": 339,
+            "y1": 823,
+            "x2": 420,
+            "y2": 836
+          },
+          "bbox_list": [
+            339,
+            823,
+            420,
+            836
+          ]
+        },
+        {
+          "block_id": "p3_b6",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "随着国家政府机构改革，经商务部和民政部批准，外广协更名为中国商务广告协会。这一时期的主要工作是围绕商务部和企业品牌建设。2005年12月在商务部支持下，商广协主导下和业界有影响力的人士积极努力下，由“一流服务，一流创新，一流实力，一流诚信”的合资、独资及中国本土综合性广告公司为主成立了行业高端组织——中国商务广告协会综合代理专业委员会（以下简称“4A”）。4A是商广协首个分支机构，其宗旨是",
+          "bbox": {
+            "x1": 339,
+            "y1": 839,
+            "x2": 960,
+            "y2": 913
+          },
+          "bbox_list": [
+            339,
+            839,
+            960,
+            913
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n这是中外广告人共同谱写的重要历史事件，大会受到国内外各界的广泛关注，中国国家主席李先念接见了全体中外代表。  \n\nStarting from the year of 1979, the China contemporary advertising industry grew up rapidly with the reform and opening of the China market. The advertising growth of China foreign trade boomed up out of the norm. During these 10 years, the advertising cost China spent on its export commodities increased by ten times than that of the previous 10 years. The number of agencies qualified to do advertising for foreign trade also increased from 1 to nearly 50. Under this kind of circumstances, the former entity of today's China Advertising Association of Commerce, China Advertising Association of Foreign Economy and Trade was born as the first national association of advertising industry. In this stage, the main task for the Association was to serve the trade of export, to help increase production and to enhance the advertising for export goods and meanwhile, to continuously build up and consolidate the advertising industry from both theoretical and practical aspects. During this period of time, in order to make China known in the global circle of economy, trade and advertising, and to have China get to know the world, moreover, to strengthen the advertising role in the economy development, CAAFT jointly held the Third World Advertising Congress together with South Magazine at the Great Hall of People in June 16 - 20, 1987 in Beijing. This was an important historical event made by the Chinese and the world advertising men. The congress attracted vast attention of its peer from both domestic and worldwide. Li Xiannian, the Chairman of the People's Republic of China, received all delegates from both domestic and abroad.  \n\n## 1994-2004  \n\n这期间，中国广告业进入稳步发展期。中国的《广告法》正式实施，企业的市场营销，消费者的品牌意识逐步被认知，广告创作与传播走向兴旺和成熟，外资开始大步进入中国。1994年外广协首创举办了“国际广告新媒体、新技术、新设备、新材料展”；1995年与中国传媒大学（北京广播学院）联合推出第一部有关城市消费者行为和生活形态的年鉴《1995IMI消费者行为和形态年鉴》；1996年首次引进“广告饕餮之夜”；1997年买断美国《广告时代》中国版权；2004年与中国传媒大学（北京广播学院）、IAI国际广告研究所共同编撰出版中英文版文献史书《中国广告猛进史1979- 2003年》和《中国营销25年》。  \n\nIn this decade, China advertising industry entered the stage of stable development. The Advertising Law was officially put into effect. Local enterprises and consumers obtained more marketing sense and brand perceptions. The creativity and communication of advertising moved towards thriving and matured. Foreign investments into China market began to speed up. In 1994, CAAFT initially held the exhibition on New Media, New Technology, New Equipment and New Materials of International Advertising. In 1995, together with the Communication University of China (previously named Beijing Broadcasting Institute), CAAFT released the first yearbook on the urban consumer behavior and life style which is named “1995 IMI Yearbook on Consumer Behavior and Lifestyle”. In 1996, CAAFT introduced “The Night of The Ad Eaters” for the first time. In 1997, CAAFT bought out the exclusive right of “Adverting Age” to China. In 2004, jointly with the Communication University of China (Beijing Broadcasting Institute) and IAI (International Advertising Institute), CAAFT edited and published the historical literature “The Accelerated Growth of China Advertising History 1979 - 2003” and “The China Marketing in 25 Years” in both Chinese and English versions.  \n\n## 2005-2015  \n\n随着国家政府机构改革，经商务部和民政部批准，外广协更名为中国商务广告协会。这一时期的主要工作是围绕商务部和企业品牌建设。2005年12月在商务部支持下，商广协主导下和业界有影响力的人士积极努力下，由“一流服务，一流创新，一流实力，一流诚信”的合资、独资及中国本土综合性广告公司为主成立了行业高端组织——中国商务广告协会综合代理专业委员会（以下简称“4A”）。4A是商广协首个分支机构，其宗旨是"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "提升整体中国广告行业的地位和社会形象，为中国广告业培养人才，并树立专业作业规范和行业自律，促进中国经济的发展。",
+          "bbox": {
+            "x1": 330,
+            "y1": 43,
+            "x2": 950,
+            "y2": 78
+          },
+          "bbox_list": [
+            330,
+            43,
+            950,
+            78
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "With the restructuring of governmental organizations, CAAFT changed its name into China Advertising Association of Commerce under the approval of the Ministry of Commerce and the Ministry of Civil Affairs. Its business focus during these years was to assist the MOC and help the local enterprise on brand building. In December 2005, supported by MOC and driven by CAAC, also with the active effort by the affluent in the industry, The Association of Accredited Advertising Agencies of China (China 4A) was born as the high end industrial organization. It was composed of the joint venture agencies, foreign agencies and local comprehensive ad agencies who believe in \"First class of service, First class of innovation, First class of capability, First class of credit\". China 4A is the first subordinate branch of CAAC. It lives to raise up the position and improve the public image of the entire China advertising industry. Secondly, it lives to bring up advertising talents for the field. Thirdly, it lives to standardize the industrial practice and strengthen self- discipline. Finally, it lives to enhance the economy development.",
+          "bbox": {
+            "x1": 330,
+            "y1": 80,
+            "x2": 953,
+            "y2": 308
+          },
+          "bbox_list": [
+            330,
+            80,
+            953,
+            308
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 2016-2021",
+          "bbox": {
+            "x1": 335,
+            "y1": 333,
+            "x2": 412,
+            "y2": 346
+          },
+          "bbox_list": [
+            335,
+            333,
+            412,
+            346
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2016年1月28日，经换届选举产生第十届理事会，商广协本着“为中国广告行业的发展贡献一份力量”的初心，坚决贯彻中央和国家机关工委及民政部关于协会工作的各项指示要求及各类文件政策的规定，积极开展协会内部各项工作的整理整顿，建立健全各项规章制度，明确协会工作宗旨，为会员服务，创建专业型、学习型、创新型协会，坚持守正创新，并以“专业、创新、团结、诚信、守法”为行为准则，有组织、有秩序、有策划地开展了一系列有益于协会和行业发展的各项工作。更加明确地提出推动4A朝着专业、精英、高端和国际化方向发展；引导数字营销专业委员会向着专业化、规范化、功能化方向发展。牵头组织广告行业内各主要领域的企业家、专家和学者，先后成立了内容营销专业委员会、品牌发展战略工作委员会、自媒体营销专业委员会、IP生态商业专业委员会、中小企业数字化推进工作委员会、商业创新工作委员会、创意产业推动工作委员会、设计力专业委员会、教育培训工作委员会、自律工作委员会及法律工作委员会等二级机构。多次组织全员性国际交流活动，与ADFEST（亚太广告节）、AWA（世界广告论坛）、D&D（英国设计与艺术指导）等国际广告组织合作。举办各种国内专业论坛及专业培训，持续学习、深入学习和互相学习在协会蔚然成风，已经初步建成了一个学习型的协会。",
+          "bbox": {
+            "x1": 335,
+            "y1": 348,
+            "x2": 956,
+            "y2": 574
+          },
+          "bbox_list": [
+            335,
+            348,
+            956,
+            574
+          ]
+        },
+        {
+          "block_id": "p4_b4",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "On January 28, 2016, the 10th council of CAAC was elected. In line with the original intention of \"contributing to the development of China's advertising industry\", CAAC actively carry out the sorting and rectification of various internal work of the association, establish and improve various rules and regulations, clarify the mission of the association, and create a professional, learning, and innovative organization to serve members. The association adheres to integrity and innovation, and takes \"Professionalism, Innovation, Unity, Integrity, and Law-abiding\" as the behavior standard. We promote the professional, elite, high-end and international development of China 4A; guide the Digital Marketing Committee to develop in the direction of specialization, standardization and function; leading the organization of entrepreneurs, experts and scholars in the advertising industry, and successively established the Content Marketing Committee, the Brand Development Strategy Committee, the We- Media Committee, the IP Ecology Commerce Committee, the SME Digital Promotion Committee, the Business Innovation Committee, the Creativity Industry Committee, the Commerce Design Force Committee, the Education & Training Committee, the Self- Discipline Committee, the Legal Working Committee, etc. We cooperate with international advertising organizations such as ADFEST, AWA, D&D, and have organized international visiting activities for the members. By holding various domestic professional forums and training to keep learning, CAAC has become a learning- oriented association initially.",
+          "bbox": {
+            "x1": 337,
+            "y1": 575,
+            "x2": 959,
+            "y2": 896
+          },
+          "bbox_list": [
+            337,
+            575,
+            959,
+            896
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n提升整体中国广告行业的地位和社会形象，为中国广告业培养人才，并树立专业作业规范和行业自律，促进中国经济的发展。  \n\nWith the restructuring of governmental organizations, CAAFT changed its name into China Advertising Association of Commerce under the approval of the Ministry of Commerce and the Ministry of Civil Affairs. Its business focus during these years was to assist the MOC and help the local enterprise on brand building. In December 2005, supported by MOC and driven by CAAC, also with the active effort by the affluent in the industry, The Association of Accredited Advertising Agencies of China (China 4A) was born as the high end industrial organization. It was composed of the joint venture agencies, foreign agencies and local comprehensive ad agencies who believe in \"First class of service, First class of innovation, First class of capability, First class of credit\". China 4A is the first subordinate branch of CAAC. It lives to raise up the position and improve the public image of the entire China advertising industry. Secondly, it lives to bring up advertising talents for the field. Thirdly, it lives to standardize the industrial practice and strengthen self- discipline. Finally, it lives to enhance the economy development.  \n\n## 2016-2021  \n\n2016年1月28日，经换届选举产生第十届理事会，商广协本着“为中国广告行业的发展贡献一份力量”的初心，坚决贯彻中央和国家机关工委及民政部关于协会工作的各项指示要求及各类文件政策的规定，积极开展协会内部各项工作的整理整顿，建立健全各项规章制度，明确协会工作宗旨，为会员服务，创建专业型、学习型、创新型协会，坚持守正创新，并以“专业、创新、团结、诚信、守法”为行为准则，有组织、有秩序、有策划地开展了一系列有益于协会和行业发展的各项工作。更加明确地提出推动4A朝着专业、精英、高端和国际化方向发展；引导数字营销专业委员会向着专业化、规范化、功能化方向发展。牵头组织广告行业内各主要领域的企业家、专家和学者，先后成立了内容营销专业委员会、品牌发展战略工作委员会、自媒体营销专业委员会、IP生态商业专业委员会、中小企业数字化推进工作委员会、商业创新工作委员会、创意产业推动工作委员会、设计力专业委员会、教育培训工作委员会、自律工作委员会及法律工作委员会等二级机构。多次组织全员性国际交流活动，与ADFEST（亚太广告节）、AWA（世界广告论坛）、D&D（英国设计与艺术指导）等国际广告组织合作。举办各种国内专业论坛及专业培训，持续学习、深入学习和互相学习在协会蔚然成风，已经初步建成了一个学习型的协会。  \n\nOn January 28, 2016, the 10th council of CAAC was elected. In line with the original intention of \"contributing to the development of China's advertising industry\", CAAC actively carry out the sorting and rectification of various internal work of the association, establish and improve various rules and regulations, clarify the mission of the association, and create a professional, learning, and innovative organization to serve members. The association adheres to integrity and innovation, and takes \"Professionalism, Innovation, Unity, Integrity, and Law-abiding\" as the behavior standard. We promote the professional, elite, high-end and international development of China 4A; guide the Digital Marketing Committee to develop in the direction of specialization, standardization and function; leading the organization of entrepreneurs, experts and scholars in the advertising industry, and successively established the Content Marketing Committee, the Brand Development Strategy Committee, the We- Media Committee, the IP Ecology Commerce Committee, the SME Digital Promotion Committee, the Business Innovation Committee, the Creativity Industry Committee, the Commerce Design Force Committee, the Education & Training Committee, the Self- Discipline Committee, the Legal Working Committee, etc. We cooperate with international advertising organizations such as ADFEST, AWA, D&D, and have organized international visiting activities for the members. By holding various domestic professional forums and training to keep learning, CAAC has become a learning- oriented association initially."
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2021年12月21日，经选举产生中国商务广告协会第十一届理事会，以及由十五位负责人组成的新一届领导班子。新一届领导班子继续秉承一贯脚踏实地的工作宗旨，为中国广告业高质量发展和建设做贡献。The 11th Council of CAAC was elected on December 21, 2021. The new leadership will contribute to the high- quality; development and construction for China's advertising industry with the consistent down- to- earth work purpose.",
+          "bbox": {
+            "x1": 328,
+            "y1": 42,
+            "x2": 950,
+            "y2": 137
+          },
+          "bbox_list": [
+            328,
+            42,
+            950,
+            137
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 宗旨和任务 | The Mission",
+          "bbox": {
+            "x1": 331,
+            "y1": 159,
+            "x2": 510,
+            "y2": 175
+          },
+          "bbox_list": [
+            331,
+            159,
+            510,
+            175
+          ]
+        },
+        {
+          "block_id": "p5_b2",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "遵守国家的法律、法规、政策和社会公德，制定行业规范，加强行业自律；坚持走专业、精英和国际视野的路线，提高行业的整体文化修养和专业服务水平，树立广告行业良好的社会形象；搭建行业的学习、沟通、交流、互助的平台，推动中国广告行业的发展，促进并提高广告行业在国家发展战略中的地位和影响力；认真听取会员的意见和建议，代表和维护会员的正当权益。立足传承文化经典，缔造品牌价值，推动消费繁荣，传播善行公益。积极主办开展与组织国内和国际之间有关文化、品牌、广告、营销等理论与实践研究、交流与培训项目，展览与展示活动，推广新思想、新经验、新技术，倡导自主创新，完善行业自律。",
+          "bbox": {
+            "x1": 330,
+            "y1": 175,
+            "x2": 955,
+            "y2": 288
+          },
+          "bbox_list": [
+            330,
+            175,
+            955,
+            288
+          ]
+        },
+        {
+          "block_id": "p5_b3",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The mission given to CAAC is stated as: to abide by the law, regulations, policies and social morality, to define and standardize industry practice and to strengthen self- discipline, to stick on profession, elite and global vision in its positioning, to upgrade the level of cultural cultivation and expertise service of the entire field, to establish a good social image of the ad industry, to set up a platform of learning, communication and mutual assistance, to push forward the China advertising industry, to improve and lift up the position and influence of the ad industry in the national development strategies, to hear the members, to represent and protect the members' due rights and interests, to carry on cultural classics, to create brand value, to help increase consumption, to communicate commonweal and charity, to be active in organizing and hosting local and international activities on cultural, branding, advertising and marketing in various kinds such as theoretical and practical study, exchange and training programs, exhibitions and displays, to promote and share new ideas, experiences and new techniques, to advocate independent innovation and to optimize the self- discipline of the industry.",
+          "bbox": {
+            "x1": 330,
+            "y1": 289,
+            "x2": 958,
+            "y2": 540
+          },
+          "bbox_list": [
+            330,
+            289,
+            958,
+            540
+          ]
+        },
+        {
+          "block_id": "p5_b4",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 展望未来 | The Future",
+          "bbox": {
+            "x1": 337,
+            "y1": 560,
+            "x2": 490,
+            "y2": 576
+          },
+          "bbox_list": [
+            337,
+            560,
+            490,
+            576
+          ]
+        },
+        {
+          "block_id": "p5_b5",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "按照《行业协会商会与行政机构脱钩总体方案》的要求，中国商务广告协会将逐步成为依法设立、自主办会、服务为本、治理规范、行为自律的全国性社团组织。创新协会的管理体制和运行机制，激发内在活力和发展动力，提升行业服务功能，充分发挥协会在经济发展新常态中的独特优势和应用作用。",
+          "bbox": {
+            "x1": 337,
+            "y1": 577,
+            "x2": 956,
+            "y2": 631
+          },
+          "bbox_list": [
+            337,
+            577,
+            956,
+            631
+          ]
+        },
+        {
+          "block_id": "p5_b6",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To abide by \"The master plan for disconnecting the industry association and chamber of commerce from the administrative organ\", CAAC will gradually transform to a national association that is legally established, self- dependent, service driven, properly managed and self- disciplined. CAAC will bring in new practice in its management and operations, stimulate the inner vigor and motive to move forward, upgrade its service function for the industry and give full play to its unique strength and due function in the new state of the economy development.",
+          "bbox": {
+            "x1": 338,
+            "y1": 633,
+            "x2": 958,
+            "y2": 745
+          },
+          "bbox_list": [
+            338,
+            633,
+            958,
+            745
+          ]
+        },
+        {
+          "block_id": "p5_b7",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 组织机构 | The Organization",
+          "bbox": {
+            "x1": 340,
+            "y1": 768,
+            "x2": 540,
+            "y2": 784
+          },
+          "bbox_list": [
+            340,
+            768,
+            540,
+            784
+          ]
+        },
+        {
+          "block_id": "p5_b8",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 中国商务广告协会第十一届理事会 | The 11th Council of CAAC",
+          "bbox": {
+            "x1": 340,
+            "y1": 787,
+            "x2": 708,
+            "y2": 803
+          },
+          "bbox_list": [
+            340,
+            787,
+            708,
+            803
+          ]
+        },
+        {
+          "block_id": "p5_b9",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "会长：李西沙副会长（按姓氏笔画排序）：丁俊杰、马晓波、王启民、王建朝、刘阳、曲伟海、杜立、李黎、陈徐彬、郑晓东、涂雅芳、黄小川、曾铎副会长兼秘书长：王欣特聘副会长：宋秩铭、胡纪平、高峻、莫康孙President: Li Xisha",
+          "bbox": {
+            "x1": 340,
+            "y1": 808,
+            "x2": 919,
+            "y2": 917
+          },
+          "bbox_list": [
+            340,
+            808,
+            919,
+            917
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n2021年12月21日，经选举产生中国商务广告协会第十一届理事会，以及由十五位负责人组成的新一届领导班子。新一届领导班子继续秉承一贯脚踏实地的工作宗旨，为中国广告业高质量发展和建设做贡献。The 11th Council of CAAC was elected on December 21, 2021. The new leadership will contribute to the high- quality; development and construction for China's advertising industry with the consistent down- to- earth work purpose.  \n\n## 宗旨和任务 | The Mission  \n\n遵守国家的法律、法规、政策和社会公德，制定行业规范，加强行业自律；坚持走专业、精英和国际视野的路线，提高行业的整体文化修养和专业服务水平，树立广告行业良好的社会形象；搭建行业的学习、沟通、交流、互助的平台，推动中国广告行业的发展，促进并提高广告行业在国家发展战略中的地位和影响力；认真听取会员的意见和建议，代表和维护会员的正当权益。立足传承文化经典，缔造品牌价值，推动消费繁荣，传播善行公益。积极主办开展与组织国内和国际之间有关文化、品牌、广告、营销等理论与实践研究、交流与培训项目，展览与展示活动，推广新思想、新经验、新技术，倡导自主创新，完善行业自律。  \n\nThe mission given to CAAC is stated as: to abide by the law, regulations, policies and social morality, to define and standardize industry practice and to strengthen self- discipline, to stick on profession, elite and global vision in its positioning, to upgrade the level of cultural cultivation and expertise service of the entire field, to establish a good social image of the ad industry, to set up a platform of learning, communication and mutual assistance, to push forward the China advertising industry, to improve and lift up the position and influence of the ad industry in the national development strategies, to hear the members, to represent and protect the members' due rights and interests, to carry on cultural classics, to create brand value, to help increase consumption, to communicate commonweal and charity, to be active in organizing and hosting local and international activities on cultural, branding, advertising and marketing in various kinds such as theoretical and practical study, exchange and training programs, exhibitions and displays, to promote and share new ideas, experiences and new techniques, to advocate independent innovation and to optimize the self- discipline of the industry.  \n\n## 展望未来 | The Future  \n\n按照《行业协会商会与行政机构脱钩总体方案》的要求，中国商务广告协会将逐步成为依法设立、自主办会、服务为本、治理规范、行为自律的全国性社团组织。创新协会的管理体制和运行机制，激发内在活力和发展动力，提升行业服务功能，充分发挥协会在经济发展新常态中的独特优势和应用作用。  \n\nTo abide by \"The master plan for disconnecting the industry association and chamber of commerce from the administrative organ\", CAAC will gradually transform to a national association that is legally established, self- dependent, service driven, properly managed and self- disciplined. CAAC will bring in new practice in its management and operations, stimulate the inner vigor and motive to move forward, upgrade its service function for the industry and give full play to its unique strength and due function in the new state of the economy development.  \n\n## 组织机构 | The Organization  \n\n## 中国商务广告协会第十一届理事会 | The 11th Council of CAAC  \n\n会长：李西沙副会长（按姓氏笔画排序）：丁俊杰、马晓波、王启民、王建朝、刘阳、曲伟海、杜立、李黎、陈徐彬、郑晓东、涂雅芳、黄小川、曾铎副会长兼秘书长：王欣特聘副会长：宋秩铭、胡纪平、高峻、莫康孙President: Li Xisha"
+    },
+    {
+      "page_number": 6,
+      "text_blocks": [
+        {
+          "block_id": "p6_b0",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Vice President: Ding Junjie, Ma Xiaobo, Wang Qimin, Wang Jianchao, Liu Yang, Qu Weihai, Du Li, Li Li, Chen Xubin, Zheng Xiaodong, Tu Yafang, Huang Xiaochuan, Zeng Yi Vice President&Secretary- General: Wang Xin Distinguished Vice President: TB Song, Hu Jiping, Gao Jun, Tomaz Mok",
+          "bbox": {
+            "x1": 328,
+            "y1": 42,
+            "x2": 912,
+            "y2": 116
+          },
+          "bbox_list": [
+            328,
+            42,
+            912,
+            116
+          ]
+        },
+        {
+          "block_id": "p6_b1",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 二级分支机构|Subordinate Branches",
+          "bbox": {
+            "x1": 333,
+            "y1": 139,
+            "x2": 560,
+            "y2": 153
+          },
+          "bbox_list": [
+            333,
+            139,
+            560,
+            153
+          ]
+        },
+        {
+          "block_id": "p6_b2",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "·综合代理专业委员会(4A) The Association of Accredited Advertising Agencies of China (China 4A) ·数字营销专业委员会 Digital Marketing Committee ·内容营销专业委员会 Content Marketing Committee ·品牌发展战略工作委员会 Brand Development Strategy Committee ·IP生态商业工作委员会 IP Ecology Commerce Committee ·广告制作与展示专业委员会 Advertising Production & Display Committee ·设计力工作委员会 Commerce Design Force Committee ·中小企业数字化推进工作委员会 SME Digital Promotion Committee ·非遗及老字号传承推动工作委员会 Intangible Cultural Heritage and Time- honored Brand Promotion Committee ·智能大屏营销工作委员会 Smart TV Marketing Committee ·全媒体营销决策工作委员会 Omnimedia Strategy Committee ·汽车营销研究工作委员会 Automotive Marketing Research Committee ·电商及效果营销研究工作委员会 E- commerce and Effect Marketing Research Committee ·元宇宙营销应用研究工作委员会 Metaverse Marketing Application Research Committee ·创意产业推动工作委员会 Creativity Industry Committee ·教育培训工作委员会 Education &Training Committee ·自律工作委员会 Self- Discipline Committee ·法律工作委员会 Legal Working Committee ·《国际品牌观察》杂志社 Global Brand Insight Magazine ·IAI国际广告研究所 IAI International Advertising Institute ·BBI商务品牌战略研究所 BBI Business Brand Institute",
+          "bbox": {
+            "x1": 333,
+            "y1": 156,
+            "x2": 950,
+            "y2": 576
+          },
+          "bbox_list": [
+            333,
+            156,
+            950,
+            576
+          ]
+        },
+        {
+          "block_id": "p6_b3",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 友情链接：",
+          "bbox": {
+            "x1": 55,
+            "y1": 641,
+            "x2": 105,
+            "y2": 654
+          },
+          "bbox_list": [
+            55,
+            641,
+            105,
+            654
+          ]
+        },
+        {
+          "block_id": "p6_b4",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "中华人民共和国民政部|国务院新闻办公室|中国商务广告协会4A|",
+          "bbox": {
+            "x1": 55,
+            "y1": 662,
+            "x2": 377,
+            "y2": 677
+          },
+          "bbox_list": [
+            55,
+            662,
+            377,
+            677
+          ]
+        },
+        {
+          "block_id": "p6_b5",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Copyright \\(\\circledcirc\\) 2015中国商务广告协会版权所有",
+          "bbox": {
+            "x1": 582,
+            "y1": 635,
+            "x2": 812,
+            "y2": 648
+          },
+          "bbox_list": [
+            582,
+            635,
+            812,
+            648
+          ]
+        },
+        {
+          "block_id": "p6_b6",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "京公网安备11010502044988号京ICP备11015407号- 3",
+          "bbox": {
+            "x1": 584,
+            "y1": 658,
+            "x2": 880,
+            "y2": 672
+          },
+          "bbox_list": [
+            584,
+            658,
+            880,
+            672
+          ]
+        },
+        {
+          "block_id": "p6_b7",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "技术支持：博拉网络股份有限公司",
+          "bbox": {
+            "x1": 583,
+            "y1": 682,
+            "x2": 750,
+            "y2": 694
+          },
+          "bbox_list": [
+            583,
+            682,
+            750,
+            694
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nVice President: Ding Junjie, Ma Xiaobo, Wang Qimin, Wang Jianchao, Liu Yang, Qu Weihai, Du Li, Li Li, Chen Xubin, Zheng Xiaodong, Tu Yafang, Huang Xiaochuan, Zeng Yi  Vice President&Secretary- General: Wang Xin  Distinguished Vice President: TB Song, Hu Jiping, Gao Jun, Tomaz Mok  \n\n## 二级分支机构|Subordinate Branches  \n\n·综合代理专业委员会(4A) The Association of Accredited Advertising Agencies of China (China 4A) ·数字营销专业委员会 Digital Marketing Committee ·内容营销专业委员会 Content Marketing Committee ·品牌发展战略工作委员会 Brand Development Strategy Committee ·IP生态商业工作委员会 IP Ecology Commerce Committee ·广告制作与展示专业委员会 Advertising Production & Display Committee ·设计力工作委员会 Commerce Design Force Committee ·中小企业数字化推进工作委员会 SME Digital Promotion Committee ·非遗及老字号传承推动工作委员会 Intangible Cultural Heritage and Time- honored Brand Promotion Committee ·智能大屏营销工作委员会 Smart TV Marketing Committee ·全媒体营销决策工作委员会 Omnimedia Strategy Committee ·汽车营销研究工作委员会 Automotive Marketing Research Committee ·电商及效果营销研究工作委员会 E- commerce and Effect Marketing Research Committee ·元宇宙营销应用研究工作委员会 Metaverse Marketing Application Research Committee ·创意产业推动工作委员会 Creativity Industry Committee ·教育培训工作委员会 Education &Training Committee ·自律工作委员会 Self- Discipline Committee ·法律工作委员会 Legal Working Committee ·《国际品牌观察》杂志社 Global Brand Insight Magazine ·IAI国际广告研究所 IAI International Advertising Institute ·BBI商务品牌战略研究所 BBI Business Brand Institute  \n\n## 友情链接：  \n\n中华人民共和国民政部|国务院新闻办公室|中国商务广告协会4A|  \n\nCopyright \\(\\circledcirc\\) 2015中国商务广告协会版权所有  \n\n京公网安备11010502044988号京ICP备11015407号- 3  \n\n技术支持：博拉网络股份有限公司"
+    }
+  ],
+  "total_blocks": 45
+}

@@ -1,0 +1,441 @@
+{
+  "exhibit_id": "G12",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit G-12",
+          "bbox": {
+            "x1": 120,
+            "y1": 448,
+            "x2": 867,
+            "y2": 536
+          },
+          "bbox_list": [
+            120,
+            448,
+            867,
+            536
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit G-12"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "I am Liping Sun, a professor and doctoral supervisor of the Department of Sociology of Tsinghua University. I was honored by South Reviews as \"Person of Year in the Category of Public Interests\" in 2006. I am mainly engaged in the research, education and practice of social development, social structure change, oral social history and sociology of transformation. I have published more than ten books including Cleavage, Imbalance and Gaming which are called as \"social cleavage trilogy\" by the academic circle and have attracted intensive attention.",
+          "bbox": {
+            "x1": 115,
+            "y1": 214,
+            "x2": 860,
+            "y2": 373
+          },
+          "bbox_list": [
+            115,
+            214,
+            860,
+            373
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "It's my pleasure to act as a referrer for Professor Dehuan Liu. We are engaged in the research of similar fields, so I know him well. He has made outstanding academic achievements as well as high attainments in sociology of the internet and digital sociology. He is one of the best scholars in sociology research and one of the best experts in social science research methods in China.",
+          "bbox": {
+            "x1": 125,
+            "y1": 416,
+            "x2": 860,
+            "y2": 530
+          },
+          "bbox_list": [
+            125,
+            416,
+            860,
+            530
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Professor Dehuan Liu has shown a strong sense of problems and pioneering spirit in his research. He bases his research on the social structure of China and attaches high importance to the vulnerable groups. He is a deep- going practitioner in sociology research and has made far greater contributions than his colleagues to promoting social equity through application of sociology research, which is reflected from his sociological practice in basic education, public health and post- disaster reconstruction.",
+          "bbox": {
+            "x1": 128,
+            "y1": 573,
+            "x2": 863,
+            "y2": 710
+          },
+          "bbox_list": [
+            128,
+            573,
+            863,
+            710
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "With respect to basic education, Professor Dehuan Liu combined quantitative and qualitative research methods as early as more than 20 years ago. He successfully completed the social research covering more than 5,000 donors to Project Hope and issued the \"Research Report for Project Hope\" which fixed the fundamental paradigm of public welfare research in China. He epitomized sociological theories and pioneered the",
+          "bbox": {
+            "x1": 130,
+            "y1": 753,
+            "x2": 865,
+            "y2": 866
+          },
+          "bbox_list": [
+            130,
+            753,
+            865,
+            866
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nI am Liping Sun, a professor and doctoral supervisor of the Department of Sociology of Tsinghua University. I was honored by South Reviews as \"Person of Year in the Category of Public Interests\" in 2006. I am mainly engaged in the research, education and practice of social development, social structure change, oral social history and sociology of transformation. I have published more than ten books including Cleavage, Imbalance and Gaming which are called as \"social cleavage trilogy\" by the academic circle and have attracted intensive attention.  \n\nIt's my pleasure to act as a referrer for Professor Dehuan Liu. We are engaged in the research of similar fields, so I know him well. He has made outstanding academic achievements as well as high attainments in sociology of the internet and digital sociology. He is one of the best scholars in sociology research and one of the best experts in social science research methods in China.  \n\nProfessor Dehuan Liu has shown a strong sense of problems and pioneering spirit in his research. He bases his research on the social structure of China and attaches high importance to the vulnerable groups. He is a deep- going practitioner in sociology research and has made far greater contributions than his colleagues to promoting social equity through application of sociology research, which is reflected from his sociological practice in basic education, public health and post- disaster reconstruction.  \n\nWith respect to basic education, Professor Dehuan Liu combined quantitative and qualitative research methods as early as more than 20 years ago. He successfully completed the social research covering more than 5,000 donors to Project Hope and issued the \"Research Report for Project Hope\" which fixed the fundamental paradigm of public welfare research in China. He epitomized sociological theories and pioneered the"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "application of these theories to Chinese society. In 2015, Professor Dehuan Liu published an article titled \"Children Born in July and August: A Study on the Age Regulation of Primary School Admission and Student's Education Access and Development\" in Sociological Studies which attracted intensive attraction from the academic circle, society and government. The article put forward a theoretical model for \"July and August trap\" based on empirical study for the first time and triggered heated discussion on \"cut- off birthday for primary school admission\" in China. Professor Xie Yu from Princeton University and many other scholars were inspired by the article and further analyzed educational equality. Guided and promoted by Professor Dehuan Liu, the Ministry of Education printed and issued the Notice of the General Office of the Ministry of Education on Enrollment of Students for Compulsory Education in 2017 which clearly stated that \"the cut- off birthday for the first grade of primary school shall be specified in accordance with legal regulations and determined based on actual conditions by the provincial education and administration authorities\", completely changing the hard- and- fast rule for cut- off birthday and making a great contribution to promoting educational equality in China.",
+          "bbox": {
+            "x1": 128,
+            "y1": 145,
+            "x2": 864,
+            "y2": 513
+          },
+          "bbox_list": [
+            128,
+            145,
+            864,
+            513
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "With respect to public health, Professor Dehuan Liu took scholars and graduate students to a village in central China in 2007 which was overwhelmed by AIDS (there were more than 2,000 people in the village. 13 people had died of AIDS. 16 people had been attacked by HIV and more than 30 people were infected with HIV. AIDS was spreading rapidly, but the villagers were unaware of the risk). They conducted in- depth interviews with the villagers to understand their understanding of AIDS, preventative methods and preferences for the methods used to publicize information about and prevent AIDS. After returning to Beijing, Professor Dehuan Liu and his team developed a series of research reports on AIDS prevention in rural areas of China based on the results obtained from that village. The reports were submitted to the Ministry of Health based on which the relevant departments of the Ministry of Health improved the basic strategies and methods for AIDS prevention in rural areas of China. At the beginning of 2020, COVID- 2019 broke out in China, resulting in unsmooth transmission of public information and even misleading information. As one of the most famous social data",
+          "bbox": {
+            "x1": 135,
+            "y1": 553,
+            "x2": 870,
+            "y2": 872
+          },
+          "bbox_list": [
+            135,
+            553,
+            870,
+            872
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\napplication of these theories to Chinese society. In 2015, Professor Dehuan Liu published an article titled \"Children Born in July and August: A Study on the Age Regulation of Primary School Admission and Student's Education Access and Development\" in Sociological Studies which attracted intensive attraction from the academic circle, society and government. The article put forward a theoretical model for \"July and August trap\" based on empirical study for the first time and triggered heated discussion on \"cut- off birthday for primary school admission\" in China. Professor Xie Yu from Princeton University and many other scholars were inspired by the article and further analyzed educational equality. Guided and promoted by Professor Dehuan Liu, the Ministry of Education printed and issued the Notice of the General Office of the Ministry of Education on Enrollment of Students for Compulsory Education in 2017 which clearly stated that \"the cut- off birthday for the first grade of primary school shall be specified in accordance with legal regulations and determined based on actual conditions by the provincial education and administration authorities\", completely changing the hard- and- fast rule for cut- off birthday and making a great contribution to promoting educational equality in China.  \n\nWith respect to public health, Professor Dehuan Liu took scholars and graduate students to a village in central China in 2007 which was overwhelmed by AIDS (there were more than 2,000 people in the village. 13 people had died of AIDS. 16 people had been attacked by HIV and more than 30 people were infected with HIV. AIDS was spreading rapidly, but the villagers were unaware of the risk). They conducted in- depth interviews with the villagers to understand their understanding of AIDS, preventative methods and preferences for the methods used to publicize information about and prevent AIDS. After returning to Beijing, Professor Dehuan Liu and his team developed a series of research reports on AIDS prevention in rural areas of China based on the results obtained from that village. The reports were submitted to the Ministry of Health based on which the relevant departments of the Ministry of Health improved the basic strategies and methods for AIDS prevention in rural areas of China. At the beginning of 2020, COVID- 2019 broke out in China, resulting in unsmooth transmission of public information and even misleading information. As one of the most famous social data"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "statistics and analysis experts in China, Professor Dehuan Liu devoted himself to the transmission of public health information. He timely and professionally summarized epidemic information through statistical analysis of the case data in various places and provided suggestions for relevant authorities through various possible channels based on his research result. His suggestions included direct, professional and case- specific suggestions and important strategic concepts of overall significance. He made a great contribution to solving the living problems of the people in the lockdown areas. In particular, he appealed for supplies and medical assistance for the people in Ezhou, Suizhou and other second- tier cities and remote areas in Hubei Province which were ignored by the central government and mainstream media. Professor Dehuan Liu played a great role in promoting publication of information of COVID- 19.",
+          "bbox": {
+            "x1": 127,
+            "y1": 147,
+            "x2": 861,
+            "y2": 399
+          },
+          "bbox_list": [
+            127,
+            147,
+            861,
+            399
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "With respect to post- disaster interference, Professor Dehuan Liu led many scholars and students to carry out a research in Wenchun after the earthquake in 2010. In one month, they visited all the villages in Wenchuan and obtained first- hand reconstruction data. They developed a research report which systematically described and assessed the status of the affected people. I was particularly impressed by the persistency of his research which comprehensively evaluated the mental health, compensation for land expropriation and other issues having a long- term influence on the lives of the affected people. The research result was rapidly submitted to the relevant authority, enabling timely satisfaction of the urgent demands of the affected people. Professor Dehuan Liu has shown compassion and personal practice in both education and practical research. Most of his social researches were done in remote areas with harsh conditions, demonstrating his humanistic concern and humility as an intellectual.",
+          "bbox": {
+            "x1": 129,
+            "y1": 441,
+            "x2": 864,
+            "y2": 715
+          },
+          "bbox_list": [
+            129,
+            441,
+            864,
+            715
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Professor Dehuan Liu has also made outstanding contributions to international academic communication and exchange. When as a visiting scholar in Harvard University, Professor Dehuan Liu made great efforts to promote the mutual understanding and exchanges between academic scholars and other people in the countries and regions in East Asia. He participated in the hosting of Chinese Religion Seminar in Boston and SAN",
+          "bbox": {
+            "x1": 130,
+            "y1": 757,
+            "x2": 870,
+            "y2": 871
+          },
+          "bbox_list": [
+            130,
+            757,
+            870,
+            871
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nstatistics and analysis experts in China, Professor Dehuan Liu devoted himself to the transmission of public health information. He timely and professionally summarized epidemic information through statistical analysis of the case data in various places and provided suggestions for relevant authorities through various possible channels based on his research result. His suggestions included direct, professional and case- specific suggestions and important strategic concepts of overall significance. He made a great contribution to solving the living problems of the people in the lockdown areas. In particular, he appealed for supplies and medical assistance for the people in Ezhou, Suizhou and other second- tier cities and remote areas in Hubei Province which were ignored by the central government and mainstream media. Professor Dehuan Liu played a great role in promoting publication of information of COVID- 19.  \n\nWith respect to post- disaster interference, Professor Dehuan Liu led many scholars and students to carry out a research in Wenchun after the earthquake in 2010. In one month, they visited all the villages in Wenchuan and obtained first- hand reconstruction data. They developed a research report which systematically described and assessed the status of the affected people. I was particularly impressed by the persistency of his research which comprehensively evaluated the mental health, compensation for land expropriation and other issues having a long- term influence on the lives of the affected people. The research result was rapidly submitted to the relevant authority, enabling timely satisfaction of the urgent demands of the affected people. Professor Dehuan Liu has shown compassion and personal practice in both education and practical research. Most of his social researches were done in remote areas with harsh conditions, demonstrating his humanistic concern and humility as an intellectual.  \n\nProfessor Dehuan Liu has also made outstanding contributions to international academic communication and exchange. When as a visiting scholar in Harvard University, Professor Dehuan Liu made great efforts to promote the mutual understanding and exchanges between academic scholars and other people in the countries and regions in East Asia. He participated in the hosting of Chinese Religion Seminar in Boston and SAN"
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Jose in 2005. He delivered two speeches on \"the development of three religions in China\" (Christianity, Buddhism and Mohammedanism) based on the statistical data generated from his research. When in the US, Professor Dehuan Liu conducted profound communications and discussions with Professor Ezra F. Vogel (a research expert of China's problems and the former director of Fairbank Center for East Asian Research in Harvard University) and Professor Weiming Du (President of Harvard—Yenching Institute). In 2000, Professor Dehuan Liu initiated and held an academic seminar in Hong Kong to commemorate Qingkun Yang with well- known scholars in Hong Kong and Taiwan Province. In the same year, Professor Dehuan Liu published and read an article titled \"Ambiguous Social Basis of Sexual Harassment\" relying on his excellent independent thinking ability and critical spirit, which centered on a taboo topic in the social environment of China at that time and filled the gap in sexual harassment study in China. The article was of great significance to the protection of vulnerable groups. Professor Dehuan Liu can be said as a pioneer scholar in that field. In 2007 and 2015, Professor Dehuan Liu and his colleagues in Chinese market research went to Taipei twice to promote academic and industrial exchanges between Taiwan Province and China mainland with the scholars in Taiwan Province.",
+          "bbox": {
+            "x1": 125,
+            "y1": 148,
+            "x2": 861,
+            "y2": 536
+          },
+          "bbox_list": [
+            125,
+            148,
+            861,
+            536
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Professor Dehuan Liu is a cutting- edge sociological scholar and data analysis expert who is proficient in accurate application of the important methods for social and market research, communication research and quantitative and qualitative research. He has successfully identified, far ahead of his peers, the major social problems of China using professional academic methods and proposed solutions to improving the lives of the people many times through empirical study and based on facts. He is honest and dedicated to helping vulnerable groups and realizing social equity and is a famous scholar in China. He has a high academic sensitivity, a broad academic vision and very systematic research methods. Only few best scholars, whether abroad or at home, can realize the in- depth researches and the actual outstanding achievements realized by Professor Dehuan Liu. Professor Dehuan Liu has widely won praises and respect from his academic colleagues for his social science researches and humanistic care.",
+          "bbox": {
+            "x1": 128,
+            "y1": 580,
+            "x2": 863,
+            "y2": 851
+          },
+          "bbox_list": [
+            128,
+            580,
+            863,
+            851
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nJose in 2005. He delivered two speeches on \"the development of three religions in China\" (Christianity, Buddhism and Mohammedanism) based on the statistical data generated from his research. When in the US, Professor Dehuan Liu conducted profound communications and discussions with Professor Ezra F. Vogel (a research expert of China's problems and the former director of Fairbank Center for East Asian Research in Harvard University) and Professor Weiming Du (President of Harvard—Yenching Institute). In 2000, Professor Dehuan Liu initiated and held an academic seminar in Hong Kong to commemorate Qingkun Yang with well- known scholars in Hong Kong and Taiwan Province. In the same year, Professor Dehuan Liu published and read an article titled \"Ambiguous Social Basis of Sexual Harassment\" relying on his excellent independent thinking ability and critical spirit, which centered on a taboo topic in the social environment of China at that time and filled the gap in sexual harassment study in China. The article was of great significance to the protection of vulnerable groups. Professor Dehuan Liu can be said as a pioneer scholar in that field. In 2007 and 2015, Professor Dehuan Liu and his colleagues in Chinese market research went to Taipei twice to promote academic and industrial exchanges between Taiwan Province and China mainland with the scholars in Taiwan Province.  \n\nProfessor Dehuan Liu is a cutting- edge sociological scholar and data analysis expert who is proficient in accurate application of the important methods for social and market research, communication research and quantitative and qualitative research. He has successfully identified, far ahead of his peers, the major social problems of China using professional academic methods and proposed solutions to improving the lives of the people many times through empirical study and based on facts. He is honest and dedicated to helping vulnerable groups and realizing social equity and is a famous scholar in China. He has a high academic sensitivity, a broad academic vision and very systematic research methods. Only few best scholars, whether abroad or at home, can realize the in- depth researches and the actual outstanding achievements realized by Professor Dehuan Liu. Professor Dehuan Liu has widely won praises and respect from his academic colleagues for his social science researches and humanistic care."
+    },
+    {
+      "page_number": 6,
+      "text_blocks": [
+        {
+          "block_id": "p6_b0",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 125,
+            "y1": 43,
+            "x2": 198,
+            "y2": 56
+          },
+          "bbox_list": [
+            125,
+            43,
+            198,
+            56
+          ]
+        },
+        {
+          "block_id": "p6_b1",
+          "page_number": 6,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# TSINGHUA UNIVERSITY",
+          "bbox": {
+            "x1": 264,
+            "y1": 70,
+            "x2": 648,
+            "y2": 98
+          },
+          "bbox_list": [
+            264,
+            70,
+            648,
+            98
+          ]
+        },
+        {
+          "block_id": "p6_b2",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "P.C.: Beijing 100084 Q. R. China",
+          "bbox": {
+            "x1": 666,
+            "y1": 68,
+            "x2": 812,
+            "y2": 105
+          },
+          "bbox_list": [
+            666,
+            68,
+            812,
+            105
+          ]
+        },
+        {
+          "block_id": "p6_b3",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "I am honored to act as a referrer for Professor Dehuan Liu. I sincerely wish Professor Dehuan Liu to acquire more achievements in the future.",
+          "bbox": {
+            "x1": 125,
+            "y1": 184,
+            "x2": 857,
+            "y2": 227
+          },
+          "bbox_list": [
+            125,
+            184,
+            857,
+            227
+          ]
+        },
+        {
+          "block_id": "p6_b4",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Liping Sun [Signature]",
+          "bbox": {
+            "x1": 666,
+            "y1": 338,
+            "x2": 857,
+            "y2": 358
+          },
+          "bbox_list": [
+            666,
+            338,
+            857,
+            358
+          ]
+        },
+        {
+          "block_id": "p6_b5",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Liping Sun",
+          "bbox": {
+            "x1": 761,
+            "y1": 372,
+            "x2": 857,
+            "y2": 391
+          },
+          "bbox_list": [
+            761,
+            372,
+            857,
+            391
+          ]
+        },
+        {
+          "block_id": "p6_b6",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Address: Xiongzhixing Hall, Tsinghua University, Haidian District, Beijing",
+          "bbox": {
+            "x1": 240,
+            "y1": 404,
+            "x2": 857,
+            "y2": 426
+          },
+          "bbox_list": [
+            240,
+            404,
+            857,
+            426
+          ]
+        },
+        {
+          "block_id": "p6_b7",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Mobile: 0086- 13651157024",
+          "bbox": {
+            "x1": 625,
+            "y1": 440,
+            "x2": 857,
+            "y2": 458
+          },
+          "bbox_list": [
+            625,
+            440,
+            857,
+            458
+          ]
+        },
+        {
+          "block_id": "p6_b8",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "December 3, 2022",
+          "bbox": {
+            "x1": 703,
+            "y1": 472,
+            "x2": 857,
+            "y2": 490
+          },
+          "bbox_list": [
+            703,
+            472,
+            857,
+            490
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\n# TSINGHUA UNIVERSITY  \n\nP.C.: Beijing 100084  Q. R. China  \n\nI am honored to act as a referrer for Professor Dehuan Liu. I sincerely wish Professor Dehuan Liu to acquire more achievements in the future.  \n\nLiping Sun [Signature]  \n\nLiping Sun  \n\nAddress: Xiongzhixing Hall, Tsinghua University, Haidian District, Beijing  \n\nMobile: 0086- 13651157024  \n\nDecember 3, 2022"
+    }
+  ],
+  "total_blocks": 21
+}

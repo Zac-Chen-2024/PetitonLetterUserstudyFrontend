@@ -1,0 +1,422 @@
+{
+  "exhibit_id": "B12",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit B-12",
+          "bbox": {
+            "x1": 128,
+            "y1": 448,
+            "x2": 860,
+            "y2": 533
+          },
+          "bbox_list": [
+            128,
+            448,
+            860,
+            533
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit B-12"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## The \\(11^{\\mathrm{th}}\\) China Communication Conference Was Held in Beijing",
+          "bbox": {
+            "x1": 213,
+            "y1": 77,
+            "x2": 768,
+            "y2": 98
+          },
+          "bbox_list": [
+            213,
+            77,
+            768,
+            98
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Author: Secretariat of the Communication Association of China, Published on: September 30, 2010, 12:16:00 Source:",
+          "bbox": {
+            "x1": 95,
+            "y1": 121,
+            "x2": 888,
+            "y2": 161
+          },
+          "bbox_list": [
+            95,
+            121,
+            888,
+            161
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "From July 9th to 10th, 2010, the 11th China Communication Conference, co- organized by the Communication Association of China, the School of Journalism and Communication of Peking University, and the Institute of Journalism and Communication of the Chinese Academy of Social Sciences, was grandly held at Peking University. More than 260 communication scholars from China and abroad gathered in Yan Garden to discuss the impact and challenges of globalization and networking on society and culture under the theme of \"New Media, Multiculturalism, Global Communication: Challenges and Adaptations.\" Peking University President and Academician of the Chinese Academy of Sciences, Professor Zhou, Qifeng, Executive Vice President of the Chinese Academy of Social Sciences, Researcher Wang, Weiguang, Honorary Chairman of the All- China Journalists Association and Dean of the School of Journalism and Communication of Peking University, Shao, Huaze, and others attended the opening ceremony.",
+          "bbox": {
+            "x1": 97,
+            "y1": 174,
+            "x2": 890,
+            "y2": 373
+          },
+          "bbox_list": [
+            97,
+            174,
+            890,
+            373
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Peking University President Zhou, Qifeng delivered a warm welcome address. President Zhou, Qifeng said that since the beginning of the new century, in the accelerating process of globalization, mankind is facing unprecedented changes and challenges in various fields such as politics, economy, society, culture, and ecological environment, and rapidly developing information and communication technologies play a crucial role in each field. This conference, themed \"New Media, Multiculturalism, Global Communication: Challenges and Adaptations,\" is both in line with the characteristics of the current era and forward- looking, and will play an important role in promoting the development of communication studies in China and exploring solutions to practical problems in the field of information and communication. With the support of the China Communication Association and communication scholars nationwide, holding this event at Peking University, the birthplace of journalism education, is of great significance for further promoting the teaching and research of communication studies in China.",
+          "bbox": {
+            "x1": 100,
+            "y1": 385,
+            "x2": 891,
+            "y2": 600
+          },
+          "bbox_list": [
+            100,
+            385,
+            891,
+            600
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Wang, Weiguang, Executive Vice President of the Chinese Academy of Social Sciences, congratulated the 11th China Communication Conference on behalf of the Chinese Academy of Social Sciences and was invited to address the conference. He said in his speech that the influence of media on international politics, economy, society, culture, and other fields is becoming stronger, and its impact on people's thoughts, work, and lives is deepening. It is of great significance for Chinese communication scholars to discuss the development trends of today's world media with international scholars, to understand and grasp the new situation of globalization and networking, to fully demonstrate Chinese scholars' understanding and observations of domestic and international communication studies, and to promote the continuous development of communication studies in China.",
+          "bbox": {
+            "x1": 102,
+            "y1": 613,
+            "x2": 894,
+            "y2": 794
+          },
+          "bbox_list": [
+            102,
+            613,
+            894,
+            794
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In his speech, Wang, Weiguang emphasized the necessity for media and scholars to establish and uphold a strong sense of social responsibility. He specifically pointed out that communication researchers should take their social responsibility seriously, promote the truthful, accurate, comprehensive, and objective dissemination of news and information, which is the lifeblood of our academic work. We should also study the laws of communication, continuously",
+          "bbox": {
+            "x1": 105,
+            "y1": 806,
+            "x2": 895,
+            "y2": 899
+          },
+          "bbox_list": [
+            105,
+            806,
+            895,
+            899
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## The \\(11^{\\mathrm{th}}\\) China Communication Conference Was Held in Beijing  \n\nAuthor: Secretariat of the Communication Association of China, Published on: September 30, 2010, 12:16:00 Source:  \n\nFrom July 9th to 10th, 2010, the 11th China Communication Conference, co- organized by the Communication Association of China, the School of Journalism and Communication of Peking University, and the Institute of Journalism and Communication of the Chinese Academy of Social Sciences, was grandly held at Peking University. More than 260 communication scholars from China and abroad gathered in Yan Garden to discuss the impact and challenges of globalization and networking on society and culture under the theme of \"New Media, Multiculturalism, Global Communication: Challenges and Adaptations.\" Peking University President and Academician of the Chinese Academy of Sciences, Professor Zhou, Qifeng, Executive Vice President of the Chinese Academy of Social Sciences, Researcher Wang, Weiguang, Honorary Chairman of the All- China Journalists Association and Dean of the School of Journalism and Communication of Peking University, Shao, Huaze, and others attended the opening ceremony.  \n\nPeking University President Zhou, Qifeng delivered a warm welcome address. President Zhou, Qifeng said that since the beginning of the new century, in the accelerating process of globalization, mankind is facing unprecedented changes and challenges in various fields such as politics, economy, society, culture, and ecological environment, and rapidly developing information and communication technologies play a crucial role in each field. This conference, themed \"New Media, Multiculturalism, Global Communication: Challenges and Adaptations,\" is both in line with the characteristics of the current era and forward- looking, and will play an important role in promoting the development of communication studies in China and exploring solutions to practical problems in the field of information and communication. With the support of the China Communication Association and communication scholars nationwide, holding this event at Peking University, the birthplace of journalism education, is of great significance for further promoting the teaching and research of communication studies in China.  \n\nWang, Weiguang, Executive Vice President of the Chinese Academy of Social Sciences, congratulated the 11th China Communication Conference on behalf of the Chinese Academy of Social Sciences and was invited to address the conference. He said in his speech that the influence of media on international politics, economy, society, culture, and other fields is becoming stronger, and its impact on people's thoughts, work, and lives is deepening. It is of great significance for Chinese communication scholars to discuss the development trends of today's world media with international scholars, to understand and grasp the new situation of globalization and networking, to fully demonstrate Chinese scholars' understanding and observations of domestic and international communication studies, and to promote the continuous development of communication studies in China.  \n\nIn his speech, Wang, Weiguang emphasized the necessity for media and scholars to establish and uphold a strong sense of social responsibility. He specifically pointed out that communication researchers should take their social responsibility seriously, promote the truthful, accurate, comprehensive, and objective dissemination of news and information, which is the lifeblood of our academic work. We should also study the laws of communication, continuously"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "improve the credibility and influence of the media, adhere to the socialist direction, take the national interest and the overall interests of the nation as fundamental principles, promote social development, civilization communication, and the construction of a harmonious society, provide intellectual support for effective communication and sustainable development, and create a favorable and lively public opinion atmosphere.",
+          "bbox": {
+            "x1": 95,
+            "y1": 75,
+            "x2": 886,
+            "y2": 168
+          },
+          "bbox_list": [
+            95,
+            75,
+            886,
+            168
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Wang, Weiguang also stressed that China's development model is attracting worldwide attention, but the \"strong West, weak me\" communication situation in the international public opinion arena has not fundamentally changed. In response, we should both promote broader and deeper dialogues and understanding between China and the world's diverse cultures and strengthen communication and academic exchanges with domestic and overseas media. We also need the correct interpretation, legitimate construction, and just dissemination from overseas media, the public, and scholars. At the same time, we should study and summarize our achievements and experiences profoundly, explain and communicate China's development path and model scientifically and correctly to the world, and strive for news discourse power and communication dominance.",
+          "bbox": {
+            "x1": 97,
+            "y1": 181,
+            "x2": 888,
+            "y2": 362
+          },
+          "bbox_list": [
+            97,
+            181,
+            888,
+            362
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Communication studies have been introduced to China for more than 30 years along with the reform and opening- up policy. As a cutting- edge discipline with strong applicability, it is showing a vigorous development. Emphasizing the Chinese character that embodies national and contemporary spirit and fostering a global perspective based on the local context has always been the pursuit of Chinese communication scholars and the historical mission entrusted to them by academia. Wang Weiguang hopes that Chinese scholars who stand at a new starting point for building a harmonious society and world will actively promote the birth of communication studies with Chinese characteristics, style, and charm.",
+          "bbox": {
+            "x1": 100,
+            "y1": 373,
+            "x2": 891,
+            "y2": 520
+          },
+          "bbox_list": [
+            100,
+            373,
+            891,
+            520
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The conference was attended by Yin, Yungong, Director of the Institute of Journalism and Communication of the Chinese Academy of Social Sciences and President of the China Communication Association, Zhuang, Qiansheng, Party Secretary of the Institute of Journalism and Communication of the Chinese Academy of Social Sciences, and Professor Xu Hong, Executive Dean of the School of Journalism and Communication of Peking University. In his opening remarks, Researcher Yin, Yungong said that the current information and communication technology revolution is developing rapidly, with emerging media represented by the internet and mobile phones riding the wind and growing strong. The information and communication technology revolution has profoundly affected and changed people's ways of thinking, working, living, and behaving, and it will continue to have an even more profound impact on them. We are seriously concerned that the rise of emerging media not only poses unprecedented severe challenges to the existence of traditional media but also presents unprecedented challenges to traditional journalism and communication studies.",
+          "bbox": {
+            "x1": 102,
+            "y1": 532,
+            "x2": 895,
+            "y2": 765
+          },
+          "bbox_list": [
+            102,
+            532,
+            895,
+            765
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Researcher Yin Yungong believes that the foundation of communication studies has undergone significant changes, and the new situations and problems brought about by the development of the internet require new summaries and interpretations. How to apply communication theory to answer today's online world is the biggest issue we face today, as well as the greatest academic opportunity we should seize. China has the largest number of internet users and mobile phone users in the world, with a wealth of social practices already formed and",
+          "bbox": {
+            "x1": 106,
+            "y1": 777,
+            "x2": 898,
+            "y2": 888
+          },
+          "bbox_list": [
+            106,
+            777,
+            898,
+            888
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nimprove the credibility and influence of the media, adhere to the socialist direction, take the national interest and the overall interests of the nation as fundamental principles, promote social development, civilization communication, and the construction of a harmonious society, provide intellectual support for effective communication and sustainable development, and create a favorable and lively public opinion atmosphere.  \n\nWang, Weiguang also stressed that China's development model is attracting worldwide attention, but the \"strong West, weak me\" communication situation in the international public opinion arena has not fundamentally changed. In response, we should both promote broader and deeper dialogues and understanding between China and the world's diverse cultures and strengthen communication and academic exchanges with domestic and overseas media. We also need the correct interpretation, legitimate construction, and just dissemination from overseas media, the public, and scholars. At the same time, we should study and summarize our achievements and experiences profoundly, explain and communicate China's development path and model scientifically and correctly to the world, and strive for news discourse power and communication dominance.  \n\nCommunication studies have been introduced to China for more than 30 years along with the reform and opening- up policy. As a cutting- edge discipline with strong applicability, it is showing a vigorous development. Emphasizing the Chinese character that embodies national and contemporary spirit and fostering a global perspective based on the local context has always been the pursuit of Chinese communication scholars and the historical mission entrusted to them by academia. Wang Weiguang hopes that Chinese scholars who stand at a new starting point for building a harmonious society and world will actively promote the birth of communication studies with Chinese characteristics, style, and charm.  \n\nThe conference was attended by Yin, Yungong, Director of the Institute of Journalism and Communication of the Chinese Academy of Social Sciences and President of the China Communication Association, Zhuang, Qiansheng, Party Secretary of the Institute of Journalism and Communication of the Chinese Academy of Social Sciences, and Professor Xu Hong, Executive Dean of the School of Journalism and Communication of Peking University. In his opening remarks, Researcher Yin, Yungong said that the current information and communication technology revolution is developing rapidly, with emerging media represented by the internet and mobile phones riding the wind and growing strong. The information and communication technology revolution has profoundly affected and changed people's ways of thinking, working, living, and behaving, and it will continue to have an even more profound impact on them. We are seriously concerned that the rise of emerging media not only poses unprecedented severe challenges to the existence of traditional media but also presents unprecedented challenges to traditional journalism and communication studies.  \n\nResearcher Yin Yungong believes that the foundation of communication studies has undergone significant changes, and the new situations and problems brought about by the development of the internet require new summaries and interpretations. How to apply communication theory to answer today's online world is the biggest issue we face today, as well as the greatest academic opportunity we should seize. China has the largest number of internet users and mobile phone users in the world, with a wealth of social practices already formed and"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "waiting for us to create new theories, refine new ideas, showcase new realms, and make new interpretations. Any foreign theory and idea can only thrive in the soil of China's national conditions if it addresses the issues of localization and popularization. Communication studies are no exception. Many Chinese communication scholars have long realized that although we have successfully introduced communication theories, we have been mostly limited to introducing and explaining them for many years, which is far from meeting the requirements of localization and even farther from the requirements of sinicization. However, he believes that perhaps we are now catching a great opportunity to change this situation: first, China's national strength has reached a new historical starting point, and the significant improvement of national comprehensive strength has greatly enhanced our national confidence and self- esteem. The amazing creativity of material wealth will inevitably promote the formation and maturity of spiritual wealth creativity, which in turn will be conducive to the construction and development of sinicized, localized, and popularized communication studies; second, the all- round integration of traditional and emerging media is in full swing, with new facts and cases bringing new observations and entry points, thereby expanding the research field of communication studies and providing a good premise and conditions for the self- transcendence of communication theory. The external environment for the development of communication studies is currently at the best historical period. As for the internal environment, the most important thing is for us communication scholars to practice our internal skills, further strengthen our academic cultivation, improve our research capabilities, cultivate innovative consciousness, and contribute our wisdom and strength to enrich and develop communication theories with the characteristics of socialism with Chinese characteristics.",
+          "bbox": {
+            "x1": 95,
+            "y1": 75,
+            "x2": 888,
+            "y2": 450
+          },
+          "bbox_list": [
+            95,
+            75,
+            888,
+            450
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "By the Weiming Lake, summer lotus brings coolness; a gathering of talents, discussing communication extensively. The scale and the number of participants in this conference have exceeded previous ones, with more than 260 Chinese and English papers submitted. Scholars and communication research students from countries such as the United States, the United Kingdom, France, Italy, Canada, Switzerland, Sweden, Japan, South Korea, India, the United Arab Emirates, as well as Hong Kong and Taiwan regions have attended. At the invitation of the conference, renowned American new media expert Professor S. Shyam Sundar, famous cross- cultural communication scholar Professor Milton J. Bennett, and Professor Lucia Montefusco, a rhetoric professor from the Department of Classics at the University of Bologna and current president of the International Society for the History of Rhetoric, attended the conference and delivered keynote speeches.",
+          "bbox": {
+            "x1": 101,
+            "y1": 461,
+            "x2": 896,
+            "y2": 660
+          },
+          "bbox_list": [
+            101,
+            461,
+            896,
+            660
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "This two- day conference on communication studies, in an open and inclusive intellectual space, featured rich and thought- provoking viewpoints, novel and diverse perspectives, adding a warm and strong academic atmosphere to the Peking University Yan Garden during the summer. Chinese scholars such as Dai, Yuanguang, Liu, Dehuan, Sun, Yingchun, and Xie, Xinzhou also delivered conference speeches on topics such as international communication, cross- cultural communication, new media research, and communication research methods. Communication scholars and research students from home and abroad participated in the conference's keynote speeches and parallel sessions, discussing topics such as \"New Media and Social Development,\" \"Cross- Cultural Communication Theory and Application,\" \"International Communication in Contemporary Chinese Context,\" \"Communication Ethics and Media's Social Responsibility,\" \"New Perspectives and Applications of Communication Research Methods,\" \"Traditional Media Innovation and Social Development,\" \"Rhetoric Communication Research,\" \"Science",
+          "bbox": {
+            "x1": 105,
+            "y1": 671,
+            "x2": 900,
+            "y2": 886
+          },
+          "bbox_list": [
+            105,
+            671,
+            900,
+            886
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nwaiting for us to create new theories, refine new ideas, showcase new realms, and make new interpretations. Any foreign theory and idea can only thrive in the soil of China's national conditions if it addresses the issues of localization and popularization. Communication studies are no exception. Many Chinese communication scholars have long realized that although we have successfully introduced communication theories, we have been mostly limited to introducing and explaining them for many years, which is far from meeting the requirements of localization and even farther from the requirements of sinicization. However, he believes that perhaps we are now catching a great opportunity to change this situation: first, China's national strength has reached a new historical starting point, and the significant improvement of national comprehensive strength has greatly enhanced our national confidence and self- esteem. The amazing creativity of material wealth will inevitably promote the formation and maturity of spiritual wealth creativity, which in turn will be conducive to the construction and development of sinicized, localized, and popularized communication studies; second, the all- round integration of traditional and emerging media is in full swing, with new facts and cases bringing new observations and entry points, thereby expanding the research field of communication studies and providing a good premise and conditions for the self- transcendence of communication theory. The external environment for the development of communication studies is currently at the best historical period. As for the internal environment, the most important thing is for us communication scholars to practice our internal skills, further strengthen our academic cultivation, improve our research capabilities, cultivate innovative consciousness, and contribute our wisdom and strength to enrich and develop communication theories with the characteristics of socialism with Chinese characteristics.  \n\nBy the Weiming Lake, summer lotus brings coolness; a gathering of talents, discussing communication extensively. The scale and the number of participants in this conference have exceeded previous ones, with more than 260 Chinese and English papers submitted. Scholars and communication research students from countries such as the United States, the United Kingdom, France, Italy, Canada, Switzerland, Sweden, Japan, South Korea, India, the United Arab Emirates, as well as Hong Kong and Taiwan regions have attended. At the invitation of the conference, renowned American new media expert Professor S. Shyam Sundar, famous cross- cultural communication scholar Professor Milton J. Bennett, and Professor Lucia Montefusco, a rhetoric professor from the Department of Classics at the University of Bologna and current president of the International Society for the History of Rhetoric, attended the conference and delivered keynote speeches.  \n\nThis two- day conference on communication studies, in an open and inclusive intellectual space, featured rich and thought- provoking viewpoints, novel and diverse perspectives, adding a warm and strong academic atmosphere to the Peking University Yan Garden during the summer. Chinese scholars such as Dai, Yuanguang, Liu, Dehuan, Sun, Yingchun, and Xie, Xinzhou also delivered conference speeches on topics such as international communication, cross- cultural communication, new media research, and communication research methods. Communication scholars and research students from home and abroad participated in the conference's keynote speeches and parallel sessions, discussing topics such as \"New Media and Social Development,\" \"Cross- Cultural Communication Theory and Application,\" \"International Communication in Contemporary Chinese Context,\" \"Communication Ethics and Media's Social Responsibility,\" \"New Perspectives and Applications of Communication Research Methods,\" \"Traditional Media Innovation and Social Development,\" \"Rhetoric Communication Research,\" \"Science"
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Communication,\" \"Current Status and Prospects of China and World Communication Industry,\" and \"Development, Innovation, and Transformation of Contemporary Advertising Industry.\" They engaged in in- depth reflections and discussions on China's and global issues between the localization of communication research and urgent social realities, striving to find coping strategies for crises and challenges facing humanity from a communication perspective and promoting harmony, sustainable development, and common prosperity in the international community.",
+          "bbox": {
+            "x1": 93,
+            "y1": 76,
+            "x2": 884,
+            "y2": 189
+          },
+          "bbox_list": [
+            93,
+            76,
+            884,
+            189
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The conference organizing committee also organized expert scholars to anonymously evaluate and select 23 excellent academic papers from the more than 200 papers submitted by scholars and students from home and abroad. The award ceremony was held at the closing ceremony.",
+          "bbox": {
+            "x1": 93,
+            "y1": 201,
+            "x2": 886,
+            "y2": 275
+          },
+          "bbox_list": [
+            93,
+            201,
+            886,
+            275
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nCommunication,\" \"Current Status and Prospects of China and World Communication Industry,\" and \"Development, Innovation, and Transformation of Contemporary Advertising Industry.\" They engaged in in- depth reflections and discussions on China's and global issues between the localization of communication research and urgent social realities, striving to find coping strategies for crises and challenges facing humanity from a communication perspective and promoting harmony, sustainable development, and common prosperity in the international community.  \n\nThe conference organizing committee also organized expert scholars to anonymously evaluate and select 23 excellent academic papers from the more than 200 papers submitted by scholars and students from home and abroad. The award ceremony was held at the closing ceremony."
+    },
+    {
+      "page_number": 6,
+      "text_blocks": [
+        {
+          "block_id": "p6_b0",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## About Us",
+          "bbox": {
+            "x1": 442,
+            "y1": 78,
+            "x2": 541,
+            "y2": 98
+          },
+          "bbox_list": [
+            442,
+            78,
+            541,
+            98
+          ]
+        },
+        {
+          "block_id": "p6_b1",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The MediaResearch.cn is a professional academic website hosted by the Institute of Journalism and Communication of the Chinese Academy of Social Sciences. The purpose of this website is to exchange communication information, observe communication media, analyze communication phenomena, and discuss communication academics.",
+          "bbox": {
+            "x1": 95,
+            "y1": 137,
+            "x2": 877,
+            "y2": 216
+          },
+          "bbox_list": [
+            95,
+            137,
+            877,
+            216
+          ]
+        },
+        {
+          "block_id": "p6_b2",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "This website comprehensively reflects the research dynamics of our institute and showcases the academic achievements of our researchers. At the same time, this website is also an open academic exchange platform and academic dialogue space. We welcome scholars from both domestic and overseas to publish their research results or related articles or set up personal academic columns here. We also welcome national media (newspapers, radio, television, and the internet) and journalism and communication research and teaching institutions to post information on this site. In addition, we welcome journalism and communication academic websites and media organization websites to establish friendly links here.",
+          "bbox": {
+            "x1": 97,
+            "y1": 252,
+            "x2": 886,
+            "y2": 408
+          },
+          "bbox_list": [
+            97,
+            252,
+            886,
+            408
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## About Us  \n\nThe MediaResearch.cn is a professional academic website hosted by the Institute of Journalism and Communication of the Chinese Academy of Social Sciences. The purpose of this website is to exchange communication information, observe communication media, analyze communication phenomena, and discuss communication academics.  \n\nThis website comprehensively reflects the research dynamics of our institute and showcases the academic achievements of our researchers. At the same time, this website is also an open academic exchange platform and academic dialogue space. We welcome scholars from both domestic and overseas to publish their research results or related articles or set up personal academic columns here. We also welcome national media (newspapers, radio, television, and the internet) and journalism and communication research and teaching institutions to post information on this site. In addition, we welcome journalism and communication academic websites and media organization websites to establish friendly links here."
+    }
+  ],
+  "total_blocks": 20
+}

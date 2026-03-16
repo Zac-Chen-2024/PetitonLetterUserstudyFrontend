@@ -1,0 +1,113 @@
+{
+  "exhibit_id": "B1",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit B-1",
+          "bbox": {
+            "x1": 120,
+            "y1": 451,
+            "x2": 866,
+            "y2": 550
+          },
+          "bbox_list": [
+            120,
+            451,
+            866,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit B-1"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 144,
+            "y1": 80,
+            "x2": 231,
+            "y2": 95
+          },
+          "bbox_list": [
+            144,
+            80,
+            231,
+            95
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "DATA AWARDS -2019-",
+          "bbox": {
+            "x1": 421,
+            "y1": 306,
+            "x2": 577,
+            "y2": 391
+          },
+          "bbox_list": [
+            421,
+            306,
+            577,
+            391
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Liu, Dehuan Peking University",
+          "bbox": {
+            "x1": 409,
+            "y1": 633,
+            "x2": 588,
+            "y2": 675
+          },
+          "bbox_list": [
+            409,
+            633,
+            588,
+            675
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Data Awards Data Legacy of the Year Award",
+          "bbox": {
+            "x1": 339,
+            "y1": 733,
+            "x2": 658,
+            "y2": 776
+          },
+          "bbox_list": [
+            339,
+            733,
+            658,
+            776
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nDATA AWARDS -2019-  \n\nLiu, Dehuan Peking University  \n\nData Awards Data Legacy of the Year Award"
+    }
+  ],
+  "total_blocks": 5
+}

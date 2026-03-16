@@ -1,0 +1,2313 @@
+{
+  "exhibit_id": "F3",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Exhibit F-3",
+          "bbox": {
+            "x1": 163,
+            "y1": 450,
+            "x2": 821,
+            "y2": 536
+          },
+          "bbox_list": [
+            163,
+            450,
+            821,
+            536
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit F-3"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# iQIYI Sinan Project Service Training Agreement",
+          "bbox": {
+            "x1": 218,
+            "y1": 115,
+            "x2": 767,
+            "y2": 141
+          },
+          "bbox_list": [
+            218,
+            115,
+            767,
+            141
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Party A: Beijing iQIYI Science & Technology Co., Ltd.",
+          "bbox": {
+            "x1": 193,
+            "y1": 190,
+            "x2": 633,
+            "y2": 210
+          },
+          "bbox_list": [
+            193,
+            190,
+            633,
+            210
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Contact: Yang Liu",
+          "bbox": {
+            "x1": 194,
+            "y1": 256,
+            "x2": 342,
+            "y2": 274
+          },
+          "bbox_list": [
+            194,
+            256,
+            342,
+            274
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Tel.: 18948788031",
+          "bbox": {
+            "x1": 194,
+            "y1": 320,
+            "x2": 344,
+            "y2": 338
+          },
+          "bbox_list": [
+            194,
+            320,
+            344,
+            338
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Address: 21 Gongren Tiyuchang North Road, Wynn International, iQIYI Youth Center, Floor 3, Chaoyang District, Beijing",
+          "bbox": {
+            "x1": 116,
+            "y1": 382,
+            "x2": 883,
+            "y2": 426
+          },
+          "bbox_list": [
+            116,
+            382,
+            883,
+            426
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Email: liuyang19@qiyi.com",
+          "bbox": {
+            "x1": 194,
+            "y1": 470,
+            "x2": 421,
+            "y2": 490
+          },
+          "bbox_list": [
+            194,
+            470,
+            421,
+            490
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Party B: Dehuan Liu",
+          "bbox": {
+            "x1": 193,
+            "y1": 567,
+            "x2": 370,
+            "y2": 586
+          },
+          "bbox_list": [
+            193,
+            567,
+            370,
+            586
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Tel.: 13501057548",
+          "bbox": {
+            "x1": 195,
+            "y1": 631,
+            "x2": 348,
+            "y2": 650
+          },
+          "bbox_list": [
+            195,
+            631,
+            348,
+            650
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Address: School of Journalism & Communication, Peking University",
+          "bbox": {
+            "x1": 193,
+            "y1": 695,
+            "x2": 742,
+            "y2": 715
+          },
+          "bbox_list": [
+            193,
+            695,
+            742,
+            715
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ID card No.: 110108196603291919",
+          "bbox": {
+            "x1": 195,
+            "y1": 760,
+            "x2": 480,
+            "y2": 778
+          },
+          "bbox_list": [
+            195,
+            760,
+            480,
+            778
+          ]
+        },
+        {
+          "block_id": "p2_b10",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Email: liudehuan@vip.sina.com",
+          "bbox": {
+            "x1": 196,
+            "y1": 824,
+            "x2": 454,
+            "y2": 842
+          },
+          "bbox_list": [
+            196,
+            824,
+            454,
+            842
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# iQIYI Sinan Project Service Training Agreement  \n\nParty A: Beijing iQIYI Science & Technology Co., Ltd.  \n\nContact: Yang Liu  \n\nTel.: 18948788031  \n\nAddress: 21 Gongren Tiyuchang North Road, Wynn International, iQIYI Youth Center, Floor 3, Chaoyang District, Beijing  \n\nEmail: liuyang19@qiyi.com  \n\nParty B: Dehuan Liu  \n\nTel.: 13501057548  \n\nAddress: School of Journalism & Communication, Peking University  \n\nID card No.: 110108196603291919  \n\nEmail: liudehuan@vip.sina.com"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In accordance with Civil Code of the People's Republic of China, Party A and Party B, through negotiation on the equal footing, make and enter into the following agreement on Party A appointing Party B to provide training services for Party A's employees, with intent to be bound.",
+          "bbox": {
+            "x1": 114,
+            "y1": 110,
+            "x2": 883,
+            "y2": 196
+          },
+          "bbox_list": [
+            114,
+            110,
+            883,
+            196
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "### I. Cooperation Content",
+          "bbox": {
+            "x1": 193,
+            "y1": 242,
+            "x2": 378,
+            "y2": 260
+          },
+          "bbox_list": [
+            193,
+            242,
+            378,
+            260
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1. Party A appoints Party B Dehuan Liu to provide Party A with the training service of User Insights and Data Decisions",
+          "bbox": {
+            "x1": 115,
+            "y1": 305,
+            "x2": 884,
+            "y2": 348
+          },
+          "bbox_list": [
+            115,
+            305,
+            884,
+            348
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2. Party B accepts the employment of Party A, and is willing to participate in and implement the training project.",
+          "bbox": {
+            "x1": 115,
+            "y1": 392,
+            "x2": 884,
+            "y2": 435
+          },
+          "bbox_list": [
+            115,
+            392,
+            884,
+            435
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "3. On Mar. 26, 2022, Dehuan Liu shall provide iQIYI employees with training and sharing services, and the specific time, length, course type and training content shall be confirmed by both parties three business days prior to the training day.",
+          "bbox": {
+            "x1": 115,
+            "y1": 477,
+            "x2": 884,
+            "y2": 544
+          },
+          "bbox_list": [
+            115,
+            477,
+            884,
+            544
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "4. Venue: 21 Gongren Tiyuchang North Road, Wynn International, iQIYI Youth Center, Floor 3, Chaoyang District, Beijing",
+          "bbox": {
+            "x1": 115,
+            "y1": 586,
+            "x2": 888,
+            "y2": 630
+          },
+          "bbox_list": [
+            115,
+            586,
+            888,
+            630
+          ]
+        },
+        {
+          "block_id": "p3_b6",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "II. Rights and Obligations of the Parties hereto",
+          "bbox": {
+            "x1": 193,
+            "y1": 674,
+            "x2": 564,
+            "y2": 694
+          },
+          "bbox_list": [
+            193,
+            674,
+            564,
+            694
+          ]
+        },
+        {
+          "block_id": "p3_b7",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1. Party B shall undertake that it has corresponding qualifications, and is entitled to sign this Agreement and provide Party A with training services as agreed herein.",
+          "bbox": {
+            "x1": 115,
+            "y1": 737,
+            "x2": 884,
+            "y2": 781
+          },
+          "bbox_list": [
+            115,
+            737,
+            884,
+            781
+          ]
+        },
+        {
+          "block_id": "p3_b8",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2. To guarantee the training effect and quality, Party B shall make full preparation for the training according to Party A's requirements. The preparations include curriculum",
+          "bbox": {
+            "x1": 115,
+            "y1": 823,
+            "x2": 884,
+            "y2": 866
+          },
+          "bbox_list": [
+            115,
+            823,
+            884,
+            866
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nIn accordance with Civil Code of the People's Republic of China, Party A and Party B, through negotiation on the equal footing, make and enter into the following agreement on Party A appointing Party B to provide training services for Party A's employees, with intent to be bound.  \n\n### I. Cooperation Content  \n\n1. Party A appoints Party B Dehuan Liu to provide Party A with the training service of User Insights and Data Decisions  \n\n2. Party B accepts the employment of Party A, and is willing to participate in and implement the training project.  \n\n3. On Mar. 26, 2022, Dehuan Liu shall provide iQIYI employees with training and sharing services, and the specific time, length, course type and training content shall be confirmed by both parties three business days prior to the training day.  \n\n4. Venue: 21 Gongren Tiyuchang North Road, Wynn International, iQIYI Youth Center, Floor 3, Chaoyang District, Beijing  \n\nII. Rights and Obligations of the Parties hereto  \n\n1. Party B shall undertake that it has corresponding qualifications, and is entitled to sign this Agreement and provide Party A with training services as agreed herein.  \n\n2. To guarantee the training effect and quality, Party B shall make full preparation for the training according to Party A's requirements. The preparations include curriculum"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "development, production of materials for display, training process and teaching effect, etc.)",
+          "bbox": {
+            "x1": 115,
+            "y1": 110,
+            "x2": 833,
+            "y2": 133
+          },
+          "bbox_list": [
+            115,
+            110,
+            833,
+            133
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "3. Prior to the training project, Party A shall provide Party B with training requirements, and other information or materials, and discuss the training content or form with Party B. And Party B shall actively coordinate with Party A and adjust teaching content and process according to Party A's requirements.",
+          "bbox": {
+            "x1": 115,
+            "y1": 174,
+            "x2": 888,
+            "y2": 263
+          },
+          "bbox_list": [
+            115,
+            174,
+            888,
+            263
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "4. Party A's employees shall comply with the agreements on training time, venue and other relevant stipulations (including but not limited to: not arrive late, not leave early, not be absent without excuse, etc.). Party A shall take charge of the attendance and management of personnel participating the training.",
+          "bbox": {
+            "x1": 115,
+            "y1": 305,
+            "x2": 885,
+            "y2": 394
+          },
+          "bbox_list": [
+            115,
+            305,
+            885,
+            394
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "5. If Party A has the necessity to adjust the training time and venue, it shall inform Party B in advance. And the final adjustment shall be subject to consent by the Parties hereto.",
+          "bbox": {
+            "x1": 115,
+            "y1": 435,
+            "x2": 884,
+            "y2": 480
+          },
+          "bbox_list": [
+            115,
+            435,
+            884,
+            480
+          ]
+        },
+        {
+          "block_id": "p4_b4",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "6. Party B shall undertake that it is entitled to sign and perform this Agreement, and the performance of this Agreement shall not infringe on the rights of any cooperative third parties. Otherwise, Party B shall be held accountable to settle any dispute arising therefrom and bear all liabilities. Where there is any losses caused to Party A, Party B shall undertake the compensation liability.",
+          "bbox": {
+            "x1": 115,
+            "y1": 521,
+            "x2": 884,
+            "y2": 633
+          },
+          "bbox_list": [
+            115,
+            521,
+            884,
+            633
+          ]
+        },
+        {
+          "block_id": "p4_b5",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## III. Training Requirement",
+          "bbox": {
+            "x1": 194,
+            "y1": 676,
+            "x2": 400,
+            "y2": 696
+          },
+          "bbox_list": [
+            194,
+            676,
+            400,
+            696
+          ]
+        },
+        {
+          "block_id": "p4_b6",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In the training process, Party A shall assess Party B from the following two aspects:",
+          "bbox": {
+            "x1": 192,
+            "y1": 740,
+            "x2": 851,
+            "y2": 762
+          },
+          "bbox_list": [
+            192,
+            740,
+            851,
+            762
+          ]
+        },
+        {
+          "block_id": "p4_b7",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Teaching content: Whether Party B provides training services according to the teaching plan or the contents agreed by both parties.",
+          "bbox": {
+            "x1": 115,
+            "y1": 804,
+            "x2": 883,
+            "y2": 848
+          },
+          "bbox_list": [
+            115,
+            804,
+            883,
+            848
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\ndevelopment, production of materials for display, training process and teaching effect, etc.)  \n\n3. Prior to the training project, Party A shall provide Party B with training requirements, and other information or materials, and discuss the training content or form with Party B. And Party B shall actively coordinate with Party A and adjust teaching content and process according to Party A's requirements.  \n\n4. Party A's employees shall comply with the agreements on training time, venue and other relevant stipulations (including but not limited to: not arrive late, not leave early, not be absent without excuse, etc.). Party A shall take charge of the attendance and management of personnel participating the training.  \n\n5. If Party A has the necessity to adjust the training time and venue, it shall inform Party B in advance. And the final adjustment shall be subject to consent by the Parties hereto.  \n\n6. Party B shall undertake that it is entitled to sign and perform this Agreement, and the performance of this Agreement shall not infringe on the rights of any cooperative third parties. Otherwise, Party B shall be held accountable to settle any dispute arising therefrom and bear all liabilities. Where there is any losses caused to Party A, Party B shall undertake the compensation liability.  \n\n## III. Training Requirement  \n\nIn the training process, Party A shall assess Party B from the following two aspects:  \n\nTeaching content: Whether Party B provides training services according to the teaching plan or the contents agreed by both parties."
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Teaching hour: Whether Party B carries out training according to the teaching plan, and whether Party B arrives late or leave early.",
+          "bbox": {
+            "x1": 115,
+            "y1": 143,
+            "x2": 881,
+            "y2": 186
+          },
+          "bbox_list": [
+            115,
+            143,
+            881,
+            186
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## IV. Training Fee",
+          "bbox": {
+            "x1": 192,
+            "y1": 230,
+            "x2": 327,
+            "y2": 249
+          },
+          "bbox_list": [
+            192,
+            230,
+            327,
+            249
+          ]
+        },
+        {
+          "block_id": "p5_b2",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Party A shall settle the training fee for Party B through the Luming Platform, and Party B may withdraw his compensation after register and log in the account. Party A and Party B agree on the training fee of RMB150,000 (in words: RMB one hundred and fifty thousand). The said fee shall be the total amount hereunder that Party A shall pay to Party B.",
+          "bbox": {
+            "x1": 113,
+            "y1": 293,
+            "x2": 883,
+            "y2": 382
+          },
+          "bbox_list": [
+            113,
+            293,
+            883,
+            382
+          ]
+        },
+        {
+          "block_id": "p5_b3",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "V. Intellectual Property and Duty of Confidentiality",
+          "bbox": {
+            "x1": 192,
+            "y1": 425,
+            "x2": 602,
+            "y2": 445
+          },
+          "bbox_list": [
+            192,
+            425,
+            602,
+            445
+          ]
+        },
+        {
+          "block_id": "p5_b4",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1. Methodology, thoughts, knowledge and other intellectual properties used in the courses shall be possessed by Party B. And Party B is entitled to explain, elaborate and deduce such intellectual properties at other places according to needs.",
+          "bbox": {
+            "x1": 114,
+            "y1": 489,
+            "x2": 881,
+            "y2": 555
+          },
+          "bbox_list": [
+            114,
+            489,
+            881,
+            555
+          ]
+        },
+        {
+          "block_id": "p5_b5",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2. Under no circumstances, shall Party A record videos or audios about Party B's courses. Party B has the intellectual property rights of the course contents.",
+          "bbox": {
+            "x1": 114,
+            "y1": 598,
+            "x2": 881,
+            "y2": 641
+          },
+          "bbox_list": [
+            114,
+            598,
+            881,
+            641
+          ]
+        },
+        {
+          "block_id": "p5_b6",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "3. Without Party A's consent, Party B shall not provide any third party with photos or videos related to Party A.",
+          "bbox": {
+            "x1": 114,
+            "y1": 684,
+            "x2": 881,
+            "y2": 727
+          },
+          "bbox_list": [
+            114,
+            684,
+            881,
+            727
+          ]
+        },
+        {
+          "block_id": "p5_b7",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "4. On the training site, Party B shall not arbitrarily make any record or take photos and videos, to avoid the disclosure of any material.",
+          "bbox": {
+            "x1": 114,
+            "y1": 771,
+            "x2": 881,
+            "y2": 814
+          },
+          "bbox_list": [
+            114,
+            771,
+            881,
+            814
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTeaching hour: Whether Party B carries out training according to the teaching plan, and whether Party B arrives late or leave early.  \n\n## IV. Training Fee  \n\nParty A shall settle the training fee for Party B through the Luming Platform, and Party B may withdraw his compensation after register and log in the account. Party A and Party B agree on the training fee of RMB150,000 (in words: RMB one hundred and fifty thousand). The said fee shall be the total amount hereunder that Party A shall pay to Party B.  \n\nV. Intellectual Property and Duty of Confidentiality  \n\n1. Methodology, thoughts, knowledge and other intellectual properties used in the courses shall be possessed by Party B. And Party B is entitled to explain, elaborate and deduce such intellectual properties at other places according to needs.  \n\n2. Under no circumstances, shall Party A record videos or audios about Party B's courses. Party B has the intellectual property rights of the course contents.  \n\n3. Without Party A's consent, Party B shall not provide any third party with photos or videos related to Party A.  \n\n4. On the training site, Party B shall not arbitrarily make any record or take photos and videos, to avoid the disclosure of any material."
+    },
+    {
+      "page_number": 6,
+      "text_blocks": [
+        {
+          "block_id": "p6_b0",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "5. Courseware provided by Party B shall not infringe on the intellectual property rights of any third party. In case of any dispute, Party B shall be liable to settle it and protect Party A from damages. If there is any losses caused to Party A, Party B shall be held for compensation.",
+          "bbox": {
+            "x1": 115,
+            "y1": 110,
+            "x2": 883,
+            "y2": 176
+          },
+          "bbox_list": [
+            115,
+            110,
+            883,
+            176
+          ]
+        },
+        {
+          "block_id": "p6_b1",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "6. Where Party A intends to use the contents of training courses for commercial purpose or any other purpose than those agreed herein, it shall inform Party B and obtain Party B's consent.",
+          "bbox": {
+            "x1": 115,
+            "y1": 219,
+            "x2": 883,
+            "y2": 285
+          },
+          "bbox_list": [
+            115,
+            219,
+            883,
+            285
+          ]
+        },
+        {
+          "block_id": "p6_b2",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "7. This Clause shall be valid for a long term, not invalidated for the termination or rescission of this Agreement.",
+          "bbox": {
+            "x1": 115,
+            "y1": 328,
+            "x2": 883,
+            "y2": 371
+          },
+          "bbox_list": [
+            115,
+            328,
+            883,
+            371
+          ]
+        },
+        {
+          "block_id": "p6_b3",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## VI. Liability for Breach",
+          "bbox": {
+            "x1": 194,
+            "y1": 415,
+            "x2": 383,
+            "y2": 434
+          },
+          "bbox_list": [
+            194,
+            415,
+            383,
+            434
+          ]
+        },
+        {
+          "block_id": "p6_b4",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1. Unless otherwise agreed in writing by the Parties hereto, Party B shall provide training services for Party A according to the time, venue and training requirement as agreed herein. If Party B fails to provide services as agreed, it shall pay Party A liquidated damages at \\(1\\%\\) of total amount hereof. Besides, Party A is entitled to terminate this Agreement and ask Party B to return all fees. While if Party A rejects the services without any cause, it shall pay Party B liquidated damages at \\(1\\%\\) of total amount hereof.",
+          "bbox": {
+            "x1": 115,
+            "y1": 478,
+            "x2": 900,
+            "y2": 611
+          },
+          "bbox_list": [
+            115,
+            478,
+            900,
+            611
+          ]
+        },
+        {
+          "block_id": "p6_b5",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2. Unless otherwise agreed herein, if any party breaches this Agreement, the observant Party is entitled to ask the breaching party to stop, correct and eliminate the impact within 3 days. Where the breaching party fails to do so, the observant party is entitled to terminate this Agreement and ask the breaching party to pay liquidated damages to the observant party at \\(20\\%\\) of the total amount hereof. Where the breach of Agreement has brought about actual financial losses to the observant party, the breaching party shall compensate in full.",
+          "bbox": {
+            "x1": 115,
+            "y1": 654,
+            "x2": 888,
+            "y2": 787
+          },
+          "bbox_list": [
+            115,
+            654,
+            888,
+            787
+          ]
+        },
+        {
+          "block_id": "p6_b6",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "3. Where Party B fails to perform this Agreement for justified reasons, but does not breach this Agreement, the Parties hereto shall separately negotiate to change the training time or",
+          "bbox": {
+            "x1": 115,
+            "y1": 829,
+            "x2": 886,
+            "y2": 872
+          },
+          "bbox_list": [
+            115,
+            829,
+            886,
+            872
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n5. Courseware provided by Party B shall not infringe on the intellectual property rights of any third party. In case of any dispute, Party B shall be liable to settle it and protect Party A from damages. If there is any losses caused to Party A, Party B shall be held for compensation.  \n\n6. Where Party A intends to use the contents of training courses for commercial purpose or any other purpose than those agreed herein, it shall inform Party B and obtain Party B's consent.  \n\n7. This Clause shall be valid for a long term, not invalidated for the termination or rescission of this Agreement.  \n\n## VI. Liability for Breach  \n\n1. Unless otherwise agreed in writing by the Parties hereto, Party B shall provide training services for Party A according to the time, venue and training requirement as agreed herein. If Party B fails to provide services as agreed, it shall pay Party A liquidated damages at \\(1\\%\\) of total amount hereof. Besides, Party A is entitled to terminate this Agreement and ask Party B to return all fees. While if Party A rejects the services without any cause, it shall pay Party B liquidated damages at \\(1\\%\\) of total amount hereof.  \n\n2. Unless otherwise agreed herein, if any party breaches this Agreement, the observant Party is entitled to ask the breaching party to stop, correct and eliminate the impact within 3 days. Where the breaching party fails to do so, the observant party is entitled to terminate this Agreement and ask the breaching party to pay liquidated damages to the observant party at \\(20\\%\\) of the total amount hereof. Where the breach of Agreement has brought about actual financial losses to the observant party, the breaching party shall compensate in full.  \n\n3. Where Party B fails to perform this Agreement for justified reasons, but does not breach this Agreement, the Parties hereto shall separately negotiate to change the training time or"
+    },
+    {
+      "page_number": 7,
+      "text_blocks": [
+        {
+          "block_id": "p7_b0",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "cancel the training. If the training is cancelled, Party B shall return all the received fees.",
+          "bbox": {
+            "x1": 115,
+            "y1": 110,
+            "x2": 805,
+            "y2": 132
+          },
+          "bbox_list": [
+            115,
+            110,
+            805,
+            132
+          ]
+        },
+        {
+          "block_id": "p7_b1",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "4. Party A and Party B shall settle all the problems and disputes during the cooperation in the principle of friendly consultation.",
+          "bbox": {
+            "x1": 115,
+            "y1": 174,
+            "x2": 883,
+            "y2": 218
+          },
+          "bbox_list": [
+            115,
+            174,
+            883,
+            218
+          ]
+        },
+        {
+          "block_id": "p7_b2",
+          "page_number": 7,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## VII. Force Majeure",
+          "bbox": {
+            "x1": 195,
+            "y1": 262,
+            "x2": 350,
+            "y2": 281
+          },
+          "bbox_list": [
+            195,
+            262,
+            350,
+            281
+          ]
+        },
+        {
+          "block_id": "p7_b3",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1. Force majeure referred herein means all unforeseeable, unavoidable and insurmountable objective situations, including but not limited to flood, earthquake, hurricane, fire disaster, COVID-19 and other natural disaster, war and turmoil, as well as the amendment, alteration and abolishment of relevant laws, administrative regulations and policies that finally cause the nonperformance of this Agreement.",
+          "bbox": {
+            "x1": 116,
+            "y1": 324,
+            "x2": 884,
+            "y2": 436
+          },
+          "bbox_list": [
+            116,
+            324,
+            884,
+            436
+          ]
+        },
+        {
+          "block_id": "p7_b4",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2. Any party or both parties fail to perform part or all of this Agreement for force majeure, the party suffering force majeure shall not bear liability for breach of the Agreement, but it shall timely inform the counterparty of the situation about the force majeure and submit legal certification materials about the force majeure, and shall try its best to reduce the impact of force majeure on the performance of this Agreement.",
+          "bbox": {
+            "x1": 116,
+            "y1": 478,
+            "x2": 886,
+            "y2": 589
+          },
+          "bbox_list": [
+            116,
+            478,
+            886,
+            589
+          ]
+        },
+        {
+          "block_id": "p7_b5",
+          "page_number": 7,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## VIII. Settlement of Dispute",
+          "bbox": {
+            "x1": 197,
+            "y1": 633,
+            "x2": 415,
+            "y2": 652
+          },
+          "bbox_list": [
+            197,
+            633,
+            415,
+            652
+          ]
+        },
+        {
+          "block_id": "p7_b6",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Disputes arising from the performance of this Agreement shall be settled by both parties through consultation, if failing which, any party is entitled to file a lawsuit to Beijing Haidian District People's Court at the place where this Agreement is signed.",
+          "bbox": {
+            "x1": 118,
+            "y1": 695,
+            "x2": 886,
+            "y2": 761
+          },
+          "bbox_list": [
+            118,
+            695,
+            886,
+            761
+          ]
+        },
+        {
+          "block_id": "p7_b7",
+          "page_number": 7,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## IX. Anti-corruption Clause",
+          "bbox": {
+            "x1": 197,
+            "y1": 805,
+            "x2": 412,
+            "y2": 824
+          },
+          "bbox_list": [
+            197,
+            805,
+            412,
+            824
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\ncancel the training. If the training is cancelled, Party B shall return all the received fees.  \n\n4. Party A and Party B shall settle all the problems and disputes during the cooperation in the principle of friendly consultation.  \n\n## VII. Force Majeure  \n\n1. Force majeure referred herein means all unforeseeable, unavoidable and insurmountable objective situations, including but not limited to flood, earthquake, hurricane, fire disaster, COVID-19 and other natural disaster, war and turmoil, as well as the amendment, alteration and abolishment of relevant laws, administrative regulations and policies that finally cause the nonperformance of this Agreement.  \n\n2. Any party or both parties fail to perform part or all of this Agreement for force majeure, the party suffering force majeure shall not bear liability for breach of the Agreement, but it shall timely inform the counterparty of the situation about the force majeure and submit legal certification materials about the force majeure, and shall try its best to reduce the impact of force majeure on the performance of this Agreement.  \n\n## VIII. Settlement of Dispute  \n\nDisputes arising from the performance of this Agreement shall be settled by both parties through consultation, if failing which, any party is entitled to file a lawsuit to Beijing Haidian District People's Court at the place where this Agreement is signed.  \n\n## IX. Anti-corruption Clause"
+    },
+    {
+      "page_number": 8,
+      "text_blocks": [
+        {
+          "block_id": "p8_b0",
+          "page_number": 8,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 1. Definition:",
+          "bbox": {
+            "x1": 196,
+            "y1": 110,
+            "x2": 304,
+            "y2": 128
+          },
+          "bbox_list": [
+            196,
+            110,
+            304,
+            128
+          ]
+        },
+        {
+          "block_id": "p8_b1",
+          "page_number": 8,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "### 1.1 Government Official:",
+          "bbox": {
+            "x1": 196,
+            "y1": 174,
+            "x2": 396,
+            "y2": 193
+          },
+          "bbox_list": [
+            196,
+            174,
+            396,
+            193
+          ]
+        },
+        {
+          "block_id": "p8_b2",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1.1.1 The official or employee in national institutions, public international organizations or national enterprises or public institutions, or anyone or agent representing the said institutions and acting in the name of the officials;",
+          "bbox": {
+            "x1": 115,
+            "y1": 238,
+            "x2": 883,
+            "y2": 304
+          },
+          "bbox_list": [
+            115,
+            238,
+            883,
+            304
+          ]
+        },
+        {
+          "block_id": "p8_b3",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1.1.2 The individual or company employed by agents or delegates to national institutions, public international organizations or national enterprises or public institutions;",
+          "bbox": {
+            "x1": 115,
+            "y1": 347,
+            "x2": 882,
+            "y2": 391
+          },
+          "bbox_list": [
+            115,
+            347,
+            882,
+            391
+          ]
+        },
+        {
+          "block_id": "p8_b4",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1.1.3 Any political party official, political party agency, or candidate of political position (or political party position);",
+          "bbox": {
+            "x1": 115,
+            "y1": 433,
+            "x2": 882,
+            "y2": 476
+          },
+          "bbox_list": [
+            115,
+            433,
+            882,
+            476
+          ]
+        },
+        {
+          "block_id": "p8_b5",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1.1.4 Family members of all said individuals or delegates of institutions;",
+          "bbox": {
+            "x1": 192,
+            "y1": 520,
+            "x2": 763,
+            "y2": 541
+          },
+          "bbox_list": [
+            192,
+            520,
+            763,
+            541
+          ]
+        },
+        {
+          "block_id": "p8_b6",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1.1.5 And those who are not included in the said definitions, but may be identified as government officials (such as media reporter) in accordance with Foreign Corrupt Practices Act (FCPA) of the United States.",
+          "bbox": {
+            "x1": 113,
+            "y1": 584,
+            "x2": 881,
+            "y2": 650
+          },
+          "bbox_list": [
+            113,
+            584,
+            881,
+            650
+          ]
+        },
+        {
+          "block_id": "p8_b7",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1.2 Stakeholder: The individual or entity that may or actually affect or be affected by this cooperation, or that has the said effect through Party A's reasonable judgement.",
+          "bbox": {
+            "x1": 113,
+            "y1": 694,
+            "x2": 880,
+            "y2": 738
+          },
+          "bbox_list": [
+            113,
+            694,
+            880,
+            738
+          ]
+        },
+        {
+          "block_id": "p8_b8",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1.3 Bribery: The act of directly or directly (third- party bribery and intro- bribe) promising or actually receiving or providing money or any economic goods by violating applicable laws or for other illegal purposes. Therein, \"economic goods\" refer to cash, non- cash gifts or other spiritual benefits and illegitimate benefits that cannot be directly measured at",
+          "bbox": {
+            "x1": 111,
+            "y1": 780,
+            "x2": 880,
+            "y2": 867
+          },
+          "bbox_list": [
+            111,
+            780,
+            880,
+            867
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## 1. Definition:  \n\n### 1.1 Government Official:  \n\n1.1.1 The official or employee in national institutions, public international organizations or national enterprises or public institutions, or anyone or agent representing the said institutions and acting in the name of the officials;  \n\n1.1.2 The individual or company employed by agents or delegates to national institutions, public international organizations or national enterprises or public institutions;  \n\n1.1.3 Any political party official, political party agency, or candidate of political position (or political party position);  \n\n1.1.4 Family members of all said individuals or delegates of institutions;  \n\n1.1.5 And those who are not included in the said definitions, but may be identified as government officials (such as media reporter) in accordance with Foreign Corrupt Practices Act (FCPA) of the United States.  \n\n1.2 Stakeholder: The individual or entity that may or actually affect or be affected by this cooperation, or that has the said effect through Party A's reasonable judgement.  \n\n1.3 Bribery: The act of directly or directly (third- party bribery and intro- bribe) promising or actually receiving or providing money or any economic goods by violating applicable laws or for other illegal purposes. Therein, \"economic goods\" refer to cash, non- cash gifts or other spiritual benefits and illegitimate benefits that cannot be directly measured at"
+    },
+    {
+      "page_number": 9,
+      "text_blocks": [
+        {
+          "block_id": "p9_b0",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "economic or monetary value but can meet people's demands and desires. Such benefits include but are not limited to commission, remuneration, kickback, facilitation payment and other nominal cash, or equity, gift, negotiable securities, travel and reception, charity or political gift, no- tender arrangement, non- cash service, employment of relatives, household registration transfer, job transfer, position promotion, overseas arrangement, honor, status, privilege and any other physical or non- physical (such as service, etc.) and other articles.",
+          "bbox": {
+            "x1": 115,
+            "y1": 112,
+            "x2": 883,
+            "y2": 245
+          },
+          "bbox_list": [
+            115,
+            112,
+            883,
+            245
+          ]
+        },
+        {
+          "block_id": "p9_b1",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1.4 Affiliated Company: No matter whether this Agreement has the contrary agreements, affiliated companies referred herein include but are not limited to incorporated economic entities invested by Party A hereto and its parent companies, and economic entities, with which the Parties hereto have the relations of controlling, being controlled or being jointly controlled, via VIE or other agreement methods.",
+          "bbox": {
+            "x1": 114,
+            "y1": 287,
+            "x2": 882,
+            "y2": 397
+          },
+          "bbox_list": [
+            114,
+            287,
+            882,
+            397
+          ]
+        },
+        {
+          "block_id": "p9_b2",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2. Anti-commercial Bribery: Party B shall not have any act prohibited by anti-corruption laws (including Foreign Corrupt Practices Act (FCPA) of the United States) applicable to one party/ both parties. Based on the conclusion and performance of this cooperation agreement, Party B undertakes that it has never had and will never have any bribery and other corruption acts with Party A and its affiliated companies, or any government officials and affiliated persons (relatives, friends and other people with close relationship), or third parties with cooperative relationship (including its shareholders, employees and their relatives, or the said entities involved in the incorporation) or other stakeholders. And Party B confirms that any government officials will not obtain any benefits from this cooperation.",
+          "bbox": {
+            "x1": 112,
+            "y1": 440,
+            "x2": 882,
+            "y2": 640
+          },
+          "bbox_list": [
+            112,
+            440,
+            882,
+            640
+          ]
+        },
+        {
+          "block_id": "p9_b3",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "3. Commitment of No Conflict of Interest: Party B has no kinship (including spouse, children and their spouses, direct relatives and their relatives, relatives of spouse and their near relatives) with in-service employees of Party A and Party A's affiliated companies, and has no any equity interests with Party A and Party A's affiliated companies (including but limited to real-name shareholders, anonymous shareholders, nominee shareholding, and the stake of profit distribution based on equity; except the condition that the equity is legally obtained on the securities market of free circulation and the amount is no more than 1% of total equity of the company).",
+          "bbox": {
+            "x1": 111,
+            "y1": 682,
+            "x2": 880,
+            "y2": 857
+          },
+          "bbox_list": [
+            111,
+            682,
+            880,
+            857
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\neconomic or monetary value but can meet people's demands and desires. Such benefits include but are not limited to commission, remuneration, kickback, facilitation payment and other nominal cash, or equity, gift, negotiable securities, travel and reception, charity or political gift, no- tender arrangement, non- cash service, employment of relatives, household registration transfer, job transfer, position promotion, overseas arrangement, honor, status, privilege and any other physical or non- physical (such as service, etc.) and other articles.  \n\n1.4 Affiliated Company: No matter whether this Agreement has the contrary agreements, affiliated companies referred herein include but are not limited to incorporated economic entities invested by Party A hereto and its parent companies, and economic entities, with which the Parties hereto have the relations of controlling, being controlled or being jointly controlled, via VIE or other agreement methods.  \n\n2. Anti-commercial Bribery: Party B shall not have any act prohibited by anti-corruption laws (including Foreign Corrupt Practices Act (FCPA) of the United States) applicable to one party/ both parties. Based on the conclusion and performance of this cooperation agreement, Party B undertakes that it has never had and will never have any bribery and other corruption acts with Party A and its affiliated companies, or any government officials and affiliated persons (relatives, friends and other people with close relationship), or third parties with cooperative relationship (including its shareholders, employees and their relatives, or the said entities involved in the incorporation) or other stakeholders. And Party B confirms that any government officials will not obtain any benefits from this cooperation.  \n\n3. Commitment of No Conflict of Interest: Party B has no kinship (including spouse, children and their spouses, direct relatives and their relatives, relatives of spouse and their near relatives) with in-service employees of Party A and Party A's affiliated companies, and has no any equity interests with Party A and Party A's affiliated companies (including but limited to real-name shareholders, anonymous shareholders, nominee shareholding, and the stake of profit distribution based on equity; except the condition that the equity is legally obtained on the securities market of free circulation and the amount is no more than 1% of total equity of the company)."
+    },
+    {
+      "page_number": 10,
+      "text_blocks": [
+        {
+          "block_id": "p10_b0",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "4. Clause of Audit: Party B shall truly and accurately reflects all incomes and expenditures related to this cooperation in the financial books (including but not limited to cooperation agreement, invoice, report, statement, accounting book and other records), and shall undertake that Party A and the auditing agency entrusted by Party A are entitled to audit Party B's contents related to this cooperation (including reviewing the financial books and conversations related to the transaction with Party A) at least during the cooperation and within three years after the cooperation. Party B shall coordinate with Party A in auditing, provide relevant agreements involved in this cooperation and other information and materials, and allow Party A to have access to and check the financial books without any limitation, and not reject the auditing, conceal or provide false information.",
+          "bbox": {
+            "x1": 113,
+            "y1": 142,
+            "x2": 884,
+            "y2": 365
+          },
+          "bbox_list": [
+            113,
+            142,
+            884,
+            365
+          ]
+        },
+        {
+          "block_id": "p10_b1",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "5. Once Party B has any act or risk of corruption, act of conflict of interest, act of rejecting audit, act of providing false audit materials, or other situation of violating this anti-corruption clause, Party A is entitled to terminate the payment, and unilaterally terminate any contract concluded with Party B, ask Party B to compensate losses, and retain all rights to take further legal measures.",
+          "bbox": {
+            "x1": 112,
+            "y1": 407,
+            "x2": 882,
+            "y2": 517
+          },
+          "bbox_list": [
+            112,
+            407,
+            882,
+            517
+          ]
+        },
+        {
+          "block_id": "p10_b2",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "6. In any case of the said conditions during the cooperation process, it can reflect to Party A through the following channels; Party A's hotline for report: 010-62677193, email for external people to report: jubao@qiyi.com.",
+          "bbox": {
+            "x1": 112,
+            "y1": 560,
+            "x2": 880,
+            "y2": 628
+          },
+          "bbox_list": [
+            112,
+            560,
+            880,
+            628
+          ]
+        },
+        {
+          "block_id": "p10_b3",
+          "page_number": 10,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## X. Notice",
+          "bbox": {
+            "x1": 189,
+            "y1": 671,
+            "x2": 270,
+            "y2": 688
+          },
+          "bbox_list": [
+            189,
+            671,
+            270,
+            688
+          ]
+        },
+        {
+          "block_id": "p10_b4",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1. Mailing address, email, Tel. Number listed at the beginning of this Contract are the fixed and effective contact methods confirmed by both parties, and the effective address for each party to send documents and notices. Any party shall guarantee that the contacting methods are valid. In case of any change, it shall inform the counterparty in writing.",
+          "bbox": {
+            "x1": 111,
+            "y1": 701,
+            "x2": 879,
+            "y2": 790
+          },
+          "bbox_list": [
+            111,
+            701,
+            879,
+            790
+          ]
+        },
+        {
+          "block_id": "p10_b5",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2. Where any of the document, email or fax fails to be sent to receiver according to the contact methods or the contact methods after change for the rejection, return to sender, wrong receiver name, wrong address, no receiver and return of email, the document and notice shall be",
+          "bbox": {
+            "x1": 111,
+            "y1": 800,
+            "x2": 878,
+            "y2": 866
+          },
+          "bbox_list": [
+            111,
+            800,
+            878,
+            866
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n4. Clause of Audit: Party B shall truly and accurately reflects all incomes and expenditures related to this cooperation in the financial books (including but not limited to cooperation agreement, invoice, report, statement, accounting book and other records), and shall undertake that Party A and the auditing agency entrusted by Party A are entitled to audit Party B's contents related to this cooperation (including reviewing the financial books and conversations related to the transaction with Party A) at least during the cooperation and within three years after the cooperation. Party B shall coordinate with Party A in auditing, provide relevant agreements involved in this cooperation and other information and materials, and allow Party A to have access to and check the financial books without any limitation, and not reject the auditing, conceal or provide false information.  \n\n5. Once Party B has any act or risk of corruption, act of conflict of interest, act of rejecting audit, act of providing false audit materials, or other situation of violating this anti-corruption clause, Party A is entitled to terminate the payment, and unilaterally terminate any contract concluded with Party B, ask Party B to compensate losses, and retain all rights to take further legal measures.  \n\n6. In any case of the said conditions during the cooperation process, it can reflect to Party A through the following channels; Party A's hotline for report: 010-62677193, email for external people to report: jubao@qiyi.com.  \n\n## X. Notice  \n\n1. Mailing address, email, Tel. Number listed at the beginning of this Contract are the fixed and effective contact methods confirmed by both parties, and the effective address for each party to send documents and notices. Any party shall guarantee that the contacting methods are valid. In case of any change, it shall inform the counterparty in writing.  \n\n2. Where any of the document, email or fax fails to be sent to receiver according to the contact methods or the contact methods after change for the rejection, return to sender, wrong receiver name, wrong address, no receiver and return of email, the document and notice shall be"
+    },
+    {
+      "page_number": 11,
+      "text_blocks": [
+        {
+          "block_id": "p11_b0",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "deemed to have been served on third day from the mailing day, the fax and email shall be deemed to have been served on the very day. The legal consequences incurred therefrom shall be undertaken by the receiver.",
+          "bbox": {
+            "x1": 116,
+            "y1": 111,
+            "x2": 884,
+            "y2": 176
+          },
+          "bbox_list": [
+            116,
+            111,
+            884,
+            176
+          ]
+        },
+        {
+          "block_id": "p11_b1",
+          "page_number": 11,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## XI. Miscellaneous",
+          "bbox": {
+            "x1": 195,
+            "y1": 220,
+            "x2": 343,
+            "y2": 239
+          },
+          "bbox_list": [
+            195,
+            220,
+            343,
+            239
+          ]
+        },
+        {
+          "block_id": "p11_b2",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1. This Agreement is made in duplicate, with each party holding one respectively.",
+          "bbox": {
+            "x1": 195,
+            "y1": 252,
+            "x2": 837,
+            "y2": 273
+          },
+          "bbox_list": [
+            195,
+            252,
+            837,
+            273
+          ]
+        },
+        {
+          "block_id": "p11_b3",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2. This Agreement shall take effect upon seal by Party A (official sea or special seal for contract) and signature by Party B. Unless otherwise agreed in writing, this Agreement shall automatically terminate upon the Parties hereto fulfill respective rights and obligations.",
+          "bbox": {
+            "x1": 116,
+            "y1": 316,
+            "x2": 884,
+            "y2": 382
+          },
+          "bbox_list": [
+            116,
+            316,
+            884,
+            382
+          ]
+        },
+        {
+          "block_id": "p11_b4",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "3. As for matters uncovered herein, both Parties may separately sign the supplementary agreement through consultation, and the supplementary agreement shall have the same legal effect as this Agreement.",
+          "bbox": {
+            "x1": 116,
+            "y1": 425,
+            "x2": 884,
+            "y2": 491
+          },
+          "bbox_list": [
+            116,
+            425,
+            884,
+            491
+          ]
+        },
+        {
+          "block_id": "p11_b5",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(No text below)",
+          "bbox": {
+            "x1": 195,
+            "y1": 535,
+            "x2": 323,
+            "y2": 553
+          },
+          "bbox_list": [
+            195,
+            535,
+            323,
+            553
+          ]
+        },
+        {
+          "block_id": "p11_b6",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Seal of Party A's company: Beijing iQIYI Science & Technology Co., Ltd.",
+          "bbox": {
+            "x1": 116,
+            "y1": 598,
+            "x2": 495,
+            "y2": 641
+          },
+          "bbox_list": [
+            116,
+            598,
+            495,
+            641
+          ]
+        },
+        {
+          "block_id": "p11_b7",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Special Seal for Contract (1) of Beijing iQIYI Science & Technology Co., Ltd. 1101081468830 (Seal)",
+          "bbox": {
+            "x1": 116,
+            "y1": 653,
+            "x2": 496,
+            "y2": 718
+          },
+          "bbox_list": [
+            116,
+            653,
+            496,
+            718
+          ]
+        },
+        {
+          "block_id": "p11_b8",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Date: Mar. 25, 2022",
+          "bbox": {
+            "x1": 116,
+            "y1": 730,
+            "x2": 279,
+            "y2": 749
+          },
+          "bbox_list": [
+            116,
+            730,
+            279,
+            749
+          ]
+        },
+        {
+          "block_id": "p11_b9",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "This Agreement is printed via the OA system",
+          "bbox": {
+            "x1": 116,
+            "y1": 761,
+            "x2": 475,
+            "y2": 782
+          },
+          "bbox_list": [
+            116,
+            761,
+            475,
+            782
+          ]
+        },
+        {
+          "block_id": "p11_b10",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Printing time: Mar. 25, 2022 15:52:43",
+          "bbox": {
+            "x1": 116,
+            "y1": 794,
+            "x2": 444,
+            "y2": 814
+          },
+          "bbox_list": [
+            116,
+            794,
+            444,
+            814
+          ]
+        },
+        {
+          "block_id": "p11_b11",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Signature of Party B: Dehuan Liu",
+          "bbox": {
+            "x1": 585,
+            "y1": 598,
+            "x2": 852,
+            "y2": 618
+          },
+          "bbox_list": [
+            585,
+            598,
+            852,
+            618
+          ]
+        },
+        {
+          "block_id": "p11_b12",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Date: Mar. 26, 2022",
+          "bbox": {
+            "x1": 585,
+            "y1": 730,
+            "x2": 746,
+            "y2": 749
+          },
+          "bbox_list": [
+            585,
+            730,
+            746,
+            749
+          ]
+        },
+        {
+          "block_id": "p11_b13",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Contract No.: IHR22- 290004",
+          "bbox": {
+            "x1": 506,
+            "y1": 761,
+            "x2": 741,
+            "y2": 781
+          },
+          "bbox_list": [
+            506,
+            761,
+            741,
+            781
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\ndeemed to have been served on third day from the mailing day, the fax and email shall be deemed to have been served on the very day. The legal consequences incurred therefrom shall be undertaken by the receiver.  \n\n## XI. Miscellaneous  \n\n1. This Agreement is made in duplicate, with each party holding one respectively.  \n\n2. This Agreement shall take effect upon seal by Party A (official sea or special seal for contract) and signature by Party B. Unless otherwise agreed in writing, this Agreement shall automatically terminate upon the Parties hereto fulfill respective rights and obligations.  \n\n3. As for matters uncovered herein, both Parties may separately sign the supplementary agreement through consultation, and the supplementary agreement shall have the same legal effect as this Agreement.  \n\n(No text below)  \n\nSeal of Party A's company: Beijing iQIYI Science & Technology Co., Ltd.  \n\nSpecial Seal for Contract (1) of Beijing iQIYI Science & Technology Co., Ltd. 1101081468830 (Seal)  \n\nDate: Mar. 25, 2022  \n\nThis Agreement is printed via the OA system  \n\nPrinting time: Mar. 25, 2022 15:52:43  \n\nSignature of Party B: Dehuan Liu  \n\nDate: Mar. 26, 2022  \n\nContract No.: IHR22- 290004"
+    },
+    {
+      "page_number": 12,
+      "text_blocks": [
+        {
+          "block_id": "p12_b0",
+          "page_number": 12,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Toggle the table of contents",
+          "bbox": {
+            "x1": 65,
+            "y1": 90,
+            "x2": 344,
+            "y2": 110
+          },
+          "bbox_list": [
+            65,
+            90,
+            344,
+            110
+          ]
+        },
+        {
+          "block_id": "p12_b1",
+          "page_number": 12,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## iQIYI",
+          "bbox": {
+            "x1": 59,
+            "y1": 115,
+            "x2": 178,
+            "y2": 149
+          },
+          "bbox_list": [
+            59,
+            115,
+            178,
+            149
+          ]
+        },
+        {
+          "block_id": "p12_b2",
+          "page_number": 12,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "iQIYI (simplified Chinese: 爱奇艺; traditional Chinese: 爱奇艺; pinyin: àiQiY), formerly QiYi (奇艺), [2] is a Chinese online video platform based in Beijing and Shanghai launched on April 22, 2010.",
+          "bbox": {
+            "x1": 59,
+            "y1": 167,
+            "x2": 590,
+            "y2": 243
+          },
+          "bbox_list": [
+            59,
+            167,
+            590,
+            243
+          ]
+        },
+        {
+          "block_id": "p12_b3",
+          "page_number": 12,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "iQIYI is currently one of the largest online video sites in the world, with nearly 6 billion hours spent on its service each month and over 500 million monthly active users. [3][4][5][6] On March 29, 2018, the company issued its IPO (initial public offering) in the U.S. and raised \\(\\) 2.25\\(billion. [7] iQIYI has not been available in Taiwan since October 15, 2020 due to a ban on partnerships with mainland Chinese video streaming companies after iQIYI was found to be used by China's Taiwan Affairs Office for conducting united front activities on the island. [8][9][10]",
+          "bbox": {
+            "x1": 60,
+            "y1": 255,
+            "x2": 591,
+            "y2": 434
+          },
+          "bbox_list": [
+            60,
+            255,
+            591,
+            434
+          ]
+        },
+        {
+          "block_id": "p12_b4",
+          "page_number": 12,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## History",
+          "bbox": {
+            "x1": 62,
+            "y1": 456,
+            "x2": 177,
+            "y2": 481
+          },
+          "bbox_list": [
+            62,
+            456,
+            177,
+            481
+          ]
+        },
+        {
+          "block_id": "p12_b5",
+          "page_number": 12,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "iQIYI was founded on April 22, 2010, by Baidu, the company behind China's largest online search engine, with support from Providence Equity Partners. [11] It changed its name to iQIYI in November 2011. [2] On November 2, 2012, Baidu bought Providence's stake and took \\(100\\%\\) ownership of the site. [12] On May 7, 2013, Baidu purchased the online video business of PPStream Inc. for \\(\\) 370\\(million, which became a subsidiary of iQIYI much later. On 17 July 2014, the site launched its film production division, iQIYI Motion Pictures, to expand existing cooperative projects with overseas peers, including purchasing releases and co- producing movies. On September 4, iQIYI cooperated with Venice Film Festival, streaming the festival's movies online. In August 2014, iQIYI generated over 6.95 billion hours of viewing on its website. [13] In October, iQIYI participated in the Busan Film Festival, signing exclusive rights to nearly 100 South Korean titles. [14] On November 19, 2014, Xiaomi and Shunwei Capital invested \\(\\) 300\\$ Million in iQIYI for about 10 percent to 15 percent of the site, while Baidu invested an additional \\(\\) 100\\$ million and held about 80 percent. [15]",
+          "bbox": {
+            "x1": 61,
+            "y1": 497,
+            "x2": 592,
+            "y2": 857
+          },
+          "bbox_list": [
+            61,
+            497,
+            592,
+            857
+          ]
+        },
+        {
+          "block_id": "p12_b6",
+          "page_number": 12,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In September 2014, iQIYI had established a Chinese Communist Party (CCP) committee inside of the company, according to the official newspaper of the Central Committee",
+          "bbox": {
+            "x1": 63,
+            "y1": 869,
+            "x2": 592,
+            "y2": 923
+          },
+          "bbox_list": [
+            63,
+            869,
+            592,
+            923
+          ]
+        },
+        {
+          "block_id": "p12_b7",
+          "page_number": 12,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "iQIYI, Inc.",
+          "bbox": {
+            "x1": 715,
+            "y1": 179,
+            "x2": 818,
+            "y2": 198
+          },
+          "bbox_list": [
+            715,
+            179,
+            818,
+            198
+          ]
+        },
+        {
+          "block_id": "p12_b8",
+          "page_number": 12,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 610,
+            "y1": 201,
+            "x2": 928,
+            "y2": 675
+          },
+          "bbox_list": [
+            610,
+            201,
+            928,
+            675
+          ]
+        },
+        {
+          "block_id": "p12_b9",
+          "page_number": 12,
+          "block_type": "image_caption",
+          "block_type_cn": "image_caption",
+          "text_content": "<center>Screenshot of iQiyi home page </center>",
+          "bbox": {
+            "x1": 657,
+            "y1": 679,
+            "x2": 884,
+            "y2": 694
+          },
+          "bbox_list": [
+            657,
+            679,
+            884,
+            694
+          ]
+        },
+        {
+          "block_id": "p12_b10",
+          "page_number": 12,
+          "block_type": "table",
+          "block_type_cn": "表格",
+          "text_content": "<table><tr><td>Type of site</td><td>Video on demand</td></tr><tr><td>Traded as</td><td>Nasdaq: IQ (https://www. nasdaq.com/market-activ ity/stocks/iq) (ADS)</td></tr><tr><td>Headquarters</td><td>Beijing, China<br>Shanghai, China</td></tr><tr><td>Founder(s)</td><td>Gong Yu</td></tr><tr><td>Key people</td><td>He Junjie<br>(Chairman)<br>Gong Yu<br>(founder &amp;amp; CEO)</td></tr></table>",
+          "bbox": {
+            "x1": 610,
+            "y1": 704,
+            "x2": 930,
+            "y2": 935
+          },
+          "bbox_list": [
+            610,
+            704,
+            930,
+            935
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# Toggle the table of contents  \n\n## iQIYI  \n\niQIYI (simplified Chinese: 爱奇艺; traditional Chinese: 爱奇艺; pinyin: àiQiY), formerly QiYi (奇艺), [2] is a Chinese online video platform based in Beijing and Shanghai launched on April 22, 2010.  \n\niQIYI is currently one of the largest online video sites in the world, with nearly 6 billion hours spent on its service each month and over 500 million monthly active users. [3][4][5][6] On March 29, 2018, the company issued its IPO (initial public offering) in the U.S. and raised \\(\\) 2.25\\(billion. [7] iQIYI has not been available in Taiwan since October 15, 2020 due to a ban on partnerships with mainland Chinese video streaming companies after iQIYI was found to be used by China's Taiwan Affairs Office for conducting united front activities on the island. [8][9][10]  \n\n## History  \n\niQIYI was founded on April 22, 2010, by Baidu, the company behind China's largest online search engine, with support from Providence Equity Partners. [11] It changed its name to iQIYI in November 2011. [2] On November 2, 2012, Baidu bought Providence's stake and took \\(100\\%\\) ownership of the site. [12] On May 7, 2013, Baidu purchased the online video business of PPStream Inc. for \\(\\) 370\\(million, which became a subsidiary of iQIYI much later. On 17 July 2014, the site launched its film production division, iQIYI Motion Pictures, to expand existing cooperative projects with overseas peers, including purchasing releases and co- producing movies. On September 4, iQIYI cooperated with Venice Film Festival, streaming the festival's movies online. In August 2014, iQIYI generated over 6.95 billion hours of viewing on its website. [13] In October, iQIYI participated in the Busan Film Festival, signing exclusive rights to nearly 100 South Korean titles. [14] On November 19, 2014, Xiaomi and Shunwei Capital invested \\(\\) 300\\$ Million in iQIYI for about 10 percent to 15 percent of the site, while Baidu invested an additional \\(\\) 100\\$ million and held about 80 percent. [15]  \n\nIn September 2014, iQIYI had established a Chinese Communist Party (CCP) committee inside of the company, according to the official newspaper of the Central Committee  \n\niQIYI, Inc.  \n\n<center>Screenshot of iQiyi home page </center>  \n\n<table><tr><td>Type of site</td><td>Video on demand</td></tr><tr><td>Traded as</td><td>Nasdaq: IQ (https://www. nasdaq.com/market-activ ity/stocks/iq) (ADS)</td></tr><tr><td>Headquarters</td><td>Beijing, China<br>Shanghai, China</td></tr><tr><td>Founder(s)</td><td>Gong Yu</td></tr><tr><td>Key people</td><td>He Junjie<br>(Chairman)<br>Gong Yu<br>(founder &amp;amp; CEO)</td></tr></table>"
+    },
+    {
+      "page_number": 13,
+      "text_blocks": [
+        {
+          "block_id": "p13_b0",
+          "page_number": 13,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "of the Chinese Communist Party, the People's Daily.[16] In November 2014, following the National Radio and Television Administration ban of all live- steaming of American TV shows, iQIYI's vice editor- in- chief defended the ban, stating that such content was against \"socialist values.\"[17]",
+          "bbox": {
+            "x1": 60,
+            "y1": 42,
+            "x2": 590,
+            "y2": 133
+          },
+          "bbox_list": [
+            60,
+            42,
+            590,
+            133
+          ]
+        },
+        {
+          "block_id": "p13_b1",
+          "page_number": 13,
+          "block_type": "table",
+          "block_type_cn": "表格",
+          "text_content": "<table><tr><td>Parent</td><td>Baidu</td></tr><tr><td>URL</td><td>www.iqiyi.com (https://www.iqiyi.com)</td></tr><tr><td>Users</td><td>101.4 million paid subscribers[1]</td></tr></table>",
+          "bbox": {
+            "x1": 608,
+            "y1": 44,
+            "x2": 933,
+            "y2": 153
+          },
+          "bbox_list": [
+            608,
+            44,
+            933,
+            153
+          ]
+        },
+        {
+          "block_id": "p13_b2",
+          "page_number": 13,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "On December 8, 2014, iQIYI's chief content officer Ma Dong said the portal planned to more than double original production in 2015, with at least 30 titles and 500 episodes on the slate compared to 13 in 2014.[18] In 2015, iQIYI purchased the streaming rights to eight top entertainment shows in mainland China, and several entertainment shows in Taiwan and South Korea, including Running Man.[19] In March 2016, it announced that it would launch in Taiwan.[20] In June 2016, it reported that it had 20 million subscribers.[21]",
+          "bbox": {
+            "x1": 60,
+            "y1": 145,
+            "x2": 938,
+            "y2": 258
+          },
+          "bbox_list": [
+            60,
+            145,
+            938,
+            258
+          ]
+        },
+        {
+          "block_id": "p13_b3",
+          "page_number": 13,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In June 2014, iQIYI co- produced and distributed the drama Mysterious Summer with major Japanese broadcaster Fuji TV. It was the first drama co- production between China and Japan and has been viewed more than 60 million times as of October 2014.[22][23]",
+          "bbox": {
+            "x1": 60,
+            "y1": 270,
+            "x2": 936,
+            "y2": 326
+          },
+          "bbox_list": [
+            60,
+            270,
+            936,
+            326
+          ]
+        },
+        {
+          "block_id": "p13_b4",
+          "page_number": 13,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In 2017, the People Daily reported that two thirds of high- level staff in iQIYI's content department were CCP members.[16]",
+          "bbox": {
+            "x1": 60,
+            "y1": 338,
+            "x2": 936,
+            "y2": 377
+          },
+          "bbox_list": [
+            60,
+            338,
+            936,
+            377
+          ]
+        },
+        {
+          "block_id": "p13_b5",
+          "page_number": 13,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "On April 25, 2017, Netflix (which does not operate at all in China) announced that it had reached a licensing deal with iQIYI, under which some Netflix original productions would be available on iQIYI day- and- date with their premieres worldwide.[24]",
+          "bbox": {
+            "x1": 60,
+            "y1": 388,
+            "x2": 936,
+            "y2": 445
+          },
+          "bbox_list": [
+            60,
+            388,
+            936,
+            445
+          ]
+        },
+        {
+          "block_id": "p13_b6",
+          "page_number": 13,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In November 2018, iQIYI announced that it was raising new cash. The video business said that it will issue \\(\\) 500\\(million in convertible senior notes. Proceeds from the offering will go towards content and technology investments as well as capped call transactions to reduce potential dilution to shareholders upon conversion of the notes.[25]",
+          "bbox": {
+            "x1": 60,
+            "y1": 456,
+            "x2": 936,
+            "y2": 530
+          },
+          "bbox_list": [
+            60,
+            456,
+            936,
+            530
+          ]
+        },
+        {
+          "block_id": "p13_b7",
+          "page_number": 13,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In December 2020, iQIYI opened a new office in Singapore at Robinson Road to serve as the regional headquarters for Southeast Asia.[26]",
+          "bbox": {
+            "x1": 60,
+            "y1": 542,
+            "x2": 936,
+            "y2": 581
+          },
+          "bbox_list": [
+            60,
+            542,
+            936,
+            581
+          ]
+        },
+        {
+          "block_id": "p13_b8",
+          "page_number": 13,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In 2020, iQIYI announced its production of My Roommate Is a Gumiho as its first Korean Original Series.[27] Due to positive reviews over their first self- produced series, which starred Jang Ki- yong and Lee Hye- ri (member of Girl's Day), iQIYI expressed that they gained confidence in releasing more original Korean dramas produced under its name, like their announced upcoming productions of dramas like Bad and Crazy (starring Lee Dong- wook, Han Ji- eun and Wi Ha- joon) in 2021, and Shooting Stars in 2022, with the hope of expanding their potential in the production of original Korean shows.[28][29]",
+          "bbox": {
+            "x1": 60,
+            "y1": 593,
+            "x2": 936,
+            "y2": 721
+          },
+          "bbox_list": [
+            60,
+            593,
+            936,
+            721
+          ]
+        },
+        {
+          "block_id": "p13_b9",
+          "page_number": 13,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Also, iQIYI began to expand its horizon on producing Southeast Asian shows to stream as iQIYI originals for more viewership. In August 2021, iQIYI streamed a Singaporean drama series titled The Ferryman: Legends of Nanyang, which will be its first Southeast Asian original series starring local actors from Singapore like Lawrence Wong and Qi Yuwu, and Taiwanese actress Kate Kinney. The drama is also a remake of the 2014 Chinese drama series, but in a Southeast Asian setting.[30][31]",
+          "bbox": {
+            "x1": 60,
+            "y1": 733,
+            "x2": 936,
+            "y2": 824
+          },
+          "bbox_list": [
+            60,
+            733,
+            936,
+            824
+          ]
+        },
+        {
+          "block_id": "p13_b10",
+          "page_number": 13,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In October 2021, iQIYI and THEMA went into a partnership to launch their services on Netgem TV in the United Kingdom and Ireland, with iQIYI hoping to distribute Asian content on European media to create a larger global audience.[32]",
+          "bbox": {
+            "x1": 60,
+            "y1": 836,
+            "x2": 936,
+            "y2": 892
+          },
+          "bbox_list": [
+            60,
+            836,
+            936,
+            892
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nof the Chinese Communist Party, the People's Daily.[16] In November 2014, following the National Radio and Television Administration ban of all live- steaming of American TV shows, iQIYI's vice editor- in- chief defended the ban, stating that such content was against \"socialist values.\"[17]  \n\n<table><tr><td>Parent</td><td>Baidu</td></tr><tr><td>URL</td><td>www.iqiyi.com (https://www.iqiyi.com)</td></tr><tr><td>Users</td><td>101.4 million paid subscribers[1]</td></tr></table>  \n\nOn December 8, 2014, iQIYI's chief content officer Ma Dong said the portal planned to more than double original production in 2015, with at least 30 titles and 500 episodes on the slate compared to 13 in 2014.[18] In 2015, iQIYI purchased the streaming rights to eight top entertainment shows in mainland China, and several entertainment shows in Taiwan and South Korea, including Running Man.[19] In March 2016, it announced that it would launch in Taiwan.[20] In June 2016, it reported that it had 20 million subscribers.[21]  \n\nIn June 2014, iQIYI co- produced and distributed the drama Mysterious Summer with major Japanese broadcaster Fuji TV. It was the first drama co- production between China and Japan and has been viewed more than 60 million times as of October 2014.[22][23]  \n\nIn 2017, the People Daily reported that two thirds of high- level staff in iQIYI's content department were CCP members.[16]  \n\nOn April 25, 2017, Netflix (which does not operate at all in China) announced that it had reached a licensing deal with iQIYI, under which some Netflix original productions would be available on iQIYI day- and- date with their premieres worldwide.[24]  \n\nIn November 2018, iQIYI announced that it was raising new cash. The video business said that it will issue \\(\\) 500\\(million in convertible senior notes. Proceeds from the offering will go towards content and technology investments as well as capped call transactions to reduce potential dilution to shareholders upon conversion of the notes.[25]  \n\nIn December 2020, iQIYI opened a new office in Singapore at Robinson Road to serve as the regional headquarters for Southeast Asia.[26]  \n\nIn 2020, iQIYI announced its production of My Roommate Is a Gumiho as its first Korean Original Series.[27] Due to positive reviews over their first self- produced series, which starred Jang Ki- yong and Lee Hye- ri (member of Girl's Day), iQIYI expressed that they gained confidence in releasing more original Korean dramas produced under its name, like their announced upcoming productions of dramas like Bad and Crazy (starring Lee Dong- wook, Han Ji- eun and Wi Ha- joon) in 2021, and Shooting Stars in 2022, with the hope of expanding their potential in the production of original Korean shows.[28][29]  \n\nAlso, iQIYI began to expand its horizon on producing Southeast Asian shows to stream as iQIYI originals for more viewership. In August 2021, iQIYI streamed a Singaporean drama series titled The Ferryman: Legends of Nanyang, which will be its first Southeast Asian original series starring local actors from Singapore like Lawrence Wong and Qi Yuwu, and Taiwanese actress Kate Kinney. The drama is also a remake of the 2014 Chinese drama series, but in a Southeast Asian setting.[30][31]  \n\nIn October 2021, iQIYI and THEMA went into a partnership to launch their services on Netgem TV in the United Kingdom and Ireland, with iQIYI hoping to distribute Asian content on European media to create a larger global audience.[32]"
+    },
+    {
+      "page_number": 14,
+      "text_blocks": [
+        {
+          "block_id": "p14_b0",
+          "page_number": 14,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "During the 26th Busan International Film Festival, iQIYI partnered with Philippine broadcaster ABC- CBN to produce Saying Goodbye and Hello, Heart as the first two Philippine original series which will release later this year.[33][34]",
+          "bbox": {
+            "x1": 60,
+            "y1": 39,
+            "x2": 936,
+            "y2": 96
+          },
+          "bbox_list": [
+            60,
+            39,
+            936,
+            96
+          ]
+        },
+        {
+          "block_id": "p14_b1",
+          "page_number": 14,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In May 2022, iQIYI Sports announced a streaming rights request to the Italian football competition Serie A. This marks the fifth acquisition since the expansion into the sports market after acquiring streaming rights to other sporting events such as UEFA, AFC, the English Premier League and Spanish La liga.[35] The same month, iQIYI removed all movies of Keanu Reeves after he appeared at a virtual event hosted by Tibet House US due to its linkages with the 14th Dalai Lama.[36]",
+          "bbox": {
+            "x1": 60,
+            "y1": 108,
+            "x2": 936,
+            "y2": 202
+          },
+          "bbox_list": [
+            60,
+            108,
+            936,
+            202
+          ]
+        },
+        {
+          "block_id": "p14_b2",
+          "page_number": 14,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Reception",
+          "bbox": {
+            "x1": 62,
+            "y1": 220,
+            "x2": 214,
+            "y2": 246
+          },
+          "bbox_list": [
+            62,
+            220,
+            214,
+            246
+          ]
+        },
+        {
+          "block_id": "p14_b3",
+          "page_number": 14,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In 2019, Taiwan's Institute for National Defense and Security Research reported that iQIYI is used by China's Taiwan Affairs Office to further united front efforts on the island.[9] In response, Taiwan banned the company.[37][10]",
+          "bbox": {
+            "x1": 60,
+            "y1": 260,
+            "x2": 936,
+            "y2": 321
+          },
+          "bbox_list": [
+            60,
+            260,
+            936,
+            321
+          ]
+        },
+        {
+          "block_id": "p14_b4",
+          "page_number": 14,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In April 2020, activist investors, including Muddy Waters Research, accused iQIYI of overstating its revenue and subscribers.[38] Short- seller Wolfpack Research also accused the company of inflating revenue numbers.[39] In August 2020, it was announced that the U.S. Securities and Exchange Commission subsequently launched an investigation into iQIYI.[40] Later in early October 2020, iQIYI made a statement that an internal review into the allegations of fraud made by the American short seller Wolfpack Research, \"did not uncover any evidence that would substantiate the allegations.\" The internal review had been conducted by an independent audit committee, which included \"a Big 4 accounting firm that is not the Company's auditor.\"[41][42]",
+          "bbox": {
+            "x1": 60,
+            "y1": 331,
+            "x2": 936,
+            "y2": 480
+          },
+          "bbox_list": [
+            60,
+            331,
+            936,
+            480
+          ]
+        },
+        {
+          "block_id": "p14_b5",
+          "page_number": 14,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In June 2020, the Beijing Internet Court sided with a customer who sued the company for breaching the terms and conditions of the 'VIP' subscription. iQIYI had charged additional fees for pre- screens of dramas, although paying customers were promised access at no extra charge.[43]",
+          "bbox": {
+            "x1": 60,
+            "y1": 489,
+            "x2": 936,
+            "y2": 548
+          },
+          "bbox_list": [
+            60,
+            489,
+            936,
+            548
+          ]
+        },
+        {
+          "block_id": "p14_b6",
+          "page_number": 14,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## See also",
+          "bbox": {
+            "x1": 61,
+            "y1": 566,
+            "x2": 184,
+            "y2": 590
+          },
+          "bbox_list": [
+            61,
+            566,
+            184,
+            590
+          ]
+        },
+        {
+          "block_id": "p14_b7",
+          "page_number": 14,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "- List of iQIYI original programming- List of streaming media services",
+          "bbox": {
+            "x1": 72,
+            "y1": 604,
+            "x2": 383,
+            "y2": 644
+          },
+          "bbox_list": [
+            72,
+            604,
+            383,
+            644
+          ]
+        },
+        {
+          "block_id": "p14_b8",
+          "page_number": 14,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## References",
+          "bbox": {
+            "x1": 62,
+            "y1": 666,
+            "x2": 231,
+            "y2": 690
+          },
+          "bbox_list": [
+            62,
+            666,
+            231,
+            690
+          ]
+        },
+        {
+          "block_id": "p14_b9",
+          "page_number": 14,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1. \"iQIYI Announces Third Quarter 2022 Financial Results\" (https://iqiyiinc.gcs-web.com/static-files/7 de39021-9355-4aca-96ca-f3ac0ceac924). November 22, 2022. 2. \"奇艺启动新域名背后：解决视听许可证遗留问题\" (http://tech.sina.com.cn/i/2011-11-28/172563946 03.shtml) (in Chinese). Sina.com. 28 November 2011. Archived (https://web.archive.org/web/2017 0804214352/http://tech.sina.com.cn/i/2011-11-28/17256394603.shtml) from the original on 4 August 2017. Retrieved 4 August 2017. 3. Russell, Jon. \"Baidu's iQiyi video service raises \\$1.53 billion\" (https://techcrunch.com/2017/02/21/ baidus-iqiyi-video-service-raises-1-53-billion/). TechCrunch. Archived (https://web.archive.org/we b/20200604042844/https://techcrunch.com/2017/02/21/baidus-iqiyi-video-service-raises-1-53-billi on/) from the original on 2020-06-04. Retrieved 2017-10-17.",
+          "bbox": {
+            "x1": 70,
+            "y1": 699,
+            "x2": 936,
+            "y2": 878
+          },
+          "bbox_list": [
+            70,
+            699,
+            936,
+            878
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nDuring the 26th Busan International Film Festival, iQIYI partnered with Philippine broadcaster ABC- CBN to produce Saying Goodbye and Hello, Heart as the first two Philippine original series which will release later this year.[33][34]  \n\nIn May 2022, iQIYI Sports announced a streaming rights request to the Italian football competition Serie A. This marks the fifth acquisition since the expansion into the sports market after acquiring streaming rights to other sporting events such as UEFA, AFC, the English Premier League and Spanish La liga.[35] The same month, iQIYI removed all movies of Keanu Reeves after he appeared at a virtual event hosted by Tibet House US due to its linkages with the 14th Dalai Lama.[36]  \n\n## Reception  \n\nIn 2019, Taiwan's Institute for National Defense and Security Research reported that iQIYI is used by China's Taiwan Affairs Office to further united front efforts on the island.[9] In response, Taiwan banned the company.[37][10]  \n\nIn April 2020, activist investors, including Muddy Waters Research, accused iQIYI of overstating its revenue and subscribers.[38] Short- seller Wolfpack Research also accused the company of inflating revenue numbers.[39] In August 2020, it was announced that the U.S. Securities and Exchange Commission subsequently launched an investigation into iQIYI.[40] Later in early October 2020, iQIYI made a statement that an internal review into the allegations of fraud made by the American short seller Wolfpack Research, \"did not uncover any evidence that would substantiate the allegations.\" The internal review had been conducted by an independent audit committee, which included \"a Big 4 accounting firm that is not the Company's auditor.\"[41][42]  \n\nIn June 2020, the Beijing Internet Court sided with a customer who sued the company for breaching the terms and conditions of the 'VIP' subscription. iQIYI had charged additional fees for pre- screens of dramas, although paying customers were promised access at no extra charge.[43]  \n\n## See also  \n\n- List of iQIYI original programming- List of streaming media services  \n\n## References  \n\n1. \"iQIYI Announces Third Quarter 2022 Financial Results\" (https://iqiyiinc.gcs-web.com/static-files/7 de39021-9355-4aca-96ca-f3ac0ceac924). November 22, 2022.  \n\n2. \"奇艺启动新域名背后：解决视听许可证遗留问题\" (http://tech.sina.com.cn/i/2011-11-28/172563946 03.shtml) (in Chinese). Sina.com. 28 November 2011. Archived (https://web.archive.org/web/2017 0804214352/http://tech.sina.com.cn/i/2011-11-28/17256394603.shtml) from the original on 4 August 2017. Retrieved 4 August 2017.  \n\n3. Russell, Jon. \"Baidu's iQiyi video service raises \\$1.53 billion\" (https://techcrunch.com/2017/02/21/ baidus-iqiyi-video-service-raises-1-53-billion/). TechCrunch. Archived (https://web.archive.org/we b/20200604042844/https://techcrunch.com/2017/02/21/baidus-iqiyi-video-service-raises-1-53-billi on/) from the original on 2020-06-04. Retrieved 2017-10-17."
+    }
+  ],
+  "total_blocks": 117
+}

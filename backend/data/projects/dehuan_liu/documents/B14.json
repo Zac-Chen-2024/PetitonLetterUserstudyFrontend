@@ -1,0 +1,2048 @@
+{
+  "exhibit_id": "B14",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit B-14",
+          "bbox": {
+            "x1": 125,
+            "y1": 448,
+            "x2": 864,
+            "y2": 536
+          },
+          "bbox_list": [
+            125,
+            448,
+            864,
+            536
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit B-14"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Communication Association of China",
+          "bbox": {
+            "x1": 88,
+            "y1": 143,
+            "x2": 520,
+            "y2": 167
+          },
+          "bbox_list": [
+            88,
+            143,
+            520,
+            167
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "National Communication Studies Academic Group",
+          "bbox": {
+            "x1": 88,
+            "y1": 177,
+            "x2": 504,
+            "y2": 197
+          },
+          "bbox_list": [
+            88,
+            177,
+            504,
+            197
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"The Communication Association of China\" is a national academic organization for communication studies, approved by the Chinese Academy of Social Sciences and registered with the Ministry of Civil Affairs of the People's Republic of China. The full name of the association is \"The Communication Branch of the China News Culture Promotion Association,\" also known as the \"Communication Association of China.\"",
+          "bbox": {
+            "x1": 88,
+            "y1": 232,
+            "x2": 870,
+            "y2": 330
+          },
+          "bbox_list": [
+            88,
+            232,
+            870,
+            330
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Chinese Name: Communication Association of China",
+          "bbox": {
+            "x1": 90,
+            "y1": 368,
+            "x2": 530,
+            "y2": 389
+          },
+          "bbox_list": [
+            90,
+            368,
+            530,
+            389
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Foreign Name: Communication Association of China",
+          "bbox": {
+            "x1": 90,
+            "y1": 397,
+            "x2": 528,
+            "y2": 418
+          },
+          "bbox_list": [
+            90,
+            397,
+            528,
+            418
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Full Name: Journalism and Culture Promotion Association Communication Branch of China",
+          "bbox": {
+            "x1": 91,
+            "y1": 424,
+            "x2": 844,
+            "y2": 447
+          },
+          "bbox_list": [
+            91,
+            424,
+            844,
+            447
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Nature: National communication academic organization",
+          "bbox": {
+            "x1": 91,
+            "y1": 455,
+            "x2": 550,
+            "y2": 476
+          },
+          "bbox_list": [
+            91,
+            455,
+            550,
+            476
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Supervising Unit: Institute of Journalism and Communication, Chinese Academy of Social Sciences",
+          "bbox": {
+            "x1": 92,
+            "y1": 482,
+            "x2": 833,
+            "y2": 525
+          },
+          "bbox_list": [
+            92,
+            482,
+            833,
+            525
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Approving Authority: Chinese Academy of Social Sciences",
+          "bbox": {
+            "x1": 93,
+            "y1": 532,
+            "x2": 578,
+            "y2": 554
+          },
+          "bbox_list": [
+            93,
+            532,
+            578,
+            554
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Business Scope: Exploring global communication studies and more.",
+          "bbox": {
+            "x1": 93,
+            "y1": 561,
+            "x2": 648,
+            "y2": 583
+          },
+          "bbox_list": [
+            93,
+            561,
+            648,
+            583
+          ]
+        },
+        {
+          "block_id": "p2_b10",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Group Members",
+          "bbox": {
+            "x1": 95,
+            "y1": 623,
+            "x2": 242,
+            "y2": 642
+          },
+          "bbox_list": [
+            95,
+            623,
+            242,
+            642
+          ]
+        },
+        {
+          "block_id": "p2_b11",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "This society is based on the principle of voluntariness. It is made up of academic units such as journalism and communication departments and institutions from universities and colleges across the country, journalism and communication research organizations, and news media. It has faculty from university journalism and communication departments, journalists, etc., as individual members. The current president of the China News Culture Promotion Association is Dongdong Li, the Deputy Director of the National Press and Publication Administration. Professor Fan Jingyi serves as an advisor. Yungong Yin, the director of the Institute of Journalism and Communication at the Chinese Academy of Social Sciences, is the honorary president. The first president was researcher Anxiang Ming from the Institute of Journalism and Communication at the Chinese Academy of Social Sciences. The organization is under the supervision of the Institute of Journalism and Communication at the Chinese Academy of Social Sciences.",
+          "bbox": {
+            "x1": 94,
+            "y1": 647,
+            "x2": 888,
+            "y2": 875
+          },
+          "bbox_list": [
+            94,
+            647,
+            888,
+            875
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## Communication Association of China  \n\nNational Communication Studies Academic Group  \n\n\"The Communication Association of China\" is a national academic organization for communication studies, approved by the Chinese Academy of Social Sciences and registered with the Ministry of Civil Affairs of the People's Republic of China. The full name of the association is \"The Communication Branch of the China News Culture Promotion Association,\" also known as the \"Communication Association of China.\"  \n\nChinese Name: Communication Association of China  \n\nForeign Name: Communication Association of China  \n\nFull Name: Journalism and Culture Promotion Association Communication Branch of China  \n\nNature: National communication academic organization  \n\nSupervising Unit: Institute of Journalism and Communication, Chinese Academy of Social Sciences  \n\nApproving Authority: Chinese Academy of Social Sciences  \n\nBusiness Scope: Exploring global communication studies and more.  \n\n## Group Members  \n\nThis society is based on the principle of voluntariness. It is made up of academic units such as journalism and communication departments and institutions from universities and colleges across the country, journalism and communication research organizations, and news media. It has faculty from university journalism and communication departments, journalists, etc., as individual members. The current president of the China News Culture Promotion Association is Dongdong Li, the Deputy Director of the National Press and Publication Administration. Professor Fan Jingyi serves as an advisor. Yungong Yin, the director of the Institute of Journalism and Communication at the Chinese Academy of Social Sciences, is the honorary president. The first president was researcher Anxiang Ming from the Institute of Journalism and Communication at the Chinese Academy of Social Sciences. The organization is under the supervision of the Institute of Journalism and Communication at the Chinese Academy of Social Sciences."
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Business Scope",
+          "bbox": {
+            "x1": 88,
+            "y1": 79,
+            "x2": 223,
+            "y2": 97
+          },
+          "bbox_list": [
+            88,
+            79,
+            223,
+            97
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The business scope includes:",
+          "bbox": {
+            "x1": 88,
+            "y1": 108,
+            "x2": 325,
+            "y2": 127
+          },
+          "bbox_list": [
+            88,
+            108,
+            325,
+            127
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(1) Exploring the study of communication within a global scope and its close relationship with cultural traditions and cultural policies:",
+          "bbox": {
+            "x1": 88,
+            "y1": 130,
+            "x2": 870,
+            "y2": 175
+          },
+          "bbox_list": [
+            88,
+            130,
+            870,
+            175
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(2) Tracking and studying the development of global communication studies, especially the trends in communication studies in major developed and developing countries;",
+          "bbox": {
+            "x1": 88,
+            "y1": 180,
+            "x2": 840,
+            "y2": 223
+          },
+          "bbox_list": [
+            88,
+            180,
+            840,
+            223
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(3) Cooperating with the national social science research plan, carrying out theoretical research in communication studies, and guiding the direction of teaching and research in communication studies;",
+          "bbox": {
+            "x1": 88,
+            "y1": 227,
+            "x2": 870,
+            "y2": 291
+          },
+          "bbox_list": [
+            88,
+            227,
+            870,
+            291
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(4) Collaborating with national journalism and communication institutions and scholars, regularly holding national communication seminars, engaging in exchanges with scholars from Hong Kong, Macau, and Taiwan, running a society website, founding a society journal, and organizing theme reports, seminars, and roundtable discussions related to global communication research trends;",
+          "bbox": {
+            "x1": 90,
+            "y1": 294,
+            "x2": 877,
+            "y2": 395
+          },
+          "bbox_list": [
+            90,
+            294,
+            877,
+            395
+          ]
+        },
+        {
+          "block_id": "p3_b6",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(5) Encouraging and supporting (including financial support) the publication of outstanding works in communication studies;",
+          "bbox": {
+            "x1": 91,
+            "y1": 400,
+            "x2": 844,
+            "y2": 444
+          },
+          "bbox_list": [
+            91,
+            400,
+            844,
+            444
+          ]
+        },
+        {
+          "block_id": "p3_b7",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(6) Carrying out exchanges, training, and cooperative projects with communication academic groups and scholars from all over the world, promoting the development of communication studies in China and internationally;",
+          "bbox": {
+            "x1": 92,
+            "y1": 448,
+            "x2": 857,
+            "y2": 512
+          },
+          "bbox_list": [
+            92,
+            448,
+            857,
+            512
+          ]
+        },
+        {
+          "block_id": "p3_b8",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(7) Providing theoretical and practical advice on news and communication for government agencies, social groups, and news organizations.",
+          "bbox": {
+            "x1": 94,
+            "y1": 514,
+            "x2": 835,
+            "y2": 559
+          },
+          "bbox_list": [
+            94,
+            514,
+            835,
+            559
+          ]
+        },
+        {
+          "block_id": "p3_b9",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Organizational Charter",
+          "bbox": {
+            "x1": 98,
+            "y1": 598,
+            "x2": 305,
+            "y2": 617
+          },
+          "bbox_list": [
+            98,
+            598,
+            305,
+            617
+          ]
+        },
+        {
+          "block_id": "p3_b10",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Charter Description",
+          "bbox": {
+            "x1": 99,
+            "y1": 627,
+            "x2": 263,
+            "y2": 646
+          },
+          "bbox_list": [
+            99,
+            627,
+            263,
+            646
+          ]
+        },
+        {
+          "block_id": "p3_b11",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "I. This charter was formulated according to the \"Regulations on the Registration and Management of Social Organizations\" issued by the State Council on October 25, 1998, and relevant national policies.",
+          "bbox": {
+            "x1": 99,
+            "y1": 650,
+            "x2": 850,
+            "y2": 713
+          },
+          "bbox_list": [
+            99,
+            650,
+            850,
+            713
+          ]
+        },
+        {
+          "block_id": "p3_b12",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "II. This charter aims to provide a basis and regulate the group behavior of the \"Communication Branch of the China News Culture Promotion Association\" (referred to as the \"China Communication Association\") during academic and social activities.",
+          "bbox": {
+            "x1": 100,
+            "y1": 715,
+            "x2": 872,
+            "y2": 780
+          },
+          "bbox_list": [
+            100,
+            715,
+            872,
+            780
+          ]
+        },
+        {
+          "block_id": "p3_b13",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Chapter 1: General Provisions",
+          "bbox": {
+            "x1": 102,
+            "y1": 818,
+            "x2": 368,
+            "y2": 838
+          },
+          "bbox_list": [
+            102,
+            818,
+            368,
+            838
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## Business Scope  \n\nThe business scope includes:  \n\n(1) Exploring the study of communication within a global scope and its close relationship with cultural traditions and cultural policies:  \n\n(2) Tracking and studying the development of global communication studies, especially the trends in communication studies in major developed and developing countries;  \n\n(3) Cooperating with the national social science research plan, carrying out theoretical research in communication studies, and guiding the direction of teaching and research in communication studies;  \n\n(4) Collaborating with national journalism and communication institutions and scholars, regularly holding national communication seminars, engaging in exchanges with scholars from Hong Kong, Macau, and Taiwan, running a society website, founding a society journal, and organizing theme reports, seminars, and roundtable discussions related to global communication research trends;  \n\n(5) Encouraging and supporting (including financial support) the publication of outstanding works in communication studies;  \n\n(6) Carrying out exchanges, training, and cooperative projects with communication academic groups and scholars from all over the world, promoting the development of communication studies in China and internationally;  \n\n(7) Providing theoretical and practical advice on news and communication for government agencies, social groups, and news organizations.  \n\n## Organizational Charter  \n\nCharter Description  \n\nI. This charter was formulated according to the \"Regulations on the Registration and Management of Social Organizations\" issued by the State Council on October 25, 1998, and relevant national policies.  \n\nII. This charter aims to provide a basis and regulate the group behavior of the \"Communication Branch of the China News Culture Promotion Association\" (referred to as the \"China Communication Association\") during academic and social activities.  \n\n## Chapter 1: General Provisions"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 1: The name of this organization is the \"Communication Branch of the China News Culture Promotion Association\" (referred to as the \"Communication Association of China\") (CAC. Communication Association of China)",
+          "bbox": {
+            "x1": 88,
+            "y1": 75,
+            "x2": 844,
+            "y2": 135
+          },
+          "bbox_list": [
+            88,
+            75,
+            844,
+            135
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 2: The nature of this organization",
+          "bbox": {
+            "x1": 90,
+            "y1": 173,
+            "x2": 424,
+            "y2": 193
+          },
+          "bbox_list": [
+            90,
+            173,
+            424,
+            193
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "This organization, based on the principle of voluntariness, is an academic group composed of journalism and communication colleges and departments of national universities, news and communication research institutions, and news media as unit members. It includes faculty from journalism and communication colleges and departments, researchers from news and communication research institutions, and journalists as individual members.",
+          "bbox": {
+            "x1": 89,
+            "y1": 200,
+            "x2": 866,
+            "y2": 299
+          },
+          "bbox_list": [
+            89,
+            200,
+            866,
+            299
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 3: The purpose of this organization",
+          "bbox": {
+            "x1": 91,
+            "y1": 308,
+            "x2": 438,
+            "y2": 328
+          },
+          "bbox_list": [
+            91,
+            308,
+            438,
+            328
+          ]
+        },
+        {
+          "block_id": "p4_b4",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "This organization abides by the constitution, laws, regulations, and national policies, adheres to social ethics, unites scholars in communication studies nationwide, as well as all groups and individuals interested in communication studies. It is committed to addressing theoretical and practical issues arising in social practice of communication studies, promoting China's modernization, and the healthy development of global communication exchanges.",
+          "bbox": {
+            "x1": 91,
+            "y1": 334,
+            "x2": 866,
+            "y2": 432
+          },
+          "bbox_list": [
+            91,
+            334,
+            866,
+            432
+          ]
+        },
+        {
+          "block_id": "p4_b5",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 4: This organization accepts the guidance and supervision of its business supervising unit and social organization registration management authorities. The business supervising unit of this organization is the Institute of Journalism and Communication of the Chinese Academy of Social Sciences. It will set up three- tiered branches at the appropriate regions and times, subject to the approval of the business supervising unit.",
+          "bbox": {
+            "x1": 92,
+            "y1": 438,
+            "x2": 877,
+            "y2": 538
+          },
+          "bbox_list": [
+            92,
+            438,
+            877,
+            538
+          ]
+        },
+        {
+          "block_id": "p4_b6",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 5: The domicile of this organization is in Beijing.",
+          "bbox": {
+            "x1": 93,
+            "y1": 545,
+            "x2": 555,
+            "y2": 566
+          },
+          "bbox_list": [
+            93,
+            545,
+            555,
+            566
+          ]
+        },
+        {
+          "block_id": "p4_b7",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Chapter 2: Scope of Business",
+          "bbox": {
+            "x1": 95,
+            "y1": 635,
+            "x2": 347,
+            "y2": 654
+          },
+          "bbox_list": [
+            95,
+            635,
+            347,
+            654
+          ]
+        },
+        {
+          "block_id": "p4_b8",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 6: The scope of business of this organization",
+          "bbox": {
+            "x1": 94,
+            "y1": 662,
+            "x2": 520,
+            "y2": 683
+          },
+          "bbox_list": [
+            94,
+            662,
+            520,
+            683
+          ]
+        },
+        {
+          "block_id": "p4_b9",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(I) Academic Research",
+          "bbox": {
+            "x1": 95,
+            "y1": 692,
+            "x2": 283,
+            "y2": 711
+          },
+          "bbox_list": [
+            95,
+            692,
+            283,
+            711
+          ]
+        },
+        {
+          "block_id": "p4_b10",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Track and study global communication studies, especially the development trends in communication studies in major developed and developing countries.",
+          "bbox": {
+            "x1": 95,
+            "y1": 718,
+            "x2": 780,
+            "y2": 760
+          },
+          "bbox_list": [
+            95,
+            718,
+            780,
+            760
+          ]
+        },
+        {
+          "block_id": "p4_b11",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Collaborate with national news and communication institutions and scholars, regularly convene national communication seminars, carry out exchanges with scholars from Hong Kong, Macau, and Taiwan, establish a society website, create a society journal, and organize theme report meetings, seminars, and roundtable discussions related to global communication research trends.",
+          "bbox": {
+            "x1": 96,
+            "y1": 765,
+            "x2": 880,
+            "y2": 845
+          },
+          "bbox_list": [
+            96,
+            765,
+            880,
+            845
+          ]
+        },
+        {
+          "block_id": "p4_b12",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Encourage and support the publication of excellent communication studies books and journals.",
+          "bbox": {
+            "x1": 98,
+            "y1": 850,
+            "x2": 869,
+            "y2": 873
+          },
+          "bbox_list": [
+            98,
+            850,
+            869,
+            873
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nArticle 1: The name of this organization is the \"Communication Branch of the China News Culture Promotion Association\" (referred to as the \"Communication Association of China\") (CAC. Communication Association of China)  \n\nArticle 2: The nature of this organization  \n\nThis organization, based on the principle of voluntariness, is an academic group composed of journalism and communication colleges and departments of national universities, news and communication research institutions, and news media as unit members. It includes faculty from journalism and communication colleges and departments, researchers from news and communication research institutions, and journalists as individual members.  \n\nArticle 3: The purpose of this organization  \n\nThis organization abides by the constitution, laws, regulations, and national policies, adheres to social ethics, unites scholars in communication studies nationwide, as well as all groups and individuals interested in communication studies. It is committed to addressing theoretical and practical issues arising in social practice of communication studies, promoting China's modernization, and the healthy development of global communication exchanges.  \n\nArticle 4: This organization accepts the guidance and supervision of its business supervising unit and social organization registration management authorities. The business supervising unit of this organization is the Institute of Journalism and Communication of the Chinese Academy of Social Sciences. It will set up three- tiered branches at the appropriate regions and times, subject to the approval of the business supervising unit.  \n\nArticle 5: The domicile of this organization is in Beijing.  \n\n## Chapter 2: Scope of Business  \n\nArticle 6: The scope of business of this organization  \n\n(I) Academic Research  \n\nTrack and study global communication studies, especially the development trends in communication studies in major developed and developing countries.  \n\nCollaborate with national news and communication institutions and scholars, regularly convene national communication seminars, carry out exchanges with scholars from Hong Kong, Macau, and Taiwan, establish a society website, create a society journal, and organize theme report meetings, seminars, and roundtable discussions related to global communication research trends.  \n\nEncourage and support the publication of excellent communication studies books and journals."
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(II) News and Communication Education",
+          "bbox": {
+            "x1": 90,
+            "y1": 80,
+            "x2": 430,
+            "y2": 100
+          },
+          "bbox_list": [
+            90,
+            80,
+            430,
+            100
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In cooperation with the national social science research planning, carry out communication theory research, and set and guide the direction of communication education and scientific research development.",
+          "bbox": {
+            "x1": 90,
+            "y1": 103,
+            "x2": 832,
+            "y2": 166
+          },
+          "bbox_list": [
+            90,
+            103,
+            832,
+            166
+          ]
+        },
+        {
+          "block_id": "p5_b2",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Explore the relationship between global communication research and the cultural traditions and cultural policies most closely associated with it.",
+          "bbox": {
+            "x1": 91,
+            "y1": 169,
+            "x2": 867,
+            "y2": 213
+          },
+          "bbox_list": [
+            91,
+            169,
+            867,
+            213
+          ]
+        },
+        {
+          "block_id": "p5_b3",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(III) News and Communication Practice",
+          "bbox": {
+            "x1": 92,
+            "y1": 222,
+            "x2": 422,
+            "y2": 243
+          },
+          "bbox_list": [
+            92,
+            222,
+            422,
+            243
+          ]
+        },
+        {
+          "block_id": "p5_b4",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Carry out exchanges, training, and cooperation projects with communication academic groups and scholars from around the world, promoting the development of communication studies in China and internationally.",
+          "bbox": {
+            "x1": 93,
+            "y1": 246,
+            "x2": 860,
+            "y2": 310
+          },
+          "bbox_list": [
+            93,
+            246,
+            860,
+            310
+          ]
+        },
+        {
+          "block_id": "p5_b5",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Provide theoretical and practical consultation on news and communication for government agencies, social groups, and news organizations.",
+          "bbox": {
+            "x1": 95,
+            "y1": 313,
+            "x2": 835,
+            "y2": 358
+          },
+          "bbox_list": [
+            95,
+            313,
+            835,
+            358
+          ]
+        },
+        {
+          "block_id": "p5_b6",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Chapter 3: Membership",
+          "bbox": {
+            "x1": 98,
+            "y1": 397,
+            "x2": 310,
+            "y2": 417
+          },
+          "bbox_list": [
+            98,
+            397,
+            310,
+            417
+          ]
+        },
+        {
+          "block_id": "p5_b7",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 7: The \"Communication Association of China\" adopts the principle of voluntary membership. Members are divided into institutional members and individual members. Institutional members are the communication faculties or departments of national universities, news research institutions, and news organizations; individual members are teachers of communication faculties or departments of universities, scholars from news research institutions, professionals in journalism and media, and all individuals interested in communication studies who meet the necessary conditions.",
+          "bbox": {
+            "x1": 98,
+            "y1": 419,
+            "x2": 888,
+            "y2": 560
+          },
+          "bbox_list": [
+            98,
+            419,
+            888,
+            560
+          ]
+        },
+        {
+          "block_id": "p5_b8",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Units applying to establish branches under this Association must first meet the membership conditions of this Association, submit an application for the establishment of a branch, request approval from the board of directors, and accept supervision and management from the Association's business supervising unit.",
+          "bbox": {
+            "x1": 100,
+            "y1": 560,
+            "x2": 871,
+            "y2": 644
+          },
+          "bbox_list": [
+            100,
+            560,
+            871,
+            644
+          ]
+        },
+        {
+          "block_id": "p5_b9",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 8: Members applying to join this Association must meet the following conditions:",
+          "bbox": {
+            "x1": 102,
+            "y1": 648,
+            "x2": 830,
+            "y2": 672
+          },
+          "bbox_list": [
+            102,
+            648,
+            830,
+            672
+          ]
+        },
+        {
+          "block_id": "p5_b10",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1. Support the constitution of this Association; 2. Have the willingness to join this Association; 3. Have a certain influence in the business (industry, discipline) field of this Association; 4. Engage in long-term research in communication studies, with publicly published academic works.",
+          "bbox": {
+            "x1": 135,
+            "y1": 680,
+            "x2": 870,
+            "y2": 779
+          },
+          "bbox_list": [
+            135,
+            680,
+            870,
+            779
+          ]
+        },
+        {
+          "block_id": "p5_b11",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 9: The procedures for membership admission are as follows:",
+          "bbox": {
+            "x1": 108,
+            "y1": 812,
+            "x2": 662,
+            "y2": 834
+          },
+          "bbox_list": [
+            108,
+            812,
+            662,
+            834
+          ]
+        },
+        {
+          "block_id": "p5_b12",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(1) Submit an application for membership; (2) Approval through discussion by the Board of Directors; (3) Pay the membership fee and fill out the form.",
+          "bbox": {
+            "x1": 140,
+            "y1": 842,
+            "x2": 626,
+            "y2": 902
+          },
+          "bbox_list": [
+            140,
+            842,
+            626,
+            902
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n(II) News and Communication Education  \n\nIn cooperation with the national social science research planning, carry out communication theory research, and set and guide the direction of communication education and scientific research development.  \n\nExplore the relationship between global communication research and the cultural traditions and cultural policies most closely associated with it.  \n\n(III) News and Communication Practice  \n\nCarry out exchanges, training, and cooperation projects with communication academic groups and scholars from around the world, promoting the development of communication studies in China and internationally.  \n\nProvide theoretical and practical consultation on news and communication for government agencies, social groups, and news organizations.  \n\n## Chapter 3: Membership  \n\nArticle 7: The \"Communication Association of China\" adopts the principle of voluntary membership. Members are divided into institutional members and individual members. Institutional members are the communication faculties or departments of national universities, news research institutions, and news organizations; individual members are teachers of communication faculties or departments of universities, scholars from news research institutions, professionals in journalism and media, and all individuals interested in communication studies who meet the necessary conditions.  \n\nUnits applying to establish branches under this Association must first meet the membership conditions of this Association, submit an application for the establishment of a branch, request approval from the board of directors, and accept supervision and management from the Association's business supervising unit.  \n\nArticle 8: Members applying to join this Association must meet the following conditions:  \n\n1. Support the constitution of this Association; \n\n2. Have the willingness to join this Association; \n\n3. Have a certain influence in the business (industry, discipline) field of this Association; \n\n4. Engage in long-term research in communication studies, with publicly published academic works.  \n\nArticle 9: The procedures for membership admission are as follows:  \n\n(1) Submit an application for membership; \n\n(2) Approval through discussion by the Board of Directors; \n\n(3) Pay the membership fee and fill out the form."
+    },
+    {
+      "page_number": 6,
+      "text_blocks": [
+        {
+          "block_id": "p6_b0",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 10: Members enjoy the following rights:",
+          "bbox": {
+            "x1": 91,
+            "y1": 108,
+            "x2": 483,
+            "y2": 128
+          },
+          "bbox_list": [
+            91,
+            108,
+            483,
+            128
+          ]
+        },
+        {
+          "block_id": "p6_b1",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(1) The right to vote, be elected, and make decisions in this organization; (2) The right to participate in the activities of this organization; (3) The right to have priority to the services of this organization (such as web pages, periodicals, conferences); (4) The right to criticize, make suggestions, and supervise the work of this organization; (5) The right to join and leave the organization voluntarily.",
+          "bbox": {
+            "x1": 181,
+            "y1": 133,
+            "x2": 870,
+            "y2": 272
+          },
+          "bbox_list": [
+            181,
+            133,
+            870,
+            272
+          ]
+        },
+        {
+          "block_id": "p6_b2",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 11: Members shall fulfill the following obligations:",
+          "bbox": {
+            "x1": 94,
+            "y1": 306,
+            "x2": 575,
+            "y2": 328
+          },
+          "bbox_list": [
+            94,
+            306,
+            575,
+            328
+          ]
+        },
+        {
+          "block_id": "p6_b3",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(1) Carry out the resolutions of this organization; (2) Protect the legitimate rights and interests of this organization; (3) Complete the work assigned by this organization; (4) Pay the membership fee as stipulated (to be determined separately); (5) Report to the organization and provide relevant materials;",
+          "bbox": {
+            "x1": 125,
+            "y1": 336,
+            "x2": 709,
+            "y2": 433
+          },
+          "bbox_list": [
+            125,
+            336,
+            709,
+            433
+          ]
+        },
+        {
+          "block_id": "p6_b4",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 12: Members who wish to withdraw from the organization should notify the organization in writing and return their membership card. If a member does not pay the membership fee or does not participate in the activities of the organization for a year, they are considered to have withdrawn automatically.",
+          "bbox": {
+            "x1": 98,
+            "y1": 466,
+            "x2": 884,
+            "y2": 548
+          },
+          "bbox_list": [
+            98,
+            466,
+            884,
+            548
+          ]
+        },
+        {
+          "block_id": "p6_b5",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 13: If a member seriously violates the rules of this organization, they may be expelled by a vote of the Board of Directors or the Executive Board.",
+          "bbox": {
+            "x1": 100,
+            "y1": 580,
+            "x2": 884,
+            "y2": 624
+          },
+          "bbox_list": [
+            100,
+            580,
+            884,
+            624
+          ]
+        },
+        {
+          "block_id": "p6_b6",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Chapter 4: Organization Structure and Election/Removal of Responsible Persons",
+          "bbox": {
+            "x1": 102,
+            "y1": 660,
+            "x2": 805,
+            "y2": 683
+          },
+          "bbox_list": [
+            102,
+            660,
+            805,
+            683
+          ]
+        },
+        {
+          "block_id": "p6_b7",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 14: The highest authority of this group is the General Assembly (or Representative Assembly). The powers of the General Assembly (or Representative Assembly) are:",
+          "bbox": {
+            "x1": 103,
+            "y1": 687,
+            "x2": 836,
+            "y2": 731
+          },
+          "bbox_list": [
+            103,
+            687,
+            836,
+            731
+          ]
+        },
+        {
+          "block_id": "p6_b8",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1. To draft and amend the constitution; 2. To elect and remove directors; 3. To review the work report and financial report of the board of directors; 4. To decide on termination matters; 5. To decide on other significant matters.",
+          "bbox": {
+            "x1": 134,
+            "y1": 738,
+            "x2": 750,
+            "y2": 838
+          },
+          "bbox_list": [
+            134,
+            738,
+            750,
+            838
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nArticle 10: Members enjoy the following rights:  \n\n(1) The right to vote, be elected, and make decisions in this organization; \n\n(2) The right to participate in the activities of this organization; \n\n(3) The right to have priority to the services of this organization (such as web pages, periodicals, conferences); \n\n(4) The right to criticize, make suggestions, and supervise the work of this organization; \n\n(5) The right to join and leave the organization voluntarily.  \n\nArticle 11: Members shall fulfill the following obligations:  \n\n(1) Carry out the resolutions of this organization; \n\n(2) Protect the legitimate rights and interests of this organization; \n\n(3) Complete the work assigned by this organization; \n\n(4) Pay the membership fee as stipulated (to be determined separately); \n\n(5) Report to the organization and provide relevant materials;  \n\nArticle 12: Members who wish to withdraw from the organization should notify the organization in writing and return their membership card. If a member does not pay the membership fee or does not participate in the activities of the organization for a year, they are considered to have withdrawn automatically.  \n\nArticle 13: If a member seriously violates the rules of this organization, they may be expelled by a vote of the Board of Directors or the Executive Board.  \n\n## Chapter 4: Organization Structure and Election/Removal of Responsible Persons  \n\nArticle 14: The highest authority of this group is the General Assembly (or Representative Assembly). The powers of the General Assembly (or Representative Assembly) are:  \n\n1. To draft and amend the constitution; \n\n2. To elect and remove directors; \n\n3. To review the work report and financial report of the board of directors; \n\n4. To decide on termination matters; \n\n5. To decide on other significant matters."
+    },
+    {
+      "page_number": 7,
+      "text_blocks": [
+        {
+          "block_id": "p7_b0",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 15: A General Assembly (or Representative Assembly) requires more than 2/3 of the members (or representatives) to be present for the meeting to be convened. Its resolution must be passed by a majority of the attending members (or member representatives) to take effect.",
+          "bbox": {
+            "x1": 97,
+            "y1": 75,
+            "x2": 886,
+            "y2": 135
+          },
+          "bbox_list": [
+            97,
+            75,
+            886,
+            135
+          ]
+        },
+        {
+          "block_id": "p7_b1",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 16: The General Assembly (or Representative Assembly) takes place every four years. If there is a need to change the term due to special circumstances, it must be voted on by the board of directors, reviewed by the supervising authority, and approved by the association registration management authority. However, the postponement should not exceed one year.",
+          "bbox": {
+            "x1": 98,
+            "y1": 170,
+            "x2": 881,
+            "y2": 250
+          },
+          "bbox_list": [
+            98,
+            170,
+            881,
+            250
+          ]
+        },
+        {
+          "block_id": "p7_b2",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 17: The board of directors is the executive body of the General Assembly (or Representative Assembly). It leads the daily work of the group during the adjournment and is accountable to the General Assembly (or Representative Assembly).",
+          "bbox": {
+            "x1": 100,
+            "y1": 285,
+            "x2": 860,
+            "y2": 346
+          },
+          "bbox_list": [
+            100,
+            285,
+            860,
+            346
+          ]
+        },
+        {
+          "block_id": "p7_b3",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 18: The powers of the Board of Directors are:",
+          "bbox": {
+            "x1": 101,
+            "y1": 383,
+            "x2": 534,
+            "y2": 404
+          },
+          "bbox_list": [
+            101,
+            383,
+            534,
+            404
+          ]
+        },
+        {
+          "block_id": "p7_b4",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(1) To implement resolutions of the general assembly (or the delegate assembly); (2) To elect and dismiss the Chairman (President), Vice-Chairman (Vice President), and Secretary-General; (3) To prepare for the convocation of the general assembly (or the delegate assembly); (4) To report on work and financial status to the general assembly (or the delegate assembly); (5) To decide on the admission and expulsion of members; (6) To decide on the establishment of offices, branches, representative agencies, and entity agencies; (7) To decide on the appointment of the Deputy Secretary-General and the heads of various agencies; (8) To lead the work of all organizations within this group; (9) To establish internal management systems; (10) To decide on other major matters.",
+          "bbox": {
+            "x1": 130,
+            "y1": 410,
+            "x2": 894,
+            "y2": 664
+          },
+          "bbox_list": [
+            130,
+            410,
+            894,
+            664
+          ]
+        },
+        {
+          "block_id": "p7_b5",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 19: The Board of Directors can only be convened when more than 2/3 of the directors are present, and its resolutions can only be effective after they are passed by more than 2/3 of the attending directors.",
+          "bbox": {
+            "x1": 105,
+            "y1": 694,
+            "x2": 894,
+            "y2": 755
+          },
+          "bbox_list": [
+            105,
+            694,
+            894,
+            755
+          ]
+        },
+        {
+          "block_id": "p7_b6",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 20: The Board of Directors shall hold at least one meeting each year; under special circumstances, meetings can also be held by correspondence.",
+          "bbox": {
+            "x1": 108,
+            "y1": 790,
+            "x2": 842,
+            "y2": 832
+          },
+          "bbox_list": [
+            108,
+            790,
+            842,
+            832
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nArticle 15: A General Assembly (or Representative Assembly) requires more than 2/3 of the members (or representatives) to be present for the meeting to be convened. Its resolution must be passed by a majority of the attending members (or member representatives) to take effect.  \n\nArticle 16: The General Assembly (or Representative Assembly) takes place every four years. If there is a need to change the term due to special circumstances, it must be voted on by the board of directors, reviewed by the supervising authority, and approved by the association registration management authority. However, the postponement should not exceed one year.  \n\nArticle 17: The board of directors is the executive body of the General Assembly (or Representative Assembly). It leads the daily work of the group during the adjournment and is accountable to the General Assembly (or Representative Assembly).  \n\nArticle 18: The powers of the Board of Directors are:  \n\n(1) To implement resolutions of the general assembly (or the delegate assembly); \n\n(2) To elect and dismiss the Chairman (President), Vice-Chairman (Vice President), and Secretary-General; \n\n(3) To prepare for the convocation of the general assembly (or the delegate assembly); \n\n(4) To report on work and financial status to the general assembly (or the delegate assembly); \n\n(5) To decide on the admission and expulsion of members; \n\n(6) To decide on the establishment of offices, branches, representative agencies, and entity agencies; \n\n(7) To decide on the appointment of the Deputy Secretary-General and the heads of various agencies; \n\n(8) To lead the work of all organizations within this group; \n\n(9) To establish internal management systems; \n\n(10) To decide on other major matters.  \n\nArticle 19: The Board of Directors can only be convened when more than 2/3 of the directors are present, and its resolutions can only be effective after they are passed by more than 2/3 of the attending directors.  \n\nArticle 20: The Board of Directors shall hold at least one meeting each year; under special circumstances, meetings can also be held by correspondence."
+    },
+    {
+      "page_number": 8,
+      "text_blocks": [
+        {
+          "block_id": "p8_b0",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 21: This group establishes a Standing Board of Directors. The Standing Board of Directors is elected by the Board of Directors and exercises the powers of items 1, 3, 5, 6, 7, 8, and 9 of Article 18 during the recess of the Board of Directors, and is responsible to the Board of Directors (the number of standing directors shall not exceed 1/3 of the number of directors).",
+          "bbox": {
+            "x1": 98,
+            "y1": 73,
+            "x2": 888,
+            "y2": 153
+          },
+          "bbox_list": [
+            98,
+            73,
+            888,
+            153
+          ]
+        },
+        {
+          "block_id": "p8_b1",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 22: The Standing Board of Directors can only be convened when more than 2/3 of the standing directors are present, and its resolutions can only be effective after they are passed by more than 2/3 of the attending standing directors.",
+          "bbox": {
+            "x1": 99,
+            "y1": 189,
+            "x2": 868,
+            "y2": 250
+          },
+          "bbox_list": [
+            99,
+            189,
+            868,
+            250
+          ]
+        },
+        {
+          "block_id": "p8_b2",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 23: The Standing Board of Directors shall hold at least one meeting every half year; under special circumstances, meetings can also be held by correspondence.",
+          "bbox": {
+            "x1": 100,
+            "y1": 285,
+            "x2": 844,
+            "y2": 327
+          },
+          "bbox_list": [
+            100,
+            285,
+            844,
+            327
+          ]
+        },
+        {
+          "block_id": "p8_b3",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 24: The president, vice- president, and secretary- general of this organization must meet the following conditions:",
+          "bbox": {
+            "x1": 101,
+            "y1": 362,
+            "x2": 867,
+            "y2": 403
+          },
+          "bbox_list": [
+            101,
+            362,
+            867,
+            403
+          ]
+        },
+        {
+          "block_id": "p8_b4",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(1) Uphold the party's line, principles, and policies, with good political qualities; (2) Have significant influence in the business field of this organization; (3) The maximum age for the president, vice-president, and secretary-general should not exceed 70 years old; (4) Be physically healthy and able to maintain regular work; (5) Have not been subject to criminal penalties depriving political rights; (6) Have full civil capacity.",
+          "bbox": {
+            "x1": 131,
+            "y1": 409,
+            "x2": 857,
+            "y2": 548
+          },
+          "bbox_list": [
+            131,
+            409,
+            857,
+            548
+          ]
+        },
+        {
+          "block_id": "p8_b5",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 25: If the president, vice- president, and secretary- general of this organization exceed the maximum age limit, they must be approved by the board of directors, reviewed by the business supervising unit, and approved by the association registration management authority before they can take office.",
+          "bbox": {
+            "x1": 105,
+            "y1": 580,
+            "x2": 888,
+            "y2": 662
+          },
+          "bbox_list": [
+            105,
+            580,
+            888,
+            662
+          ]
+        },
+        {
+          "block_id": "p8_b6",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 26: The term of office for the president, vice- president, and secretary- general of this organization is four years. The term of the president, vice- president, and secretary- general shall not exceed two terms. If the term needs to be extended due to special circumstances, it must be approved by more than two- thirds of the members (or member representatives) at the general meeting (or representative meeting), reviewed by the business supervising unit, and approved by the association registration management authority before they can take Office.",
+          "bbox": {
+            "x1": 106,
+            "y1": 696,
+            "x2": 890,
+            "y2": 813
+          },
+          "bbox_list": [
+            106,
+            696,
+            890,
+            813
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nArticle 21: This group establishes a Standing Board of Directors. The Standing Board of Directors is elected by the Board of Directors and exercises the powers of items 1, 3, 5, 6, 7, 8, and 9 of Article 18 during the recess of the Board of Directors, and is responsible to the Board of Directors (the number of standing directors shall not exceed 1/3 of the number of directors).  \n\nArticle 22: The Standing Board of Directors can only be convened when more than 2/3 of the standing directors are present, and its resolutions can only be effective after they are passed by more than 2/3 of the attending standing directors.  \n\nArticle 23: The Standing Board of Directors shall hold at least one meeting every half year; under special circumstances, meetings can also be held by correspondence.  \n\nArticle 24: The president, vice- president, and secretary- general of this organization must meet the following conditions:  \n\n(1) Uphold the party's line, principles, and policies, with good political qualities; \n\n(2) Have significant influence in the business field of this organization; \n\n(3) The maximum age for the president, vice-president, and secretary-general should not exceed 70 years old; \n\n(4) Be physically healthy and able to maintain regular work; \n\n(5) Have not been subject to criminal penalties depriving political rights; \n\n(6) Have full civil capacity.  \n\nArticle 25: If the president, vice- president, and secretary- general of this organization exceed the maximum age limit, they must be approved by the board of directors, reviewed by the business supervising unit, and approved by the association registration management authority before they can take office.  \n\nArticle 26: The term of office for the president, vice- president, and secretary- general of this organization is four years. The term of the president, vice- president, and secretary- general shall not exceed two terms. If the term needs to be extended due to special circumstances, it must be approved by more than two- thirds of the members (or member representatives) at the general meeting (or representative meeting), reviewed by the business supervising unit, and approved by the association registration management authority before they can take Office."
+    },
+    {
+      "page_number": 9,
+      "text_blocks": [
+        {
+          "block_id": "p9_b0",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 27: The president of this group is the legal representative of the group, and is recommended by the competent authority. The legal representative of this group shall not concurrently serve as the legal representative of other groups.",
+          "bbox": {
+            "x1": 95,
+            "y1": 75,
+            "x2": 825,
+            "y2": 135
+          },
+          "bbox_list": [
+            95,
+            75,
+            825,
+            135
+          ]
+        },
+        {
+          "block_id": "p9_b1",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 28: The president of this group exercises the following powers:",
+          "bbox": {
+            "x1": 97,
+            "y1": 172,
+            "x2": 673,
+            "y2": 195
+          },
+          "bbox_list": [
+            97,
+            172,
+            673,
+            195
+          ]
+        },
+        {
+          "block_id": "p9_b2",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(1) To convene and preside over the board of directors (or standing committee); (2) To inspect the implementation of resolutions by the general assembly of members, the board of directors (or standing committee); (3) To represent this group in signing relevant important documents; (4) To guide and coordinate the work of the secretary-general and deputy secretary-general.",
+          "bbox": {
+            "x1": 128,
+            "y1": 201,
+            "x2": 872,
+            "y2": 299
+          },
+          "bbox_list": [
+            128,
+            201,
+            872,
+            299
+          ]
+        },
+        {
+          "block_id": "p9_b3",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 29: The secretary- general of this group exercises the following powers:",
+          "bbox": {
+            "x1": 100,
+            "y1": 334,
+            "x2": 741,
+            "y2": 357
+          },
+          "bbox_list": [
+            100,
+            334,
+            741,
+            357
+          ]
+        },
+        {
+          "block_id": "p9_b4",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(1) To preside over the daily work of the office, organize the implementation of the annual work plan; (2) To coordinate the work of various branches, representative offices, and substantive institutions; (3) To nominate the deputy secretary-general as well as the main person in charge of each office, branch, representative office, and substantive institution, for decision by the board of directors or standing committee; (4) To decide on the hiring of full-time staff of the office, representative offices, and substantive institutions; (5) To report to the president on major daily work involving academic activities, personnel, funds, etc; (6) To handle other daily affairs.",
+          "bbox": {
+            "x1": 128,
+            "y1": 362,
+            "x2": 890,
+            "y2": 596
+          },
+          "bbox_list": [
+            128,
+            362,
+            890,
+            596
+          ]
+        },
+        {
+          "block_id": "p9_b5",
+          "page_number": 9,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Chapter 5: Asset Management, Use Principles",
+          "bbox": {
+            "x1": 105,
+            "y1": 633,
+            "x2": 504,
+            "y2": 653
+          },
+          "bbox_list": [
+            105,
+            633,
+            504,
+            653
+          ]
+        },
+        {
+          "block_id": "p9_b6",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 30 The sources of funds for this organization are:",
+          "bbox": {
+            "x1": 106,
+            "y1": 660,
+            "x2": 568,
+            "y2": 681
+          },
+          "bbox_list": [
+            106,
+            660,
+            568,
+            681
+          ]
+        },
+        {
+          "block_id": "p9_b7",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(1) Membership fees; (2) Donations; (3) Government subsidies; (4) Income from activities or services carried out within the approved business scope; (5) Interest; (6) Other lawful income.",
+          "bbox": {
+            "x1": 137,
+            "y1": 691,
+            "x2": 836,
+            "y2": 807
+          },
+          "bbox_list": [
+            137,
+            691,
+            836,
+            807
+          ]
+        },
+        {
+          "block_id": "p9_b8",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 31 This organization collects membership fees in accordance with relevant national regulations.",
+          "bbox": {
+            "x1": 109,
+            "y1": 838,
+            "x2": 850,
+            "y2": 881
+          },
+          "bbox_list": [
+            109,
+            838,
+            850,
+            881
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nArticle 27: The president of this group is the legal representative of the group, and is recommended by the competent authority. The legal representative of this group shall not concurrently serve as the legal representative of other groups.  \n\nArticle 28: The president of this group exercises the following powers:  \n\n(1) To convene and preside over the board of directors (or standing committee); \n\n(2) To inspect the implementation of resolutions by the general assembly of members, the board of directors (or standing committee); \n\n(3) To represent this group in signing relevant important documents; \n\n(4) To guide and coordinate the work of the secretary-general and deputy secretary-general.  \n\nArticle 29: The secretary- general of this group exercises the following powers:  \n\n(1) To preside over the daily work of the office, organize the implementation of the annual work plan; \n\n(2) To coordinate the work of various branches, representative offices, and substantive institutions; \n\n(3) To nominate the deputy secretary-general as well as the main person in charge of each office, branch, representative office, and substantive institution, for decision by the board of directors or standing committee; \n\n(4) To decide on the hiring of full-time staff of the office, representative offices, and substantive institutions; \n\n(5) To report to the president on major daily work involving academic activities, personnel, funds, etc; \n\n(6) To handle other daily affairs.  \n\n## Chapter 5: Asset Management, Use Principles  \n\nArticle 30 The sources of funds for this organization are:  \n\n(1) Membership fees; \n\n(2) Donations; \n\n(3) Government subsidies; \n\n(4) Income from activities or services carried out within the approved business scope; \n\n(5) Interest; \n\n(6) Other lawful income.  \n\nArticle 31 This organization collects membership fees in accordance with relevant national regulations."
+    },
+    {
+      "page_number": 10,
+      "text_blocks": [
+        {
+          "block_id": "p10_b0",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 32 The funds of this organization must be used for the business scope and the development of the cause stipulated in this charter, and may not be distributed among the members.",
+          "bbox": {
+            "x1": 99,
+            "y1": 103,
+            "x2": 825,
+            "y2": 163
+          },
+          "bbox_list": [
+            99,
+            103,
+            825,
+            163
+          ]
+        },
+        {
+          "block_id": "p10_b1",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 33 This organization has established a strict financial management system to ensure that accounting information is legal, true, accurate, and complete.",
+          "bbox": {
+            "x1": 100,
+            "y1": 200,
+            "x2": 877,
+            "y2": 241
+          },
+          "bbox_list": [
+            100,
+            200,
+            877,
+            241
+          ]
+        },
+        {
+          "block_id": "p10_b2",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 34 This organization shall have professionally qualified accountants as needed. The accountant shall not serve as a cashier. The accountant must carry out accounting calculations and implement accounting supervision. When the accountant is transferred or leaves, he/she must clear the handover procedures with the takeover staff.",
+          "bbox": {
+            "x1": 101,
+            "y1": 276,
+            "x2": 892,
+            "y2": 355
+          },
+          "bbox_list": [
+            101,
+            276,
+            892,
+            355
+          ]
+        },
+        {
+          "block_id": "p10_b3",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 35 The asset management of this organization must implement the financial management system stipulated by the state, and accept the supervision of the General Assembly (or the Representatives Assembly) and the finance department. If the source of assets is state appropriations or social donations and subsidies, it must accept the supervision of the auditing authority and disclose relevant information to the public in an appropriate manner.",
+          "bbox": {
+            "x1": 102,
+            "y1": 390,
+            "x2": 888,
+            "y2": 490
+          },
+          "bbox_list": [
+            102,
+            390,
+            888,
+            490
+          ]
+        },
+        {
+          "block_id": "p10_b4",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 36 Before this organization changes its term or changes its legal representative, it must accept a financial audit organized by the registration management authority of social organizations and the competent business unit.",
+          "bbox": {
+            "x1": 105,
+            "y1": 524,
+            "x2": 872,
+            "y2": 586
+          },
+          "bbox_list": [
+            105,
+            524,
+            872,
+            586
+          ]
+        },
+        {
+          "block_id": "p10_b5",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 37 The assets of this organization, no unit or individual may encroach, privately divide or misappropriate.",
+          "bbox": {
+            "x1": 106,
+            "y1": 620,
+            "x2": 894,
+            "y2": 664
+          },
+          "bbox_list": [
+            106,
+            620,
+            894,
+            664
+          ]
+        },
+        {
+          "block_id": "p10_b6",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 38 The wages, insurance, and welfare benefits of the full- time staff of this organization shall be implemented in reference to the relevant regulations of the state on public institutions.",
+          "bbox": {
+            "x1": 108,
+            "y1": 698,
+            "x2": 876,
+            "y2": 740
+          },
+          "bbox_list": [
+            108,
+            698,
+            876,
+            740
+          ]
+        },
+        {
+          "block_id": "p10_b7",
+          "page_number": 10,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Chapter 6: Procedure for Amending the Charter",
+          "bbox": {
+            "x1": 108,
+            "y1": 777,
+            "x2": 530,
+            "y2": 797
+          },
+          "bbox_list": [
+            108,
+            777,
+            530,
+            797
+          ]
+        },
+        {
+          "block_id": "p10_b8",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 39: Any amendment to this organization's charter must be voted on by the board of directors and then submitted to the general assembly (or representative assembly) for review.",
+          "bbox": {
+            "x1": 109,
+            "y1": 803,
+            "x2": 864,
+            "y2": 844
+          },
+          "bbox_list": [
+            109,
+            803,
+            864,
+            844
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nArticle 32 The funds of this organization must be used for the business scope and the development of the cause stipulated in this charter, and may not be distributed among the members.  \n\nArticle 33 This organization has established a strict financial management system to ensure that accounting information is legal, true, accurate, and complete.  \n\nArticle 34 This organization shall have professionally qualified accountants as needed. The accountant shall not serve as a cashier. The accountant must carry out accounting calculations and implement accounting supervision. When the accountant is transferred or leaves, he/she must clear the handover procedures with the takeover staff.  \n\nArticle 35 The asset management of this organization must implement the financial management system stipulated by the state, and accept the supervision of the General Assembly (or the Representatives Assembly) and the finance department. If the source of assets is state appropriations or social donations and subsidies, it must accept the supervision of the auditing authority and disclose relevant information to the public in an appropriate manner.  \n\nArticle 36 Before this organization changes its term or changes its legal representative, it must accept a financial audit organized by the registration management authority of social organizations and the competent business unit.  \n\nArticle 37 The assets of this organization, no unit or individual may encroach, privately divide or misappropriate.  \n\nArticle 38 The wages, insurance, and welfare benefits of the full- time staff of this organization shall be implemented in reference to the relevant regulations of the state on public institutions.  \n\n## Chapter 6: Procedure for Amending the Charter  \n\nArticle 39: Any amendment to this organization's charter must be voted on by the board of directors and then submitted to the general assembly (or representative assembly) for review."
+    },
+    {
+      "page_number": 11,
+      "text_blocks": [
+        {
+          "block_id": "p11_b0",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 40: Any amendment to this organization's charter must, within 15 days of being passed by the general assembly (or representative assembly), be reviewed and approved by the business supervising unit, and then approved by the social organization registration authority to take effect.",
+          "bbox": {
+            "x1": 97,
+            "y1": 75,
+            "x2": 888,
+            "y2": 155
+          },
+          "bbox_list": [
+            97,
+            75,
+            888,
+            155
+          ]
+        },
+        {
+          "block_id": "p11_b1",
+          "page_number": 11,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Chapter 7: Termination Procedure and Handling of Assets after Termination",
+          "bbox": {
+            "x1": 98,
+            "y1": 191,
+            "x2": 761,
+            "y2": 212
+          },
+          "bbox_list": [
+            98,
+            191,
+            761,
+            212
+          ]
+        },
+        {
+          "block_id": "p11_b2",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 41: When this organization has achieved its purpose, or decides to dissolve itself, or needs to be cancelled due to reasons such as division, merger, etc., a proposal for termination should be put forward by the board of directors or the standing board of directors.",
+          "bbox": {
+            "x1": 99,
+            "y1": 219,
+            "x2": 857,
+            "y2": 279
+          },
+          "bbox_list": [
+            99,
+            219,
+            857,
+            279
+          ]
+        },
+        {
+          "block_id": "p11_b3",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 42: Any proposal to terminate this organization must be voted on by the general assembly (or representative assembly) and approved by the business supervising unit.",
+          "bbox": {
+            "x1": 100,
+            "y1": 316,
+            "x2": 888,
+            "y2": 356
+          },
+          "bbox_list": [
+            100,
+            316,
+            888,
+            356
+          ]
+        },
+        {
+          "block_id": "p11_b4",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 43: Before this organization terminates, a liquidation organization must be established under the guidance of the business supervising unit and related authorities to settle debts, handle aftermath affairs. During the liquidation period, activities other than liquidation are not conducted.",
+          "bbox": {
+            "x1": 101,
+            "y1": 391,
+            "x2": 884,
+            "y2": 472
+          },
+          "bbox_list": [
+            101,
+            391,
+            884,
+            472
+          ]
+        },
+        {
+          "block_id": "p11_b5",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 44: This organization is considered terminated after cancellation registration procedures are handled by the social organization registration authority.",
+          "bbox": {
+            "x1": 102,
+            "y1": 508,
+            "x2": 880,
+            "y2": 549
+          },
+          "bbox_list": [
+            102,
+            508,
+            880,
+            549
+          ]
+        },
+        {
+          "block_id": "p11_b6",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 45: The remaining property of this organization after termination, under the supervision of the business supervising unit and the social organization registration authority, shall be used for the development of enterprises related to the purpose of this organization in accordance with national regulations.",
+          "bbox": {
+            "x1": 104,
+            "y1": 584,
+            "x2": 884,
+            "y2": 664
+          },
+          "bbox_list": [
+            104,
+            584,
+            884,
+            664
+          ]
+        },
+        {
+          "block_id": "p11_b7",
+          "page_number": 11,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Chapter 8: Additional Provisions",
+          "bbox": {
+            "x1": 106,
+            "y1": 703,
+            "x2": 394,
+            "y2": 722
+          },
+          "bbox_list": [
+            106,
+            703,
+            394,
+            722
+          ]
+        },
+        {
+          "block_id": "p11_b8",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 46: The right to interpret this charter belongs to the board of directors of this organization.",
+          "bbox": {
+            "x1": 106,
+            "y1": 729,
+            "x2": 791,
+            "y2": 770
+          },
+          "bbox_list": [
+            106,
+            729,
+            791,
+            770
+          ]
+        },
+        {
+          "block_id": "p11_b9",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article 47: This charter takes effect from the day it is approved by the social organization registration authority.",
+          "bbox": {
+            "x1": 108,
+            "y1": 805,
+            "x2": 835,
+            "y2": 846
+          },
+          "bbox_list": [
+            108,
+            805,
+            835,
+            846
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nArticle 40: Any amendment to this organization's charter must, within 15 days of being passed by the general assembly (or representative assembly), be reviewed and approved by the business supervising unit, and then approved by the social organization registration authority to take effect.  \n\n## Chapter 7: Termination Procedure and Handling of Assets after Termination  \n\nArticle 41: When this organization has achieved its purpose, or decides to dissolve itself, or needs to be cancelled due to reasons such as division, merger, etc., a proposal for termination should be put forward by the board of directors or the standing board of directors.  \n\nArticle 42: Any proposal to terminate this organization must be voted on by the general assembly (or representative assembly) and approved by the business supervising unit.  \n\nArticle 43: Before this organization terminates, a liquidation organization must be established under the guidance of the business supervising unit and related authorities to settle debts, handle aftermath affairs. During the liquidation period, activities other than liquidation are not conducted.  \n\nArticle 44: This organization is considered terminated after cancellation registration procedures are handled by the social organization registration authority.  \n\nArticle 45: The remaining property of this organization after termination, under the supervision of the business supervising unit and the social organization registration authority, shall be used for the development of enterprises related to the purpose of this organization in accordance with national regulations.  \n\n## Chapter 8: Additional Provisions  \n\nArticle 46: The right to interpret this charter belongs to the board of directors of this organization.  \n\nArticle 47: This charter takes effect from the day it is approved by the social organization registration authority."
+    }
+  ],
+  "total_blocks": 104
+}

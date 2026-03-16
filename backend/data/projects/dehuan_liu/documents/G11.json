@@ -1,0 +1,442 @@
+{
+  "exhibit_id": "G11",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit G-11",
+          "bbox": {
+            "x1": 113,
+            "y1": 448,
+            "x2": 857,
+            "y2": 536
+          },
+          "bbox_list": [
+            113,
+            448,
+            857,
+            536
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit G-11"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "People > ... > Liu Dehuan",
+          "bbox": {
+            "x1": 55,
+            "y1": 108,
+            "x2": 246,
+            "y2": 120
+          },
+          "bbox_list": [
+            55,
+            108,
+            246,
+            120
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 327,
+            "y1": 140,
+            "x2": 656,
+            "y2": 390
+          },
+          "bbox_list": [
+            327,
+            140,
+            656,
+            390
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Liu Dehuan刘德寰",
+          "bbox": {
+            "x1": 60,
+            "y1": 412,
+            "x2": 256,
+            "y2": 472
+          },
+          "bbox_list": [
+            60,
+            412,
+            256,
+            472
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "PROGRAM Visiting Scholar",
+          "bbox": {
+            "x1": 60,
+            "y1": 494,
+            "x2": 171,
+            "y2": 525
+          },
+          "bbox_list": [
+            60,
+            494,
+            171,
+            525
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "CONTACT liudehuan@vip.sina.com",
+          "bbox": {
+            "x1": 60,
+            "y1": 546,
+            "x2": 225,
+            "y2": 576
+          },
+          "bbox_list": [
+            60,
+            546,
+            225,
+            576
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "FIELD OF STUDY Sociology",
+          "bbox": {
+            "x1": 60,
+            "y1": 598,
+            "x2": 170,
+            "y2": 628
+          },
+          "bbox_list": [
+            60,
+            598,
+            170,
+            628
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "YEARS OF STAY AT HYI Sep 2004 to Jun 2005",
+          "bbox": {
+            "x1": 62,
+            "y1": 650,
+            "x2": 211,
+            "y2": 680
+          },
+          "bbox_list": [
+            62,
+            650,
+            211,
+            680
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "UNIVERSITY AFFILIATION Peking University",
+          "bbox": {
+            "x1": 62,
+            "y1": 700,
+            "x2": 227,
+            "y2": 731
+          },
+          "bbox_list": [
+            62,
+            700,
+            227,
+            731
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "> Is this you? Submit updated information to HYI!",
+          "bbox": {
+            "x1": 65,
+            "y1": 758,
+            "x2": 394,
+            "y2": 772
+          },
+          "bbox_list": [
+            65,
+            758,
+            394,
+            772
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Interested in becoming a Harvard- Yenching Institute fellow or scholar?",
+          "bbox": {
+            "x1": 268,
+            "y1": 812,
+            "x2": 730,
+            "y2": 854
+          },
+          "bbox_list": [
+            268,
+            812,
+            730,
+            854
+          ]
+        },
+        {
+          "block_id": "p2_b10",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Learn More",
+          "bbox": {
+            "x1": 455,
+            "y1": 884,
+            "x2": 545,
+            "y2": 897
+          },
+          "bbox_list": [
+            455,
+            884,
+            545,
+            897
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nPeople > ... > Liu Dehuan  \n\n# Liu Dehuan刘德寰  \n\nPROGRAM Visiting Scholar  \n\nCONTACT liudehuan@vip.sina.com  \n\nFIELD OF STUDY Sociology  \n\nYEARS OF STAY AT HYI Sep 2004 to Jun 2005  \n\nUNIVERSITY AFFILIATION Peking University  \n\n> Is this you? Submit updated information to HYI!  \n\nInterested in becoming a Harvard- Yenching Institute fellow or scholar?  \n\nLearn More"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 339,
+            "y1": 36,
+            "x2": 620,
+            "y2": 240
+          },
+          "bbox_list": [
+            339,
+            36,
+            620,
+            240
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## DIRECTOR'S OFFICE",
+          "bbox": {
+            "x1": 58,
+            "y1": 272,
+            "x2": 191,
+            "y2": 284
+          },
+          "bbox_list": [
+            58,
+            272,
+            191,
+            284
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2 Divinity Ave. Cambridge, MA 02138 T: (617) 495- 3369 F: (617) 496- 7206",
+          "bbox": {
+            "x1": 58,
+            "y1": 292,
+            "x2": 178,
+            "y2": 340
+          },
+          "bbox_list": [
+            58,
+            292,
+            178,
+            340
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## MAILING ADDRESS",
+          "bbox": {
+            "x1": 58,
+            "y1": 370,
+            "x2": 183,
+            "y2": 382
+          },
+          "bbox_list": [
+            58,
+            370,
+            183,
+            382
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Vanserg Hall, Suite 20 25 Francis Avenue Cambridge, MA 02138 T: (617) 495- 4050",
+          "bbox": {
+            "x1": 58,
+            "y1": 390,
+            "x2": 180,
+            "y2": 439
+          },
+          "bbox_list": [
+            58,
+            390,
+            180,
+            439
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## SUBSCRIBE TO OUR MAILING LIST",
+          "bbox": {
+            "x1": 59,
+            "y1": 469,
+            "x2": 280,
+            "y2": 481
+          },
+          "bbox_list": [
+            59,
+            469,
+            280,
+            481
+          ]
+        },
+        {
+          "block_id": "p3_b6",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "email address",
+          "bbox": {
+            "x1": 68,
+            "y1": 494,
+            "x2": 170,
+            "y2": 506
+          },
+          "bbox_list": [
+            68,
+            494,
+            170,
+            506
+          ]
+        },
+        {
+          "block_id": "p3_b7",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Hear about news and upcoming events from HYI",
+          "bbox": {
+            "x1": 59,
+            "y1": 520,
+            "x2": 320,
+            "y2": 531
+          },
+          "bbox_list": [
+            59,
+            520,
+            320,
+            531
+          ]
+        },
+        {
+          "block_id": "p3_b8",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Original images held by the Harvard- Yenching Library of the Harvard College Library, Harvard University.",
+          "bbox": {
+            "x1": 212,
+            "y1": 559,
+            "x2": 771,
+            "y2": 572
+          },
+          "bbox_list": [
+            212,
+            559,
+            771,
+            572
+          ]
+        },
+        {
+          "block_id": "p3_b9",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "©2022 Harvard- Yenching Institute Privacy Policy",
+          "bbox": {
+            "x1": 355,
+            "y1": 578,
+            "x2": 630,
+            "y2": 589
+          },
+          "bbox_list": [
+            355,
+            578,
+            630,
+            589
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## DIRECTOR'S OFFICE  \n\n2 Divinity Ave. Cambridge, MA 02138 T: (617) 495- 3369 F: (617) 496- 7206  \n\n## MAILING ADDRESS  \n\nVanserg Hall, Suite 20 25 Francis Avenue Cambridge, MA 02138 T: (617) 495- 4050  \n\n## SUBSCRIBE TO OUR MAILING LIST  \n\nemail address  \n\nHear about news and upcoming events from HYI  \n\nOriginal images held by the Harvard- Yenching Library of the Harvard College Library, Harvard University.  \n\n©2022 Harvard- Yenching Institute Privacy Policy"
+    }
+  ],
+  "total_blocks": 22
+}

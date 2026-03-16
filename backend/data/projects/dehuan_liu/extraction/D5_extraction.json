@@ -1,0 +1,78 @@
+{
+  "version": "4.0",
+  "exhibit_id": "D5",
+  "extracted_at": "2026-03-15T00:00:00+00:00",
+  "applicant_name": "Dehuan Liu",
+  "document_summary": "First page of the Sociological Studies article 'Children Born in July and August' by Liu, Dehuan and Li, Xuelian. Shows the full article title, authors, abstract, keywords, and the beginning of the article text discussing educational enrollment deadline policies.",
+  "snippets": [
+    {
+      "snippet_id": "snp_D5_a1b2c3d4",
+      "exhibit_id": "D5",
+      "document_id": "doc_D5",
+      "text": "# Children Born in July and August<sup>1</sup>",
+      "page": 2,
+      "bbox": {"x1": 292, "y1": 113, "x2": 696, "y2": 139},
+      "block_id": "p2_b0",
+      "subject": "Article title as printed in the journal",
+      "subject_role": "applicant",
+      "recommender_name": null,
+      "is_applicant_achievement": true,
+      "evidence_type": "publication",
+      "evidence_purpose": "direct_proof",
+      "evidence_layer": "proof",
+      "confidence": 0.95,
+      "reasoning": "Shows the actual published article title in Sociological Studies.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_D5_e5f6a7b8",
+      "exhibit_id": "D5",
+      "document_id": "doc_D5",
+      "text": "Liu, Dehuan Li, Xuelian",
+      "page": 2,
+      "bbox": {"x1": 338, "y1": 234, "x2": 571, "y2": 254},
+      "block_id": "p2_b2",
+      "subject": "Author names as printed in journal",
+      "subject_role": "applicant",
+      "recommender_name": null,
+      "is_applicant_achievement": true,
+      "evidence_type": "publication",
+      "evidence_purpose": "direct_proof",
+      "evidence_layer": "proof",
+      "confidence": 0.95,
+      "reasoning": "Confirms Liu as first author on the published article page.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_D5_c9d0e1f2",
+      "exhibit_id": "D5",
+      "document_id": "doc_D5",
+      "text": "Key words: Educational equity; adolescent relative age effect; adjustment crisis",
+      "page": 2,
+      "bbox": {"x1": 131, "y1": 548, "x2": 784, "y2": 568},
+      "block_id": "p2_b4",
+      "subject": "Keywords of the article",
+      "subject_role": "applicant",
+      "recommender_name": null,
+      "is_applicant_achievement": true,
+      "evidence_type": "publication",
+      "evidence_purpose": "supporting_context",
+      "evidence_layer": "context",
+      "confidence": 0.85,
+      "reasoning": "Keywords indicate the article's focus on educational equity and relative age effect.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    }
+  ],
+  "entities": [
+    {"id": "ent_D5_0", "name": "Dehuan Liu", "type": "person", "identity": "applicant", "relation_to_applicant": "self", "snippet_ids": ["snp_D5_a1b2c3d4", "snp_D5_e5f6a7b8"], "exhibit_ids": ["D5"], "mentioned_in_blocks": ["p2_b2"], "aliases": [], "is_merged": false, "merged_from": []},
+    {"id": "ent_D5_1", "name": "Xuelian Li", "type": "person", "identity": "co-author", "relation_to_applicant": "co-author", "snippet_ids": ["snp_D5_e5f6a7b8"], "exhibit_ids": ["D5"], "mentioned_in_blocks": ["p2_b2"], "aliases": [], "is_merged": false, "merged_from": []},
+    {"id": "ent_D5_2", "name": "Sociological Studies", "type": "organization", "identity": "journal", "relation_to_applicant": "publication venue", "snippet_ids": [], "exhibit_ids": ["D5"], "mentioned_in_blocks": [], "aliases": [], "is_merged": false, "merged_from": []}
+  ],
+  "relations": [
+    {"id": "rel_D5_0", "from_entity": "ent_D5_0", "to_entity": "ent_D5_2", "relation_type": "published_in", "context": "Liu's article published in Sociological Studies", "source_snippet_ids": ["snp_D5_a1b2c3d4"], "source_blocks": ["p2_b0"]}
+  ],
+  "stats": {"snippet_count": 3, "entity_count": 3, "relation_count": 1, "applicant_snippets": 3, "other_snippets": 0}
+}

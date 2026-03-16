@@ -6,15 +6,13 @@ import ComparisonView from '../components/phase1/ComparisonView.tsx';
 import ConfirmModal from '../components/shared/ConfirmModal.tsx';
 import type { MaterialSetResult, DimensionDef, MaterialData, ScrollEvent } from '../types/index.ts';
 import dimensionsData from '../data/dimensions.json';
-import matAwards from '../data/stimuli/material_awards.json';
 import matJudging from '../data/stimuli/material_judging.json';
-import matScholarly from '../data/stimuli/material_scholarly.json';
 import matLeading from '../data/stimuli/material_leading.json';
 import matSalary from '../data/stimuli/material_salary.json';
 
 const dimensions: DimensionDef[] = dimensionsData.dimensions as DimensionDef[];
 const materials: MaterialData[] = [
-  matAwards, matJudging, matScholarly, matLeading, matSalary
+  matJudging, matLeading, matSalary
 ] as MaterialData[];
 
 export default function Phase1Page() {

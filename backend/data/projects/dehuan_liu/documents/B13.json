@@ -1,0 +1,1081 @@
+{
+  "exhibit_id": "B13",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit B-13",
+          "bbox": {
+            "x1": 125,
+            "y1": 450,
+            "x2": 857,
+            "y2": 536
+          },
+          "bbox_list": [
+            125,
+            450,
+            857,
+            536
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit B-13"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 95,
+            "y1": 45,
+            "x2": 190,
+            "y2": 61
+          },
+          "bbox_list": [
+            95,
+            45,
+            190,
+            61
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Ministry of Human Resources and Social Security of the People's Republic of China",
+          "bbox": {
+            "x1": 95,
+            "y1": 75,
+            "x2": 784,
+            "y2": 98
+          },
+          "bbox_list": [
+            95,
+            75,
+            784,
+            98
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# The Institute of Journalism and Communication of the Chinese Academy of Social Sciences Announcement for the Recruitment of the Second Batch of Scientific Research Positions Talent in 2022",
+          "bbox": {
+            "x1": 99,
+            "y1": 131,
+            "x2": 887,
+            "y2": 191
+          },
+          "bbox_list": [
+            99,
+            131,
+            887,
+            191
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Release Date: 2022- 03- 22 Source: Institution Personnel Management Department Print this page",
+          "bbox": {
+            "x1": 100,
+            "y1": 199,
+            "x2": 842,
+            "y2": 220
+          },
+          "bbox_list": [
+            100,
+            199,
+            842,
+            220
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "### I. Introduction to the Organization",
+          "bbox": {
+            "x1": 100,
+            "y1": 260,
+            "x2": 404,
+            "y2": 280
+          },
+          "bbox_list": [
+            100,
+            260,
+            404,
+            280
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The Institute of Journalism and Communication of the Chinese Academy of Social Sciences is a national- level professional institution for journalism and communication research in China. It has also been an education base for cultivating high- end talents in journalism and communication since the reform and opening up. Since its establishment, the Institute of Journalism and Communication has not only been committed to the basic research on the general laws of journalism and communication development and the particular laws of the development of China's journalism and communication industry, but also vigorously carried out policy- oriented consultative research with significant practical significance. It has published a large number of monographs, papers, and research reports, making outstanding contributions to the development of China's journalism and communication industry.",
+          "bbox": {
+            "x1": 99,
+            "y1": 284,
+            "x2": 890,
+            "y2": 477
+          },
+          "bbox_list": [
+            99,
+            284,
+            890,
+            477
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Main research directions: Marxist journalism, communication studies, network studies, applied journalism, public opinion studies, and digital media, etc. Main publications: the academic monthly \"Journalism and Communication Research\", the large annual publication \"Journalism Yearbook\", \"China Journalism and Communication Yearbook\", and the annual blue book \"China New Media Development Report\", \"China's Minors Internet Usage Report\", etc. Institutional setup: office, six specialized research departments including the Marxist Journalism Department, Communication Studies Department, Network Studies Department, Applied Journalism Department, Digital Media Department, and Public Opinion Studies Department, and an editorial department. There is one affiliated non- physical research center, five research centers under the institute, two laboratories, and two research bases.",
+          "bbox": {
+            "x1": 100,
+            "y1": 481,
+            "x2": 896,
+            "y2": 677
+          },
+          "bbox_list": [
+            100,
+            481,
+            896,
+            677
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## II. Basic Requirements for Applicants:",
+          "bbox": {
+            "x1": 110,
+            "y1": 716,
+            "x2": 443,
+            "y2": 736
+          },
+          "bbox_list": [
+            110,
+            716,
+            443,
+            736
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Possess the nationality of the People's Republic of China and abide by the constitution and laws of the People's Republic of China.",
+          "bbox": {
+            "x1": 110,
+            "y1": 740,
+            "x2": 888,
+            "y2": 783
+          },
+          "bbox_list": [
+            110,
+            740,
+            888,
+            783
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Adhere to the leadership of the Party, support the Party's theories, policies, and guidelines, love the motherland, and abide by the law and discipline.",
+          "bbox": {
+            "x1": 110,
+            "y1": 788,
+            "x2": 886,
+            "y2": 830
+          },
+          "bbox_list": [
+            110,
+            788,
+            886,
+            830
+          ]
+        },
+        {
+          "block_id": "p2_b10",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Maintain the correct political direction, academic orientation, and value orientation, and possess good academic style, moral cultivation, professional ethics, and integrity.",
+          "bbox": {
+            "x1": 110,
+            "y1": 835,
+            "x2": 890,
+            "y2": 877
+          },
+          "bbox_list": [
+            110,
+            835,
+            890,
+            877
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nMinistry of Human Resources and Social Security of the People's Republic of China  \n\n# The Institute of Journalism and Communication of the Chinese Academy of Social Sciences Announcement for the Recruitment of the Second Batch of Scientific Research Positions Talent in 2022  \n\nRelease Date: 2022- 03- 22 Source: Institution Personnel Management Department Print this page  \n\n### I. Introduction to the Organization  \n\nThe Institute of Journalism and Communication of the Chinese Academy of Social Sciences is a national- level professional institution for journalism and communication research in China. It has also been an education base for cultivating high- end talents in journalism and communication since the reform and opening up. Since its establishment, the Institute of Journalism and Communication has not only been committed to the basic research on the general laws of journalism and communication development and the particular laws of the development of China's journalism and communication industry, but also vigorously carried out policy- oriented consultative research with significant practical significance. It has published a large number of monographs, papers, and research reports, making outstanding contributions to the development of China's journalism and communication industry.  \n\nMain research directions: Marxist journalism, communication studies, network studies, applied journalism, public opinion studies, and digital media, etc. Main publications: the academic monthly \"Journalism and Communication Research\", the large annual publication \"Journalism Yearbook\", \"China Journalism and Communication Yearbook\", and the annual blue book \"China New Media Development Report\", \"China's Minors Internet Usage Report\", etc. Institutional setup: office, six specialized research departments including the Marxist Journalism Department, Communication Studies Department, Network Studies Department, Applied Journalism Department, Digital Media Department, and Public Opinion Studies Department, and an editorial department. There is one affiliated non- physical research center, five research centers under the institute, two laboratories, and two research bases.  \n\n## II. Basic Requirements for Applicants:  \n\nPossess the nationality of the People's Republic of China and abide by the constitution and laws of the People's Republic of China.  \n\nAdhere to the leadership of the Party, support the Party's theories, policies, and guidelines, love the motherland, and abide by the law and discipline.  \n\nMaintain the correct political direction, academic orientation, and value orientation, and possess good academic style, moral cultivation, professional ethics, and integrity."
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Possess the necessary management, professional ability, or skill requirements for the position.",
+          "bbox": {
+            "x1": 95,
+            "y1": 74,
+            "x2": 857,
+            "y2": 96
+          },
+          "bbox_list": [
+            95,
+            74,
+            857,
+            96
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Have normal physical and mental health conditions to fulfill job responsibilities, adapt to the requirements of the position, and ensure full- time work at the institute during the employment period.",
+          "bbox": {
+            "x1": 96,
+            "y1": 101,
+            "x2": 860,
+            "y2": 164
+          },
+          "bbox_list": [
+            96,
+            101,
+            860,
+            164
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Love scientific research and aspire to devote oneself to the cause of philosophy and social sciences research.",
+          "bbox": {
+            "x1": 97,
+            "y1": 170,
+            "x2": 830,
+            "y2": 211
+          },
+          "bbox_list": [
+            97,
+            170,
+            830,
+            211
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Domestic fresh graduates who can graduate on schedule and successfully obtain a doctorate degree certified by the national education authorities. Possess solid professional knowledge and theoretical foundation, high professional quality and potential for scientific research, and have published at least 2 academic papers or one high- quality monograph in China or abroad.",
+          "bbox": {
+            "x1": 98,
+            "y1": 217,
+            "x2": 875,
+            "y2": 297
+          },
+          "bbox_list": [
+            98,
+            217,
+            875,
+            297
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Age not exceeding 35 years old (born after January 1, 1987).",
+          "bbox": {
+            "x1": 100,
+            "y1": 305,
+            "x2": 594,
+            "y2": 326
+          },
+          "bbox_list": [
+            100,
+            305,
+            594,
+            326
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Other conditions stipulated by the state and the institute.",
+          "bbox": {
+            "x1": 101,
+            "y1": 335,
+            "x2": 559,
+            "y2": 355
+          },
+          "bbox_list": [
+            101,
+            335,
+            559,
+            355
+          ]
+        },
+        {
+          "block_id": "p3_b6",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## III. Recruitment Scope",
+          "bbox": {
+            "x1": 103,
+            "y1": 397,
+            "x2": 304,
+            "y2": 416
+          },
+          "bbox_list": [
+            103,
+            397,
+            304,
+            416
+          ]
+        },
+        {
+          "block_id": "p3_b7",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Domestic fresh graduates (originating from Beijing).",
+          "bbox": {
+            "x1": 103,
+            "y1": 423,
+            "x2": 531,
+            "y2": 444
+          },
+          "bbox_list": [
+            103,
+            423,
+            531,
+            444
+          ]
+        },
+        {
+          "block_id": "p3_b8",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## IV. Recruitment Positions, Numbers, and Research Directions",
+          "bbox": {
+            "x1": 104,
+            "y1": 481,
+            "x2": 638,
+            "y2": 501
+          },
+          "bbox_list": [
+            104,
+            481,
+            638,
+            501
+          ]
+        },
+        {
+          "block_id": "p3_b9",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Research position: 1 vacancy.",
+          "bbox": {
+            "x1": 105,
+            "y1": 512,
+            "x2": 348,
+            "y2": 531
+          },
+          "bbox_list": [
+            105,
+            512,
+            348,
+            531
+          ]
+        },
+        {
+          "block_id": "p3_b10",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Areas of expertise: 0503 Journalism and Communication, 0812 Computer Science and Technology (Artificial Intelligence direction), 0501 Chinese Language and Literature (Journalism, Publishing and Editing direction), 0504 Art Studies (Broadcasting and Television direction), 0303 Sociology (Anthropology, Internet New Media, Communication Studies direction).",
+          "bbox": {
+            "x1": 105,
+            "y1": 536,
+            "x2": 872,
+            "y2": 636
+          },
+          "bbox_list": [
+            105,
+            536,
+            872,
+            636
+          ]
+        },
+        {
+          "block_id": "p3_b11",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The professional codes refer to the \"Catalogue of Disciplines and Specialties for Granting Doctoral and Master's Degrees and Training Postgraduates (2008 Updated Edition)\". For those with similar but not identical majors in the reference catalogue, the applicant should contact the recruiting unit to confirm eligibility. The recruiting unit shall determine the qualifications of the applicant.",
+          "bbox": {
+            "x1": 108,
+            "y1": 640,
+            "x2": 888,
+            "y2": 740
+          },
+          "bbox_list": [
+            108,
+            640,
+            888,
+            740
+          ]
+        },
+        {
+          "block_id": "p3_b12",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "### V. Job Responsibilities for Recruitment",
+          "bbox": {
+            "x1": 111,
+            "y1": 779,
+            "x2": 452,
+            "y2": 799
+          },
+          "bbox_list": [
+            111,
+            779,
+            452,
+            799
+          ]
+        },
+        {
+          "block_id": "p3_b13",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The positions being recruited are research positions, with the following responsibilities:",
+          "bbox": {
+            "x1": 111,
+            "y1": 803,
+            "x2": 825,
+            "y2": 825
+          },
+          "bbox_list": [
+            111,
+            803,
+            825,
+            825
+          ]
+        },
+        {
+          "block_id": "p3_b14",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Participate in the collective research projects of the institute and research department, completing research tasks on time, with quality and quantity guaranteed.",
+          "bbox": {
+            "x1": 111,
+            "y1": 831,
+            "x2": 901,
+            "y2": 873
+          },
+          "bbox_list": [
+            111,
+            831,
+            901,
+            873
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nPossess the necessary management, professional ability, or skill requirements for the position.  \n\nHave normal physical and mental health conditions to fulfill job responsibilities, adapt to the requirements of the position, and ensure full- time work at the institute during the employment period.  \n\nLove scientific research and aspire to devote oneself to the cause of philosophy and social sciences research.  \n\nDomestic fresh graduates who can graduate on schedule and successfully obtain a doctorate degree certified by the national education authorities. Possess solid professional knowledge and theoretical foundation, high professional quality and potential for scientific research, and have published at least 2 academic papers or one high- quality monograph in China or abroad.  \n\nAge not exceeding 35 years old (born after January 1, 1987).  \n\nOther conditions stipulated by the state and the institute.  \n\n## III. Recruitment Scope  \n\nDomestic fresh graduates (originating from Beijing).  \n\n## IV. Recruitment Positions, Numbers, and Research Directions  \n\nResearch position: 1 vacancy.  \n\nAreas of expertise: 0503 Journalism and Communication, 0812 Computer Science and Technology (Artificial Intelligence direction), 0501 Chinese Language and Literature (Journalism, Publishing and Editing direction), 0504 Art Studies (Broadcasting and Television direction), 0303 Sociology (Anthropology, Internet New Media, Communication Studies direction).  \n\nThe professional codes refer to the \"Catalogue of Disciplines and Specialties for Granting Doctoral and Master's Degrees and Training Postgraduates (2008 Updated Edition)\". For those with similar but not identical majors in the reference catalogue, the applicant should contact the recruiting unit to confirm eligibility. The recruiting unit shall determine the qualifications of the applicant.  \n\n### V. Job Responsibilities for Recruitment  \n\nThe positions being recruited are research positions, with the following responsibilities:  \n\nParticipate in the collective research projects of the institute and research department, completing research tasks on time, with quality and quantity guaranteed."
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Be able to independently undertake institute- level projects or youth projects, and independently carry out research work.",
+          "bbox": {
+            "x1": 97,
+            "y1": 75,
+            "x2": 870,
+            "y2": 115
+          },
+          "bbox_list": [
+            97,
+            75,
+            870,
+            115
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Participate in academic activities, and complete the prescribed research and publication tasks according to the plan each year.",
+          "bbox": {
+            "x1": 98,
+            "y1": 121,
+            "x2": 856,
+            "y2": 163
+          },
+          "bbox_list": [
+            98,
+            121,
+            856,
+            163
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Undertake other tasks assigned by the institute and research department.",
+          "bbox": {
+            "x1": 99,
+            "y1": 170,
+            "x2": 684,
+            "y2": 192
+          },
+          "bbox_list": [
+            99,
+            170,
+            684,
+            192
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## VI. Recruitment Process",
+          "bbox": {
+            "x1": 100,
+            "y1": 233,
+            "x2": 314,
+            "y2": 252
+          },
+          "bbox_list": [
+            100,
+            233,
+            314,
+            252
+          ]
+        },
+        {
+          "block_id": "p4_b4",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Remuneration and Benefits",
+          "bbox": {
+            "x1": 100,
+            "y1": 262,
+            "x2": 325,
+            "y2": 281
+          },
+          "bbox_list": [
+            100,
+            262,
+            325,
+            281
+          ]
+        },
+        {
+          "block_id": "p4_b5",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In accordance with national and our institute's regulations, enjoy salary and welfare benefits as staff within the establishment of public institutions.",
+          "bbox": {
+            "x1": 100,
+            "y1": 286,
+            "x2": 870,
+            "y2": 328
+          },
+          "bbox_list": [
+            100,
+            286,
+            870,
+            328
+          ]
+        },
+        {
+          "block_id": "p4_b6",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Application Materials",
+          "bbox": {
+            "x1": 102,
+            "y1": 338,
+            "x2": 281,
+            "y2": 357
+          },
+          "bbox_list": [
+            102,
+            338,
+            281,
+            357
+          ]
+        },
+        {
+          "block_id": "p4_b7",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Personal resume; photocopies of both sides of the ID card; photocopies of the first page of the household registration book and the individual's page; doctoral thesis (draft or outline); photocopies of award certificates; 2 independent or first- authored published papers.",
+          "bbox": {
+            "x1": 101,
+            "y1": 362,
+            "x2": 866,
+            "y2": 423
+          },
+          "bbox_list": [
+            101,
+            362,
+            866,
+            423
+          ]
+        },
+        {
+          "block_id": "p4_b8",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Application Method",
+          "bbox": {
+            "x1": 103,
+            "y1": 433,
+            "x2": 270,
+            "y2": 453
+          },
+          "bbox_list": [
+            103,
+            433,
+            270,
+            453
+          ]
+        },
+        {
+          "block_id": "p4_b9",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "During the epidemic, paper materials will not be accepted. From the date of the recruitment announcement, applicants can log in to the Chinese Academy of Social Sciences' open recruitment platform at http://cass.gjzhaopin.cn/, register a personal account, fill in the required information according to the requirements, and upload the required materials to complete the application.",
+          "bbox": {
+            "x1": 103,
+            "y1": 457,
+            "x2": 880,
+            "y2": 558
+          },
+          "bbox_list": [
+            103,
+            457,
+            880,
+            558
+          ]
+        },
+        {
+          "block_id": "p4_b10",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Recruitment platform technical support contact phone: 010- 87700012",
+          "bbox": {
+            "x1": 105,
+            "y1": 592,
+            "x2": 673,
+            "y2": 614
+          },
+          "bbox_list": [
+            105,
+            592,
+            673,
+            614
+          ]
+        },
+        {
+          "block_id": "p4_b11",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Policy consultation contact phone: 010- 65022868; Contact person: Teacher Jia",
+          "bbox": {
+            "x1": 105,
+            "y1": 621,
+            "x2": 746,
+            "y2": 644
+          },
+          "bbox_list": [
+            105,
+            621,
+            746,
+            644
+          ]
+        },
+        {
+          "block_id": "p4_b12",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Organizer: Ministry of Human Resources and Social Security of the People's Republic of China Beijing ICP No. 09079694 Beijing Public Network Security No. 110401200230 Website identification code bm15000008",
+          "bbox": {
+            "x1": 144,
+            "y1": 736,
+            "x2": 863,
+            "y2": 840
+          },
+          "bbox_list": [
+            144,
+            736,
+            863,
+            840
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nBe able to independently undertake institute- level projects or youth projects, and independently carry out research work.  \n\nParticipate in academic activities, and complete the prescribed research and publication tasks according to the plan each year.  \n\nUndertake other tasks assigned by the institute and research department.  \n\n## VI. Recruitment Process  \n\nRemuneration and Benefits  \n\nIn accordance with national and our institute's regulations, enjoy salary and welfare benefits as staff within the establishment of public institutions.  \n\nApplication Materials  \n\nPersonal resume; photocopies of both sides of the ID card; photocopies of the first page of the household registration book and the individual's page; doctoral thesis (draft or outline); photocopies of award certificates; 2 independent or first- authored published papers.  \n\nApplication Method  \n\nDuring the epidemic, paper materials will not be accepted. From the date of the recruitment announcement, applicants can log in to the Chinese Academy of Social Sciences' open recruitment platform at http://cass.gjzhaopin.cn/, register a personal account, fill in the required information according to the requirements, and upload the required materials to complete the application.  \n\nRecruitment platform technical support contact phone: 010- 87700012  \n\nPolicy consultation contact phone: 010- 65022868; Contact person: Teacher Jia  \n\nOrganizer: Ministry of Human Resources and Social Security of the People's Republic of China  Beijing ICP No. 09079694  Beijing Public Network Security No. 110401200230  Website identification code bm15000008"
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Ministry of Human Resources and Social Security",
+          "bbox": {
+            "x1": 37,
+            "y1": 108,
+            "x2": 927,
+            "y2": 184
+          },
+          "bbox_list": [
+            37,
+            108,
+            927,
+            184
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "From Wikipedia, the free encyclopedia",
+          "bbox": {
+            "x1": 40,
+            "y1": 188,
+            "x2": 386,
+            "y2": 208
+          },
+          "bbox_list": [
+            40,
+            188,
+            386,
+            208
+          ]
+        },
+        {
+          "block_id": "p5_b2",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The Ministry of Human Resources and Social Security of People's Republic of China is a ministry under the State Council of China which is responsible for national labor policies, standards, regulations and managing the national social security. This includes labor force management, labor relationship readjustment, social insurance management and legal construction of labor.[1] The State Bureau of Civil Servants reports to the new ministry.[2][3]",
+          "bbox": {
+            "x1": 40,
+            "y1": 234,
+            "x2": 586,
+            "y2": 405
+          },
+          "bbox_list": [
+            40,
+            234,
+            586,
+            405
+          ]
+        },
+        {
+          "block_id": "p5_b3",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## History",
+          "bbox": {
+            "x1": 44,
+            "y1": 428,
+            "x2": 163,
+            "y2": 454
+          },
+          "bbox_list": [
+            44,
+            428,
+            163,
+            454
+          ]
+        },
+        {
+          "block_id": "p5_b4",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The ministry was created from the merger of the former Ministry of Personnel and Ministry of Labor and Social Security, announced at the 2008 National People's Congress.[4]",
+          "bbox": {
+            "x1": 44,
+            "y1": 468,
+            "x2": 588,
+            "y2": 545
+          },
+          "bbox_list": [
+            44,
+            468,
+            588,
+            545
+          ]
+        },
+        {
+          "block_id": "p5_b5",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Since December 30, 2022, the ministry is headed by Wang Xiaoping.",
+          "bbox": {
+            "x1": 45,
+            "y1": 558,
+            "x2": 588,
+            "y2": 599
+          },
+          "bbox_list": [
+            45,
+            558,
+            588,
+            599
+          ]
+        },
+        {
+          "block_id": "p5_b6",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Responsibilities",
+          "bbox": {
+            "x1": 47,
+            "y1": 619,
+            "x2": 299,
+            "y2": 646
+          },
+          "bbox_list": [
+            47,
+            619,
+            299,
+            646
+          ]
+        },
+        {
+          "block_id": "p5_b7",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The MOHRSS has responsibility for managing the employment market in mainland China. The ministry also oversees the China Overseas Talent Network, part of the Thousand Talents Plan, and has internal bureaus focused on technology transfer.[5][6]",
+          "bbox": {
+            "x1": 47,
+            "y1": 660,
+            "x2": 590,
+            "y2": 756
+          },
+          "bbox_list": [
+            47,
+            660,
+            590,
+            756
+          ]
+        },
+        {
+          "block_id": "p5_b8",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Due to the financial crisis of 2008 and late 2000s recession, the department has recommended companies to prevent and control large staff reduction.[7] The agency also provides assistance to labor- intensive industries and enterprises to create more employment. MOHRSS stressed that priority be given to migrant workers, laid- off workers, poor people and graduates from universities and colleges in offering works.",
+          "bbox": {
+            "x1": 48,
+            "y1": 766,
+            "x2": 592,
+            "y2": 896
+          },
+          "bbox_list": [
+            48,
+            766,
+            592,
+            896
+          ]
+        },
+        {
+          "block_id": "p5_b9",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Ministry of Human Resources and Social Security of the People's Republic of China",
+          "bbox": {
+            "x1": 616,
+            "y1": 240,
+            "x2": 933,
+            "y2": 303
+          },
+          "bbox_list": [
+            616,
+            240,
+            933,
+            303
+          ]
+        },
+        {
+          "block_id": "p5_b10",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "中华人民共和国人力资源和社会保障部 Zhonghua Renmin Gongheguo Renli Ziyuan He Shehui Baozhangbu",
+          "bbox": {
+            "x1": 616,
+            "y1": 308,
+            "x2": 940,
+            "y2": 368
+          },
+          "bbox_list": [
+            616,
+            308,
+            940,
+            368
+          ]
+        },
+        {
+          "block_id": "p5_b11",
+          "page_number": 5,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 680,
+            "y1": 380,
+            "x2": 876,
+            "y2": 528
+          },
+          "bbox_list": [
+            680,
+            380,
+            876,
+            528
+          ]
+        },
+        {
+          "block_id": "p5_b12",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Emblem of the People's Republic of China",
+          "bbox": {
+            "x1": 612,
+            "y1": 530,
+            "x2": 949,
+            "y2": 549
+          },
+          "bbox_list": [
+            612,
+            530,
+            949,
+            549
+          ]
+        },
+        {
+          "block_id": "p5_b13",
+          "page_number": 5,
+          "block_type": "table",
+          "block_type_cn": "表格",
+          "text_content": "<table><tr><td></td><td>Agency overview</td></tr><tr><td>Formed</td><td>1949<br>2008 (current form)</td></tr><tr><td>Preceding agencies</td><td>Ministry of Labor and Social Security<br>Ministry of Personnel</td></tr><tr><td>Jurisdiction</td><td>Government of China</td></tr><tr><td>Headquarters</td><td>Beijing</td></tr><tr><td>Minister responsible</td><td>Wang Xiaoping, Minister for Human Resources and Social Security</td></tr><tr><td>Parent agency</td><td>State Council of China</td></tr><tr><td>Website</td><td>http://www.mohrss.gov.cn/</td></tr></table>",
+          "bbox": {
+            "x1": 610,
+            "y1": 552,
+            "x2": 960,
+            "y2": 877
+          },
+          "bbox_list": [
+            610,
+            552,
+            960,
+            877
+          ]
+        },
+        {
+          "block_id": "p5_b14",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## List of Ministers of Human Resources and Social Security",
+          "bbox": {
+            "x1": 50,
+            "y1": 910,
+            "x2": 950,
+            "y2": 940
+          },
+          "bbox_list": [
+            50,
+            910,
+            950,
+            940
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# Ministry of Human Resources and Social Security  \n\nFrom Wikipedia, the free encyclopedia  \n\nThe Ministry of Human Resources and Social Security of People's Republic of China is a ministry under the State Council of China which is responsible for national labor policies, standards, regulations and managing the national social security. This includes labor force management, labor relationship readjustment, social insurance management and legal construction of labor.[1] The State Bureau of Civil Servants reports to the new ministry.[2][3]  \n\n## History  \n\nThe ministry was created from the merger of the former Ministry of Personnel and Ministry of Labor and Social Security, announced at the 2008 National People's Congress.[4]  \n\nSince December 30, 2022, the ministry is headed by Wang Xiaoping.  \n\n## Responsibilities  \n\nThe MOHRSS has responsibility for managing the employment market in mainland China. The ministry also oversees the China Overseas Talent Network, part of the Thousand Talents Plan, and has internal bureaus focused on technology transfer.[5][6]  \n\nDue to the financial crisis of 2008 and late 2000s recession, the department has recommended companies to prevent and control large staff reduction.[7] The agency also provides assistance to labor- intensive industries and enterprises to create more employment. MOHRSS stressed that priority be given to migrant workers, laid- off workers, poor people and graduates from universities and colleges in offering works.  \n\n## Ministry of Human Resources and Social Security of the People's Republic of China  \n\n中华人民共和国人力资源和社会保障部 Zhonghua Renmin Gongheguo Renli Ziyuan He Shehui Baozhangbu  \n\nEmblem of the People's Republic of China  \n\n<table><tr><td></td><td>Agency overview</td></tr><tr><td>Formed</td><td>1949<br>2008 (current form)</td></tr><tr><td>Preceding agencies</td><td>Ministry of Labor and Social Security<br>Ministry of Personnel</td></tr><tr><td>Jurisdiction</td><td>Government of China</td></tr><tr><td>Headquarters</td><td>Beijing</td></tr><tr><td>Minister responsible</td><td>Wang Xiaoping, Minister for Human Resources and Social Security</td></tr><tr><td>Parent agency</td><td>State Council of China</td></tr><tr><td>Website</td><td>http://www.mohrss.gov.cn/</td></tr></table>  \n\n## List of Ministers of Human Resources and Social Security"
+    }
+  ],
+  "total_blocks": 55
+}

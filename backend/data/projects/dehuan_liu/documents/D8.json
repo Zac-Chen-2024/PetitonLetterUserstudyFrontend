@@ -1,0 +1,271 @@
+{
+  "exhibit_id": "D8",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit D-8",
+          "bbox": {
+            "x1": 115,
+            "y1": 451,
+            "x2": 875,
+            "y2": 545
+          },
+          "bbox_list": [
+            115,
+            451,
+            875,
+            545
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit D-8"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# New Rules of Advertising Communication: From AIDMA, AISAS to ISMAS",
+          "bbox": {
+            "x1": 105,
+            "y1": 78,
+            "x2": 880,
+            "y2": 103
+          },
+          "bbox_list": [
+            105,
+            78,
+            880,
+            103
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Dehuan Liu, Siluo Chen",
+          "bbox": {
+            "x1": 391,
+            "y1": 111,
+            "x2": 590,
+            "y2": 130
+          },
+          "bbox_list": [
+            391,
+            111,
+            590,
+            130
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "School of Journalism & Communication, Peking University",
+          "bbox": {
+            "x1": 245,
+            "y1": 140,
+            "x2": 733,
+            "y2": 161
+          },
+          "bbox_list": [
+            245,
+            140,
+            733,
+            161
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"Every business is rooted in information asymmetry.\" This was once heralded as an immutable \"truth\" prior to the arrival of the internet era. As internet technology developed and deepened, consumers obtained an increasingly convenient information- sharing environment, once again proving to us that the only thing that remains the same in this world is change.",
+          "bbox": {
+            "x1": 94,
+            "y1": 169,
+            "x2": 866,
+            "y2": 248
+          },
+          "bbox_list": [
+            94,
+            169,
+            866,
+            248
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Television and print media, once filled with extensive advertising time and large advertising spaces, were labelled \"traditional media\" by the internet, and the emergence of the mobile internet turned the original internet into \"traditional\". The changes in the communication environment brought about changes in life, thereby promoting the transformation of marketing. From the AIDMA rule of the traditional mass media era to the AISAS rule of the traditional internet era, and now to the ISMAS rule proposed by the author for the mobile internet, the core of the consumer market has completely changed, and the marketing model is undergoing a Copernican- style revolution. Keeping a keen eye on changes in societal lifestyles, and staying highly sensitive to the details of consumer behavior patterns, is the basic respect that marketers owe to this ever- changing era.",
+          "bbox": {
+            "x1": 95,
+            "y1": 255,
+            "x2": 884,
+            "y2": 448
+          },
+          "bbox_list": [
+            95,
+            255,
+            884,
+            448
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## The AIDMA Rule and the Traditional Media Era",
+          "bbox": {
+            "x1": 295,
+            "y1": 484,
+            "x2": 691,
+            "y2": 504
+          },
+          "bbox_list": [
+            295,
+            484,
+            691,
+            504
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "For a relatively long period, we were accustomed to the \"more exciting after the advertisement,\" used to the \"banners\" or \"boxed ads\" that appear around the text information, and accustomed to hearing the voice of a salesperson when picking up the phone... This is a marketing heyday pioneered by railways, telephones, and mass media. Advertisers firmly grasp a wealth of product information, while consumers do not. In this environment of information asymmetry, advertisers widely disseminate product information through powerful media such as television, newspapers, magazines, and terminals, dynamically guide the psychological process of consumers, and stimulate their buying behavior.",
+          "bbox": {
+            "x1": 98,
+            "y1": 512,
+            "x2": 888,
+            "y2": 668
+          },
+          "bbox_list": [
+            98,
+            512,
+            888,
+            668
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The study of this psychological and behavioral process gave birth to a classic marketing theory that was regarded as a cornerstone of this era, the AIDMA marketing rule proposed by American advertising scholar E·S·Lewis in 1898. The rule points out that consumers, from exposure to marketing information to the act of purchase, generally go through five psychological stages: Attention, Interest, Desire, Memory, and Action.",
+          "bbox": {
+            "x1": 100,
+            "y1": 675,
+            "x2": 877,
+            "y2": 774
+          },
+          "bbox_list": [
+            100,
+            675,
+            877,
+            774
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The AIDMA marketing principle accurately reflects the marketing relationship in a traditional media environment. Television, radio, newspapers, and magazines as mass media vividly provide people with a wealth of news, entertainment, and consumer information. This information, after being uniformly edited, is quickly disseminated to thousands of households. As recipients of information, people do not have convenient and unobstructed feedback channels. This means that while people need to obtain the consumption information they need from here,",
+          "bbox": {
+            "x1": 101,
+            "y1": 779,
+            "x2": 891,
+            "y2": 896
+          },
+          "bbox_list": [
+            101,
+            779,
+            891,
+            896
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# New Rules of Advertising Communication: From AIDMA, AISAS to ISMAS  \n\nDehuan Liu, Siluo Chen  \n\nSchool of Journalism & Communication, Peking University  \n\n\"Every business is rooted in information asymmetry.\" This was once heralded as an immutable \"truth\" prior to the arrival of the internet era. As internet technology developed and deepened, consumers obtained an increasingly convenient information- sharing environment, once again proving to us that the only thing that remains the same in this world is change.  \n\nTelevision and print media, once filled with extensive advertising time and large advertising spaces, were labelled \"traditional media\" by the internet, and the emergence of the mobile internet turned the original internet into \"traditional\". The changes in the communication environment brought about changes in life, thereby promoting the transformation of marketing. From the AIDMA rule of the traditional mass media era to the AISAS rule of the traditional internet era, and now to the ISMAS rule proposed by the author for the mobile internet, the core of the consumer market has completely changed, and the marketing model is undergoing a Copernican- style revolution. Keeping a keen eye on changes in societal lifestyles, and staying highly sensitive to the details of consumer behavior patterns, is the basic respect that marketers owe to this ever- changing era.  \n\n## The AIDMA Rule and the Traditional Media Era  \n\nFor a relatively long period, we were accustomed to the \"more exciting after the advertisement,\" used to the \"banners\" or \"boxed ads\" that appear around the text information, and accustomed to hearing the voice of a salesperson when picking up the phone... This is a marketing heyday pioneered by railways, telephones, and mass media. Advertisers firmly grasp a wealth of product information, while consumers do not. In this environment of information asymmetry, advertisers widely disseminate product information through powerful media such as television, newspapers, magazines, and terminals, dynamically guide the psychological process of consumers, and stimulate their buying behavior.  \n\nThe study of this psychological and behavioral process gave birth to a classic marketing theory that was regarded as a cornerstone of this era, the AIDMA marketing rule proposed by American advertising scholar E·S·Lewis in 1898. The rule points out that consumers, from exposure to marketing information to the act of purchase, generally go through five psychological stages: Attention, Interest, Desire, Memory, and Action.  \n\nThe AIDMA marketing principle accurately reflects the marketing relationship in a traditional media environment. Television, radio, newspapers, and magazines as mass media vividly provide people with a wealth of news, entertainment, and consumer information. This information, after being uniformly edited, is quickly disseminated to thousands of households. As recipients of information, people do not have convenient and unobstructed feedback channels. This means that while people need to obtain the consumption information they need from here,"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "their rich personalized opinions and needs are simplified into \"watch or not watch\", \"listen or not listen\".",
+          "bbox": {
+            "x1": 94,
+            "y1": 78,
+            "x2": 881,
+            "y2": 118
+          },
+          "bbox_list": [
+            94,
+            78,
+            881,
+            118
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "This kind of centralized communication technology has led to consumers' AIDMA response pattern to marketing information, thus forming a media- centered marketing strategy with \"Attracting Attention\" as the primary task. This strategy has strong content stimulation, wide dissemination range, and repeated characteristics in media usage. Therefore, we can see that whether it's Qin Chi or Procter & Gamble, they are willing to \"drive a Santana into CCTV every day\". Secondly, its marketing effect is often converted into media indicators such as \"circulation\" and \"viewing rate\", and consumers' rich personalized opinions and needs are simplified into \"buy, not buy or have to buy\". Therefore, we can hear Ford saying, \"No matter what kind of car you want, we only have black\".",
+          "bbox": {
+            "x1": 93,
+            "y1": 125,
+            "x2": 864,
+            "y2": 300
+          },
+          "bbox_list": [
+            93,
+            125,
+            864,
+            300
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Of course, the most representative case of the AIDMA principle is the commercial legend in China - \"Nao Bai Jin\". At the beginning of the brand development, Yuzhu Shi personally wrote soft articles, participated in the creative process of TV infomercials, such as \"The last secret of human immortality\", those exciting words can be described as beyond human physiological and psychological limits, the frequency of the shocking advertisements made it impossible for people not to notice its existence. With that universally known vulgar ad starting to roll on major TV stations, people were instilled with a compelling reason to buy - for gifting. Regardless of morality and aesthetic standards, under this marketing principle, Nao Bai Jin eventually became the best- selling health product in China.",
+          "bbox": {
+            "x1": 93,
+            "y1": 306,
+            "x2": 886,
+            "y2": 480
+          },
+          "bbox_list": [
+            93,
+            306,
+            886,
+            480
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\ntheir rich personalized opinions and needs are simplified into \"watch or not watch\", \"listen or not listen\".  \n\nThis kind of centralized communication technology has led to consumers' AIDMA response pattern to marketing information, thus forming a media- centered marketing strategy with \"Attracting Attention\" as the primary task. This strategy has strong content stimulation, wide dissemination range, and repeated characteristics in media usage. Therefore, we can see that whether it's Qin Chi or Procter & Gamble, they are willing to \"drive a Santana into CCTV every day\". Secondly, its marketing effect is often converted into media indicators such as \"circulation\" and \"viewing rate\", and consumers' rich personalized opinions and needs are simplified into \"buy, not buy or have to buy\". Therefore, we can hear Ford saying, \"No matter what kind of car you want, we only have black\".  \n\nOf course, the most representative case of the AIDMA principle is the commercial legend in China - \"Nao Bai Jin\". At the beginning of the brand development, Yuzhu Shi personally wrote soft articles, participated in the creative process of TV infomercials, such as \"The last secret of human immortality\", those exciting words can be described as beyond human physiological and psychological limits, the frequency of the shocking advertisements made it impossible for people not to notice its existence. With that universally known vulgar ad starting to roll on major TV stations, people were instilled with a compelling reason to buy - for gifting. Regardless of morality and aesthetic standards, under this marketing principle, Nao Bai Jin eventually became the best- selling health product in China."
+    }
+  ],
+  "total_blocks": 13
+}

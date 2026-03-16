@@ -1,0 +1,334 @@
+{
+  "project_id": "dehuan_liu",
+  "person_name": "Dehuan Liu",
+  "visa_type": "EB-1A",
+  "pipeline_stage": "ocr_complete",
+  "created_at": "2026-02-25T03:37:30.178542+00:00",
+  "source_path": "F:/Python-Project/PetitionLetterPaperVersion/PetitionLetter/data/eb1a/Dehuan Liu",
+  "exhibits": [
+    {
+      "exhibit_id": "A1",
+      "page_count": 11,
+      "block_count": 79
+    },
+    {
+      "exhibit_id": "B1",
+      "page_count": 2,
+      "block_count": 5
+    },
+    {
+      "exhibit_id": "B10",
+      "page_count": 8,
+      "block_count": 51
+    },
+    {
+      "exhibit_id": "B11",
+      "page_count": 2,
+      "block_count": 6
+    },
+    {
+      "exhibit_id": "B12",
+      "page_count": 6,
+      "block_count": 20
+    },
+    {
+      "exhibit_id": "B13",
+      "page_count": 5,
+      "block_count": 55
+    },
+    {
+      "exhibit_id": "B14",
+      "page_count": 11,
+      "block_count": 104
+    },
+    {
+      "exhibit_id": "B15",
+      "page_count": 3,
+      "block_count": 16
+    },
+    {
+      "exhibit_id": "B16",
+      "page_count": 5,
+      "block_count": 30
+    },
+    {
+      "exhibit_id": "B17",
+      "page_count": 2,
+      "block_count": 21
+    },
+    {
+      "exhibit_id": "B2",
+      "page_count": 2,
+      "block_count": 2
+    },
+    {
+      "exhibit_id": "B3",
+      "page_count": 11,
+      "block_count": 79
+    },
+    {
+      "exhibit_id": "B4",
+      "page_count": 5,
+      "block_count": 51
+    },
+    {
+      "exhibit_id": "B5",
+      "page_count": 2,
+      "block_count": 7
+    },
+    {
+      "exhibit_id": "B6",
+      "page_count": 4,
+      "block_count": 37
+    },
+    {
+      "exhibit_id": "B7",
+      "page_count": 4,
+      "block_count": 9
+    },
+    {
+      "exhibit_id": "B8",
+      "page_count": 16,
+      "block_count": 35
+    },
+    {
+      "exhibit_id": "B9",
+      "page_count": 7,
+      "block_count": 26
+    },
+    {
+      "exhibit_id": "C1",
+      "page_count": 2,
+      "block_count": 10
+    },
+    {
+      "exhibit_id": "C10",
+      "page_count": 3,
+      "block_count": 34
+    },
+    {
+      "exhibit_id": "C2",
+      "page_count": 6,
+      "block_count": 45
+    },
+    {
+      "exhibit_id": "C3",
+      "page_count": 12,
+      "block_count": 82
+    },
+    {
+      "exhibit_id": "C4",
+      "page_count": 4,
+      "block_count": 31
+    },
+    {
+      "exhibit_id": "C5",
+      "page_count": 9,
+      "block_count": 67
+    },
+    {
+      "exhibit_id": "C6",
+      "page_count": 3,
+      "block_count": 13
+    },
+    {
+      "exhibit_id": "C7",
+      "page_count": 2,
+      "block_count": 9
+    },
+    {
+      "exhibit_id": "C8",
+      "page_count": 2,
+      "block_count": 7
+    },
+    {
+      "exhibit_id": "C9",
+      "page_count": 9,
+      "block_count": 85
+    },
+    {
+      "exhibit_id": "D1",
+      "page_count": 7,
+      "block_count": 57
+    },
+    {
+      "exhibit_id": "D2",
+      "page_count": 5,
+      "block_count": 30
+    },
+    {
+      "exhibit_id": "D3",
+      "page_count": 3,
+      "block_count": 12
+    },
+    {
+      "exhibit_id": "D4",
+      "page_count": 3,
+      "block_count": 18
+    },
+    {
+      "exhibit_id": "D5",
+      "page_count": 3,
+      "block_count": 10
+    },
+    {
+      "exhibit_id": "D6",
+      "page_count": 2,
+      "block_count": 4
+    },
+    {
+      "exhibit_id": "D7",
+      "page_count": 2,
+      "block_count": 15
+    },
+    {
+      "exhibit_id": "D8",
+      "page_count": 3,
+      "block_count": 13
+    },
+    {
+      "exhibit_id": "D9",
+      "page_count": 11,
+      "block_count": 73
+    },
+    {
+      "exhibit_id": "E1",
+      "page_count": 10,
+      "block_count": 106
+    },
+    {
+      "exhibit_id": "E10",
+      "page_count": 13,
+      "block_count": 123
+    },
+    {
+      "exhibit_id": "E11",
+      "page_count": 4,
+      "block_count": 33
+    },
+    {
+      "exhibit_id": "E2",
+      "page_count": 3,
+      "block_count": 13
+    },
+    {
+      "exhibit_id": "E3",
+      "page_count": 8,
+      "block_count": 93
+    },
+    {
+      "exhibit_id": "E4",
+      "page_count": 7,
+      "block_count": 26
+    },
+    {
+      "exhibit_id": "E5",
+      "page_count": 2,
+      "block_count": 9
+    },
+    {
+      "exhibit_id": "E6",
+      "page_count": 2,
+      "block_count": 19
+    },
+    {
+      "exhibit_id": "E7",
+      "page_count": 3,
+      "block_count": 33
+    },
+    {
+      "exhibit_id": "E8",
+      "page_count": 2,
+      "block_count": 12
+    },
+    {
+      "exhibit_id": "E9",
+      "page_count": 2,
+      "block_count": 12
+    },
+    {
+      "exhibit_id": "F1",
+      "page_count": 2,
+      "block_count": 24
+    },
+    {
+      "exhibit_id": "F2",
+      "page_count": 7,
+      "block_count": 124
+    },
+    {
+      "exhibit_id": "F3",
+      "page_count": 14,
+      "block_count": 117
+    },
+    {
+      "exhibit_id": "G1",
+      "page_count": 2,
+      "block_count": 2
+    },
+    {
+      "exhibit_id": "G10",
+      "page_count": 5,
+      "block_count": 50
+    },
+    {
+      "exhibit_id": "G11",
+      "page_count": 3,
+      "block_count": 22
+    },
+    {
+      "exhibit_id": "G12",
+      "page_count": 6,
+      "block_count": 21
+    },
+    {
+      "exhibit_id": "G2",
+      "page_count": 2,
+      "block_count": 8
+    },
+    {
+      "exhibit_id": "G3",
+      "page_count": 2,
+      "block_count": 4
+    },
+    {
+      "exhibit_id": "G4",
+      "page_count": 5,
+      "block_count": 18
+    },
+    {
+      "exhibit_id": "G5",
+      "page_count": 8,
+      "block_count": 59
+    },
+    {
+      "exhibit_id": "G6",
+      "page_count": 4,
+      "block_count": 17
+    },
+    {
+      "exhibit_id": "G7",
+      "page_count": 6,
+      "block_count": 38
+    },
+    {
+      "exhibit_id": "G8",
+      "page_count": 7,
+      "block_count": 27
+    },
+    {
+      "exhibit_id": "G9",
+      "page_count": 4,
+      "block_count": 11
+    },
+    {
+      "exhibit_id": "H1",
+      "page_count": 4,
+      "block_count": 17
+    }
+  ],
+  "stats": {
+    "exhibit_count": 64,
+    "total_blocks": 2286
+  }
+}

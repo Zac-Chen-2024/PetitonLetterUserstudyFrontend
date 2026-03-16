@@ -1,0 +1,151 @@
+{
+  "exhibit_id": "C8",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Exhibit C-8",
+          "bbox": {
+            "x1": 116,
+            "y1": 450,
+            "x2": 875,
+            "y2": 545
+          },
+          "bbox_list": [
+            116,
+            450,
+            875,
+            545
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit C-8"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## The First China Digital Marketing Conference will be Held on January 21st",
+          "bbox": {
+            "x1": 164,
+            "y1": 76,
+            "x2": 819,
+            "y2": 98
+          },
+          "bbox_list": [
+            164,
+            76,
+            819,
+            98
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In the era of \"Internet+\", digital marketing has become a major factor in driving brand influence. The \"First China Digital Marketing Conference\", hosted by the Digital Marketing Committee of the China Advertising Association of Commerce under the auspices of the Chinese Ministry of Commerce, will be held at the Beijing National Convention Center from January 21 to 22, 2016, to assist Chinese brands in building digital transformation and upgrading, while promoting the development of the entire digital marketing industry chain ecosystem.",
+          "bbox": {
+            "x1": 95,
+            "y1": 133,
+            "x2": 884,
+            "y2": 251
+          },
+          "bbox_list": [
+            95,
+            133,
+            884,
+            251
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The theme of this conference is \"Building the Right Path in the Intelligent Digital Era\", which will bring comprehensive discussions on digital marketing in the era of Internet+ from a global perspective. The conference has attracted internet giants such as Tencent, Alibaba, Baidu, Google, NetEase, Sohu, Sina, Acxiom, Criteo, and hundreds of domestic and foreign brand owners and innovative digital marketing companies to participate.",
+          "bbox": {
+            "x1": 98,
+            "y1": 257,
+            "x2": 881,
+            "y2": 357
+          },
+          "bbox_list": [
+            98,
+            257,
+            881,
+            357
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Facing the new challenges encountered by Chinese brand building in the \"Internet+\" era, combined with the achievements of the digital marketing industry, the conference has set up eight major awards, aiming to encourage and recognize brand owners, digital companies, media institutions, and practitioners who innovate through digitization.",
+          "bbox": {
+            "x1": 99,
+            "y1": 363,
+            "x2": 881,
+            "y2": 444
+          },
+          "bbox_list": [
+            99,
+            363,
+            881,
+            444
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The inaugural China Digital Marketing Conference will bring about a new integration of the entire Internet ecosystem, becoming the weather vane of digital marketing in 2016.",
+          "bbox": {
+            "x1": 100,
+            "y1": 448,
+            "x2": 881,
+            "y2": 490
+          },
+          "bbox_list": [
+            100,
+            448,
+            881,
+            490
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "This article comes from: China Digital Marketing Committee Content Editor: Shuai Yuan",
+          "bbox": {
+            "x1": 100,
+            "y1": 525,
+            "x2": 848,
+            "y2": 568
+          },
+          "bbox_list": [
+            100,
+            525,
+            848,
+            568
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## The First China Digital Marketing Conference will be Held on January 21st  \n\nIn the era of \"Internet+\", digital marketing has become a major factor in driving brand influence. The \"First China Digital Marketing Conference\", hosted by the Digital Marketing Committee of the China Advertising Association of Commerce under the auspices of the Chinese Ministry of Commerce, will be held at the Beijing National Convention Center from January 21 to 22, 2016, to assist Chinese brands in building digital transformation and upgrading, while promoting the development of the entire digital marketing industry chain ecosystem.  \n\nThe theme of this conference is \"Building the Right Path in the Intelligent Digital Era\", which will bring comprehensive discussions on digital marketing in the era of Internet+ from a global perspective. The conference has attracted internet giants such as Tencent, Alibaba, Baidu, Google, NetEase, Sohu, Sina, Acxiom, Criteo, and hundreds of domestic and foreign brand owners and innovative digital marketing companies to participate.  \n\nFacing the new challenges encountered by Chinese brand building in the \"Internet+\" era, combined with the achievements of the digital marketing industry, the conference has set up eight major awards, aiming to encourage and recognize brand owners, digital companies, media institutions, and practitioners who innovate through digitization.  \n\nThe inaugural China Digital Marketing Conference will bring about a new integration of the entire Internet ecosystem, becoming the weather vane of digital marketing in 2016.  \n\nThis article comes from: China Digital Marketing Committee Content Editor: Shuai Yuan"
+    }
+  ],
+  "total_blocks": 7
+}
