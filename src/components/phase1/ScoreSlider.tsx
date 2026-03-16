@@ -49,7 +49,7 @@ export default function ScoreSlider({ value, onChange, min = 0, max = 100 }: Sco
       />
       {/* Value label */}
       <div className="absolute inset-0 flex items-center justify-end pr-3">
-        <span className="text-xs font-bold tabular-nums" style={{ color: pct > 85 ? 'white' : '#334155' }}>
+        <span className="text-xs font-bold tabular-nums text-slate-800">
           {value}
         </span>
       </div>
