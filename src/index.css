@@ -14,10 +14,14 @@
   box-sizing: border-box;
 }
 
-button, label, a, [role="button"], .select-none,
-h1, h2, h3, h4, h5, h6, span, p, th, td {
+* {
   -webkit-user-select: none;
   user-select: none;
+}
+
+textarea, input[type="text"], input[type="email"], input[type="number"] {
+  -webkit-user-select: text;
+  user-select: text;
 }
 
 body {
