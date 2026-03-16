@@ -1,5 +1,8 @@
 export default function ThankYouPage() {
   const handleDone = () => {
+    // window.close() only works on script-opened windows.
+    // Workaround: open blank then close, or navigate to about:blank.
+    window.open('about:blank', '_self');
     window.close();
   };
 
