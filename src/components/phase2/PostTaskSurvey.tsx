@@ -79,7 +79,7 @@ export default function PostTaskSurvey({ onSubmit }: PostTaskSurveyProps) {
   };
 
   return (
-    <div className="w-full max-w-3xl mx-auto px-6 py-8 overflow-y-auto h-full custom-scrollbar">
+    <div className="w-full max-w-3xl mx-auto px-6 py-8">
       {/* Header */}
       <div className="mb-10">
         <h2 className="text-2xl font-semibold text-slate-900 mb-2 tracking-tight">{t('postTask.title')}</h2>
