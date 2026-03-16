@@ -67,22 +67,26 @@ const SCALE_LABELS = [
 // MBTI-style circle sizes: large on edges, small in the middle
 const CIRCLE_SIZES = [44, 38, 32, 28, 32, 38, 44];
 
-// Left = warm red/rose, Right = cool teal/blue
-const LEFT_COLOR = { bg: 'rgb(244, 63, 94)', border: 'rgb(225, 29, 72)' };   // rose-500 / rose-600
-const RIGHT_COLOR = { bg: 'rgb(20, 184, 166)', border: 'rgb(13, 148, 136)' }; // teal-500 / teal-600
-const NEUTRAL_COLOR = { bg: 'rgb(148, 163, 184)', border: 'rgb(100, 116, 139)' }; // slate-400 / slate-500
+// Darker colors — border matches background
+const COLORS = [
+  'rgb(159, 18, 57)',   // rose-900
+  'rgb(190, 18, 60)',   // rose-700
+  'rgb(225, 29, 72)',   // rose-600
+  'rgb(100, 116, 139)', // slate-500
+  'rgb(13, 148, 136)',  // teal-600
+  'rgb(15, 118, 110)',  // teal-700
+  'rgb(19, 78, 74)',    // teal-900
+];
 
-function getColor(index: number) {
-  if (index < 3) return LEFT_COLOR;
-  if (index > 3) return RIGHT_COLOR;
-  return NEUTRAL_COLOR;
-}
-
-function getIdleColor(index: number) {
-  if (index < 3) return 'border-rose-300 hover:border-rose-400';
-  if (index > 3) return 'border-teal-300 hover:border-teal-400';
-  return 'border-slate-300 hover:border-slate-400';
-}
+const IDLE_BORDER_COLORS = [
+  'border-rose-800 hover:border-rose-700',
+  'border-rose-600 hover:border-rose-500',
+  'border-rose-500 hover:border-rose-400',
+  'border-slate-400 hover:border-slate-500',
+  'border-teal-500 hover:border-teal-400',
+  'border-teal-600 hover:border-teal-500',
+  'border-teal-800 hover:border-teal-700',
+];
 
 export default function PostTaskSurvey({ onSubmit }: PostTaskSurveyProps) {
   const { t } = useTranslation();
@@ -104,26 +108,31 @@ export default function PostTaskSurvey({ onSubmit }: PostTaskSurveyProps) {
         </p>
       </div>
 
-      {/* Scale legend bar */}
+      {/* Scale legend bar — circles vertically centered */}
       <div className="rounded-lg border border-slate-200/80 bg-slate-50 px-6 py-4 mb-6">
-        <div className="flex items-end justify-center gap-3">
-          {SCALE_LABELS.map((label, i) => {
+        <div className="flex items-center justify-center gap-3 mb-2">
+          {SCALE_LABELS.map((_, i) => {
             const size = CIRCLE_SIZES[i];
-            const color = getColor(i);
             return (
-              <div key={i} className="flex flex-col items-center gap-1.5">
+              <div key={i} className="flex items-center justify-center" style={{ width: 48 }}>
                 <div
-                  className="rounded-full opacity-60"
+                  className="rounded-full opacity-50"
                   style={{
                     width: size,
                     height: size,
-                    backgroundColor: color.bg,
+                    backgroundColor: COLORS[i],
                   }}
                 />
-                <span className="text-[10px] text-slate-400 leading-tight text-center w-16">{label}</span>
               </div>
             );
           })}
+        </div>
+        <div className="flex items-start justify-center gap-3">
+          {SCALE_LABELS.map((label, i) => (
+            <div key={i} className="flex justify-center" style={{ width: 48 }}>
+              <span className="text-[10px] text-slate-400 leading-tight text-center">{label}</span>
+            </div>
+          ))}
         </div>
       </div>
 
@@ -157,7 +166,7 @@ export default function PostTaskSurvey({ onSubmit }: PostTaskSurveyProps) {
 
               {/* MBTI-style 7-point Likert scale */}
               <div className="flex items-center px-2">
-                <span className="text-xs font-medium text-rose-400 w-20 text-right pr-3 shrink-0 leading-snug">
+                <span className="text-xs font-medium text-rose-700 w-20 text-right pr-3 shrink-0 leading-snug">
                   Strongly<br />Disagree
                 </span>
 
@@ -166,7 +175,7 @@ export default function PostTaskSurvey({ onSubmit }: PostTaskSurveyProps) {
                     const value = i + 1;
                     const isSelected = selected === value;
                     const size = CIRCLE_SIZES[i];
-                    const color = getColor(i);
+                    const c = COLORS[i];
 
                     return (
                       <button
@@ -176,17 +185,16 @@ export default function PostTaskSurvey({ onSubmit }: PostTaskSurveyProps) {
                         className={`
                           rounded-full border-2 flex items-center justify-center cursor-pointer
                           transition-all duration-200 ease-out active:scale-90
-                          ${isSelected ? '' : `${getIdleColor(i)} bg-white hover:scale-110`}
+                          ${isSelected ? '' : `${IDLE_BORDER_COLORS[i]} bg-white hover:scale-110`}
                         `}
                         style={{
                           width: size,
                           height: size,
                           ...(isSelected ? {
-                            backgroundColor: color.bg,
-                            borderColor: color.border,
-                            color: 'white',
-                            boxShadow: `0 2px 8px ${color.bg}40`,
-                            transform: 'scale(1.1)',
+                            backgroundColor: c,
+                            borderColor: c,
+                            boxShadow: `0 2px 10px ${c}50`,
+                            transform: 'scale(1.15)',
                           } : {}),
                         }}
                       >
@@ -198,7 +206,7 @@ export default function PostTaskSurvey({ onSubmit }: PostTaskSurveyProps) {
                   })}
                 </div>
 
-                <span className="text-xs font-medium text-teal-400 w-20 pl-3 shrink-0 leading-snug">
+                <span className="text-xs font-medium text-teal-700 w-20 pl-3 shrink-0 leading-snug">
                   Strongly<br />Agree
                 </span>
               </div>
