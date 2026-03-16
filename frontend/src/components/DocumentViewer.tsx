@@ -322,27 +322,20 @@ function PDFViewer({
     setIsLoading(false);
     setPdfError(null);
 
-    // Execute pending scroll: watch DOM until target page element appears
-    if (pendingScrollSnippetId.current && containerRef.current) {
+    // Execute pending scroll after PDF pages render — retry until success
+    if (pendingScrollSnippetId.current) {
       const pending = pendingScrollSnippetId.current;
-      const snippet = snippets.find(s => s.id === pending);
-      const targetPage = snippet?.boundingBox?.page;
-
-      if (targetPage && containerRef.current) {
-        const container = containerRef.current;
-        const observer = new MutationObserver(() => {
-          const pageEl = container.querySelector(`[data-page="${targetPage}"]`);
-          if (pageEl) {
-            observer.disconnect();
-            if (scrollToSnippet(pending)) {
-              pendingScrollSnippetId.current = null;
-            }
-          }
-        });
-        observer.observe(container, { childList: true, subtree: true });
-        // Safety timeout: stop observing after 5s
-        setTimeout(() => observer.disconnect(), 5000);
-      }
+      let attempts = 0;
+      const tryScroll = () => {
+        if (pendingScrollSnippetId.current !== pending) return;
+        if (scrollToSnippet(pending)) {
+          pendingScrollSnippetId.current = null;
+        } else if (attempts < 10) {
+          attempts++;
+          setTimeout(tryScroll, 300);
+        }
+      };
+      setTimeout(tryScroll, 500);
     }
   };
 
