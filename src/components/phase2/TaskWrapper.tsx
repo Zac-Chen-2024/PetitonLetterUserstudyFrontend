@@ -86,7 +86,7 @@ export default function TaskWrapper({ systemUrl, onComplete }: TaskWrapperProps)
           src={systemUrl}
           className="w-full h-full border-0"
           title="Study Task"
-          sandbox="allow-same-origin allow-scripts allow-forms allow-popups"
+          allow="cross-origin-isolated"
           onLoad={() => { setLoading(false); setLoadError(false); }}
           onError={() => setLoadError(true)}
         />
