@@ -16,7 +16,7 @@ export default function Phase2Page() {
   const [phase, setPhase] = useState<TaskPhase>('active');
   const taskStartRef = useRef(Date.now());
 
-  const systemUrl = 'http://localhost:5174/mapping?studyMode=true';
+  const systemUrl = 'https://zac-chen-2024.github.io/PetitonLetterUserstudyFrontend/mapping?studyMode=true';
 
   const handleTaskComplete = () => {
     setPhase('survey');

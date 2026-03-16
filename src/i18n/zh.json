@@ -99,7 +99,7 @@
     "taskComplete": "任务完成。请回答几个关于您体验的问题。",
     "condition": "条件",
     "connectionError": "无法连接到主系统",
-    "connectionErrorHint": "请确保主系统已在 localhost:5173 上运行，然后重试。",
+    "connectionErrorHint": "请检查网络连接后重试。",
     "retry": "重试",
     "skip": "跳过",
     "loading": "正在加载系统..."

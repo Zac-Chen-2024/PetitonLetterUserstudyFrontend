@@ -99,7 +99,7 @@
     "taskComplete": "Task completed. Please answer a few questions about your experience.",
     "condition": "Condition",
     "connectionError": "Unable to connect to the main system",
-    "connectionErrorHint": "Please ensure the main system is running on localhost:5173, then retry.",
+    "connectionErrorHint": "Please check your network connection and retry.",
     "retry": "Retry",
     "skip": "Skip",
     "loading": "Loading system..."
