@@ -9,3 +9,6 @@ __MACOSX/
 
 # Study design docs (not needed at runtime)
 Phase1Doc/
+
+# Large data files (kept on server only)
+backend/data/eb1a/
