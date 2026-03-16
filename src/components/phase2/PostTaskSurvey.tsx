@@ -64,27 +64,25 @@ const SCALE_LABELS = [
   'Strongly Agree',
 ];
 
-// Idle: all neutral gray outline
-const IDLE_COLORS = [
-  'border-slate-300 hover:border-slate-400',
-  'border-slate-300 hover:border-slate-400',
-  'border-slate-300 hover:border-slate-400',
-  'border-slate-300 hover:border-slate-400',
-  'border-slate-300 hover:border-slate-400',
-  'border-slate-300 hover:border-slate-400',
-  'border-slate-300 hover:border-slate-400',
-];
+// MBTI-style circle sizes: large on edges, small in the middle
+const CIRCLE_SIZES = [44, 38, 32, 28, 32, 38, 44];
 
-// Unified blue palette for selected state (darker = more extreme)
-const SELECTED_COLORS = [
-  'bg-blue-700 border-blue-700 text-white',
-  'bg-blue-600 border-blue-600 text-white',
-  'bg-blue-500 border-blue-500 text-white',
-  'bg-blue-400 border-blue-400 text-white',
-  'bg-blue-500 border-blue-500 text-white',
-  'bg-blue-600 border-blue-600 text-white',
-  'bg-blue-700 border-blue-700 text-white',
-];
+// Left = warm red/rose, Right = cool teal/blue
+const LEFT_COLOR = { bg: 'rgb(244, 63, 94)', border: 'rgb(225, 29, 72)' };   // rose-500 / rose-600
+const RIGHT_COLOR = { bg: 'rgb(20, 184, 166)', border: 'rgb(13, 148, 136)' }; // teal-500 / teal-600
+const NEUTRAL_COLOR = { bg: 'rgb(148, 163, 184)', border: 'rgb(100, 116, 139)' }; // slate-400 / slate-500
+
+function getColor(index: number) {
+  if (index < 3) return LEFT_COLOR;
+  if (index > 3) return RIGHT_COLOR;
+  return NEUTRAL_COLOR;
+}
+
+function getIdleColor(index: number) {
+  if (index < 3) return 'border-rose-300 hover:border-rose-400';
+  if (index > 3) return 'border-teal-300 hover:border-teal-400';
+  return 'border-slate-300 hover:border-slate-400';
+}
 
 export default function PostTaskSurvey({ onSubmit }: PostTaskSurveyProps) {
   const { t } = useTranslation();
@@ -107,17 +105,26 @@ export default function PostTaskSurvey({ onSubmit }: PostTaskSurveyProps) {
       </div>
 
       {/* Scale legend bar */}
-      <div className="rounded-lg border border-slate-200/80 bg-slate-50 px-6 py-4 mb-6 flex items-center justify-between">
-        <span className="text-xs font-semibold text-slate-500">1 = Strongly Disagree</span>
-        <div className="flex gap-6">
-          {SCALE_LABELS.map((label, i) => (
-            <div key={i} className="flex flex-col items-center gap-0.5">
-              <span className="text-sm font-semibold text-slate-700">{i + 1}</span>
-              <span className="text-[11px] text-slate-400 leading-tight text-center w-14">{label}</span>
-            </div>
-          ))}
+      <div className="rounded-lg border border-slate-200/80 bg-slate-50 px-6 py-4 mb-6">
+        <div className="flex items-end justify-center gap-3">
+          {SCALE_LABELS.map((label, i) => {
+            const size = CIRCLE_SIZES[i];
+            const color = getColor(i);
+            return (
+              <div key={i} className="flex flex-col items-center gap-1.5">
+                <div
+                  className="rounded-full opacity-60"
+                  style={{
+                    width: size,
+                    height: size,
+                    backgroundColor: color.bg,
+                  }}
+                />
+                <span className="text-[10px] text-slate-400 leading-tight text-center w-16">{label}</span>
+              </div>
+            );
+          })}
         </div>
-        <span className="text-xs font-semibold text-slate-500">7 = Strongly Agree</span>
       </div>
 
       {/* Questions */}
@@ -129,15 +136,15 @@ export default function PostTaskSurvey({ onSubmit }: PostTaskSurveyProps) {
               key={q.id}
               className={`rounded-xl border p-5 transition-all duration-200 ease-out ${
                 selected !== undefined
-                  ? 'border-blue-200/80 bg-blue-50/30 shadow-[0_2px_8px_rgba(59,130,246,0.06)]'
+                  ? 'border-slate-200 bg-slate-50/50 shadow-[0_2px_8px_rgba(0,0,0,0.04)]'
                   : 'border-slate-200 bg-white shadow-[0_1px_2px_rgba(0,0,0,0.04)] hover:shadow-[0_2px_6px_rgba(0,0,0,0.06)]'
               }`}
             >
               {/* Question text */}
-              <div className="flex gap-4 mb-4">
+              <div className="flex gap-4 mb-5">
                 <div className={`w-7 h-7 rounded-full flex items-center justify-center text-xs font-semibold shrink-0 transition-all duration-200 ease-out ${
                   selected !== undefined
-                    ? 'bg-blue-600 text-white shadow-[0_2px_6px_rgba(37,99,235,0.25)]'
+                    ? 'bg-slate-700 text-white'
                     : 'bg-slate-600 text-white'
                 }`}>
                   {qIdx + 1}
@@ -148,16 +155,18 @@ export default function PostTaskSurvey({ onSubmit }: PostTaskSurveyProps) {
                 </div>
               </div>
 
-              {/* 7-point Likert scale */}
-              <div className="flex items-center px-4">
-                <span className="text-xs font-medium text-slate-400 w-24 text-right pr-4 shrink-0 leading-snug">
+              {/* MBTI-style 7-point Likert scale */}
+              <div className="flex items-center px-2">
+                <span className="text-xs font-medium text-rose-400 w-20 text-right pr-3 shrink-0 leading-snug">
                   Strongly<br />Disagree
                 </span>
 
-                <div className="flex items-center gap-3 flex-1 justify-center">
+                <div className="flex items-center gap-2.5 flex-1 justify-center">
                   {SCALE_LABELS.map((label, i) => {
                     const value = i + 1;
                     const isSelected = selected === value;
+                    const size = CIRCLE_SIZES[i];
+                    const color = getColor(i);
 
                     return (
                       <button
@@ -165,21 +174,31 @@ export default function PostTaskSurvey({ onSubmit }: PostTaskSurveyProps) {
                         onClick={() => handleSelect(q.id, value)}
                         title={label}
                         className={`
-                          w-10 h-10 rounded-full border-2 flex items-center justify-center text-sm font-semibold cursor-pointer
-                          transition-all duration-200 ease-out
-                          ${isSelected
-                            ? `${SELECTED_COLORS[i]} likert-select`
-                            : `${IDLE_COLORS[i]} text-slate-400 hover:scale-105 hover:shadow-sm active:scale-95`
-                          }
+                          rounded-full border-2 flex items-center justify-center cursor-pointer
+                          transition-all duration-200 ease-out active:scale-90
+                          ${isSelected ? '' : `${getIdleColor(i)} bg-white hover:scale-110`}
                         `}
+                        style={{
+                          width: size,
+                          height: size,
+                          ...(isSelected ? {
+                            backgroundColor: color.bg,
+                            borderColor: color.border,
+                            color: 'white',
+                            boxShadow: `0 2px 8px ${color.bg}40`,
+                            transform: 'scale(1.1)',
+                          } : {}),
+                        }}
                       >
-                        {value}
+                        <span className={`text-xs font-semibold ${isSelected ? 'text-white' : 'text-slate-400'}`}>
+                          {value}
+                        </span>
                       </button>
                     );
                   })}
                 </div>
 
-                <span className="text-xs font-medium text-slate-400 w-24 pl-4 shrink-0 leading-snug">
+                <span className="text-xs font-medium text-teal-400 w-20 pl-3 shrink-0 leading-snug">
                   Strongly<br />Agree
                 </span>
               </div>
@@ -196,7 +215,7 @@ export default function PostTaskSurvey({ onSubmit }: PostTaskSurveyProps) {
           className={`
             w-full py-3 rounded-lg text-sm font-semibold transition-all duration-200 ease-out
             ${allAnswered
-              ? 'bg-blue-600 text-white hover:bg-blue-700 active:scale-[0.99] shadow-sm hover:shadow-md'
+              ? 'bg-slate-800 text-white hover:bg-slate-900 active:scale-[0.99] shadow-sm hover:shadow-md'
               : 'bg-slate-100 text-slate-400 cursor-not-allowed border border-slate-200'
             }
           `}
