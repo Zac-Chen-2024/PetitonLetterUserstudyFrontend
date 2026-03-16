@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useRef, useCallback } from 'react';
 
 interface ScoreSliderProps {
   value: number;
@@ -9,58 +9,49 @@ interface ScoreSliderProps {
 
 export default function ScoreSlider({ value, onChange, min = 0, max = 100 }: ScoreSliderProps) {
   const pct = ((value - min) / (max - min)) * 100;
-  const trackRef = useRef<HTMLDivElement>(null);
-  const [isDragging, setIsDragging] = useState(false);
+  const barRef = useRef<HTMLDivElement>(null);
+
+  const calcValue = useCallback((clientX: number) => {
+    if (!barRef.current) return value;
+    const rect = barRef.current.getBoundingClientRect();
+    const ratio = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
+    return Math.round(min + ratio * (max - min));
+  }, [min, max, value]);
+
+  const handlePointerDown = useCallback((e: React.PointerEvent) => {
+    e.preventDefault();
+    const el = barRef.current;
+    if (!el) return;
+
+    el.setPointerCapture(e.pointerId);
+    onChange(calcValue(e.clientX));
+
+    const onMove = (ev: PointerEvent) => onChange(calcValue(ev.clientX));
+    const onUp = () => {
+      el.removeEventListener('pointermove', onMove);
+      el.removeEventListener('pointerup', onUp);
+    };
+    el.addEventListener('pointermove', onMove);
+    el.addEventListener('pointerup', onUp);
+  }, [calcValue, onChange]);
 
   return (
-    <div className="relative pt-6 pb-1">
-      {/* Floating value bubble */}
+    <div
+      ref={barRef}
+      onPointerDown={handlePointerDown}
+      className="relative w-full h-9 rounded-lg overflow-hidden cursor-pointer select-none"
+      style={{ backgroundColor: '#e2e8f0' }}
+    >
+      {/* Filled portion */}
       <div
-        className="absolute top-0 pointer-events-none"
-        style={{
-          left: `calc(${pct}% - 16px + ${(50 - pct) * 0.22}px)`,
-          opacity: isDragging ? 1 : 0.8,
-          transition: 'opacity 0.2s cubic-bezier(0.22, 1, 0.36, 1)',
-        }}
-      >
-        <div className={`
-          px-1.5 py-0.5 rounded text-[10px] font-semibold text-white tabular-nums text-center min-w-[32px]
-          transition-all duration-200 ease-out
-          ${isDragging ? 'bg-blue-600 scale-110 shadow-sm' : 'bg-slate-400'}
-        `}>
+        className="absolute inset-y-0 left-0 rounded-lg transition-[width] duration-75 ease-out"
+        style={{ width: `${pct}%`, backgroundColor: '#2a9d6e' }}
+      />
+      {/* Value label */}
+      <div className="absolute inset-0 flex items-center justify-end pr-3">
+        <span className="text-xs font-bold tabular-nums" style={{ color: pct > 85 ? 'white' : '#334155' }}>
           {value}
-        </div>
-        {/* Arrow */}
-        <div
-          className={`w-0 h-0 mx-auto border-l-[4px] border-r-[4px] border-t-[4px] border-l-transparent border-r-transparent transition-colors duration-200 ease-out ${isDragging ? 'border-t-blue-600' : 'border-t-slate-400'}`}
-        />
-      </div>
-
-      {/* Slider track area */}
-      <div ref={trackRef} className="relative">
-        <input
-          type="range"
-          min={min}
-          max={max}
-          step={1}
-          value={value}
-          onChange={(e) => onChange(Number(e.target.value))}
-          onMouseDown={() => setIsDragging(true)}
-          onMouseUp={() => setIsDragging(false)}
-          onTouchStart={() => setIsDragging(true)}
-          onTouchEnd={() => setIsDragging(false)}
-          onBlur={() => setIsDragging(false)}
-          className="w-full"
-          style={{
-            background: `linear-gradient(to right, #3b82f6 ${pct}%, #e2e8f0 ${pct}%)`,
-          }}
-        />
-      </div>
-
-      {/* Min/Max endpoint labels */}
-      <div className="flex justify-between mt-1">
-        <span className="text-[10px] text-slate-400 tabular-nums font-medium">{min}</span>
-        <span className="text-[10px] text-slate-400 tabular-nums font-medium">{max}</span>
+        </span>
       </div>
     </div>
   );
