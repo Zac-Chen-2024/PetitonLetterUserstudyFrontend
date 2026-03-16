@@ -167,19 +167,6 @@ export default function LetterColumn({
                 ))}
               </div>
 
-              <div className="mt-3 relative">
-                <textarea
-                  value={comment}
-                  onChange={(e) => onCommentChange(e.target.value)}
-                  placeholder={t('phase1.commentPlaceholder')}
-                  rows={2}
-                  maxLength={500}
-                  className="w-full px-2.5 py-2 text-xs border border-slate-200 bg-white rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-blue-400/20 focus:border-blue-400 transition-all duration-200 ease-out placeholder:text-slate-300"
-                />
-                <span className="absolute bottom-2 right-2.5 text-[9px] text-slate-300 tabular-nums">
-                  {comment.length}/500
-                </span>
-              </div>
             </div>
           </div>
         )}
