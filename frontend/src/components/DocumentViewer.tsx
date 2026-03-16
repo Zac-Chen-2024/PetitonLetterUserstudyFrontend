@@ -253,37 +253,49 @@ function PDFViewer({
 
   // Auto-scroll to center snippet's bounding box — only on first selection
   const lastScrolledSnippetId = useRef<string | null>(null);
+  const pendingScrollSnippetId = useRef<string | null>(null);
+
+  const scrollToSnippet = (snippetId: string) => {
+    if (!containerRef.current) return false;
+    const snippet = snippets.find(s => s.id === snippetId);
+    if (!snippet || !snippet.boundingBox?.page) return false;
+
+    const container = containerRef.current;
+    const targetPage = snippet.boundingBox.page;
+    const pageElement = container.querySelector(`[data-page="${targetPage}"]`) as HTMLElement;
+
+    if (!pageElement) return false; // PDF not rendered yet
+
+    const containerRect = container.getBoundingClientRect();
+    const pageRect = pageElement.getBoundingClientRect();
+
+    const pageTopInContainer = pageRect.top - containerRect.top;
+    const pageAbsoluteTop = container.scrollTop + pageTopInContainer;
+    const snippetCenterRatio = (snippet.boundingBox.y + snippet.boundingBox.height / 2) / 1000;
+    const snippetAbsoluteY = pageAbsoluteTop + (pageRect.height * snippetCenterRatio);
+    const targetScroll = snippetAbsoluteY - (containerRect.height / 2);
+
+    container.scrollTo({
+      top: Math.max(0, targetScroll),
+      behavior: 'smooth'
+    });
+    return true;
+  };
+
   useEffect(() => {
     if (!selectedSnippetId) {
       lastScrolledSnippetId.current = null;
+      pendingScrollSnippetId.current = null;
       return;
     }
     if (selectedSnippetId === lastScrolledSnippetId.current) return;
     lastScrolledSnippetId.current = selectedSnippetId;
 
-    if (containerRef.current) {
-      const snippet = snippets.find(s => s.id === selectedSnippetId);
-      if (snippet && snippet.boundingBox?.page) {
-        const container = containerRef.current;
-        const targetPage = snippet.boundingBox.page;
-        const pageElement = container.querySelector(`[data-page="${targetPage}"]`) as HTMLElement;
-
-        if (pageElement) {
-          const containerRect = container.getBoundingClientRect();
-          const pageRect = pageElement.getBoundingClientRect();
-
-          const pageTopInContainer = pageRect.top - containerRect.top;
-          const pageAbsoluteTop = container.scrollTop + pageTopInContainer;
-          const snippetCenterRatio = (snippet.boundingBox.y + snippet.boundingBox.height / 2) / 1000;
-          const snippetAbsoluteY = pageAbsoluteTop + (pageRect.height * snippetCenterRatio);
-          const targetScroll = snippetAbsoluteY - (containerRect.height / 2);
-
-          container.scrollTo({
-            top: Math.max(0, targetScroll),
-            behavior: 'smooth'
-          });
-        }
-      }
+    if (scrollToSnippet(selectedSnippetId)) {
+      pendingScrollSnippetId.current = null;
+    } else {
+      // PDF not loaded yet — queue scroll for after load
+      pendingScrollSnippetId.current = selectedSnippetId;
     }
   }, [selectedSnippetId, snippets]);
 
@@ -309,6 +321,19 @@ function PDFViewer({
     setNumPages(numPages);
     setIsLoading(false);
     setPdfError(null);
+
+    // Execute pending scroll after PDF pages render
+    if (pendingScrollSnippetId.current) {
+      const pending = pendingScrollSnippetId.current;
+      // Wait for react-pdf to render pages into the DOM
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          if (scrollToSnippet(pending)) {
+            pendingScrollSnippetId.current = null;
+          }
+        });
+      });
+    }
   };
 
   const onDocumentLoadError = (error: Error) => {
