@@ -6,18 +6,24 @@ import type { SurveyResponse } from '../types/index.ts';
 
 export default function Phase3Page() {
   const { t } = useTranslation();
-  const { dispatch } = useStudy();
+  const { dispatch, submitToBackend } = useStudy();
   const navigate = useNavigate();
+  const [submitting, setSubmitting] = useState(false);
 
   const [responses, setResponses] = useState<SurveyResponse>({
     openFeedback: '',
   });
 
-  const canSubmit = (responses.openFeedback as string).trim().length > 0;
+  const canSubmit = (responses.openFeedback as string).trim().length > 0 && !submitting;
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
+    setSubmitting(true);
     dispatch({ type: 'SET_PHASE3_SURVEY', data: responses });
     dispatch({ type: 'SET_STEP', step: 'thank-you' });
+
+    // Auto-submit to backend for volunteers
+    await submitToBackend();
+
     navigate('/thank-you');
   };
 
@@ -53,7 +59,7 @@ export default function Phase3Page() {
               }
             `}
           >
-            {t('common.submit')}
+            {submitting ? 'Submitting...' : t('common.submit')}
           </button>
         </div>
       </div>

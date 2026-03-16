@@ -10,6 +10,7 @@ from app.routers.provenance import router as provenance_router
 from app.routers.arguments import router as arguments_router
 from app.routers.extraction import router as extraction_router
 from app.routers.documents import router as documents_router
+from app.routers.study import router as study_router
 
 
 @asynccontextmanager
@@ -49,6 +50,7 @@ app.include_router(provenance_router)
 app.include_router(arguments_router)
 app.include_router(extraction_router)
 app.include_router(documents_router)
+app.include_router(study_router)
 
 
 # Global exception handler for unified error responses

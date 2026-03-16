@@ -4,9 +4,12 @@ import type {
   MaterialSetResult, Phase2Result, SurveyResponse, StudyRecord,
 } from '../types/index.ts';
 
+const API_BASE = 'https://plus.drziangchen.uk/api';
+
 // ── State shape ──
 interface StudyState {
   participantId: string;
+  isVolunteer: boolean;
   currentStep: StudyStep;
   counterbalance: CounterbalanceConfig | null;
   phase1Results: MaterialSetResult[];
@@ -18,6 +21,7 @@ interface StudyState {
 
 const initialState: StudyState = {
   participantId: '',
+  isVolunteer: false,
   currentStep: 'phase1',
   counterbalance: null,
   phase1Results: [],
@@ -29,7 +33,7 @@ const initialState: StudyState = {
 
 // ── Actions ──
 type Action =
-  | { type: 'SET_PARTICIPANT'; id: string }
+  | { type: 'SET_PARTICIPANT'; id: string; isVolunteer: boolean }
   | { type: 'SET_STEP'; step: StudyStep }
   | { type: 'SET_COUNTERBALANCE'; config: CounterbalanceConfig }
   | { type: 'ADD_PHASE1_RESULT'; result: MaterialSetResult }
@@ -42,7 +46,7 @@ type Action =
 function reducer(state: StudyState, action: Action): StudyState {
   switch (action.type) {
     case 'SET_PARTICIPANT':
-      return { ...state, participantId: action.id, startedAt: new Date().toISOString() };
+      return { ...state, participantId: action.id, isVolunteer: action.isVolunteer, startedAt: new Date().toISOString() };
     case 'SET_STEP':
       return { ...state, currentStep: action.step };
     case 'SET_COUNTERBALANCE':
@@ -69,6 +73,7 @@ interface StudyContextValue {
   state: StudyState;
   dispatch: React.Dispatch<Action>;
   exportRecord: () => StudyRecord;
+  submitToBackend: () => Promise<boolean>;
   hasExistingSession: (id: string) => boolean;
   restoreSession: (id: string) => boolean;
 }
@@ -124,8 +129,27 @@ export function StudyProvider({ children }: { children: ReactNode }) {
     };
   }, [state]);
 
+  const submitToBackend = useCallback(async (): Promise<boolean> => {
+    if (!state.isVolunteer) return false;
+    try {
+      const record = exportRecord();
+      const res = await fetch(`${API_BASE}/study/submit`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          participantId: state.participantId,
+          data: record,
+        }),
+      });
+      return res.ok;
+    } catch (e) {
+      console.error('Failed to submit study results:', e);
+      return false;
+    }
+  }, [state, exportRecord]);
+
   return (
-    <StudyContext.Provider value={{ state, dispatch, exportRecord, hasExistingSession, restoreSession }}>
+    <StudyContext.Provider value={{ state, dispatch, exportRecord, submitToBackend, hasExistingSession, restoreSession }}>
       {children}
     </StudyContext.Provider>
   );
