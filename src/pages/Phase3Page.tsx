@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useStudy } from '../context/StudyContext.tsx';
@@ -6,9 +6,10 @@ import type { SurveyResponse } from '../types/index.ts';
 
 export default function Phase3Page() {
   const { t } = useTranslation();
-  const { dispatch, submitToBackend } = useStudy();
+  const { state, dispatch, submitToBackend } = useStudy();
   const navigate = useNavigate();
   const [submitting, setSubmitting] = useState(false);
+  const pendingSubmit = useRef(false);
 
   const [responses, setResponses] = useState<SurveyResponse>({
     openFeedback: '',
@@ -16,16 +17,26 @@ export default function Phase3Page() {
 
   const canSubmit = (responses.openFeedback as string).trim().length > 0 && !submitting;
 
-  const handleSubmit = async () => {
+  // Step 1: user clicks submit → save to state, mark pending
+  const handleSubmit = () => {
     setSubmitting(true);
     dispatch({ type: 'SET_PHASE3_SURVEY', data: responses });
+    pendingSubmit.current = true;
+  };
+
+  // Step 2: after state updates with phase3 data → submit to backend → navigate
+  useEffect(() => {
+    if (!pendingSubmit.current) return;
+    // Wait until phase3Survey is actually populated
+    if (Object.keys(state.phase3Survey).length === 0) return;
+
+    pendingSubmit.current = false;
     dispatch({ type: 'SET_STEP', step: 'thank-you' });
 
-    // Auto-submit to backend — pass phase3 directly since dispatch hasn't flushed yet
-    await submitToBackend({ phase3: responses });
-
-    navigate('/thank-you');
-  };
+    submitToBackend().then(() => {
+      navigate('/thank-you');
+    });
+  }, [state.phase3Survey]);
 
   return (
     <div className="flex flex-col h-full">

@@ -1,38 +1,38 @@
 {
   "dimensions": [
     {
-      "id": "dim_1",
-      "name_en": "Dimension 1",
-      "name_zh": "维度 1",
-      "description_en": "TBD",
-      "description_zh": "待定",
+      "id": "persuasiveness",
+      "name_en": "Persuasiveness",
+      "name_zh": "说服力",
+      "description_en": "How convincing is the argument to an adjudicator?",
+      "description_zh": "论证对审查官的说服力如何？",
       "min": 0,
       "max": 100
     },
     {
-      "id": "dim_2",
-      "name_en": "Dimension 2",
-      "name_zh": "维度 2",
-      "description_en": "TBD",
-      "description_zh": "待定",
+      "id": "evidentiary_support",
+      "name_en": "Evidentiary Support",
+      "name_zh": "证据支撑",
+      "description_en": "Are claims backed by specific evidence?",
+      "description_zh": "主张是否有具体证据支持？",
       "min": 0,
       "max": 100
     },
     {
-      "id": "dim_3",
-      "name_en": "Dimension 3",
-      "name_zh": "维度 3",
-      "description_en": "TBD",
-      "description_zh": "待定",
+      "id": "legal_reasoning",
+      "name_en": "Legal Reasoning",
+      "name_zh": "法律论证",
+      "description_en": "Does it correctly apply the regulatory standard?",
+      "description_zh": "是否正确适用了法规标准？",
       "min": 0,
       "max": 100
     },
     {
-      "id": "dim_4",
-      "name_en": "Dimension 4",
-      "name_zh": "维度 4",
-      "description_en": "TBD",
-      "description_zh": "待定",
+      "id": "clarity_organization",
+      "name_en": "Clarity & Organization",
+      "name_zh": "清晰度与结构",
+      "description_en": "Is the structure clear and professionally written?",
+      "description_zh": "结构是否清晰，语言是否专业？",
       "min": 0,
       "max": 100
     }
