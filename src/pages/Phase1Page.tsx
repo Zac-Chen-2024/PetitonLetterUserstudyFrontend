@@ -142,17 +142,7 @@ export default function Phase1Page() {
     navigate('/phase2');
   };
 
-  const devSkipToPhase3 = () => {
-    dispatch({ type: 'SET_STEP', step: 'phase3' });
-    navigate('/phase3');
-  };
-
   const currentMaterial = materials[currentIndex];
-
-  const devSkipToPhase2 = () => {
-    dispatch({ type: 'SET_STEP', step: 'phase2' });
-    navigate('/phase2');
-  };
 
   return (
     <div className="flex flex-col h-full">
