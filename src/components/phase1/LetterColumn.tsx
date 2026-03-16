@@ -25,15 +25,15 @@ interface LetterColumnProps {
   dimensions: DimensionDef[];
   scores: Record<string, number>;
   onScoreChange: (dimId: string, value: number) => void;
-  comment: string;
-  onCommentChange: (value: string) => void;
+  comment?: string;
+  onCommentChange?: (value: string) => void;
   isScored?: boolean;
   forceShowScoring?: boolean;
 }
 
 export default function LetterColumn({
   label, sections, fontSize = 16, columnIndex, onScroll, onScoringRevealed,
-  dimensions, scores, onScoreChange, comment, onCommentChange,
+  dimensions, scores, onScoreChange,
   isScored, forceShowScoring,
 }: LetterColumnProps) {
   const { t } = useTranslation();
