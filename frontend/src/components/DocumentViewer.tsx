@@ -220,6 +220,12 @@ function PDFViewer({
   const [isLoading, setIsLoading] = useState(true);
   const [containerWidth, setContainerWidth] = useState<number>(0);
 
+  // Reset loading state when PDF URL changes (switching documents)
+  useEffect(() => {
+    setIsLoading(true);
+    setNumPages(0);
+  }, [pdfUrl]);
+
   // Number of pages to render at once for continuous scrolling
   const PAGES_TO_RENDER = 50;
 
