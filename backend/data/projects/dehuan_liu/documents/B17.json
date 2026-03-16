@@ -1,0 +1,417 @@
+{
+  "exhibit_id": "B17",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit B-17",
+          "bbox": {
+            "x1": 128,
+            "y1": 449,
+            "x2": 864,
+            "y2": 536
+          },
+          "bbox_list": [
+            128,
+            449,
+            864,
+            536
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit B-17"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Sage",
+          "bbox": {
+            "x1": 395,
+            "y1": 40,
+            "x2": 593,
+            "y2": 95
+          },
+          "bbox_list": [
+            395,
+            40,
+            593,
+            95
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Menu Search 1 Cart Search: keyword, ti Search",
+          "bbox": {
+            "x1": 55,
+            "y1": 93,
+            "x2": 210,
+            "y2": 210
+          },
+          "bbox_list": [
+            55,
+            93,
+            210,
+            210
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "0",
+          "bbox": {
+            "x1": 55,
+            "y1": 211,
+            "x2": 950,
+            "y2": 250
+          },
+          "bbox_list": [
+            55,
+            211,
+            950,
+            250
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Milton J. Bennett",
+          "bbox": {
+            "x1": 47,
+            "y1": 274,
+            "x2": 258,
+            "y2": 297
+          },
+          "bbox_list": [
+            47,
+            274,
+            258,
+            297
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Intercultural Communication Institute, USA",
+          "bbox": {
+            "x1": 46,
+            "y1": 303,
+            "x2": 536,
+            "y2": 326
+          },
+          "bbox_list": [
+            46,
+            303,
+            536,
+            326
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Dr. Milton Bennett (co- editor) is co- founder of the Intercultural Communication Institute and director of the Intercultural Development Research Institute. His Ph.D. is from the University of Minnesota in intercultural communication and sociology, and his current research interests are in empathy and consciousness. For fifteen years Milton was on the faculty of the department of speech communication at Portland State University, where he taught courses in intercultural communication and consciousness studies. Now he develops and conducts intercultural training for corporations and universities in both domestic and global diversity, and he serves as the director of graduate study for the ICI/University of the Pacific Master of Arts in Intercultural Relations program. Milton created the Developmental Model of Intercultural Sensitivity, is the co- author (with Ed Stewart) of the revised edition of American Cultural Patterns, and is editor of Basic Concepts of Intercultural Communication",
+          "bbox": {
+            "x1": 44,
+            "y1": 352,
+            "x2": 940,
+            "y2": 519
+          },
+          "bbox_list": [
+            44,
+            352,
+            940,
+            519
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Browse",
+          "bbox": {
+            "x1": 60,
+            "y1": 590,
+            "x2": 120,
+            "y2": 603
+          },
+          "bbox_list": [
+            60,
+            590,
+            120,
+            603
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Books",
+          "bbox": {
+            "x1": 60,
+            "y1": 620,
+            "x2": 120,
+            "y2": 633
+          },
+          "bbox_list": [
+            60,
+            620,
+            120,
+            633
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Journals",
+          "bbox": {
+            "x1": 60,
+            "y1": 644,
+            "x2": 123,
+            "y2": 657
+          },
+          "bbox_list": [
+            60,
+            644,
+            123,
+            657
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Digital Solutions for your Course",
+          "bbox": {
+            "x1": 60,
+            "y1": 666,
+            "x2": 300,
+            "y2": 682
+          },
+          "bbox_list": [
+            60,
+            666,
+            300,
+            682
+          ]
+        },
+        {
+          "block_id": "p2_b10",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Learning Resources",
+          "bbox": {
+            "x1": 60,
+            "y1": 690,
+            "x2": 207,
+            "y2": 705
+          },
+          "bbox_list": [
+            60,
+            690,
+            207,
+            705
+          ]
+        },
+        {
+          "block_id": "p2_b11",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Catalogs",
+          "bbox": {
+            "x1": 60,
+            "y1": 715,
+            "x2": 125,
+            "y2": 728
+          },
+          "bbox_list": [
+            60,
+            715,
+            125,
+            728
+          ]
+        },
+        {
+          "block_id": "p2_b12",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Resources For",
+          "bbox": {
+            "x1": 60,
+            "y1": 759,
+            "x2": 170,
+            "y2": 773
+          },
+          "bbox_list": [
+            60,
+            759,
+            170,
+            773
+          ]
+        },
+        {
+          "block_id": "p2_b13",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Instructors",
+          "bbox": {
+            "x1": 60,
+            "y1": 790,
+            "x2": 144,
+            "y2": 803
+          },
+          "bbox_list": [
+            60,
+            790,
+            144,
+            803
+          ]
+        },
+        {
+          "block_id": "p2_b14",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Journal Authors/Editors/Reviewers",
+          "bbox": {
+            "x1": 60,
+            "y1": 812,
+            "x2": 317,
+            "y2": 828
+          },
+          "bbox_list": [
+            60,
+            812,
+            317,
+            828
+          ]
+        },
+        {
+          "block_id": "p2_b15",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Book Authors/Editors",
+          "bbox": {
+            "x1": 60,
+            "y1": 836,
+            "x2": 220,
+            "y2": 851
+          },
+          "bbox_list": [
+            60,
+            836,
+            220,
+            851
+          ]
+        },
+        {
+          "block_id": "p2_b16",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Chinese Journal Authors",
+          "bbox": {
+            "x1": 60,
+            "y1": 860,
+            "x2": 244,
+            "y2": 875
+          },
+          "bbox_list": [
+            60,
+            860,
+            244,
+            875
+          ]
+        },
+        {
+          "block_id": "p2_b17",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To enhance your experience on our site, SAGE stores cookies on your computer. By continuing you",
+          "bbox": {
+            "x1": 123,
+            "y1": 884,
+            "x2": 880,
+            "y2": 902
+          },
+          "bbox_list": [
+            123,
+            884,
+            880,
+            902
+          ]
+        },
+        {
+          "block_id": "p2_b18",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "consent to receive cookies. Learn more.",
+          "bbox": {
+            "x1": 315,
+            "y1": 907,
+            "x2": 620,
+            "y2": 922
+          },
+          "bbox_list": [
+            315,
+            907,
+            620,
+            922
+          ]
+        },
+        {
+          "block_id": "p2_b19",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Close",
+          "bbox": {
+            "x1": 633,
+            "y1": 905,
+            "x2": 677,
+            "y2": 919
+          },
+          "bbox_list": [
+            633,
+            905,
+            677,
+            919
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# Sage  \n\nMenu Search 1 Cart Search: keyword, ti Search  \n\n0  \n\n## Milton J. Bennett  \n\nIntercultural Communication Institute, USA  \n\nDr. Milton Bennett (co- editor) is co- founder of the Intercultural Communication Institute and director of the Intercultural Development Research Institute. His Ph.D. is from the University of Minnesota in intercultural communication and sociology, and his current research interests are in empathy and consciousness. For fifteen years Milton was on the faculty of the department of speech communication at Portland State University, where he taught courses in intercultural communication and consciousness studies. Now he develops and conducts intercultural training for corporations and universities in both domestic and global diversity, and he serves as the director of graduate study for the ICI/University of the Pacific Master of Arts in Intercultural Relations program. Milton created the Developmental Model of Intercultural Sensitivity, is the co- author (with Ed Stewart) of the revised edition of American Cultural Patterns, and is editor of Basic Concepts of Intercultural Communication  \n\nBrowse  \n\nBooks  \n\nJournals  \n\nDigital Solutions for your Course  \n\nLearning Resources  \n\nCatalogs  \n\nResources For  \n\nInstructors  \n\nJournal Authors/Editors/Reviewers  \n\nBook Authors/Editors  \n\nChinese Journal Authors  \n\nTo enhance your experience on our site, SAGE stores cookies on your computer. By continuing you  \n\nconsent to receive cookies. Learn more.  \n\nClose"
+    }
+  ],
+  "total_blocks": 21
+}

@@ -1,0 +1,271 @@
+{
+  "exhibit_id": "C6",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit C-6",
+          "bbox": {
+            "x1": 115,
+            "y1": 450,
+            "x2": 875,
+            "y2": 550
+          },
+          "bbox_list": [
+            115,
+            450,
+            875,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit C-6"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 99,
+            "y1": 35,
+            "x2": 185,
+            "y2": 51
+          },
+          "bbox_list": [
+            99,
+            35,
+            185,
+            51
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## School of Social Science, Tsinghua University",
+          "bbox": {
+            "x1": 99,
+            "y1": 78,
+            "x2": 490,
+            "y2": 99
+          },
+          "bbox_list": [
+            99,
+            78,
+            490,
+            99
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "You are here: Home > Faculty > Full- time Faculty > Full Article",
+          "bbox": {
+            "x1": 99,
+            "y1": 107,
+            "x2": 610,
+            "y2": 128
+          },
+          "bbox_list": [
+            99,
+            107,
+            610,
+            128
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Liping Sun",
+          "bbox": {
+            "x1": 99,
+            "y1": 168,
+            "x2": 201,
+            "y2": 187
+          },
+          "bbox_list": [
+            99,
+            168,
+            201,
+            187
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 99,
+            "y1": 196,
+            "x2": 752,
+            "y2": 685
+          },
+          "bbox_list": [
+            99,
+            196,
+            752,
+            685
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Liping Sun",
+          "bbox": {
+            "x1": 453,
+            "y1": 723,
+            "x2": 550,
+            "y2": 742
+          },
+          "bbox_list": [
+            453,
+            723,
+            550,
+            742
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Professor at the Department of Sociology, Tsinghua University, and PhD supervisor",
+          "bbox": {
+            "x1": 160,
+            "y1": 750,
+            "x2": 844,
+            "y2": 772
+          },
+          "bbox_list": [
+            160,
+            750,
+            844,
+            772
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Professor Liping Sun mainly engages in research on social modernization, changes in social structure, oral social history, and sociology of transition societies. In more than 20 years of teaching and research, Professor Sun has published more than 10 monographs (including co- authored works) and dozens of papers. His major works include \"Social Modernization,\"",
+          "bbox": {
+            "x1": 105,
+            "y1": 808,
+            "x2": 900,
+            "y2": 886
+          },
+          "bbox_list": [
+            105,
+            808,
+            900,
+            886
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\n## School of Social Science, Tsinghua University  \n\nYou are here: Home > Faculty > Full- time Faculty > Full Article  \n\n## Liping Sun  \n\n## Liping Sun  \n\nProfessor at the Department of Sociology, Tsinghua University, and PhD supervisor  \n\nProfessor Liping Sun mainly engages in research on social modernization, changes in social structure, oral social history, and sociology of transition societies. In more than 20 years of teaching and research, Professor Sun has published more than 10 monographs (including co- authored works) and dozens of papers. His major works include \"Social Modernization,\""
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"Towards the Road of Modernity,\" \"Reflection and Exploration of Development,\" \"Changes in China's Social Structure Since the Reform,\" and more.",
+          "bbox": {
+            "x1": 95,
+            "y1": 75,
+            "x2": 864,
+            "y2": 116
+          },
+          "bbox_list": [
+            95,
+            75,
+            864,
+            116
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "After entering the 21st century, Professor Sun continuously published the \"Social Fracture Trilogy\" (\"Fracture,\" \"Imbalance,\" \"Game\"), which proposed the characteristics of the transition process in China's social structure and received widespread attention from the academic community and the public.",
+          "bbox": {
+            "x1": 96,
+            "y1": 125,
+            "x2": 870,
+            "y2": 204
+          },
+          "bbox_list": [
+            96,
+            125,
+            870,
+            204
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Before joining Tsinghua University in 2000, from 1982 to 2000, Professor LipingSun was at the Department of Sociology, Peking University, successively serving as an assistant, lecturer, and associate professor.",
+          "bbox": {
+            "x1": 96,
+            "y1": 210,
+            "x2": 887,
+            "y2": 271
+          },
+          "bbox_list": [
+            96,
+            210,
+            887,
+            271
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Professor Liping Sun's main research areas include social development, changes in social structure, and oral social history, among others.",
+          "bbox": {
+            "x1": 97,
+            "y1": 277,
+            "x2": 885,
+            "y2": 318
+          },
+          "bbox_list": [
+            97,
+            277,
+            885,
+            318
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n\"Towards the Road of Modernity,\" \"Reflection and Exploration of Development,\" \"Changes in China's Social Structure Since the Reform,\" and more.  \n\nAfter entering the 21st century, Professor Sun continuously published the \"Social Fracture Trilogy\" (\"Fracture,\" \"Imbalance,\" \"Game\"), which proposed the characteristics of the transition process in China's social structure and received widespread attention from the academic community and the public.  \n\nBefore joining Tsinghua University in 2000, from 1982 to 2000, Professor LipingSun was at the Department of Sociology, Peking University, successively serving as an assistant, lecturer, and associate professor.  \n\nProfessor Liping Sun's main research areas include social development, changes in social structure, and oral social history, among others."
+    }
+  ],
+  "total_blocks": 13
+}

@@ -1,0 +1,151 @@
+{
+  "exhibit_id": "B5",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit B-5",
+          "bbox": {
+            "x1": 120,
+            "y1": 455,
+            "x2": 870,
+            "y2": 550
+          },
+          "bbox_list": [
+            120,
+            455,
+            870,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit B-5"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# About Us",
+          "bbox": {
+            "x1": 75,
+            "y1": 190,
+            "x2": 247,
+            "y2": 219
+          },
+          "bbox_list": [
+            75,
+            190,
+            247,
+            219
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Alliance Profile",
+          "bbox": {
+            "x1": 25,
+            "y1": 308,
+            "x2": 135,
+            "y2": 323
+          },
+          "bbox_list": [
+            25,
+            308,
+            135,
+            323
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Alliance ProfileArticles of Association of the Alliance",
+          "bbox": {
+            "x1": 25,
+            "y1": 339,
+            "x2": 155,
+            "y2": 420
+          },
+          "bbox_list": [
+            25,
+            339,
+            155,
+            420
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Zhongguancun Big Data Industry Alliance (hereinafter referred to as the Alliance) is an international, industrial and non- profit industry organization voluntarily formed by big data- related enterprises, institutions and social organizations in China under the guidance and support of Zhongguancun Science Park Management Committee. The Alliance began to prepare for its establishment in Dec. 2012, and officially registered as the first social organization in the big data industry in China in Jan. 2016.",
+          "bbox": {
+            "x1": 171,
+            "y1": 327,
+            "x2": 968,
+            "y2": 458
+          },
+          "bbox_list": [
+            171,
+            327,
+            968,
+            458
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "As one of the first cooperative institutions of the \"Digital Transformation Partnership Action Initiative\" of the National Development and Reform Commission, the Alliance has carried out a number of promotion and communication services in the fields of technological innovation, theoretical innovation, industry and finance development, capital service, achievement transformation, talent training, intellectual property protection, etc., and actively built a digital ecological operation service system. It has fully promoted the construction of big data industry ecology and the sustainable and innovative development of digital economy.",
+          "bbox": {
+            "x1": 172,
+            "y1": 480,
+            "x2": 968,
+            "y2": 633
+          },
+          "bbox_list": [
+            172,
+            480,
+            968,
+            633
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "On Dec. 11, 2020, the first session of the Second Member Representatives Meeting & General Election Meeting was successfully held in the Beijing Zhongguancun Software Park International Conference Center. The meeting elected the new members of the Council and the Board of Supervisors of the Alliance. 27 members of the Council and 3 members of the Board of Supervisors voted for Hong Xuan as the new Council Chairman of the Alliance. Nine people, Zhigang Bao, Qingguo Meng, Shuicai Shi, Guodong Sui, Renzong Wang, Changjun Xu, Suwen Xue, Jinhui Zhang and Fujun Zhao, were elected as the new Vice Council Chairmen of the Alliance. Guodong Zhao was elected as the new Secretary General of the Alliance and Wenjing Wang was elected as the new Chairman of the Board of Supervisors of the Alliance.",
+          "bbox": {
+            "x1": 173,
+            "y1": 656,
+            "x2": 970,
+            "y2": 853
+          },
+          "bbox_list": [
+            173,
+            656,
+            970,
+            853
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# About Us  \n\n# Alliance Profile  \n\nAlliance ProfileArticles of Association of the Alliance  \n\nZhongguancun Big Data Industry Alliance (hereinafter referred to as the Alliance) is an international, industrial and non- profit industry organization voluntarily formed by big data- related enterprises, institutions and social organizations in China under the guidance and support of Zhongguancun Science Park Management Committee. The Alliance began to prepare for its establishment in Dec. 2012, and officially registered as the first social organization in the big data industry in China in Jan. 2016.  \n\nAs one of the first cooperative institutions of the \"Digital Transformation Partnership Action Initiative\" of the National Development and Reform Commission, the Alliance has carried out a number of promotion and communication services in the fields of technological innovation, theoretical innovation, industry and finance development, capital service, achievement transformation, talent training, intellectual property protection, etc., and actively built a digital ecological operation service system. It has fully promoted the construction of big data industry ecology and the sustainable and innovative development of digital economy.  \n\nOn Dec. 11, 2020, the first session of the Second Member Representatives Meeting & General Election Meeting was successfully held in the Beijing Zhongguancun Software Park International Conference Center. The meeting elected the new members of the Council and the Board of Supervisors of the Alliance. 27 members of the Council and 3 members of the Board of Supervisors voted for Hong Xuan as the new Council Chairman of the Alliance. Nine people, Zhigang Bao, Qingguo Meng, Shuicai Shi, Guodong Sui, Renzong Wang, Changjun Xu, Suwen Xue, Jinhui Zhang and Fujun Zhao, were elected as the new Vice Council Chairmen of the Alliance. Guodong Zhao was elected as the new Secretary General of the Alliance and Wenjing Wang was elected as the new Chairman of the Board of Supervisors of the Alliance."
+    }
+  ],
+  "total_blocks": 7
+}

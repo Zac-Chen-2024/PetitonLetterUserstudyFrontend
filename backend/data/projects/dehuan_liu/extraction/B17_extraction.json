@@ -1,0 +1,172 @@
+{
+  "version": "4.0",
+  "exhibit_id": "B17",
+  "extracted_at": "2026-03-15T00:00:00+00:00",
+  "applicant_name": "Dehuan Liu",
+  "document_summary": "Sage Publications author profile of Dr. Milton J. Bennett, co-founder of the Intercultural Communication Institute and director of the Intercultural Development Research Institute. Bennett holds a Ph.D. from the University of Minnesota in intercultural communication and sociology. He was a keynote speaker at the 11th China Communication Conference where Liu won his Excellent Paper Award. Profile documents Bennett's academic credentials, institutional roles, and scholarly contributions including the Developmental Model of Intercultural Sensitivity. Serves as peer achievement evidence for the conference's caliber.",
+  "snippets": [
+    {
+      "snippet_id": "snp_B17_b17_0001",
+      "exhibit_id": "B17",
+      "document_id": "doc_B17",
+      "text": "## Milton J. Bennett",
+      "page": 2,
+      "bbox": {"x1": 47, "y1": 274, "x2": 258, "y2": 297},
+      "block_id": "p2_b3",
+      "subject": "Milton J. Bennett",
+      "subject_role": "third_party",
+      "recommender_name": null,
+      "is_applicant_achievement": false,
+      "evidence_type": "peer_achievement",
+      "evidence_purpose": "supporting_context",
+      "evidence_layer": "context",
+      "confidence": 0.80,
+      "reasoning": "Identifies the subject of the profile as Milton J. Bennett, establishing this as an author profile page from Sage Publications.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_B17_b17_0002",
+      "exhibit_id": "B17",
+      "document_id": "doc_B17",
+      "text": "Intercultural Communication Institute, USA",
+      "page": 2,
+      "bbox": {"x1": 46, "y1": 303, "x2": 536, "y2": 326},
+      "block_id": "p2_b4",
+      "subject": "Milton J. Bennett",
+      "subject_role": "third_party",
+      "recommender_name": null,
+      "is_applicant_achievement": false,
+      "evidence_type": "peer_achievement",
+      "evidence_purpose": "credibility_evidence",
+      "evidence_layer": "meta",
+      "confidence": 0.85,
+      "reasoning": "Identifies Bennett's institutional affiliation with the Intercultural Communication Institute, establishing his professional standing in the field.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_B17_b17_0003",
+      "exhibit_id": "B17",
+      "document_id": "doc_B17",
+      "text": "Dr. Milton Bennett (co- editor) is co- founder of the Intercultural Communication Institute and director of the Intercultural Development Research Institute. His Ph.D. is from the University of Minnesota in intercultural communication and sociology, and his current research interests are in empathy and consciousness. For fifteen years Milton was on the faculty of the department of speech communication at Portland State University, where he taught courses in intercultural communication and consciousness studies. Now he develops and conducts intercultural training for corporations and universities in both domestic and global diversity, and he serves as the director of graduate study for the ICI/University of the Pacific Master of Arts in Intercultural Relations program. Milton created the Developmental Model of Intercultural Sensitivity, is the co- author (with Ed Stewart) of the revised edition of American Cultural Patterns, and is editor of Basic Concepts of Intercultural Communication",
+      "page": 2,
+      "bbox": {"x1": 44, "y1": 352, "x2": 940, "y2": 519},
+      "block_id": "p2_b5",
+      "subject": "Milton J. Bennett",
+      "subject_role": "third_party",
+      "recommender_name": null,
+      "is_applicant_achievement": false,
+      "evidence_type": "peer_achievement",
+      "evidence_purpose": "credibility_evidence",
+      "evidence_layer": "meta",
+      "confidence": 0.94,
+      "reasoning": "Comprehensive biography establishing Bennett's credentials: co-founder of the Intercultural Communication Institute, PhD from University of Minnesota, creator of the Developmental Model of Intercultural Sensitivity (a widely cited framework), 15 years of university faculty experience, and authorship of key texts. Demonstrates the caliber of scholars who attended the same conference as Liu.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    }
+  ],
+  "entities": [
+    {
+      "id": "ent_B17_0",
+      "name": "Milton J. Bennett",
+      "type": "person",
+      "identity": "Co-founder of the Intercultural Communication Institute; creator of the Developmental Model of Intercultural Sensitivity; keynote speaker at 11th China Communication Conference",
+      "relation_to_applicant": "other",
+      "snippet_ids": ["snp_B17_b17_0001", "snp_B17_b17_0002", "snp_B17_b17_0003"],
+      "exhibit_ids": ["B17"],
+      "mentioned_in_blocks": ["p2_b3", "p2_b4", "p2_b5"],
+      "aliases": ["Dr. Milton Bennett", "Milton Bennett"],
+      "is_merged": false,
+      "merged_from": []
+    },
+    {
+      "id": "ent_B17_1",
+      "name": "Intercultural Communication Institute",
+      "type": "organization",
+      "identity": "Institute co-founded by Bennett, focused on intercultural communication research and training",
+      "relation_to_applicant": "other",
+      "snippet_ids": ["snp_B17_b17_0002", "snp_B17_b17_0003"],
+      "exhibit_ids": ["B17"],
+      "mentioned_in_blocks": ["p2_b4", "p2_b5"],
+      "aliases": ["ICI"],
+      "is_merged": false,
+      "merged_from": []
+    },
+    {
+      "id": "ent_B17_2",
+      "name": "University of Minnesota",
+      "type": "organization",
+      "identity": "University where Bennett earned his Ph.D. in intercultural communication and sociology",
+      "relation_to_applicant": "other",
+      "snippet_ids": ["snp_B17_b17_0003"],
+      "exhibit_ids": ["B17"],
+      "mentioned_in_blocks": ["p2_b5"],
+      "aliases": [],
+      "is_merged": false,
+      "merged_from": []
+    },
+    {
+      "id": "ent_B17_3",
+      "name": "Portland State University",
+      "type": "organization",
+      "identity": "University where Bennett served on faculty for 15 years",
+      "relation_to_applicant": "other",
+      "snippet_ids": ["snp_B17_b17_0003"],
+      "exhibit_ids": ["B17"],
+      "mentioned_in_blocks": ["p2_b5"],
+      "aliases": [],
+      "is_merged": false,
+      "merged_from": []
+    },
+    {
+      "id": "ent_B17_4",
+      "name": "Intercultural Development Research Institute",
+      "type": "organization",
+      "identity": "Research institute directed by Bennett",
+      "relation_to_applicant": "other",
+      "snippet_ids": ["snp_B17_b17_0003"],
+      "exhibit_ids": ["B17"],
+      "mentioned_in_blocks": ["p2_b5"],
+      "aliases": [],
+      "is_merged": false,
+      "merged_from": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel_B17_0",
+      "from_entity": "ent_B17_0",
+      "to_entity": "ent_B17_1",
+      "relation_type": "co_founded",
+      "context": "Milton Bennett is co-founder of the Intercultural Communication Institute",
+      "source_snippet_ids": ["snp_B17_b17_0003"],
+      "source_blocks": ["p2_b5"]
+    },
+    {
+      "id": "rel_B17_1",
+      "from_entity": "ent_B17_0",
+      "to_entity": "ent_B17_2",
+      "relation_type": "educated_at",
+      "context": "Bennett's Ph.D. is from the University of Minnesota in intercultural communication and sociology",
+      "source_snippet_ids": ["snp_B17_b17_0003"],
+      "source_blocks": ["p2_b5"]
+    },
+    {
+      "id": "rel_B17_2",
+      "from_entity": "ent_B17_0",
+      "to_entity": "ent_B17_4",
+      "relation_type": "directs",
+      "context": "Bennett is director of the Intercultural Development Research Institute",
+      "source_snippet_ids": ["snp_B17_b17_0003"],
+      "source_blocks": ["p2_b5"]
+    }
+  ],
+  "stats": {
+    "snippet_count": 3,
+    "entity_count": 5,
+    "relation_count": 3,
+    "applicant_snippets": 0,
+    "other_snippets": 3
+  }
+}

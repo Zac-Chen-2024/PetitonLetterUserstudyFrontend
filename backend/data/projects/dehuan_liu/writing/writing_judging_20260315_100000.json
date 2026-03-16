@@ -1,0 +1,145 @@
+{
+  "version_id": "20260315_100000",
+  "timestamp": "2026-03-15T10:00:00+00:00",
+  "success": true,
+  "section": "judging",
+  "paragraph_text": "The Beneficiary satisfies 8 C.F.R. §204.5(h)(3)(iv) by demonstrating participation as a judge of the work of others in the field, including service as Deputy Director of the Tiger Roar Awards Organizing Committee and as reviewing judge for the First China Digital Marketing Conference. [Exhibit C1, p.2; Exhibit C7, p.2] The Beneficiary was formally appointed as the Deputy Director of the 13th Tiger Roar Awards Organizing Committee, as certified in an official appointment letter. [Exhibit C1, p.2] The appointment letter, which bears the seals of both the China Advertising Association of Commerce (registration number 1100000195568) and the Tiger Roar Awards Organizing Committee, confirms: \"This is to certify that you are appointed as the Deputy Director of the 13th Tiger Roar Awards Organizing Committee.\" [Exhibit C1, p.2] As Deputy Director, the Beneficiary held a senior leadership position within the organizing body that oversaw the evaluation and selection of winners from thousands of entries across the digital marketing industry. [Exhibit C1, p.2] Professor Liping Sun, a professor at the Department of Sociology at Tsinghua University and PhD supervisor, has endorsed the Beneficiary's qualifications and judging expertise in the fields of communication and market research. [Exhibit C6, p.2] Professor Sun is a distinguished sociologist who \"mainly engages in research on social modernization, changes in social structure, oral social history, and sociology of transition societies\" and has \"published more than 10 monographs (including co-authored works) and dozens of papers,\" lending additional authority to his endorsement of the Beneficiary's judging contributions. [Exhibit C6, p.2] In January 2016, the Beneficiary was invited to serve as a \"Reviewing Judge\" for the First China Digital Marketing Conference, held at the Beijing National Convention Center. [Exhibit C7, p.2] The conference was organized by the Digital Marketing Committee of China (\"DMCC\"), operating under the auspices of the Chinese Ministry of Commerce. [Exhibit C7, p.2; Exhibit C8, p.2] As documented in email correspondence from the DMCC Secretariat, the Beneficiary's judging responsibilities encompassed voting across eight categories of award candidates, and his \"voting power account[ed] for 80%, which will directly determine the final award winners.\" [Exhibit C10, p.3] The DMCC instructed the reviewing judges to vote \"according to your professional experience\" among the candidates from January 4th to January 7th. [Exhibit C10, p.3] Following the Beneficiary's evaluation, the DMCC Secretariat acknowledged: \"Thank you for Professor Liu's valuable suggestions, we will tabulate the review results within next week.\" [Exhibit C10, p.2] Media coverage confirms that the conference attracted internet giants such as Tencent, Alibaba, Baidu, and Google, along with \"hundreds of domestic and foreign brand owners and innovative digital marketing companies,\" underscoring the significance of the judging role the Beneficiary performed. [Exhibit C8, p.2] Therefore, the Beneficiary's experience as Deputy Director of the 13th Tiger Roar Awards and as reviewing judge for the First China Digital Marketing Conference not only shows that he has met 8 C.F.R. §204.5(h)(3)(iv), but also demonstrates that he is among the small percentage of top professionals within the field of communication and market research. [Exhibit C1, p.2; Exhibit C7, p.2]",
+  "sentences": [
+    {
+      "text": "The Beneficiary satisfies 8 C.F.R. §204.5(h)(3)(iv) by demonstrating participation as a judge of the work of others in the field, including service as Deputy Director of the Tiger Roar Awards Organizing Committee and as reviewing judge for the First China Digital Marketing Conference. [Exhibit C1, p.2; Exhibit C7, p.2]",
+      "snippet_ids": ["snp_C1_e5f6a7b8", "snp_C7_a1b2c3d4"],
+      "subargument_id": "subarg-025",
+      "argument_id": "arg-002",
+      "exhibit_refs": ["C1-2", "C7-2"],
+      "sentence_type": "opening"
+    },
+    {
+      "text": "The Beneficiary was formally appointed as the Deputy Director of the 13th Tiger Roar Awards Organizing Committee, as certified in an official appointment letter. [Exhibit C1, p.2]",
+      "snippet_ids": ["snp_C1_e5f6a7b8"],
+      "subargument_id": "subarg-025",
+      "argument_id": "arg-002",
+      "exhibit_refs": ["C1-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The appointment letter, which bears the seals of both the China Advertising Association of Commerce (registration number 1100000195568) and the Tiger Roar Awards Organizing Committee, confirms: \"This is to certify that you are appointed as the Deputy Director of the 13th Tiger Roar Awards Organizing Committee.\" [Exhibit C1, p.2]",
+      "snippet_ids": ["snp_C1_e5f6a7b8", "snp_C1_c9d0e1f2", "snp_C1_a3b4c5d6"],
+      "subargument_id": "subarg-025",
+      "argument_id": "arg-002",
+      "exhibit_refs": ["C1-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "As Deputy Director, the Beneficiary held a senior leadership position within the organizing body that oversaw the evaluation and selection of winners from thousands of entries across the digital marketing industry. [Exhibit C1, p.2]",
+      "snippet_ids": ["snp_C1_e5f6a7b8", "snp_C1_a3b4c5d6"],
+      "subargument_id": "subarg-025",
+      "argument_id": "arg-002",
+      "exhibit_refs": ["C1-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "Professor Liping Sun, a professor at the Department of Sociology at Tsinghua University and PhD supervisor, has endorsed the Beneficiary's qualifications and judging expertise in the fields of communication and market research. [Exhibit C6, p.2]",
+      "snippet_ids": ["snp_C6_a1b2c3d4"],
+      "subargument_id": "subarg-025",
+      "argument_id": "arg-002",
+      "exhibit_refs": ["C6-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "Professor Sun is a distinguished sociologist who \"mainly engages in research on social modernization, changes in social structure, oral social history, and sociology of transition societies\" and has \"published more than 10 monographs (including co-authored works) and dozens of papers,\" lending additional authority to his endorsement of the Beneficiary's judging contributions. [Exhibit C6, p.2]",
+      "snippet_ids": ["snp_C6_e5f6a7b8"],
+      "subargument_id": "subarg-025",
+      "argument_id": "arg-002",
+      "exhibit_refs": ["C6-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "In January 2016, the Beneficiary was invited to serve as a \"Reviewing Judge\" for the First China Digital Marketing Conference, held at the Beijing National Convention Center. [Exhibit C7, p.2]",
+      "snippet_ids": ["snp_C7_a1b2c3d4", "snp_C7_e5f6a7b8", "snp_C7_a3b4c5d6"],
+      "subargument_id": "subarg-008",
+      "argument_id": "arg-002",
+      "exhibit_refs": ["C7-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The conference was organized by the Digital Marketing Committee of China (\"DMCC\"), operating under the auspices of the Chinese Ministry of Commerce. [Exhibit C7, p.2; Exhibit C8, p.2]",
+      "snippet_ids": ["snp_C7_c9d0e1f2", "snp_C8_a1b2c3d4"],
+      "subargument_id": "subarg-008",
+      "argument_id": "arg-002",
+      "exhibit_refs": ["C7-2", "C8-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "As documented in email correspondence from the DMCC Secretariat, the Beneficiary's judging responsibilities encompassed voting across eight categories of award candidates, and his \"voting power account[ed] for 80%, which will directly determine the final award winners.\" [Exhibit C10, p.3]",
+      "snippet_ids": ["snp_C10_c9d0e1f2", "snp_C10_a3b4c5d6"],
+      "subargument_id": "subarg-008",
+      "argument_id": "arg-002",
+      "exhibit_refs": ["C10-3"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The DMCC instructed the reviewing judges to vote \"according to your professional experience\" among the candidates from January 4th to January 7th. [Exhibit C10, p.3]",
+      "snippet_ids": ["snp_C10_c9d0e1f2"],
+      "subargument_id": "subarg-008",
+      "argument_id": "arg-002",
+      "exhibit_refs": ["C10-3"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "Following the Beneficiary's evaluation, the DMCC Secretariat acknowledged: \"Thank you for Professor Liu's valuable suggestions, we will tabulate the review results within next week.\" [Exhibit C10, p.2]",
+      "snippet_ids": ["snp_C10_e5f6a7b8", "snp_C10_a1b2c3d4"],
+      "subargument_id": "subarg-008",
+      "argument_id": "arg-002",
+      "exhibit_refs": ["C10-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "Media coverage confirms that the conference attracted internet giants such as Tencent, Alibaba, Baidu, and Google, along with \"hundreds of domestic and foreign brand owners and innovative digital marketing companies,\" underscoring the significance of the judging role the Beneficiary performed. [Exhibit C8, p.2]",
+      "snippet_ids": ["snp_C8_e5f6a7b8", "snp_C8_c9d0e1f2"],
+      "subargument_id": "subarg-008",
+      "argument_id": "arg-002",
+      "exhibit_refs": ["C8-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "Therefore, the Beneficiary's experience as Deputy Director of the 13th Tiger Roar Awards and as reviewing judge for the First China Digital Marketing Conference not only shows that he has met 8 C.F.R. §204.5(h)(3)(iv), but also demonstrates that he is among the small percentage of top professionals within the field of communication and market research. [Exhibit C1, p.2; Exhibit C7, p.2]",
+      "snippet_ids": ["snp_C1_e5f6a7b8", "snp_C7_a1b2c3d4"],
+      "subargument_id": "subarg-008",
+      "argument_id": "arg-002",
+      "exhibit_refs": ["C1-2", "C7-2"],
+      "sentence_type": "closing"
+    }
+  ],
+  "provenance_index": {
+    "by_subargument": {
+      "subarg-025": [0, 1, 2, 3, 4, 5],
+      "subarg-008": [6, 7, 8, 9, 10, 11, 12]
+    },
+    "by_argument": {
+      "arg-002": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    },
+    "by_snippet": {
+      "snp_C1_e5f6a7b8": [0, 1, 2, 3, 12],
+      "snp_C7_a1b2c3d4": [0, 6, 12],
+      "snp_C1_c9d0e1f2": [2],
+      "snp_C1_a3b4c5d6": [2, 3],
+      "snp_C6_a1b2c3d4": [4],
+      "snp_C6_e5f6a7b8": [5],
+      "snp_C7_e5f6a7b8": [6],
+      "snp_C7_a3b4c5d6": [6],
+      "snp_C7_c9d0e1f2": [7],
+      "snp_C8_a1b2c3d4": [7],
+      "snp_C10_c9d0e1f2": [8, 9],
+      "snp_C10_a3b4c5d6": [8],
+      "snp_C10_e5f6a7b8": [10],
+      "snp_C10_a1b2c3d4": [10],
+      "snp_C8_e5f6a7b8": [11],
+      "snp_C8_c9d0e1f2": [11]
+    }
+  },
+  "validation": {
+    "total_sentences": 13,
+    "traced_sentences": 13,
+    "warnings": []
+  }
+}

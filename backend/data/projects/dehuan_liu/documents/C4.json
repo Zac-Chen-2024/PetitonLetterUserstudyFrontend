@@ -1,0 +1,619 @@
+{
+  "exhibit_id": "C4",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit C-4",
+          "bbox": {
+            "x1": 115,
+            "y1": 451,
+            "x2": 875,
+            "y2": 550
+          },
+          "bbox_list": [
+            115,
+            451,
+            875,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit C-4"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 98,
+            "y1": 34,
+            "x2": 191,
+            "y2": 51
+          },
+          "bbox_list": [
+            98,
+            34,
+            191,
+            51
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## CHINADAILY.COM.CN",
+          "bbox": {
+            "x1": 98,
+            "y1": 80,
+            "x2": 317,
+            "y2": 99
+          },
+          "bbox_list": [
+            98,
+            80,
+            317,
+            99
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## The 2022 Tiger Roar Awards Successfully Concluded, with Bolun Achieving Great Results Again",
+          "bbox": {
+            "x1": 98,
+            "y1": 134,
+            "x2": 875,
+            "y2": 177
+          },
+          "bbox_list": [
+            98,
+            134,
+            875,
+            177
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Source: Eastday",
+          "bbox": {
+            "x1": 99,
+            "y1": 187,
+            "x2": 231,
+            "y2": 205
+          },
+          "bbox_list": [
+            99,
+            187,
+            231,
+            205
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "On August 19th, the 13th Tiger Roar Awards ceremony, sponsored by the China Advertising Association of Commerce, concluded successfully in Beijing. Balloon, which submitted numerous case studies, secured several awards, including the Bronze Prize for KOL Marketing, and Excellence Awards in Entertainment, Leisure & Sports, Home Appliances, and IP categories.",
+          "bbox": {
+            "x1": 98,
+            "y1": 242,
+            "x2": 890,
+            "y2": 340
+          },
+          "bbox_list": [
+            98,
+            242,
+            890,
+            340
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The Tiger Roar Awards, a recognized and forward- thinking accolade in the field of digital business communication, emphasize the comprehensive process utilized by enterprises (brand owners). This process includes the use of data, media, and various technical tools to execute digital marketing communication strategies. Furthermore, the award celebrates the latest, most innovative creative works in the realm of brand marketing digitalization.",
+          "bbox": {
+            "x1": 100,
+            "y1": 374,
+            "x2": 889,
+            "y2": 473
+          },
+          "bbox_list": [
+            100,
+            374,
+            889,
+            473
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "This year's Tiger Roar Awards, carrying the theme \"Starting a New Journey,\" attracted a wide array of attendees, including sociologists, business scholars, marketing experts, and well- known brand owners. Liping Sun and Bofan Wu were among the esteemed judges.",
+          "bbox": {
+            "x1": 102,
+            "y1": 508,
+            "x2": 880,
+            "y2": 569
+          },
+          "bbox_list": [
+            102,
+            508,
+            880,
+            569
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "It has been reported that this year's awards were judged online by over 650 primary jury members. Additionally, more than 90 final judges collectively reviewed the finalists, selecting the best from a pool of 3,500 entries — a rigorous process indeed. The accolades awarded to Balloon are a testament to the industry's recognition of the company's deep understanding of the new generation and its innovative strength in content marketing. This success also underscores the power of combining social media with high- quality content, which can unleash remarkable marketing potential in the era of social media.",
+          "bbox": {
+            "x1": 104,
+            "y1": 604,
+            "x2": 884,
+            "y2": 741
+          },
+          "bbox_list": [
+            104,
+            604,
+            884,
+            741
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Bronze Award: Peace Elite's \"Pear Garden Starlight\" Marketing — Letting Generation Z Inherit the Beauty of Traditional Chinese Art",
+          "bbox": {
+            "x1": 108,
+            "y1": 778,
+            "x2": 884,
+            "y2": 819
+          },
+          "bbox_list": [
+            108,
+            778,
+            884,
+            819
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Case Introduction: \"Peace Elite\" cooperated with the Shanghai Peking Opera House to launch the \"Pear Garden Starlight\" game costume designed based on Peking Opera styling. It uses the martial arts culture of Peking Opera to empower the commercial costumes of the game, hoping to give the game cultural heritage through crossover with traditional Chinese culture. In",
+          "bbox": {
+            "x1": 109,
+            "y1": 825,
+            "x2": 890,
+            "y2": 904
+          },
+          "bbox_list": [
+            109,
+            825,
+            890,
+            904
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\n## CHINADAILY.COM.CN  \n\n## The 2022 Tiger Roar Awards Successfully Concluded, with Bolun Achieving Great Results Again  \n\nSource: Eastday  \n\nOn August 19th, the 13th Tiger Roar Awards ceremony, sponsored by the China Advertising Association of Commerce, concluded successfully in Beijing. Balloon, which submitted numerous case studies, secured several awards, including the Bronze Prize for KOL Marketing, and Excellence Awards in Entertainment, Leisure & Sports, Home Appliances, and IP categories.  \n\nThe Tiger Roar Awards, a recognized and forward- thinking accolade in the field of digital business communication, emphasize the comprehensive process utilized by enterprises (brand owners). This process includes the use of data, media, and various technical tools to execute digital marketing communication strategies. Furthermore, the award celebrates the latest, most innovative creative works in the realm of brand marketing digitalization.  \n\nThis year's Tiger Roar Awards, carrying the theme \"Starting a New Journey,\" attracted a wide array of attendees, including sociologists, business scholars, marketing experts, and well- known brand owners. Liping Sun and Bofan Wu were among the esteemed judges.  \n\nIt has been reported that this year's awards were judged online by over 650 primary jury members. Additionally, more than 90 final judges collectively reviewed the finalists, selecting the best from a pool of 3,500 entries — a rigorous process indeed. The accolades awarded to Balloon are a testament to the industry's recognition of the company's deep understanding of the new generation and its innovative strength in content marketing. This success also underscores the power of combining social media with high- quality content, which can unleash remarkable marketing potential in the era of social media.  \n\n## Bronze Award: Peace Elite's \"Pear Garden Starlight\" Marketing — Letting Generation Z Inherit the Beauty of Traditional Chinese Art  \n\nCase Introduction: \"Peace Elite\" cooperated with the Shanghai Peking Opera House to launch the \"Pear Garden Starlight\" game costume designed based on Peking Opera styling. It uses the martial arts culture of Peking Opera to empower the commercial costumes of the game, hoping to give the game cultural heritage through crossover with traditional Chinese culture. In"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "order to reverse the lofty feeling of Peking Opera in the traditional context and shorten the communication distance between traditional Chinese culture and young people. Bolun chooses to use the visual forms and language that young people like, create multi- dimensional content creativity on Weibo, Bilibili, Kuaishou, reinterpret and perform the beauty of Peking Opera, and let traditional opera and contemporary young people spark new sparks. The most noteworthy collaboration is with the 416 girl group. By reinterpreting traditional songs with the cadence of Peking Opera, the refreshing performance rejuvenates the traditional art form, attracting praises from media such as People's Daily, and stirring up a Peking Opera craze among young people.",
+          "bbox": {
+            "x1": 98,
+            "y1": 78,
+            "x2": 886,
+            "y2": 234
+          },
+          "bbox_list": [
+            98,
+            78,
+            886,
+            234
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "As a bridge of communication between platforms, brands, and young people, Bolun has gradually developed its own methodology over the years, capable of providing brands with content solutions most consistent with the cultural context of young people. This year, Bolun's content marketing services continue to extend to the backlink, providing businesses with more definitive marketing value through content commerce.",
+          "bbox": {
+            "x1": 101,
+            "y1": 268,
+            "x2": 875,
+            "y2": 368
+          },
+          "bbox_list": [
+            101,
+            268,
+            875,
+            368
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "This award is both an affirmation and a motivation for Bolun. Previously, at the 10th TopDigital Innovation Marketing Ceremony in 2022, Bolun and its client won a gold and a bronze. This is also another good news for Bolun after a month. In the future, the company will continue to create more marketable excellent cases, helping brands and the new generation to \"party\" together!",
+          "bbox": {
+            "x1": 104,
+            "y1": 402,
+            "x2": 880,
+            "y2": 503
+          },
+          "bbox_list": [
+            104,
+            402,
+            880,
+            503
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "For more cases and updates from Bolun, please follow the official video account: Bolun Activity Research Institute.",
+          "bbox": {
+            "x1": 106,
+            "y1": 536,
+            "x2": 881,
+            "y2": 579
+          },
+          "bbox_list": [
+            106,
+            536,
+            881,
+            579
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Disclaimer: This article is reprinted from my website, aiming to provide readers with more news and information. The content involved does not constitute investment or consumption advice and is for reference only for readers.",
+          "bbox": {
+            "x1": 107,
+            "y1": 612,
+            "x2": 895,
+            "y2": 675
+          },
+          "bbox_list": [
+            107,
+            612,
+            895,
+            675
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "[Editor in charge: Jingwen Zhong]",
+          "bbox": {
+            "x1": 624,
+            "y1": 708,
+            "x2": 905,
+            "y2": 729
+          },
+          "bbox_list": [
+            624,
+            708,
+            905,
+            729
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\norder to reverse the lofty feeling of Peking Opera in the traditional context and shorten the communication distance between traditional Chinese culture and young people. Bolun chooses to use the visual forms and language that young people like, create multi- dimensional content creativity on Weibo, Bilibili, Kuaishou, reinterpret and perform the beauty of Peking Opera, and let traditional opera and contemporary young people spark new sparks. The most noteworthy collaboration is with the 416 girl group. By reinterpreting traditional songs with the cadence of Peking Opera, the refreshing performance rejuvenates the traditional art form, attracting praises from media such as People's Daily, and stirring up a Peking Opera craze among young people.  \n\nAs a bridge of communication between platforms, brands, and young people, Bolun has gradually developed its own methodology over the years, capable of providing brands with content solutions most consistent with the cultural context of young people. This year, Bolun's content marketing services continue to extend to the backlink, providing businesses with more definitive marketing value through content commerce.  \n\nThis award is both an affirmation and a motivation for Bolun. Previously, at the 10th TopDigital Innovation Marketing Ceremony in 2022, Bolun and its client won a gold and a bronze. This is also another good news for Bolun after a month. In the future, the company will continue to create more marketable excellent cases, helping brands and the new generation to \"party\" together!  \n\nFor more cases and updates from Bolun, please follow the official video account: Bolun Activity Research Institute.  \n\nDisclaimer: This article is reprinted from my website, aiming to provide readers with more news and information. The content involved does not constitute investment or consumption advice and is for reference only for readers.  \n\n[Editor in charge: Jingwen Zhong]"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# About Us About China Daily Group",
+          "bbox": {
+            "x1": 92,
+            "y1": 177,
+            "x2": 775,
+            "y2": 211
+          },
+          "bbox_list": [
+            92,
+            177,
+            775,
+            211
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "About China Daily Group",
+          "bbox": {
+            "x1": 81,
+            "y1": 240,
+            "x2": 275,
+            "y2": 257
+          },
+          "bbox_list": [
+            81,
+            240,
+            275,
+            257
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Editorial Board",
+          "bbox": {
+            "x1": 120,
+            "y1": 283,
+            "x2": 238,
+            "y2": 300
+          },
+          "bbox_list": [
+            120,
+            283,
+            238,
+            300
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "China Daily's Print Media",
+          "bbox": {
+            "x1": 80,
+            "y1": 328,
+            "x2": 278,
+            "y2": 345
+          },
+          "bbox_list": [
+            80,
+            328,
+            278,
+            345
+          ]
+        },
+        {
+          "block_id": "p4_b4",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "China Daily's Digital Media",
+          "bbox": {
+            "x1": 77,
+            "y1": 371,
+            "x2": 285,
+            "y2": 388
+          },
+          "bbox_list": [
+            77,
+            371,
+            285,
+            388
+          ]
+        },
+        {
+          "block_id": "p4_b5",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "China Daily's global development",
+          "bbox": {
+            "x1": 52,
+            "y1": 415,
+            "x2": 312,
+            "y2": 432
+          },
+          "bbox_list": [
+            52,
+            415,
+            312,
+            432
+          ]
+        },
+        {
+          "block_id": "p4_b6",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Branding events of China Daily",
+          "bbox": {
+            "x1": 63,
+            "y1": 458,
+            "x2": 303,
+            "y2": 476
+          },
+          "bbox_list": [
+            63,
+            458,
+            303,
+            476
+          ]
+        },
+        {
+          "block_id": "p4_b7",
+          "page_number": 4,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 336,
+            "y1": 250,
+            "x2": 970,
+            "y2": 479
+          },
+          "bbox_list": [
+            336,
+            250,
+            970,
+            479
+          ]
+        },
+        {
+          "block_id": "p4_b8",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Since its launch in 1981, China Daily has grown to become the nation's leading English- language newspaper. With a combined print, online and mobile readership of more than 350 million, it serves a vital role in telling the world about China, providing valuable insight into the world's second- largest economy. Consequently, it is quoted more often by overseas media than any other Chinese publication.",
+          "bbox": {
+            "x1": 338,
+            "y1": 505,
+            "x2": 970,
+            "y2": 595
+          },
+          "bbox_list": [
+            338,
+            505,
+            970,
+            595
+          ]
+        },
+        {
+          "block_id": "p4_b9",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Along with the flagship edition on Chinese mainland and Hong Kong Edition, China Daily publishes an International Edition - covering North and South America, Europe, the Asia- Pacific and Africa - and various digital platforms.",
+          "bbox": {
+            "x1": 340,
+            "y1": 607,
+            "x2": 945,
+            "y2": 660
+          },
+          "bbox_list": [
+            340,
+            607,
+            945,
+            660
+          ]
+        },
+        {
+          "block_id": "p4_b10",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "With 35 provincial and municipal bureaus in China, 14 bureaus and 33 printing centers overseas, China Daily reports news throughout China and the globe.",
+          "bbox": {
+            "x1": 340,
+            "y1": 673,
+            "x2": 931,
+            "y2": 708
+          },
+          "bbox_list": [
+            340,
+            673,
+            931,
+            708
+          ]
+        },
+        {
+          "block_id": "p4_b11",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Chinadaily.com.cn, a leading national website, is China's most influential English- language multimedia platform. More than 36 million readers from 180 countries have downloaded the China Daily app, and its PV reaches 52 million.",
+          "bbox": {
+            "x1": 343,
+            "y1": 722,
+            "x2": 963,
+            "y2": 775
+          },
+          "bbox_list": [
+            343,
+            722,
+            963,
+            775
+          ]
+        },
+        {
+          "block_id": "p4_b12",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "China Daily also has accounts on well- known social media such as Sina Weibo, WeChat, Facebook and Twitter. By the end of April 2022, Facebook followers 104 million, and Twitter followers 4.25 million.",
+          "bbox": {
+            "x1": 345,
+            "y1": 789,
+            "x2": 968,
+            "y2": 841
+          },
+          "bbox_list": [
+            345,
+            789,
+            968,
+            841
+          ]
+        },
+        {
+          "block_id": "p4_b13",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "China Daily plays a key role in the Asia News Network, a collaborative effort of the continent's leading newspapers. China Watch, a China Daily supplement, is published as an insert of more than 20 major international newspapers in 18 countries, with a combined circulation of more than 5 million.",
+          "bbox": {
+            "x1": 346,
+            "y1": 855,
+            "x2": 971,
+            "y2": 925
+          },
+          "bbox_list": [
+            346,
+            855,
+            971,
+            925
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# About Us About China Daily Group  \n\nAbout China Daily Group  \n\nEditorial Board  \n\nChina Daily's Print Media  \n\nChina Daily's Digital Media  \n\nChina Daily's global development  \n\nBranding events of China Daily  \n\nSince its launch in 1981, China Daily has grown to become the nation's leading English- language newspaper. With a combined print, online and mobile readership of more than 350 million, it serves a vital role in telling the world about China, providing valuable insight into the world's second- largest economy. Consequently, it is quoted more often by overseas media than any other Chinese publication.  \n\nAlong with the flagship edition on Chinese mainland and Hong Kong Edition, China Daily publishes an International Edition - covering North and South America, Europe, the Asia- Pacific and Africa - and various digital platforms.  \n\nWith 35 provincial and municipal bureaus in China, 14 bureaus and 33 printing centers overseas, China Daily reports news throughout China and the globe.  \n\nChinadaily.com.cn, a leading national website, is China's most influential English- language multimedia platform. More than 36 million readers from 180 countries have downloaded the China Daily app, and its PV reaches 52 million.  \n\nChina Daily also has accounts on well- known social media such as Sina Weibo, WeChat, Facebook and Twitter. By the end of April 2022, Facebook followers 104 million, and Twitter followers 4.25 million.  \n\nChina Daily plays a key role in the Asia News Network, a collaborative effort of the continent's leading newspapers. China Watch, a China Daily supplement, is published as an insert of more than 20 major international newspapers in 18 countries, with a combined circulation of more than 5 million."
+    }
+  ],
+  "total_blocks": 31
+}

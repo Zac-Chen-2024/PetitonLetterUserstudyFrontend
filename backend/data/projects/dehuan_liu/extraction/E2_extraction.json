@@ -1,0 +1,77 @@
+{
+  "version": "4.0",
+  "exhibit_id": "E2",
+  "extracted_at": "2026-03-15T00:00:00+00:00",
+  "applicant_name": "Dehuan Liu",
+  "document_summary": "Profile of the School of New Media of Peking University. Founded February 2014, focusing on new media innovation. Has 4 professors, 3 associate professors, 4 doctoral supervisors. Extensive international cooperation with Harvard, Oxford. Committed to interdisciplinary research in new media communication, data mining, and network security.",
+  "snippets": [
+    {
+      "snippet_id": "snp_E2_a1b2c3d4",
+      "exhibit_id": "E2",
+      "document_id": "doc_E2",
+      "text": "> Profile Founded in Feb. 2014, School of New Media of Peking University is a scientific research and teaching institution focusing on the innovation and development of new media. Relying on the academic accumulation of Peking University, the School is committed to promoting new media theoretical research, technological innovation and industrial development, and strives to become an internationally renowned and domestic leading think tank, talent pool and achievement database.",
+      "page": 2,
+      "bbox": {"x1": 110, "y1": 290, "x2": 884, "y2": 415},
+      "block_id": "p2_b6",
+      "subject": "School of New Media founded Feb. 2014, aims to be internationally renowned think tank",
+      "subject_role": "organization",
+      "recommender_name": null,
+      "is_applicant_achievement": false,
+      "evidence_type": "source_credibility",
+      "evidence_purpose": "credibility_evidence",
+      "evidence_layer": "meta",
+      "confidence": 0.90,
+      "reasoning": "Establishes the School of New Media as a PKU institution focused on innovation, aiming for international renown.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_E2_e5f6a7b8",
+      "exhibit_id": "E2",
+      "document_id": "doc_E2",
+      "text": "School of New Media has excellent faculty and scientific research force, and the disciplinary background of teachers and researchers includes communication, information, management, sociology, psychology, computer science and other fields, and they are competent for cross- professional, interdisciplinary and multi- perspective teaching and research requirements and industry- university- research interaction. There are 4 professors, 3 associate professors, 4 doctoral supervisors and 7 master supervisors among the full- time teachers at the School. The School also has invited well- known scholars and industry experts at home and abroad as chair professors and external experts, forming a diversified, high- level and open faculty research team structure with full- time teachers as the core, relying on chair professors and supported by external experts.",
+      "page": 2,
+      "bbox": {"x1": 115, "y1": 451, "x2": 886, "y2": 652},
+      "block_id": "p2_b7",
+      "subject": "Faculty composition: 4 professors, 3 associate professors, interdisciplinary team",
+      "subject_role": "organization",
+      "recommender_name": null,
+      "is_applicant_achievement": false,
+      "evidence_type": "source_credibility",
+      "evidence_purpose": "credibility_evidence",
+      "evidence_layer": "meta",
+      "confidence": 0.85,
+      "reasoning": "Describes the School's interdisciplinary faculty structure including 4 professors (one of whom is Liu).",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_E2_c9d0e1f2",
+      "exhibit_id": "E2",
+      "document_id": "doc_E2",
+      "text": "School of New Media has extensive international cooperation and exchanges. It has established good cooperative relations with new media research institutions of many internationally renowned universities such as Harvard University and Oxford University. It also invites internationally renowned scholars to lecture and teach, actively learns the excellent teaching and research achievements, resources and experience of foreign universities, strengthens international connection with the curriculum system, teaching methods and teaching management, and adopts bilingual teaching in some courses to meet the demands of the internationalization of scientific research and teaching and enhance international influence. In front of the ever- changing new media technology and ideological innovation, School of New Media of Peking University adheres to the concept of collaborative innovation and open schooling, strives to build a high- level scientific research and teaching platform, constructs a scientific research highland and talent base in the field of new media, and promotes the continuous development of Chinese new media industry, university and research.",
+      "page": 3,
+      "bbox": {"x1": 116, "y1": 298, "x2": 884, "y2": 556},
+      "block_id": "p3_b1",
+      "subject": "International cooperation with Harvard, Oxford and other renowned universities",
+      "subject_role": "organization",
+      "recommender_name": null,
+      "is_applicant_achievement": false,
+      "evidence_type": "source_credibility",
+      "evidence_purpose": "credibility_evidence",
+      "evidence_layer": "meta",
+      "confidence": 0.90,
+      "reasoning": "Demonstrates the School's international standing through partnerships with Harvard, Oxford, and other leading institutions.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    }
+  ],
+  "entities": [
+    {"id": "ent_E2_0", "name": "School of New Media of Peking University", "type": "organization", "identity": "department", "relation_to_applicant": "employer", "snippet_ids": ["snp_E2_a1b2c3d4", "snp_E2_e5f6a7b8", "snp_E2_c9d0e1f2"], "exhibit_ids": ["E2"], "mentioned_in_blocks": ["p2_b1", "p2_b6", "p2_b7", "p3_b1"], "aliases": [], "is_merged": false, "merged_from": []},
+    {"id": "ent_E2_1", "name": "Peking University", "type": "organization", "identity": "university", "relation_to_applicant": "employer", "snippet_ids": ["snp_E2_a1b2c3d4"], "exhibit_ids": ["E2"], "mentioned_in_blocks": ["p2_b1", "p2_b6"], "aliases": ["PKU"], "is_merged": false, "merged_from": []}
+  ],
+  "relations": [
+    {"id": "rel_E2_0", "from_entity": "ent_E2_0", "to_entity": "ent_E2_1", "relation_type": "part_of", "context": "School of New Media is part of Peking University", "source_snippet_ids": ["snp_E2_a1b2c3d4"], "source_blocks": ["p2_b6"]}
+  ],
+  "stats": {"snippet_count": 3, "entity_count": 2, "relation_count": 1, "applicant_snippets": 0, "other_snippets": 3}
+}

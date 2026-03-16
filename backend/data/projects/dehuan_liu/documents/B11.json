@@ -1,0 +1,132 @@
+{
+  "exhibit_id": "B11",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit B-11",
+          "bbox": {
+            "x1": 125,
+            "y1": 448,
+            "x2": 852,
+            "y2": 533
+          },
+          "bbox_list": [
+            125,
+            448,
+            852,
+            533
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit B-11"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 95,
+            "y1": 36,
+            "x2": 189,
+            "y2": 53
+          },
+          "bbox_list": [
+            95,
+            36,
+            189,
+            53
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Certificate of Honor",
+          "bbox": {
+            "x1": 372,
+            "y1": 79,
+            "x2": 609,
+            "y2": 102
+          },
+          "bbox_list": [
+            372,
+            79,
+            609,
+            102
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To Dehuan Liu and Chen Cui:",
+          "bbox": {
+            "x1": 97,
+            "y1": 186,
+            "x2": 345,
+            "y2": 205
+          },
+          "bbox_list": [
+            97,
+            186,
+            345,
+            205
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Your paper titled \"Challenges Posed by the Internet to Traditional Media in the Time Dimension - A Study on the Possibility of Internet Media Usage Time Surpassing Traditional Media Usage Time\" has won the Excellent Paper Award at the 11th China Communication Conference. This certificate is issued as an encouragement.",
+          "bbox": {
+            "x1": 97,
+            "y1": 240,
+            "x2": 857,
+            "y2": 320
+          },
+          "bbox_list": [
+            97,
+            240,
+            857,
+            320
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(Stamp) Communication Association of China The 11th China Communication Conference Organizing Committee July 10th, 2010",
+          "bbox": {
+            "x1": 417,
+            "y1": 384,
+            "x2": 893,
+            "y2": 510
+          },
+          "bbox_list": [
+            417,
+            384,
+            893,
+            510
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\n## Certificate of Honor  \n\nTo Dehuan Liu and Chen Cui:  \n\nYour paper titled \"Challenges Posed by the Internet to Traditional Media in the Time Dimension - A Study on the Possibility of Internet Media Usage Time Surpassing Traditional Media Usage Time\" has won the Excellent Paper Award at the 11th China Communication Conference. This certificate is issued as an encouragement.  \n\n(Stamp)  Communication Association of China  The 11th China Communication Conference Organizing Committee  July 10th, 2010"
+    }
+  ],
+  "total_blocks": 6
+}

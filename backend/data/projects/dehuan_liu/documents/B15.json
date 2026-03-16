@@ -1,0 +1,328 @@
+{
+  "exhibit_id": "B15",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit B-15",
+          "bbox": {
+            "x1": 128,
+            "y1": 448,
+            "x2": 864,
+            "y2": 536
+          },
+          "bbox_list": [
+            128,
+            448,
+            864,
+            536
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit B-15"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 9,
+            "y1": 88,
+            "x2": 962,
+            "y2": 308
+          },
+          "bbox_list": [
+            9,
+            88,
+            962,
+            308
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# About the School",
+          "bbox": {
+            "x1": 30,
+            "y1": 330,
+            "x2": 201,
+            "y2": 350
+          },
+          "bbox_list": [
+            30,
+            330,
+            201,
+            350
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Profile",
+          "bbox": {
+            "x1": 10,
+            "y1": 374,
+            "x2": 72,
+            "y2": 392
+          },
+          "bbox_list": [
+            10,
+            374,
+            72,
+            392
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "History",
+          "bbox": {
+            "x1": 10,
+            "y1": 415,
+            "x2": 78,
+            "y2": 432
+          },
+          "bbox_list": [
+            10,
+            415,
+            78,
+            432
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Organizational Structure",
+          "bbox": {
+            "x1": 10,
+            "y1": 450,
+            "x2": 216,
+            "y2": 468
+          },
+          "bbox_list": [
+            10,
+            450,
+            216,
+            468
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Department Center",
+          "bbox": {
+            "x1": 11,
+            "y1": 489,
+            "x2": 173,
+            "y2": 506
+          },
+          "bbox_list": [
+            11,
+            489,
+            173,
+            506
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "School Location",
+          "bbox": {
+            "x1": 11,
+            "y1": 523,
+            "x2": 153,
+            "y2": 540
+          },
+          "bbox_list": [
+            11,
+            523,
+            153,
+            540
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Profile on the School",
+          "bbox": {
+            "x1": 230,
+            "y1": 328,
+            "x2": 417,
+            "y2": 346
+          },
+          "bbox_list": [
+            230,
+            328,
+            417,
+            346
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Homepage >> About the School >> Brief Introduction",
+          "bbox": {
+            "x1": 510,
+            "y1": 323,
+            "x2": 944,
+            "y2": 343
+          },
+          "bbox_list": [
+            510,
+            323,
+            944,
+            343
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Peking University enjoys the honor of being the \"cradle of Journalism and Journalism Education in China\". In 1917, Prof. Baohuang Xu opened up the optional course of Journalism at Peking University, which marked the start of China's Journalism education. In 1918, Peking University Journalism Research Institute was established, with Yuanpei Cai, the Principal at that time, serving as the President, which further marked the birth of Journalism as a discipline in China. In 2001, the School of Journalism and Communication, Peking University was re- established. Along the way, it gradually formulated a unique research, teaching, and talent- cultivation mode for the discipline of journalism and communication with characteristics of Peking University that fits the era development and addresses international cutting- edge trends.",
+          "bbox": {
+            "x1": 235,
+            "y1": 362,
+            "x2": 981,
+            "y2": 543
+          },
+          "bbox_list": [
+            235,
+            362,
+            981,
+            543
+          ]
+        },
+        {
+          "block_id": "p2_b10",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "This School is authorized to award the doctorate degree of Journalism and Communication, first- level discipline, and to award the doctorate degrees of Communication, Journalism, and New Media, second- level discipline. Additionally, it has established postdoctoral stations for the disciplines of Communication, as well as Journalism. The Journalism of the School of Journalism and Communication was included by the Ministry of Education in the \"sixth batch featured majors built in higher education institutions\". Journalism and Advertising were included in the national first- class majors, and broadcasting and television were included in the Beijing municipal first- class majors. The Secretariat of National Advisory Committee for Professional Degree in Journalism and Communication Education is set at Peking University.",
+          "bbox": {
+            "x1": 240,
+            "y1": 556,
+            "x2": 985,
+            "y2": 735
+          },
+          "bbox_list": [
+            240,
+            556,
+            985,
+            735
+          ]
+        },
+        {
+          "block_id": "p2_b11",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "This School has an advanced and sophisticated faculty, including two scholars selected into national key talent schemes, one renowned cultural scholar selected into the \"Four Key Principles\" Talent Scheme supported by the Publicity Department of CCCPC, one scholar selected into the Program for New Century Excellent Talents in University supported by the Ministry of Education, one leading character in the national broadcasting, television, and network visual- audio industry, and five scholars selected into the \"Thousand Talent\" Mutual Employment Scheme between Higher Education Institutions and News Entities.",
+          "bbox": {
+            "x1": 243,
+            "y1": 748,
+            "x2": 988,
+            "y2": 892
+          },
+          "bbox_list": [
+            243,
+            748,
+            988,
+            892
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# About the School  \n\nProfile  \n\nHistory  \n\nOrganizational Structure  \n\nDepartment Center  \n\nSchool Location  \n\n# Profile on the School  \n\nHomepage >> About the School >> Brief Introduction  \n\nPeking University enjoys the honor of being the \"cradle of Journalism and Journalism Education in China\". In 1917, Prof. Baohuang Xu opened up the optional course of Journalism at Peking University, which marked the start of China's Journalism education. In 1918, Peking University Journalism Research Institute was established, with Yuanpei Cai, the Principal at that time, serving as the President, which further marked the birth of Journalism as a discipline in China. In 2001, the School of Journalism and Communication, Peking University was re- established. Along the way, it gradually formulated a unique research, teaching, and talent- cultivation mode for the discipline of journalism and communication with characteristics of Peking University that fits the era development and addresses international cutting- edge trends.  \n\nThis School is authorized to award the doctorate degree of Journalism and Communication, first- level discipline, and to award the doctorate degrees of Communication, Journalism, and New Media, second- level discipline. Additionally, it has established postdoctoral stations for the disciplines of Communication, as well as Journalism. The Journalism of the School of Journalism and Communication was included by the Ministry of Education in the \"sixth batch featured majors built in higher education institutions\". Journalism and Advertising were included in the national first- class majors, and broadcasting and television were included in the Beijing municipal first- class majors. The Secretariat of National Advisory Committee for Professional Degree in Journalism and Communication Education is set at Peking University.  \n\nThis School has an advanced and sophisticated faculty, including two scholars selected into national key talent schemes, one renowned cultural scholar selected into the \"Four Key Principles\" Talent Scheme supported by the Publicity Department of CCCPC, one scholar selected into the Program for New Century Excellent Talents in University supported by the Ministry of Education, one leading character in the national broadcasting, television, and network visual- audio industry, and five scholars selected into the \"Thousand Talent\" Mutual Employment Scheme between Higher Education Institutions and News Entities."
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Scholars of Journalism and Communication add to this discipline and seek ground- breaking perspectives by proposing insightful questions regarding social science research in the digitalized era and producing original research outcomes based on internet communication activities and media forms. Targeted and key research directions mainly include media studies (news, broadcasting, and new media), strategic communication (advertising, public relations, and strategy), and global communication (international communication, cross- cultural communication, public communication, and health communication, etc.). This School has developed featured advantages in the research areas of Jinping Xi's serial keynote speeches about news and public opinions, the Marxist View of Journalism, digitalization and new media, national strategic communication, and advertising development, etc.",
+          "bbox": {
+            "x1": 231,
+            "y1": 92,
+            "x2": 976,
+            "y2": 292
+          },
+          "bbox_list": [
+            231,
+            92,
+            976,
+            292
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In terms of talent cultivation, this School is committed to equipping quality talents with ethical virtues and emphasizes the importance to enhance their political orientation, critical thinking, and the ability to access to cutting- edge issues. This School is also committed to cultivating creative, high- level, and multi- disciplinary talents, for journalism and communication, who will lead the future and have an insightful eye on China and the international community. As of May 2021, this School has an enrollment of 353 undergraduates, 33 doctoral students, 47 academic masters, and 110 professional masters. While this School boasts many alumni, including 1,887 graduates (378 overseas students and 23 students who are from HMT regions), 172 doctors, and 1,638 masters. In addition, altogether 2,566 on- the- job students have finished the master training courses, 649 of whom have been granted a master's degree. These visionary journalism and communication talents who are equipped with modern communication theories now are actively playing their roles in various overseas and domestic fields of journalism and communication.",
+          "bbox": {
+            "x1": 234,
+            "y1": 304,
+            "x2": 980,
+            "y2": 556
+          },
+          "bbox_list": [
+            234,
+            304,
+            980,
+            556
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "With precious legacies, intellectual properties, and a century- long history, the discipline of Journalism and Communication, upon development for more than 20 years, is more vibrant and dynamic than ever. This School will develop into a higher status with new philosophies and views amid this new historical stage.",
+          "bbox": {
+            "x1": 238,
+            "y1": 567,
+            "x2": 981,
+            "y2": 641
+          },
+          "bbox_list": [
+            238,
+            567,
+            981,
+            641
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nScholars of Journalism and Communication add to this discipline and seek ground- breaking perspectives by proposing insightful questions regarding social science research in the digitalized era and producing original research outcomes based on internet communication activities and media forms. Targeted and key research directions mainly include media studies (news, broadcasting, and new media), strategic communication (advertising, public relations, and strategy), and global communication (international communication, cross- cultural communication, public communication, and health communication, etc.). This School has developed featured advantages in the research areas of Jinping Xi's serial keynote speeches about news and public opinions, the Marxist View of Journalism, digitalization and new media, national strategic communication, and advertising development, etc.  \n\nIn terms of talent cultivation, this School is committed to equipping quality talents with ethical virtues and emphasizes the importance to enhance their political orientation, critical thinking, and the ability to access to cutting- edge issues. This School is also committed to cultivating creative, high- level, and multi- disciplinary talents, for journalism and communication, who will lead the future and have an insightful eye on China and the international community. As of May 2021, this School has an enrollment of 353 undergraduates, 33 doctoral students, 47 academic masters, and 110 professional masters. While this School boasts many alumni, including 1,887 graduates (378 overseas students and 23 students who are from HMT regions), 172 doctors, and 1,638 masters. In addition, altogether 2,566 on- the- job students have finished the master training courses, 649 of whom have been granted a master's degree. These visionary journalism and communication talents who are equipped with modern communication theories now are actively playing their roles in various overseas and domestic fields of journalism and communication.  \n\nWith precious legacies, intellectual properties, and a century- long history, the discipline of Journalism and Communication, upon development for more than 20 years, is more vibrant and dynamic than ever. This School will develop into a higher status with new philosophies and views amid this new historical stage."
+    }
+  ],
+  "total_blocks": 16
+}

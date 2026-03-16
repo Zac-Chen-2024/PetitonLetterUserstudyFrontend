@@ -1,0 +1,561 @@
+{
+  "exhibit_id": "G8",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit G-8",
+          "bbox": {
+            "x1": 110,
+            "y1": 450,
+            "x2": 880,
+            "y2": 545
+          },
+          "bbox_list": [
+            110,
+            450,
+            880,
+            545
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit G-8"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Information Network for Humanities and Social Sciences of Higher Education Institutions of China Home - - Management - - News - - Points of View - - Quick Search - - On- line Periodicals - - Paper on Line Current position - - Achievements and Rewards - - Award Evaluation Result > Details of Articles",
+          "bbox": {
+            "x1": 66,
+            "y1": 82,
+            "x2": 900,
+            "y2": 163
+          },
+          "bbox_list": [
+            66,
+            82,
+            900,
+            163
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Dehuan Liu: Age Theory: Social Time in Social Space",
+          "bbox": {
+            "x1": 230,
+            "y1": 205,
+            "x2": 757,
+            "y2": 229
+          },
+          "bbox_list": [
+            230,
+            205,
+            757,
+            229
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "March 16, 2010 Author: Dehuan Liu Source: sinoss Title of Achievement: Age Theory: Social Time in Social Space Type of Achievement: Works Publishing Time: March, 2007 Publishing House: China Federation of Industry and Commerce Press",
+          "bbox": {
+            "x1": 67,
+            "y1": 243,
+            "x2": 530,
+            "y2": 383
+          },
+          "bbox_list": [
+            67,
+            243,
+            530,
+            383
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Introduction to Contents of the Achievement",
+          "bbox": {
+            "x1": 70,
+            "y1": 423,
+            "x2": 410,
+            "y2": 440
+          },
+          "bbox_list": [
+            70,
+            423,
+            410,
+            440
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 1. Text structure and basic points of views",
+          "bbox": {
+            "x1": 71,
+            "y1": 453,
+            "x2": 388,
+            "y2": 470
+          },
+          "bbox_list": [
+            71,
+            453,
+            388,
+            470
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The book initiated the concept of the socialization of the time, and analyzed the two basic contents of the socialization of time on the basis of the concept, including the differentiation of the social time, and capitalization of the social time. In addition, the book also discussed the characteristics of social time in the social space from three aspects of the practical significance and general significance, including the continuity and rupture, periodicity and relativity.",
+          "bbox": {
+            "x1": 69,
+            "y1": 479,
+            "x2": 925,
+            "y2": 590
+          },
+          "bbox_list": [
+            69,
+            479,
+            925,
+            590
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Based on the discussion and analysis about the social time, the Book came to some valuable conclusions, including: the natural time in the social development process had already socialized; the social time could be differentiated into several layers; in the social space, the social time with the carrier of human was capitalized, and the value of individuals was institutionalized into work hours and corresponding disciplines; the social space that kept inheriting resulted in continuity of the social time, while the ruptured social space led to the rupture and cut- off characteristics of the social time; under different social spaces (individual life space, family space and work space), the social time had periodical significance; the diversity, richness and multi- level nature of contents of the social space would result in the relativity of the social time. These conclusions have great guiding significance to us in analyzing the time variable from the perspective of statistical description and investigating its influence on the development of the statistical analysis methods.",
+          "bbox": {
+            "x1": 70,
+            "y1": 597,
+            "x2": 928,
+            "y2": 857
+          },
+          "bbox_list": [
+            70,
+            597,
+            928,
+            857
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nInformation Network for Humanities and Social Sciences of Higher Education Institutions of China Home - - Management - - News - - Points of View - - Quick Search - - On- line Periodicals - - Paper on Line Current position - - Achievements and Rewards - - Award Evaluation Result > Details of Articles  \n\n# Dehuan Liu: Age Theory: Social Time in Social Space  \n\nMarch 16, 2010 Author: Dehuan Liu Source: sinoss  Title of Achievement: Age Theory: Social Time in Social Space  Type of Achievement: Works  Publishing Time: March, 2007  Publishing House: China Federation of Industry and Commerce Press  \n\n## Introduction to Contents of the Achievement  \n\n## 1. Text structure and basic points of views  \n\nThe book initiated the concept of the socialization of the time, and analyzed the two basic contents of the socialization of time on the basis of the concept, including the differentiation of the social time, and capitalization of the social time. In addition, the book also discussed the characteristics of social time in the social space from three aspects of the practical significance and general significance, including the continuity and rupture, periodicity and relativity.  \n\nBased on the discussion and analysis about the social time, the Book came to some valuable conclusions, including: the natural time in the social development process had already socialized; the social time could be differentiated into several layers; in the social space, the social time with the carrier of human was capitalized, and the value of individuals was institutionalized into work hours and corresponding disciplines; the social space that kept inheriting resulted in continuity of the social time, while the ruptured social space led to the rupture and cut- off characteristics of the social time; under different social spaces (individual life space, family space and work space), the social time had periodical significance; the diversity, richness and multi- level nature of contents of the social space would result in the relativity of the social time. These conclusions have great guiding significance to us in analyzing the time variable from the perspective of statistical description and investigating its influence on the development of the statistical analysis methods."
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 2. Main innovation and academic values",
+          "bbox": {
+            "x1": 68,
+            "y1": 84,
+            "x2": 373,
+            "y2": 101
+          },
+          "bbox_list": [
+            68,
+            84,
+            373,
+            101
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The age variable is an indispensable variable in the data analysis of social research, and probably all researchers will not lose this variable in the data analysis of social research, but few papers and monographs are devoted to the study of the age variable. How to analyze the age variable, especially how to find the support of previous research results and related theories based on the data analysis, is a very important but often neglected issue to improve the data analysis. There have been some explorations in this area in foreign countries, but they are all about specific models, and there is no comprehensive work on this topic. The book \"Age Theory\" fills this gap.",
+          "bbox": {
+            "x1": 66,
+            "y1": 110,
+            "x2": 923,
+            "y2": 280
+          },
+          "bbox_list": [
+            66,
+            110,
+            923,
+            280
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The biggest feature of this book is to unscramble this variable into a demonstration form of the social time, and place it into the concept of social space for discussion. The explanation under such concept has enlarged our research vision, and improved the analysis competency. The Books also contains multiple statistical analysis models. The author made detailed checking for basic assumptions in the regression analysis, and designed a series of model forms that were rarely seen before. Bold innovations were also made on the analysis techniques, like three- element interaction function in regression analysis, which was rarely seen in general studies. Moreover, to unscramble data of models into a wide theoretical vision endows the paper with higher methodological value.",
+          "bbox": {
+            "x1": 68,
+            "y1": 288,
+            "x2": 925,
+            "y2": 490
+          },
+          "bbox_list": [
+            68,
+            288,
+            925,
+            490
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 3. Research Methods",
+          "bbox": {
+            "x1": 72,
+            "y1": 532,
+            "x2": 232,
+            "y2": 549
+          },
+          "bbox_list": [
+            72,
+            532,
+            232,
+            549
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Main research method in the Book is to start from cases of quantitative data analysis, initiate questions, and then extend the analysis for the characteristics of the social time. If an average person is taken as the carrier of the time, then the characteristics of the person would be incorporated into the sequence of time. On account of the richness of the behaviors and thoughts of persons, however, our analysis would generally become one- sided. For example, we may unconsciously simplify the social time of the average person into age variable. In fact, age could not completely represent the concept of the social time imposed on average person in some occasions. The other concepts may include time of individual receiving education, work age under work space, accumulation of experiences, seniority, etc. Although age is the most commonly used time dimension in the following analysis of this paper, it is only an individual case- based and one- sided concept in the analysis of the social time in some occasions.",
+          "bbox": {
+            "x1": 71,
+            "y1": 557,
+            "x2": 928,
+            "y2": 816
+          },
+          "bbox_list": [
+            71,
+            557,
+            928,
+            816
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The data of the paper mainly came from below sources: survey for employees of 100 enterprises from seven provinces and cities organized by China University of Labor Relations in 1991; survey for the living style of residents in",
+          "bbox": {
+            "x1": 74,
+            "y1": 824,
+            "x2": 928,
+            "y2": 876
+          },
+          "bbox_list": [
+            74,
+            824,
+            928,
+            876
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## 2. Main innovation and academic values  \n\nThe age variable is an indispensable variable in the data analysis of social research, and probably all researchers will not lose this variable in the data analysis of social research, but few papers and monographs are devoted to the study of the age variable. How to analyze the age variable, especially how to find the support of previous research results and related theories based on the data analysis, is a very important but often neglected issue to improve the data analysis. There have been some explorations in this area in foreign countries, but they are all about specific models, and there is no comprehensive work on this topic. The book \"Age Theory\" fills this gap.  \n\nThe biggest feature of this book is to unscramble this variable into a demonstration form of the social time, and place it into the concept of social space for discussion. The explanation under such concept has enlarged our research vision, and improved the analysis competency. The Books also contains multiple statistical analysis models. The author made detailed checking for basic assumptions in the regression analysis, and designed a series of model forms that were rarely seen before. Bold innovations were also made on the analysis techniques, like three- element interaction function in regression analysis, which was rarely seen in general studies. Moreover, to unscramble data of models into a wide theoretical vision endows the paper with higher methodological value.  \n\n## 3. Research Methods  \n\nMain research method in the Book is to start from cases of quantitative data analysis, initiate questions, and then extend the analysis for the characteristics of the social time. If an average person is taken as the carrier of the time, then the characteristics of the person would be incorporated into the sequence of time. On account of the richness of the behaviors and thoughts of persons, however, our analysis would generally become one- sided. For example, we may unconsciously simplify the social time of the average person into age variable. In fact, age could not completely represent the concept of the social time imposed on average person in some occasions. The other concepts may include time of individual receiving education, work age under work space, accumulation of experiences, seniority, etc. Although age is the most commonly used time dimension in the following analysis of this paper, it is only an individual case- based and one- sided concept in the analysis of the social time in some occasions.  \n\nThe data of the paper mainly came from below sources: survey for employees of 100 enterprises from seven provinces and cities organized by China University of Labor Relations in 1991; survey for the living style of residents in"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Home / About Us / Contact Information / Notices to Contributions / Copyright Statement",
+          "bbox": {
+            "x1": 66,
+            "y1": 112,
+            "x2": 781,
+            "y2": 135
+          },
+          "bbox_list": [
+            66,
+            112,
+            781,
+            135
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nHome / About Us / Contact Information / Notices to Contributions / Copyright Statement"
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "a high- end residential community in Beijing organized by Department of Social Sciences of Peking University in 1997. Series survey (total 8 times of survey) of a newspaper in Beijing arranged from 1998 to 1999 under the charge of Social Investigation and Research Center of Peking University; the survey of a journal in Beijing in 1998 under the charge of Social Investigation and Research Center of Peking University; survey on Violent Assault Toward Women sponsored by Ford Foundation and presided over by China Women's University in 1999; survey on readers organized by Social Investigation and Research Center of Peking University and carried out by a newspaper of China (in Beijing) in 1999; a survey about advertising cognition and memory in 1999; Survey on \"One Generation of Drifting\" in 2000; data of two sampling surveys about consumers of 34 cities in the country arranged by the survey company of CCTV in 2000 and 2001; survey data about Influence of WTO to the Chinese People arranged by Shaohai Investigation and Research Company in 2002; studies on the development strategy of Beijing People's Broadcasting Station organized by Market and Media Research Center of Peking University; studies on the using status of Internet in China arranged by Chinese Academy of Social Sciences in 2001, 2003 and 2005; study on real estate consumption in Chongqing organized by Market and Media Research Center of Peking University.",
+          "bbox": {
+            "x1": 64,
+            "y1": 80,
+            "x2": 925,
+            "y2": 463
+          },
+          "bbox_list": [
+            64,
+            80,
+            925,
+            463
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 4. Academic influence or social benefits",
+          "bbox": {
+            "x1": 72,
+            "y1": 502,
+            "x2": 370,
+            "y2": 519
+          },
+          "bbox_list": [
+            72,
+            502,
+            370,
+            519
+          ]
+        },
+        {
+          "block_id": "p5_b2",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Since the book is focused on the theoretical significance of a time variable like age in social space and the method of data analysis, it has become one of the reference books for research and analysis methods in communication and other disciplines in China upon its publication, and the social response has been excellent. So far, the book has become one of the required readings assigned by Prof. Huixin Ke and Prof. Hao Shen in the Communication Research Methods class at the Communication University of China, as well as in the Media Analysis and Advanced Statistics classes at the School of Journalism and Communication of Peking University. In addition, the content of this book has been applied in teaching, which had demonstrated excellent teaching results. With the application of the ideas of the model in Age Theory, the papers of master students Hui Zhang, Beibei Zhang and Lili Jiang won the honor of Excellent Master Papers, the papers of Jingjin Jiang, Shengxi Chen and Lingfei Wu won the third prize, third prize and excellent prize in the Procter & Gamble Market Research Paper Award, respectively, and the papers of Jing Jing, Tian Tian and other students won the first prize in Challenge Cup of Peking University. After the publication, the Age Theory has been listed as analysis and reference materials for quantitative researches by international market research enterprises like RI, IPSOS, INTAGE, etc.",
+          "bbox": {
+            "x1": 72,
+            "y1": 526,
+            "x2": 930,
+            "y2": 877
+          },
+          "bbox_list": [
+            72,
+            526,
+            930,
+            877
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\na high- end residential community in Beijing organized by Department of Social Sciences of Peking University in 1997. Series survey (total 8 times of survey) of a newspaper in Beijing arranged from 1998 to 1999 under the charge of Social Investigation and Research Center of Peking University; the survey of a journal in Beijing in 1998 under the charge of Social Investigation and Research Center of Peking University; survey on Violent Assault Toward Women sponsored by Ford Foundation and presided over by China Women's University in 1999; survey on readers organized by Social Investigation and Research Center of Peking University and carried out by a newspaper of China (in Beijing) in 1999; a survey about advertising cognition and memory in 1999; Survey on \"One Generation of Drifting\" in 2000; data of two sampling surveys about consumers of 34 cities in the country arranged by the survey company of CCTV in 2000 and 2001; survey data about Influence of WTO to the Chinese People arranged by Shaohai Investigation and Research Company in 2002; studies on the development strategy of Beijing People's Broadcasting Station organized by Market and Media Research Center of Peking University; studies on the using status of Internet in China arranged by Chinese Academy of Social Sciences in 2001, 2003 and 2005; study on real estate consumption in Chongqing organized by Market and Media Research Center of Peking University.  \n\n## 4. Academic influence or social benefits  \n\nSince the book is focused on the theoretical significance of a time variable like age in social space and the method of data analysis, it has become one of the reference books for research and analysis methods in communication and other disciplines in China upon its publication, and the social response has been excellent. So far, the book has become one of the required readings assigned by Prof. Huixin Ke and Prof. Hao Shen in the Communication Research Methods class at the Communication University of China, as well as in the Media Analysis and Advanced Statistics classes at the School of Journalism and Communication of Peking University. In addition, the content of this book has been applied in teaching, which had demonstrated excellent teaching results. With the application of the ideas of the model in Age Theory, the papers of master students Hui Zhang, Beibei Zhang and Lili Jiang won the honor of Excellent Master Papers, the papers of Jingjin Jiang, Shengxi Chen and Lingfei Wu won the third prize, third prize and excellent prize in the Procter & Gamble Market Research Paper Award, respectively, and the papers of Jing Jing, Tian Tian and other students won the first prize in Challenge Cup of Peking University. After the publication, the Age Theory has been listed as analysis and reference materials for quantitative researches by international market research enterprises like RI, IPSOS, INTAGE, etc."
+    },
+    {
+      "page_number": 6,
+      "text_blocks": [
+        {
+          "block_id": "p6_b0",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In addition, some contents of the Book were already released before the publication. Among them, the paper Application of Age Variable in the Data Analysis won the second prize of the Procter&Gamble Market Research Paper Award, which was cited by Yin Wu in the paper “Research on China- Vals” (Nankai Management Review, second issues in 2005). These contents were explained in postgraduate courses for Information Management of Tsinghua University, postgraduate courses of journalism and communication and information management of Peking University, MBA class of Guanghua School of Management, postgraduate courses of Communication University of China, and postgraduate class of Software Engineering of Beihang University. Good effects are achieved in these courses. At the same time, the thinking method in the book have been applied by many market research agencies and enterprises in market research and analysis. CCTV, Guangdong TV, Hainan TV, and CCTV Market Research Company (CTR), CCTV- Sofres Company (CSM), IPSOS, GFK, CMMR, P&G, Tencent, Baidu, Shell have arranged special explanations for contents in this book, leading to exceptional social benefits. Another paper titled as Perspective of the Family Life Cycle Variable with the Age Variable - New Method for Media Data Analysis was cited by Abing Hou in high paper titled Study on the Structure, Characteristics and Migrations of Values of Minorities (Southwestern University, April, 2008). The paper titled Analysis on Influence Factors of Internet Dependence was cited by Benrong Liu (“Relevant Studies on the Internet Dependence of University Students and Eysenck Personality Traits”, Technology Information (Academic Version), August, 2006), Hong Lin (Comparative Study on Internet Dependence of Students from Private and General Higher Education Institutions, Journal of Shenyang Normal University, November, 2008) and Chunmei Zhao (doctoral thesis “Study on the Influencing Factors in Home Environment to the Application of Computer Games among Middle School Students”).",
+          "bbox": {
+            "x1": 63,
+            "y1": 80,
+            "x2": 923,
+            "y2": 610
+          },
+          "bbox_list": [
+            63,
+            80,
+            923,
+            610
+          ]
+        },
+        {
+          "block_id": "p6_b1",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Social reflection of achievements",
+          "bbox": {
+            "x1": 71,
+            "y1": 650,
+            "x2": 320,
+            "y2": 667
+          },
+          "bbox_list": [
+            71,
+            650,
+            320,
+            667
+          ]
+        },
+        {
+          "block_id": "p6_b2",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Since the book is focused on the theoretical significance of a time variable like age in social space and the method of data analysis, it has become one of the reference books for research and analysis methods in communication and other disciplines in China upon its publication, and the social response has been excellent. So far, the book has become one of the required readings assigned by Prof. Huixin Ke and Prof. Hao Shen in the Communication Research Methods class at the Communication University of China, as well as in the Media Analysis and Advanced Statistics classes at the School of Journalism and Communication of Peking University. In addition, the content of this book has been applied in teaching, which had demonstrated excellent teaching results.",
+          "bbox": {
+            "x1": 70,
+            "y1": 676,
+            "x2": 930,
+            "y2": 877
+          },
+          "bbox_list": [
+            70,
+            676,
+            930,
+            877
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nIn addition, some contents of the Book were already released before the publication. Among them, the paper Application of Age Variable in the Data Analysis won the second prize of the Procter&Gamble Market Research Paper Award, which was cited by Yin Wu in the paper “Research on China- Vals” (Nankai Management Review, second issues in 2005). These contents were explained in postgraduate courses for Information Management of Tsinghua University, postgraduate courses of journalism and communication and information management of Peking University, MBA class of Guanghua School of Management, postgraduate courses of Communication University of China, and postgraduate class of Software Engineering of Beihang University. Good effects are achieved in these courses. At the same time, the thinking method in the book have been applied by many market research agencies and enterprises in market research and analysis. CCTV, Guangdong TV, Hainan TV, and CCTV Market Research Company (CTR), CCTV- Sofres Company (CSM), IPSOS, GFK, CMMR, P&G, Tencent, Baidu, Shell have arranged special explanations for contents in this book, leading to exceptional social benefits. Another paper titled as Perspective of the Family Life Cycle Variable with the Age Variable - New Method for Media Data Analysis was cited by Abing Hou in high paper titled Study on the Structure, Characteristics and Migrations of Values of Minorities (Southwestern University, April, 2008). The paper titled Analysis on Influence Factors of Internet Dependence was cited by Benrong Liu (“Relevant Studies on the Internet Dependence of University Students and Eysenck Personality Traits”, Technology Information (Academic Version), August, 2006), Hong Lin (Comparative Study on Internet Dependence of Students from Private and General Higher Education Institutions, Journal of Shenyang Normal University, November, 2008) and Chunmei Zhao (doctoral thesis “Study on the Influencing Factors in Home Environment to the Application of Computer Games among Middle School Students”).  \n\n## Social reflection of achievements  \n\nSince the book is focused on the theoretical significance of a time variable like age in social space and the method of data analysis, it has become one of the reference books for research and analysis methods in communication and other disciplines in China upon its publication, and the social response has been excellent. So far, the book has become one of the required readings assigned by Prof. Huixin Ke and Prof. Hao Shen in the Communication Research Methods class at the Communication University of China, as well as in the Media Analysis and Advanced Statistics classes at the School of Journalism and Communication of Peking University. In addition, the content of this book has been applied in teaching, which had demonstrated excellent teaching results."
+    },
+    {
+      "page_number": 7,
+      "text_blocks": [
+        {
+          "block_id": "p7_b0",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Information Network for Humanities and Social Sciences of Higher Education Institutions of China Home - - Management - - News - - Points of View - - Quick Search - - On- line Periodicals - - Paper on Line Current position - - Home - - About Us",
+          "bbox": {
+            "x1": 63,
+            "y1": 80,
+            "x2": 896,
+            "y2": 163
+          },
+          "bbox_list": [
+            63,
+            80,
+            896,
+            163
+          ]
+        },
+        {
+          "block_id": "p7_b1",
+          "page_number": 7,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## About Us",
+          "bbox": {
+            "x1": 435,
+            "y1": 175,
+            "x2": 546,
+            "y2": 199
+          },
+          "bbox_list": [
+            435,
+            175,
+            546,
+            199
+          ]
+        },
+        {
+          "block_id": "p7_b2",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Information Network for Humanities and Social Sciences of Higher Education Institutions of China (hereinafter referred to as \"Social Science Network\") is a professional portal website dedicated for humanities and social sciences administrated and sponsored by China Renmin University. The target of the website is to become a data and information center, network publishing center, information release center, network management center and consulting service center for humanities and social sciences.",
+          "bbox": {
+            "x1": 65,
+            "y1": 210,
+            "x2": 923,
+            "y2": 352
+          },
+          "bbox_list": [
+            65,
+            210,
+            923,
+            352
+          ]
+        },
+        {
+          "block_id": "p7_b3",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The Social Science Network aims at serving studies on humanities and social science, serving the management for studies on social sciences, and serving the promotion and application of resources and achievements in humanities and social sciences. With the construction of a national network platform, it provides higher education institutions and national social work researchers with information services about studies on social studies; take full advantage of the resources and achievements in humanities and social sciences to provide a platform for humanities and social sciences; introduce and demonstrate the development dynamics, research achievements and other information about humanities and social sciences of higher education institutions to both readers from both China and overseas countries.",
+          "bbox": {
+            "x1": 67,
+            "y1": 388,
+            "x2": 926,
+            "y2": 621
+          },
+          "bbox_list": [
+            67,
+            388,
+            926,
+            621
+          ]
+        },
+        {
+          "block_id": "p7_b4",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Since its construction began in 2001, the Social Science Network has made great contributions to the development of humanities and social sciences in colleges and universities in terms of scientific research management software, scientific research project management, social science news and information, and online publication of results, which has been widely praised by humanities and social science research workers in colleges and universities nationwide and the society.",
+          "bbox": {
+            "x1": 72,
+            "y1": 656,
+            "x2": 905,
+            "y2": 799
+          },
+          "bbox_list": [
+            72,
+            656,
+            905,
+            799
+          ]
+        },
+        {
+          "block_id": "p7_b5",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Home / About Us / Contact Information / Notices to Contributions / Copyright Statement",
+          "bbox": {
+            "x1": 142,
+            "y1": 834,
+            "x2": 857,
+            "y2": 857
+          },
+          "bbox_list": [
+            142,
+            834,
+            857,
+            857
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nInformation Network for Humanities and Social Sciences of Higher Education Institutions of China Home - - Management - - News - - Points of View - - Quick Search - - On- line Periodicals - - Paper on Line Current position - - Home - - About Us  \n\n## About Us  \n\nInformation Network for Humanities and Social Sciences of Higher Education Institutions of China (hereinafter referred to as \"Social Science Network\") is a professional portal website dedicated for humanities and social sciences administrated and sponsored by China Renmin University. The target of the website is to become a data and information center, network publishing center, information release center, network management center and consulting service center for humanities and social sciences.  \n\nThe Social Science Network aims at serving studies on humanities and social science, serving the management for studies on social sciences, and serving the promotion and application of resources and achievements in humanities and social sciences. With the construction of a national network platform, it provides higher education institutions and national social work researchers with information services about studies on social studies; take full advantage of the resources and achievements in humanities and social sciences to provide a platform for humanities and social sciences; introduce and demonstrate the development dynamics, research achievements and other information about humanities and social sciences of higher education institutions to both readers from both China and overseas countries.  \n\nSince its construction began in 2001, the Social Science Network has made great contributions to the development of humanities and social sciences in colleges and universities in terms of scientific research management software, scientific research project management, social science news and information, and online publication of results, which has been widely praised by humanities and social science research workers in colleges and universities nationwide and the society.  \n\nHome / About Us / Contact Information / Notices to Contributions / Copyright Statement"
+    }
+  ],
+  "total_blocks": 27
+}

@@ -1,0 +1,77 @@
+{
+  "version": "4.0",
+  "exhibit_id": "G4",
+  "extracted_at": "2026-03-15T00:00:00+00:00",
+  "applicant_name": "Dehuan Liu",
+  "document_summary": "Peking University News Website report about the Journal of Advertising Study's fifth anniversary conference in 2010. Establishes the journal as the first advertising academic journal in China, jointly founded by PKU School of Journalism and Communication and Advertising Panorama in 2005, having published 29 issues and 460+ papers.",
+  "snippets": [
+    {
+      "snippet_id": "snp_G4_a1b2c3d4",
+      "exhibit_id": "G4",
+      "document_id": "doc_G4",
+      "text": "Journal of Advertising Study is the first advertising academic journal in China jointly founded by School of Journalism and Communication of Peking University and Advertising Panorama magazine in 2005.",
+      "page": 4,
+      "bbox": {"x1": 68, "y1": 698, "x2": 925, "y2": 750},
+      "block_id": "p4_b4",
+      "subject": "Journal of Advertising Study",
+      "subject_role": "organization",
+      "recommender_name": null,
+      "is_applicant_achievement": false,
+      "evidence_type": "source_credibility",
+      "evidence_purpose": "credibility_evidence",
+      "evidence_layer": "context",
+      "confidence": 0.93,
+      "reasoning": "Establishes Journal of Advertising Study as the first advertising academic journal in China, founded by Peking University, supporting the significance of Liu's editorial board role.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_G4_e5f6a7b8",
+      "exhibit_id": "G4",
+      "document_id": "doc_G4",
+      "text": "In the past five years after the initial publication, Journal of Advertising Study totally published 29 issues, releasing more than 460 papers. Authors of such papers involved with 114 higher education institutions and research institutes. The quote rate of such papers keeps increasing year after year.",
+      "page": 4,
+      "bbox": {"x1": 68, "y1": 757, "x2": 925, "y2": 839},
+      "block_id": "p4_b5",
+      "subject": "Journal of Advertising Study",
+      "subject_role": "organization",
+      "recommender_name": null,
+      "is_applicant_achievement": false,
+      "evidence_type": "source_credibility",
+      "evidence_purpose": "credibility_evidence",
+      "evidence_layer": "context",
+      "confidence": 0.90,
+      "reasoning": "Quantitative impact data: 29 issues, 460+ papers, 114 institutions, increasing citation rate, demonstrating the journal's influence.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_G4_c9d0e1f2",
+      "exhibit_id": "G4",
+      "document_id": "doc_G4",
+      "text": "After the efforts of five years, the magazine has become an academic platform with extensive influence.",
+      "page": 3,
+      "bbox": {"x1": 69, "y1": 359, "x2": 930, "y2": 650},
+      "block_id": "p3_b1",
+      "subject": "Journal of Advertising Study",
+      "subject_role": "organization",
+      "recommender_name": null,
+      "is_applicant_achievement": false,
+      "evidence_type": "source_credibility",
+      "evidence_purpose": "credibility_evidence",
+      "evidence_layer": "context",
+      "confidence": 0.85,
+      "reasoning": "Characterizes Journal of Advertising Study as having achieved extensive influence, supporting the significance of Liu's editorial board membership.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    }
+  ],
+  "entities": [
+    {"id": "ent_G4_0", "name": "Journal of Advertising Study", "type": "publication", "identity": "First advertising academic journal in China, founded 2005 by PKU", "relation_to_applicant": "editorial_board_member", "snippet_ids": ["snp_G4_a1b2c3d4", "snp_G4_e5f6a7b8"], "exhibit_ids": ["G4"], "mentioned_in_blocks": ["p2_b2", "p4_b4", "p4_b5"], "aliases": ["Advertising Panorama"], "is_merged": false, "merged_from": []},
+    {"id": "ent_G4_1", "name": "Peking University", "type": "organization", "identity": "Co-founder of Journal of Advertising Study", "relation_to_applicant": "employer", "snippet_ids": [], "exhibit_ids": ["G4"], "mentioned_in_blocks": ["p2_b0", "p4_b4"], "aliases": ["PKU"], "is_merged": false, "merged_from": []}
+  ],
+  "relations": [
+    {"id": "rel_G4_0", "from_entity": "ent_G4_1", "to_entity": "ent_G4_0", "relation_type": "co-founded", "context": "PKU School of Journalism and Communication co-founded the journal in 2005", "source_snippet_ids": ["snp_G4_a1b2c3d4"], "source_blocks": ["p4_b4"]}
+  ],
+  "stats": {"snippet_count": 3, "entity_count": 2, "relation_count": 1, "applicant_snippets": 0, "other_snippets": 3}
+}

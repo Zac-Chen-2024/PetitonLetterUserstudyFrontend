@@ -1,0 +1,1675 @@
+{
+  "exhibit_id": "C9",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit C-9",
+          "bbox": {
+            "x1": 120,
+            "y1": 450,
+            "x2": 875,
+            "y2": 550
+          },
+          "bbox_list": [
+            120,
+            450,
+            875,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit C-9"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 97,
+            "y1": 43,
+            "x2": 175,
+            "y2": 57
+          },
+          "bbox_list": [
+            97,
+            43,
+            175,
+            57
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Digital Marketing Committee of China Advertising Association of Commerce Was Established in Beijing_China Advertising Association of Commerce",
+          "bbox": {
+            "x1": 97,
+            "y1": 64,
+            "x2": 890,
+            "y2": 99
+          },
+          "bbox_list": [
+            97,
+            64,
+            890,
+            99
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 0,
+            "y1": 125,
+            "x2": 984,
+            "y2": 255
+          },
+          "bbox_list": [
+            0,
+            125,
+            984,
+            255
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Digital Marketing Committee of China Advertising Association of Commerce Was Established in Beijing",
+          "bbox": {
+            "x1": 9,
+            "y1": 345,
+            "x2": 770,
+            "y2": 410
+          },
+          "bbox_list": [
+            9,
+            345,
+            770,
+            410
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Apr.19,2016 Source:Unknown",
+          "bbox": {
+            "x1": 13,
+            "y1": 430,
+            "x2": 249,
+            "y2": 446
+          },
+          "bbox_list": [
+            13,
+            430,
+            249,
+            446
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "On Aug. 14, 2015, the Digital Marketing Committee of China Advertising Association of Commerce (hereinafter referred as \"Digital Marketing Committee of China\") was established in Beijing.",
+          "bbox": {
+            "x1": 15,
+            "y1": 457,
+            "x2": 770,
+            "y2": 520
+          },
+          "bbox_list": [
+            15,
+            457,
+            770,
+            520
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Digital Marketing Committee of China (DMCC) is a non- profit organization that is voluntarily initiated and founded by outstanding Internet technology enterprises, digital marketing service enterprises, data technology research and service institutions, digital media and other entities and industry experts in China, focusing on the field of digital marketing. The member entities include the world famous technology enterprises, large platform group companies, industrial Internet ecological companies, big data technology companies, mobile Internet companies, digital marketing comprehensive companies, large Internet of Things application enterprises, digital media groups, digital business research institutions, etc.",
+          "bbox": {
+            "x1": 15,
+            "y1": 558,
+            "x2": 772,
+            "y2": 737
+          },
+          "bbox_list": [
+            15,
+            558,
+            772,
+            737
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Founded in 1981, China Advertising Association of Commerce, formerly known as China Foreign Economic and Trade Advertising Association (CFETAA), is the first national advertising association in China. In Sep. 2005, with the reform of government institutions, approved by the Ministry of Commerce and the Ministry of Civil Affairs, China Foreign Economic and Trade Advertising Association changed its name to China Advertising Association of Commerce (CAAC). [Details]",
+          "bbox": {
+            "x1": 784,
+            "y1": 330,
+            "x2": 978,
+            "y2": 625
+          },
+          "bbox_list": [
+            784,
+            330,
+            978,
+            625
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Please scan to subscribe on WeChat",
+          "bbox": {
+            "x1": 784,
+            "y1": 639,
+            "x2": 975,
+            "y2": 675
+          },
+          "bbox_list": [
+            784,
+            639,
+            975,
+            675
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 787,
+            "y1": 692,
+            "x2": 978,
+            "y2": 836
+          },
+          "bbox_list": [
+            787,
+            692,
+            978,
+            836
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nDigital Marketing Committee of China Advertising Association of Commerce Was Established in Beijing_China Advertising Association of Commerce  \n\nDigital Marketing Committee of China Advertising Association of Commerce Was Established in Beijing  \n\nApr.19,2016 Source:Unknown  \n\nOn Aug. 14, 2015, the Digital Marketing Committee of China Advertising Association of Commerce (hereinafter referred as \"Digital Marketing Committee of China\") was established in Beijing.  \n\nDigital Marketing Committee of China (DMCC) is a non- profit organization that is voluntarily initiated and founded by outstanding Internet technology enterprises, digital marketing service enterprises, data technology research and service institutions, digital media and other entities and industry experts in China, focusing on the field of digital marketing. The member entities include the world famous technology enterprises, large platform group companies, industrial Internet ecological companies, big data technology companies, mobile Internet companies, digital marketing comprehensive companies, large Internet of Things application enterprises, digital media groups, digital business research institutions, etc.  \n\nFounded in 1981, China Advertising Association of Commerce, formerly known as China Foreign Economic and Trade Advertising Association (CFETAA), is the first national advertising association in China. In Sep. 2005, with the reform of government institutions, approved by the Ministry of Commerce and the Ministry of Civil Affairs, China Foreign Economic and Trade Advertising Association changed its name to China Advertising Association of Commerce (CAAC). [Details]  \n\nPlease scan to subscribe on WeChat  "
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 97,
+            "y1": 44,
+            "x2": 175,
+            "y2": 58
+          },
+          "bbox_list": [
+            97,
+            44,
+            175,
+            58
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Digital Marketing Committee of China Advertising Association of Commerce Was Established in Beijing_China Advertising Association of Commerce",
+          "bbox": {
+            "x1": 97,
+            "y1": 65,
+            "x2": 888,
+            "y2": 99
+          },
+          "bbox_list": [
+            97,
+            65,
+            888,
+            99
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 100,
+            "y1": 110,
+            "x2": 678,
+            "y2": 400
+          },
+          "bbox_list": [
+            100,
+            110,
+            678,
+            400
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Closely surrounding the national strategies of \"Belt and Road Initiative\", \"Made in China 2025\" and \"Internet +\", as well as the initiatives of the Ministry of Commerce on cultivating Chinese brands, the Committee is committed to promoting the Internet transformation of China's traditional industries, accelerating the development of the Internet industry itself, enhancing the ability of Chinese enterprises to use the Internet to build brands, building a platform for technical exchange and resource integration in the field of digital marketing, training professionals in the industry, assisting relevant parties to formulate digital marketing industry standards, promoting the healthy, benign and orderly development of China's digital marketing, and building the most credible digital marketing industry organization in China.",
+          "bbox": {
+            "x1": 15,
+            "y1": 450,
+            "x2": 775,
+            "y2": 680
+          },
+          "bbox_list": [
+            15,
+            450,
+            775,
+            680
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "At present, the new round of scientific and technological revolution and industrial transformation form a historic intersection with the accelerated transformation of China's economic development mode. The industrial division pattern at home and abroad is being reshaped. The global economy is facing a transition. China's industry is developing in the direction of intelligence and digitalization, and brand competition is becoming more and more global. In the era of \"Internet +\", China's brand construction needs more professional collaboration between digital marketing and traditional marketing.",
+          "bbox": {
+            "x1": 18,
+            "y1": 722,
+            "x2": 777,
+            "y2": 880
+          },
+          "bbox_list": [
+            18,
+            722,
+            777,
+            880
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "www.caacchina.org/news/news/2016/0419/65. html",
+          "bbox": {
+            "x1": 108,
+            "y1": 881,
+            "x2": 456,
+            "y2": 897
+          },
+          "bbox_list": [
+            108,
+            881,
+            456,
+            897
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nDigital Marketing Committee of China Advertising Association of Commerce Was Established in Beijing_China Advertising Association of Commerce  \n\nClosely surrounding the national strategies of \"Belt and Road Initiative\", \"Made in China 2025\" and \"Internet +\", as well as the initiatives of the Ministry of Commerce on cultivating Chinese brands, the Committee is committed to promoting the Internet transformation of China's traditional industries, accelerating the development of the Internet industry itself, enhancing the ability of Chinese enterprises to use the Internet to build brands, building a platform for technical exchange and resource integration in the field of digital marketing, training professionals in the industry, assisting relevant parties to formulate digital marketing industry standards, promoting the healthy, benign and orderly development of China's digital marketing, and building the most credible digital marketing industry organization in China.  \n\nAt present, the new round of scientific and technological revolution and industrial transformation form a historic intersection with the accelerated transformation of China's economic development mode. The industrial division pattern at home and abroad is being reshaped. The global economy is facing a transition. China's industry is developing in the direction of intelligence and digitalization, and brand competition is becoming more and more global. In the era of \"Internet +\", China's brand construction needs more professional collaboration between digital marketing and traditional marketing.  \n\nwww.caacchina.org/news/news/2016/0419/65. html"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 100,
+            "y1": 44,
+            "x2": 180,
+            "y2": 58
+          },
+          "bbox_list": [
+            100,
+            44,
+            180,
+            58
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Digital Marketing Committee of China Advertising Association of Commerce Was Established in Beijing_China Advertising Association of Commerce",
+          "bbox": {
+            "x1": 100,
+            "y1": 65,
+            "x2": 890,
+            "y2": 99
+          },
+          "bbox_list": [
+            100,
+            65,
+            890,
+            99
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 102,
+            "y1": 142,
+            "x2": 680,
+            "y2": 432
+          },
+          "bbox_list": [
+            102,
+            142,
+            680,
+            432
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "image_caption",
+          "block_type_cn": "image_caption",
+          "text_content": "<center>(Xiaoli Zhang, Chairman of China Shippers' Association) </center>",
+          "bbox": {
+            "x1": 198,
+            "y1": 450,
+            "x2": 591,
+            "y2": 469
+          },
+          "bbox_list": [
+            198,
+            450,
+            591,
+            469
+          ]
+        },
+        {
+          "block_id": "p4_b4",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The meeting was kicked off by a speech delivered by Xiaoli Zhang, Chairman of China Shippers' Association, on behalf of Keren Zhou, Chairman of China Advertising Association of Commerce and former Vice Minister of Ministry of Foreign Trade and Economic Cooperation. Chairman Zhang pointed out that the deep integration of the new generation of information technology with the production, manufacturing and distribution systems is leading to far- reaching industrial changes and forming new modes of production, industrial forms, business models and new economic growth points. The country is stepping up efforts in scientific and technological innovation to promote innovation and breakthroughs in big data, mobile Internet, Internet of Things, new energy and new materials, etc. All these will form a great impetus of our economic and cultural construction. Libin Liu, Executive Vice Chairman and Secretary General of China Advertising Association of Commerce, presided over the working meeting. He believes that an important responsibility of digital marketing is to participate in the marketing of products from market demand to production, processing and innovation, and finally to consumers, which is the service of the whole industrial chain. This brings another important responsibility, which means, digital marketing must shoulder the responsibility of shaping the enterprise and its",
+          "bbox": {
+            "x1": 18,
+            "y1": 510,
+            "x2": 780,
+            "y2": 878
+          },
+          "bbox_list": [
+            18,
+            510,
+            780,
+            878
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nDigital Marketing Committee of China Advertising Association of Commerce Was Established in Beijing_China Advertising Association of Commerce  \n\n<center>(Xiaoli Zhang, Chairman of China Shippers' Association) </center>  \n\nThe meeting was kicked off by a speech delivered by Xiaoli Zhang, Chairman of China Shippers' Association, on behalf of Keren Zhou, Chairman of China Advertising Association of Commerce and former Vice Minister of Ministry of Foreign Trade and Economic Cooperation. Chairman Zhang pointed out that the deep integration of the new generation of information technology with the production, manufacturing and distribution systems is leading to far- reaching industrial changes and forming new modes of production, industrial forms, business models and new economic growth points. The country is stepping up efforts in scientific and technological innovation to promote innovation and breakthroughs in big data, mobile Internet, Internet of Things, new energy and new materials, etc. All these will form a great impetus of our economic and cultural construction. Libin Liu, Executive Vice Chairman and Secretary General of China Advertising Association of Commerce, presided over the working meeting. He believes that an important responsibility of digital marketing is to participate in the marketing of products from market demand to production, processing and innovation, and finally to consumers, which is the service of the whole industrial chain. This brings another important responsibility, which means, digital marketing must shoulder the responsibility of shaping the enterprise and its"
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 99,
+            "y1": 42,
+            "x2": 178,
+            "y2": 57
+          },
+          "bbox_list": [
+            99,
+            42,
+            178,
+            57
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Digital Marketing Committee of China Advertising Association of Commerce Was Established in Beijing_China Advertising Association of Commerce",
+          "bbox": {
+            "x1": 98,
+            "y1": 65,
+            "x2": 890,
+            "y2": 99
+          },
+          "bbox_list": [
+            98,
+            65,
+            890,
+            99
+          ]
+        },
+        {
+          "block_id": "p5_b2",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "own brand in its own business.",
+          "bbox": {
+            "x1": 13,
+            "y1": 112,
+            "x2": 264,
+            "y2": 130
+          },
+          "bbox_list": [
+            13,
+            112,
+            264,
+            130
+          ]
+        },
+        {
+          "block_id": "p5_b3",
+          "page_number": 5,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 101,
+            "y1": 175,
+            "x2": 678,
+            "y2": 468
+          },
+          "bbox_list": [
+            101,
+            175,
+            678,
+            468
+          ]
+        },
+        {
+          "block_id": "p5_b4",
+          "page_number": 5,
+          "block_type": "image_caption",
+          "block_type_cn": "image_caption",
+          "text_content": "<center>(Libin Liu, Executive Vice Chairman and Secretary General of China Advertising Association of Commerce) </center>",
+          "bbox": {
+            "x1": 25,
+            "y1": 485,
+            "x2": 761,
+            "y2": 504
+          },
+          "bbox_list": [
+            25,
+            485,
+            761,
+            504
+          ]
+        },
+        {
+          "block_id": "p5_b5",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The first Chairman and Vice Chairman entities were elected by vote, and NetEase was elected as the Chairman Entity, with Li Li, CEO of NetEase Media Group, as the Chairman. The Chairman said that the sponsors of the Digital Marketing Committee are all pioneers and leaders in the digital field. The focus of the Committee's work is to first bring together new ideas and new driving forces to build a new development platform for \"Internet +\" in relevant fields and enterprises. At the same time, Baidu, Google, Tencent Guangdong and Trend Watch were elected as Vice Chairman Entities. Upon the nomination by the representative of the Chairman Entity and the approval of resolution of the Council, Jianyun Hang from Committee Preparatory Office were appointed as the Secretary General, and Xiao Dai was appointed as the Deputy Secretary General. At the same time, five professional working groups including International Cooperation Group, Data Technology Group, Mobile Marketing Group, Digital Media Group and Regional Development Group were set up to carry out the annual work and Google, Tencent Guangdong, Baidu, NetEase and Trend Watch will serve as the group leaders, and other",
+          "bbox": {
+            "x1": 15,
+            "y1": 548,
+            "x2": 777,
+            "y2": 867
+          },
+          "bbox_list": [
+            15,
+            548,
+            777,
+            867
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nDigital Marketing Committee of China Advertising Association of Commerce Was Established in Beijing_China Advertising Association of Commerce  \n\nown brand in its own business.  \n\n<center>(Libin Liu, Executive Vice Chairman and Secretary General of China Advertising Association of Commerce) </center>  \n\nThe first Chairman and Vice Chairman entities were elected by vote, and NetEase was elected as the Chairman Entity, with Li Li, CEO of NetEase Media Group, as the Chairman. The Chairman said that the sponsors of the Digital Marketing Committee are all pioneers and leaders in the digital field. The focus of the Committee's work is to first bring together new ideas and new driving forces to build a new development platform for \"Internet +\" in relevant fields and enterprises. At the same time, Baidu, Google, Tencent Guangdong and Trend Watch were elected as Vice Chairman Entities. Upon the nomination by the representative of the Chairman Entity and the approval of resolution of the Council, Jianyun Hang from Committee Preparatory Office were appointed as the Secretary General, and Xiao Dai was appointed as the Deputy Secretary General. At the same time, five professional working groups including International Cooperation Group, Data Technology Group, Mobile Marketing Group, Digital Media Group and Regional Development Group were set up to carry out the annual work and Google, Tencent Guangdong, Baidu, NetEase and Trend Watch will serve as the group leaders, and other"
+    },
+    {
+      "page_number": 6,
+      "text_blocks": [
+        {
+          "block_id": "p6_b0",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 98,
+            "y1": 42,
+            "x2": 176,
+            "y2": 57
+          },
+          "bbox_list": [
+            98,
+            42,
+            176,
+            57
+          ]
+        },
+        {
+          "block_id": "p6_b1",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Digital Marketing Committee of China Advertising Association of Commerce Was Established in Beijing_China Advertising Association of Commerce",
+          "bbox": {
+            "x1": 95,
+            "y1": 64,
+            "x2": 890,
+            "y2": 99
+          },
+          "bbox_list": [
+            95,
+            64,
+            890,
+            99
+          ]
+        },
+        {
+          "block_id": "p6_b2",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "member entities will also actively participate in each group.",
+          "bbox": {
+            "x1": 11,
+            "y1": 110,
+            "x2": 497,
+            "y2": 130
+          },
+          "bbox_list": [
+            11,
+            110,
+            497,
+            130
+          ]
+        },
+        {
+          "block_id": "p6_b3",
+          "page_number": 6,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 100,
+            "y1": 179,
+            "x2": 677,
+            "y2": 470
+          },
+          "bbox_list": [
+            100,
+            179,
+            677,
+            470
+          ]
+        },
+        {
+          "block_id": "p6_b4",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Digital Marketing Committee of China will promote the communication and integration between the digital marketing industry and brand enterprises through industry seminars, subject research, trend release, industry standard formulation and other methods, and will hold the \"First China Digital Marketing Conference\", at the same time, will also release the Anti- Internet Advertising Traffic Hijacking Convention, China Mobile Marketing Standards and other industry standards, as well the annual China Digital Marketing Industry Report, China Brand Digital Assets List and other major industry trend research reports. In addition, the Committee will assist the industry to use all resources and networks to promote the development of the new digital marketing economy, attract more talented people, and promote brand owners to understand the value of technological innovation and digital marketing.",
+          "bbox": {
+            "x1": 13,
+            "y1": 516,
+            "x2": 774,
+            "y2": 768
+          },
+          "bbox_list": [
+            13,
+            516,
+            774,
+            768
+          ]
+        },
+        {
+          "block_id": "p6_b5",
+          "page_number": 6,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# The Organizational Structure of the First Digital Marketing Committee of China",
+          "bbox": {
+            "x1": 44,
+            "y1": 812,
+            "x2": 745,
+            "y2": 834
+          },
+          "bbox_list": [
+            44,
+            812,
+            745,
+            834
+          ]
+        },
+        {
+          "block_id": "p6_b6",
+          "page_number": 6,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# (In alphabetical order by company initials)",
+          "bbox": {
+            "x1": 207,
+            "y1": 845,
+            "x2": 582,
+            "y2": 865
+          },
+          "bbox_list": [
+            207,
+            845,
+            582,
+            865
+          ]
+        },
+        {
+          "block_id": "p6_b7",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "www.caacchina.org/news/news/2016/0419/65. html",
+          "bbox": {
+            "x1": 103,
+            "y1": 879,
+            "x2": 453,
+            "y2": 896
+          },
+          "bbox_list": [
+            103,
+            879,
+            453,
+            896
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nDigital Marketing Committee of China Advertising Association of Commerce Was Established in Beijing_China Advertising Association of Commerce  \n\nmember entities will also actively participate in each group.  \n\nDigital Marketing Committee of China will promote the communication and integration between the digital marketing industry and brand enterprises through industry seminars, subject research, trend release, industry standard formulation and other methods, and will hold the \"First China Digital Marketing Conference\", at the same time, will also release the Anti- Internet Advertising Traffic Hijacking Convention, China Mobile Marketing Standards and other industry standards, as well the annual China Digital Marketing Industry Report, China Brand Digital Assets List and other major industry trend research reports. In addition, the Committee will assist the industry to use all resources and networks to promote the development of the new digital marketing economy, attract more talented people, and promote brand owners to understand the value of technological innovation and digital marketing.  \n\n# The Organizational Structure of the First Digital Marketing Committee of China  \n\n# (In alphabetical order by company initials)  \n\nwww.caacchina.org/news/news/2016/0419/65. html"
+    },
+    {
+      "page_number": 7,
+      "text_blocks": [
+        {
+          "block_id": "p7_b0",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 98,
+            "y1": 42,
+            "x2": 177,
+            "y2": 57
+          },
+          "bbox_list": [
+            98,
+            42,
+            177,
+            57
+          ]
+        },
+        {
+          "block_id": "p7_b1",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Digital Marketing Committee of China Advertising Association of Commerce Was Established in Beijing_China Advertising Association of Commerce",
+          "bbox": {
+            "x1": 97,
+            "y1": 64,
+            "x2": 890,
+            "y2": 99
+          },
+          "bbox_list": [
+            97,
+            64,
+            890,
+            99
+          ]
+        },
+        {
+          "block_id": "p7_b2",
+          "page_number": 7,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Chairman Entity",
+          "bbox": {
+            "x1": 314,
+            "y1": 142,
+            "x2": 464,
+            "y2": 161
+          },
+          "bbox_list": [
+            314,
+            142,
+            464,
+            161
+          ]
+        },
+        {
+          "block_id": "p7_b3",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "NetEase, Li Li, CEO of NetEase Media Group",
+          "bbox": {
+            "x1": 198,
+            "y1": 175,
+            "x2": 580,
+            "y2": 196
+          },
+          "bbox_list": [
+            198,
+            175,
+            580,
+            196
+          ]
+        },
+        {
+          "block_id": "p7_b4",
+          "page_number": 7,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Vice Chairman Entities",
+          "bbox": {
+            "x1": 286,
+            "y1": 242,
+            "x2": 492,
+            "y2": 261
+          },
+          "bbox_list": [
+            286,
+            242,
+            492,
+            261
+          ]
+        },
+        {
+          "block_id": "p7_b5",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Baidu, Cui Yuhong (General Manager of Business Ecology Department)",
+          "bbox": {
+            "x1": 97,
+            "y1": 274,
+            "x2": 750,
+            "y2": 295
+          },
+          "bbox_list": [
+            97,
+            274,
+            750,
+            295
+          ]
+        },
+        {
+          "block_id": "p7_b6",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Google, Zhiming Guo (General Manager of Platform Solutions in Greater China)",
+          "bbox": {
+            "x1": 58,
+            "y1": 308,
+            "x2": 722,
+            "y2": 330
+          },
+          "bbox_list": [
+            58,
+            308,
+            722,
+            330
+          ]
+        },
+        {
+          "block_id": "p7_b7",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Tencent Guangdongtong, Zheng Luo (General Manager of Social and Effect Advertising Department)",
+          "bbox": {
+            "x1": 30,
+            "y1": 341,
+            "x2": 750,
+            "y2": 387
+          },
+          "bbox_list": [
+            30,
+            341,
+            750,
+            387
+          ]
+        },
+        {
+          "block_id": "p7_b8",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Trend Watch, Mingchao Xiao (Founder and CEO of Trend Watch & Zhimeng Consulting)",
+          "bbox": {
+            "x1": 25,
+            "y1": 396,
+            "x2": 757,
+            "y2": 420
+          },
+          "bbox_list": [
+            25,
+            396,
+            757,
+            420
+          ]
+        },
+        {
+          "block_id": "p7_b9",
+          "page_number": 7,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Standing Entities",
+          "bbox": {
+            "x1": 315,
+            "y1": 464,
+            "x2": 468,
+            "y2": 483
+          },
+          "bbox_list": [
+            315,
+            464,
+            468,
+            483
+          ]
+        },
+        {
+          "block_id": "p7_b10",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Acxiom, Yu Kong (General Manager of China)",
+          "bbox": {
+            "x1": 198,
+            "y1": 496,
+            "x2": 585,
+            "y2": 517
+          },
+          "bbox_list": [
+            198,
+            496,
+            585,
+            517
+          ]
+        },
+        {
+          "block_id": "p7_b11",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Avazu, Yi Shi (Founder and CEO)",
+          "bbox": {
+            "x1": 252,
+            "y1": 530,
+            "x2": 533,
+            "y2": 550
+          },
+          "bbox_list": [
+            252,
+            530,
+            533,
+            550
+          ]
+        },
+        {
+          "block_id": "p7_b12",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Adwo Media, Wei Guo (CEO)",
+          "bbox": {
+            "x1": 272,
+            "y1": 562,
+            "x2": 523,
+            "y2": 582
+          },
+          "bbox_list": [
+            272,
+            562,
+            523,
+            582
+          ]
+        },
+        {
+          "block_id": "p7_b13",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Bochuang Guanbang, Shengnan Ren (Chairman)",
+          "bbox": {
+            "x1": 193,
+            "y1": 595,
+            "x2": 593,
+            "y2": 616
+          },
+          "bbox_list": [
+            193,
+            595,
+            593,
+            616
+          ]
+        },
+        {
+          "block_id": "p7_b14",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "CriteoMax Ueno (President of Asia Pacific Region)",
+          "bbox": {
+            "x1": 185,
+            "y1": 628,
+            "x2": 604,
+            "y2": 649
+          },
+          "bbox_list": [
+            185,
+            628,
+            604,
+            649
+          ]
+        },
+        {
+          "block_id": "p7_b15",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Xiaoke Li (President of China)",
+          "bbox": {
+            "x1": 266,
+            "y1": 661,
+            "x2": 525,
+            "y2": 682
+          },
+          "bbox_list": [
+            266,
+            661,
+            525,
+            682
+          ]
+        },
+        {
+          "block_id": "p7_b16",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Hylink, Tong Su (Chairman)",
+          "bbox": {
+            "x1": 275,
+            "y1": 695,
+            "x2": 515,
+            "y2": 715
+          },
+          "bbox_list": [
+            275,
+            695,
+            515,
+            715
+          ]
+        },
+        {
+          "block_id": "p7_b17",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Xue Sun (Chief Operating Officer)",
+          "bbox": {
+            "x1": 250,
+            "y1": 728,
+            "x2": 538,
+            "y2": 748
+          },
+          "bbox_list": [
+            250,
+            728,
+            538,
+            748
+          ]
+        },
+        {
+          "block_id": "p7_b18",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "AdMaster Technology, Zhao Yan (Founder and CEO)",
+          "bbox": {
+            "x1": 179,
+            "y1": 761,
+            "x2": 613,
+            "y2": 782
+          },
+          "bbox_list": [
+            179,
+            761,
+            613,
+            782
+          ]
+        },
+        {
+          "block_id": "p7_b19",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Bei Hong (Co- founder, CTO)",
+          "bbox": {
+            "x1": 272,
+            "y1": 795,
+            "x2": 518,
+            "y2": 814
+          },
+          "bbox_list": [
+            272,
+            795,
+            518,
+            814
+          ]
+        },
+        {
+          "block_id": "p7_b20",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "BlueFocus, Wenquan Zhao (Group Chairman)",
+          "bbox": {
+            "x1": 208,
+            "y1": 827,
+            "x2": 585,
+            "y2": 848
+          },
+          "bbox_list": [
+            208,
+            827,
+            585,
+            848
+          ]
+        },
+        {
+          "block_id": "p7_b21",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Jian Xiong (Group Chief Digital Officer)",
+          "bbox": {
+            "x1": 228,
+            "y1": 860,
+            "x2": 565,
+            "y2": 880
+          },
+          "bbox_list": [
+            228,
+            860,
+            565,
+            880
+          ]
+        },
+        {
+          "block_id": "p7_b22",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "www.caacchina.org/news/news/2016/0419/65. html",
+          "bbox": {
+            "x1": 106,
+            "y1": 882,
+            "x2": 454,
+            "y2": 899
+          },
+          "bbox_list": [
+            106,
+            882,
+            454,
+            899
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nDigital Marketing Committee of China Advertising Association of Commerce Was Established in Beijing_China Advertising Association of Commerce  \n\n## Chairman Entity  \n\nNetEase, Li Li, CEO of NetEase Media Group  \n\n## Vice Chairman Entities  \n\nBaidu, Cui Yuhong (General Manager of Business Ecology Department)  \n\nGoogle, Zhiming Guo (General Manager of Platform Solutions in Greater China)  \n\nTencent Guangdongtong, Zheng Luo (General Manager of Social and Effect Advertising Department)  \n\nTrend Watch, Mingchao Xiao (Founder and CEO of Trend Watch & Zhimeng Consulting)  \n\n## Standing Entities  \n\nAcxiom, Yu Kong (General Manager of China)  \n\nAvazu, Yi Shi (Founder and CEO)  \n\nAdwo Media, Wei Guo (CEO)  \n\nBochuang Guanbang, Shengnan Ren (Chairman)  \n\nCriteoMax Ueno (President of Asia Pacific Region)  \n\nXiaoke Li (President of China)  \n\nHylink, Tong Su (Chairman)  \n\nXue Sun (Chief Operating Officer)  \n\nAdMaster Technology, Zhao Yan (Founder and CEO)  \n\nBei Hong (Co- founder, CTO)  \n\nBlueFocus, Wenquan Zhao (Group Chairman)  \n\nJian Xiong (Group Chief Digital Officer)  \n\nwww.caacchina.org/news/news/2016/0419/65. html"
+    },
+    {
+      "page_number": 8,
+      "text_blocks": [
+        {
+          "block_id": "p8_b0",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 98,
+            "y1": 42,
+            "x2": 177,
+            "y2": 57
+          },
+          "bbox_list": [
+            98,
+            42,
+            177,
+            57
+          ]
+        },
+        {
+          "block_id": "p8_b1",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Digital Marketing Committee of China Advertising Association of Commerce Was Established in Beijing_China Advertising Association of Commerce",
+          "bbox": {
+            "x1": 98,
+            "y1": 64,
+            "x2": 890,
+            "y2": 99
+          },
+          "bbox_list": [
+            98,
+            64,
+            890,
+            99
+          ]
+        },
+        {
+          "block_id": "p8_b2",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Leo Digital Network, Xiaodong Zheng (President)",
+          "bbox": {
+            "x1": 182,
+            "y1": 110,
+            "x2": 596,
+            "y2": 131
+          },
+          "bbox_list": [
+            182,
+            110,
+            596,
+            131
+          ]
+        },
+        {
+          "block_id": "p8_b3",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Yang Liu (Vice President)",
+          "bbox": {
+            "x1": 283,
+            "y1": 144,
+            "x2": 496,
+            "y2": 164
+          },
+          "bbox_list": [
+            283,
+            144,
+            496,
+            164
+          ]
+        },
+        {
+          "block_id": "p8_b4",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Letv, Fei Gao (Senior Vice President of LeEco Holdings)",
+          "bbox": {
+            "x1": 155,
+            "y1": 177,
+            "x2": 624,
+            "y2": 198
+          },
+          "bbox_list": [
+            155,
+            177,
+            624,
+            198
+          ]
+        },
+        {
+          "block_id": "p8_b5",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Jingying Tan (Vice President of Ecological Marketing of Letv)",
+          "bbox": {
+            "x1": 135,
+            "y1": 210,
+            "x2": 645,
+            "y2": 231
+          },
+          "bbox_list": [
+            135,
+            210,
+            645,
+            231
+          ]
+        },
+        {
+          "block_id": "p8_b6",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Limei Technology, Yi Shu (Founder and Chairman)",
+          "bbox": {
+            "x1": 180,
+            "y1": 243,
+            "x2": 601,
+            "y2": 263
+          },
+          "bbox_list": [
+            180,
+            243,
+            601,
+            263
+          ]
+        },
+        {
+          "block_id": "p8_b7",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "SunTeng Technology, Junhui Zhang (Founder and Chairman)",
+          "bbox": {
+            "x1": 140,
+            "y1": 276,
+            "x2": 640,
+            "y2": 297
+          },
+          "bbox_list": [
+            140,
+            276,
+            640,
+            297
+          ]
+        },
+        {
+          "block_id": "p8_b8",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ADTIME, Yougui Jiang (Founder and Chairman)",
+          "bbox": {
+            "x1": 190,
+            "y1": 310,
+            "x2": 592,
+            "y2": 330
+          },
+          "bbox_list": [
+            190,
+            310,
+            592,
+            330
+          ]
+        },
+        {
+          "block_id": "p8_b9",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Yonghua Lei (Co- founder, CTO)",
+          "bbox": {
+            "x1": 258,
+            "y1": 343,
+            "x2": 526,
+            "y2": 363
+          },
+          "bbox_list": [
+            258,
+            343,
+            526,
+            363
+          ]
+        },
+        {
+          "block_id": "p8_b10",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Vooie, Yiding Shao (Chairman)",
+          "bbox": {
+            "x1": 265,
+            "y1": 376,
+            "x2": 521,
+            "y2": 396
+          },
+          "bbox_list": [
+            265,
+            376,
+            521,
+            396
+          ]
+        },
+        {
+          "block_id": "p8_b11",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Han Yibing (Vice President)",
+          "bbox": {
+            "x1": 275,
+            "y1": 409,
+            "x2": 509,
+            "y2": 429
+          },
+          "bbox_list": [
+            275,
+            409,
+            509,
+            429
+          ]
+        },
+        {
+          "block_id": "p8_b12",
+          "page_number": 8,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Secretariat",
+          "bbox": {
+            "x1": 344,
+            "y1": 475,
+            "x2": 442,
+            "y2": 492
+          },
+          "bbox_list": [
+            344,
+            475,
+            442,
+            492
+          ]
+        },
+        {
+          "block_id": "p8_b13",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Jianyun Huang, Secretary General",
+          "bbox": {
+            "x1": 250,
+            "y1": 507,
+            "x2": 535,
+            "y2": 528
+          },
+          "bbox_list": [
+            250,
+            507,
+            535,
+            528
+          ]
+        },
+        {
+          "block_id": "p8_b14",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Xiao Dai, Deputy Secretary General",
+          "bbox": {
+            "x1": 245,
+            "y1": 541,
+            "x2": 542,
+            "y2": 561
+          },
+          "bbox_list": [
+            245,
+            541,
+            542,
+            561
+          ]
+        },
+        {
+          "block_id": "p8_b15",
+          "page_number": 8,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## About Digital Marketing Committee of China",
+          "bbox": {
+            "x1": 99,
+            "y1": 608,
+            "x2": 496,
+            "y2": 628
+          },
+          "bbox_list": [
+            99,
+            608,
+            496,
+            628
+          ]
+        },
+        {
+          "block_id": "p8_b16",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Digital Marketing Committee of China is composed of 19 founding member entities: Acxiom, Avazu, Adwo Media, Baidu, Bochuang Guanbang, Criteo, Google, Hylink, Leo Digital Network, BlueFocus, Letv, Limei Technology, AdMaster Technology, SunTeng Technology, Tencent, ADTIME, NetEase, Vooie, Trend Watch & Zhimeng Consulting. And the Digital Marketing Committee of China has set up five working groups, respectively in international cooperation, data technology, mobile marketing, digital media, regional development and other fields, to carry out a series of work conducive to the development of digital marketing industry.",
+          "bbox": {
+            "x1": 18,
+            "y1": 638,
+            "x2": 778,
+            "y2": 824
+          },
+          "bbox_list": [
+            18,
+            638,
+            778,
+            824
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nDigital Marketing Committee of China Advertising Association of Commerce Was Established in Beijing_China Advertising Association of Commerce  \n\nLeo Digital Network, Xiaodong Zheng (President)  \n\nYang Liu (Vice President)  \n\nLetv, Fei Gao (Senior Vice President of LeEco Holdings)  \n\nJingying Tan (Vice President of Ecological Marketing of Letv)  \n\nLimei Technology, Yi Shu (Founder and Chairman)  \n\nSunTeng Technology, Junhui Zhang (Founder and Chairman)  \n\nADTIME, Yougui Jiang (Founder and Chairman)  \n\nYonghua Lei (Co- founder, CTO)  \n\nVooie, Yiding Shao (Chairman)  \n\nHan Yibing (Vice President)  \n\n## Secretariat  \n\nJianyun Huang, Secretary General  \n\nXiao Dai, Deputy Secretary General  \n\n## About Digital Marketing Committee of China  \n\nDigital Marketing Committee of China is composed of 19 founding member entities: Acxiom, Avazu, Adwo Media, Baidu, Bochuang Guanbang, Criteo, Google, Hylink, Leo Digital Network, BlueFocus, Letv, Limei Technology, AdMaster Technology, SunTeng Technology, Tencent, ADTIME, NetEase, Vooie, Trend Watch & Zhimeng Consulting. And the Digital Marketing Committee of China has set up five working groups, respectively in international cooperation, data technology, mobile marketing, digital media, regional development and other fields, to carry out a series of work conducive to the development of digital marketing industry."
+    },
+    {
+      "page_number": 9,
+      "text_blocks": [
+        {
+          "block_id": "p9_b0",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 98,
+            "y1": 43,
+            "x2": 176,
+            "y2": 58
+          },
+          "bbox_list": [
+            98,
+            43,
+            176,
+            58
+          ]
+        },
+        {
+          "block_id": "p9_b1",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Digital Marketing Committee of China Advertising Association of Commerce Was Established in Beijing_China Advertising Association of Commerce",
+          "bbox": {
+            "x1": 96,
+            "y1": 65,
+            "x2": 890,
+            "y2": 100
+          },
+          "bbox_list": [
+            96,
+            65,
+            890,
+            100
+          ]
+        },
+        {
+          "block_id": "p9_b2",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(Source of News: Secretariat of Digital Marketing Committee of China)",
+          "bbox": {
+            "x1": 92,
+            "y1": 109,
+            "x2": 679,
+            "y2": 131
+          },
+          "bbox_list": [
+            92,
+            109,
+            679,
+            131
+          ]
+        },
+        {
+          "block_id": "p9_b3",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Copyright © 2015 All Rights Reserved by China Advertising Association of Commerce",
+          "bbox": {
+            "x1": 612,
+            "y1": 192,
+            "x2": 976,
+            "y2": 231
+          },
+          "bbox_list": [
+            612,
+            192,
+            976,
+            231
+          ]
+        },
+        {
+          "block_id": "p9_b4",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Friendly Links:",
+          "bbox": {
+            "x1": 12,
+            "y1": 233,
+            "x2": 128,
+            "y2": 249
+          },
+          "bbox_list": [
+            12,
+            233,
+            128,
+            249
+          ]
+        },
+        {
+          "block_id": "p9_b5",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Ministry of Civil Affairs of the People's Republic of China | Information Office of the State Council | China Advertising Association of Commerce 4A",
+          "bbox": {
+            "x1": 12,
+            "y1": 260,
+            "x2": 600,
+            "y2": 303
+          },
+          "bbox_list": [
+            12,
+            260,
+            600,
+            303
+          ]
+        },
+        {
+          "block_id": "p9_b6",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "J. G. W. A. B. No. 11010502044988 J. ICP B.",
+          "bbox": {
+            "x1": 612,
+            "y1": 255,
+            "x2": 976,
+            "y2": 273
+          },
+          "bbox_list": [
+            612,
+            255,
+            976,
+            273
+          ]
+        },
+        {
+          "block_id": "p9_b7",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "No. 11015407- 3",
+          "bbox": {
+            "x1": 612,
+            "y1": 285,
+            "x2": 728,
+            "y2": 300
+          },
+          "bbox_list": [
+            612,
+            285,
+            728,
+            300
+          ]
+        },
+        {
+          "block_id": "p9_b8",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Technical Support: Bolaa Network Co., Ltd.",
+          "bbox": {
+            "x1": 612,
+            "y1": 316,
+            "x2": 911,
+            "y2": 334
+          },
+          "bbox_list": [
+            612,
+            316,
+            911,
+            334
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nDigital Marketing Committee of China Advertising Association of Commerce Was Established in Beijing_China Advertising Association of Commerce  \n\n(Source of News: Secretariat of Digital Marketing Committee of China)  \n\nCopyright © 2015 All Rights Reserved by China Advertising Association of Commerce  \n\nFriendly Links:  \n\nMinistry of Civil Affairs of the People's Republic of China | Information Office of the State Council | China Advertising Association of Commerce 4A  \n\nJ. G. W. A. B. No. 11010502044988 J. ICP B.  \n\nNo. 11015407- 3  \n\nTechnical Support: Bolaa Network Co., Ltd."
+    }
+  ],
+  "total_blocks": 85
+}

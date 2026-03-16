@@ -1,0 +1,353 @@
+{
+  "exhibit_id": "G6",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit G-6",
+          "bbox": {
+            "x1": 110,
+            "y1": 448,
+            "x2": 880,
+            "y2": 545
+          },
+          "bbox_list": [
+            110,
+            448,
+            880,
+            545
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit G-6"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The \"Tenth Five-Year Plan\" National Planning Textbook for General Higher Education",
+          "bbox": {
+            "x1": 299,
+            "y1": 133,
+            "x2": 796,
+            "y2": 164
+          },
+          "bbox_list": [
+            299,
+            133,
+            796,
+            164
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "CAO DING XUE XIAO GUANG GAO ZHUAN YE LI JIAO CAI",
+          "bbox": {
+            "x1": 390,
+            "y1": 216,
+            "x2": 864,
+            "y2": 258
+          },
+          "bbox_list": [
+            390,
+            216,
+            864,
+            258
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Series Textbooks for Advertising Major in Higher Institutes",
+          "bbox": {
+            "x1": 390,
+            "y1": 268,
+            "x2": 864,
+            "y2": 286
+          },
+          "bbox_list": [
+            390,
+            268,
+            864,
+            286
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Modern Market Research",
+          "bbox": {
+            "x1": 480,
+            "y1": 318,
+            "x2": 792,
+            "y2": 389
+          },
+          "bbox_list": [
+            480,
+            318,
+            792,
+            389
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Dehuan Liu Editor- in- Chief Hao Shen Associate Editor- in- Chief",
+          "bbox": {
+            "x1": 535,
+            "y1": 411,
+            "x2": 847,
+            "y2": 445
+          },
+          "bbox_list": [
+            535,
+            411,
+            847,
+            445
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Higher Education Press",
+          "bbox": {
+            "x1": 630,
+            "y1": 813,
+            "x2": 822,
+            "y2": 829
+          },
+          "bbox_list": [
+            630,
+            813,
+            822,
+            829
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nThe \"Tenth Five-Year Plan\" National Planning Textbook for General Higher Education  \n\nCAO DING XUE XIAO GUANG GAO ZHUAN YE LI JIAO CAI  \n\nSeries Textbooks for Advertising Major in Higher Institutes  \n\n# Modern Market Research  \n\nDehuan Liu Editor- in- Chief Hao Shen Associate Editor- in- Chief  \n\nHigher Education Press"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Brief Introduction",
+          "bbox": {
+            "x1": 33,
+            "y1": 100,
+            "x2": 174,
+            "y2": 116
+          },
+          "bbox_list": [
+            33,
+            100,
+            174,
+            116
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "It is a \"Tenth Five- Year Plan\" National Planning Textbook for General Higher Education. This book discusses the concept, proposition, assumption and operation process, and gives special attention to measurement and sampling. This book hits off the drawback of redundant economic contents but insufficient market survey practices in similar domestic textbooks. Instead, it introduces the latest progress of marketing research methods and of statistics.",
+          "bbox": {
+            "x1": 31,
+            "y1": 119,
+            "x2": 958,
+            "y2": 191
+          },
+          "bbox_list": [
+            31,
+            119,
+            958,
+            191
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "This book can be used as the textbook for students majoring in Journalism and Communication, and in Advertising. It can also be taken as the elective course materials for students majoring in other liberal arts.",
+          "bbox": {
+            "x1": 31,
+            "y1": 206,
+            "x2": 958,
+            "y2": 245
+          },
+          "bbox_list": [
+            31,
+            206,
+            958,
+            245
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Cataloguing in Publication (CIP) Data",
+          "bbox": {
+            "x1": 33,
+            "y1": 274,
+            "x2": 325,
+            "y2": 292
+          },
+          "bbox_list": [
+            33,
+            274,
+            325,
+            292
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Modern Market Research / Editor- in- Chief Dehuan Liu - Beijing: Higher Education Press, June 2005 ISBN 7- 04- 016109- 5 I. Modern...II. Liu... III. Marketing - Research - Higher Institute - Textbook IV. F713.50 China Archives of Publications CIP S. J. H. Z. (2005) No. 033788",
+          "bbox": {
+            "x1": 30,
+            "y1": 298,
+            "x2": 752,
+            "y2": 388
+          },
+          "bbox_list": [
+            30,
+            298,
+            752,
+            388
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "table",
+          "block_type_cn": "表格",
+          "text_content": "<table><tr><td>Planning Editor Wu</td><td>Yahong Yang, Li</td><td>Editor-in-Charge</td><td>Yun Li</td><td>Cover Designer</td><td>Ju Wang</td><td>Drawer-in-Charge</td><td>Lin Hao</td></tr><tr><td>Layout Designer</td><td>Jingru Ma</td><td>Proofreader-in-Charge Hu</td><td>Xiaoqi</td><td>Printer-in-Charge</td><td>Gang Han</td><td></td><td></td></tr><tr><td>Publisher</td><td>Higher Education Press</td><td></td><td>Purchase hotline</td><td></td><td>010-58581118</td><td></td><td></td></tr><tr><td>Press address</td><td>4 Dewai Street, Xicheng District, Beijing</td><td></td><td>Free consultation</td><td></td><td>800-810-0598</td><td></td><td></td></tr><tr><td>Postal code</td><td>100011</td><td></td><td>Website</td><td></td><td>http://www.hep.edu.cn</td><td></td><td></td></tr><tr><td>Switchboard</td><td>010-58581000</td><td></td><td></td><td></td><td>http://www.hep.com.cn</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>Online subscription</td><td></td><td>http://www/landraco.com</td><td></td><td></td></tr><tr><td>Dealer</td><td>Beijing Blue Imagination Book Distribution Co., Ltd.</td><td></td><td></td><td></td><td>http://www.landraco.com.cn</td><td></td><td></td></tr><tr><td>Printer</td><td>Beijing Xinba Print Co., Ltd.</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Folio</td><td>787×1092</td><td>1-16</td><td>Edition</td><td></td><td>First edition in June 2005</td><td></td><td></td></tr><tr><td>Sheet</td><td>28.75</td><td></td><td>Print</td><td></td><td>First print in June 2005</td><td></td><td></td></tr><tr><td>Word</td><td>700,000</td><td></td><td>Fixed price</td><td></td><td>RMB32.80</td><td></td><td></td></tr><tr><td colspan=\"8\">If there is any missing page, inverted page, loose page or other quality problems, please go the book sales department for replacement.</td></tr></table>",
+          "bbox": {
+            "x1": 25,
+            "y1": 410,
+            "x2": 960,
+            "y2": 808
+          },
+          "bbox_list": [
+            25,
+            410,
+            960,
+            808
+          ]
+        },
+        {
+          "block_id": "p3_b6",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "If there is any missing page, inverted page, loose page or other quality problems, please go to the book sales department for replacement.",
+          "bbox": {
+            "x1": 30,
+            "y1": 787,
+            "x2": 960,
+            "y2": 820
+          },
+          "bbox_list": [
+            30,
+            787,
+            960,
+            820
+          ]
+        },
+        {
+          "block_id": "p3_b7",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "All rights reserved",
+          "bbox": {
+            "x1": 31,
+            "y1": 820,
+            "x2": 175,
+            "y2": 834
+          },
+          "bbox_list": [
+            31,
+            820,
+            175,
+            834
+          ]
+        },
+        {
+          "block_id": "p3_b8",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Material No. 16109- 00",
+          "bbox": {
+            "x1": 31,
+            "y1": 834,
+            "x2": 216,
+            "y2": 849
+          },
+          "bbox_list": [
+            31,
+            834,
+            216,
+            849
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## Brief Introduction  \n\nIt is a \"Tenth Five- Year Plan\" National Planning Textbook for General Higher Education. This book discusses the concept, proposition, assumption and operation process, and gives special attention to measurement and sampling. This book hits off the drawback of redundant economic contents but insufficient market survey practices in similar domestic textbooks. Instead, it introduces the latest progress of marketing research methods and of statistics.  \n\nThis book can be used as the textbook for students majoring in Journalism and Communication, and in Advertising. It can also be taken as the elective course materials for students majoring in other liberal arts.  \n\n## Cataloguing in Publication (CIP) Data  \n\nModern Market Research / Editor- in- Chief Dehuan Liu - Beijing: Higher Education Press, June 2005 ISBN 7- 04- 016109- 5 I. Modern...II. Liu... III. Marketing - Research - Higher Institute - Textbook IV. F713.50 China Archives of Publications CIP S. J. H. Z. (2005) No. 033788  \n\n<table><tr><td>Planning Editor Wu</td><td>Yahong Yang, Li</td><td>Editor-in-Charge</td><td>Yun Li</td><td>Cover Designer</td><td>Ju Wang</td><td>Drawer-in-Charge</td><td>Lin Hao</td></tr><tr><td>Layout Designer</td><td>Jingru Ma</td><td>Proofreader-in-Charge Hu</td><td>Xiaoqi</td><td>Printer-in-Charge</td><td>Gang Han</td><td></td><td></td></tr><tr><td>Publisher</td><td>Higher Education Press</td><td></td><td>Purchase hotline</td><td></td><td>010-58581118</td><td></td><td></td></tr><tr><td>Press address</td><td>4 Dewai Street, Xicheng District, Beijing</td><td></td><td>Free consultation</td><td></td><td>800-810-0598</td><td></td><td></td></tr><tr><td>Postal code</td><td>100011</td><td></td><td>Website</td><td></td><td>http://www.hep.edu.cn</td><td></td><td></td></tr><tr><td>Switchboard</td><td>010-58581000</td><td></td><td></td><td></td><td>http://www.hep.com.cn</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>Online subscription</td><td></td><td>http://www/landraco.com</td><td></td><td></td></tr><tr><td>Dealer</td><td>Beijing Blue Imagination Book Distribution Co., Ltd.</td><td></td><td></td><td></td><td>http://www.landraco.com.cn</td><td></td><td></td></tr><tr><td>Printer</td><td>Beijing Xinba Print Co., Ltd.</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Folio</td><td>787×1092</td><td>1-16</td><td>Edition</td><td></td><td>First edition in June 2005</td><td></td><td></td></tr><tr><td>Sheet</td><td>28.75</td><td></td><td>Print</td><td></td><td>First print in June 2005</td><td></td><td></td></tr><tr><td>Word</td><td>700,000</td><td></td><td>Fixed price</td><td></td><td>RMB32.80</td><td></td><td></td></tr><tr><td colspan=\"8\">If there is any missing page, inverted page, loose page or other quality problems, please go the book sales department for replacement.</td></tr></table>  \n\nIf there is any missing page, inverted page, loose page or other quality problems, please go to the book sales department for replacement.  \n\nAll rights reserved  \n\nMaterial No. 16109- 00"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 100,
+            "y1": 100,
+            "x2": 888,
+            "y2": 850
+          },
+          "bbox_list": [
+            100,
+            100,
+            888,
+            850
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n====================="
+    }
+  ],
+  "total_blocks": 17
+}

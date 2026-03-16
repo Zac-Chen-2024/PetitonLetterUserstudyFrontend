@@ -1,0 +1,2421 @@
+{
+  "exhibit_id": "E10",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit E-10",
+          "bbox": {
+            "x1": 128,
+            "y1": 445,
+            "x2": 864,
+            "y2": 533
+          },
+          "bbox_list": [
+            128,
+            445,
+            864,
+            533
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit E-10"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Agreement on Joint Research of Mixue Bingcheng and Peking University",
+          "bbox": {
+            "x1": 140,
+            "y1": 92,
+            "x2": 855,
+            "y2": 115
+          },
+          "bbox_list": [
+            140,
+            92,
+            855,
+            115
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Agreement No.: MXBC- PPZX- 2021255",
+          "bbox": {
+            "x1": 598,
+            "y1": 154,
+            "x2": 880,
+            "y2": 172
+          },
+          "bbox_list": [
+            598,
+            154,
+            880,
+            172
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Party A: Mixue Bingcheng Co., Ltd.",
+          "bbox": {
+            "x1": 191,
+            "y1": 211,
+            "x2": 503,
+            "y2": 231
+          },
+          "bbox_list": [
+            191,
+            211,
+            503,
+            231
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Contact Address: South of North Third Ring and East of Wenhua Road, Hanhai Beijing Commercial Center, Suite 16004, Jinshui District, Zhengzhou City",
+          "bbox": {
+            "x1": 113,
+            "y1": 240,
+            "x2": 880,
+            "y2": 281
+          },
+          "bbox_list": [
+            113,
+            240,
+            880,
+            281
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Legal Representative: Hongfu Zhang",
+          "bbox": {
+            "x1": 190,
+            "y1": 320,
+            "x2": 486,
+            "y2": 339
+          },
+          "bbox_list": [
+            190,
+            320,
+            486,
+            339
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Contact: Wenchao Liu",
+          "bbox": {
+            "x1": 190,
+            "y1": 378,
+            "x2": 370,
+            "y2": 397
+          },
+          "bbox_list": [
+            190,
+            378,
+            370,
+            397
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Tel.: 18638684750",
+          "bbox": {
+            "x1": 190,
+            "y1": 437,
+            "x2": 343,
+            "y2": 456
+          },
+          "bbox_list": [
+            190,
+            437,
+            343,
+            456
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Email: 1196586480@qq.com",
+          "bbox": {
+            "x1": 190,
+            "y1": 496,
+            "x2": 425,
+            "y2": 515
+          },
+          "bbox_list": [
+            190,
+            496,
+            425,
+            515
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Party B: Peking University",
+          "bbox": {
+            "x1": 190,
+            "y1": 556,
+            "x2": 420,
+            "y2": 575
+          },
+          "bbox_list": [
+            190,
+            556,
+            420,
+            575
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Contact Address: 5 Yiheyuan Road, Haidian District, Beijing",
+          "bbox": {
+            "x1": 190,
+            "y1": 585,
+            "x2": 671,
+            "y2": 605
+          },
+          "bbox_list": [
+            190,
+            585,
+            671,
+            605
+          ]
+        },
+        {
+          "block_id": "p2_b10",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Project Principal: Dehuan Liu",
+          "bbox": {
+            "x1": 189,
+            "y1": 644,
+            "x2": 430,
+            "y2": 664
+          },
+          "bbox_list": [
+            189,
+            644,
+            430,
+            664
+          ]
+        },
+        {
+          "block_id": "p2_b11",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Contact: Dehuan Liu",
+          "bbox": {
+            "x1": 189,
+            "y1": 704,
+            "x2": 357,
+            "y2": 722
+          },
+          "bbox_list": [
+            189,
+            704,
+            357,
+            722
+          ]
+        },
+        {
+          "block_id": "p2_b12",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Tel.: 13501057548",
+          "bbox": {
+            "x1": 190,
+            "y1": 762,
+            "x2": 342,
+            "y2": 781
+          },
+          "bbox_list": [
+            190,
+            762,
+            342,
+            781
+          ]
+        },
+        {
+          "block_id": "p2_b13",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Email: liudehuan@vip.sina.com",
+          "bbox": {
+            "x1": 189,
+            "y1": 821,
+            "x2": 446,
+            "y2": 841
+          },
+          "bbox_list": [
+            189,
+            821,
+            446,
+            841
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# Agreement on Joint Research of Mixue Bingcheng and Peking University  \n\nAgreement No.: MXBC- PPZX- 2021255  \n\n## Party A: Mixue Bingcheng Co., Ltd.  \n\nContact Address: South of North Third Ring and East of Wenhua Road, Hanhai Beijing Commercial Center, Suite 16004, Jinshui District, Zhengzhou City  \n\nLegal Representative: Hongfu Zhang  \n\nContact: Wenchao Liu  \n\nTel.: 18638684750  \n\nEmail: 1196586480@qq.com  \n\n## Party B: Peking University  \n\nContact Address: 5 Yiheyuan Road, Haidian District, Beijing  \n\nProject Principal: Dehuan Liu  \n\nContact: Dehuan Liu  \n\nTel.: 13501057548  \n\nEmail: liudehuan@vip.sina.com"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 115,
+            "y1": 55,
+            "x2": 196,
+            "y2": 71
+          },
+          "bbox_list": [
+            115,
+            55,
+            196,
+            71
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In accordance with the Civil Code of the People's Republic of China, Copyright Law of the People's Republic of China and applicable laws and regulations, Party A and Party B, upon amicable negotiation, on the basis of equality, fairness and free will, and adhering to the principle of mutual benefit and win- win cooperation, have entered into the following terms and conditions regarding both parties' cooperation on the project \"Research on New Trends\" for joint abidance.",
+          "bbox": {
+            "x1": 115,
+            "y1": 90,
+            "x2": 884,
+            "y2": 192
+          },
+          "bbox_list": [
+            115,
+            90,
+            884,
+            192
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 1. Project Content and Mode of Execution",
+          "bbox": {
+            "x1": 195,
+            "y1": 230,
+            "x2": 549,
+            "y2": 250
+          },
+          "bbox_list": [
+            195,
+            230,
+            549,
+            250
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1.1 Project Summary:",
+          "bbox": {
+            "x1": 194,
+            "y1": 260,
+            "x2": 368,
+            "y2": 280
+          },
+          "bbox_list": [
+            194,
+            260,
+            368,
+            280
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Party A and Party B cooperate on the project \"Research on New Trends\", which shall be initiated on Oct. 20, 2021 and ended on Dec. 31, 2023. During the cooperation term, Party B shall complete relevant researches in accordance with both parties' research demands and the Agreement. And Party B shall deliver project research achievements to Party A, including one monograph of Research on New Trends and four phased research reports.",
+          "bbox": {
+            "x1": 115,
+            "y1": 318,
+            "x2": 884,
+            "y2": 420
+          },
+          "bbox_list": [
+            115,
+            318,
+            884,
+            420
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Delivery Time of Research Achievements:",
+          "bbox": {
+            "x1": 194,
+            "y1": 456,
+            "x2": 529,
+            "y2": 476
+          },
+          "bbox_list": [
+            194,
+            456,
+            529,
+            476
+          ]
+        },
+        {
+          "block_id": "p3_b6",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Party B shall deliver phased research reports of Research on New Trends in Chinese Young People to Party A as scheduled in the contract; after Party B delivers the phased reports of Research on New Trends in Chinese Young People, Party A shall check the reports. In case the reports fail to meet Party A's requirements, the Agreement shall be automatically terminated. If the reports pass Party A's inspection in writing, Party A and Party B shall continue follow- up cooperation in accordance with the Notice on Cooperation for Next Phase issued by Party A. Fees for follow- up cooperation shall be separately determined by both parties in writing, and Party B shall continue to deliver research achievements to Party A as specified below.",
+          "bbox": {
+            "x1": 115,
+            "y1": 514,
+            "x2": 884,
+            "y2": 675
+          },
+          "bbox_list": [
+            115,
+            514,
+            884,
+            675
+          ]
+        },
+        {
+          "block_id": "p3_b7",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Party B shall deliver phased research report (I) of Research on New Trends in Chinese Young People to Party A prior to Dec. 31, 2021;",
+          "bbox": {
+            "x1": 116,
+            "y1": 712,
+            "x2": 882,
+            "y2": 753
+          },
+          "bbox_list": [
+            116,
+            712,
+            882,
+            753
+          ]
+        },
+        {
+          "block_id": "p3_b8",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Party B shall deliver phased research report (II) of Research on New Trends in Chinese Young People to Party A prior to Dec. 31. 2022;",
+          "bbox": {
+            "x1": 116,
+            "y1": 789,
+            "x2": 882,
+            "y2": 830
+          },
+          "bbox_list": [
+            116,
+            789,
+            882,
+            830
+          ]
+        },
+        {
+          "block_id": "p3_b9",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Party B shall deliver phased research report (III) of Research on New Trends in",
+          "bbox": {
+            "x1": 192,
+            "y1": 867,
+            "x2": 882,
+            "y2": 889
+          },
+          "bbox_list": [
+            192,
+            867,
+            882,
+            889
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nIn accordance with the Civil Code of the People's Republic of China, Copyright Law of the People's Republic of China and applicable laws and regulations, Party A and Party B, upon amicable negotiation, on the basis of equality, fairness and free will, and adhering to the principle of mutual benefit and win- win cooperation, have entered into the following terms and conditions regarding both parties' cooperation on the project \"Research on New Trends\" for joint abidance.  \n\n## 1. Project Content and Mode of Execution  \n\n1.1 Project Summary:  \n\nParty A and Party B cooperate on the project \"Research on New Trends\", which shall be initiated on Oct. 20, 2021 and ended on Dec. 31, 2023. During the cooperation term, Party B shall complete relevant researches in accordance with both parties' research demands and the Agreement. And Party B shall deliver project research achievements to Party A, including one monograph of Research on New Trends and four phased research reports.  \n\nDelivery Time of Research Achievements:  \n\nParty B shall deliver phased research reports of Research on New Trends in Chinese Young People to Party A as scheduled in the contract; after Party B delivers the phased reports of Research on New Trends in Chinese Young People, Party A shall check the reports. In case the reports fail to meet Party A's requirements, the Agreement shall be automatically terminated. If the reports pass Party A's inspection in writing, Party A and Party B shall continue follow- up cooperation in accordance with the Notice on Cooperation for Next Phase issued by Party A. Fees for follow- up cooperation shall be separately determined by both parties in writing, and Party B shall continue to deliver research achievements to Party A as specified below.  \n\nParty B shall deliver phased research report (I) of Research on New Trends in Chinese Young People to Party A prior to Dec. 31, 2021;  \n\nParty B shall deliver phased research report (II) of Research on New Trends in Chinese Young People to Party A prior to Dec. 31. 2022;  \n\nParty B shall deliver phased research report (III) of Research on New Trends in"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Chinese Young People and one monograph of Research on New Trends to Party A prior to Dec. 31, 2023;",
+          "bbox": {
+            "x1": 113,
+            "y1": 90,
+            "x2": 880,
+            "y2": 130
+          },
+          "bbox_list": [
+            113,
+            90,
+            880,
+            130
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In case the project is postponed for Party B's reasons, Party B shall negotiate with Party A to reach consensus in advance, until the project is settled upon completion of all services.",
+          "bbox": {
+            "x1": 113,
+            "y1": 168,
+            "x2": 881,
+            "y2": 209
+          },
+          "bbox_list": [
+            113,
+            168,
+            881,
+            209
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "### 1.2 Project Research Goal:",
+          "bbox": {
+            "x1": 194,
+            "y1": 248,
+            "x2": 405,
+            "y2": 267
+          },
+          "bbox_list": [
+            194,
+            248,
+            405,
+            267
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Whereas Party B is the research center of institutions of higher education, with profound academic and research level in the field of new media and abundant achievements, and Party A is a modern enterprise with legal operation qualification, business conditions, and certain achievements in marketing and result transformation, both parties intend to, based on the research, conduct an in- depth analysis of young people's value, consumption view and popular trends, explore popular brands and products in young people, and learn the current young people's consumption preference and driving factors behind the consumption in combination with the consumption trends of the whole society, especially the consumption preference and trend in beverage. During the research process, Party B shall coordinate with Party A to carry out various promotion activities, propose specific suggestions on product improvement, and help improve brand image.",
+          "bbox": {
+            "x1": 113,
+            "y1": 277,
+            "x2": 884,
+            "y2": 495
+          },
+          "bbox_list": [
+            113,
+            277,
+            884,
+            495
+          ]
+        },
+        {
+          "block_id": "p4_b4",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "### 1.3 Project Research Method:",
+          "bbox": {
+            "x1": 195,
+            "y1": 534,
+            "x2": 429,
+            "y2": 552
+          },
+          "bbox_list": [
+            195,
+            534,
+            429,
+            552
+          ]
+        },
+        {
+          "block_id": "p4_b5",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The project research shall be conducted by quantitative and qualitative methods. Refer to Appendix 1 for details.",
+          "bbox": {
+            "x1": 115,
+            "y1": 562,
+            "x2": 882,
+            "y2": 603
+          },
+          "bbox_list": [
+            115,
+            562,
+            882,
+            603
+          ]
+        },
+        {
+          "block_id": "p4_b6",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "### 1.4 Project Research Achievement:",
+          "bbox": {
+            "x1": 196,
+            "y1": 643,
+            "x2": 471,
+            "y2": 662
+          },
+          "bbox_list": [
+            196,
+            643,
+            471,
+            662
+          ]
+        },
+        {
+          "block_id": "p4_b7",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Party B shall conduct project research and deliver project research achievements as required by Party A. Research achievements shall include one monograph of Research on New Trends and three phased research reports.",
+          "bbox": {
+            "x1": 116,
+            "y1": 670,
+            "x2": 883,
+            "y2": 732
+          },
+          "bbox_list": [
+            116,
+            670,
+            883,
+            732
+          ]
+        },
+        {
+          "block_id": "p4_b8",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "### 1.5 Project Cooperation Mode:",
+          "bbox": {
+            "x1": 197,
+            "y1": 771,
+            "x2": 440,
+            "y2": 790
+          },
+          "bbox_list": [
+            197,
+            771,
+            440,
+            790
+          ]
+        },
+        {
+          "block_id": "p4_b9",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To ensure the quality and progress of project research, Party B shall arrange undergraduates, postgraduates and doctoral students to take full participation in the research in accordance with the research demands, and shall engage off- campus researchers according to the data analysis demands. In addition, relevant professionals of Party A may participate in the",
+          "bbox": {
+            "x1": 117,
+            "y1": 798,
+            "x2": 884,
+            "y2": 878
+          },
+          "bbox_list": [
+            117,
+            798,
+            884,
+            878
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nChinese Young People and one monograph of Research on New Trends to Party A prior to Dec. 31, 2023;  \n\nIn case the project is postponed for Party B's reasons, Party B shall negotiate with Party A to reach consensus in advance, until the project is settled upon completion of all services.  \n\n### 1.2 Project Research Goal:  \n\nWhereas Party B is the research center of institutions of higher education, with profound academic and research level in the field of new media and abundant achievements, and Party A is a modern enterprise with legal operation qualification, business conditions, and certain achievements in marketing and result transformation, both parties intend to, based on the research, conduct an in- depth analysis of young people's value, consumption view and popular trends, explore popular brands and products in young people, and learn the current young people's consumption preference and driving factors behind the consumption in combination with the consumption trends of the whole society, especially the consumption preference and trend in beverage. During the research process, Party B shall coordinate with Party A to carry out various promotion activities, propose specific suggestions on product improvement, and help improve brand image.  \n\n### 1.3 Project Research Method:  \n\nThe project research shall be conducted by quantitative and qualitative methods. Refer to Appendix 1 for details.  \n\n### 1.4 Project Research Achievement:  \n\nParty B shall conduct project research and deliver project research achievements as required by Party A. Research achievements shall include one monograph of Research on New Trends and three phased research reports.  \n\n### 1.5 Project Cooperation Mode:  \n\nTo ensure the quality and progress of project research, Party B shall arrange undergraduates, postgraduates and doctoral students to take full participation in the research in accordance with the research demands, and shall engage off- campus researchers according to the data analysis demands. In addition, relevant professionals of Party A may participate in the"
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "project research at anytime in accordance with the actual demands, so as to jointly ensure the accuracy and practicability of the research achievements.",
+          "bbox": {
+            "x1": 115,
+            "y1": 91,
+            "x2": 881,
+            "y2": 131
+          },
+          "bbox_list": [
+            115,
+            91,
+            881,
+            131
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 2. Project Quality Guarantee",
+          "bbox": {
+            "x1": 193,
+            "y1": 170,
+            "x2": 438,
+            "y2": 190
+          },
+          "bbox_list": [
+            193,
+            170,
+            438,
+            190
+          ]
+        },
+        {
+          "block_id": "p5_b2",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2.1 Party B shall commit that the project services are executed in accordance with concerned provisions in the contract confirmed and signed by both parties.",
+          "bbox": {
+            "x1": 115,
+            "y1": 199,
+            "x2": 881,
+            "y2": 240
+          },
+          "bbox_list": [
+            115,
+            199,
+            881,
+            240
+          ]
+        },
+        {
+          "block_id": "p5_b3",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2.2 Party B shall commit that the reports delivered to Party A are in line with applicable laws and regulations, without infringement of any third party's rights or interests.",
+          "bbox": {
+            "x1": 115,
+            "y1": 278,
+            "x2": 881,
+            "y2": 319
+          },
+          "bbox_list": [
+            115,
+            278,
+            881,
+            319
+          ]
+        },
+        {
+          "block_id": "p5_b4",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 3. Notice",
+          "bbox": {
+            "x1": 193,
+            "y1": 358,
+            "x2": 269,
+            "y2": 376
+          },
+          "bbox_list": [
+            193,
+            358,
+            269,
+            376
+          ]
+        },
+        {
+          "block_id": "p5_b5",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "3.1 Upon execution of the contract, Party A shall, within five (5) working days after receiving the phased research reports, carry out inspection and acceptance of the research reports. In case of any doubt to the research reports delivered by Party B, or if the research reports delivered by Party B fail to be completely in conformity with Party A's requirements, Party A shall notify Party B within seven (7) days upon finding the problem, and Party B shall reply and resolve within three (3) days after receiving Party A's notice.",
+          "bbox": {
+            "x1": 114,
+            "y1": 385,
+            "x2": 884,
+            "y2": 506
+          },
+          "bbox_list": [
+            114,
+            385,
+            884,
+            506
+          ]
+        },
+        {
+          "block_id": "p5_b6",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "3.2 Upon execution of the contract, in case of any doubt to the project, Party A may contact Party B's project principal at any time. And Party B shall make reasonable written reply and resolve within five (5) working days after receiving relevant written notice on doubt from Party A.",
+          "bbox": {
+            "x1": 115,
+            "y1": 543,
+            "x2": 882,
+            "y2": 625
+          },
+          "bbox_list": [
+            115,
+            543,
+            882,
+            625
+          ]
+        },
+        {
+          "block_id": "p5_b7",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 4. Service Fee and Payment",
+          "bbox": {
+            "x1": 195,
+            "y1": 664,
+            "x2": 428,
+            "y2": 683
+          },
+          "bbox_list": [
+            195,
+            664,
+            428,
+            683
+          ]
+        },
+        {
+          "block_id": "p5_b8",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "4.1 Party A shall pay the service fee of the project as specified.",
+          "bbox": {
+            "x1": 194,
+            "y1": 692,
+            "x2": 688,
+            "y2": 713
+          },
+          "bbox_list": [
+            194,
+            692,
+            688,
+            713
+          ]
+        },
+        {
+          "block_id": "p5_b9",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "4.1.1 Total service fee of the project in 2021: (In figures) RMB610,000, (in words) RMB six hundred and ten thousand only. (Tax- inclusive, with tax rate of \\(3\\%\\) . The invoice tax rate in follow- up cooperation shall be subject to the latest taxation policy of the state).",
+          "bbox": {
+            "x1": 116,
+            "y1": 750,
+            "x2": 884,
+            "y2": 811
+          },
+          "bbox_list": [
+            116,
+            750,
+            884,
+            811
+          ]
+        },
+        {
+          "block_id": "p5_b10",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Where both parties decide to renew the cooperation after 2021, the project service fee of the term from Jan. 1, 2022 to Dec. 31, 2023 shall be determined by both parties in writing",
+          "bbox": {
+            "x1": 116,
+            "y1": 847,
+            "x2": 884,
+            "y2": 889
+          },
+          "bbox_list": [
+            116,
+            847,
+            884,
+            889
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nproject research at anytime in accordance with the actual demands, so as to jointly ensure the accuracy and practicability of the research achievements.  \n\n## 2. Project Quality Guarantee  \n\n2.1 Party B shall commit that the project services are executed in accordance with concerned provisions in the contract confirmed and signed by both parties.  \n\n2.2 Party B shall commit that the reports delivered to Party A are in line with applicable laws and regulations, without infringement of any third party's rights or interests.  \n\n## 3. Notice  \n\n3.1 Upon execution of the contract, Party A shall, within five (5) working days after receiving the phased research reports, carry out inspection and acceptance of the research reports. In case of any doubt to the research reports delivered by Party B, or if the research reports delivered by Party B fail to be completely in conformity with Party A's requirements, Party A shall notify Party B within seven (7) days upon finding the problem, and Party B shall reply and resolve within three (3) days after receiving Party A's notice.  \n\n3.2 Upon execution of the contract, in case of any doubt to the project, Party A may contact Party B's project principal at any time. And Party B shall make reasonable written reply and resolve within five (5) working days after receiving relevant written notice on doubt from Party A.  \n\n## 4. Service Fee and Payment  \n\n4.1 Party A shall pay the service fee of the project as specified.  \n\n4.1.1 Total service fee of the project in 2021: (In figures) RMB610,000, (in words) RMB six hundred and ten thousand only. (Tax- inclusive, with tax rate of \\(3\\%\\) . The invoice tax rate in follow- up cooperation shall be subject to the latest taxation policy of the state).  \n\nWhere both parties decide to renew the cooperation after 2021, the project service fee of the term from Jan. 1, 2022 to Dec. 31, 2023 shall be determined by both parties in writing"
+    },
+    {
+      "page_number": 6,
+      "text_blocks": [
+        {
+          "block_id": "p6_b0",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "upon negotiation.",
+          "bbox": {
+            "x1": 116,
+            "y1": 91,
+            "x2": 255,
+            "y2": 108
+          },
+          "bbox_list": [
+            116,
+            91,
+            255,
+            108
+          ]
+        },
+        {
+          "block_id": "p6_b1",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "4.1.2 The total service fee of 2021 shall be paid by Party A to Party B in two times. Party A shall pay Party B \\(50\\%\\) of the project fee of 2021 within seven (7) days upon effectiveness of the Agreement, namely (in figures) RMB305,000, (in words) RMB three hundred and five thousand only.",
+          "bbox": {
+            "x1": 115,
+            "y1": 150,
+            "x2": 882,
+            "y2": 230
+          },
+          "bbox_list": [
+            115,
+            150,
+            882,
+            230
+          ]
+        },
+        {
+          "block_id": "p6_b2",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Upon delivery of the project research reports, Party A shall conduct inspection and acceptance of the research reports. Upon qualification, Party A shall issue an Acceptance Confirmation, and Party B shall, within three (3) days upon issuing the Acceptance Confirmation, issue a value- added tax invoice at the project service fee of the year. Party A shall, within fifteen (15) working days after receiving the invoice, pay the residual balance of the year, namely (in figures) RMB305,000, (in words) RMB three hundred and fivethousand only.",
+          "bbox": {
+            "x1": 115,
+            "y1": 268,
+            "x2": 884,
+            "y2": 387
+          },
+          "bbox_list": [
+            115,
+            268,
+            884,
+            387
+          ]
+        },
+        {
+          "block_id": "p6_b3",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "4.1.3 Collection Information of Party B and Invoice Information of Party A:",
+          "bbox": {
+            "x1": 194,
+            "y1": 425,
+            "x2": 792,
+            "y2": 446
+          },
+          "bbox_list": [
+            194,
+            425,
+            792,
+            446
+          ]
+        },
+        {
+          "block_id": "p6_b4",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Collection Information of Party B:",
+          "bbox": {
+            "x1": 194,
+            "y1": 485,
+            "x2": 468,
+            "y2": 504
+          },
+          "bbox_list": [
+            194,
+            485,
+            468,
+            504
+          ]
+        },
+        {
+          "block_id": "p6_b5",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Account Name of Party B: Peking University",
+          "bbox": {
+            "x1": 194,
+            "y1": 544,
+            "x2": 552,
+            "y2": 564
+          },
+          "bbox_list": [
+            194,
+            544,
+            552,
+            564
+          ]
+        },
+        {
+          "block_id": "p6_b6",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Account Bank of Party B: Industrial and Commercial Bank of China Beijing Branch Haidian West Area Sub- branch",
+          "bbox": {
+            "x1": 115,
+            "y1": 603,
+            "x2": 882,
+            "y2": 643
+          },
+          "bbox_list": [
+            115,
+            603,
+            882,
+            643
+          ]
+        },
+        {
+          "block_id": "p6_b7",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Account No. of Party B: 0200004509089131151",
+          "bbox": {
+            "x1": 194,
+            "y1": 682,
+            "x2": 577,
+            "y2": 702
+          },
+          "bbox_list": [
+            194,
+            682,
+            577,
+            702
+          ]
+        },
+        {
+          "block_id": "p6_b8",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Invoice Information of Party A:",
+          "bbox": {
+            "x1": 194,
+            "y1": 742,
+            "x2": 445,
+            "y2": 761
+          },
+          "bbox_list": [
+            194,
+            742,
+            445,
+            761
+          ]
+        },
+        {
+          "block_id": "p6_b9",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Name: Mixue Bingcheng Co., Ltd.",
+          "bbox": {
+            "x1": 194,
+            "y1": 800,
+            "x2": 470,
+            "y2": 820
+          },
+          "bbox_list": [
+            194,
+            800,
+            470,
+            820
+          ]
+        },
+        {
+          "block_id": "p6_b10",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Taxpayer ID No.: 9141010567535195X9",
+          "bbox": {
+            "x1": 194,
+            "y1": 859,
+            "x2": 521,
+            "y2": 879
+          },
+          "bbox_list": [
+            194,
+            859,
+            521,
+            879
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nupon negotiation.  \n\n4.1.2 The total service fee of 2021 shall be paid by Party A to Party B in two times. Party A shall pay Party B \\(50\\%\\) of the project fee of 2021 within seven (7) days upon effectiveness of the Agreement, namely (in figures) RMB305,000, (in words) RMB three hundred and five thousand only.  \n\nUpon delivery of the project research reports, Party A shall conduct inspection and acceptance of the research reports. Upon qualification, Party A shall issue an Acceptance Confirmation, and Party B shall, within three (3) days upon issuing the Acceptance Confirmation, issue a value- added tax invoice at the project service fee of the year. Party A shall, within fifteen (15) working days after receiving the invoice, pay the residual balance of the year, namely (in figures) RMB305,000, (in words) RMB three hundred and fivethousand only.  \n\n4.1.3 Collection Information of Party B and Invoice Information of Party A:  \n\nCollection Information of Party B:  \n\nAccount Name of Party B: Peking University  \n\nAccount Bank of Party B: Industrial and Commercial Bank of China Beijing Branch Haidian West Area Sub- branch  \n\nAccount No. of Party B: 0200004509089131151  \n\nInvoice Information of Party A:  \n\nName: Mixue Bingcheng Co., Ltd.  \n\nTaxpayer ID No.: 9141010567535195X9"
+    },
+    {
+      "page_number": 7,
+      "text_blocks": [
+        {
+          "block_id": "p7_b0",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Address: South of North Third Ring and East of Wenhua Road, Hanhai Beijing Commercial Center, Suite 16004, Jinshui District, Zhengzhou City",
+          "bbox": {
+            "x1": 115,
+            "y1": 120,
+            "x2": 880,
+            "y2": 160
+          },
+          "bbox_list": [
+            115,
+            120,
+            880,
+            160
+          ]
+        },
+        {
+          "block_id": "p7_b1",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Tel.: 0371- 89916888",
+          "bbox": {
+            "x1": 193,
+            "y1": 200,
+            "x2": 360,
+            "y2": 218
+          },
+          "bbox_list": [
+            193,
+            200,
+            360,
+            218
+          ]
+        },
+        {
+          "block_id": "p7_b2",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Account Bank: China Construction Bank Zhengzhou Wenhua Road Sub- branch",
+          "bbox": {
+            "x1": 193,
+            "y1": 259,
+            "x2": 820,
+            "y2": 280
+          },
+          "bbox_list": [
+            193,
+            259,
+            820,
+            280
+          ]
+        },
+        {
+          "block_id": "p7_b3",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Account No.: 41050167283600000054",
+          "bbox": {
+            "x1": 193,
+            "y1": 319,
+            "x2": 501,
+            "y2": 337
+          },
+          "bbox_list": [
+            193,
+            319,
+            501,
+            337
+          ]
+        },
+        {
+          "block_id": "p7_b4",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "4.2 The payment shall be made in the way specified in the contract, or transferred to the bank account designated by Party B. In case of change to Party B's collection information, it shall notify Party A in writing seven (7) days in advance, and the change shall take effect after Party A receives and replies the notice. In case of overdue payment or payment in the original way by Party A due to Party B's reason for failing to notify the change to collection information in time, the incurred losses shall be borne by Party B. In case of overdue payment by Party A due to Party B's reason for failing to issue the invoice in time, Party A shall bear no liability.",
+          "bbox": {
+            "x1": 113,
+            "y1": 377,
+            "x2": 882,
+            "y2": 517
+          },
+          "bbox_list": [
+            113,
+            377,
+            882,
+            517
+          ]
+        },
+        {
+          "block_id": "p7_b5",
+          "page_number": 7,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 5. Intellectual Property and Other Legal Rights",
+          "bbox": {
+            "x1": 192,
+            "y1": 556,
+            "x2": 591,
+            "y2": 575
+          },
+          "bbox_list": [
+            192,
+            556,
+            591,
+            575
+          ]
+        },
+        {
+          "block_id": "p7_b6",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "5.1 Party B shall ensure that it owns legitimate intellectual property and other legal rights to the project services it provided, and shall ensure that Party A could not be involved in any dispute regarding the intellectual property and other legal rights when using the project services provided by Party B. In case of loss of rights or prosecution to Party A caused by Party B's infringement, Party B shall bear corresponding compensation for all losses brought to Party A.",
+          "bbox": {
+            "x1": 113,
+            "y1": 585,
+            "x2": 882,
+            "y2": 703
+          },
+          "bbox_list": [
+            113,
+            585,
+            882,
+            703
+          ]
+        },
+        {
+          "block_id": "p7_b7",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "5.2 The intellectual property of the investigation conclusion and reports shall be jointly owned by Party A and Party B.",
+          "bbox": {
+            "x1": 115,
+            "y1": 742,
+            "x2": 880,
+            "y2": 782
+          },
+          "bbox_list": [
+            115,
+            742,
+            880,
+            782
+          ]
+        },
+        {
+          "block_id": "p7_b8",
+          "page_number": 7,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 6. Rational Use",
+          "bbox": {
+            "x1": 194,
+            "y1": 822,
+            "x2": 324,
+            "y2": 840
+          },
+          "bbox_list": [
+            194,
+            822,
+            324,
+            840
+          ]
+        },
+        {
+          "block_id": "p7_b9",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "6.1 Party A shall use the project achievements according to law, namely that in no instance shall Party A use any project content to attack or depreciate any non-contracting party.",
+          "bbox": {
+            "x1": 115,
+            "y1": 850,
+            "x2": 882,
+            "y2": 890
+          },
+          "bbox_list": [
+            115,
+            850,
+            882,
+            890
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nAddress: South of North Third Ring and East of Wenhua Road, Hanhai Beijing Commercial Center, Suite 16004, Jinshui District, Zhengzhou City  \n\nTel.: 0371- 89916888  \n\nAccount Bank: China Construction Bank Zhengzhou Wenhua Road Sub- branch  \n\nAccount No.: 41050167283600000054  \n\n4.2 The payment shall be made in the way specified in the contract, or transferred to the bank account designated by Party B. In case of change to Party B's collection information, it shall notify Party A in writing seven (7) days in advance, and the change shall take effect after Party A receives and replies the notice. In case of overdue payment or payment in the original way by Party A due to Party B's reason for failing to notify the change to collection information in time, the incurred losses shall be borne by Party B. In case of overdue payment by Party A due to Party B's reason for failing to issue the invoice in time, Party A shall bear no liability.  \n\n## 5. Intellectual Property and Other Legal Rights  \n\n5.1 Party B shall ensure that it owns legitimate intellectual property and other legal rights to the project services it provided, and shall ensure that Party A could not be involved in any dispute regarding the intellectual property and other legal rights when using the project services provided by Party B. In case of loss of rights or prosecution to Party A caused by Party B's infringement, Party B shall bear corresponding compensation for all losses brought to Party A.  \n\n5.2 The intellectual property of the investigation conclusion and reports shall be jointly owned by Party A and Party B.  \n\n## 6. Rational Use  \n\n6.1 Party A shall use the project achievements according to law, namely that in no instance shall Party A use any project content to attack or depreciate any non-contracting party."
+    },
+    {
+      "page_number": 8,
+      "text_blocks": [
+        {
+          "block_id": "p8_b0",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In case of any dispute arising out of Party A's behavior mentioned above, Party A shall bear all liabilities.",
+          "bbox": {
+            "x1": 115,
+            "y1": 88,
+            "x2": 881,
+            "y2": 128
+          },
+          "bbox_list": [
+            115,
+            88,
+            881,
+            128
+          ]
+        },
+        {
+          "block_id": "p8_b1",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "6.2 Without Party B's written consent, Party A shall not engage in any training, recruitment or school running activity in any form under the name of Party B. Party A shall only make factual statement on the research achievements and cooperation process, and shall not make exaggerated or untrue publicity. The publicity materials shall be submitted to Party B before release to the public, and shall be used upon confirmation of Party B.",
+          "bbox": {
+            "x1": 115,
+            "y1": 168,
+            "x2": 882,
+            "y2": 270
+          },
+          "bbox_list": [
+            115,
+            168,
+            882,
+            270
+          ]
+        },
+        {
+          "block_id": "p8_b2",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "6.3 Party B shall use the project achievements according to law in a rational manner, namely that in no instance shall Party A use any project content to attack or depreciate Party A; where Party B needs to use the investigation report for class teaching, it shall inform Party A 10 days in advance, where it shall specify the content for use, target object, way of use and concerned matters, and Party B shall ensure that the class teaching content will not have any adverse effect on Party A.",
+          "bbox": {
+            "x1": 115,
+            "y1": 307,
+            "x2": 883,
+            "y2": 426
+          },
+          "bbox_list": [
+            115,
+            307,
+            883,
+            426
+          ]
+        },
+        {
+          "block_id": "p8_b3",
+          "page_number": 8,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 7. Provision on Customer Service",
+          "bbox": {
+            "x1": 196,
+            "y1": 466,
+            "x2": 475,
+            "y2": 485
+          },
+          "bbox_list": [
+            196,
+            466,
+            475,
+            485
+          ]
+        },
+        {
+          "block_id": "p8_b4",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "7.1 Party B shall provide project services for Party A in accordance with the term and project content specified in the contract.",
+          "bbox": {
+            "x1": 115,
+            "y1": 494,
+            "x2": 883,
+            "y2": 534
+          },
+          "bbox_list": [
+            115,
+            494,
+            883,
+            534
+          ]
+        },
+        {
+          "block_id": "p8_b5",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "7.2 Party A shall have the obligation to answer Party A's problems in the project, and shall provide corresponding training as required in the contract.",
+          "bbox": {
+            "x1": 115,
+            "y1": 572,
+            "x2": 883,
+            "y2": 613
+          },
+          "bbox_list": [
+            115,
+            572,
+            883,
+            613
+          ]
+        },
+        {
+          "block_id": "p8_b6",
+          "page_number": 8,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 8. Term and Termination",
+          "bbox": {
+            "x1": 196,
+            "y1": 653,
+            "x2": 409,
+            "y2": 671
+          },
+          "bbox_list": [
+            196,
+            653,
+            409,
+            671
+          ]
+        },
+        {
+          "block_id": "p8_b7",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "8.1 The contract shall be valid from Oct. 20, 2021 to Dec. 31, 2023.",
+          "bbox": {
+            "x1": 195,
+            "y1": 681,
+            "x2": 728,
+            "y2": 701
+          },
+          "bbox_list": [
+            195,
+            681,
+            728,
+            701
+          ]
+        },
+        {
+          "block_id": "p8_b8",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "8.2 Before expiry of the contract, it could be terminated upon written consensus of both parties through negotiation.",
+          "bbox": {
+            "x1": 115,
+            "y1": 740,
+            "x2": 886,
+            "y2": 781
+          },
+          "bbox_list": [
+            115,
+            740,
+            886,
+            781
+          ]
+        },
+        {
+          "block_id": "p8_b9",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "8.3 In case of any of the following circumstances, either party shall have the right to terminate the contract:",
+          "bbox": {
+            "x1": 115,
+            "y1": 820,
+            "x2": 886,
+            "y2": 860
+          },
+          "bbox_list": [
+            115,
+            820,
+            886,
+            860
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nIn case of any dispute arising out of Party A's behavior mentioned above, Party A shall bear all liabilities.  \n\n6.2 Without Party B's written consent, Party A shall not engage in any training, recruitment or school running activity in any form under the name of Party B. Party A shall only make factual statement on the research achievements and cooperation process, and shall not make exaggerated or untrue publicity. The publicity materials shall be submitted to Party B before release to the public, and shall be used upon confirmation of Party B.  \n\n6.3 Party B shall use the project achievements according to law in a rational manner, namely that in no instance shall Party A use any project content to attack or depreciate Party A; where Party B needs to use the investigation report for class teaching, it shall inform Party A 10 days in advance, where it shall specify the content for use, target object, way of use and concerned matters, and Party B shall ensure that the class teaching content will not have any adverse effect on Party A.  \n\n## 7. Provision on Customer Service  \n\n7.1 Party B shall provide project services for Party A in accordance with the term and project content specified in the contract.  \n\n7.2 Party A shall have the obligation to answer Party A's problems in the project, and shall provide corresponding training as required in the contract.  \n\n## 8. Term and Termination  \n\n8.1 The contract shall be valid from Oct. 20, 2021 to Dec. 31, 2023.  \n\n8.2 Before expiry of the contract, it could be terminated upon written consensus of both parties through negotiation.  \n\n8.3 In case of any of the following circumstances, either party shall have the right to terminate the contract:"
+    },
+    {
+      "page_number": 9,
+      "text_blocks": [
+        {
+          "block_id": "p9_b0",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 116,
+            "y1": 55,
+            "x2": 196,
+            "y2": 70
+          },
+          "bbox_list": [
+            116,
+            55,
+            196,
+            70
+          ]
+        },
+        {
+          "block_id": "p9_b1",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "8.3.1 Either party breaches the contract and fails to make effective measures for remediation within ten (10) working days after receiving the written notice from the non- breaching party, the non- breaching party shall have the right to terminate the contract;",
+          "bbox": {
+            "x1": 115,
+            "y1": 91,
+            "x2": 882,
+            "y2": 152
+          },
+          "bbox_list": [
+            115,
+            91,
+            882,
+            152
+          ]
+        },
+        {
+          "block_id": "p9_b2",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "8.3.2 The Agreement cannot be executed for force majeure (refer to the definition in Article 9).",
+          "bbox": {
+            "x1": 115,
+            "y1": 191,
+            "x2": 882,
+            "y2": 231
+          },
+          "bbox_list": [
+            115,
+            191,
+            882,
+            231
+          ]
+        },
+        {
+          "block_id": "p9_b3",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "8.4 Where the contract is terminated before expiry as specified in Article 8.2 or 8.3.2, the rights and obligations of both parties incurred before the termination shall not be affected, to which both parties shall settle the service fee according to fact.",
+          "bbox": {
+            "x1": 115,
+            "y1": 270,
+            "x2": 881,
+            "y2": 330
+          },
+          "bbox_list": [
+            115,
+            270,
+            881,
+            330
+          ]
+        },
+        {
+          "block_id": "p9_b4",
+          "page_number": 9,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 9. Force Majeure",
+          "bbox": {
+            "x1": 192,
+            "y1": 368,
+            "x2": 339,
+            "y2": 387
+          },
+          "bbox_list": [
+            192,
+            368,
+            339,
+            387
+          ]
+        },
+        {
+          "block_id": "p9_b5",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "9.1 Force majeure event refers to any event hindering the concerned party's full or partial execution of the contract and / or any other agreement relating to the contract incurred after effectiveness of the contract. Such events shall include flood, fire, drought, typhoon, earthquake and other natural disasters, strike, turmoil, riot and war (no matter it's declared or not).",
+          "bbox": {
+            "x1": 113,
+            "y1": 397,
+            "x2": 881,
+            "y2": 497
+          },
+          "bbox_list": [
+            113,
+            397,
+            881,
+            497
+          ]
+        },
+        {
+          "block_id": "p9_b6",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "9.2 Where either party postpones or fails to execute the contract for force majeure, it shall notify the other party in time, so as to relieve possible loss brought to the other party, and shall provide relevant certification within a reasonable term.",
+          "bbox": {
+            "x1": 112,
+            "y1": 535,
+            "x2": 880,
+            "y2": 596
+          },
+          "bbox_list": [
+            112,
+            535,
+            880,
+            596
+          ]
+        },
+        {
+          "block_id": "p9_b7",
+          "page_number": 9,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 10. Liability for Breach",
+          "bbox": {
+            "x1": 192,
+            "y1": 635,
+            "x2": 388,
+            "y2": 653
+          },
+          "bbox_list": [
+            192,
+            635,
+            388,
+            653
+          ]
+        },
+        {
+          "block_id": "p9_b8",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "10.1 Party B shall provide project services for Party A as specified in the contract. Where Party B fails to provide services on time or fails to execute main obligations in the contract, Party A shall have the right to unilaterally terminate the contract or require Party B to continue to execute the contract as specified in Article 8.3.1. In addition, Party A shall have the right to require Party B to pay liquidated damages at \\(20\\%\\) of the total service fee of 2021. If the liquidated damages could not make up for Party A's losses, Party B shall further compensate Party A for all losses incurred therefrom.",
+          "bbox": {
+            "x1": 111,
+            "y1": 663,
+            "x2": 879,
+            "y2": 802
+          },
+          "bbox_list": [
+            111,
+            663,
+            879,
+            802
+          ]
+        },
+        {
+          "block_id": "p9_b9",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "10.2 Party A shall pay Party B project fees as specified in the contract. In case of any overdue payment for Party A's reasons, it shall pay liquidated damages at \\(0.03\\%\\) of the deferred",
+          "bbox": {
+            "x1": 110,
+            "y1": 840,
+            "x2": 877,
+            "y2": 881
+          },
+          "bbox_list": [
+            110,
+            840,
+            877,
+            881
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\n8.3.1 Either party breaches the contract and fails to make effective measures for remediation within ten (10) working days after receiving the written notice from the non- breaching party, the non- breaching party shall have the right to terminate the contract;  \n\n8.3.2 The Agreement cannot be executed for force majeure (refer to the definition in Article 9).  \n\n8.4 Where the contract is terminated before expiry as specified in Article 8.2 or 8.3.2, the rights and obligations of both parties incurred before the termination shall not be affected, to which both parties shall settle the service fee according to fact.  \n\n## 9. Force Majeure  \n\n9.1 Force majeure event refers to any event hindering the concerned party's full or partial execution of the contract and / or any other agreement relating to the contract incurred after effectiveness of the contract. Such events shall include flood, fire, drought, typhoon, earthquake and other natural disasters, strike, turmoil, riot and war (no matter it's declared or not).  \n\n9.2 Where either party postpones or fails to execute the contract for force majeure, it shall notify the other party in time, so as to relieve possible loss brought to the other party, and shall provide relevant certification within a reasonable term.  \n\n## 10. Liability for Breach  \n\n10.1 Party B shall provide project services for Party A as specified in the contract. Where Party B fails to provide services on time or fails to execute main obligations in the contract, Party A shall have the right to unilaterally terminate the contract or require Party B to continue to execute the contract as specified in Article 8.3.1. In addition, Party A shall have the right to require Party B to pay liquidated damages at \\(20\\%\\) of the total service fee of 2021. If the liquidated damages could not make up for Party A's losses, Party B shall further compensate Party A for all losses incurred therefrom.  \n\n10.2 Party A shall pay Party B project fees as specified in the contract. In case of any overdue payment for Party A's reasons, it shall pay liquidated damages at \\(0.03\\%\\) of the deferred"
+    },
+    {
+      "page_number": 10,
+      "text_blocks": [
+        {
+          "block_id": "p10_b0",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "payment amount for each day overdue. If the overdue payment exceeds 15 days, Party B shall have the right to unilaterally terminate the contract or require Party A to continue to execute the contract as specified in Article 8.3.1. If Party B unilaterally terminates the contract as specified in Article 8.3.1, it shall have the right to require Party A to pay liquidated damages at \\(20\\%\\) of total service fee of 2021.",
+          "bbox": {
+            "x1": 113,
+            "y1": 90,
+            "x2": 881,
+            "y2": 190
+          },
+          "bbox_list": [
+            113,
+            90,
+            881,
+            190
+          ]
+        },
+        {
+          "block_id": "p10_b1",
+          "page_number": 10,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 11. Provision on Confidentiality",
+          "bbox": {
+            "x1": 194,
+            "y1": 230,
+            "x2": 459,
+            "y2": 248
+          },
+          "bbox_list": [
+            194,
+            230,
+            459,
+            248
+          ]
+        },
+        {
+          "block_id": "p10_b2",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "11.1 Business secrets mentioned in the contract refer to all information and materials relating to the matters specified by both parties. Without written consent of the owner or obligee of the confidential information, the other party shall have the obligation of strict confidentiality, and shall not publicize or disclose the business secrets. Where the business secrets are not normally used for the specified purpose, or if the business secrets are used outside the specified scope or region, it shall be deemed as a breach of contract. This provision shall not be invalid for the termination of or alteration to the contract.",
+          "bbox": {
+            "x1": 113,
+            "y1": 258,
+            "x2": 882,
+            "y2": 397
+          },
+          "bbox_list": [
+            113,
+            258,
+            882,
+            397
+          ]
+        },
+        {
+          "block_id": "p10_b3",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "11.2 Party B shall keep strict confidential of Party A's business secrets, and shall not disclose Party A's business secrets to any third party, otherwise Party A shall have the right to require Party B to pay liquidated damages at \\(30\\%\\) of the total service fee of 2021. In case the liquidated damages are not sufficient to make up for Party A's losses, Party A shall claim for certain amount from Party B according to its actual losses, until all losses are compensated.",
+          "bbox": {
+            "x1": 114,
+            "y1": 435,
+            "x2": 882,
+            "y2": 534
+          },
+          "bbox_list": [
+            114,
+            435,
+            882,
+            534
+          ]
+        },
+        {
+          "block_id": "p10_b4",
+          "page_number": 10,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 12. Applicable Laws and Dispute Resolution",
+          "bbox": {
+            "x1": 194,
+            "y1": 574,
+            "x2": 563,
+            "y2": 593
+          },
+          "bbox_list": [
+            194,
+            574,
+            563,
+            593
+          ]
+        },
+        {
+          "block_id": "p10_b5",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "12.1 The formulation, effectiveness, interpretation, execution, modification and termination of the contract are applicable to laws of the People's Republic of China.",
+          "bbox": {
+            "x1": 114,
+            "y1": 603,
+            "x2": 881,
+            "y2": 642
+          },
+          "bbox_list": [
+            114,
+            603,
+            881,
+            642
+          ]
+        },
+        {
+          "block_id": "p10_b6",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "12.2 In case of any dispute arising out of the execution of the contract, both parties shall settle through amicable negotiation, failing which, either party shall file a lawsuit to the people's court in the place where the plaintiff is located.",
+          "bbox": {
+            "x1": 114,
+            "y1": 682,
+            "x2": 881,
+            "y2": 741
+          },
+          "bbox_list": [
+            114,
+            682,
+            881,
+            741
+          ]
+        },
+        {
+          "block_id": "p10_b7",
+          "page_number": 10,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 13. Miscellaneous",
+          "bbox": {
+            "x1": 194,
+            "y1": 782,
+            "x2": 343,
+            "y2": 799
+          },
+          "bbox_list": [
+            194,
+            782,
+            343,
+            799
+          ]
+        },
+        {
+          "block_id": "p10_b8",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "13.1 Any dispute arising out of the contract or provision deemed as invalid shall not affect the execution of other provisions.",
+          "bbox": {
+            "x1": 114,
+            "y1": 810,
+            "x2": 881,
+            "y2": 849
+          },
+          "bbox_list": [
+            114,
+            810,
+            881,
+            849
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\npayment amount for each day overdue. If the overdue payment exceeds 15 days, Party B shall have the right to unilaterally terminate the contract or require Party A to continue to execute the contract as specified in Article 8.3.1. If Party B unilaterally terminates the contract as specified in Article 8.3.1, it shall have the right to require Party A to pay liquidated damages at \\(20\\%\\) of total service fee of 2021.  \n\n## 11. Provision on Confidentiality  \n\n11.1 Business secrets mentioned in the contract refer to all information and materials relating to the matters specified by both parties. Without written consent of the owner or obligee of the confidential information, the other party shall have the obligation of strict confidentiality, and shall not publicize or disclose the business secrets. Where the business secrets are not normally used for the specified purpose, or if the business secrets are used outside the specified scope or region, it shall be deemed as a breach of contract. This provision shall not be invalid for the termination of or alteration to the contract.  \n\n11.2 Party B shall keep strict confidential of Party A's business secrets, and shall not disclose Party A's business secrets to any third party, otherwise Party A shall have the right to require Party B to pay liquidated damages at \\(30\\%\\) of the total service fee of 2021. In case the liquidated damages are not sufficient to make up for Party A's losses, Party A shall claim for certain amount from Party B according to its actual losses, until all losses are compensated.  \n\n## 12. Applicable Laws and Dispute Resolution  \n\n12.1 The formulation, effectiveness, interpretation, execution, modification and termination of the contract are applicable to laws of the People's Republic of China.  \n\n12.2 In case of any dispute arising out of the execution of the contract, both parties shall settle through amicable negotiation, failing which, either party shall file a lawsuit to the people's court in the place where the plaintiff is located.  \n\n## 13. Miscellaneous  \n\n13.1 Any dispute arising out of the contract or provision deemed as invalid shall not affect the execution of other provisions."
+    },
+    {
+      "page_number": 11,
+      "text_blocks": [
+        {
+          "block_id": "p11_b0",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "13.2 The contract shall take effect upon seal by both parties. For any matters not covered in the contract, both parties shall separately conclude a supplementary agreement upon consensus through negotiation. The supplementary agreement and appendixes shall be integral parts of the contract, which shall have equal legal effect with the contract.",
+          "bbox": {
+            "x1": 115,
+            "y1": 90,
+            "x2": 882,
+            "y2": 170
+          },
+          "bbox_list": [
+            115,
+            90,
+            882,
+            170
+          ]
+        },
+        {
+          "block_id": "p11_b1",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "13.3 The contract shall be made in duplicate, with Party A and Party B holding one respectively, which shall have equal legal effect.",
+          "bbox": {
+            "x1": 115,
+            "y1": 210,
+            "x2": 881,
+            "y2": 250
+          },
+          "bbox_list": [
+            115,
+            210,
+            881,
+            250
+          ]
+        },
+        {
+          "block_id": "p11_b2",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "13.4 When signing the contract, Party A and Party B shall have the capacity for civil conduct and capacity for private rights, be aware of respective rights, obligations and responsibilities, and are willing to execute in strict accordance with the contract. Where either party breaches the contract, the other party shall have the right to claim for compensation as specified in the contract.",
+          "bbox": {
+            "x1": 113,
+            "y1": 289,
+            "x2": 881,
+            "y2": 388
+          },
+          "bbox_list": [
+            113,
+            289,
+            881,
+            388
+          ]
+        },
+        {
+          "block_id": "p11_b3",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "13.5 Written form referred to in the contract shall include email and fax between both parties. The fax and scanning copy shall have equal legal effect with the contract.",
+          "bbox": {
+            "x1": 113,
+            "y1": 427,
+            "x2": 880,
+            "y2": 467
+          },
+          "bbox_list": [
+            113,
+            427,
+            880,
+            467
+          ]
+        },
+        {
+          "block_id": "p11_b4",
+          "page_number": 11,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 14. Contact Information",
+          "bbox": {
+            "x1": 193,
+            "y1": 506,
+            "x2": 397,
+            "y2": 524
+          },
+          "bbox_list": [
+            193,
+            506,
+            397,
+            524
+          ]
+        },
+        {
+          "block_id": "p11_b5",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In accordance with the contract, contact between both parties could be made by delivery by specially- assigned person, or registered mail by air, or express service, or fax or email, to the address below. The date of notice shall be determined by the following method",
+          "bbox": {
+            "x1": 112,
+            "y1": 535,
+            "x2": 880,
+            "y2": 595
+          },
+          "bbox_list": [
+            112,
+            535,
+            880,
+            595
+          ]
+        },
+        {
+          "block_id": "p11_b6",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "14.1 Notice delivered by specially- assigned person shall be deemed as delivered on the date of submission for delivery;",
+          "bbox": {
+            "x1": 111,
+            "y1": 634,
+            "x2": 880,
+            "y2": 673
+          },
+          "bbox_list": [
+            111,
+            634,
+            880,
+            673
+          ]
+        },
+        {
+          "block_id": "p11_b7",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "14.2 Registered mail by air shall be deemed as delivered on the tenth (10<sup>th</sup>) day after the date of mailing (subject to the postmark);",
+          "bbox": {
+            "x1": 111,
+            "y1": 714,
+            "x2": 880,
+            "y2": 753
+          },
+          "bbox_list": [
+            111,
+            714,
+            880,
+            753
+          ]
+        },
+        {
+          "block_id": "p11_b8",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "14.3 Express service shall be deemed as delivered on the fifth (5<sup>th</sup>) day after submission for express service;",
+          "bbox": {
+            "x1": 111,
+            "y1": 792,
+            "x2": 879,
+            "y2": 831
+          },
+          "bbox_list": [
+            111,
+            792,
+            879,
+            831
+          ]
+        },
+        {
+          "block_id": "p11_b9",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "14.4 Fax or email shall be deemed as delivered on the first (1<sup>st</sup>) day after sending out.",
+          "bbox": {
+            "x1": 188,
+            "y1": 870,
+            "x2": 861,
+            "y2": 890
+          },
+          "bbox_list": [
+            188,
+            870,
+            861,
+            890
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n13.2 The contract shall take effect upon seal by both parties. For any matters not covered in the contract, both parties shall separately conclude a supplementary agreement upon consensus through negotiation. The supplementary agreement and appendixes shall be integral parts of the contract, which shall have equal legal effect with the contract.  \n\n13.3 The contract shall be made in duplicate, with Party A and Party B holding one respectively, which shall have equal legal effect.  \n\n13.4 When signing the contract, Party A and Party B shall have the capacity for civil conduct and capacity for private rights, be aware of respective rights, obligations and responsibilities, and are willing to execute in strict accordance with the contract. Where either party breaches the contract, the other party shall have the right to claim for compensation as specified in the contract.  \n\n13.5 Written form referred to in the contract shall include email and fax between both parties. The fax and scanning copy shall have equal legal effect with the contract.  \n\n## 14. Contact Information  \n\nIn accordance with the contract, contact between both parties could be made by delivery by specially- assigned person, or registered mail by air, or express service, or fax or email, to the address below. The date of notice shall be determined by the following method  \n\n14.1 Notice delivered by specially- assigned person shall be deemed as delivered on the date of submission for delivery;  \n\n14.2 Registered mail by air shall be deemed as delivered on the tenth (10<sup>th</sup>) day after the date of mailing (subject to the postmark);  \n\n14.3 Express service shall be deemed as delivered on the fifth (5<sup>th</sup>) day after submission for express service;  \n\n14.4 Fax or email shall be deemed as delivered on the first (1<sup>st</sup>) day after sending out."
+    },
+    {
+      "page_number": 12,
+      "text_blocks": [
+        {
+          "block_id": "p12_b0",
+          "page_number": 12,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Both parties shall fill in the Contact and address strictly according to the facts in mutual notification.",
+          "bbox": {
+            "x1": 116,
+            "y1": 120,
+            "x2": 884,
+            "y2": 159
+          },
+          "bbox_list": [
+            116,
+            120,
+            884,
+            159
+          ]
+        },
+        {
+          "block_id": "p12_b1",
+          "page_number": 12,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Email address of Party A: 1196586480@qq.com",
+          "bbox": {
+            "x1": 194,
+            "y1": 200,
+            "x2": 579,
+            "y2": 220
+          },
+          "bbox_list": [
+            194,
+            200,
+            579,
+            220
+          ]
+        },
+        {
+          "block_id": "p12_b2",
+          "page_number": 12,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Email address of Party B: liudehuan@vip.sina.com",
+          "bbox": {
+            "x1": 194,
+            "y1": 259,
+            "x2": 600,
+            "y2": 279
+          },
+          "bbox_list": [
+            194,
+            259,
+            600,
+            279
+          ]
+        },
+        {
+          "block_id": "p12_b3",
+          "page_number": 12,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 15. Provision on Abidance by Both Parties' Agreement and Laws",
+          "bbox": {
+            "x1": 196,
+            "y1": 318,
+            "x2": 738,
+            "y2": 337
+          },
+          "bbox_list": [
+            196,
+            318,
+            738,
+            337
+          ]
+        },
+        {
+          "block_id": "p12_b4",
+          "page_number": 12,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "15.1 In the negotiation, signing and performance term of the contract, Party A and Party B shall strictly abide by laws, rules and regulations of the People's Republic of China on prohibiting any entity or individual from payment of monetary, financial or other preferential treatment to any other entity or individual for illegitimate benefits, and concerned agreement by both parties against improper payment. Both parties hereby commit that they have been aware of the provisions in the contract against improper payment, breaching business ethics, and prohibiting commission, and hereby ensure that they'll fully comply with the above agreement in respective businesses, where neither party is allowed to, in any direct or indirect way, provide any economic goods or interests to any individual, business institution, governmental agency, or other institutions, with the purpose of induce the concerned party to execute or not execute relevant duties.",
+          "bbox": {
+            "x1": 116,
+            "y1": 347,
+            "x2": 886,
+            "y2": 565
+          },
+          "bbox_list": [
+            116,
+            347,
+            886,
+            565
+          ]
+        },
+        {
+          "block_id": "p12_b5",
+          "page_number": 12,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "15.2 Where Party B or its agent, employee, or project related personnel breaches the above agreement, Party A shall have the right to terminate the contract and concerned cooperation immediately, and shall require Party B to make full compensation for the losses brought to Party A and its affiliated companies. The obligation of compensation shall still be valid upon termination of the contract. In case of any losses brought to Party B for breach of the above agreement by Party A or its agent, or employee, Party A shall make full compensation for the losses brought to Party B.",
+          "bbox": {
+            "x1": 117,
+            "y1": 604,
+            "x2": 886,
+            "y2": 743
+          },
+          "bbox_list": [
+            117,
+            604,
+            886,
+            743
+          ]
+        },
+        {
+          "block_id": "p12_b6",
+          "page_number": 12,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 16. Appendix",
+          "bbox": {
+            "x1": 198,
+            "y1": 783,
+            "x2": 310,
+            "y2": 801
+          },
+          "bbox_list": [
+            198,
+            783,
+            310,
+            801
+          ]
+        },
+        {
+          "block_id": "p12_b7",
+          "page_number": 12,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Appendix 1: Investigation and Research Plan of Peking University & Mixue Bingcheng",
+          "bbox": {
+            "x1": 118,
+            "y1": 809,
+            "x2": 886,
+            "y2": 850
+          },
+          "bbox_list": [
+            118,
+            809,
+            886,
+            850
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nBoth parties shall fill in the Contact and address strictly according to the facts in mutual notification.  \n\nEmail address of Party A: 1196586480@qq.com  \n\nEmail address of Party B: liudehuan@vip.sina.com  \n\n## 15. Provision on Abidance by Both Parties' Agreement and Laws  \n\n15.1 In the negotiation, signing and performance term of the contract, Party A and Party B shall strictly abide by laws, rules and regulations of the People's Republic of China on prohibiting any entity or individual from payment of monetary, financial or other preferential treatment to any other entity or individual for illegitimate benefits, and concerned agreement by both parties against improper payment. Both parties hereby commit that they have been aware of the provisions in the contract against improper payment, breaching business ethics, and prohibiting commission, and hereby ensure that they'll fully comply with the above agreement in respective businesses, where neither party is allowed to, in any direct or indirect way, provide any economic goods or interests to any individual, business institution, governmental agency, or other institutions, with the purpose of induce the concerned party to execute or not execute relevant duties.  \n\n15.2 Where Party B or its agent, employee, or project related personnel breaches the above agreement, Party A shall have the right to terminate the contract and concerned cooperation immediately, and shall require Party B to make full compensation for the losses brought to Party A and its affiliated companies. The obligation of compensation shall still be valid upon termination of the contract. In case of any losses brought to Party B for breach of the above agreement by Party A or its agent, or employee, Party A shall make full compensation for the losses brought to Party B.  \n\n## 16. Appendix  \n\nAppendix 1: Investigation and Research Plan of Peking University & Mixue Bingcheng"
+    },
+    {
+      "page_number": 13,
+      "text_blocks": [
+        {
+          "block_id": "p13_b0",
+          "page_number": 13,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 115,
+            "y1": 57,
+            "x2": 197,
+            "y2": 73
+          },
+          "bbox_list": [
+            115,
+            57,
+            197,
+            73
+          ]
+        },
+        {
+          "block_id": "p13_b1",
+          "page_number": 13,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Appendix 2: Copy of Party B's Business License",
+          "bbox": {
+            "x1": 194,
+            "y1": 93,
+            "x2": 581,
+            "y2": 113
+          },
+          "bbox_list": [
+            194,
+            93,
+            581,
+            113
+          ]
+        },
+        {
+          "block_id": "p13_b2",
+          "page_number": 13,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(No text below)",
+          "bbox": {
+            "x1": 194,
+            "y1": 153,
+            "x2": 322,
+            "y2": 172
+          },
+          "bbox_list": [
+            194,
+            153,
+            322,
+            172
+          ]
+        },
+        {
+          "block_id": "p13_b3",
+          "page_number": 13,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Party A: Mixue Bingcheng Co., Ltd. (Seal)",
+          "bbox": {
+            "x1": 194,
+            "y1": 212,
+            "x2": 535,
+            "y2": 232
+          },
+          "bbox_list": [
+            194,
+            212,
+            535,
+            232
+          ]
+        },
+        {
+          "block_id": "p13_b4",
+          "page_number": 13,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Date:",
+          "bbox": {
+            "x1": 194,
+            "y1": 273,
+            "x2": 240,
+            "y2": 290
+          },
+          "bbox_list": [
+            194,
+            273,
+            240,
+            290
+          ]
+        },
+        {
+          "block_id": "p13_b5",
+          "page_number": 13,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Special Seal for Contract of Mixue Bingcheng Co., Ltd., 4101035138330 (Seal)",
+          "bbox": {
+            "x1": 194,
+            "y1": 329,
+            "x2": 825,
+            "y2": 350
+          },
+          "bbox_list": [
+            194,
+            329,
+            825,
+            350
+          ]
+        },
+        {
+          "block_id": "p13_b6",
+          "page_number": 13,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Party B: Peking University (Seal)",
+          "bbox": {
+            "x1": 194,
+            "y1": 389,
+            "x2": 462,
+            "y2": 409
+          },
+          "bbox_list": [
+            194,
+            389,
+            462,
+            409
+          ]
+        },
+        {
+          "block_id": "p13_b7",
+          "page_number": 13,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Date: Oct. 27, 2021",
+          "bbox": {
+            "x1": 194,
+            "y1": 449,
+            "x2": 351,
+            "y2": 468
+          },
+          "bbox_list": [
+            194,
+            449,
+            351,
+            468
+          ]
+        },
+        {
+          "block_id": "p13_b8",
+          "page_number": 13,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Peking University (Seal)",
+          "bbox": {
+            "x1": 194,
+            "y1": 508,
+            "x2": 393,
+            "y2": 528
+          },
+          "bbox_list": [
+            194,
+            508,
+            393,
+            528
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nAppendix 2: Copy of Party B's Business License  \n\n(No text below)  \n\nParty A: Mixue Bingcheng Co., Ltd. (Seal)  \n\nDate:  \n\nSpecial Seal for Contract of Mixue Bingcheng Co., Ltd., 4101035138330 (Seal)  \n\nParty B: Peking University (Seal)  \n\nDate: Oct. 27, 2021  \n\nPeking University (Seal)"
+    }
+  ],
+  "total_blocks": 123
+}

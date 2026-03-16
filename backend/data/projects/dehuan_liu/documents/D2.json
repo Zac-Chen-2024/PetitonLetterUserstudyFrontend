@@ -1,0 +1,606 @@
+{
+  "exhibit_id": "D2",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit D-2",
+          "bbox": {
+            "x1": 118,
+            "y1": 451,
+            "x2": 875,
+            "y2": 549
+          },
+          "bbox_list": [
+            118,
+            451,
+            875,
+            549
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit D-2"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Related articles suggestions",
+          "bbox": {
+            "x1": 201,
+            "y1": 150,
+            "x2": 485,
+            "y2": 168
+          },
+          "bbox_list": [
+            201,
+            150,
+            485,
+            168
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Scientific Literature Database",
+          "bbox": {
+            "x1": 201,
+            "y1": 175,
+            "x2": 412,
+            "y2": 189
+          },
+          "bbox_list": [
+            201,
+            175,
+            412,
+            189
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "It makes it easier to acquire and manage copyright- compliant PDFs",
+          "bbox": {
+            "x1": 201,
+            "y1": 197,
+            "x2": 588,
+            "y2": 210
+          },
+          "bbox_list": [
+            201,
+            197,
+            588,
+            210
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "researchsolutions.com",
+          "bbox": {
+            "x1": 201,
+            "y1": 255,
+            "x2": 320,
+            "y2": 265
+          },
+          "bbox_list": [
+            201,
+            255,
+            320,
+            265
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "OPEN",
+          "bbox": {
+            "x1": 755,
+            "y1": 255,
+            "x2": 792,
+            "y2": 265
+          },
+          "bbox_list": [
+            755,
+            255,
+            792,
+            265
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# International Journal of Consumer Studies",
+          "bbox": {
+            "x1": 44,
+            "y1": 339,
+            "x2": 600,
+            "y2": 364
+          },
+          "bbox_list": [
+            44,
+            339,
+            600,
+            364
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 60,
+            "y1": 415,
+            "x2": 800,
+            "y2": 900
+          },
+          "bbox_list": [
+            60,
+            415,
+            800,
+            900
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# Related articles suggestions  \n\nScientific Literature Database  \n\nIt makes it easier to acquire and manage copyright- compliant PDFs  \n\nresearchsolutions.com  \n\nOPEN  \n\n# International Journal of Consumer Studies  "
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The International Journal of Consumer Studies provides an international forum for academic and research papers with a focus on how consumers can enhance their security and well being. It publishes articles of interest to an international audience and at the leading edge of consumer research throughout the world. The scope of the Journal includes: - Consumer sciences and their application - Consumer policy - Consumer education",
+          "bbox": {
+            "x1": 64,
+            "y1": 25,
+            "x2": 928,
+            "y2": 88
+          },
+          "bbox_list": [
+            64,
+            25,
+            928,
+            88
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Join the conversation about this journal",
+          "bbox": {
+            "x1": 350,
+            "y1": 131,
+            "x2": 647,
+            "y2": 149
+          },
+          "bbox_list": [
+            350,
+            131,
+            647,
+            149
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Jerusalem Auto Inc Guaranteed Approval All you need is a job and a down payment - We will put you in your next dream car!",
+          "bbox": {
+            "x1": 40,
+            "y1": 450,
+            "x2": 722,
+            "y2": 504
+          },
+          "bbox_list": [
+            40,
+            450,
+            722,
+            504
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Website",
+          "bbox": {
+            "x1": 250,
+            "y1": 586,
+            "x2": 329,
+            "y2": 603
+          },
+          "bbox_list": [
+            250,
+            586,
+            329,
+            603
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Directions",
+          "bbox": {
+            "x1": 765,
+            "y1": 585,
+            "x2": 866,
+            "y2": 601
+          },
+          "bbox_list": [
+            765,
+            585,
+            866,
+            601
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "All Publishers",
+          "bbox": {
+            "x1": 330,
+            "y1": 671,
+            "x2": 468,
+            "y2": 690
+          },
+          "bbox_list": [
+            330,
+            671,
+            468,
+            690
+          ]
+        },
+        {
+          "block_id": "p3_b6",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "24/7 Customer support",
+          "bbox": {
+            "x1": 331,
+            "y1": 698,
+            "x2": 497,
+            "y2": 713
+          },
+          "bbox_list": [
+            331,
+            698,
+            497,
+            713
+          ]
+        },
+        {
+          "block_id": "p3_b7",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Easily locate, purchase, or rent full- text research papers and book chapters 24/7",
+          "bbox": {
+            "x1": 330,
+            "y1": 720,
+            "x2": 792,
+            "y2": 734
+          },
+          "bbox_list": [
+            330,
+            720,
+            792,
+            734
+          ]
+        },
+        {
+          "block_id": "p3_b8",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "researchsolutions.com",
+          "bbox": {
+            "x1": 330,
+            "y1": 779,
+            "x2": 451,
+            "y2": 789
+          },
+          "bbox_list": [
+            330,
+            779,
+            451,
+            789
+          ]
+        },
+        {
+          "block_id": "p3_b9",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "OPEN",
+          "bbox": {
+            "x1": 888,
+            "y1": 777,
+            "x2": 925,
+            "y2": 789
+          },
+          "bbox_list": [
+            888,
+            777,
+            925,
+            789
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nThe International Journal of Consumer Studies provides an international forum for academic and research papers with a focus on how consumers can enhance their security and well being. It publishes articles of interest to an international audience and at the leading edge of consumer research throughout the world. The scope of the Journal includes: - Consumer sciences and their application - Consumer policy - Consumer education  \n\nJoin the conversation about this journal  \n\nJerusalem Auto Inc Guaranteed Approval All you need is a job and a down payment - We will put you in your next dream car!  \n\nWebsite  \n\nDirections  \n\nAll Publishers  \n\n24/7 Customer support  \n\nEasily locate, purchase, or rent full- text research papers and book chapters 24/7  \n\nresearchsolutions.com  \n\nOPEN"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 0,
+            "y1": 0,
+            "x2": 999,
+            "y2": 997
+          },
+          "bbox_list": [
+            0,
+            0,
+            999,
+            997
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n====================="
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 45,
+            "y1": 0,
+            "x2": 777,
+            "y2": 344
+          },
+          "bbox_list": [
+            45,
+            0,
+            777,
+            344
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## SClmago Graphica",
+          "bbox": {
+            "x1": 68,
+            "y1": 355,
+            "x2": 230,
+            "y2": 372
+          },
+          "bbox_list": [
+            68,
+            355,
+            230,
+            372
+          ]
+        },
+        {
+          "block_id": "p5_b2",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Explore, visually communicate and make sense of data with our new data visualization tool.",
+          "bbox": {
+            "x1": 67,
+            "y1": 386,
+            "x2": 234,
+            "y2": 462
+          },
+          "bbox_list": [
+            67,
+            386,
+            234,
+            462
+          ]
+        },
+        {
+          "block_id": "p5_b3",
+          "page_number": 5,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 199,
+            "y1": 355,
+            "x2": 395,
+            "y2": 485
+          },
+          "bbox_list": [
+            199,
+            355,
+            395,
+            485
+          ]
+        },
+        {
+          "block_id": "p5_b4",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Paper24",
+          "bbox": {
+            "x1": 201,
+            "y1": 560,
+            "x2": 285,
+            "y2": 577
+          },
+          "bbox_list": [
+            201,
+            560,
+            285,
+            577
+          ]
+        },
+        {
+          "block_id": "p5_b5",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "24/7",
+          "bbox": {
+            "x1": 201,
+            "y1": 585,
+            "x2": 234,
+            "y2": 597
+          },
+          "bbox_list": [
+            201,
+            585,
+            234,
+            597
+          ]
+        },
+        {
+          "block_id": "p5_b6",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "We'll take care of all the standardized paperwork",
+          "bbox": {
+            "x1": 201,
+            "y1": 606,
+            "x2": 483,
+            "y2": 619
+          },
+          "bbox_list": [
+            201,
+            606,
+            483,
+            619
+          ]
+        },
+        {
+          "block_id": "p5_b7",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "paper24.com",
+          "bbox": {
+            "x1": 201,
+            "y1": 666,
+            "x2": 272,
+            "y2": 677
+          },
+          "bbox_list": [
+            201,
+            666,
+            272,
+            677
+          ]
+        },
+        {
+          "block_id": "p5_b8",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Metrics based on Scopus® data as of April 2023",
+          "bbox": {
+            "x1": 360,
+            "y1": 728,
+            "x2": 654,
+            "y2": 742
+          },
+          "bbox_list": [
+            360,
+            728,
+            654,
+            742
+          ]
+        },
+        {
+          "block_id": "p5_b9",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Khozhikode 2 weeks ago",
+          "bbox": {
+            "x1": 260,
+            "y1": 840,
+            "x2": 428,
+            "y2": 854
+          },
+          "bbox_list": [
+            260,
+            840,
+            428,
+            854
+          ]
+        },
+        {
+          "block_id": "p5_b10",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Why was IJCS deliberated to be a predatory journal in the recent ABDC rankings? Is it OK to publish in IJCS?",
+          "bbox": {
+            "x1": 260,
+            "y1": 862,
+            "x2": 852,
+            "y2": 895
+          },
+          "bbox_list": [
+            260,
+            862,
+            852,
+            895
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## SClmago Graphica  \n\nExplore, visually communicate and make sense of data with our new data visualization tool.  \n\n## Paper24  \n\n24/7  \n\nWe'll take care of all the standardized paperwork  \n\npaper24.com  \n\nMetrics based on Scopus® data as of April 2023  \n\nKhozhikode 2 weeks ago  \n\nWhy was IJCS deliberated to be a predatory journal in the recent ABDC rankings? Is it OK to publish in IJCS?"
+    }
+  ],
+  "total_blocks": 30
+}

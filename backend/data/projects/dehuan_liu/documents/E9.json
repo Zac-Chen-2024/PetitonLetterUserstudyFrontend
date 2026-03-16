@@ -1,0 +1,246 @@
+{
+  "exhibit_id": "E9",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit E-9",
+          "bbox": {
+            "x1": 120,
+            "y1": 448,
+            "x2": 870,
+            "y2": 545
+          },
+          "bbox_list": [
+            120,
+            448,
+            870,
+            545
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit E-9"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation Invitation Letter of Peking University Second Batch (Total Third Batch) Boya Postdoctoral Program Expert Review Meeting in 2017 (Humanities and Social Sciences)",
+          "bbox": {
+            "x1": 98,
+            "y1": 43,
+            "x2": 875,
+            "y2": 77
+          },
+          "bbox_list": [
+            98,
+            43,
+            875,
+            77
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Invitation Letter of Peking University Second Batch (Total Third Batch) Boya Postdoctoral Program Expert ReviewMeeting in 2017 (Humanities and Social Sciences)",
+          "bbox": {
+            "x1": 98,
+            "y1": 78,
+            "x2": 888,
+            "y2": 120
+          },
+          "bbox_list": [
+            98,
+            78,
+            888,
+            120
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Date: May 24, 2017, 14:21",
+          "bbox": {
+            "x1": 98,
+            "y1": 222,
+            "x2": 316,
+            "y2": 241
+          },
+          "bbox_list": [
+            98,
+            222,
+            316,
+            241
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Dear Professor Dehuan Liu:",
+          "bbox": {
+            "x1": 99,
+            "y1": 263,
+            "x2": 343,
+            "y2": 282
+          },
+          "bbox_list": [
+            99,
+            263,
+            343,
+            282
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Thank you for your concern and support for the postdoctoral work.",
+          "bbox": {
+            "x1": 178,
+            "y1": 303,
+            "x2": 720,
+            "y2": 323
+          },
+          "bbox_list": [
+            178,
+            303,
+            720,
+            323
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Peking University Second Batch (Total Third Batch) Boya Postdoctoral Program Expert Review Meeting in 2011 is going to be held on May 26, 2017 (this Friday) from 9:00 to 11:30 a.m. at Meeting Room 318, Building 5B, Shaoyuan Guest House, please attend the meeting on time. You are invited to oversee the Boya postdoctoral application materials of the School of Journalism and Communication and other departments, and introduce them at the meeting. Please also review the application materials of the Boya postdoctoral program of other schools together so that you have a prior understanding of all application materials when voting at the meeting.",
+          "bbox": {
+            "x1": 97,
+            "y1": 342,
+            "x2": 891,
+            "y2": 507
+          },
+          "bbox_list": [
+            97,
+            342,
+            891,
+            507
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The electronic versions of Peking University Boya Postdoctoral Selection Reference Standards, Summary List of Peking University Second Batch (Total Third Batch) Boya Postdoctoral School Recommendation in 2017 (Humanities and Social Science) are attached for your review.",
+          "bbox": {
+            "x1": 98,
+            "y1": 525,
+            "x2": 890,
+            "y2": 607
+          },
+          "bbox_list": [
+            98,
+            525,
+            890,
+            607
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Postdoctoral Office",
+          "bbox": {
+            "x1": 723,
+            "y1": 625,
+            "x2": 888,
+            "y2": 644
+          },
+          "bbox_list": [
+            723,
+            625,
+            888,
+            644
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "May 23, 2017",
+          "bbox": {
+            "x1": 760,
+            "y1": 666,
+            "x2": 888,
+            "y2": 685
+          },
+          "bbox_list": [
+            760,
+            666,
+            888,
+            685
+          ]
+        },
+        {
+          "block_id": "p2_b10",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Cloud Attachment from NetEase 163 Mailbox",
+          "bbox": {
+            "x1": 180,
+            "y1": 707,
+            "x2": 577,
+            "y2": 727
+          },
+          "bbox_list": [
+            180,
+            707,
+            577,
+            727
+          ]
+        },
+        {
+          "block_id": "p2_b11",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Humanities and Social Science - Attachment (65.27M, expire on June 22, 2017 15:55) Download",
+          "bbox": {
+            "x1": 220,
+            "y1": 755,
+            "x2": 840,
+            "y2": 792
+          },
+          "bbox_list": [
+            220,
+            755,
+            840,
+            792
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation Invitation Letter of Peking University Second Batch (Total Third Batch) Boya Postdoctoral Program Expert Review Meeting in 2017 (Humanities and Social Sciences)  \n\nInvitation Letter of Peking University Second Batch (Total Third Batch) Boya Postdoctoral Program Expert ReviewMeeting in 2017 (Humanities and Social Sciences)  \n\nReceiver: liudehuan@vip.sina.com  \n\nDate: May 24, 2017, 14:21  \n\n## Dear Professor Dehuan Liu:  \n\nThank you for your concern and support for the postdoctoral work.  \n\nPeking University Second Batch (Total Third Batch) Boya Postdoctoral Program Expert Review Meeting in 2011 is going to be held on May 26, 2017 (this Friday) from 9:00 to 11:30 a.m. at Meeting Room 318, Building 5B, Shaoyuan Guest House, please attend the meeting on time. You are invited to oversee the Boya postdoctoral application materials of the School of Journalism and Communication and other departments, and introduce them at the meeting. Please also review the application materials of the Boya postdoctoral program of other schools together so that you have a prior understanding of all application materials when voting at the meeting.  \n\nThe electronic versions of Peking University Boya Postdoctoral Selection Reference Standards, Summary List of Peking University Second Batch (Total Third Batch) Boya Postdoctoral School Recommendation in 2017 (Humanities and Social Science) are attached for your review.  \n\nPostdoctoral Office  \n\nMay 23, 2017  \n\n## Cloud Attachment from NetEase 163 Mailbox  \n\nHumanities and Social Science - Attachment (65.27M, expire on June 22, 2017 15:55) Download"
+    }
+  ],
+  "total_blocks": 12
+}

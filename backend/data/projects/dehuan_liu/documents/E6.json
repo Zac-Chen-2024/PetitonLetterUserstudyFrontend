@@ -1,0 +1,379 @@
+{
+  "exhibit_id": "E6",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit E-6",
+          "bbox": {
+            "x1": 120,
+            "y1": 451,
+            "x2": 870,
+            "y2": 550
+          },
+          "bbox_list": [
+            120,
+            451,
+            870,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit E-6"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Secretariat of Academic Committee of Peking University",
+          "bbox": {
+            "x1": 120,
+            "y1": 95,
+            "x2": 870,
+            "y2": 125
+          },
+          "bbox_list": [
+            120,
+            95,
+            870,
+            125
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Address: Science Building No. 5, 431, Peking University",
+          "bbox": {
+            "x1": 122,
+            "y1": 131,
+            "x2": 350,
+            "y2": 162
+          },
+          "bbox_list": [
+            122,
+            131,
+            350,
+            162
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Tel.: 010- 62753436",
+          "bbox": {
+            "x1": 437,
+            "y1": 140,
+            "x2": 555,
+            "y2": 155
+          },
+          "bbox_list": [
+            437,
+            140,
+            555,
+            155
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "E- mail: xswy@pku.edu.cn",
+          "bbox": {
+            "x1": 675,
+            "y1": 141,
+            "x2": 835,
+            "y2": 155
+          },
+          "bbox_list": [
+            675,
+            141,
+            835,
+            155
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Notice of Consent to the Change of the Academic Committee of School of Journalism & Communication",
+          "bbox": {
+            "x1": 137,
+            "y1": 202,
+            "x2": 854,
+            "y2": 247
+          },
+          "bbox_list": [
+            137,
+            202,
+            854,
+            247
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "School of Journalism & Communication:",
+          "bbox": {
+            "x1": 112,
+            "y1": 267,
+            "x2": 440,
+            "y2": 286
+          },
+          "bbox_list": [
+            112,
+            267,
+            440,
+            286
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "With the approval of the University, it is agreed that your entity will change the Academic Committee members, and the adjusted list is as follows:",
+          "bbox": {
+            "x1": 111,
+            "y1": 306,
+            "x2": 879,
+            "y2": 346
+          },
+          "bbox_list": [
+            111,
+            306,
+            879,
+            346
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Director: Dehuan Liu",
+          "bbox": {
+            "x1": 191,
+            "y1": 373,
+            "x2": 420,
+            "y2": 390
+          },
+          "bbox_list": [
+            191,
+            373,
+            420,
+            390
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Deputy Director: Kaihe Chen",
+          "bbox": {
+            "x1": 163,
+            "y1": 406,
+            "x2": 420,
+            "y2": 424
+          },
+          "bbox_list": [
+            163,
+            406,
+            420,
+            424
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Committee Member: (listed in the order of the number of strokes of surname)",
+          "bbox": {
+            "x1": 151,
+            "y1": 441,
+            "x2": 712,
+            "y2": 460
+          },
+          "bbox_list": [
+            151,
+            441,
+            712,
+            460
+          ]
+        },
+        {
+          "block_id": "p2_b10",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Weijia Wang Wei Li Jin Wu Gang Chen",
+          "bbox": {
+            "x1": 325,
+            "y1": 474,
+            "x2": 825,
+            "y2": 493
+          },
+          "bbox_list": [
+            325,
+            474,
+            825,
+            493
+          ]
+        },
+        {
+          "block_id": "p2_b11",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Shaoyang Lu Jinnan Tang Xinzhou Xie",
+          "bbox": {
+            "x1": 325,
+            "y1": 505,
+            "x2": 696,
+            "y2": 523
+          },
+          "bbox_list": [
+            325,
+            505,
+            696,
+            523
+          ]
+        },
+        {
+          "block_id": "p2_b12",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Secretariat of Academic Committee of Peking University",
+          "bbox": {
+            "x1": 425,
+            "y1": 547,
+            "x2": 877,
+            "y2": 568
+          },
+          "bbox_list": [
+            425,
+            547,
+            877,
+            568
+          ]
+        },
+        {
+          "block_id": "p2_b13",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Discipline Construction Office of Peking University (Substitute Seal)",
+          "bbox": {
+            "x1": 293,
+            "y1": 587,
+            "x2": 877,
+            "y2": 608
+          },
+          "bbox_list": [
+            293,
+            587,
+            877,
+            608
+          ]
+        },
+        {
+          "block_id": "p2_b14",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Discipline Construction Office of Peking University (Seal)",
+          "bbox": {
+            "x1": 383,
+            "y1": 627,
+            "x2": 877,
+            "y2": 648
+          },
+          "bbox_list": [
+            383,
+            627,
+            877,
+            648
+          ]
+        },
+        {
+          "block_id": "p2_b15",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Jun. 29, 2022",
+          "bbox": {
+            "x1": 758,
+            "y1": 667,
+            "x2": 877,
+            "y2": 686
+          },
+          "bbox_list": [
+            758,
+            667,
+            877,
+            686
+          ]
+        },
+        {
+          "block_id": "p2_b16",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Cc: Social Sciences Department, Human Resources Department",
+          "bbox": {
+            "x1": 108,
+            "y1": 784,
+            "x2": 616,
+            "y2": 804
+          },
+          "bbox_list": [
+            108,
+            784,
+            616,
+            804
+          ]
+        },
+        {
+          "block_id": "p2_b17",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Secretariat of Academic Committee of Peking University Printed and issued on Jun. 30, 2022",
+          "bbox": {
+            "x1": 108,
+            "y1": 822,
+            "x2": 871,
+            "y2": 844
+          },
+          "bbox_list": [
+            108,
+            822,
+            871,
+            844
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# Secretariat of Academic Committee of Peking University  \n\nAddress: Science Building No. 5, 431, Peking University  \n\nTel.: 010- 62753436  \n\nE- mail: xswy@pku.edu.cn  \n\n# Notice of Consent to the Change of the Academic Committee of School of Journalism & Communication  \n\nSchool of Journalism & Communication:  \n\nWith the approval of the University, it is agreed that your entity will change the Academic Committee members, and the adjusted list is as follows:  \n\nDirector: Dehuan Liu  \n\nDeputy Director: Kaihe Chen  \n\nCommittee Member: (listed in the order of the number of strokes of surname)  \n\nWeijia Wang Wei Li Jin Wu Gang Chen  \n\nShaoyang Lu Jinnan Tang Xinzhou Xie  \n\nSecretariat of Academic Committee of Peking University  \n\nDiscipline Construction Office of Peking University (Substitute Seal)  \n\nDiscipline Construction Office of Peking University (Seal)  \n\nJun. 29, 2022  \n\nCc: Social Sciences Department, Human Resources Department  \n\nSecretariat of Academic Committee of Peking University Printed and issued on Jun. 30, 2022"
+    }
+  ],
+  "total_blocks": 19
+}

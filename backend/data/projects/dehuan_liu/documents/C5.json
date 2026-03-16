@@ -1,0 +1,1333 @@
+{
+  "exhibit_id": "C5",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit C-5",
+          "bbox": {
+            "x1": 118,
+            "y1": 451,
+            "x2": 875,
+            "y2": 545
+          },
+          "bbox_list": [
+            118,
+            451,
+            875,
+            545
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit C-5"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 97,
+            "y1": 42,
+            "x2": 181,
+            "y2": 58
+          },
+          "bbox_list": [
+            97,
+            42,
+            181,
+            58
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ZEISS Vision Won the Silver Award in the Marketing Case Category of the \\(13^{\\text{th}}\\) Tiger Roar Awards - PR Newswire",
+          "bbox": {
+            "x1": 117,
+            "y1": 64,
+            "x2": 866,
+            "y2": 102
+          },
+          "bbox_list": [
+            117,
+            64,
+            866,
+            102
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Languages Register Log in Send a Release Media Monitoring",
+          "bbox": {
+            "x1": 97,
+            "y1": 110,
+            "x2": 880,
+            "y2": 131
+          },
+          "bbox_list": [
+            97,
+            110,
+            880,
+            131
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "PR Newswire Product & Service News Center Resource Library Contact Us Search",
+          "bbox": {
+            "x1": 97,
+            "y1": 163,
+            "x2": 890,
+            "y2": 184
+          },
+          "bbox_list": [
+            97,
+            163,
+            890,
+            184
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Overview Latest News Special Topic Industry Region Headline News of PR Newswire Multimedia News Listed Company News",
+          "bbox": {
+            "x1": 97,
+            "y1": 218,
+            "x2": 891,
+            "y2": 259
+          },
+          "bbox_list": [
+            97,
+            218,
+            891,
+            259
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## ZEISS Vision Won the Silver Award in the Marketing Case Category of the \\(13^{\\text{th}}\\text{Tiger Roar Awards}\\)",
+          "bbox": {
+            "x1": 100,
+            "y1": 293,
+            "x2": 892,
+            "y2": 344
+          },
+          "bbox_list": [
+            100,
+            293,
+            892,
+            344
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ZEISS Aug. 23, 2022 15:54 View: 2,585 Share to:",
+          "bbox": {
+            "x1": 100,
+            "y1": 377,
+            "x2": 615,
+            "y2": 401
+          },
+          "bbox_list": [
+            100,
+            377,
+            615,
+            401
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## To Build a New Vision for Games & Empower the New Future of Esports Optics",
+          "bbox": {
+            "x1": 181,
+            "y1": 439,
+            "x2": 877,
+            "y2": 461
+          },
+          "bbox_list": [
+            181,
+            439,
+            877,
+            461
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Guangzhou Aug. 23, 2022 / PR Newswire / -- The Award Ceremony of \\(13^{\\text{th}}\\) Tiger Roar Award was held in Beijing on Aug. 19, 2022. Selected project of ZEISS Vision - ZEISS \\(\\times iG\\) Esports Club: To Empower the New Future of Esports Optics stood out from over 4,000 case works submitted by brand owners, agencies, media advertising, technology companies, and other altogether more than 800 participating companies to win the Silver Award in the Marketing Case Category.",
+          "bbox": {
+            "x1": 102,
+            "y1": 497,
+            "x2": 899,
+            "y2": 627
+          },
+          "bbox_list": [
+            102,
+            497,
+            899,
+            627
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nZEISS Vision Won the Silver Award in the Marketing Case Category of the \\(13^{\\text{th}}\\) Tiger Roar Awards - PR Newswire  \n\nLanguages Register Log in Send a Release Media Monitoring  \n\nPR Newswire Product & Service News Center Resource Library Contact Us Search  \n\nOverview Latest News Special Topic Industry Region Headline News of PR Newswire Multimedia News Listed Company News  \n\n## ZEISS Vision Won the Silver Award in the Marketing Case Category of the \\(13^{\\text{th}}\\text{Tiger Roar Awards}\\)  \n\nZEISS Aug. 23, 2022 15:54 View: 2,585 Share to:  \n\n## To Build a New Vision for Games & Empower the New Future of Esports Optics  \n\nGuangzhou Aug. 23, 2022 / PR Newswire / -- The Award Ceremony of \\(13^{\\text{th}}\\) Tiger Roar Award was held in Beijing on Aug. 19, 2022. Selected project of ZEISS Vision - ZEISS \\(\\times iG\\) Esports Club: To Empower the New Future of Esports Optics stood out from over 4,000 case works submitted by brand owners, agencies, media advertising, technology companies, and other altogether more than 800 participating companies to win the Silver Award in the Marketing Case Category."
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 100,
+            "y1": 42,
+            "x2": 183,
+            "y2": 56
+          },
+          "bbox_list": [
+            100,
+            42,
+            183,
+            56
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ZEISS Vision Won the Silver Award in the Marketing Case Category of the \\(13^{\\text{th}}\\) Tiger Roar Awards - PR Newswire",
+          "bbox": {
+            "x1": 123,
+            "y1": 64,
+            "x2": 866,
+            "y2": 100
+          },
+          "bbox_list": [
+            123,
+            64,
+            866,
+            100
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 180,
+            "y1": 108,
+            "x2": 810,
+            "y2": 427
+          },
+          "bbox_list": [
+            180,
+            108,
+            810,
+            427
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ZEISS Vision Won the Silver Award in the Marketing Case Category of the \\(13^{th}\\) Tiger Roar Award",
+          "bbox": {
+            "x1": 105,
+            "y1": 465,
+            "x2": 896,
+            "y2": 508
+          },
+          "bbox_list": [
+            105,
+            465,
+            896,
+            508
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "As the most professionally influential comprehensive award in the digital field of Chinese brand marketing, this session's Tiger Roar Award selected out the winners upon online review by \\(650+\\) public jury, panel discussion and final review by \\(90+\\) final judging panel, and reexamination by \\(10+\\) executive members. After rounds of selection, ZEISS Vision won high recognition within and outside the industry based on its excellent innovative marketing case with new attempts, new methods, new products and new thoughts.",
+          "bbox": {
+            "x1": 105,
+            "y1": 545,
+            "x2": 904,
+            "y2": 669
+          },
+          "bbox_list": [
+            105,
+            545,
+            904,
+            669
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nZEISS Vision Won the Silver Award in the Marketing Case Category of the \\(13^{\\text{th}}\\) Tiger Roar Awards - PR Newswire  \n\nZEISS Vision Won the Silver Award in the Marketing Case Category of the \\(13^{th}\\) Tiger Roar Award  \n\nAs the most professionally influential comprehensive award in the digital field of Chinese brand marketing, this session's Tiger Roar Award selected out the winners upon online review by \\(650+\\) public jury, panel discussion and final review by \\(90+\\) final judging panel, and reexamination by \\(10+\\) executive members. After rounds of selection, ZEISS Vision won high recognition within and outside the industry based on its excellent innovative marketing case with new attempts, new methods, new products and new thoughts."
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 100,
+            "y1": 42,
+            "x2": 180,
+            "y2": 58
+          },
+          "bbox_list": [
+            100,
+            42,
+            180,
+            58
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ZEISS Vision Won the Silver Award in the Marketing Case Category of the \\(13^{\\text{th}}\\) Tiger Roar Awards - PR Newswire",
+          "bbox": {
+            "x1": 118,
+            "y1": 63,
+            "x2": 864,
+            "y2": 100
+          },
+          "bbox_list": [
+            118,
+            63,
+            864,
+            100
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 178,
+            "y1": 107,
+            "x2": 790,
+            "y2": 417
+          },
+          "bbox_list": [
+            178,
+            107,
+            790,
+            417
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "After rounds of selection, ZEISS Vision won high recognition within and outside the industry based on its excellent innovative marketing case with new attempts, new methods, new products and new thoughts",
+          "bbox": {
+            "x1": 103,
+            "y1": 457,
+            "x2": 896,
+            "y2": 525
+          },
+          "bbox_list": [
+            103,
+            457,
+            896,
+            525
+          ]
+        },
+        {
+          "block_id": "p4_b4",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## To Build a New Vision for Games & Empower the New Future of Esports Optics",
+          "bbox": {
+            "x1": 185,
+            "y1": 560,
+            "x2": 880,
+            "y2": 582
+          },
+          "bbox_list": [
+            185,
+            560,
+            880,
+            582
+          ]
+        },
+        {
+          "block_id": "p4_b5",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In recent years, esports has gradually become a lifestyle of entertainment popular among young people, and has been recognized by the world's major authoritative competitions. In the \\(19^{\\text{th}}\\) Asian Games to be held in Hangzhou, e- sports has been listed as an official competition event of the Asian Games for the first time. How to help the constantly increasing professional players and common game players, effectively respond to the personalized visual challenges of esports scenes, and help to gain competitive achievements and enjoy the game world has become an important industrial and social issue now and in the future.",
+          "bbox": {
+            "x1": 106,
+            "y1": 620,
+            "x2": 900,
+            "y2": 766
+          },
+          "bbox_list": [
+            106,
+            620,
+            900,
+            766
+          ]
+        },
+        {
+          "block_id": "p4_b6",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ZEISS Vision, upon unremitting innovation and accumulation of optical technology strength over the past 176 years, took the lead to have an insight into the eye pain point for professional players and common game players, and put into scientific research practice, to",
+          "bbox": {
+            "x1": 110,
+            "y1": 800,
+            "x2": 902,
+            "y2": 867
+          },
+          "bbox_list": [
+            110,
+            800,
+            902,
+            867
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nZEISS Vision Won the Silver Award in the Marketing Case Category of the \\(13^{\\text{th}}\\) Tiger Roar Awards - PR Newswire  \n\nAfter rounds of selection, ZEISS Vision won high recognition within and outside the industry based on its excellent innovative marketing case with new attempts, new methods, new products and new thoughts  \n\n## To Build a New Vision for Games & Empower the New Future of Esports Optics  \n\nIn recent years, esports has gradually become a lifestyle of entertainment popular among young people, and has been recognized by the world's major authoritative competitions. In the \\(19^{\\text{th}}\\) Asian Games to be held in Hangzhou, e- sports has been listed as an official competition event of the Asian Games for the first time. How to help the constantly increasing professional players and common game players, effectively respond to the personalized visual challenges of esports scenes, and help to gain competitive achievements and enjoy the game world has become an important industrial and social issue now and in the future.  \n\nZEISS Vision, upon unremitting innovation and accumulation of optical technology strength over the past 176 years, took the lead to have an insight into the eye pain point for professional players and common game players, and put into scientific research practice, to"
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 100,
+            "y1": 50,
+            "x2": 180,
+            "y2": 65
+          },
+          "bbox_list": [
+            100,
+            50,
+            180,
+            65
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ZEISS Vision Won the Silver Award in the Marketing Case Category of the \\(13^{\\mathrm{th}}\\) Tiger Roar Awards - PR Newswire",
+          "bbox": {
+            "x1": 118,
+            "y1": 66,
+            "x2": 864,
+            "y2": 103
+          },
+          "bbox_list": [
+            118,
+            66,
+            864,
+            103
+          ]
+        },
+        {
+          "block_id": "p5_b2",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "innovate and launch customized visual solutions, and cooperate with iG Esports Club to develop an influential and innovative cross- border marketing event. By making use of KOL team members' power of \"idol\", ZEISS Vision developed in multiple dimensions as product research & development, transmission, and popularization, etc., to deepen the brand's influence among young people, and to improve the attention of the whole society to eye health - -",
+          "bbox": {
+            "x1": 97,
+            "y1": 108,
+            "x2": 891,
+            "y2": 212
+          },
+          "bbox_list": [
+            97,
+            108,
+            891,
+            212
+          ]
+        },
+        {
+          "block_id": "p5_b3",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "New attempts: It's the first time for world well- known optical brand to carry out in- depth cross- border cooperation with KOL in esports, and to launch integrated transmission project covering online and offline channels and lasting half a year; new methods: It broke through the conventional marketing methods of the industry to make use of the influence of KOL team members to accurately reach the target audiences and deepen the brand's influence among young people through hot search, hot word and high frequency interaction; new products: Considering different scene requirements, ZEISS Vision innovatively launched two different kinds of products as practical type and accessory type, including the practical- type ZEISS esports lens innovatively launched on the basis of the new scenes, provided the target audiences with practical solutions, and launched individual jointly- designed accessory- type glasses sets as per the properties of each KOL team member, which have been popular among young people; new thoughts: ZEISS Vision abandoned the repeated infusion of eye caring popularization knowledge, and made use of KOL team members' idol demonstration effect, to popularize knowledge of eye caring and protection, and to improve the attention of the whole people to eye health.",
+          "bbox": {
+            "x1": 99,
+            "y1": 250,
+            "x2": 897,
+            "y2": 537
+          },
+          "bbox_list": [
+            99,
+            250,
+            897,
+            537
+          ]
+        },
+        {
+          "block_id": "p5_b4",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "With this project, ZEISS Vision has not only achieved breakthrough in the brand youth goal, but also seized the opportunity of cooperating with IP- class esports club to make itself known outside of fixed circle in the field of esports, to win wide recognition and support from young people, and to achieve remarkable results in the public eye health education.",
+          "bbox": {
+            "x1": 104,
+            "y1": 572,
+            "x2": 898,
+            "y2": 657
+          },
+          "bbox_list": [
+            104,
+            572,
+            898,
+            657
+          ]
+        },
+        {
+          "block_id": "p5_b5",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Mr. Zander Hattingh, Vice President of Global Marketing of ZEISS Vision, thought highly of the project: \"This innovative project, initiated by the Chinese team, takes the Chinese market as its position, and customizes for the Chinese target audiences. Our project has remarkable impact on different social medial channels, and has contributed to a wide range of public cognition and participation.\"",
+          "bbox": {
+            "x1": 105,
+            "y1": 694,
+            "x2": 900,
+            "y2": 800
+          },
+          "bbox_list": [
+            105,
+            694,
+            900,
+            800
+          ]
+        },
+        {
+          "block_id": "p5_b6",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"As we have seen, this project has a real impact on behaviors of the young audiences, and has aroused the attention of people who love games to eye caring and eye protection. This is",
+          "bbox": {
+            "x1": 108,
+            "y1": 835,
+            "x2": 901,
+            "y2": 895
+          },
+          "bbox_list": [
+            108,
+            835,
+            901,
+            895
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nZEISS Vision Won the Silver Award in the Marketing Case Category of the \\(13^{\\mathrm{th}}\\) Tiger Roar Awards - PR Newswire  \n\ninnovate and launch customized visual solutions, and cooperate with iG Esports Club to develop an influential and innovative cross- border marketing event. By making use of KOL team members' power of \"idol\", ZEISS Vision developed in multiple dimensions as product research & development, transmission, and popularization, etc., to deepen the brand's influence among young people, and to improve the attention of the whole society to eye health - -  \n\nNew attempts: It's the first time for world well- known optical brand to carry out in- depth cross- border cooperation with KOL in esports, and to launch integrated transmission project covering online and offline channels and lasting half a year; new methods: It broke through the conventional marketing methods of the industry to make use of the influence of KOL team members to accurately reach the target audiences and deepen the brand's influence among young people through hot search, hot word and high frequency interaction; new products: Considering different scene requirements, ZEISS Vision innovatively launched two different kinds of products as practical type and accessory type, including the practical- type ZEISS esports lens innovatively launched on the basis of the new scenes, provided the target audiences with practical solutions, and launched individual jointly- designed accessory- type glasses sets as per the properties of each KOL team member, which have been popular among young people; new thoughts: ZEISS Vision abandoned the repeated infusion of eye caring popularization knowledge, and made use of KOL team members' idol demonstration effect, to popularize knowledge of eye caring and protection, and to improve the attention of the whole people to eye health.  \n\nWith this project, ZEISS Vision has not only achieved breakthrough in the brand youth goal, but also seized the opportunity of cooperating with IP- class esports club to make itself known outside of fixed circle in the field of esports, to win wide recognition and support from young people, and to achieve remarkable results in the public eye health education.  \n\nMr. Zander Hattingh, Vice President of Global Marketing of ZEISS Vision, thought highly of the project: \"This innovative project, initiated by the Chinese team, takes the Chinese market as its position, and customizes for the Chinese target audiences. Our project has remarkable impact on different social medial channels, and has contributed to a wide range of public cognition and participation.\"  \n\n\"As we have seen, this project has a real impact on behaviors of the young audiences, and has aroused the attention of people who love games to eye caring and eye protection. This is"
+    },
+    {
+      "page_number": 6,
+      "text_blocks": [
+        {
+          "block_id": "p6_b0",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 97,
+            "y1": 44,
+            "x2": 180,
+            "y2": 60
+          },
+          "bbox_list": [
+            97,
+            44,
+            180,
+            60
+          ]
+        },
+        {
+          "block_id": "p6_b1",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ZEISS Vision Won the Silver Award in the Marketing Case Category of the \\(13^{\\text{th}}\\) Tiger Roar Awards - PR Newswire",
+          "bbox": {
+            "x1": 118,
+            "y1": 65,
+            "x2": 866,
+            "y2": 103
+          },
+          "bbox_list": [
+            118,
+            65,
+            866,
+            103
+          ]
+        },
+        {
+          "block_id": "p6_b2",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "extremely thrilling.\" Mr. Xiaoguang Yang, General Manager of Marketing in China Region of ZEISS Vision, shared.",
+          "bbox": {
+            "x1": 97,
+            "y1": 108,
+            "x2": 892,
+            "y2": 152
+          },
+          "bbox_list": [
+            97,
+            108,
+            892,
+            152
+          ]
+        },
+        {
+          "block_id": "p6_b3",
+          "page_number": 6,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 179,
+            "y1": 191,
+            "x2": 697,
+            "y2": 363
+          },
+          "bbox_list": [
+            179,
+            191,
+            697,
+            363
+          ]
+        },
+        {
+          "block_id": "p6_b4",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The little blue label LOGO on ZEISS products now has become the sign of quality visual experience. Both the esports players and digital players, and both the teenagers, the middle- aged and the elderly people could find personalized vision solutions in full- age lens selection provided by ZEISS Vision",
+          "bbox": {
+            "x1": 102,
+            "y1": 401,
+            "x2": 896,
+            "y2": 487
+          },
+          "bbox_list": [
+            102,
+            401,
+            896,
+            487
+          ]
+        },
+        {
+          "block_id": "p6_b5",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ZEISS × iG Esports Club: To Empower the New Future of Esports Optics is an excellent attempt of ZEISS Vision by means of new thoughts, new technologies and new groups, injecting new strength to the industry's innovative marketing. In the future, ZEISS Vision will conduct conversations with consumers of different ages and different groups at more diversified \"appearances\", striving to become the first choice for consumers in lifelong vision health management solutions.",
+          "bbox": {
+            "x1": 104,
+            "y1": 523,
+            "x2": 899,
+            "y2": 649
+          },
+          "bbox_list": [
+            104,
+            523,
+            899,
+            649
+          ]
+        },
+        {
+          "block_id": "p6_b6",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## About ZEISS",
+          "bbox": {
+            "x1": 189,
+            "y1": 689,
+            "x2": 310,
+            "y2": 708
+          },
+          "bbox_list": [
+            189,
+            689,
+            310,
+            708
+          ]
+        },
+        {
+          "block_id": "p6_b7",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ZEISS is a global leading science and technology enterprise in optics and photoelectricity industry. In the last fiscal year, the gross revenue of the four business departments of ZEISS Group as semiconductor manufacturing technology, industrial quality and research, medical technology, and optical consumer goods market has exceeded EUR seven billion.",
+          "bbox": {
+            "x1": 108,
+            "y1": 744,
+            "x2": 905,
+            "y2": 852
+          },
+          "bbox_list": [
+            108,
+            744,
+            905,
+            852
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nZEISS Vision Won the Silver Award in the Marketing Case Category of the \\(13^{\\text{th}}\\) Tiger Roar Awards - PR Newswire  \n\nextremely thrilling.\" Mr. Xiaoguang Yang, General Manager of Marketing in China Region of ZEISS Vision, shared.  \n\nThe little blue label LOGO on ZEISS products now has become the sign of quality visual experience. Both the esports players and digital players, and both the teenagers, the middle- aged and the elderly people could find personalized vision solutions in full- age lens selection provided by ZEISS Vision  \n\nZEISS × iG Esports Club: To Empower the New Future of Esports Optics is an excellent attempt of ZEISS Vision by means of new thoughts, new technologies and new groups, injecting new strength to the industry's innovative marketing. In the future, ZEISS Vision will conduct conversations with consumers of different ages and different groups at more diversified \"appearances\", striving to become the first choice for consumers in lifelong vision health management solutions.  \n\n## About ZEISS  \n\nZEISS is a global leading science and technology enterprise in optics and photoelectricity industry. In the last fiscal year, the gross revenue of the four business departments of ZEISS Group as semiconductor manufacturing technology, industrial quality and research, medical technology, and optical consumer goods market has exceeded EUR seven billion."
+    },
+    {
+      "page_number": 7,
+      "text_blocks": [
+        {
+          "block_id": "p7_b0",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 100,
+            "y1": 45,
+            "x2": 180,
+            "y2": 60
+          },
+          "bbox_list": [
+            100,
+            45,
+            180,
+            60
+          ]
+        },
+        {
+          "block_id": "p7_b1",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ZEISS Vision Won the Silver Award in the Marketing Case Category of the \\(13^{\\mathrm{th}}\\) Tiger Roar Awards - PR Newswire",
+          "bbox": {
+            "x1": 120,
+            "y1": 67,
+            "x2": 864,
+            "y2": 103
+          },
+          "bbox_list": [
+            120,
+            67,
+            864,
+            103
+          ]
+        },
+        {
+          "block_id": "p7_b2",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ZEISS is committed to developing, manufacturing and distributing cutting- edge innovative industry measurement and quality guarantee solutions, microscope solutions regarding biology and materials science, and medical technology solutions applied in diagnosis and treatment of ophthalmology and microsurgery. ZEISS is also the industry benchmark of global photolithography, with its technologies applied in the manufacturing of semiconductor elements in the chip industry. In addition, ZEISS lens, camera lens, telescope and other innovative products have also been sold to the whole world.",
+          "bbox": {
+            "x1": 98,
+            "y1": 110,
+            "x2": 892,
+            "y2": 255
+          },
+          "bbox_list": [
+            98,
+            110,
+            892,
+            255
+          ]
+        },
+        {
+          "block_id": "p7_b3",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ZEISS's product portfolio and digitalization, medical and industrial 4.0 and other future growth areas have consistent trends under a powerful brand. Based on this, ZEISS is shaping technological progress with its solutions, and constantly expanding the boundaries of optics and related fields. The Company's sustained and substantial investment in research and development has laid a solid foundation for its success, constant expansion of technology, and leading market position. ZEISS has invested \\(12\\%\\) of its revenue in research and development - such high- level investment in research and development is a tradition of ZEISS with long history, which also represents the Company's investment in the future.",
+          "bbox": {
+            "x1": 100,
+            "y1": 292,
+            "x2": 897,
+            "y2": 457
+          },
+          "bbox_list": [
+            100,
+            292,
+            897,
+            457
+          ]
+        },
+        {
+          "block_id": "p7_b4",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ZEISS has over 35,000 employees throughout the world, about 60 sales and service companies, 30 manufacturing bases and 27 research and development bases in nearly 50 countries. Established in Jena in 1846, ZEISS is headquartered in Oberkochen, Germany. Carl ZEISS Foundation, as one of the largest foundations in Germany, is committed to promoting the development of science and technology. In addition, it's the sole owner of holding company Carl ZEISS Co., Ltd. (as of Sep. 30, 2021).",
+          "bbox": {
+            "x1": 103,
+            "y1": 494,
+            "x2": 897,
+            "y2": 619
+          },
+          "bbox_list": [
+            103,
+            494,
+            897,
+            619
+          ]
+        },
+        {
+          "block_id": "p7_b5",
+          "page_number": 7,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## About ZEISS Vision",
+          "bbox": {
+            "x1": 188,
+            "y1": 661,
+            "x2": 365,
+            "y2": 680
+          },
+          "bbox_list": [
+            188,
+            661,
+            365,
+            680
+          ]
+        },
+        {
+          "block_id": "p7_b6",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ZEISS Vision focuses on the visual optics industry, with its research & development and manufacturing covering product supply throughout the ophthalmic optical value chain, to be specific: Lens and accessories, optic examination and eye measuring instruments, which are sold throughout the world in the brand of ZEISS. As an excellent manufacturer of precision optical components, ZEISS Vision is committed to integrating professional technical knowledge and innovative concepts, and bringing consumers brand new visual experience.",
+          "bbox": {
+            "x1": 107,
+            "y1": 717,
+            "x2": 900,
+            "y2": 842
+          },
+          "bbox_list": [
+            107,
+            717,
+            900,
+            842
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nZEISS Vision Won the Silver Award in the Marketing Case Category of the \\(13^{\\mathrm{th}}\\) Tiger Roar Awards - PR Newswire  \n\nZEISS is committed to developing, manufacturing and distributing cutting- edge innovative industry measurement and quality guarantee solutions, microscope solutions regarding biology and materials science, and medical technology solutions applied in diagnosis and treatment of ophthalmology and microsurgery. ZEISS is also the industry benchmark of global photolithography, with its technologies applied in the manufacturing of semiconductor elements in the chip industry. In addition, ZEISS lens, camera lens, telescope and other innovative products have also been sold to the whole world.  \n\nZEISS's product portfolio and digitalization, medical and industrial 4.0 and other future growth areas have consistent trends under a powerful brand. Based on this, ZEISS is shaping technological progress with its solutions, and constantly expanding the boundaries of optics and related fields. The Company's sustained and substantial investment in research and development has laid a solid foundation for its success, constant expansion of technology, and leading market position. ZEISS has invested \\(12\\%\\) of its revenue in research and development - such high- level investment in research and development is a tradition of ZEISS with long history, which also represents the Company's investment in the future.  \n\nZEISS has over 35,000 employees throughout the world, about 60 sales and service companies, 30 manufacturing bases and 27 research and development bases in nearly 50 countries. Established in Jena in 1846, ZEISS is headquartered in Oberkochen, Germany. Carl ZEISS Foundation, as one of the largest foundations in Germany, is committed to promoting the development of science and technology. In addition, it's the sole owner of holding company Carl ZEISS Co., Ltd. (as of Sep. 30, 2021).  \n\n## About ZEISS Vision  \n\nZEISS Vision focuses on the visual optics industry, with its research & development and manufacturing covering product supply throughout the ophthalmic optical value chain, to be specific: Lens and accessories, optic examination and eye measuring instruments, which are sold throughout the world in the brand of ZEISS. As an excellent manufacturer of precision optical components, ZEISS Vision is committed to integrating professional technical knowledge and innovative concepts, and bringing consumers brand new visual experience."
+    },
+    {
+      "page_number": 8,
+      "text_blocks": [
+        {
+          "block_id": "p8_b0",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 95,
+            "y1": 45,
+            "x2": 178,
+            "y2": 60
+          },
+          "bbox_list": [
+            95,
+            45,
+            178,
+            60
+          ]
+        },
+        {
+          "block_id": "p8_b1",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ZEISS Vision Won the Silver Award in the Marketing Case Category of the \\(13^{\\text{th}}\\) Tiger Roar Awards - PR Newswire",
+          "bbox": {
+            "x1": 116,
+            "y1": 65,
+            "x2": 863,
+            "y2": 102
+          },
+          "bbox_list": [
+            116,
+            65,
+            863,
+            102
+          ]
+        },
+        {
+          "block_id": "p8_b2",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "News Source: ZEISS",
+          "bbox": {
+            "x1": 175,
+            "y1": 113,
+            "x2": 352,
+            "y2": 133
+          },
+          "bbox_list": [
+            175,
+            113,
+            352,
+            133
+          ]
+        },
+        {
+          "block_id": "p8_b3",
+          "page_number": 8,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Global TMT",
+          "bbox": {
+            "x1": 180,
+            "y1": 282,
+            "x2": 291,
+            "y2": 301
+          },
+          "bbox_list": [
+            180,
+            282,
+            291,
+            301
+          ]
+        },
+        {
+          "block_id": "p8_b4",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "WeChat official account \"Global TMT\" releases business dynamics, financing reporting information and mergers and acquisitions information of global Internet, science and technology, media and telecommunications enterprises. Please scan the QR code to subscribe!",
+          "bbox": {
+            "x1": 100,
+            "y1": 336,
+            "x2": 893,
+            "y2": 402
+          },
+          "bbox_list": [
+            100,
+            336,
+            893,
+            402
+          ]
+        },
+        {
+          "block_id": "p8_b5",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Key words: Advertising / marketing, finance and economics / finance, electronic game, daily necessities, retail industry, and tourism industry",
+          "bbox": {
+            "x1": 101,
+            "y1": 437,
+            "x2": 893,
+            "y2": 483
+          },
+          "bbox_list": [
+            101,
+            437,
+            893,
+            483
+          ]
+        },
+        {
+          "block_id": "p8_b6",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Share to:",
+          "bbox": {
+            "x1": 184,
+            "y1": 522,
+            "x2": 348,
+            "y2": 542
+          },
+          "bbox_list": [
+            184,
+            522,
+            348,
+            542
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nZEISS Vision Won the Silver Award in the Marketing Case Category of the \\(13^{\\text{th}}\\) Tiger Roar Awards - PR Newswire  \n\nNews Source: ZEISS  \n\n## Global TMT  \n\nWeChat official account \"Global TMT\" releases business dynamics, financing reporting information and mergers and acquisitions information of global Internet, science and technology, media and telecommunications enterprises. Please scan the QR code to subscribe!  \n\nKey words: Advertising / marketing, finance and economics / finance, electronic game, daily necessities, retail industry, and tourism industry  \n\nShare to:"
+    },
+    {
+      "page_number": 9,
+      "text_blocks": [
+        {
+          "block_id": "p9_b0",
+          "page_number": 9,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## About PR Newswire",
+          "bbox": {
+            "x1": 56,
+            "y1": 155,
+            "x2": 258,
+            "y2": 173
+          },
+          "bbox_list": [
+            56,
+            155,
+            258,
+            173
+          ]
+        },
+        {
+          "block_id": "p9_b1",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "About PR NewswirePR Newswire, a Cision Ltd. company, is a leading global provider of news distribution and earned media software and services. In conjunction with Cision's cloud- based communications product suite, PR Newswire's services enable marketers, corporate communicators, and investor relations officers to identify key influencers, engage target audiences, craft and distribute strategic content, and measure meaningful impact. Combining the world's largest multi- channel, multi- cultural content dissemination network with comprehensive workflow tools and platforms, PR Newswire powers the stories of organizations around the world. PR Newswire serves tens of thousands of clients from offices in the Americas, Europe, the Middle East, Africa and Asia- Pacific regions.",
+          "bbox": {
+            "x1": 55,
+            "y1": 188,
+            "x2": 631,
+            "y2": 336
+          },
+          "bbox_list": [
+            55,
+            188,
+            631,
+            336
+          ]
+        },
+        {
+          "block_id": "p9_b2",
+          "page_number": 9,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## PR Newswire Updates",
+          "bbox": {
+            "x1": 656,
+            "y1": 149,
+            "x2": 901,
+            "y2": 167
+          },
+          "bbox_list": [
+            656,
+            149,
+            901,
+            167
+          ]
+        },
+        {
+          "block_id": "p9_b3",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "PR Newswire Host Media Tour at Bloomberg Hong Kong Attended By Seni...",
+          "bbox": {
+            "x1": 656,
+            "y1": 183,
+            "x2": 810,
+            "y2": 220
+          },
+          "bbox_list": [
+            656,
+            183,
+            810,
+            220
+          ]
+        },
+        {
+          "block_id": "p9_b4",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2022- 10- 12 11.54",
+          "bbox": {
+            "x1": 656,
+            "y1": 226,
+            "x2": 730,
+            "y2": 236
+          },
+          "bbox_list": [
+            656,
+            226,
+            730,
+            236
+          ]
+        },
+        {
+          "block_id": "p9_b5",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "PR Newswire Expands Sponsored Placement Network of Premium...",
+          "bbox": {
+            "x1": 656,
+            "y1": 257,
+            "x2": 805,
+            "y2": 293
+          },
+          "bbox_list": [
+            656,
+            257,
+            805,
+            293
+          ]
+        },
+        {
+          "block_id": "p9_b6",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2022- 07- 18 09:00",
+          "bbox": {
+            "x1": 656,
+            "y1": 300,
+            "x2": 741,
+            "y2": 309
+          },
+          "bbox_list": [
+            656,
+            300,
+            741,
+            309
+          ]
+        },
+        {
+          "block_id": "p9_b7",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Cision Launches New Suite of ESG Solutions",
+          "bbox": {
+            "x1": 656,
+            "y1": 331,
+            "x2": 805,
+            "y2": 355
+          },
+          "bbox_list": [
+            656,
+            331,
+            805,
+            355
+          ]
+        },
+        {
+          "block_id": "p9_b8",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2022- 01- 16 18.33",
+          "bbox": {
+            "x1": 656,
+            "y1": 373,
+            "x2": 736,
+            "y2": 382
+          },
+          "bbox_list": [
+            656,
+            373,
+            736,
+            382
+          ]
+        },
+        {
+          "block_id": "p9_b9",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Cision Releases First Global Diversity Report, Highlighting Gender...",
+          "bbox": {
+            "x1": 656,
+            "y1": 405,
+            "x2": 805,
+            "y2": 441
+          },
+          "bbox_list": [
+            656,
+            405,
+            805,
+            441
+          ]
+        },
+        {
+          "block_id": "p9_b10",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2022- 05- 12 18.32",
+          "bbox": {
+            "x1": 656,
+            "y1": 448,
+            "x2": 738,
+            "y2": 456
+          },
+          "bbox_list": [
+            656,
+            448,
+            738,
+            456
+          ]
+        },
+        {
+          "block_id": "p9_b11",
+          "page_number": 9,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 830,
+            "y1": 184,
+            "x2": 933,
+            "y2": 220
+          },
+          "bbox_list": [
+            830,
+            184,
+            933,
+            220
+          ]
+        },
+        {
+          "block_id": "p9_b12",
+          "page_number": 9,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 830,
+            "y1": 257,
+            "x2": 933,
+            "y2": 293
+          },
+          "bbox_list": [
+            830,
+            257,
+            933,
+            293
+          ]
+        },
+        {
+          "block_id": "p9_b13",
+          "page_number": 9,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 830,
+            "y1": 330,
+            "x2": 933,
+            "y2": 375
+          },
+          "bbox_list": [
+            830,
+            330,
+            933,
+            375
+          ]
+        },
+        {
+          "block_id": "p9_b14",
+          "page_number": 9,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 830,
+            "y1": 405,
+            "x2": 933,
+            "y2": 456
+          },
+          "bbox_list": [
+            830,
+            405,
+            933,
+            456
+          ]
+        },
+        {
+          "block_id": "p9_b15",
+          "page_number": 9,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 50,
+            "y1": 488,
+            "x2": 950,
+            "y2": 691
+          },
+          "bbox_list": [
+            50,
+            488,
+            950,
+            691
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## About PR Newswire  \n\nAbout PR NewswirePR Newswire, a Cision Ltd. company, is a leading global provider of news distribution and earned media software and services. In conjunction with Cision's cloud- based communications product suite, PR Newswire's services enable marketers, corporate communicators, and investor relations officers to identify key influencers, engage target audiences, craft and distribute strategic content, and measure meaningful impact. Combining the world's largest multi- channel, multi- cultural content dissemination network with comprehensive workflow tools and platforms, PR Newswire powers the stories of organizations around the world. PR Newswire serves tens of thousands of clients from offices in the Americas, Europe, the Middle East, Africa and Asia- Pacific regions.  \n\n## PR Newswire Updates  \n\nPR Newswire Host Media Tour at Bloomberg Hong Kong Attended By Seni...  \n\n2022- 10- 12 11.54  \n\nPR Newswire Expands Sponsored Placement Network of Premium...  \n\n2022- 07- 18 09:00  \n\nCision Launches New Suite of ESG Solutions  \n\n2022- 01- 16 18.33  \n\nCision Releases First Global Diversity Report, Highlighting Gender...  \n\n2022- 05- 12 18.32  "
+    }
+  ],
+  "total_blocks": 67
+}

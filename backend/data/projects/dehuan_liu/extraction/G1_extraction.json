@@ -1,0 +1,34 @@
+{
+  "version": "4.0",
+  "exhibit_id": "G1",
+  "extracted_at": "2026-03-15T00:00:00+00:00",
+  "applicant_name": "Dehuan Liu",
+  "document_summary": "Cover page of Marketing Research journal. Page 2 contains only an image of the journal cover. This serves as supporting evidence for Liu's publication activities in market research.",
+  "snippets": [
+    {
+      "snippet_id": "snp_G1_a1b2c3d4",
+      "exhibit_id": "G1",
+      "document_id": "doc_G1",
+      "text": "[Image: Cover page of Marketing Research journal]",
+      "page": 2,
+      "bbox": {"x1": 100, "y1": 77, "x2": 890, "y2": 857},
+      "block_id": "p2_b0",
+      "subject": "Marketing Research journal",
+      "subject_role": "third_party",
+      "recommender_name": null,
+      "is_applicant_achievement": false,
+      "evidence_type": "publication",
+      "evidence_purpose": "supporting_context",
+      "evidence_layer": "context",
+      "confidence": 0.80,
+      "reasoning": "Cover page image of Marketing Research journal, providing visual evidence of the publication venue.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    }
+  ],
+  "entities": [
+    {"id": "ent_G1_0", "name": "Marketing Research", "type": "publication", "identity": "Chinese trade and economic periodical focused on market research, founded 1953", "relation_to_applicant": "publication_venue", "snippet_ids": ["snp_G1_a1b2c3d4"], "exhibit_ids": ["G1"], "mentioned_in_blocks": ["p2_b0"], "aliases": [], "is_merged": false, "merged_from": []}
+  ],
+  "relations": [],
+  "stats": {"snippet_count": 1, "entity_count": 1, "relation_count": 0, "applicant_snippets": 0, "other_snippets": 1}
+}

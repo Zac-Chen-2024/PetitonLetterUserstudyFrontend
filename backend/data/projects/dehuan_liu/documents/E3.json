@@ -1,0 +1,1821 @@
+{
+  "exhibit_id": "E3",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit E-3",
+          "bbox": {
+            "x1": 121,
+            "y1": 450,
+            "x2": 870,
+            "y2": 546
+          },
+          "bbox_list": [
+            121,
+            450,
+            870,
+            546
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit E-3"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 100,
+            "y1": 45,
+            "x2": 170,
+            "y2": 58
+          },
+          "bbox_list": [
+            100,
+            45,
+            170,
+            58
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Dehuan Liu - School of New Media of Peking University",
+          "bbox": {
+            "x1": 293,
+            "y1": 65,
+            "x2": 646,
+            "y2": 81
+          },
+          "bbox_list": [
+            293,
+            65,
+            646,
+            81
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 60,
+            "y1": 90,
+            "x2": 940,
+            "y2": 199
+          },
+          "bbox_list": [
+            60,
+            90,
+            940,
+            199
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "News / Professor",
+          "bbox": {
+            "x1": 100,
+            "y1": 235,
+            "x2": 240,
+            "y2": 255
+          },
+          "bbox_list": [
+            100,
+            235,
+            240,
+            255
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Home > Teaching Resources > Full- Time Faculty > Professor > Article",
+          "bbox": {
+            "x1": 450,
+            "y1": 234,
+            "x2": 888,
+            "y2": 251
+          },
+          "bbox_list": [
+            450,
+            234,
+            888,
+            251
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "table",
+          "block_type_cn": "表格",
+          "text_content": "<table><tr><td>&amp;gt; Full-Time Faculty</td></tr><tr><td>Part-Time Instructor</td></tr><tr><td>Distinguished Teacher</td></tr><tr><td>Researcher</td></tr><tr><td>Administrative Staff</td></tr></table>",
+          "bbox": {
+            "x1": 62,
+            "y1": 281,
+            "x2": 220,
+            "y2": 461
+          },
+          "bbox_list": [
+            62,
+            281,
+            220,
+            461
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Professor",
+          "bbox": {
+            "x1": 230,
+            "y1": 291,
+            "x2": 312,
+            "y2": 309
+          },
+          "bbox_list": [
+            230,
+            291,
+            312,
+            309
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 234,
+            "y1": 350,
+            "x2": 481,
+            "y2": 536
+          },
+          "bbox_list": [
+            234,
+            350,
+            481,
+            536
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Dehuan Liu",
+          "bbox": {
+            "x1": 492,
+            "y1": 349,
+            "x2": 592,
+            "y2": 366
+          },
+          "bbox_list": [
+            492,
+            349,
+            592,
+            366
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Department: School of New Media of Peking University",
+          "bbox": {
+            "x1": 492,
+            "y1": 408,
+            "x2": 900,
+            "y2": 446
+          },
+          "bbox_list": [
+            492,
+            408,
+            900,
+            446
+          ]
+        },
+        {
+          "block_id": "p2_b10",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Title: Professor Position: Vice Dean",
+          "bbox": {
+            "x1": 493,
+            "y1": 455,
+            "x2": 768,
+            "y2": 473
+          },
+          "bbox_list": [
+            493,
+            455,
+            768,
+            473
+          ]
+        },
+        {
+          "block_id": "p2_b11",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Resume",
+          "bbox": {
+            "x1": 108,
+            "y1": 603,
+            "x2": 187,
+            "y2": 621
+          },
+          "bbox_list": [
+            108,
+            603,
+            187,
+            621
+          ]
+        },
+        {
+          "block_id": "p2_b12",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Dehuan Liu",
+          "bbox": {
+            "x1": 190,
+            "y1": 664,
+            "x2": 297,
+            "y2": 682
+          },
+          "bbox_list": [
+            190,
+            664,
+            297,
+            682
+          ]
+        },
+        {
+          "block_id": "p2_b13",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Title: Professor",
+          "bbox": {
+            "x1": 191,
+            "y1": 694,
+            "x2": 319,
+            "y2": 712
+          },
+          "bbox_list": [
+            191,
+            694,
+            319,
+            712
+          ]
+        },
+        {
+          "block_id": "p2_b14",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Degree: Doctor",
+          "bbox": {
+            "x1": 191,
+            "y1": 725,
+            "x2": 320,
+            "y2": 742
+          },
+          "bbox_list": [
+            191,
+            725,
+            320,
+            742
+          ]
+        },
+        {
+          "block_id": "p2_b15",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Resume:",
+          "bbox": {
+            "x1": 193,
+            "y1": 786,
+            "x2": 271,
+            "y2": 802
+          },
+          "bbox_list": [
+            193,
+            786,
+            271,
+            802
+          ]
+        },
+        {
+          "block_id": "p2_b16",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1985- 1989 Bachelor of Sociology, Sociology Department of Peking University;",
+          "bbox": {
+            "x1": 194,
+            "y1": 808,
+            "x2": 842,
+            "y2": 832
+          },
+          "bbox_list": [
+            194,
+            808,
+            842,
+            832
+          ]
+        },
+        {
+          "block_id": "p2_b17",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1989- 1992 Master of Sociology, Sociology Department of Peking University;",
+          "bbox": {
+            "x1": 194,
+            "y1": 838,
+            "x2": 826,
+            "y2": 861
+          },
+          "bbox_list": [
+            194,
+            838,
+            826,
+            861
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nDehuan Liu - School of New Media of Peking University  \n\nNews / Professor  \n\nHome > Teaching Resources > Full- Time Faculty > Professor > Article  \n\n<table><tr><td>&amp;gt; Full-Time Faculty</td></tr><tr><td>Part-Time Instructor</td></tr><tr><td>Distinguished Teacher</td></tr><tr><td>Researcher</td></tr><tr><td>Administrative Staff</td></tr></table>  \n\nProfessor  \n\nDehuan Liu  \n\nDepartment: School of New Media of Peking University  \n\nTitle: Professor Position: Vice Dean  \n\nResume  \n\nDehuan Liu  \n\nTitle: Professor  \n\nDegree: Doctor  \n\n## Resume:  \n\n1985- 1989 Bachelor of Sociology, Sociology Department of Peking University;  \n\n1989- 1992 Master of Sociology, Sociology Department of Peking University;"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1999- 2001 Ph.D. of Sociology, Sociology Department of Peking University.",
+          "bbox": {
+            "x1": 180,
+            "y1": 118,
+            "x2": 799,
+            "y2": 141
+          },
+          "bbox_list": [
+            180,
+            118,
+            799,
+            141
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1992- 2001 Lecturer of Sociology Department of Peking University",
+          "bbox": {
+            "x1": 180,
+            "y1": 150,
+            "x2": 728,
+            "y2": 171
+          },
+          "bbox_list": [
+            180,
+            150,
+            728,
+            171
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2002- 2007 Associate Professor of School of Journalism & Communication of Peking University;",
+          "bbox": {
+            "x1": 100,
+            "y1": 180,
+            "x2": 894,
+            "y2": 223
+          },
+          "bbox_list": [
+            100,
+            180,
+            894,
+            223
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2007- 2014 Professor of School of Journalism & Communication of Peking University",
+          "bbox": {
+            "x1": 180,
+            "y1": 230,
+            "x2": 884,
+            "y2": 252
+          },
+          "bbox_list": [
+            180,
+            230,
+            884,
+            252
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Feb. 2014 to the present Professor and Vice Dean of School of New Media of Peking University",
+          "bbox": {
+            "x1": 100,
+            "y1": 260,
+            "x2": 900,
+            "y2": 305
+          },
+          "bbox_list": [
+            100,
+            260,
+            900,
+            305
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Currently serving as the of School of New Media of Peking University, President of China Marketing Research Association, Vice President of China Association Of Market Information and Research, Director of Market and Media Research Center of Peking University, and a doctoral supervisor.",
+          "bbox": {
+            "x1": 102,
+            "y1": 310,
+            "x2": 896,
+            "y2": 395
+          },
+          "bbox_list": [
+            102,
+            310,
+            896,
+            395
+          ]
+        },
+        {
+          "block_id": "p3_b6",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Exchange Visit:",
+          "bbox": {
+            "x1": 186,
+            "y1": 437,
+            "x2": 323,
+            "y2": 456
+          },
+          "bbox_list": [
+            186,
+            437,
+            323,
+            456
+          ]
+        },
+        {
+          "block_id": "p3_b7",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "From Jul. to Sep. 1995, he participated in the \"First Advanced Statistics Training Course\" organized by the Ford Foundation at Peking University;",
+          "bbox": {
+            "x1": 104,
+            "y1": 462,
+            "x2": 897,
+            "y2": 506
+          },
+          "bbox_list": [
+            104,
+            462,
+            897,
+            506
+          ]
+        },
+        {
+          "block_id": "p3_b8",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "From Feb. to Aug. 1995, he participated in the ESEC English training for Peking University teachers held by America at Peking University;",
+          "bbox": {
+            "x1": 105,
+            "y1": 512,
+            "x2": 898,
+            "y2": 557
+          },
+          "bbox_list": [
+            105,
+            512,
+            898,
+            557
+          ]
+        },
+        {
+          "block_id": "p3_b9",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "From Jan. to Apr. 1996, he participated in the \"Young Sociologists Training Program\" in Department of Sociology, The Chinese University of Hong Kong;",
+          "bbox": {
+            "x1": 105,
+            "y1": 562,
+            "x2": 898,
+            "y2": 607
+          },
+          "bbox_list": [
+            105,
+            562,
+            898,
+            607
+          ]
+        },
+        {
+          "block_id": "p3_b10",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "From Jul. to Sep. 1997, he participated in the \"Second Advanced Statistics Training Course\" organized by the Ford Foundation at Chinese Academy of Social Sciences;",
+          "bbox": {
+            "x1": 106,
+            "y1": 613,
+            "x2": 900,
+            "y2": 658
+          },
+          "bbox_list": [
+            106,
+            613,
+            900,
+            658
+          ]
+        },
+        {
+          "block_id": "p3_b11",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In Dec. 2000, he participated in the \"Symposium in Memory of Qing Yang\" held at The Chinese University of Hong Kong and announced the academic paper \"Ambiguous Social Basis of Sexual Harassment\".",
+          "bbox": {
+            "x1": 108,
+            "y1": 664,
+            "x2": 901,
+            "y2": 730
+          },
+          "bbox_list": [
+            108,
+            664,
+            901,
+            730
+          ]
+        },
+        {
+          "block_id": "p3_b12",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "From Feb. 2005 to Jan. 2006, he served as a visiting scholar at Harvard University.",
+          "bbox": {
+            "x1": 189,
+            "y1": 735,
+            "x2": 864,
+            "y2": 758
+          },
+          "bbox_list": [
+            189,
+            735,
+            864,
+            758
+          ]
+        },
+        {
+          "block_id": "p3_b13",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Monographs:",
+          "bbox": {
+            "x1": 194,
+            "y1": 802,
+            "x2": 312,
+            "y2": 821
+          },
+          "bbox_list": [
+            194,
+            802,
+            312,
+            821
+          ]
+        },
+        {
+          "block_id": "p3_b14",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1. Marketing Research, Economy & Management Publishing House, 2000",
+          "bbox": {
+            "x1": 194,
+            "y1": 827,
+            "x2": 802,
+            "y2": 849
+          },
+          "bbox_list": [
+            194,
+            827,
+            802,
+            849
+          ]
+        },
+        {
+          "block_id": "p3_b15",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2. Theoretical Basis and Practical Methods of Social Survey, co-author, China",
+          "bbox": {
+            "x1": 193,
+            "y1": 855,
+            "x2": 904,
+            "y2": 877
+          },
+          "bbox_list": [
+            193,
+            855,
+            904,
+            877
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n1999- 2001 Ph.D. of Sociology, Sociology Department of Peking University.  \n\n1992- 2001 Lecturer of Sociology Department of Peking University  \n\n2002- 2007 Associate Professor of School of Journalism & Communication of Peking University;  \n\n2007- 2014 Professor of School of Journalism & Communication of Peking University  \n\nFeb. 2014 to the present Professor and Vice Dean of School of New Media of Peking University  \n\nCurrently serving as the of School of New Media of Peking University, President of China Marketing Research Association, Vice President of China Association Of Market Information and Research, Director of Market and Media Research Center of Peking University, and a doctoral supervisor.  \n\n## Exchange Visit:  \n\nFrom Jul. to Sep. 1995, he participated in the \"First Advanced Statistics Training Course\" organized by the Ford Foundation at Peking University;  \n\nFrom Feb. to Aug. 1995, he participated in the ESEC English training for Peking University teachers held by America at Peking University;  \n\nFrom Jan. to Apr. 1996, he participated in the \"Young Sociologists Training Program\" in Department of Sociology, The Chinese University of Hong Kong;  \n\nFrom Jul. to Sep. 1997, he participated in the \"Second Advanced Statistics Training Course\" organized by the Ford Foundation at Chinese Academy of Social Sciences;  \n\nIn Dec. 2000, he participated in the \"Symposium in Memory of Qing Yang\" held at The Chinese University of Hong Kong and announced the academic paper \"Ambiguous Social Basis of Sexual Harassment\".  \n\nFrom Feb. 2005 to Jan. 2006, he served as a visiting scholar at Harvard University.  \n\n## Monographs:  \n\n1. Marketing Research, Economy & Management Publishing House, 2000  \n\n2. Theoretical Basis and Practical Methods of Social Survey, co-author, China"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Statistics Press, 1990",
+          "bbox": {
+            "x1": 100,
+            "y1": 92,
+            "x2": 275,
+            "y2": 111
+          },
+          "bbox_list": [
+            100,
+            92,
+            275,
+            111
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "3. Perspective on Chinese Reading Life, co-author, Lijiang Publishing House, 1997 4. Investigation on Project Hope, co-author, Guangxi Normal University Press, 1997 5. Market Research, Economy & Management Publishing House, 2005 6. Editor-in-Chief of Modern Market Research, Higher Education Press, National Tenth Five-Year Key Planning Textbook, 2005 7. Market Research and Application, Peking University Press, 2006 8. Age Theory: Social Time in Social Space, China Industry & Commerce Associated Press, Mar. 2007 9. The Future is Happening - Ethnic Groups and Trend of Mobile Phone Users, Dehuan Liu, Xiangqing Liu, Kai Cui, Jing Jing, China Machine Press, May 2012 10. Road to Internet for the Banking Industry, Dehuan Liu, Fei Ji, Xia Li, China Machine Press, Sep. 2012 11. Insight in E-commerce - Research on Online Shopping Consumers, Dehuan Liu, Huafeng Chen, Dongjin Ren, Kai Cui, Jun. 2013 12. Subversion and Reorganization - Community and Nomadic Mobile Phone Users, Dehuan Liu, Kai Cui, Xiangqing Liu, China Machine Press, Jul. 2013 13. The Future without Limits - Comprehensive Structure Industry of Mobile Phone Users, Dehuan Liu, Jie Fu, Kai Cui, China Machine Press, Jun. 2014",
+          "bbox": {
+            "x1": 100,
+            "y1": 116,
+            "x2": 897,
+            "y2": 590
+          },
+          "bbox_list": [
+            100,
+            116,
+            897,
+            590
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Papers:",
+          "bbox": {
+            "x1": 190,
+            "y1": 630,
+            "x2": 258,
+            "y2": 648
+          },
+          "bbox_list": [
+            190,
+            630,
+            258,
+            648
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"Question Design of Questionnaire\", Sociological Studies, 1995 \"Traditional Characteristics of Chinese Enterprise Organization\", Sociological Studies, 1995 \"Impact of Reform and Opening-up on Values of College Students\" Youth Studies (co-author), 1990 \"Traditional Chinese Social Structure\", Sociology and Social Survey, 1991 \"Rural Organization and Community Development\", Sociology and Social Survey, 1993",
+          "bbox": {
+            "x1": 100,
+            "y1": 655,
+            "x2": 905,
+            "y2": 864
+          },
+          "bbox_list": [
+            100,
+            655,
+            905,
+            864
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nStatistics Press, 1990  \n\n3. Perspective on Chinese Reading Life, co-author, Lijiang Publishing House, 1997  \n\n4. Investigation on Project Hope, co-author, Guangxi Normal University Press, 1997  \n\n5. Market Research, Economy & Management Publishing House, 2005  \n\n6. Editor-in-Chief of Modern Market Research, Higher Education Press, National Tenth Five-Year Key Planning Textbook, 2005  \n\n7. Market Research and Application, Peking University Press, 2006  \n\n8. Age Theory: Social Time in Social Space, China Industry & Commerce Associated Press, Mar. 2007  \n\n9. The Future is Happening - Ethnic Groups and Trend of Mobile Phone Users, Dehuan Liu, Xiangqing Liu, Kai Cui, Jing Jing, China Machine Press, May 2012  \n\n10. Road to Internet for the Banking Industry, Dehuan Liu, Fei Ji, Xia Li, China Machine Press, Sep. 2012  \n\n11. Insight in E-commerce - Research on Online Shopping Consumers, Dehuan Liu, Huafeng Chen, Dongjin Ren, Kai Cui, Jun. 2013  \n\n12. Subversion and Reorganization - Community and Nomadic Mobile Phone Users, Dehuan Liu, Kai Cui, Xiangqing Liu, China Machine Press, Jul. 2013  \n\n13. The Future without Limits - Comprehensive Structure Industry of Mobile Phone Users, Dehuan Liu, Jie Fu, Kai Cui, China Machine Press, Jun. 2014  \n\n## Papers:  \n\n\"Question Design of Questionnaire\", Sociological Studies, 1995  \"Traditional Characteristics of Chinese Enterprise Organization\", Sociological Studies, 1995  \"Impact of Reform and Opening-up on Values of College Students\" Youth Studies (co-author), 1990  \"Traditional Chinese Social Structure\", Sociology and Social Survey, 1991  \"Rural Organization and Community Development\", Sociology and Social Survey, 1993"
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"One Family, Two Systems': Current Situation, Countermeasures and Causes\" included in Chinese Families in Transition, Wide Angle Press, 1998",
+          "bbox": {
+            "x1": 99,
+            "y1": 88,
+            "x2": 891,
+            "y2": 131
+          },
+          "bbox_list": [
+            99,
+            88,
+            891,
+            131
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"Research on Consumption Structure of Higher Income Group\", Economic Information, 1998",
+          "bbox": {
+            "x1": 100,
+            "y1": 138,
+            "x2": 894,
+            "y2": 182
+          },
+          "bbox_list": [
+            100,
+            138,
+            894,
+            182
+          ]
+        },
+        {
+          "block_id": "p5_b2",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"Research on Consumer Behavior in High- end Communities\", China Business Journal, 1998",
+          "bbox": {
+            "x1": 100,
+            "y1": 189,
+            "x2": 897,
+            "y2": 233
+          },
+          "bbox_list": [
+            100,
+            189,
+            897,
+            233
+          ]
+        },
+        {
+          "block_id": "p5_b3",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"Chinese Entrepreneurs: Sources, Incentives and Liquid Income\", Chinese Contemporary Enterprise System and Entrepreneurs, China Society Press (cooperation), 1999",
+          "bbox": {
+            "x1": 101,
+            "y1": 240,
+            "x2": 896,
+            "y2": 284
+          },
+          "bbox_list": [
+            101,
+            240,
+            896,
+            284
+          ]
+        },
+        {
+          "block_id": "p5_b4",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"Review of the 'Drifting Generation'\", New Weekly (co- author), 2000",
+          "bbox": {
+            "x1": 180,
+            "y1": 291,
+            "x2": 752,
+            "y2": 314
+          },
+          "bbox_list": [
+            180,
+            291,
+            752,
+            314
+          ]
+        },
+        {
+          "block_id": "p5_b5",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"Research on Chinese Civil Aviation\", New Weekly (co- author), 2000",
+          "bbox": {
+            "x1": 180,
+            "y1": 322,
+            "x2": 750,
+            "y2": 344
+          },
+          "bbox_list": [
+            180,
+            322,
+            750,
+            344
+          ]
+        },
+        {
+          "block_id": "p5_b6",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"Dilemma: Research on Distribution of Female College Students\", Sociology and Social Survey, 1988",
+          "bbox": {
+            "x1": 102,
+            "y1": 351,
+            "x2": 897,
+            "y2": 395
+          },
+          "bbox_list": [
+            102,
+            351,
+            897,
+            395
+          ]
+        },
+        {
+          "block_id": "p5_b7",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"Analysis of the Causes of Student Movement\", Sociology and Social Survey, 1988",
+          "bbox": {
+            "x1": 180,
+            "y1": 401,
+            "x2": 865,
+            "y2": 425
+          },
+          "bbox_list": [
+            180,
+            401,
+            865,
+            425
+          ]
+        },
+        {
+          "block_id": "p5_b8",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"Analysis of 86 Student Movement\", Youth Studies, 1988",
+          "bbox": {
+            "x1": 181,
+            "y1": 432,
+            "x2": 655,
+            "y2": 454
+          },
+          "bbox_list": [
+            181,
+            432,
+            655,
+            454
+          ]
+        },
+        {
+          "block_id": "p5_b9",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"Research on Student Movement Structure\", Peking University Gazette, 1986",
+          "bbox": {
+            "x1": 181,
+            "y1": 462,
+            "x2": 820,
+            "y2": 485
+          },
+          "bbox_list": [
+            181,
+            462,
+            820,
+            485
+          ]
+        },
+        {
+          "block_id": "p5_b10",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"Research on Beijing Newspaper Retail Sale Market\", International Journal of Advertising, 2001",
+          "bbox": {
+            "x1": 105,
+            "y1": 492,
+            "x2": 900,
+            "y2": 537
+          },
+          "bbox_list": [
+            105,
+            492,
+            900,
+            537
+          ]
+        },
+        {
+          "block_id": "p5_b11",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"Application of Age Variables in Data Analysis\", Marketing Research, 2001",
+          "bbox": {
+            "x1": 182,
+            "y1": 543,
+            "x2": 806,
+            "y2": 566
+          },
+          "bbox_list": [
+            182,
+            543,
+            806,
+            566
+          ]
+        },
+        {
+          "block_id": "p5_b12",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Game Addiction as Compensatory Mechanism - Family Factors for Teenager Game Addiction, Journal of Advertising Study, 2014. 3",
+          "bbox": {
+            "x1": 108,
+            "y1": 573,
+            "x2": 900,
+            "y2": 618
+          },
+          "bbox_list": [
+            108,
+            573,
+            900,
+            618
+          ]
+        },
+        {
+          "block_id": "p5_b13",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "New Pattern and Trend of Mobile Internet, China Education Network, 2014. 9",
+          "bbox": {
+            "x1": 185,
+            "y1": 624,
+            "x2": 826,
+            "y2": 647
+          },
+          "bbox_list": [
+            185,
+            624,
+            826,
+            647
+          ]
+        },
+        {
+          "block_id": "p5_b14",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In Contrast to \"Game Addiction\": Establishment of Multi- factor \"Involved\" Index, Journal of Advertising Study, 2015. 1",
+          "bbox": {
+            "x1": 108,
+            "y1": 653,
+            "x2": 901,
+            "y2": 699
+          },
+          "bbox_list": [
+            108,
+            653,
+            901,
+            699
+          ]
+        },
+        {
+          "block_id": "p5_b15",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Research on Involved Influencing Factors of Teenager Online Game Addiction, Journal of Advertising Study, 2015. 2",
+          "bbox": {
+            "x1": 109,
+            "y1": 704,
+            "x2": 901,
+            "y2": 750
+          },
+          "bbox_list": [
+            109,
+            704,
+            901,
+            750
+          ]
+        },
+        {
+          "block_id": "p5_b16",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Research on Teachers' Cognition, Attitude and Influencing Factors to Online Game, Journal of Advertising Study, 2015. 3",
+          "bbox": {
+            "x1": 110,
+            "y1": 755,
+            "x2": 902,
+            "y2": 800
+          },
+          "bbox_list": [
+            110,
+            755,
+            902,
+            800
+          ]
+        },
+        {
+          "block_id": "p5_b17",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Research on Cognition and Management Parent Group on Teenager Online Game Use, Beijing Youth Research, 2015. 6",
+          "bbox": {
+            "x1": 111,
+            "y1": 805,
+            "x2": 903,
+            "y2": 851
+          },
+          "bbox_list": [
+            111,
+            805,
+            903,
+            851
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n\"One Family, Two Systems': Current Situation, Countermeasures and Causes\" included in Chinese Families in Transition, Wide Angle Press, 1998  \n\n\"Research on Consumption Structure of Higher Income Group\", Economic Information, 1998  \n\n\"Research on Consumer Behavior in High- end Communities\", China Business Journal, 1998  \n\n\"Chinese Entrepreneurs: Sources, Incentives and Liquid Income\", Chinese Contemporary Enterprise System and Entrepreneurs, China Society Press (cooperation), 1999  \n\n\"Review of the 'Drifting Generation'\", New Weekly (co- author), 2000  \n\n\"Research on Chinese Civil Aviation\", New Weekly (co- author), 2000  \n\n\"Dilemma: Research on Distribution of Female College Students\", Sociology and Social Survey, 1988  \n\n\"Analysis of the Causes of Student Movement\", Sociology and Social Survey, 1988  \n\n\"Analysis of 86 Student Movement\", Youth Studies, 1988  \n\n\"Research on Student Movement Structure\", Peking University Gazette, 1986  \n\n\"Research on Beijing Newspaper Retail Sale Market\", International Journal of Advertising, 2001  \n\n\"Application of Age Variables in Data Analysis\", Marketing Research, 2001  \n\nGame Addiction as Compensatory Mechanism - Family Factors for Teenager Game Addiction, Journal of Advertising Study, 2014. 3  \n\nNew Pattern and Trend of Mobile Internet, China Education Network, 2014. 9  \n\nIn Contrast to \"Game Addiction\": Establishment of Multi- factor \"Involved\" Index, Journal of Advertising Study, 2015. 1  \n\nResearch on Involved Influencing Factors of Teenager Online Game Addiction, Journal of Advertising Study, 2015. 2  \n\nResearch on Teachers' Cognition, Attitude and Influencing Factors to Online Game, Journal of Advertising Study, 2015. 3  \n\nResearch on Cognition and Management Parent Group on Teenager Online Game Use, Beijing Youth Research, 2015. 6"
+    },
+    {
+      "page_number": 6,
+      "text_blocks": [
+        {
+          "block_id": "p6_b0",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Scientific Research Projects:",
+          "bbox": {
+            "x1": 180,
+            "y1": 91,
+            "x2": 430,
+            "y2": 111
+          },
+          "bbox_list": [
+            180,
+            91,
+            430,
+            111
+          ]
+        },
+        {
+          "block_id": "p6_b1",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1. In 2000, he participated in the \"Research on Social Network and Mental Health\" (in cooperation with The Chinese University of Hong Kong); 2. From 1999 to 2000, he presided over the \"Research on World Bank Beijing Environment Project\" (in cooperation with the World Bank); 3. In 1998, he presided over the \"(Lifestyle), (China Business News) series of research\"; 4. In 1997, he participated in \"Research on Social Network\"; 5. In 1997, he presided over the \"Hope Project Evaluation Project\" (in cooperation with China Youth Development Foundation); 6. In 1997, he presided over the \"Research on Chinese Reading Life of Twenty Years\"; 7. In 1997, he participated in the \"Research on Higher Income Community Lifestyle\"; 8. From 1992 to 1996, he participated in the \"Research on District Economy and Community Development\" (in cooperation with Shenhe District Government, Shenyang City); 9. From 1996 to 1998, he participated in the \"Research on Migrant Workers\"; 10. In 1998, he presided over the \"Credit Research\"; 12. In 2000, he participated in the \"Research on Migrant Population\" (in cooperation with America); 13. In 1996, he participated in the \"Research on Chinese Entrepreneur\" (in cooperation with EU); 14. From 1992 to 1993, he presided over the \"Research on Chinese Wholesale Market\" (in cooperation with Shenhe District Government, Shenyang City); 15. In 2000, he presided over the \"Research on Post and Telecommunication System\" (in cooperation with Beijing International Post Office); 16. In 2001, he continued to presided over the \"Research on World Bank Beijing Environment Project\" (in cooperation with the World Bank). 17. In 2001, he presided over the \"Research on Beijing Newspaper Retail Sale Market\"; 18. In 2001, he participated in the \"Research on the Culture Development Strategy of China Life\";",
+          "bbox": {
+            "x1": 99,
+            "y1": 117,
+            "x2": 896,
+            "y2": 870
+          },
+          "bbox_list": [
+            99,
+            117,
+            896,
+            870
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## Scientific Research Projects:  \n\n1. In 2000, he participated in the \"Research on Social Network and Mental Health\" (in cooperation with The Chinese University of Hong Kong); \n\n2. From 1999 to 2000, he presided over the \"Research on World Bank Beijing Environment Project\" (in cooperation with the World Bank); \n\n3. In 1998, he presided over the \"(Lifestyle), (China Business News) series of research\"; \n\n4. In 1997, he participated in \"Research on Social Network\"; \n\n5. In 1997, he presided over the \"Hope Project Evaluation Project\" (in cooperation with China Youth Development Foundation); \n\n6. In 1997, he presided over the \"Research on Chinese Reading Life of Twenty Years\"; \n\n7. In 1997, he participated in the \"Research on Higher Income Community Lifestyle\"; \n\n8. From 1992 to 1996, he participated in the \"Research on District Economy and Community Development\" (in cooperation with Shenhe District Government, Shenyang City); \n\n9. From 1996 to 1998, he participated in the \"Research on Migrant Workers\"; \n\n10. In 1998, he presided over the \"Credit Research\"; \n\n12. In 2000, he participated in the \"Research on Migrant Population\" (in cooperation with America); \n\n13. In 1996, he participated in the \"Research on Chinese Entrepreneur\" (in cooperation with EU); \n\n14. From 1992 to 1993, he presided over the \"Research on Chinese Wholesale Market\" (in cooperation with Shenhe District Government, Shenyang City); \n\n15. In 2000, he presided over the \"Research on Post and Telecommunication System\" (in cooperation with Beijing International Post Office); \n\n16. In 2001, he continued to presided over the \"Research on World Bank Beijing Environment Project\" (in cooperation with the World Bank). \n\n17. In 2001, he presided over the \"Research on Beijing Newspaper Retail Sale Market\"; \n\n18. In 2001, he participated in the \"Research on the Culture Development Strategy of China Life\";"
+    },
+    {
+      "page_number": 7,
+      "text_blocks": [
+        {
+          "block_id": "p7_b0",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 100,
+            "y1": 45,
+            "x2": 170,
+            "y2": 59
+          },
+          "bbox_list": [
+            100,
+            45,
+            170,
+            59
+          ]
+        },
+        {
+          "block_id": "p7_b1",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Dehuan Liu - School of New Media of Peking University",
+          "bbox": {
+            "x1": 295,
+            "y1": 64,
+            "x2": 647,
+            "y2": 81
+          },
+          "bbox_list": [
+            295,
+            64,
+            647,
+            81
+          ]
+        },
+        {
+          "block_id": "p7_b2",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "19. In 2003, he presided over the project of \"Research on Beijing Real Estate Market and Media\"",
+          "bbox": {
+            "x1": 100,
+            "y1": 88,
+            "x2": 894,
+            "y2": 135
+          },
+          "bbox_list": [
+            100,
+            88,
+            894,
+            135
+          ]
+        },
+        {
+          "block_id": "p7_b3",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "20. In 2004, he presided over the \"Research on Sina.com\"",
+          "bbox": {
+            "x1": 180,
+            "y1": 140,
+            "x2": 654,
+            "y2": 161
+          },
+          "bbox_list": [
+            180,
+            140,
+            654,
+            161
+          ]
+        },
+        {
+          "block_id": "p7_b4",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "21. In 2004, he presided over the \"Research on Foreign Language Films of CCTV Movie Channel\"",
+          "bbox": {
+            "x1": 100,
+            "y1": 168,
+            "x2": 895,
+            "y2": 214
+          },
+          "bbox_list": [
+            100,
+            168,
+            895,
+            214
+          ]
+        },
+        {
+          "block_id": "p7_b5",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "22. In 2005, he participated in the \"Research on Practical Status of Chinese Internet\"",
+          "bbox": {
+            "x1": 180,
+            "y1": 219,
+            "x2": 870,
+            "y2": 243
+          },
+          "bbox_list": [
+            180,
+            219,
+            870,
+            243
+          ]
+        },
+        {
+          "block_id": "p7_b6",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "23. From 2003 to 2005, he supported the \"China Market Research Industry Survey\"",
+          "bbox": {
+            "x1": 180,
+            "y1": 249,
+            "x2": 866,
+            "y2": 273
+          },
+          "bbox_list": [
+            180,
+            249,
+            866,
+            273
+          ]
+        },
+        {
+          "block_id": "p7_b7",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "24. In 2011, he presided over the major project of National Social Science Foundation \"Research on the Impact and Guidance of Online Game on Teenager Development\"",
+          "bbox": {
+            "x1": 100,
+            "y1": 279,
+            "x2": 895,
+            "y2": 326
+          },
+          "bbox_list": [
+            100,
+            279,
+            895,
+            326
+          ]
+        },
+        {
+          "block_id": "p7_b8",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "25. In 2012, he presided over a series of research on \"Mobile Phone People - Mobile Internet Panorama Survey\"",
+          "bbox": {
+            "x1": 101,
+            "y1": 330,
+            "x2": 896,
+            "y2": 377
+          },
+          "bbox_list": [
+            101,
+            330,
+            896,
+            377
+          ]
+        },
+        {
+          "block_id": "p7_b9",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "26. In 2012, he presided over the Research on Internet development",
+          "bbox": {
+            "x1": 185,
+            "y1": 381,
+            "x2": 737,
+            "y2": 405
+          },
+          "bbox_list": [
+            185,
+            381,
+            737,
+            405
+          ]
+        },
+        {
+          "block_id": "p7_b10",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "27. In 2012, he presided over the Research on Internet and Financial Banking",
+          "bbox": {
+            "x1": 185,
+            "y1": 410,
+            "x2": 816,
+            "y2": 435
+          },
+          "bbox_list": [
+            185,
+            410,
+            816,
+            435
+          ]
+        },
+        {
+          "block_id": "p7_b11",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "28. In 2013, he presided over the Report on Urban New Blue Collar Survival in 2013",
+          "bbox": {
+            "x1": 185,
+            "y1": 440,
+            "x2": 878,
+            "y2": 465
+          },
+          "bbox_list": [
+            185,
+            440,
+            878,
+            465
+          ]
+        },
+        {
+          "block_id": "p7_b12",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "29. In 2013, he presided over the \"Research on Online Shopping Consumer\"",
+          "bbox": {
+            "x1": 186,
+            "y1": 470,
+            "x2": 815,
+            "y2": 496
+          },
+          "bbox_list": [
+            186,
+            470,
+            815,
+            496
+          ]
+        },
+        {
+          "block_id": "p7_b13",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "30. In 2014, he presided over the Research on Employment of Fresh Graduates in 2014",
+          "bbox": {
+            "x1": 186,
+            "y1": 500,
+            "x2": 896,
+            "y2": 526
+          },
+          "bbox_list": [
+            186,
+            500,
+            896,
+            526
+          ]
+        },
+        {
+          "block_id": "p7_b14",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "31. In 2014, he presided over the Research on Salary of Basic Posts in 2014",
+          "bbox": {
+            "x1": 186,
+            "y1": 531,
+            "x2": 805,
+            "y2": 556
+          },
+          "bbox_list": [
+            186,
+            531,
+            805,
+            556
+          ]
+        },
+        {
+          "block_id": "p7_b15",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "32. In 2014, he presided over the \"Research on Internet Strategy\" of CIG",
+          "bbox": {
+            "x1": 186,
+            "y1": 561,
+            "x2": 780,
+            "y2": 586
+          },
+          "bbox_list": [
+            186,
+            561,
+            780,
+            586
+          ]
+        },
+        {
+          "block_id": "p7_b16",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "33. In 2014, he presided over the \"Research on LeTV Ecology\" of LeTV",
+          "bbox": {
+            "x1": 186,
+            "y1": 591,
+            "x2": 780,
+            "y2": 617
+          },
+          "bbox_list": [
+            186,
+            591,
+            780,
+            617
+          ]
+        },
+        {
+          "block_id": "p7_b17",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "34. In 2014, he presided over the \"Research on Sina Users\"",
+          "bbox": {
+            "x1": 187,
+            "y1": 622,
+            "x2": 673,
+            "y2": 647
+          },
+          "bbox_list": [
+            187,
+            622,
+            673,
+            647
+          ]
+        },
+        {
+          "block_id": "p7_b18",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "35. In 2014, he presided over the \"Research on Intermediate and Grass-roots of ganji.com\"",
+          "bbox": {
+            "x1": 108,
+            "y1": 652,
+            "x2": 901,
+            "y2": 700
+          },
+          "bbox_list": [
+            108,
+            652,
+            901,
+            700
+          ]
+        },
+        {
+          "block_id": "p7_b19",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "36. In 2014, he presided over the Research on Kitchen and Bathroom Brands\" of Professional Committee for Kitchen and Bathroom of China Association for Engineering Construction Standardization",
+          "bbox": {
+            "x1": 110,
+            "y1": 702,
+            "x2": 903,
+            "y2": 771
+          },
+          "bbox_list": [
+            110,
+            702,
+            903,
+            771
+          ]
+        },
+        {
+          "block_id": "p7_b20",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "37. In 2014, he presided over the \"Research on NetEase Brand\"",
+          "bbox": {
+            "x1": 190,
+            "y1": 776,
+            "x2": 710,
+            "y2": 800
+          },
+          "bbox_list": [
+            190,
+            776,
+            710,
+            800
+          ]
+        },
+        {
+          "block_id": "p7_b21",
+          "page_number": 7,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Extracurricular Work (Speeches):",
+          "bbox": {
+            "x1": 194,
+            "y1": 839,
+            "x2": 490,
+            "y2": 860
+          },
+          "bbox_list": [
+            194,
+            839,
+            490,
+            860
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nDehuan Liu - School of New Media of Peking University  \n\n19. In 2003, he presided over the project of \"Research on Beijing Real Estate Market and Media\"  \n\n20. In 2004, he presided over the \"Research on Sina.com\"  \n\n21. In 2004, he presided over the \"Research on Foreign Language Films of CCTV Movie Channel\"  \n\n22. In 2005, he participated in the \"Research on Practical Status of Chinese Internet\"  \n\n23. From 2003 to 2005, he supported the \"China Market Research Industry Survey\"  \n\n24. In 2011, he presided over the major project of National Social Science Foundation \"Research on the Impact and Guidance of Online Game on Teenager Development\"  \n\n25. In 2012, he presided over a series of research on \"Mobile Phone People - Mobile Internet Panorama Survey\"  \n\n26. In 2012, he presided over the Research on Internet development  \n\n27. In 2012, he presided over the Research on Internet and Financial Banking  \n\n28. In 2013, he presided over the Report on Urban New Blue Collar Survival in 2013  \n\n29. In 2013, he presided over the \"Research on Online Shopping Consumer\"  \n\n30. In 2014, he presided over the Research on Employment of Fresh Graduates in 2014  \n\n31. In 2014, he presided over the Research on Salary of Basic Posts in 2014  \n\n32. In 2014, he presided over the \"Research on Internet Strategy\" of CIG  \n\n33. In 2014, he presided over the \"Research on LeTV Ecology\" of LeTV  \n\n34. In 2014, he presided over the \"Research on Sina Users\"  \n\n35. In 2014, he presided over the \"Research on Intermediate and Grass-roots of ganji.com\"  \n\n36. In 2014, he presided over the Research on Kitchen and Bathroom Brands\" of Professional Committee for Kitchen and Bathroom of China Association for Engineering Construction Standardization  \n\n37. In 2014, he presided over the \"Research on NetEase Brand\"  \n\n## Extracurricular Work (Speeches):"
+    },
+    {
+      "page_number": 8,
+      "text_blocks": [
+        {
+          "block_id": "p8_b0",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2012 Internet Conference “Seven Trends in Mobile Internet Development” http://v.youku.com/v_show/id_XNDUxODc2ODg0. html",
+          "bbox": {
+            "x1": 98,
+            "y1": 90,
+            "x2": 891,
+            "y2": 134
+          },
+          "bbox_list": [
+            98,
+            90,
+            891,
+            134
+          ]
+        },
+        {
+          "block_id": "p8_b1",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2012 - Peking University Internet Forum “Problems and Opportunities of E-commerce Data Mining” http://v.youku.com/v_show/id_XMzgwMjExMjcy. html",
+          "bbox": {
+            "x1": 100,
+            "y1": 139,
+            "x2": 894,
+            "y2": 184
+          },
+          "bbox_list": [
+            100,
+            139,
+            894,
+            184
+          ]
+        },
+        {
+          "block_id": "p8_b2",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2014 Internet Conference “Mobile Phone Industry Development Trend”",
+          "bbox": {
+            "x1": 180,
+            "y1": 190,
+            "x2": 768,
+            "y2": 213
+          },
+          "bbox_list": [
+            180,
+            190,
+            768,
+            213
+          ]
+        },
+        {
+          "block_id": "p8_b3",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "http://v.ku6. com/show/23t-c9a1lm7zaMEDSjL6Qw...html?ptag=vsogou",
+          "bbox": {
+            "x1": 180,
+            "y1": 221,
+            "x2": 767,
+            "y2": 244
+          },
+          "bbox_list": [
+            180,
+            221,
+            767,
+            244
+          ]
+        },
+        {
+          "block_id": "p8_b4",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2014 NetEase Attitude Open Course “Megatrends in Ethics, Brands, and Life Groups” http://open.163. com/taidu/liudehuan",
+          "bbox": {
+            "x1": 100,
+            "y1": 250,
+            "x2": 901,
+            "y2": 296
+          },
+          "bbox_list": [
+            100,
+            250,
+            901,
+            296
+          ]
+        },
+        {
+          "block_id": "p8_b5",
+          "page_number": 8,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Honors and Awards:",
+          "bbox": {
+            "x1": 185,
+            "y1": 336,
+            "x2": 365,
+            "y2": 355
+          },
+          "bbox_list": [
+            185,
+            336,
+            365,
+            355
+          ]
+        },
+        {
+          "block_id": "p8_b6",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In 2007, he was selected as “Top Ten Teachers of Peking University”",
+          "bbox": {
+            "x1": 184,
+            "y1": 363,
+            "x2": 746,
+            "y2": 386
+          },
+          "bbox_list": [
+            184,
+            363,
+            746,
+            386
+          ]
+        },
+        {
+          "block_id": "p8_b7",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In 2008, he was selected as a scholar of Beijing “Hundred Talents Project”",
+          "bbox": {
+            "x1": 184,
+            "y1": 392,
+            "x2": 790,
+            "y2": 415
+          },
+          "bbox_list": [
+            184,
+            392,
+            790,
+            415
+          ]
+        },
+        {
+          "block_id": "p8_b8",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "His book Age Theory: Social Time in Social Space won the third prize of the Award for Outstanding Achievements in Scientific Research of Higher Education Institutions (Humanities and Social Sciences).",
+          "bbox": {
+            "x1": 105,
+            "y1": 421,
+            "x2": 898,
+            "y2": 488
+          },
+          "bbox_list": [
+            105,
+            421,
+            898,
+            488
+          ]
+        },
+        {
+          "block_id": "p8_b9",
+          "page_number": 8,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Research Areas",
+          "bbox": {
+            "x1": 201,
+            "y1": 529,
+            "x2": 360,
+            "y2": 549
+          },
+          "bbox_list": [
+            201,
+            529,
+            360,
+            549
+          ]
+        },
+        {
+          "block_id": "p8_b10",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Market and media analysis, communication research methods, Internet and mobile Internet research, data analysis and data mining, market research, etc.",
+          "bbox": {
+            "x1": 108,
+            "y1": 556,
+            "x2": 899,
+            "y2": 601
+          },
+          "bbox_list": [
+            108,
+            556,
+            899,
+            601
+          ]
+        },
+        {
+          "block_id": "p8_b11",
+          "page_number": 8,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 108,
+            "y1": 639,
+            "x2": 899,
+            "y2": 757
+          },
+          "bbox_list": [
+            108,
+            639,
+            899,
+            757
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n2012 Internet Conference “Seven Trends in Mobile Internet Development” http://v.youku.com/v_show/id_XNDUxODc2ODg0. html  \n\n2012 - Peking University Internet Forum “Problems and Opportunities of E-commerce Data Mining” http://v.youku.com/v_show/id_XMzgwMjExMjcy. html  \n\n2014 Internet Conference “Mobile Phone Industry Development Trend”  \n\nhttp://v.ku6. com/show/23t-c9a1lm7zaMEDSjL6Qw...html?ptag=vsogou  \n\n2014 NetEase Attitude Open Course “Megatrends in Ethics, Brands, and Life Groups” http://open.163. com/taidu/liudehuan  \n\n## Honors and Awards:  \n\nIn 2007, he was selected as “Top Ten Teachers of Peking University”  \n\nIn 2008, he was selected as a scholar of Beijing “Hundred Talents Project”  \n\nHis book Age Theory: Social Time in Social Space won the third prize of the Award for Outstanding Achievements in Scientific Research of Higher Education Institutions (Humanities and Social Sciences).  \n\n## Research Areas  \n\nMarket and media analysis, communication research methods, Internet and mobile Internet research, data analysis and data mining, market research, etc.  "
+    }
+  ],
+  "total_blocks": 93
+}

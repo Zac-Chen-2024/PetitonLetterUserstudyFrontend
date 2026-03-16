@@ -1,0 +1,57 @@
+{
+  "version": "4.0",
+  "exhibit_id": "G2",
+  "extracted_at": "2026-03-15T00:00:00+00:00",
+  "applicant_name": "Dehuan Liu",
+  "document_summary": "Introduction page for Marketing Research journal, a trade and economic periodical founded in 1953, sponsored by the Statistical Information Consulting Center of Henan Province, with ISSN 1672-4216. This establishes the credibility of the publication venue.",
+  "snippets": [
+    {
+      "snippet_id": "snp_G2_a1b2c3d4",
+      "exhibit_id": "G2",
+      "document_id": "doc_G2",
+      "text": "Marketing Research magazine was founded in 1953 and is sponsored by the Statistical Information Consulting Center of Henan Province. It focuses on market research and information and is openly distributed in China and abroad. It is a periodical in the category of trade and economy. the domestic issue number is 41- 1348/C, and ISSN is 1672. 4216. Marketing Research is a monthly periodical. The purpose of the periodical is to promote developments in market research and information. Contributions from trade and economic units and related authors are welcome.",
+      "page": 2,
+      "bbox": {"x1": 69, "y1": 440, "x2": 926, "y2": 612},
+      "block_id": "p2_b5",
+      "subject": "Marketing Research journal",
+      "subject_role": "third_party",
+      "recommender_name": null,
+      "is_applicant_achievement": false,
+      "evidence_type": "source_credibility",
+      "evidence_purpose": "credibility_evidence",
+      "evidence_layer": "context",
+      "confidence": 0.90,
+      "reasoning": "Establishes Marketing Research journal's history since 1953, government sponsorship, and international distribution as a credible publication venue.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_G2_e5f6a7b8",
+      "exhibit_id": "G2",
+      "document_id": "doc_G2",
+      "text": "Relevant description: official website of Marketing Research, magazine of Marketing Research, Periodical Office of Marketing Research; trade and economic type periodicals; it is sponsored by the Statistical Information Consulting Center of Henan Province; the domestic issue number is 41- 1348/C, and ISSN is 1672- 4216; monthly publication; publicly issued at home and abroad.",
+      "page": 2,
+      "bbox": {"x1": 69, "y1": 291, "x2": 925, "y2": 405},
+      "block_id": "p2_b4",
+      "subject": "Marketing Research journal",
+      "subject_role": "third_party",
+      "recommender_name": null,
+      "is_applicant_achievement": false,
+      "evidence_type": "source_credibility",
+      "evidence_purpose": "credibility_evidence",
+      "evidence_layer": "context",
+      "confidence": 0.88,
+      "reasoning": "Technical details of the journal including ISSN, sponsoring organization, and distribution scope.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    }
+  ],
+  "entities": [
+    {"id": "ent_G2_0", "name": "Marketing Research", "type": "publication", "identity": "Chinese trade and economic periodical, founded 1953, ISSN 1672-4216", "relation_to_applicant": "publication_venue", "snippet_ids": ["snp_G2_a1b2c3d4", "snp_G2_e5f6a7b8"], "exhibit_ids": ["G2"], "mentioned_in_blocks": ["p2_b2", "p2_b4", "p2_b5"], "aliases": [], "is_merged": false, "merged_from": []},
+    {"id": "ent_G2_1", "name": "Statistical Information Consulting Center of Henan Province", "type": "organization", "identity": "Government sponsor of Marketing Research journal", "relation_to_applicant": "none", "snippet_ids": ["snp_G2_a1b2c3d4"], "exhibit_ids": ["G2"], "mentioned_in_blocks": ["p2_b4", "p2_b5"], "aliases": [], "is_merged": false, "merged_from": []}
+  ],
+  "relations": [
+    {"id": "rel_G2_0", "from_entity": "ent_G2_1", "to_entity": "ent_G2_0", "relation_type": "sponsors", "context": "Statistical Information Consulting Center of Henan Province sponsors Marketing Research journal", "source_snippet_ids": ["snp_G2_a1b2c3d4"], "source_blocks": ["p2_b5"]}
+  ],
+  "stats": {"snippet_count": 2, "entity_count": 2, "relation_count": 1, "applicant_snippets": 0, "other_snippets": 2}
+}

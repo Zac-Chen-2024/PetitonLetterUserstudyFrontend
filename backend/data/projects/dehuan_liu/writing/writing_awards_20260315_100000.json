@@ -1,0 +1,192 @@
+{
+  "version_id": "20260315_100000",
+  "timestamp": "2026-03-15T10:00:00+00:00",
+  "success": true,
+  "section": "awards",
+  "paragraph_text": "Under 8 C.F.R. 204.5(h)(3)(i), a petitioner may demonstrate extraordinary ability by providing \"[d]ocumentation of the alien's receipt of lesser nationally or internationally recognized prizes or awards for excellence in the field of endeavor.\" As set forth below, the Beneficiary has received multiple nationally recognized awards for excellence in the field of communication and market research. [Exhibit A1, p.2] In 2019, the Beneficiary was awarded the \"Data Legacy of the Year Award\" at the inaugural DATA AWARDS ceremony, as confirmed by the engraved trophy identifying \"Liu, Dehuan Peking University\" as the recipient. [Exhibit B1, p.2] The DATA AWARDS is described as \"one of the most influential awards in the field of mobile Internet,\" jointly launched by Umeng+ (UBDC), Zhongguancun Big Data Industry Alliance, Tsingdata Big Data Industries Association, and China Big Data Industry Observation. [Exhibit B3, p.3] Umeng+ is \"the Domestic Leading Third-party Intelligent Provider of Multidomain Data,\" having \"provided professional data services over ten years for accumulative 2.3 million mobile applications and 9.5 million websites,\" with typical customers including CCTV and the People's Daily client. [Exhibit B4, p.2] Through a rigorous selection process involving a jury of 21 judges from institutions including Tsinghua University and Peking University, who reviewed candidates over a two-month period, only 28 individuals and 40 enterprises were selected across seven award categories. [Exhibit B3, p.4] The Data Legacy of the Year Award specifically honors individuals who \"have been working deeply in the field of big data and mobile Internet for many years, spreading their insights and experiences and educating the whole industry,\" and who \"always guide the development of the industry\" -- a description that speaks directly to the Beneficiary's sustained contributions to data science. [Exhibit B3, p.7] The Beneficiary's book \"Age Theory: Social Time in Social Space\" won the third prize of the Award for Outstanding Achievements in Scientific Research of Higher Education Institutions (Humanities and Social Sciences), issued by the Ministry of Education of the People's Republic of China on September 4, 2009. [Exhibit B8, p.2] The Ministry of Education is a cabinet-level department of the Chinese government responsible for overseeing all higher education institutions nationwide; accordingly, this award represents the highest level of government-sponsored academic recognition available to researchers in the humanities and social sciences. [Exhibit B10, p.2] The selection process was rigorous and multi-tiered: candidates were first \"evaluat[ed] by experts,\" then subjected to \"public announcement,\" and finally reviewed by an Award Committee composed of directors and deputy directors of the Social Sciences Committee of the Ministry of Education along with national scholars. [Exhibit B8, p.2; Exhibit B10, p.5] Out of the entire national pool of submissions, \"a total of 648 achievements have been awarded, including 38 first prizes, 205 second prizes, 392 third prizes and 13 achievement popularization prizes,\" demonstrating that the award is both highly competitive and nationally significant. [Exhibit B8, p.2] The official winner list confirms that the Beneficiary's \"Age Theory: Social Time in Social Space\" was recognized in the Journalism and Communication category, which awarded only 10 third prizes nationwide, placing the Beneficiary among a highly select group of scholars in his discipline. [Exhibit B8, p.16] Fellow awardees in the Journalism and Communication category include scholars from Fudan University, Shanghai Jiao Tong University, and the Chinese Academy of Social Sciences, confirming that the Beneficiary's recognition places him among the top communication researchers in China. [Exhibit B8, p.16] The Beneficiary's faculty profile at Peking University further records that \"His book Age Theory: Social Time in Social Space won the third prize of the Award for Outstanding Achievements in Scientific Research of Higher Education Institutions (Humanities and Social Sciences),\" confirming this national honor. [Exhibit E3, p.8] The Beneficiary and co-author Chen Cui received the Excellent Paper Award at the 11th China Communication Conference for their paper titled \"Challenges Posed by the Internet to Traditional Media in the Time Dimension - A Study on the Possibility of Internet Media Usage Time Surpassing Traditional Media Usage Time,\" as certified by the Communication Association of China on July 10, 2010. [Exhibit B11, p.2] The 11th China Communication Conference was co-organized by the Communication Association of China, the School of Journalism and Communication of Peking University, and the Institute of Journalism and Communication of the Chinese Academy of Social Sciences, and drew \"more than 260 communication scholars from China and abroad.\" [Exhibit B12, p.2] The conference attracted scholars and research students from the United States, the United Kingdom, France, Italy, Canada, Switzerland, Sweden, Japan, South Korea, India, the United Arab Emirates, and Hong Kong and Taiwan, demonstrating a genuinely international scope. [Exhibit B12, p.4] The conference organizing committee \"organized expert scholars to anonymously evaluate and select 23 excellent academic papers from the more than 200 papers submitted by scholars and students from home and abroad,\" yielding an acceptance rate of approximately 11.5 percent and confirming the selectivity of this recognition. [Exhibit B12, p.5] In conclusion, the three awards detailed above are among the most widely recognized and influential national awards in the field of communication and market research, each selected through a credible and rigorous process. By winning these highly competitive awards, the Beneficiary has demonstrated himself to be among the best professionals in the field, satisfying the requirements of 8 C.F.R. 204.5(h)(3)(i) and establishing that he is one of the small percentage who have risen to the very top of the field. [Exhibit B1, p.2; Exhibit B8, p.2; Exhibit B11, p.2]",
+  "sentences": [
+    {
+      "text": "Under 8 C.F.R. 204.5(h)(3)(i), a petitioner may demonstrate extraordinary ability by providing \"[d]ocumentation of the alien's receipt of lesser nationally or internationally recognized prizes or awards for excellence in the field of endeavor.\" As set forth below, the Beneficiary has received multiple nationally recognized awards for excellence in the field of communication and market research. [Exhibit A1, p.2]",
+      "snippet_ids": ["snp_A1_a1000001"],
+      "subargument_id": "subarg-003",
+      "argument_id": "arg-001",
+      "exhibit_refs": ["A1-2"],
+      "sentence_type": "opening"
+    },
+    {
+      "text": "In 2019, the Beneficiary was awarded the \"Data Legacy of the Year Award\" at the inaugural DATA AWARDS ceremony, as confirmed by the engraved trophy identifying \"Liu, Dehuan Peking University\" as the recipient. [Exhibit B1, p.2]",
+      "snippet_ids": ["snp_B1_b1000001", "snp_B1_b1000002", "snp_B1_b1000003"],
+      "subargument_id": "subarg-003",
+      "argument_id": "arg-001",
+      "exhibit_refs": ["B1-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The DATA AWARDS is described as \"one of the most influential awards in the field of mobile Internet,\" jointly launched by Umeng+ (UBDC), Zhongguancun Big Data Industry Alliance, Tsingdata Big Data Industries Association, and China Big Data Industry Observation. [Exhibit B3, p.3]",
+      "snippet_ids": ["snp_B3_b3000005"],
+      "subargument_id": "subarg-003",
+      "argument_id": "arg-001",
+      "exhibit_refs": ["B3-3"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "Umeng+ is \"the Domestic Leading Third-party Intelligent Provider of Multidomain Data,\" having \"provided professional data services over ten years for accumulative 2.3 million mobile applications and 9.5 million websites,\" with typical customers including CCTV and the People's Daily client. [Exhibit B4, p.2]",
+      "snippet_ids": ["snp_B4_b4000001", "snp_B4_b4000002"],
+      "subargument_id": "subarg-003",
+      "argument_id": "arg-001",
+      "exhibit_refs": ["B4-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "Through a rigorous selection process involving a jury of 21 judges from institutions including Tsinghua University and Peking University, who reviewed candidates over a two-month period, only 28 individuals and 40 enterprises were selected across seven award categories. [Exhibit B3, p.4]",
+      "snippet_ids": ["snp_B3_b3000005"],
+      "subargument_id": "subarg-003",
+      "argument_id": "arg-001",
+      "exhibit_refs": ["B3-4"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The Data Legacy of the Year Award specifically honors individuals who \"have been working deeply in the field of big data and mobile Internet for many years, spreading their insights and experiences and educating the whole industry,\" and who \"always guide the development of the industry\" -- a description that speaks directly to the Beneficiary's sustained contributions to data science. [Exhibit B3, p.7]",
+      "snippet_ids": ["snp_B3_b3000007"],
+      "subargument_id": "subarg-003",
+      "argument_id": "arg-001",
+      "exhibit_refs": ["B3-7"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The Beneficiary's book \"Age Theory: Social Time in Social Space\" won the third prize of the Award for Outstanding Achievements in Scientific Research of Higher Education Institutions (Humanities and Social Sciences), issued by the Ministry of Education of the People's Republic of China on September 4, 2009. [Exhibit B8, p.2]",
+      "snippet_ids": ["snp_B8_b8000001", "snp_B8_b8000002"],
+      "subargument_id": "subarg-002",
+      "argument_id": "arg-001",
+      "exhibit_refs": ["B8-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The Ministry of Education is a cabinet-level department of the Chinese government responsible for overseeing all higher education institutions nationwide; accordingly, this award represents the highest level of government-sponsored academic recognition available to researchers in the humanities and social sciences. [Exhibit B10, p.2]",
+      "snippet_ids": ["snp_B10_a1b2c3d4", "snp_B10_c9d0e1f2"],
+      "subargument_id": "subarg-002",
+      "argument_id": "arg-001",
+      "exhibit_refs": ["B10-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The selection process was rigorous and multi-tiered: candidates were first \"evaluat[ed] by experts,\" then subjected to \"public announcement,\" and finally reviewed by an Award Committee composed of directors and deputy directors of the Social Sciences Committee of the Ministry of Education along with national scholars. [Exhibit B8, p.2; Exhibit B10, p.5]",
+      "snippet_ids": ["snp_B8_b8000003", "snp_B10_d7e8f9a0"],
+      "subargument_id": "subarg-002",
+      "argument_id": "arg-001",
+      "exhibit_refs": ["B8-2", "B10-5"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "Out of the entire national pool of submissions, \"a total of 648 achievements have been awarded, including 38 first prizes, 205 second prizes, 392 third prizes and 13 achievement popularization prizes,\" demonstrating that the award is both highly competitive and nationally significant. [Exhibit B8, p.2]",
+      "snippet_ids": ["snp_B8_b8000003", "snp_B8_b8000004"],
+      "subargument_id": "subarg-002",
+      "argument_id": "arg-001",
+      "exhibit_refs": ["B8-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The official winner list confirms that the Beneficiary's \"Age Theory: Social Time in Social Space\" was recognized in the Journalism and Communication category, which awarded only 10 third prizes nationwide, placing the Beneficiary among a highly select group of scholars in his discipline. [Exhibit B8, p.16]",
+      "snippet_ids": ["snp_B8_b8000006"],
+      "subargument_id": "subarg-002",
+      "argument_id": "arg-001",
+      "exhibit_refs": ["B8-16"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "Fellow awardees in the Journalism and Communication category include scholars from Fudan University, Shanghai Jiao Tong University, and the Chinese Academy of Social Sciences, confirming that the Beneficiary's recognition places him among the top communication researchers in China. [Exhibit B8, p.16]",
+      "snippet_ids": ["snp_B8_b8000006"],
+      "subargument_id": "subarg-002",
+      "argument_id": "arg-001",
+      "exhibit_refs": ["B8-16"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The Beneficiary's faculty profile at Peking University further records that \"His book Age Theory: Social Time in Social Space won the third prize of the Award for Outstanding Achievements in Scientific Research of Higher Education Institutions (Humanities and Social Sciences),\" confirming this national honor. [Exhibit E3, p.8]",
+      "snippet_ids": ["snp_E3_b5a18ab3"],
+      "subargument_id": "subarg-002",
+      "argument_id": "arg-001",
+      "exhibit_refs": ["E3-8"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The Beneficiary and co-author Chen Cui received the Excellent Paper Award at the 11th China Communication Conference for their paper titled \"Challenges Posed by the Internet to Traditional Media in the Time Dimension - A Study on the Possibility of Internet Media Usage Time Surpassing Traditional Media Usage Time,\" as certified by the Communication Association of China on July 10, 2010. [Exhibit B11, p.2]",
+      "snippet_ids": ["snp_B11_b11_0002", "snp_B11_b11_0003", "snp_B11_b11_0004"],
+      "subargument_id": "subarg-004",
+      "argument_id": "arg-001",
+      "exhibit_refs": ["B11-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The 11th China Communication Conference was co-organized by the Communication Association of China, the School of Journalism and Communication of Peking University, and the Institute of Journalism and Communication of the Chinese Academy of Social Sciences, and drew \"more than 260 communication scholars from China and abroad.\" [Exhibit B12, p.2]",
+      "snippet_ids": ["snp_B12_b12_0001"],
+      "subargument_id": "subarg-004",
+      "argument_id": "arg-001",
+      "exhibit_refs": ["B12-2"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The conference attracted scholars and research students from the United States, the United Kingdom, France, Italy, Canada, Switzerland, Sweden, Japan, South Korea, India, the United Arab Emirates, and Hong Kong and Taiwan, demonstrating a genuinely international scope. [Exhibit B12, p.4]",
+      "snippet_ids": ["snp_B12_b12_0001"],
+      "subargument_id": "subarg-004",
+      "argument_id": "arg-001",
+      "exhibit_refs": ["B12-4"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "The conference organizing committee \"organized expert scholars to anonymously evaluate and select 23 excellent academic papers from the more than 200 papers submitted by scholars and students from home and abroad,\" yielding an acceptance rate of approximately 11.5 percent and confirming the selectivity of this recognition. [Exhibit B12, p.5]",
+      "snippet_ids": ["snp_B12_b12_0004"],
+      "subargument_id": "subarg-004",
+      "argument_id": "arg-001",
+      "exhibit_refs": ["B12-5"],
+      "sentence_type": "body"
+    },
+    {
+      "text": "In conclusion, the three awards detailed above are among the most widely recognized and influential national awards in the field of communication and market research, each selected through a credible and rigorous process. By winning these highly competitive awards, the Beneficiary has demonstrated himself to be among the best professionals in the field, satisfying the requirements of 8 C.F.R. 204.5(h)(3)(i) and establishing that he is one of the small percentage who have risen to the very top of the field. [Exhibit B1, p.2; Exhibit B8, p.2; Exhibit B11, p.2]",
+      "snippet_ids": ["snp_B1_b1000001", "snp_B8_b8000001", "snp_B11_b11_0002"],
+      "subargument_id": "subarg-004",
+      "argument_id": "arg-001",
+      "exhibit_refs": ["B1-2", "B8-2", "B11-2"],
+      "sentence_type": "closing"
+    }
+  ],
+  "provenance_index": {
+    "by_subargument": {
+      "subarg-003": [0, 1, 2, 3, 4, 5],
+      "subarg-002": [6, 7, 8, 9, 10, 11, 12],
+      "subarg-004": [13, 14, 15, 16, 17]
+    },
+    "by_argument": {
+      "arg-001": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+    },
+    "by_snippet": {
+      "snp_A1_a1000001": [0],
+      "snp_B1_b1000001": [1, 17],
+      "snp_B1_b1000002": [1],
+      "snp_B1_b1000003": [1],
+      "snp_B3_b3000005": [2, 4],
+      "snp_B4_b4000001": [3],
+      "snp_B4_b4000002": [3],
+      "snp_B3_b3000007": [5],
+      "snp_B8_b8000001": [6, 17],
+      "snp_B8_b8000002": [6],
+      "snp_B10_a1b2c3d4": [7],
+      "snp_B10_c9d0e1f2": [7],
+      "snp_B8_b8000003": [8, 9],
+      "snp_B10_d7e8f9a0": [8],
+      "snp_B8_b8000004": [9],
+      "snp_B8_b8000006": [10, 11],
+      "snp_E3_b5a18ab3": [12],
+      "snp_B11_b11_0002": [13, 17],
+      "snp_B11_b11_0003": [13],
+      "snp_B11_b11_0004": [13],
+      "snp_B12_b12_0001": [14, 15],
+      "snp_B12_b12_0004": [16]
+    }
+  },
+  "validation": {
+    "total_sentences": 18,
+    "traced_sentences": 18,
+    "warnings": []
+  }
+}

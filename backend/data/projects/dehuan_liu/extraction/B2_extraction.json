@@ -1,0 +1,52 @@
+{
+  "version": "4.0",
+  "exhibit_id": "B2",
+  "extracted_at": "2026-03-15T00:00:00+00:00",
+  "applicant_name": "Dehuan Liu",
+  "document_summary": "This exhibit contains a photograph from the Data Awards ceremony. The image-only document (page 2) shows the award ceremony scene, serving as visual corroboration that the Data Awards 2019 event took place and that awards were presented at an official ceremony.",
+  "snippets": [
+    {
+      "snippet_id": "snp_B2_b2000001",
+      "exhibit_id": "B2",
+      "document_id": "doc_B2",
+      "text": "[Image: Data Awards ceremony photograph]",
+      "page": 2,
+      "bbox": {"x1": 115, "y1": 81, "x2": 884, "y2": 911},
+      "block_id": "p2_b0",
+      "subject": "Data Awards ceremony",
+      "subject_role": "organization",
+      "recommender_name": null,
+      "is_applicant_achievement": true,
+      "evidence_type": "award",
+      "evidence_purpose": "direct_proof",
+      "evidence_layer": "proof",
+      "confidence": 0.85,
+      "reasoning": "Photograph of the Data Awards ceremony, providing visual evidence that the award event was a formal, organized ceremony.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    }
+  ],
+  "entities": [
+    {
+      "id": "ent_B2_0",
+      "name": "Data Awards",
+      "type": "award",
+      "identity": "Annual data industry awards ceremony, 2019 edition",
+      "relation_to_applicant": "awarding_body",
+      "snippet_ids": ["snp_B2_b2000001"],
+      "exhibit_ids": ["B2"],
+      "mentioned_in_blocks": ["p2_b0"],
+      "aliases": [],
+      "is_merged": false,
+      "merged_from": []
+    }
+  ],
+  "relations": [],
+  "stats": {
+    "snippet_count": 1,
+    "entity_count": 1,
+    "relation_count": 0,
+    "applicant_snippets": 1,
+    "other_snippets": 0
+  }
+}

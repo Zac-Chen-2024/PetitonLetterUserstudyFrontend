@@ -1,0 +1,986 @@
+{
+  "exhibit_id": "G10",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit G-10",
+          "bbox": {
+            "x1": 120,
+            "y1": 447,
+            "x2": 870,
+            "y2": 536
+          },
+          "bbox_list": [
+            120,
+            447,
+            870,
+            536
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit G-10"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Company Profile",
+          "bbox": {
+            "x1": 240,
+            "y1": 68,
+            "x2": 728,
+            "y2": 118
+          },
+          "bbox_list": [
+            240,
+            68,
+            728,
+            118
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "NIO Inc. is a pioneer and a leading company in the premium smart electric vehicle market. Founded in November 2014, NIO's mission is to shape a joyful lifestyle. NIO aims to build a community starting with smart electric vehicles to share joy and grow together with users. NIO designs, develops, jointly manufactures and sells premium smart electric vehicles, driving innovations in next- generation technologies in autonomous driving, digital technologies, electric powertrains and batteries. NIO differentiates itself through its continuous technological breakthroughs and innovations, such as its industry- leading battery swapping technologies, Battery as a Service, or BaaS, as well as its proprietary autonomous driving technologies and Autonomous Driving as a Service, or ADaaS. NIO's product portfolio consists of the ES8, a six- seater smart electric flagship SUV, the ES7 (or the EL7), a mid- large five- seater smart electric SUV, the ES6, a five- seater all- round smart electric SUV, the EC7, a five- seater smart electric flagship coupe SUV, the EC6, a five- seater smart electric coupe SUV, the ET7, a smart electric flagship sedan, and the ET5, a mid- size smart electric sedan.",
+          "bbox": {
+            "x1": 59,
+            "y1": 180,
+            "x2": 930,
+            "y2": 550
+          },
+          "bbox_list": [
+            59,
+            180,
+            930,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## Company Profile  \n\nNIO Inc. is a pioneer and a leading company in the premium smart electric vehicle market. Founded in November 2014, NIO's mission is to shape a joyful lifestyle. NIO aims to build a community starting with smart electric vehicles to share joy and grow together with users. NIO designs, develops, jointly manufactures and sells premium smart electric vehicles, driving innovations in next- generation technologies in autonomous driving, digital technologies, electric powertrains and batteries. NIO differentiates itself through its continuous technological breakthroughs and innovations, such as its industry- leading battery swapping technologies, Battery as a Service, or BaaS, as well as its proprietary autonomous driving technologies and Autonomous Driving as a Service, or ADaaS. NIO's product portfolio consists of the ES8, a six- seater smart electric flagship SUV, the ES7 (or the EL7), a mid- large five- seater smart electric SUV, the ES6, a five- seater all- round smart electric SUV, the EC7, a five- seater smart electric flagship coupe SUV, the EC6, a five- seater smart electric coupe SUV, the ET7, a smart electric flagship sedan, and the ET5, a mid- size smart electric sedan."
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "PROFILE",
+          "bbox": {
+            "x1": 90,
+            "y1": 285,
+            "x2": 178,
+            "y2": 300
+          },
+          "bbox_list": [
+            90,
+            285,
+            178,
+            300
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "William Li",
+          "bbox": {
+            "x1": 90,
+            "y1": 315,
+            "x2": 210,
+            "y2": 334
+          },
+          "bbox_list": [
+            90,
+            315,
+            210,
+            334
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\\$1.5B",
+          "bbox": {
+            "x1": 90,
+            "y1": 364,
+            "x2": 169,
+            "y2": 384
+          },
+          "bbox_list": [
+            90,
+            364,
+            169,
+            384
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\\$12M (0.78%)",
+          "bbox": {
+            "x1": 90,
+            "y1": 388,
+            "x2": 168,
+            "y2": 400
+          },
+          "bbox_list": [
+            90,
+            388,
+            168,
+            400
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Real Time Net Worth as of 6/28/23",
+          "bbox": {
+            "x1": 204,
+            "y1": 364,
+            "x2": 320,
+            "y2": 386
+          },
+          "bbox_list": [
+            204,
+            364,
+            320,
+            386
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\\$1919 in the world today",
+          "bbox": {
+            "x1": 204,
+            "y1": 388,
+            "x2": 317,
+            "y2": 398
+          },
+          "bbox_list": [
+            204,
+            388,
+            317,
+            398
+          ]
+        },
+        {
+          "block_id": "p3_b6",
+          "page_number": 3,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 626,
+            "y1": 262,
+            "x2": 936,
+            "y2": 481
+          },
+          "bbox_list": [
+            626,
+            262,
+            936,
+            481
+          ]
+        },
+        {
+          "block_id": "p3_b7",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## About William Li",
+          "bbox": {
+            "x1": 70,
+            "y1": 526,
+            "x2": 177,
+            "y2": 540
+          },
+          "bbox_list": [
+            70,
+            526,
+            177,
+            540
+          ]
+        },
+        {
+          "block_id": "p3_b8",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "- Li founded Shanghai-headquartered electric car maker Nio, which began taking orders for its first electric SUV in December 2017. - Nio, which had raised \\$2.1 billion in funding, went public in September 2018 on the New York Stock Exchange. - Li, who owns just under 14% of auto maker Nio, holds a bachelor's degree in sociology from Peking University.",
+          "bbox": {
+            "x1": 69,
+            "y1": 564,
+            "x2": 622,
+            "y2": 704
+          },
+          "bbox_list": [
+            69,
+            564,
+            622,
+            704
+          ]
+        },
+        {
+          "block_id": "p3_b9",
+          "page_number": 3,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 103,
+            "y1": 750,
+            "x2": 598,
+            "y2": 936
+          },
+          "bbox_list": [
+            103,
+            750,
+            598,
+            936
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nPROFILE  \n\nWilliam Li  \n\n\\$1.5B  \n\n\\$12M (0.78%)  \n\nReal Time Net Worth as of 6/28/23  \n\n\\$1919 in the world today  \n\n## About William Li  \n\n- Li founded Shanghai-headquartered electric car maker Nio, which began taking orders for its first electric SUV in December 2017.  \n\n- Nio, which had raised \\$2.1 billion in funding, went public in September 2018 on the New York Stock Exchange.  \n\n- Li, who owns just under 14% of auto maker Nio, holds a bachelor's degree in sociology from Peking University.  "
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Forbes Lists",
+          "bbox": {
+            "x1": 60,
+            "y1": 101,
+            "x2": 143,
+            "y2": 114
+          },
+          "bbox_list": [
+            60,
+            101,
+            143,
+            114
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "#2020 Billionaires (2023)",
+          "bbox": {
+            "x1": 61,
+            "y1": 139,
+            "x2": 280,
+            "y2": 156
+          },
+          "bbox_list": [
+            61,
+            139,
+            280,
+            156
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "#133 China Rich List (2020) Dropped off in 2021",
+          "bbox": {
+            "x1": 61,
+            "y1": 187,
+            "x2": 448,
+            "y2": 204
+          },
+          "bbox_list": [
+            61,
+            187,
+            448,
+            204
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Personal Stats",
+          "bbox": {
+            "x1": 63,
+            "y1": 255,
+            "x2": 160,
+            "y2": 269
+          },
+          "bbox_list": [
+            63,
+            255,
+            160,
+            269
+          ]
+        },
+        {
+          "block_id": "p4_b4",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Age 48",
+          "bbox": {
+            "x1": 65,
+            "y1": 295,
+            "x2": 128,
+            "y2": 309
+          },
+          "bbox_list": [
+            65,
+            295,
+            128,
+            309
+          ]
+        },
+        {
+          "block_id": "p4_b5",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Source of Wealth Electric vehicles, Self Made",
+          "bbox": {
+            "x1": 65,
+            "y1": 338,
+            "x2": 402,
+            "y2": 355
+          },
+          "bbox_list": [
+            65,
+            338,
+            402,
+            355
+          ]
+        },
+        {
+          "block_id": "p4_b6",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Residence Beijing, China",
+          "bbox": {
+            "x1": 66,
+            "y1": 387,
+            "x2": 254,
+            "y2": 403
+          },
+          "bbox_list": [
+            66,
+            387,
+            254,
+            403
+          ]
+        },
+        {
+          "block_id": "p4_b7",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Citizenship China",
+          "bbox": {
+            "x1": 67,
+            "y1": 435,
+            "x2": 205,
+            "y2": 450
+          },
+          "bbox_list": [
+            67,
+            435,
+            205,
+            450
+          ]
+        },
+        {
+          "block_id": "p4_b8",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Education Bachelor of Social Sciences, Peking University",
+          "bbox": {
+            "x1": 67,
+            "y1": 479,
+            "x2": 483,
+            "y2": 496
+          },
+          "bbox_list": [
+            67,
+            479,
+            483,
+            496
+          ]
+        },
+        {
+          "block_id": "p4_b9",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In Their Own Words",
+          "bbox": {
+            "x1": 68,
+            "y1": 546,
+            "x2": 198,
+            "y2": 560
+          },
+          "bbox_list": [
+            68,
+            546,
+            198,
+            560
+          ]
+        },
+        {
+          "block_id": "p4_b10",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"I have no fear of losing.\"",
+          "bbox": {
+            "x1": 100,
+            "y1": 625,
+            "x2": 272,
+            "y2": 640
+          },
+          "bbox_list": [
+            100,
+            625,
+            272,
+            640
+          ]
+        },
+        {
+          "block_id": "p4_b11",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "William Li",
+          "bbox": {
+            "x1": 308,
+            "y1": 648,
+            "x2": 393,
+            "y2": 662
+          },
+          "bbox_list": [
+            308,
+            648,
+            393,
+            662
+          ]
+        },
+        {
+          "block_id": "p4_b12",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Related People & Companies",
+          "bbox": {
+            "x1": 80,
+            "y1": 725,
+            "x2": 258,
+            "y2": 738
+          },
+          "bbox_list": [
+            80,
+            725,
+            258,
+            738
+          ]
+        },
+        {
+          "block_id": "p4_b13",
+          "page_number": 4,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 80,
+            "y1": 753,
+            "x2": 123,
+            "y2": 789
+          },
+          "bbox_list": [
+            80,
+            753,
+            123,
+            789
+          ]
+        },
+        {
+          "block_id": "p4_b14",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "He Xiaopeng Related by origin of wealth: Electric vehicles",
+          "bbox": {
+            "x1": 128,
+            "y1": 758,
+            "x2": 374,
+            "y2": 783
+          },
+          "bbox_list": [
+            128,
+            758,
+            374,
+            783
+          ]
+        },
+        {
+          "block_id": "p4_b15",
+          "page_number": 4,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 80,
+            "y1": 800,
+            "x2": 123,
+            "y2": 835
+          },
+          "bbox_list": [
+            80,
+            800,
+            123,
+            835
+          ]
+        },
+        {
+          "block_id": "p4_b16",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Li Xiang Related by origin of wealth: Electric vehicles",
+          "bbox": {
+            "x1": 128,
+            "y1": 803,
+            "x2": 374,
+            "y2": 828
+          },
+          "bbox_list": [
+            128,
+            803,
+            374,
+            828
+          ]
+        },
+        {
+          "block_id": "p4_b17",
+          "page_number": 4,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 80,
+            "y1": 844,
+            "x2": 123,
+            "y2": 880
+          },
+          "bbox_list": [
+            80,
+            844,
+            123,
+            880
+          ]
+        },
+        {
+          "block_id": "p4_b18",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "China Citizen of China",
+          "bbox": {
+            "x1": 128,
+            "y1": 848,
+            "x2": 212,
+            "y2": 872
+          },
+          "bbox_list": [
+            128,
+            848,
+            212,
+            872
+          ]
+        },
+        {
+          "block_id": "p4_b19",
+          "page_number": 4,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 80,
+            "y1": 888,
+            "x2": 123,
+            "y2": 923
+          },
+          "bbox_list": [
+            80,
+            888,
+            123,
+            923
+          ]
+        },
+        {
+          "block_id": "p4_b20",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Denis Sverdlov Related by origin of wealth: Electric vehicles",
+          "bbox": {
+            "x1": 128,
+            "y1": 891,
+            "x2": 376,
+            "y2": 916
+          },
+          "bbox_list": [
+            128,
+            891,
+            376,
+            916
+          ]
+        },
+        {
+          "block_id": "p4_b21",
+          "page_number": 4,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 500,
+            "y1": 750,
+            "x2": 635,
+            "y2": 770
+          },
+          "bbox_list": [
+            500,
+            750,
+            635,
+            770
+          ]
+        },
+        {
+          "block_id": "p4_b22",
+          "page_number": 4,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 500,
+            "y1": 799,
+            "x2": 633,
+            "y2": 818
+          },
+          "bbox_list": [
+            500,
+            799,
+            633,
+            818
+          ]
+        },
+        {
+          "block_id": "p4_b23",
+          "page_number": 4,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 500,
+            "y1": 844,
+            "x2": 633,
+            "y2": 863
+          },
+          "bbox_list": [
+            500,
+            844,
+            633,
+            863
+          ]
+        },
+        {
+          "block_id": "p4_b24",
+          "page_number": 4,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 500,
+            "y1": 888,
+            "x2": 633,
+            "y2": 907
+          },
+          "bbox_list": [
+            500,
+            888,
+            633,
+            907
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nForbes Lists  \n\n#2020 Billionaires (2023)  \n\n#133 China Rich List (2020) Dropped off in 2021  \n\nPersonal Stats  \n\nAge 48  \n\nSource of Wealth Electric vehicles, Self Made  \n\nResidence Beijing, China  \n\nCitizenship China  \n\nEducation Bachelor of Social Sciences, Peking University  \n\nIn Their Own Words  \n\n\"I have no fear of losing.\"  \n\nWilliam Li  \n\nRelated People & Companies  \n\nHe Xiaopeng Related by origin of wealth: Electric vehicles  \n\nLi Xiang Related by origin of wealth: Electric vehicles  \n\nChina Citizen of China  \n\nDenis Sverdlov Related by origin of wealth: Electric vehicles  "
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# WIKIPEDIA",
+          "bbox": {
+            "x1": 60,
+            "y1": 35,
+            "x2": 214,
+            "y2": 70
+          },
+          "bbox_list": [
+            60,
+            35,
+            214,
+            70
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The Free Encyclopedia",
+          "bbox": {
+            "x1": 60,
+            "y1": 75,
+            "x2": 330,
+            "y2": 94
+          },
+          "bbox_list": [
+            60,
+            75,
+            330,
+            94
+          ]
+        },
+        {
+          "block_id": "p5_b2",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Forbes",
+          "bbox": {
+            "x1": 40,
+            "y1": 101,
+            "x2": 189,
+            "y2": 133
+          },
+          "bbox_list": [
+            40,
+            101,
+            189,
+            133
+          ]
+        },
+        {
+          "block_id": "p5_b3",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Forbes (/fo:rbz/) is an American business magazine owned by Integrated Whale Media Investments and the Forbes family. Published eight times a year, it features articles on finance, industry, investing, and marketing topics. Forbes also reports on related subjects such as technology, communications, science, politics, and law. It is based in Jersey City, New Jersey. Competitors in the national business magazine category include Fortune and Bloomberg Businessweek. Forbes has an international edition in Asia as well as editions produced under license in 27 countries and regions worldwide.",
+          "bbox": {
+            "x1": 37,
+            "y1": 170,
+            "x2": 625,
+            "y2": 356
+          },
+          "bbox_list": [
+            37,
+            170,
+            625,
+            356
+          ]
+        },
+        {
+          "block_id": "p5_b4",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The magazine is well known for its lists and rankings, including of the richest Americans (the Forbes 400), of the America's Wealthiest Celebrities, of the world's top companies (the Forbes Global 2000), Forbes list of the World's Most Powerful People, and The World's Billionaires.[3] The motto of Forbes magazine is \"Change the World\".[4] Its chair and editor- in- chief is Steve Forbes, and its CEO is Mike Federle.[5] In 2014, it was sold to a Hong Kong- based investment group, Integrated Whale Media Investments.[6][7] In 2023, Austin Russell acquired 82 percent of the company.[8]",
+          "bbox": {
+            "x1": 38,
+            "y1": 370,
+            "x2": 627,
+            "y2": 560
+          },
+          "bbox_list": [
+            38,
+            370,
+            627,
+            560
+          ]
+        },
+        {
+          "block_id": "p5_b5",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Company history",
+          "bbox": {
+            "x1": 42,
+            "y1": 582,
+            "x2": 308,
+            "y2": 609
+          },
+          "bbox_list": [
+            42,
+            582,
+            308,
+            609
+          ]
+        },
+        {
+          "block_id": "p5_b6",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "B. C. Forbes, a financial columnist for the Hearst papers, and his partner Walter Drey, the general manager of the Magazine of Wall Street,[9] founded Forbes magazine on September 15, 1917.[10][11] Forbes provided the money and the name and Drey provided the publishing expertise. The original name of the magazine was Forbes: Devoted to Doers and Doings.[9] Drey became vice-president of the B.C. Forbes Publishing Company,[12] while B.C. Forbes became editor-in-chief, a post he held until his death in 1954. B.C. Forbes was assisted in his later years by his two eldest sons, Bruce Charles Forbes (1916-1964) and Malcolm Forbes (1917-1990).",
+          "bbox": {
+            "x1": 42,
+            "y1": 623,
+            "x2": 630,
+            "y2": 833
+          },
+          "bbox_list": [
+            42,
+            623,
+            630,
+            833
+          ]
+        },
+        {
+          "block_id": "p5_b7",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Bruce Forbes took over after his father's death, and his strengths lay in streamlining operations and developing marketing.[10] During his tenure, 1954- 1964, the magazine's circulation nearly doubled.[10]",
+          "bbox": {
+            "x1": 44,
+            "y1": 844,
+            "x2": 630,
+            "y2": 920
+          },
+          "bbox_list": [
+            44,
+            844,
+            630,
+            920
+          ]
+        },
+        {
+          "block_id": "p5_b8",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Forbes",
+          "bbox": {
+            "x1": 753,
+            "y1": 179,
+            "x2": 831,
+            "y2": 198
+          },
+          "bbox_list": [
+            753,
+            179,
+            831,
+            198
+          ]
+        },
+        {
+          "block_id": "p5_b9",
+          "page_number": 5,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 644,
+            "y1": 203,
+            "x2": 940,
+            "y2": 550
+          },
+          "bbox_list": [
+            644,
+            203,
+            940,
+            550
+          ]
+        },
+        {
+          "block_id": "p5_b10",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The December 20, 2010 cover of Forbes featuring WikiLeaks founder Julian Assange",
+          "bbox": {
+            "x1": 653,
+            "y1": 556,
+            "x2": 937,
+            "y2": 612
+          },
+          "bbox_list": [
+            653,
+            556,
+            937,
+            612
+          ]
+        },
+        {
+          "block_id": "p5_b11",
+          "page_number": 5,
+          "block_type": "table",
+          "block_type_cn": "表格",
+          "text_content": "<table><tr><td>Editor-in-chief</td><td>Randall Lane</td></tr><tr><td>Editor</td><td>Randall Lane[1]</td></tr><tr><td>Categories</td><td>Business magazine</td></tr><tr><td>Frequency</td><td>Twice quarterly</td></tr><tr><td>Total circulation (2020)</td><td>657,215[2]</td></tr><tr><td>Founder</td><td>B. C. Forbes</td></tr><tr><td>First issue</td><td>September 15, 1917</td></tr><tr><td>Company</td><td>Austin Russell (82%)</td></tr><tr><td>Country</td><td>United States</td></tr><tr><td>Based in</td><td>Jersey City, New Jersey, U.S.</td></tr></table>",
+          "bbox": {
+            "x1": 645,
+            "y1": 616,
+            "x2": 900,
+            "y2": 942
+          },
+          "bbox_list": [
+            645,
+            616,
+            900,
+            942
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# WIKIPEDIA  \n\nThe Free Encyclopedia  \n\n## Forbes  \n\nForbes (/fo:rbz/) is an American business magazine owned by Integrated Whale Media Investments and the Forbes family. Published eight times a year, it features articles on finance, industry, investing, and marketing topics. Forbes also reports on related subjects such as technology, communications, science, politics, and law. It is based in Jersey City, New Jersey. Competitors in the national business magazine category include Fortune and Bloomberg Businessweek. Forbes has an international edition in Asia as well as editions produced under license in 27 countries and regions worldwide.  \n\nThe magazine is well known for its lists and rankings, including of the richest Americans (the Forbes 400), of the America's Wealthiest Celebrities, of the world's top companies (the Forbes Global 2000), Forbes list of the World's Most Powerful People, and The World's Billionaires.[3] The motto of Forbes magazine is \"Change the World\".[4] Its chair and editor- in- chief is Steve Forbes, and its CEO is Mike Federle.[5] In 2014, it was sold to a Hong Kong- based investment group, Integrated Whale Media Investments.[6][7] In 2023, Austin Russell acquired 82 percent of the company.[8]  \n\n## Company history  \n\nB. C. Forbes, a financial columnist for the Hearst papers, and his partner Walter Drey, the general manager of the Magazine of Wall Street,[9] founded Forbes magazine on September 15, 1917.[10][11] Forbes provided the money and the name and Drey provided the publishing expertise. The original name of the magazine was Forbes: Devoted to Doers and Doings.[9] Drey became vice-president of the B.C. Forbes Publishing Company,[12] while B.C. Forbes became editor-in-chief, a post he held until his death in 1954. B.C. Forbes was assisted in his later years by his two eldest sons, Bruce Charles Forbes (1916-1964) and Malcolm Forbes (1917-1990).  \n\nBruce Forbes took over after his father's death, and his strengths lay in streamlining operations and developing marketing.[10] During his tenure, 1954- 1964, the magazine's circulation nearly doubled.[10]  \n\n## Forbes  \n\nThe December 20, 2010 cover of Forbes featuring WikiLeaks founder Julian Assange  \n\n<table><tr><td>Editor-in-chief</td><td>Randall Lane</td></tr><tr><td>Editor</td><td>Randall Lane[1]</td></tr><tr><td>Categories</td><td>Business magazine</td></tr><tr><td>Frequency</td><td>Twice quarterly</td></tr><tr><td>Total circulation (2020)</td><td>657,215[2]</td></tr><tr><td>Founder</td><td>B. C. Forbes</td></tr><tr><td>First issue</td><td>September 15, 1917</td></tr><tr><td>Company</td><td>Austin Russell (82%)</td></tr><tr><td>Country</td><td>United States</td></tr><tr><td>Based in</td><td>Jersey City, New Jersey, U.S.</td></tr></table>"
+    }
+  ],
+  "total_blocks": 50
+}

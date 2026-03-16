@@ -1,0 +1,239 @@
+{
+  "exhibit_id": "G9",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit G-9",
+          "bbox": {
+            "x1": 110,
+            "y1": 450,
+            "x2": 874,
+            "y2": 545
+          },
+          "bbox_list": [
+            110,
+            450,
+            874,
+            545
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit G-9"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Recommendation Letter",
+          "bbox": {
+            "x1": 372,
+            "y1": 88,
+            "x2": 603,
+            "y2": 109
+          },
+          "bbox_list": [
+            372,
+            88,
+            603,
+            109
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "I am Bin Li. I graduated from Peking University. I am the founder of BitAuto and the founder, Chairman and CEO of NIO. During university, I founded Beijing Nanji Technology Development Co., Ltd., becoming a pioneer hosting service provider in China. Thereafter, I founded Beijing Kewen Shuye Technology Development Co., Ltd., Beijing Creative & Interactive Digital Technology Company Limited and BitAuto Holdings Limited. BitAuto Holdings Limited went listed and public on New York Stock Exchange in 2010 (stock code: BITA). In 2014, I founded NIO. In 2017, the first mass- produced model ES8 was launched. In 2018, NIO successfully went public on Hong Kong Exchanges and Clearing Limited under my leadership (stock code: 09866). In the same year, NIO successfully went public on the main board of Singapore Exchange (stock code: NIO). I have won \"NetEase Award of 2017 for Future Technical Personages- Innovative Business Leaders\", \"Top 10 Economic Personages of 2017\" and \"24th among Top 500 Chinese Brand Characters of 2020\".",
+          "bbox": {
+            "x1": 121,
+            "y1": 160,
+            "x2": 864,
+            "y2": 458
+          },
+          "bbox_list": [
+            121,
+            160,
+            864,
+            458
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Professor Dehuan Liu chaired many sociological research projects at early as the beginning of the 1990s. I participated in part of the researches and investigations, including many market research projects and some social investigation projects, e.g., \"Investigation on Chinese Entrepreneurs\", \"Study on the Status of Chinese Workers\", \"Study on the Living Conditions of Migrant Workers\", etc. In the research, Professor Dehuan Liu used various methods for in- depth analysis of the market. I benefited a lot from his professionalism. In 2006, I was invited to co- author a textbook for higher education titled Market Research (published by Economy & Management Publishing House and co- authored by Dehuan Liu, Bin Li (me), Yanqing Ding, Qiang Zeng, Gang Luo, Yali Cao). The book has not only systematically summarized the methods for understanding and analyzing the market, but also deeply explored the specific implementation process of market research methods. During preparation of the book, I systematically discussed many topics regarding market practice with Professor Dehuan Liu, which laid a solid professional basic for me to develop the operating strategies of my companies and also laid a sound methodological basis for me to create and led BitAuto to make prospective practices in user requirements survey, internet marketing and other areas of market research.",
+          "bbox": {
+            "x1": 127,
+            "y1": 500,
+            "x2": 864,
+            "y2": 888
+          },
+          "bbox_list": [
+            127,
+            500,
+            864,
+            888
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## Recommendation Letter  \n\nI am Bin Li. I graduated from Peking University. I am the founder of BitAuto and the founder, Chairman and CEO of NIO. During university, I founded Beijing Nanji Technology Development Co., Ltd., becoming a pioneer hosting service provider in China. Thereafter, I founded Beijing Kewen Shuye Technology Development Co., Ltd., Beijing Creative & Interactive Digital Technology Company Limited and BitAuto Holdings Limited. BitAuto Holdings Limited went listed and public on New York Stock Exchange in 2010 (stock code: BITA). In 2014, I founded NIO. In 2017, the first mass- produced model ES8 was launched. In 2018, NIO successfully went public on Hong Kong Exchanges and Clearing Limited under my leadership (stock code: 09866). In the same year, NIO successfully went public on the main board of Singapore Exchange (stock code: NIO). I have won \"NetEase Award of 2017 for Future Technical Personages- Innovative Business Leaders\", \"Top 10 Economic Personages of 2017\" and \"24th among Top 500 Chinese Brand Characters of 2020\".  \n\nProfessor Dehuan Liu chaired many sociological research projects at early as the beginning of the 1990s. I participated in part of the researches and investigations, including many market research projects and some social investigation projects, e.g., \"Investigation on Chinese Entrepreneurs\", \"Study on the Status of Chinese Workers\", \"Study on the Living Conditions of Migrant Workers\", etc. In the research, Professor Dehuan Liu used various methods for in- depth analysis of the market. I benefited a lot from his professionalism. In 2006, I was invited to co- author a textbook for higher education titled Market Research (published by Economy & Management Publishing House and co- authored by Dehuan Liu, Bin Li (me), Yanqing Ding, Qiang Zeng, Gang Luo, Yali Cao). The book has not only systematically summarized the methods for understanding and analyzing the market, but also deeply explored the specific implementation process of market research methods. During preparation of the book, I systematically discussed many topics regarding market practice with Professor Dehuan Liu, which laid a solid professional basic for me to develop the operating strategies of my companies and also laid a sound methodological basis for me to create and led BitAuto to make prospective practices in user requirements survey, internet marketing and other areas of market research."
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In 2014, Professor Dehuan Liu and Beijing Creative & Interactive Digital Technology Company Limited under my leadership jointly created \"Beijing Creative & Interactive Internet Strategy Laboratory of Peking University\" for the purpose of studying advertisement and internet automobiles. During the study, Professor Dehuan Liu proposed an ISMAS model for the exposure of consumers in the new era to marketing information (advertisements) which has been applied by Beijing Creative & Interactive Digital Technology Company Limited, Ogilvy & Mather, Dentsu, GroupM and many other advertising or media companies and has become the most popular model for consumers' response to advertisements.",
+          "bbox": {
+            "x1": 122,
+            "y1": 108,
+            "x2": 858,
+            "y2": 317
+          },
+          "bbox_list": [
+            122,
+            108,
+            858,
+            317
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In the \"New Energy Vehicles Consumption Forum of 2019\" organized by China Automobile Dealers Association, Professor Dehuan Liu and I respectively delivered a keynote speech. The idea of reshaping the market positioning of automobile enterprises put forward by Professor Dehuan Liu has inspired many enterprise managers. From the perspective of social structure, Professor Dehuan Liu recommended Chinese automobile enterprises to change their marketing positioning currently unfavorable to middle- income groups and change their marketing strategies, which was unanimously accepted by the participants. After the forum was closed, we had an in- depth communication, which facilitated the marketing transformation of NIO and helped NIO to clearly identify its target markets and accurately develop its market strategies for its subsequent market development. NIO's operating revenue rose from RMB7.825 billion in 2019 to RMB16.258 billion in 2020 and even to RMB36.136 billion in 2021.",
+          "bbox": {
+            "x1": 127,
+            "y1": 357,
+            "x2": 864,
+            "y2": 634
+          },
+          "bbox_list": [
+            127,
+            357,
+            864,
+            634
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Professor Dehuan Liu has successfully applied social science research methods to market research. He is great marketing expert for Chinese enterprises and the behind- the- scene advisor for many other successful enterprises in China in addition to NIO. Professor Dehuan Liu has successfully helped with the marketing positioning of many other well- known automobile enterprises including NIO, MG, VW, Volvo, Toyota, GWM, Bluepark, Changan Ford, etc. It is particularly worth mentioning that at the beginning of 2021, he promoted the positioning of GWM among female consumers - \"The vehicle that knows women the best- ORA\", which created the miraculous sales. Fei Yu, the general sales manager of ORA, said, \"More than 10,000 of ORA vehicles were sold in both of the first two months of 2021, of which 61% were sold to female",
+          "bbox": {
+            "x1": 133,
+            "y1": 674,
+            "x2": 872,
+            "y2": 905
+          },
+          "bbox_list": [
+            133,
+            674,
+            872,
+            905
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nIn 2014, Professor Dehuan Liu and Beijing Creative & Interactive Digital Technology Company Limited under my leadership jointly created \"Beijing Creative & Interactive Internet Strategy Laboratory of Peking University\" for the purpose of studying advertisement and internet automobiles. During the study, Professor Dehuan Liu proposed an ISMAS model for the exposure of consumers in the new era to marketing information (advertisements) which has been applied by Beijing Creative & Interactive Digital Technology Company Limited, Ogilvy & Mather, Dentsu, GroupM and many other advertising or media companies and has become the most popular model for consumers' response to advertisements.  \n\nIn the \"New Energy Vehicles Consumption Forum of 2019\" organized by China Automobile Dealers Association, Professor Dehuan Liu and I respectively delivered a keynote speech. The idea of reshaping the market positioning of automobile enterprises put forward by Professor Dehuan Liu has inspired many enterprise managers. From the perspective of social structure, Professor Dehuan Liu recommended Chinese automobile enterprises to change their marketing positioning currently unfavorable to middle- income groups and change their marketing strategies, which was unanimously accepted by the participants. After the forum was closed, we had an in- depth communication, which facilitated the marketing transformation of NIO and helped NIO to clearly identify its target markets and accurately develop its market strategies for its subsequent market development. NIO's operating revenue rose from RMB7.825 billion in 2019 to RMB16.258 billion in 2020 and even to RMB36.136 billion in 2021.  \n\nProfessor Dehuan Liu has successfully applied social science research methods to market research. He is great marketing expert for Chinese enterprises and the behind- the- scene advisor for many other successful enterprises in China in addition to NIO. Professor Dehuan Liu has successfully helped with the marketing positioning of many other well- known automobile enterprises including NIO, MG, VW, Volvo, Toyota, GWM, Bluepark, Changan Ford, etc. It is particularly worth mentioning that at the beginning of 2021, he promoted the positioning of GWM among female consumers - \"The vehicle that knows women the best- ORA\", which created the miraculous sales. Fei Yu, the general sales manager of ORA, said, \"More than 10,000 of ORA vehicles were sold in both of the first two months of 2021, of which 61% were sold to female"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "consumers increasing by nearly ten percent points over the last year.\" ORA realized surprisingly outstanding sales performance in the whole year. Fei Yu added, \"Accumulatively 135,028 ORA vehicles were sold in 2021, increasing by \\(140\\%\\) over the last year.\"",
+          "bbox": {
+            "x1": 121,
+            "y1": 76,
+            "x2": 857,
+            "y2": 169
+          },
+          "bbox_list": [
+            121,
+            76,
+            857,
+            169
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The marketing theories, theories and practices put forward by Professor Dehuan Liu are applicable not only to the automobile industry, but also to other major industries, generating a profound influence on numerous contemporary Chinese enterprises. In nearly 30 years of marketing practice, dozens of successful enterprises, including many of the Top 500 enterprises in China, have benefitted from his advices and guidance, e.g. major internet companies, mobile phone manufacturers, China Merchants Bank, Bank of China, Guizhou Gas Group, Haier, Yili Group, Sanyun Dairy, Vanke, Poly, Mixue Bingcheng, and international brands, e.g. Bayer, Astrazeneca, Procter & Gamble, etc. The professional support provided by Professor Dehuan Liu has significantly contributed to the development of many enterprises, winning him high reputation and prestige among Chinese enterprises. With the help from his expert suggestions and strategies, GOMO (stock code: GOMO) and many other internet enterprises went public in the US, Kusishou (stock code: 01024) and many other enterprises went public in Hong Kong, and Mixue Bingcheng and many other enterprises will soon go public in China (class A shares in China mainland).",
+          "bbox": {
+            "x1": 123,
+            "y1": 211,
+            "x2": 864,
+            "y2": 555
+          },
+          "bbox_list": [
+            123,
+            211,
+            864,
+            555
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Professor Dehuan Liu is one of the best experts of sociological market research in China and also one of the cutting- edge scholars in digital marketing. I am willing to act as a referrer for Professor Dehuan Liu. I wish Professor Dehuan Liu to acquire more research achievements to further benefit the relevant industries at home and abroad. I can be contacted at No. 16, Lane 56, Antuo Road, Jiading District, Shanghai or via phone at 021- 69082000. Do not hesitate to contact me.",
+          "bbox": {
+            "x1": 129,
+            "y1": 596,
+            "x2": 865,
+            "y2": 733
+          },
+          "bbox_list": [
+            129,
+            596,
+            865,
+            733
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Bin Li [Signature] Founder, Chairman and CEO of NIO Dec. 4, 2022",
+          "bbox": {
+            "x1": 560,
+            "y1": 774,
+            "x2": 865,
+            "y2": 860
+          },
+          "bbox_list": [
+            560,
+            774,
+            865,
+            860
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nconsumers increasing by nearly ten percent points over the last year.\" ORA realized surprisingly outstanding sales performance in the whole year. Fei Yu added, \"Accumulatively 135,028 ORA vehicles were sold in 2021, increasing by \\(140\\%\\) over the last year.\"  \n\nThe marketing theories, theories and practices put forward by Professor Dehuan Liu are applicable not only to the automobile industry, but also to other major industries, generating a profound influence on numerous contemporary Chinese enterprises. In nearly 30 years of marketing practice, dozens of successful enterprises, including many of the Top 500 enterprises in China, have benefitted from his advices and guidance, e.g. major internet companies, mobile phone manufacturers, China Merchants Bank, Bank of China, Guizhou Gas Group, Haier, Yili Group, Sanyun Dairy, Vanke, Poly, Mixue Bingcheng, and international brands, e.g. Bayer, Astrazeneca, Procter & Gamble, etc. The professional support provided by Professor Dehuan Liu has significantly contributed to the development of many enterprises, winning him high reputation and prestige among Chinese enterprises. With the help from his expert suggestions and strategies, GOMO (stock code: GOMO) and many other internet enterprises went public in the US, Kusishou (stock code: 01024) and many other enterprises went public in Hong Kong, and Mixue Bingcheng and many other enterprises will soon go public in China (class A shares in China mainland).  \n\nProfessor Dehuan Liu is one of the best experts of sociological market research in China and also one of the cutting- edge scholars in digital marketing. I am willing to act as a referrer for Professor Dehuan Liu. I wish Professor Dehuan Liu to acquire more research achievements to further benefit the relevant industries at home and abroad. I can be contacted at No. 16, Lane 56, Antuo Road, Jiading District, Shanghai or via phone at 021- 69082000. Do not hesitate to contact me.  \n\nBin Li [Signature] Founder, Chairman and CEO of NIO Dec. 4, 2022"
+    }
+  ],
+  "total_blocks": 11
+}

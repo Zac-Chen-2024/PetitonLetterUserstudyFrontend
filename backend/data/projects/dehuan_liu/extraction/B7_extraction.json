@@ -1,0 +1,72 @@
+{
+  "version": "4.0",
+  "exhibit_id": "B7",
+  "extracted_at": "2026-03-15T00:00:00+00:00",
+  "applicant_name": "Dehuan Liu",
+  "document_summary": "This exhibit presents an introduction to TikTok, another winner of the 2019 Data Awards (Best Data-Driven Growth Award in the enterprise category). TikTok is described as the leading destination for short-form mobile video with global offices across major cities worldwide. This demonstrates the caliber of fellow Data Awards winners -- a globally dominant technology company.",
+  "snippets": [
+    {
+      "snippet_id": "snp_B7_b7000001",
+      "exhibit_id": "B7",
+      "document_id": "doc_B7",
+      "text": "TikTok is the leading destination for short- form mobile video. Our mission is to inspire creativity and bring joy.",
+      "page": 2,
+      "bbox": {"x1": 303, "y1": 680, "x2": 696, "y2": 744},
+      "block_id": "p2_b2",
+      "subject": "TikTok",
+      "subject_role": "third_party",
+      "recommender_name": null,
+      "is_applicant_achievement": false,
+      "evidence_type": "peer_achievement",
+      "evidence_purpose": "supporting_context",
+      "evidence_layer": "context",
+      "confidence": 0.9,
+      "reasoning": "TikTok's self-description as the leading destination for short-form mobile video establishes its market dominance and validates the prestige of the Data Awards which selected it as a winner alongside Liu.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_B7_b7000002",
+      "exhibit_id": "B7",
+      "document_id": "doc_B7",
+      "text": "TikTok has global offices including Los Angeles, New York, London, Paris, Berlin, Dubai, Mumbai, Singapore, Jakarta, Seoul, and Tokyo.",
+      "page": 2,
+      "bbox": {"x1": 306, "y1": 774, "x2": 693, "y2": 828},
+      "block_id": "p2_b3",
+      "subject": "TikTok",
+      "subject_role": "third_party",
+      "recommender_name": null,
+      "is_applicant_achievement": false,
+      "evidence_type": "peer_achievement",
+      "evidence_purpose": "supporting_context",
+      "evidence_layer": "context",
+      "confidence": 0.85,
+      "reasoning": "TikTok's global presence across 11 major cities worldwide demonstrates its scale as a fellow Data Awards winner, supporting the award's prestige.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    }
+  ],
+  "entities": [
+    {
+      "id": "ent_B7_0",
+      "name": "TikTok",
+      "type": "organization",
+      "identity": "Leading global short-form mobile video platform; winner of the Data Awards Best Data-Driven Growth Award 2019",
+      "relation_to_applicant": "other",
+      "snippet_ids": ["snp_B7_b7000001", "snp_B7_b7000002"],
+      "exhibit_ids": ["B7"],
+      "mentioned_in_blocks": ["p2_b2", "p2_b3", "p3_b0", "p4_b0"],
+      "aliases": ["Tiktok"],
+      "is_merged": false,
+      "merged_from": []
+    }
+  ],
+  "relations": [],
+  "stats": {
+    "snippet_count": 2,
+    "entity_count": 1,
+    "relation_count": 0,
+    "applicant_snippets": 0,
+    "other_snippets": 2
+  }
+}

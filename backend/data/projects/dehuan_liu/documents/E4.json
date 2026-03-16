@@ -1,0 +1,542 @@
+{
+  "exhibit_id": "E4",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit E-4",
+          "bbox": {
+            "x1": 120,
+            "y1": 451,
+            "x2": 870,
+            "y2": 550
+          },
+          "bbox_list": [
+            120,
+            451,
+            870,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit E-4"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 108,
+            "y1": 45,
+            "x2": 198,
+            "y2": 58
+          },
+          "bbox_list": [
+            108,
+            45,
+            198,
+            58
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To Whom It May Concern,",
+          "bbox": {
+            "x1": 108,
+            "y1": 222,
+            "x2": 353,
+            "y2": 241
+          },
+          "bbox_list": [
+            108,
+            222,
+            353,
+            241
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "I am Bangchang Xie, Vice President of Fu Jen Catholic University, professor of the PhD program of Institute of Business and of the Department of Statistical Information, Chairman of Chung- Hwa DATA MINING Society, part- time professor of the School of Statistics of Central University of Finance and Economics, the School of Statistics of Capital University of Economics and Business in Beijing and the School of Management of Beijing Institute of Technology, chair professor of Department of Statistics of Xiamen University, member of Census Committee of the Accounting and Statistics of Taiwan Executive Yuan, member of Statistics Committee of Ministry of the Interior of Taiwan, China, and member of Statistics Committee of Ministry of Education of Taiwan, China.",
+          "bbox": {
+            "x1": 130,
+            "y1": 282,
+            "x2": 868,
+            "y2": 490
+          },
+          "bbox_list": [
+            130,
+            282,
+            868,
+            490
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "I met Professor Dehuan Liu at an academic conference held in Beijing in 1997. Since then, the academic interaction between us has never stopped. I have been a part- time professor in the School of New Media of Peking University teaching \"data mining\" since 2014 at the invitation of Professor Dehuan Liu. I often discuss new methods and new techniques for data analysis and big data mining with Professor Dehuan Liu. So, I know his research and academic capabilities well.",
+          "bbox": {
+            "x1": 134,
+            "y1": 530,
+            "x2": 870,
+            "y2": 671
+          },
+          "bbox_list": [
+            134,
+            530,
+            870,
+            671
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Professor Dehuan Liu has been paying special attention to statistical analysis methods in his sociological research. He excels at R, Python, Spss and other statistical software. In data modeling, he has conducted the deepest data analysis and shown the top data analysis capability and experience. He has achieved great attainments in the field of general linear causal analysis model, innovatively constructed the nonlinear multi- interaction deep description regression analysis model, and created unique ideas for the analysis of the causal model and deep description structural analysis (SEM) model.",
+          "bbox": {
+            "x1": 139,
+            "y1": 712,
+            "x2": 876,
+            "y2": 872
+          },
+          "bbox_list": [
+            139,
+            712,
+            876,
+            872
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nTo Whom It May Concern,  \n\nI am Bangchang Xie, Vice President of Fu Jen Catholic University, professor of the PhD program of Institute of Business and of the Department of Statistical Information, Chairman of Chung- Hwa DATA MINING Society, part- time professor of the School of Statistics of Central University of Finance and Economics, the School of Statistics of Capital University of Economics and Business in Beijing and the School of Management of Beijing Institute of Technology, chair professor of Department of Statistics of Xiamen University, member of Census Committee of the Accounting and Statistics of Taiwan Executive Yuan, member of Statistics Committee of Ministry of the Interior of Taiwan, China, and member of Statistics Committee of Ministry of Education of Taiwan, China.  \n\nI met Professor Dehuan Liu at an academic conference held in Beijing in 1997. Since then, the academic interaction between us has never stopped. I have been a part- time professor in the School of New Media of Peking University teaching \"data mining\" since 2014 at the invitation of Professor Dehuan Liu. I often discuss new methods and new techniques for data analysis and big data mining with Professor Dehuan Liu. So, I know his research and academic capabilities well.  \n\nProfessor Dehuan Liu has been paying special attention to statistical analysis methods in his sociological research. He excels at R, Python, Spss and other statistical software. In data modeling, he has conducted the deepest data analysis and shown the top data analysis capability and experience. He has achieved great attainments in the field of general linear causal analysis model, innovatively constructed the nonlinear multi- interaction deep description regression analysis model, and created unique ideas for the analysis of the causal model and deep description structural analysis (SEM) model."
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Besides, he has applied these analysis methods to multiple sociological research, greatly improving the research validity.",
+          "bbox": {
+            "x1": 108,
+            "y1": 220,
+            "x2": 860,
+            "y2": 266
+          },
+          "bbox_list": [
+            108,
+            220,
+            860,
+            266
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Professor Dehuan Liu enjoys a high reputation in the academic circle. He has assumed leadership positions in many academic journals and organizations and published numerous research papers concerning internet in China, most of which have been recognized by the academic circle. The research trilogy on Chinese internet, namely The Future is Happening - Ethnic Groups and Trend of Mobile Phone Users, Subversion and Reorganization - Community and Nomadic Mobile Phone Users and The Future without Limits - Comprehensive Structure Industry of Mobile Phone Users, is the most important achievement from research on Chinese internet. It adopts a unique perspective and provides novel ideas, big data collection and strict model analysis. It puts forward the concept of \"ethnic groups of mobile phone users\" in sociology for the first time and conducts in- depth study on the concept. It also classifies the major ethnic groups and thoroughly analyzes the relationship between mobile internet with mobile phones as carrier and culture, modern life and consumption. It has a great academic value and high industry application value.",
+          "bbox": {
+            "x1": 131,
+            "y1": 305,
+            "x2": 868,
+            "y2": 629
+          },
+          "bbox_list": [
+            131,
+            305,
+            868,
+            629
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The research and discoveries of Professor Dehuan Liu have a profound influence on the development of China's internet industry. At the emergence of mobile internet industry in China In 2009 (the first year of China's mobile internet industry), Professor Dehuan Liu began to devote himself to the development of China's mobile internet industry. Thereafter, Professor Dehuan Liu has presided over the panorama survey of China's mobile internet industry for 13 consecutive years. He conducted long- term monitoring and research on China's internet industry, especially the mobile internet industry, and has been continuously proposing important opinions about the development trend. Many of his predictions and judgement have been proved by the",
+          "bbox": {
+            "x1": 138,
+            "y1": 668,
+            "x2": 875,
+            "y2": 875
+          },
+          "bbox_list": [
+            138,
+            668,
+            875,
+            875
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nBesides, he has applied these analysis methods to multiple sociological research, greatly improving the research validity.  \n\nProfessor Dehuan Liu enjoys a high reputation in the academic circle. He has assumed leadership positions in many academic journals and organizations and published numerous research papers concerning internet in China, most of which have been recognized by the academic circle. The research trilogy on Chinese internet, namely The Future is Happening - Ethnic Groups and Trend of Mobile Phone Users, Subversion and Reorganization - Community and Nomadic Mobile Phone Users and The Future without Limits - Comprehensive Structure Industry of Mobile Phone Users, is the most important achievement from research on Chinese internet. It adopts a unique perspective and provides novel ideas, big data collection and strict model analysis. It puts forward the concept of \"ethnic groups of mobile phone users\" in sociology for the first time and conducts in- depth study on the concept. It also classifies the major ethnic groups and thoroughly analyzes the relationship between mobile internet with mobile phones as carrier and culture, modern life and consumption. It has a great academic value and high industry application value.  \n\nThe research and discoveries of Professor Dehuan Liu have a profound influence on the development of China's internet industry. At the emergence of mobile internet industry in China In 2009 (the first year of China's mobile internet industry), Professor Dehuan Liu began to devote himself to the development of China's mobile internet industry. Thereafter, Professor Dehuan Liu has presided over the panorama survey of China's mobile internet industry for 13 consecutive years. He conducted long- term monitoring and research on China's internet industry, especially the mobile internet industry, and has been continuously proposing important opinions about the development trend. Many of his predictions and judgement have been proved by the"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "market. For example, his judgement on the development of mobile phone market (iPhone, Huawei, Xiaomi, OPPO, etc.) and of brands have been proved to be accurate for consecutive years. The trends he proposed, e.g., \"emergence of super APP\" and \"normalization of the use of APP by internet users\" have accurately summarized the development trend of the internet industry in China. The \"ethnic group research method\" and \"group spectrum research technique\" applied and created by him are becoming the mainstream research methods that the tech enterprises and internet companies in China are racing to learn and apply. It can be said that Professor Dehuan Liu is an innovator and pioneer in the research of the development trend of internet industry in China. His research results have made a great influence on the society and Chinese tech enterprises. As a reward for his outstanding contributions to data analysis and internet big data mining, Professor Dehuan Liu was awarded the highest award for data mining in China, i.e. the Data Awards in the category of Data Legacy in the first award ceremony of Data Awards held by UBDC. He is also a member and the only one sociological scholar of China Big Data Application 50. He is one of the best talents that are engaged in deep mining of internet big data from the perspective of sociology.",
+          "bbox": {
+            "x1": 108,
+            "y1": 216,
+            "x2": 870,
+            "y2": 585
+          },
+          "bbox_list": [
+            108,
+            216,
+            870,
+            585
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Professor Dehuan Liu has epitomized the theories and practices of the methods of social statistics. He has made the following five academic contributions to statistical analysis methods: 1) he created and constructed non- linear interactive regression in the general linear analysis model (deep description regression); 2) he constructed a nonlinear interactive structural equation; 3) he proposed and completed a top analysis method for satisfaction research; 4) he created and applied the \"ethnic group research method\"; and 5) he created and applied the \"group spectrum research technique\". He has mainly made the following contributions to internet sociology research theories: 1) he put forward and demonstrated the coming of \"semi- mature society\" (2011) in the era of mobile internet in China; 2) he accurately predicted the \"overall penetration of WeChat, Weibo and",
+          "bbox": {
+            "x1": 137,
+            "y1": 624,
+            "x2": 880,
+            "y2": 855
+          },
+          "bbox_list": [
+            137,
+            624,
+            880,
+            855
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nmarket. For example, his judgement on the development of mobile phone market (iPhone, Huawei, Xiaomi, OPPO, etc.) and of brands have been proved to be accurate for consecutive years. The trends he proposed, e.g., \"emergence of super APP\" and \"normalization of the use of APP by internet users\" have accurately summarized the development trend of the internet industry in China. The \"ethnic group research method\" and \"group spectrum research technique\" applied and created by him are becoming the mainstream research methods that the tech enterprises and internet companies in China are racing to learn and apply. It can be said that Professor Dehuan Liu is an innovator and pioneer in the research of the development trend of internet industry in China. His research results have made a great influence on the society and Chinese tech enterprises. As a reward for his outstanding contributions to data analysis and internet big data mining, Professor Dehuan Liu was awarded the highest award for data mining in China, i.e. the Data Awards in the category of Data Legacy in the first award ceremony of Data Awards held by UBDC. He is also a member and the only one sociological scholar of China Big Data Application 50. He is one of the best talents that are engaged in deep mining of internet big data from the perspective of sociology.  \n\nProfessor Dehuan Liu has epitomized the theories and practices of the methods of social statistics. He has made the following five academic contributions to statistical analysis methods: 1) he created and constructed non- linear interactive regression in the general linear analysis model (deep description regression); 2) he constructed a nonlinear interactive structural equation; 3) he proposed and completed a top analysis method for satisfaction research; 4) he created and applied the \"ethnic group research method\"; and 5) he created and applied the \"group spectrum research technique\". He has mainly made the following contributions to internet sociology research theories: 1) he put forward and demonstrated the coming of \"semi- mature society\" (2011) in the era of mobile internet in China; 2) he accurately predicted the \"overall penetration of WeChat, Weibo and"
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 108,
+            "y1": 40,
+            "x2": 200,
+            "y2": 54
+          },
+          "bbox_list": [
+            108,
+            40,
+            200,
+            54
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Fu Jen Catholic University 510, CHUNG CHEN RD. HSIN CHUANG, TAIPEI HSEN (24205) TAIWAN http://www.fju.edu.tw E- Mail: 025674@mail.fju.edu.tw Tel: 886- 2- 2905- 3366 0932068389 Fax: 886- 2- 2903- 6715",
+          "bbox": {
+            "x1": 308,
+            "y1": 61,
+            "x2": 680,
+            "y2": 202
+          },
+          "bbox_list": [
+            308,
+            61,
+            680,
+            202
+          ]
+        },
+        {
+          "block_id": "p5_b2",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "micro- videos (video clips) (2013); 3) he completely and systematically summarized the value system of modern young people in China (he conducted a large- scale research on the trend among young people respectively in 1998, 2007, 2016 and 2022.",
+          "bbox": {
+            "x1": 129,
+            "y1": 216,
+            "x2": 864,
+            "y2": 285
+          },
+          "bbox_list": [
+            129,
+            216,
+            864,
+            285
+          ]
+        },
+        {
+          "block_id": "p5_b3",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Professor Dehuan Liu has been committed to introducing multi- disciplinary analysis methods according to the diversity of the sociological research objects. He is especially good at applying statistical methods in natural science and the communication in human science to sociological research and as guidance for the actual teaching career. He is very popular among teachers and students and was renowned as \"The most Beloved Teacher\" by the students at Peking University. Professor Dehuan Liu sticks to conducting social and market research based on actual conditions. His research results including the trilogy mentioned above, Insight in E- commerce and Road to Internet for the Banking Industry are classic literature on internet research. His book titled Age Theory: Social Time in Social Space published in 2009 sets up a model and is also the best literature for survey and research methods in China. It is praised as \"a milestone of statistical survey and mathematical statistics methods\" and has become a classic literature in the survey industry and the academic circle, opening a new chapter in the development of social statistics in China. In that book, Professor Dehuan Liu has systematically organized and summarized the statistical analyses related to age and innovatively proposed five age analysis mode: social time capitalization, three analysis models for middle- aged individuals (work cycle, status acquisition cycle and burden cycle), generation gap analysis model, fracture analysis model and family life cycle model.",
+          "bbox": {
+            "x1": 133,
+            "y1": 328,
+            "x2": 870,
+            "y2": 741
+          },
+          "bbox_list": [
+            133,
+            328,
+            870,
+            741
+          ]
+        },
+        {
+          "block_id": "p5_b4",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Professor Dehuan Liu has actively contributed to the establishment of academic communities, providing opportunities for professional exchange and fostering the development of discipline. He established research institutes, including the Center for Market and Media Studies at Peking University. He was instrumental in the creation of",
+          "bbox": {
+            "x1": 139,
+            "y1": 781,
+            "x2": 878,
+            "y2": 870
+          },
+          "bbox_list": [
+            139,
+            781,
+            878,
+            870
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nFu Jen Catholic University  510, CHUNG CHEN RD. HSIN CHUANG, TAIPEI HSEN  (24205) TAIWAN  http://www.fju.edu.tw  E- Mail: 025674@mail.fju.edu.tw  Tel: 886- 2- 2905- 3366 0932068389 Fax: 886- 2- 2903- 6715  \n\nmicro- videos (video clips) (2013); 3) he completely and systematically summarized the value system of modern young people in China (he conducted a large- scale research on the trend among young people respectively in 1998, 2007, 2016 and 2022.  \n\nProfessor Dehuan Liu has been committed to introducing multi- disciplinary analysis methods according to the diversity of the sociological research objects. He is especially good at applying statistical methods in natural science and the communication in human science to sociological research and as guidance for the actual teaching career. He is very popular among teachers and students and was renowned as \"The most Beloved Teacher\" by the students at Peking University. Professor Dehuan Liu sticks to conducting social and market research based on actual conditions. His research results including the trilogy mentioned above, Insight in E- commerce and Road to Internet for the Banking Industry are classic literature on internet research. His book titled Age Theory: Social Time in Social Space published in 2009 sets up a model and is also the best literature for survey and research methods in China. It is praised as \"a milestone of statistical survey and mathematical statistics methods\" and has become a classic literature in the survey industry and the academic circle, opening a new chapter in the development of social statistics in China. In that book, Professor Dehuan Liu has systematically organized and summarized the statistical analyses related to age and innovatively proposed five age analysis mode: social time capitalization, three analysis models for middle- aged individuals (work cycle, status acquisition cycle and burden cycle), generation gap analysis model, fracture analysis model and family life cycle model.  \n\nProfessor Dehuan Liu has actively contributed to the establishment of academic communities, providing opportunities for professional exchange and fostering the development of discipline. He established research institutes, including the Center for Market and Media Studies at Peking University. He was instrumental in the creation of"
+    },
+    {
+      "page_number": 6,
+      "text_blocks": [
+        {
+          "block_id": "p6_b0",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 108,
+            "y1": 40,
+            "x2": 200,
+            "y2": 54
+          },
+          "bbox_list": [
+            108,
+            40,
+            200,
+            54
+          ]
+        },
+        {
+          "block_id": "p6_b1",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Fu Jen Catholic University 510, CHUNG CHEN RD. HSIN CHUANG, TAIPEI HSEN (24205) TAIWAN http://www.fju.edu.tw E- Mail: 025674@mail.fju.edu.tw Tel: 886- 2- 2905- 3366 0932068389 Fax: 886- 2- 2903- 6715",
+          "bbox": {
+            "x1": 308,
+            "y1": 61,
+            "x2": 682,
+            "y2": 201
+          },
+          "bbox_list": [
+            308,
+            61,
+            682,
+            201
+          ]
+        },
+        {
+          "block_id": "p6_b2",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "the School of New Media at Peking University, where he serves as Vice Dean. This institution has nurtured numerous talents in sociology, journalism, and communication. Many of these individuals have gone on to become young elites in their respective academic circles. For instance, Lingfei Wu, now working at the University of Pittsburgh, published a research paper titled \"Scientific Research Team Scale and Disruptive Innovation\" as the cover paper in the February 21, 2019 issue of Nature. Moreover, many students have emerged as renowned media workers in China, such as Cheng Ai, the founder of iAsk Media.",
+          "bbox": {
+            "x1": 128,
+            "y1": 216,
+            "x2": 868,
+            "y2": 401
+          },
+          "bbox_list": [
+            128,
+            216,
+            868,
+            401
+          ]
+        },
+        {
+          "block_id": "p6_b3",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Professor Dehuan Liu is a visiting scholar at Harvard University and the Chinese University of Hong Kong and also an academic exchange expert at Fu Jen Catholic University. He is familiar with the development trend of data research in different markets and societies and has his own unique opinions. He has been committed to promoting comparative studies and exchanges in sociology as well as industry cooperation and development. China Marketing Research Association (CMRA) where Professor Dehuan Liu acts as Chairman has exchanged information and cooperated with Taiwan Market Research Association where I act as Chairman many times in connection with marketing research. Professor Dehuan Liu and his team visited Taiwan Province twice and I and my colleagues in market research industry in Taiwan Province participated the market research submit in China mainland five times, contributing to the smooth communication between the market research industry in Taiwan Province and the market research industry in China mainland. Besides, as Chairman of Marketing Research Association, Professor Dehuan Liu and I jointly established the APRC (Asia- Pacific Marketing Research Consortium) with colleagues from Japan, South Korea, Australia, New Zealand, Thailand, Malaysia, Singapore, Mongolia and other markets in the Asia- Pacific region, promoting academic and industrial exchanges among countries and regions in the Asia- Pacific region. In the course of establishment of the consortium, I",
+          "bbox": {
+            "x1": 135,
+            "y1": 443,
+            "x2": 871,
+            "y2": 854
+          },
+          "bbox_list": [
+            135,
+            443,
+            871,
+            854
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nFu Jen Catholic University  510, CHUNG CHEN RD. HSIN CHUANG, TAIPEI HSEN  (24205) TAIWAN  http://www.fju.edu.tw  E- Mail: 025674@mail.fju.edu.tw  Tel: 886- 2- 2905- 3366 0932068389 Fax: 886- 2- 2903- 6715  \n\nthe School of New Media at Peking University, where he serves as Vice Dean. This institution has nurtured numerous talents in sociology, journalism, and communication. Many of these individuals have gone on to become young elites in their respective academic circles. For instance, Lingfei Wu, now working at the University of Pittsburgh, published a research paper titled \"Scientific Research Team Scale and Disruptive Innovation\" as the cover paper in the February 21, 2019 issue of Nature. Moreover, many students have emerged as renowned media workers in China, such as Cheng Ai, the founder of iAsk Media.  \n\nProfessor Dehuan Liu is a visiting scholar at Harvard University and the Chinese University of Hong Kong and also an academic exchange expert at Fu Jen Catholic University. He is familiar with the development trend of data research in different markets and societies and has his own unique opinions. He has been committed to promoting comparative studies and exchanges in sociology as well as industry cooperation and development. China Marketing Research Association (CMRA) where Professor Dehuan Liu acts as Chairman has exchanged information and cooperated with Taiwan Market Research Association where I act as Chairman many times in connection with marketing research. Professor Dehuan Liu and his team visited Taiwan Province twice and I and my colleagues in market research industry in Taiwan Province participated the market research submit in China mainland five times, contributing to the smooth communication between the market research industry in Taiwan Province and the market research industry in China mainland. Besides, as Chairman of Marketing Research Association, Professor Dehuan Liu and I jointly established the APRC (Asia- Pacific Marketing Research Consortium) with colleagues from Japan, South Korea, Australia, New Zealand, Thailand, Malaysia, Singapore, Mongolia and other markets in the Asia- Pacific region, promoting academic and industrial exchanges among countries and regions in the Asia- Pacific region. In the course of establishment of the consortium, I"
+    },
+    {
+      "page_number": 7,
+      "text_blocks": [
+        {
+          "block_id": "p7_b0",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 110,
+            "y1": 40,
+            "x2": 199,
+            "y2": 54
+          },
+          "bbox_list": [
+            110,
+            40,
+            199,
+            54
+          ]
+        },
+        {
+          "block_id": "p7_b1",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Fu Jen Catholic University 510, CHUNG CHEN RD. HSIN CHUANG, TAIPEI HSIEN (24205) TAIWAN http://www.fju.edu.tw E- Mail: 025674@mail.fju.edu.tw Tel: 886- 2- 2905- 3366 0932068389 Fax: 886- 2- 2903- 6715",
+          "bbox": {
+            "x1": 308,
+            "y1": 61,
+            "x2": 681,
+            "y2": 205
+          },
+          "bbox_list": [
+            308,
+            61,
+            681,
+            205
+          ]
+        },
+        {
+          "block_id": "p7_b2",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "exquisite professionalism of Professor Dehuan Liu.",
+          "bbox": {
+            "x1": 128,
+            "y1": 220,
+            "x2": 546,
+            "y2": 240
+          },
+          "bbox_list": [
+            128,
+            220,
+            546,
+            240
+          ]
+        },
+        {
+          "block_id": "p7_b3",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "I am pleased to act as a referrer for Professor Dehuan Liu who is a famous scholar and sociological data analysis expert. I sincerely wish him to realize more brilliant achievements in his future career and achieve more breakthroughs in big data research. I can be contacted at Vice President's office at Room 320, Floor 3, Yesheng Building, 510 Chung Chen Rd. Hsin Chuang, Taipei Hsien, Taiwan. Please contact me if further information about the contributions made by Professor Dehuan Liu to the field.",
+          "bbox": {
+            "x1": 128,
+            "y1": 283,
+            "x2": 865,
+            "y2": 421
+          },
+          "bbox_list": [
+            128,
+            283,
+            865,
+            421
+          ]
+        },
+        {
+          "block_id": "p7_b4",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Sincerely",
+          "bbox": {
+            "x1": 130,
+            "y1": 501,
+            "x2": 210,
+            "y2": 519
+          },
+          "bbox_list": [
+            130,
+            501,
+            210,
+            519
+          ]
+        },
+        {
+          "block_id": "p7_b5",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Bangchang Xie [Signature] Bangchang Xie, Professor Vice President of Fu Jen Catholic University Director of AI Development Center, Fu Jen Catholic University Chairman of Taiwan Institute for the Development of Artificial Intelligence (TIAI) Honorary Chairman of Chung- Hwa China Marketing Research Society (CMRS) Honorary Chairman of Chung- Hwa DATA MINING Society (CDMS)",
+          "bbox": {
+            "x1": 245,
+            "y1": 560,
+            "x2": 870,
+            "y2": 830
+          },
+          "bbox_list": [
+            245,
+            560,
+            870,
+            830
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nFu Jen Catholic University  510, CHUNG CHEN RD. HSIN CHUANG, TAIPEI HSIEN  (24205) TAIWAN  http://www.fju.edu.tw  E- Mail: 025674@mail.fju.edu.tw  Tel: 886- 2- 2905- 3366 0932068389 Fax: 886- 2- 2903- 6715  \n\nexquisite professionalism of Professor Dehuan Liu.  \n\nI am pleased to act as a referrer for Professor Dehuan Liu who is a famous scholar and sociological data analysis expert. I sincerely wish him to realize more brilliant achievements in his future career and achieve more breakthroughs in big data research. I can be contacted at Vice President's office at Room 320, Floor 3, Yesheng Building, 510 Chung Chen Rd. Hsin Chuang, Taipei Hsien, Taiwan. Please contact me if further information about the contributions made by Professor Dehuan Liu to the field.  \n\nSincerely  \n\nBangchang Xie [Signature]  Bangchang Xie, Professor  Vice President of Fu Jen Catholic University  Director of AI Development Center, Fu Jen Catholic University  Chairman of Taiwan Institute for the Development of Artificial Intelligence (TIAI)  Honorary Chairman of Chung- Hwa China Marketing Research Society (CMRS)  Honorary Chairman of Chung- Hwa DATA MINING Society (CDMS)"
+    }
+  ],
+  "total_blocks": 26
+}

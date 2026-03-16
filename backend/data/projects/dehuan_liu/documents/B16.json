@@ -1,0 +1,606 @@
+{
+  "exhibit_id": "B16",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit B-16",
+          "bbox": {
+            "x1": 128,
+            "y1": 448,
+            "x2": 864,
+            "y2": 536
+          },
+          "bbox_list": [
+            128,
+            448,
+            864,
+            536
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit B-16"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 87,
+            "y1": 210,
+            "x2": 275,
+            "y2": 401
+          },
+          "bbox_list": [
+            87,
+            210,
+            275,
+            401
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ADVERTISING/PUBLIC RELATIONS, MEDIA STUDIES",
+          "bbox": {
+            "x1": 90,
+            "y1": 414,
+            "x2": 558,
+            "y2": 435
+          },
+          "bbox_list": [
+            90,
+            414,
+            558,
+            435
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## S.SHYAM SUNDAR",
+          "bbox": {
+            "x1": 90,
+            "y1": 437,
+            "x2": 486,
+            "y2": 471
+          },
+          "bbox_list": [
+            90,
+            437,
+            486,
+            471
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "James P. Jimirro Professor of Media Effects / Co- Director, Media Effects Research Laboratory / Director, Center for Socially Responsible Artificial Intelligence",
+          "bbox": {
+            "x1": 92,
+            "y1": 481,
+            "x2": 832,
+            "y2": 533
+          },
+          "bbox_list": [
+            92,
+            481,
+            832,
+            533
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Download/View CV",
+          "bbox": {
+            "x1": 94,
+            "y1": 540,
+            "x2": 301,
+            "y2": 561
+          },
+          "bbox_list": [
+            94,
+            540,
+            301,
+            561
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## EXPERTISE",
+          "bbox": {
+            "x1": 95,
+            "y1": 630,
+            "x2": 265,
+            "y2": 656
+          },
+          "bbox_list": [
+            95,
+            630,
+            265,
+            656
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "EXPERTISEUses and Effects of Digital Media Psychology of Human- Computer/Human- Robot InteractionSocial and Psychological Aspects of Artificial Intelligence",
+          "bbox": {
+            "x1": 113,
+            "y1": 670,
+            "x2": 848,
+            "y2": 730
+          },
+          "bbox_list": [
+            113,
+            670,
+            848,
+            730
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## EDUCATION",
+          "bbox": {
+            "x1": 97,
+            "y1": 784,
+            "x2": 295,
+            "y2": 810
+          },
+          "bbox_list": [
+            97,
+            784,
+            295,
+            810
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Bachelor's: Bangalore University Master's: University of Alabama Ph.D.: Stanford University",
+          "bbox": {
+            "x1": 115,
+            "y1": 825,
+            "x2": 888,
+            "y2": 848
+          },
+          "bbox_list": [
+            115,
+            825,
+            888,
+            848
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## DETAILS",
+          "bbox": {
+            "x1": 101,
+            "y1": 901,
+            "x2": 234,
+            "y2": 927
+          },
+          "bbox_list": [
+            101,
+            901,
+            234,
+            927
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nADVERTISING/PUBLIC RELATIONS, MEDIA STUDIES  \n\n## S.SHYAM SUNDAR  \n\nJames P. Jimirro Professor of Media Effects / Co- Director, Media Effects Research Laboratory / Director, Center for Socially Responsible Artificial Intelligence  \n\nDownload/View CV  \n\n## EXPERTISE  \n\nEXPERTISEUses and Effects of Digital Media Psychology of Human- Computer/Human- Robot InteractionSocial and Psychological Aspects of Artificial Intelligence  \n\n## EDUCATION  \n\nBachelor's: Bangalore University Master's: University of Alabama Ph.D.: Stanford University  \n\n## DETAILS"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Biography",
+          "bbox": {
+            "x1": 108,
+            "y1": 60,
+            "x2": 250,
+            "y2": 83
+          },
+          "bbox_list": [
+            108,
+            60,
+            250,
+            83
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "S. Shyam Sundar is the founder of the Media Effects Research Laboratory, a leading facility of its kind in the country. He is Director of the Center for Socially Responsible Artificial Intelligence (https://csrai.psu.edu), an interdisciplinary consortium at Penn State that is devoted to the development and application of AI with an emphasis on its social and ethical implications, enhancing social good and mitigating threats from its misuse.",
+          "bbox": {
+            "x1": 116,
+            "y1": 94,
+            "x2": 864,
+            "y2": 250
+          },
+          "bbox_list": [
+            116,
+            94,
+            864,
+            250
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "He earned his doctoral and master's degrees in communication and psychology. He also holds bachelor's degrees in communication and engineering. His industry experience includes more than eight years as a journalist.",
+          "bbox": {
+            "x1": 118,
+            "y1": 263,
+            "x2": 866,
+            "y2": 339
+          },
+          "bbox_list": [
+            118,
+            263,
+            866,
+            339
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Just as his background is eclectic, his current work is quite interdisciplinary—he holds joint faculty appointments in the departments of film-video and media studies, advertising, architecture, and communication arts and sciences at Penn State. He teaches courses in the psychology of communication technology, media theory, and research methodology.",
+          "bbox": {
+            "x1": 118,
+            "y1": 352,
+            "x2": 865,
+            "y2": 483
+          },
+          "bbox_list": [
+            118,
+            352,
+            865,
+            483
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Prof. Sundar is a theorist as well as an experimentalist who uses a variety of quantitative and qualitative approaches in his research, including computationally intensive methods. His theoretical contributions include several original models on the social and psychological consequences of communication technology—Modality-Agency-Interactivity-Navigability (MAIN) Model, Uses and Gratifications 2.0, Interactivity Effects Model, Agency Model of Customization, Motivational Technology Model, Online Source Typology and the Theory of Interactive Media Effects (TIME).",
+          "bbox": {
+            "x1": 119,
+            "y1": 495,
+            "x2": 876,
+            "y2": 704
+          },
+          "bbox_list": [
+            119,
+            495,
+            876,
+            704
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "His empirical work investigates social and psychological effects of human- computer interaction (HCI) and computer- mediated communication (CMC) with specific focus on technological elements unique to online communication via modern media, ranging from websites to newer social and personal media. In particular, his studies investigate the effects of interactivity, navigability, multimodality, and agency (source attribution) in digital media interfaces upon online users' thoughts, emotions, and actions. Current research pertains to fake news, chatbots and smart speakers, AI algorithms, online privacy, social media effects,",
+          "bbox": {
+            "x1": 121,
+            "y1": 716,
+            "x2": 861,
+            "y2": 923
+          },
+          "bbox_list": [
+            121,
+            716,
+            861,
+            923
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## Biography  \n\nS. Shyam Sundar is the founder of the Media Effects Research Laboratory, a leading facility of its kind in the country. He is Director of the Center for Socially Responsible Artificial Intelligence (https://csrai.psu.edu), an interdisciplinary consortium at Penn State that is devoted to the development and application of AI with an emphasis on its social and ethical implications, enhancing social good and mitigating threats from its misuse.  \n\nHe earned his doctoral and master's degrees in communication and psychology. He also holds bachelor's degrees in communication and engineering. His industry experience includes more than eight years as a journalist.  \n\nJust as his background is eclectic, his current work is quite interdisciplinary—he holds joint faculty appointments in the departments of film-video and media studies, advertising, architecture, and communication arts and sciences at Penn State. He teaches courses in the psychology of communication technology, media theory, and research methodology.  \n\nProf. Sundar is a theorist as well as an experimentalist who uses a variety of quantitative and qualitative approaches in his research, including computationally intensive methods. His theoretical contributions include several original models on the social and psychological consequences of communication technology—Modality-Agency-Interactivity-Navigability (MAIN) Model, Uses and Gratifications 2.0, Interactivity Effects Model, Agency Model of Customization, Motivational Technology Model, Online Source Typology and the Theory of Interactive Media Effects (TIME).  \n\nHis empirical work investigates social and psychological effects of human- computer interaction (HCI) and computer- mediated communication (CMC) with specific focus on technological elements unique to online communication via modern media, ranging from websites to newer social and personal media. In particular, his studies investigate the effects of interactivity, navigability, multimodality, and agency (source attribution) in digital media interfaces upon online users' thoughts, emotions, and actions. Current research pertains to fake news, chatbots and smart speakers, AI algorithms, online privacy, social media effects,"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "and the strategic use of media and communication technologies for motivating healthy and prosocial human behaviors.",
+          "bbox": {
+            "x1": 118,
+            "y1": 45,
+            "x2": 842,
+            "y2": 94
+          },
+          "bbox_list": [
+            118,
+            45,
+            842,
+            94
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "His research is supported by the National Science Foundation (NSF), MacArthur Foundation, Facebook, Inc., and Lockheed Martin Information Systems and Global Services, among others.",
+          "bbox": {
+            "x1": 118,
+            "y1": 107,
+            "x2": 866,
+            "y2": 184
+          },
+          "bbox_list": [
+            118,
+            107,
+            866,
+            184
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Sundar was among the first to publish refereed research on the effects of internet- based media in the Journal of Communication, the flagship publication of the International Communication Association (ICA). His work has also appeared in other leading journals, such as Communication Research, Human Communication Research, Media Psychology, Human Computer Interaction, International Journal of Human- Computer Studies, Behaviour & Information Technology, The Information Society, Journal of Advertising, and Journalism & Mass Communication Quarterly. In addition, he has published in leading conference proceedings such as CHI (Computer Human Interaction), HRI (Human Robot Interaction), and CSCW (Computer- Supported Cooperative Work).",
+          "bbox": {
+            "x1": 118,
+            "y1": 196,
+            "x2": 875,
+            "y2": 459
+          },
+          "bbox_list": [
+            118,
+            196,
+            875,
+            459
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In a content analysis of journal articles published during the first decade of the Internet, Sundar was identified as the most published author of Internet- related research in the field of communications, and across 11 leading journals of communications, marketing and advertising (Cho & Khang, 2006; Journal of Advertising, 35: 3, 143- 163).",
+          "bbox": {
+            "x1": 120,
+            "y1": 470,
+            "x2": 857,
+            "y2": 600
+          },
+          "bbox_list": [
+            120,
+            470,
+            857,
+            600
+          ]
+        },
+        {
+          "block_id": "p4_b4",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "A frequently cited source on technology, Sundar has testified before US Congress as an expert witness and delivered talks at several universities in the United States, Germany, Netherlands, Hong Kong, Korea, China, Singapore and India. He has served on the editorial boards of over 20 journals, including Communication Research, Journal of Communication, Human Communication Research, Media Psychology, Journalism & Mass Communication Quarterly, Journal of Broadcasting & Electronic Media, and Journal of Advertising.",
+          "bbox": {
+            "x1": 121,
+            "y1": 612,
+            "x2": 864,
+            "y2": 795
+          },
+          "bbox_list": [
+            121,
+            612,
+            864,
+            795
+          ]
+        },
+        {
+          "block_id": "p4_b5",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "He is editor of the first- ever Handbook on the Psychology of Communication Technology, published by Blackwell Wiley in 2015. From 2013 to 2017, Sundar was editor- in- chief of the Journal of Computer- Mediated Communication.",
+          "bbox": {
+            "x1": 127,
+            "y1": 807,
+            "x2": 869,
+            "y2": 884
+          },
+          "bbox_list": [
+            127,
+            807,
+            869,
+            884
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nand the strategic use of media and communication technologies for motivating healthy and prosocial human behaviors.  \n\nHis research is supported by the National Science Foundation (NSF), MacArthur Foundation, Facebook, Inc., and Lockheed Martin Information Systems and Global Services, among others.  \n\nSundar was among the first to publish refereed research on the effects of internet- based media in the Journal of Communication, the flagship publication of the International Communication Association (ICA). His work has also appeared in other leading journals, such as Communication Research, Human Communication Research, Media Psychology, Human Computer Interaction, International Journal of Human- Computer Studies, Behaviour & Information Technology, The Information Society, Journal of Advertising, and Journalism & Mass Communication Quarterly. In addition, he has published in leading conference proceedings such as CHI (Computer Human Interaction), HRI (Human Robot Interaction), and CSCW (Computer- Supported Cooperative Work).  \n\nIn a content analysis of journal articles published during the first decade of the Internet, Sundar was identified as the most published author of Internet- related research in the field of communications, and across 11 leading journals of communications, marketing and advertising (Cho & Khang, 2006; Journal of Advertising, 35: 3, 143- 163).  \n\nA frequently cited source on technology, Sundar has testified before US Congress as an expert witness and delivered talks at several universities in the United States, Germany, Netherlands, Hong Kong, Korea, China, Singapore and India. He has served on the editorial boards of over 20 journals, including Communication Research, Journal of Communication, Human Communication Research, Media Psychology, Journalism & Mass Communication Quarterly, Journal of Broadcasting & Electronic Media, and Journal of Advertising.  \n\nHe is editor of the first- ever Handbook on the Psychology of Communication Technology, published by Blackwell Wiley in 2015. From 2013 to 2017, Sundar was editor- in- chief of the Journal of Computer- Mediated Communication."
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "He is a winner of Penn State's Faculty Scholar Medal, for outstanding achievement in social and behavioral sciences. He is a Fellow of ICA, and was elected chair of the Communication & Technology division and Vice- President of ICA, 2008- 2010. He is also a recipient of the Frederick Williams Prize awarded by the division for contribution to the study of communication technology. He is the youngest recipient of the Deutschmann award for research excellence from the Association for Education in Journalism and Mass Communication (AEJMC). His contribution to the field also includes serving as the head of the Communication Technology Division of AEJMC, 2000- 2001. He has also chaired AEJMC's Publications Committee and served on its Strategic Plan Committee.",
+          "bbox": {
+            "x1": 115,
+            "y1": 44,
+            "x2": 870,
+            "y2": 304
+          },
+          "bbox_list": [
+            115,
+            44,
+            870,
+            304
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "An avid music fan, Shyam is a long- time host of the radio show Jazz Spectrum, which airs Wednesday mornings from 9 to 11 am EST on the local station WKPS, accessible on the dial at 90.7 FM and on the Web at www.thelion.fm",
+          "bbox": {
+            "x1": 118,
+            "y1": 319,
+            "x2": 854,
+            "y2": 394
+          },
+          "bbox_list": [
+            118,
+            319,
+            854,
+            394
+          ]
+        },
+        {
+          "block_id": "p5_b2",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "+ Websites",
+          "bbox": {
+            "x1": 110,
+            "y1": 415,
+            "x2": 245,
+            "y2": 437
+          },
+          "bbox_list": [
+            110,
+            415,
+            245,
+            437
+          ]
+        },
+        {
+          "block_id": "p5_b3",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "+ In the News",
+          "bbox": {
+            "x1": 110,
+            "y1": 467,
+            "x2": 271,
+            "y2": 489
+          },
+          "bbox_list": [
+            110,
+            467,
+            271,
+            489
+          ]
+        },
+        {
+          "block_id": "p5_b4",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "+ Publications",
+          "bbox": {
+            "x1": 110,
+            "y1": 518,
+            "x2": 277,
+            "y2": 540
+          },
+          "bbox_list": [
+            110,
+            518,
+            277,
+            540
+          ]
+        },
+        {
+          "block_id": "p5_b5",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## CONTACT",
+          "bbox": {
+            "x1": 95,
+            "y1": 581,
+            "x2": 253,
+            "y2": 608
+          },
+          "bbox_list": [
+            95,
+            581,
+            253,
+            608
+          ]
+        },
+        {
+          "block_id": "p5_b6",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "S. Shyam Sundar 122 Carnegie Building 814- 865- 2173 sss12@psu.edu",
+          "bbox": {
+            "x1": 112,
+            "y1": 650,
+            "x2": 335,
+            "y2": 739
+          },
+          "bbox_list": [
+            112,
+            650,
+            335,
+            739
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nHe is a winner of Penn State's Faculty Scholar Medal, for outstanding achievement in social and behavioral sciences. He is a Fellow of ICA, and was elected chair of the Communication & Technology division and Vice- President of ICA, 2008- 2010. He is also a recipient of the Frederick Williams Prize awarded by the division for contribution to the study of communication technology. He is the youngest recipient of the Deutschmann award for research excellence from the Association for Education in Journalism and Mass Communication (AEJMC). His contribution to the field also includes serving as the head of the Communication Technology Division of AEJMC, 2000- 2001. He has also chaired AEJMC's Publications Committee and served on its Strategic Plan Committee.  \n\nAn avid music fan, Shyam is a long- time host of the radio show Jazz Spectrum, which airs Wednesday mornings from 9 to 11 am EST on the local station WKPS, accessible on the dial at 90.7 FM and on the Web at www.thelion.fm  \n\n+ Websites  \n\n+ In the News  \n\n+ Publications  \n\n## CONTACT  \n\nS. Shyam Sundar  122 Carnegie Building  814- 865- 2173  sss12@psu.edu"
+    }
+  ],
+  "total_blocks": 30
+}

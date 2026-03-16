@@ -1,0 +1,252 @@
+{
+  "exhibit_id": "D3",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit D-3",
+          "bbox": {
+            "x1": 120,
+            "y1": 451,
+            "x2": 872,
+            "y2": 550
+          },
+          "bbox_list": [
+            120,
+            451,
+            872,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit D-3"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Letter of Support",
+          "bbox": {
+            "x1": 410,
+            "y1": 136,
+            "x2": 581,
+            "y2": 157
+          },
+          "bbox_list": [
+            410,
+            136,
+            581,
+            157
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Professor Dehuan Liu has been dedicated to the field of social science research methods for many years. He has made significant contributions in the areas of social statistics, big data analysis, causal inference, and more. He is one of the most important and active scholars in China in terms of quantitative research methods in social sciences. His work, \"Age Theory: Social Time in Social Space,\" was the first to apply the life course studies established by American sociologists and demographers, such as Glen Elder, to the quantitative research in Chinese sociology, and combined with a substantial amount of actual case data, which has had a broad impact. It has played an important guiding role in considering intergenerational influences in the construction of indigenous social science theories in China and in incorporating age variables into statistical models in quantitative methods.",
+          "bbox": {
+            "x1": 116,
+            "y1": 171,
+            "x2": 877,
+            "y2": 343
+          },
+          "bbox_list": [
+            116,
+            171,
+            877,
+            343
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "We have long- term deep collaboration and communication in the field of social science. As early as 2009, I partnered with Professor Dehuan Liu to present a report titled \"Online Shopping Among Chinese Consumers: An Exploratory Investigation of Demographics and Value Orientation\" at the annual meeting of Agricultural & Applied Economics Association in the United States. The same titled paper based on this report was subsequently published in the International Journal of Consumer Studies. According to Google Scholar data, this paper has been cited 59 times to date, placing it in the top \\(10\\%\\) of papers published in this journal over the past fifteen years. These citations come from various fields, such as market research, information science, economics, and others.",
+          "bbox": {
+            "x1": 117,
+            "y1": 358,
+            "x2": 878,
+            "y2": 514
+          },
+          "bbox_list": [
+            117,
+            358,
+            878,
+            514
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "We have discussed and mutually agreed to further strengthen our collaboration over the next five years. We will engage in cooperation and discussions in various fields, including the construction of big data statistical models, particularly in the area of causal inference research. Together, we will advance the development of both quantitative and computational social sciences. As part of our ongoing collaboration, I plan to invite Professor Dehuan Liu as a visiting scholar to the School of Computing and Information at the University of Pittsburgh during the 2024- 2025 period, for a deeper academic research exchange. We also hope to jointly organize seminars, academic lectures, and other academic events. Through these academic visits and exchange activities, we aim to actively explore opportunities and promote the development of collaborative research in fields such as social science research methods and information science.",
+          "bbox": {
+            "x1": 118,
+            "y1": 527,
+            "x2": 879,
+            "y2": 700
+          },
+          "bbox_list": [
+            118,
+            527,
+            879,
+            700
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Should you have any questions, please do not hesitate to contact me. A copy of my profile with my contact information is attached.",
+          "bbox": {
+            "x1": 118,
+            "y1": 713,
+            "x2": 878,
+            "y2": 750
+          },
+          "bbox_list": [
+            118,
+            713,
+            878,
+            750
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 144,
+            "y1": 761,
+            "x2": 395,
+            "y2": 825
+          },
+          "bbox_list": [
+            144,
+            761,
+            395,
+            825
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Lingfei Wu Assistant Professor, School of Computing and Information",
+          "bbox": {
+            "x1": 120,
+            "y1": 856,
+            "x2": 580,
+            "y2": 890
+          },
+          "bbox_list": [
+            120,
+            856,
+            580,
+            890
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## Letter of Support  \n\nProfessor Dehuan Liu has been dedicated to the field of social science research methods for many years. He has made significant contributions in the areas of social statistics, big data analysis, causal inference, and more. He is one of the most important and active scholars in China in terms of quantitative research methods in social sciences. His work, \"Age Theory: Social Time in Social Space,\" was the first to apply the life course studies established by American sociologists and demographers, such as Glen Elder, to the quantitative research in Chinese sociology, and combined with a substantial amount of actual case data, which has had a broad impact. It has played an important guiding role in considering intergenerational influences in the construction of indigenous social science theories in China and in incorporating age variables into statistical models in quantitative methods.  \n\nWe have long- term deep collaboration and communication in the field of social science. As early as 2009, I partnered with Professor Dehuan Liu to present a report titled \"Online Shopping Among Chinese Consumers: An Exploratory Investigation of Demographics and Value Orientation\" at the annual meeting of Agricultural & Applied Economics Association in the United States. The same titled paper based on this report was subsequently published in the International Journal of Consumer Studies. According to Google Scholar data, this paper has been cited 59 times to date, placing it in the top \\(10\\%\\) of papers published in this journal over the past fifteen years. These citations come from various fields, such as market research, information science, economics, and others.  \n\nWe have discussed and mutually agreed to further strengthen our collaboration over the next five years. We will engage in cooperation and discussions in various fields, including the construction of big data statistical models, particularly in the area of causal inference research. Together, we will advance the development of both quantitative and computational social sciences. As part of our ongoing collaboration, I plan to invite Professor Dehuan Liu as a visiting scholar to the School of Computing and Information at the University of Pittsburgh during the 2024- 2025 period, for a deeper academic research exchange. We also hope to jointly organize seminars, academic lectures, and other academic events. Through these academic visits and exchange activities, we aim to actively explore opportunities and promote the development of collaborative research in fields such as social science research methods and information science.  \n\nShould you have any questions, please do not hesitate to contact me. A copy of my profile with my contact information is attached.  \n\nLingfei Wu  Assistant Professor, School of Computing and Information"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Lingfei Wu",
+          "bbox": {
+            "x1": 119,
+            "y1": 155,
+            "x2": 216,
+            "y2": 172
+          },
+          "bbox_list": [
+            119,
+            155,
+            216,
+            172
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Assistant Professor School of Computing and Information Office 618, 135 N Bellefield Ave Pittsburgh, PA 15213 liw105@pit.edu https://lingfeiwu.github.io/",
+          "bbox": {
+            "x1": 118,
+            "y1": 173,
+            "x2": 420,
+            "y2": 277
+          },
+          "bbox_list": [
+            118,
+            173,
+            420,
+            277
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Professor Lingfei Wu's Profile",
+          "bbox": {
+            "x1": 378,
+            "y1": 308,
+            "x2": 618,
+            "y2": 327
+          },
+          "bbox_list": [
+            378,
+            308,
+            618,
+            327
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Professor Lingfei Wu serves as an Assistant Professor at the School of Computing and Information at the University of Pittsburgh, where he focuses on the Science of Team Science and Innovation. He utilizes advanced research techniques such as big data analysis, complexity sciences, and AI to explore how science and technology progress through team collaboration. His research has been published in prestigious journals, including Nature and PNAS, and featured in well- known media outlets. Furthermore, Professor Lingfei Wu advises organizations such as Novo Nordisk Fonden and the John Templeton Foundation on employing data science to evaluate teamwork in the scientific field. His contributions to research and teaching have earned him multiple awards, including the NSF Career Award, the Richard King Mellon Award, and the Oxford Martin School Fellowship.",
+          "bbox": {
+            "x1": 117,
+            "y1": 366,
+            "x2": 880,
+            "y2": 616
+          },
+          "bbox_list": [
+            117,
+            366,
+            880,
+            616
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## Lingfei Wu  \n\nAssistant Professor  School of Computing and Information  Office 618, 135 N Bellefield Ave  Pittsburgh, PA 15213  liw105@pit.edu  https://lingfeiwu.github.io/  \n\nProfessor Lingfei Wu's Profile  \n\nProfessor Lingfei Wu serves as an Assistant Professor at the School of Computing and Information at the University of Pittsburgh, where he focuses on the Science of Team Science and Innovation. He utilizes advanced research techniques such as big data analysis, complexity sciences, and AI to explore how science and technology progress through team collaboration. His research has been published in prestigious journals, including Nature and PNAS, and featured in well- known media outlets. Furthermore, Professor Lingfei Wu advises organizations such as Novo Nordisk Fonden and the John Templeton Foundation on employing data science to evaluate teamwork in the scientific field. His contributions to research and teaching have earned him multiple awards, including the NSF Career Award, the Richard King Mellon Award, and the Oxford Martin School Fellowship."
+    }
+  ],
+  "total_blocks": 12
+}

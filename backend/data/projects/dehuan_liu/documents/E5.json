@@ -1,0 +1,189 @@
+{
+  "exhibit_id": "E5",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit E-5",
+          "bbox": {
+            "x1": 120,
+            "y1": 450,
+            "x2": 870,
+            "y2": 549
+          },
+          "bbox_list": [
+            120,
+            450,
+            870,
+            549
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit E-5"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Document of Peking University",
+          "bbox": {
+            "x1": 105,
+            "y1": 87,
+            "x2": 883,
+            "y2": 135
+          },
+          "bbox_list": [
+            105,
+            87,
+            883,
+            135
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "X. F. [2022] No. 13",
+          "bbox": {
+            "x1": 412,
+            "y1": 159,
+            "x2": 575,
+            "y2": 179
+          },
+          "bbox_list": [
+            412,
+            159,
+            575,
+            179
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Notice on the Appointment of the Administrative Team of School of Journalism & Communication",
+          "bbox": {
+            "x1": 103,
+            "y1": 222,
+            "x2": 884,
+            "y2": 268
+          },
+          "bbox_list": [
+            103,
+            222,
+            884,
+            268
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "School of Journalism & Communication:",
+          "bbox": {
+            "x1": 99,
+            "y1": 290,
+            "x2": 435,
+            "y2": 308
+          },
+          "bbox_list": [
+            99,
+            290,
+            435,
+            308
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The University has decided to appoint Gang Chen as the Dean of the School of Journalism & Communication at Peking University. Dehuan Liu, Kaihe Chen (with a probation period of one year), and Weijia Wang (also with a probation period of one year) have been appointed as Vice Deans of the School of Journalism & Communication at Peking University. Members of the original team will consequently be stepping down from their positions.",
+          "bbox": {
+            "x1": 98,
+            "y1": 329,
+            "x2": 896,
+            "y2": 430
+          },
+          "bbox_list": [
+            98,
+            329,
+            896,
+            430
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Peking University",
+          "bbox": {
+            "x1": 735,
+            "y1": 430,
+            "x2": 890,
+            "y2": 449
+          },
+          "bbox_list": [
+            735,
+            430,
+            890,
+            449
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Peking University (Seal)",
+          "bbox": {
+            "x1": 676,
+            "y1": 470,
+            "x2": 892,
+            "y2": 489
+          },
+          "bbox_list": [
+            676,
+            470,
+            892,
+            489
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Jan. 4, 2022",
+          "bbox": {
+            "x1": 779,
+            "y1": 510,
+            "x2": 890,
+            "y2": 528
+          },
+          "bbox_list": [
+            779,
+            510,
+            890,
+            528
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# Document of Peking University  \n\nX. F. [2022] No. 13  \n\n# Notice on the Appointment of the Administrative Team of School of Journalism & Communication  \n\nSchool of Journalism & Communication:  \n\nThe University has decided to appoint Gang Chen as the Dean of the School of Journalism & Communication at Peking University. Dehuan Liu, Kaihe Chen (with a probation period of one year), and Weijia Wang (also with a probation period of one year) have been appointed as Vice Deans of the School of Journalism & Communication at Peking University. Members of the original team will consequently be stepping down from their positions.  \n\nPeking University  \n\nPeking University (Seal)  \n\nJan. 4, 2022"
+    }
+  ],
+  "total_blocks": 9
+}

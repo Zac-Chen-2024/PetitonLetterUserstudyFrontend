@@ -1,0 +1,55 @@
+{
+  "version": "4.0",
+  "exhibit_id": "D6",
+  "extracted_at": "2026-03-15T00:00:00+00:00",
+  "applicant_name": "Dehuan Liu",
+  "document_summary": "Introduction of Sociological Studies journal. Describes it as a first-level professional academic journal sponsored by the Institute of Sociology, Chinese Academy of Social Sciences. Core CSSCI journal, ranked first by four evaluation institutions, awarded 'China's Most Internationally Influential Academic Journal' for nine consecutive years (2012-2021).",
+  "snippets": [
+    {
+      "snippet_id": "snp_D6_a1b2c3d4",
+      "exhibit_id": "D6",
+      "document_id": "doc_D6",
+      "text": "\"Sociological Studies\" was first published in January 1986. It is a first- level professional academic journal sponsored by the Institute of Sociology, Chinese Academy of Social Sciences. It is a core journal in the Chinese Social Science Citation Index (CSSCI), a journal funded by the National Social Science Fund, and included in the national database of philosophy and social science academic journals. It has been ranked first in the subject rankings by four journal evaluation institutions, including the Chinese Academy of Social Sciences, Nanjing University, Peking University, and Wuhan University, and is hailed as an \"authoritative journal\". From 2012 to 2021, \"Sociological Studies\" was awarded the title of \"China's Most Internationally Influential Academic Journal\" for nine consecutive years, and also won awards such as \"China's Top 100 Journals\" and \"2016 Top 100 Digital Impact Journals\". \"Sociological Studies\" follows the editorial guidelines of fairness, professionalism, standardization, and continuous improvement, emphasizing academic standards and norms in manuscript selection. It implements a three- round review system and practices an anonymous review system.",
+      "page": 2,
+      "bbox": {"x1": 100, "y1": 145, "x2": 890, "y2": 398},
+      "block_id": "p2_b1",
+      "subject": "Sociological Studies journal description - top-tier CSSCI journal, 9 consecutive years most internationally influential",
+      "subject_role": "organization",
+      "recommender_name": null,
+      "is_applicant_achievement": false,
+      "evidence_type": "source_credibility",
+      "evidence_purpose": "credibility_evidence",
+      "evidence_layer": "meta",
+      "confidence": 0.95,
+      "reasoning": "Establishes Sociological Studies as a top-tier journal: CSSCI core, ranked #1 by four institutions, 9 years most internationally influential.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_D6_e5f6a7b8",
+      "exhibit_id": "D6",
+      "document_id": "doc_D6",
+      "text": "The predecessor of \"Sociological Studies\" were \"Sociological Communication\" (an internal publication, 1981- 1984) and \"Social Investigation and Research\" (1985). Since its inception, \"Sociological Studies\" has introduced Western sociology, promoted the standardization of sociology research in China, published outstanding research results on major issues related to China's social development, and guided the orientation of sociology research in China. It has gradually attracted attention from sociologists at home and abroad, as well as various sectors interested in studying Chinese society. With the increasing academic orientation, the journal is increasingly regarded as a professional leading journal in the field of sociology research in China.",
+      "page": 2,
+      "bbox": {"x1": 104, "y1": 432, "x2": 870, "y2": 606},
+      "block_id": "p2_b2",
+      "subject": "History and standing of Sociological Studies as leading sociology journal in China",
+      "subject_role": "organization",
+      "recommender_name": null,
+      "is_applicant_achievement": false,
+      "evidence_type": "source_credibility",
+      "evidence_purpose": "credibility_evidence",
+      "evidence_layer": "meta",
+      "confidence": 0.90,
+      "reasoning": "Provides historical context establishing the journal as the professional leading journal in Chinese sociology.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    }
+  ],
+  "entities": [
+    {"id": "ent_D6_0", "name": "Sociological Studies", "type": "organization", "identity": "journal", "relation_to_applicant": "publication venue", "snippet_ids": ["snp_D6_a1b2c3d4", "snp_D6_e5f6a7b8"], "exhibit_ids": ["D6"], "mentioned_in_blocks": ["p2_b0", "p2_b1", "p2_b2"], "aliases": [], "is_merged": false, "merged_from": []},
+    {"id": "ent_D6_1", "name": "Chinese Academy of Social Sciences", "type": "organization", "identity": "sponsor", "relation_to_applicant": "journal sponsor", "snippet_ids": ["snp_D6_a1b2c3d4"], "exhibit_ids": ["D6"], "mentioned_in_blocks": ["p2_b1"], "aliases": ["CASS"], "is_merged": false, "merged_from": []}
+  ],
+  "relations": [],
+  "stats": {"snippet_count": 2, "entity_count": 2, "relation_count": 0, "applicant_snippets": 0, "other_snippets": 2}
+}

@@ -1,0 +1,94 @@
+{
+  "exhibit_id": "G3",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit G-3",
+          "bbox": {
+            "x1": 110,
+            "y1": 451,
+            "x2": 876,
+            "y2": 550
+          },
+          "bbox_list": [
+            110,
+            451,
+            876,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit G-3"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Appointment Letter",
+          "bbox": {
+            "x1": 392,
+            "y1": 144,
+            "x2": 595,
+            "y2": 166
+          },
+          "bbox_list": [
+            392,
+            144,
+            595,
+            166
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Hereby, we appoint Mr. Dehuan Liu as an editor for the editorial board of Journal of Advertising Study magazine, with the term of appointment starting from October 10, 2010, for a period of three years.",
+          "bbox": {
+            "x1": 106,
+            "y1": 199,
+            "x2": 872,
+            "y2": 255
+          },
+          "bbox_list": [
+            106,
+            199,
+            872,
+            255
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Journal of Advertising Study (Advertising Panorama) Editorial Department October 10, 2010 (Seal)",
+          "bbox": {
+            "x1": 260,
+            "y1": 286,
+            "x2": 873,
+            "y2": 325
+          },
+          "bbox_list": [
+            260,
+            286,
+            873,
+            325
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## Appointment Letter  \n\nHereby, we appoint Mr. Dehuan Liu as an editor for the editorial board of Journal of Advertising Study magazine, with the term of appointment starting from October 10, 2010, for a period of three years.  \n\nJournal of Advertising Study (Advertising Panorama) Editorial Department October 10, 2010 (Seal)"
+    }
+  ],
+  "total_blocks": 4
+}

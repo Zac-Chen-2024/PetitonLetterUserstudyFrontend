@@ -1,0 +1,1175 @@
+{
+  "exhibit_id": "G5",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit G-5",
+          "bbox": {
+            "x1": 111,
+            "y1": 448,
+            "x2": 880,
+            "y2": 545
+          },
+          "bbox_list": [
+            111,
+            448,
+            880,
+            545
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit G-5"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Market Research and Application",
+          "bbox": {
+            "x1": 247,
+            "y1": 297,
+            "x2": 738,
+            "y2": 328
+          },
+          "bbox_list": [
+            247,
+            297,
+            738,
+            328
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Dehuan Liu Editor- in- Chief",
+          "bbox": {
+            "x1": 592,
+            "y1": 364,
+            "x2": 834,
+            "y2": 383
+          },
+          "bbox_list": [
+            592,
+            364,
+            834,
+            383
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Peking University Press",
+          "bbox": {
+            "x1": 400,
+            "y1": 572,
+            "x2": 598,
+            "y2": 590
+          },
+          "bbox_list": [
+            400,
+            572,
+            598,
+            590
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# Market Research and Application  \n\nDehuan Liu Editor- in- Chief  \n\nPeking University Press"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Market Research and Application",
+          "bbox": {
+            "x1": 249,
+            "y1": 80,
+            "x2": 739,
+            "y2": 110
+          },
+          "bbox_list": [
+            249,
+            80,
+            739,
+            110
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The practice of market research has been developed in China for more than 20 years. This book collects, organizes, summarizes, and enriches the latest achievements of market research. It covers various areas such as market segmentation and positioning, product testing, marketing channels and their management research system, business district research, branding research, advertising research, etc. This comprehensive coverage provides answers to the problems faced by marketing practitioners at all stages of corporate marketing. The book is suitable for academic marketing majors as a textbook and is also useful for business managers and related practitioners.",
+          "bbox": {
+            "x1": 110,
+            "y1": 137,
+            "x2": 880,
+            "y2": 281
+          },
+          "bbox_list": [
+            110,
+            137,
+            880,
+            281
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Dehuan Liu, male, holds a Ph.D. in Sociology from Peking University. He serves as the Vice Dean of School of Journalism and Communication at Peking University, the Deputy Director of Center for Market and Media Research at Peking University, and the President of National Market Research Association. His major publications include the national key textbooks Modern Market Research, Market Survey Textbook, Market Survey, Theoretical Basis and Practical Methods of Social Survey, Perspectives on Chinese People's Reading Lives, and Survey on Project Hope, among others. He has published over 40 papers, including \"Questionnaire Design,\" \"Analysis of Influential Factors on Internet Dependence,\" \"Research on Beijing Newspaper Odd- Listing Market,\" and \"The Application of Age Variable in Data Analysis,\" among others.",
+          "bbox": {
+            "x1": 110,
+            "y1": 312,
+            "x2": 875,
+            "y2": 492
+          },
+          "bbox_list": [
+            110,
+            312,
+            875,
+            492
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Editor: Jing Zhou, Jing Ren, Lijing Zhou Cover Design: Spring Studio",
+          "bbox": {
+            "x1": 111,
+            "y1": 541,
+            "x2": 446,
+            "y2": 579
+          },
+          "bbox_list": [
+            111,
+            541,
+            446,
+            579
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Price: 30CNY",
+          "bbox": {
+            "x1": 111,
+            "y1": 612,
+            "x2": 229,
+            "y2": 630
+          },
+          "bbox_list": [
+            111,
+            612,
+            229,
+            630
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## Market Research and Application  \n\nThe practice of market research has been developed in China for more than 20 years. This book collects, organizes, summarizes, and enriches the latest achievements of market research. It covers various areas such as market segmentation and positioning, product testing, marketing channels and their management research system, business district research, branding research, advertising research, etc. This comprehensive coverage provides answers to the problems faced by marketing practitioners at all stages of corporate marketing. The book is suitable for academic marketing majors as a textbook and is also useful for business managers and related practitioners.  \n\nDehuan Liu, male, holds a Ph.D. in Sociology from Peking University. He serves as the Vice Dean of School of Journalism and Communication at Peking University, the Deputy Director of Center for Market and Media Research at Peking University, and the President of National Market Research Association. His major publications include the national key textbooks Modern Market Research, Market Survey Textbook, Market Survey, Theoretical Basis and Practical Methods of Social Survey, Perspectives on Chinese People's Reading Lives, and Survey on Project Hope, among others. He has published over 40 papers, including \"Questionnaire Design,\" \"Analysis of Influential Factors on Internet Dependence,\" \"Research on Beijing Newspaper Odd- Listing Market,\" and \"The Application of Age Variable in Data Analysis,\" among others.  \n\nEditor: Jing Zhou, Jing Ren, Lijing Zhou  Cover Design: Spring Studio  \n\nPrice: 30CNY"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Content",
+          "bbox": {
+            "x1": 459,
+            "y1": 74,
+            "x2": 560,
+            "y2": 97
+          },
+          "bbox_list": [
+            459,
+            74,
+            560,
+            97
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Chapter 1 Market segmentation and position. (1) Section 1 Basic ideas of market segmentation. (1) Section 2 Analysis techniques of market segmentation. (8) Section 3 Main methods in market segmentation. (9) Section 4 Matters needing attention in market segmentation. (16) Chapter 2 Product testing. (20) Section 1: The meaning of Product testing. (20) Section 2 Concept test of the product. (25) Section 3 Price test. (46) Chapter 3 marketing channel and its management research system. (60) Section 1 Marketing Channels. (61) Section 2 Marketing Channel Management. (64) Section 3 Marketing channel and its management research. (68) Section 4 Marketing Channel and its management research platform. (71) Chapter 4 Channel strategy research: Application of diagnostic model. (79) Section 1 Why are Channels the focus of Competition. (79) What problem can research solve in Section 2. (81) Section 3 Channel diagnosis model design and analysis framework. (84) Section 4 Channel problems and diagnosis. (92) Chapter 5 Research on channel operation management. (101) Section 1 Promotional Display Prediction Model P & D StimuliTM. (101) Section 2 The application of GIS technology in channel management. (105) The third section introduces the retail terminal management system based on GIS technology. (112) Chapter 6 Research on business circle. (118) Section 1 The importance of market research in retail/chain management. (118) Section two basic introduction to the business circle. (121)",
+          "bbox": {
+            "x1": 175,
+            "y1": 130,
+            "x2": 784,
+            "y2": 870
+          },
+          "bbox_list": [
+            175,
+            130,
+            784,
+            870
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## Content  \n\nChapter 1 Market segmentation and position. (1) Section 1 Basic ideas of market segmentation. (1) Section 2 Analysis techniques of market segmentation. (8) Section 3 Main methods in market segmentation. (9) Section 4 Matters needing attention in market segmentation. (16) Chapter 2 Product testing. (20) Section 1: The meaning of Product testing. (20) Section 2 Concept test of the product. (25) Section 3 Price test. (46) Chapter 3 marketing channel and its management research system. (60) Section 1 Marketing Channels. (61) Section 2 Marketing Channel Management. (64) Section 3 Marketing channel and its management research. (68) Section 4 Marketing Channel and its management research platform. (71) Chapter 4 Channel strategy research: Application of diagnostic model. (79) Section 1 Why are Channels the focus of Competition. (79) What problem can research solve in Section 2. (81) Section 3 Channel diagnosis model design and analysis framework. (84) Section 4 Channel problems and diagnosis. (92) Chapter 5 Research on channel operation management. (101) Section 1 Promotional Display Prediction Model P & D StimuliTM. (101) Section 2 The application of GIS technology in channel management. (105) The third section introduces the retail terminal management system based on GIS technology. (112) Chapter 6 Research on business circle. (118) Section 1 The importance of market research in retail/chain management. (118) Section two basic introduction to the business circle. (121)"
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Content",
+          "bbox": {
+            "x1": 459,
+            "y1": 75,
+            "x2": 560,
+            "y2": 98
+          },
+          "bbox_list": [
+            459,
+            75,
+            560,
+            98
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Chapter 1 Market segmentation and positionin. (1) Section 1 Basic ideas of market segmentation. (1) Section 2 Analysis techniques of market segmentation. (8) Section 3 Main methods in market segmentation. (9) Section 4 Matters needing attention in market segmentation. (16) Chapter 2 Product testing. (20) Section 1: The meaning of Product testing. (20) Section 2 Concept test of the product. (25) Section 3 Price test. (46) Chapter Three marketing channel and its management research system. (60) Section 1 Marketing Channels. (61) Section 2 Marketing Channel Management. (64) Section 3 Marketing channel and its management research. (68) Section 4 Marketing Channel and its management research platform. (71) Chapter 4 Channel strategy research: Application of diagnostic model. (79) Section 1 Why are Channels the focus of Competition. (79) What problem can research solve in Section 2. (81) Section 3 Channel diagnosis model design and analysis framework. (84) Section 4 Channel problems and diagnosis. (92) Chapter V Research on channel operation management. (101) Section 1 Promotional Display Prediction Model P & D StimuliTM. (101) Section 2 The application of GIS technology in channel management. (105) The third section introduces the retail terminal management system based on GIS technology. (112) Chapter 6 Research on business circle. (118) Section 1 The importance of market research in retail/chain management. (118) Section two basic introduction to the business circle. (121)",
+          "bbox": {
+            "x1": 175,
+            "y1": 125,
+            "x2": 785,
+            "y2": 844
+          },
+          "bbox_list": [
+            175,
+            125,
+            785,
+            844
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## Content  \n\nChapter 1 Market segmentation and positionin. (1) Section 1 Basic ideas of market segmentation. (1) Section 2 Analysis techniques of market segmentation. (8) Section 3 Main methods in market segmentation. (9) Section 4 Matters needing attention in market segmentation. (16) Chapter 2 Product testing. (20) Section 1: The meaning of Product testing. (20) Section 2 Concept test of the product. (25) Section 3 Price test. (46) Chapter Three marketing channel and its management research system. (60) Section 1 Marketing Channels. (61) Section 2 Marketing Channel Management. (64) Section 3 Marketing channel and its management research. (68) Section 4 Marketing Channel and its management research platform. (71) Chapter 4 Channel strategy research: Application of diagnostic model. (79) Section 1 Why are Channels the focus of Competition. (79) What problem can research solve in Section 2. (81) Section 3 Channel diagnosis model design and analysis framework. (84) Section 4 Channel problems and diagnosis. (92) Chapter V Research on channel operation management. (101) Section 1 Promotional Display Prediction Model P & D StimuliTM. (101) Section 2 The application of GIS technology in channel management. (105) The third section introduces the retail terminal management system based on GIS technology. (112) Chapter 6 Research on business circle. (118) Section 1 The importance of market research in retail/chain management. (118) Section two basic introduction to the business circle. (121)"
+    },
+    {
+      "page_number": 6,
+      "text_blocks": [
+        {
+          "block_id": "p6_b0",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## 2 Market research and application",
+          "bbox": {
+            "x1": 178,
+            "y1": 75,
+            "x2": 650,
+            "y2": 98
+          },
+          "bbox_list": [
+            178,
+            75,
+            650,
+            98
+          ]
+        },
+        {
+          "block_id": "p6_b1",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Section 3 The theoretical basis of business circle analysis (125) Section 4 Factors affecting the business circle (129) Section 5 Development of business circle research (146) Section 6 The application of new store location in the analysis of business area (148) Section 7 Matters that should be paid attention to in business circle investigation (154)",
+          "bbox": {
+            "x1": 175,
+            "y1": 161,
+            "x2": 825,
+            "y2": 300
+          },
+          "bbox_list": [
+            175,
+            161,
+            825,
+            300
+          ]
+        },
+        {
+          "block_id": "p6_b2",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Chapter 7 brand research (157)",
+          "bbox": {
+            "x1": 178,
+            "y1": 308,
+            "x2": 820,
+            "y2": 328
+          },
+          "bbox_list": [
+            178,
+            308,
+            820,
+            328
+          ]
+        },
+        {
+          "block_id": "p6_b3",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Section 1 Brand Management and brand research (157)",
+          "bbox": {
+            "x1": 178,
+            "y1": 337,
+            "x2": 820,
+            "y2": 357
+          },
+          "bbox_list": [
+            178,
+            337,
+            820,
+            357
+          ]
+        },
+        {
+          "block_id": "p6_b4",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Section 2 Measurement of brand performance (158)",
+          "bbox": {
+            "x1": 178,
+            "y1": 367,
+            "x2": 818,
+            "y2": 386
+          },
+          "bbox_list": [
+            178,
+            367,
+            818,
+            386
+          ]
+        },
+        {
+          "block_id": "p6_b5",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Section 3 Research on brand image (168)",
+          "bbox": {
+            "x1": 178,
+            "y1": 396,
+            "x2": 818,
+            "y2": 415
+          },
+          "bbox_list": [
+            178,
+            396,
+            818,
+            415
+          ]
+        },
+        {
+          "block_id": "p6_b6",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Chapter 8 Customer Satisfaction measurement and management (205)",
+          "bbox": {
+            "x1": 178,
+            "y1": 424,
+            "x2": 817,
+            "y2": 444
+          },
+          "bbox_list": [
+            178,
+            424,
+            817,
+            444
+          ]
+        },
+        {
+          "block_id": "p6_b7",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Section 1 Why Should We Measure Customer Satisfaction (205)",
+          "bbox": {
+            "x1": 178,
+            "y1": 453,
+            "x2": 818,
+            "y2": 472
+          },
+          "bbox_list": [
+            178,
+            453,
+            818,
+            472
+          ]
+        },
+        {
+          "block_id": "p6_b8",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Section 2 Objective of satisfaction measurement (215)",
+          "bbox": {
+            "x1": 178,
+            "y1": 482,
+            "x2": 818,
+            "y2": 501
+          },
+          "bbox_list": [
+            178,
+            482,
+            818,
+            501
+          ]
+        },
+        {
+          "block_id": "p6_b9",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Section 3 Index construction and scale selection (220)",
+          "bbox": {
+            "x1": 178,
+            "y1": 510,
+            "x2": 820,
+            "y2": 530
+          },
+          "bbox_list": [
+            178,
+            510,
+            820,
+            530
+          ]
+        },
+        {
+          "block_id": "p6_b10",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Section 4 Satisfaction data analysis and information presentation (222)",
+          "bbox": {
+            "x1": 178,
+            "y1": 540,
+            "x2": 820,
+            "y2": 559
+          },
+          "bbox_list": [
+            178,
+            540,
+            820,
+            559
+          ]
+        },
+        {
+          "block_id": "p6_b11",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Section 5 From Satisfaction Measurement to customer value measurement (225)",
+          "bbox": {
+            "x1": 178,
+            "y1": 568,
+            "x2": 820,
+            "y2": 588
+          },
+          "bbox_list": [
+            178,
+            568,
+            820,
+            588
+          ]
+        },
+        {
+          "block_id": "p6_b12",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Chapter 9 Single Source Research (228)",
+          "bbox": {
+            "x1": 178,
+            "y1": 597,
+            "x2": 820,
+            "y2": 617
+          },
+          "bbox_list": [
+            178,
+            597,
+            820,
+            617
+          ]
+        },
+        {
+          "block_id": "p6_b13",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Section 1 Origin and Development (228)",
+          "bbox": {
+            "x1": 178,
+            "y1": 626,
+            "x2": 820,
+            "y2": 646
+          },
+          "bbox_list": [
+            178,
+            626,
+            820,
+            646
+          ]
+        },
+        {
+          "block_id": "p6_b14",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Section 2 \"Single Source Research\" methods (230)",
+          "bbox": {
+            "x1": 178,
+            "y1": 655,
+            "x2": 820,
+            "y2": 675
+          },
+          "bbox_list": [
+            178,
+            655,
+            820,
+            675
+          ]
+        },
+        {
+          "block_id": "p6_b15",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Section 3 Applications of \"Single Source Data\" (235)",
+          "bbox": {
+            "x1": 178,
+            "y1": 684,
+            "x2": 818,
+            "y2": 703
+          },
+          "bbox_list": [
+            178,
+            684,
+            818,
+            703
+          ]
+        },
+        {
+          "block_id": "p6_b16",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Chapter 10 Advertising Research (267)",
+          "bbox": {
+            "x1": 178,
+            "y1": 712,
+            "x2": 820,
+            "y2": 732
+          },
+          "bbox_list": [
+            178,
+            712,
+            820,
+            732
+          ]
+        },
+        {
+          "block_id": "p6_b17",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Section 1 Advertising manuscript test (268)",
+          "bbox": {
+            "x1": 178,
+            "y1": 741,
+            "x2": 818,
+            "y2": 760
+          },
+          "bbox_list": [
+            178,
+            741,
+            818,
+            760
+          ]
+        },
+        {
+          "block_id": "p6_b18",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Section 2 Investigation of Advertising Appeals (278)",
+          "bbox": {
+            "x1": 178,
+            "y1": 770,
+            "x2": 818,
+            "y2": 789
+          },
+          "bbox_list": [
+            178,
+            770,
+            818,
+            789
+          ]
+        },
+        {
+          "block_id": "p6_b19",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Section 3 Measurement of Advertising Effect (286)",
+          "bbox": {
+            "x1": 178,
+            "y1": 798,
+            "x2": 818,
+            "y2": 817
+          },
+          "bbox_list": [
+            178,
+            798,
+            818,
+            817
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## 2 Market research and application  \n\nSection 3 The theoretical basis of business circle analysis (125) Section 4 Factors affecting the business circle (129) Section 5 Development of business circle research (146) Section 6 The application of new store location in the analysis of business area (148) Section 7 Matters that should be paid attention to in business circle investigation (154)  \n\nChapter 7 brand research (157)  \n\nSection 1 Brand Management and brand research (157)  \n\nSection 2 Measurement of brand performance (158)  \n\nSection 3 Research on brand image (168)  \n\nChapter 8 Customer Satisfaction measurement and management (205)  \n\nSection 1 Why Should We Measure Customer Satisfaction (205)  \n\nSection 2 Objective of satisfaction measurement (215)  \n\nSection 3 Index construction and scale selection (220)  \n\nSection 4 Satisfaction data analysis and information presentation (222)  \n\nSection 5 From Satisfaction Measurement to customer value measurement (225)  \n\nChapter 9 Single Source Research (228)  \n\nSection 1 Origin and Development (228)  \n\nSection 2 \"Single Source Research\" methods (230)  \n\nSection 3 Applications of \"Single Source Data\" (235)  \n\nChapter 10 Advertising Research (267)  \n\nSection 1 Advertising manuscript test (268)  \n\nSection 2 Investigation of Advertising Appeals (278)  \n\nSection 3 Measurement of Advertising Effect (286)"
+    },
+    {
+      "page_number": 7,
+      "text_blocks": [
+        {
+          "block_id": "p7_b0",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(Translation)",
+          "bbox": {
+            "x1": 188,
+            "y1": 41,
+            "x2": 287,
+            "y2": 58
+          },
+          "bbox_list": [
+            188,
+            41,
+            287,
+            58
+          ]
+        },
+        {
+          "block_id": "p7_b1",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Chapter 11 Advertising Monitoring (311)",
+          "bbox": {
+            "x1": 176,
+            "y1": 127,
+            "x2": 812,
+            "y2": 148
+          },
+          "bbox_list": [
+            176,
+            127,
+            812,
+            148
+          ]
+        },
+        {
+          "block_id": "p7_b2",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Section 1 Indicators and methods of advertising monitoring (311)",
+          "bbox": {
+            "x1": 178,
+            "y1": 158,
+            "x2": 812,
+            "y2": 179
+          },
+          "bbox_list": [
+            178,
+            158,
+            812,
+            179
+          ]
+        },
+        {
+          "block_id": "p7_b3",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Section 2 The Significance of Advertising Monitoring (317)",
+          "bbox": {
+            "x1": 178,
+            "y1": 188,
+            "x2": 812,
+            "y2": 208
+          },
+          "bbox_list": [
+            178,
+            188,
+            812,
+            208
+          ]
+        },
+        {
+          "block_id": "p7_b4",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Section 3 Application of advertising monitoring data (321)",
+          "bbox": {
+            "x1": 178,
+            "y1": 245,
+            "x2": 812,
+            "y2": 266
+          },
+          "bbox_list": [
+            178,
+            245,
+            812,
+            266
+          ]
+        },
+        {
+          "block_id": "p7_b5",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Postscript (343)",
+          "bbox": {
+            "x1": 178,
+            "y1": 275,
+            "x2": 812,
+            "y2": 294
+          },
+          "bbox_list": [
+            178,
+            275,
+            812,
+            294
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n(Translation)  \n\nChapter 11 Advertising Monitoring (311)  \n\nSection 1 Indicators and methods of advertising monitoring (311)  \n\nSection 2 The Significance of Advertising Monitoring (317)  \n\nSection 3 Application of advertising monitoring data (321)  \n\nPostscript (343)"
+    },
+    {
+      "page_number": 8,
+      "text_blocks": [
+        {
+          "block_id": "p8_b0",
+          "page_number": 8,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Cataloging Books in Print (CIP) Data",
+          "bbox": {
+            "x1": 100,
+            "y1": 78,
+            "x2": 481,
+            "y2": 102
+          },
+          "bbox_list": [
+            100,
+            78,
+            481,
+            102
+          ]
+        },
+        {
+          "block_id": "p8_b1",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Market Research and Application/Liu, Dehuan (Ed.). Beijing: Peking University Press, 2006.3",
+          "bbox": {
+            "x1": 98,
+            "y1": 140,
+            "x2": 868,
+            "y2": 163
+          },
+          "bbox_list": [
+            98,
+            140,
+            868,
+            163
+          ]
+        },
+        {
+          "block_id": "p8_b2",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "ISBN 978- 7- 301- 10091- 2",
+          "bbox": {
+            "x1": 100,
+            "y1": 171,
+            "x2": 313,
+            "y2": 191
+          },
+          "bbox_list": [
+            100,
+            171,
+            313,
+            191
+          ]
+        },
+        {
+          "block_id": "p8_b3",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "(21st Century Journalism and Communication Series)",
+          "bbox": {
+            "x1": 99,
+            "y1": 202,
+            "x2": 538,
+            "y2": 223
+          },
+          "bbox_list": [
+            99,
+            202,
+            538,
+            223
+          ]
+        },
+        {
+          "block_id": "p8_b4",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "I. City...II. Liu... III. Marketing IV. F.713.5",
+          "bbox": {
+            "x1": 99,
+            "y1": 233,
+            "x2": 464,
+            "y2": 254
+          },
+          "bbox_list": [
+            99,
+            233,
+            464,
+            254
+          ]
+        },
+        {
+          "block_id": "p8_b5",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "CIP Data Core Word of China Edition Library (2005) No. 131218",
+          "bbox": {
+            "x1": 99,
+            "y1": 263,
+            "x2": 638,
+            "y2": 285
+          },
+          "bbox_list": [
+            99,
+            263,
+            638,
+            285
+          ]
+        },
+        {
+          "block_id": "p8_b6",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Book Name: Market Research and Applications",
+          "bbox": {
+            "x1": 99,
+            "y1": 293,
+            "x2": 491,
+            "y2": 315
+          },
+          "bbox_list": [
+            99,
+            293,
+            491,
+            315
+          ]
+        },
+        {
+          "block_id": "p8_b7",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Responsible author: Liu, Dehuan",
+          "bbox": {
+            "x1": 99,
+            "y1": 323,
+            "x2": 370,
+            "y2": 344
+          },
+          "bbox_list": [
+            99,
+            323,
+            370,
+            344
+          ]
+        },
+        {
+          "block_id": "p8_b8",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Responsible editor: Zhou Jing, Ren, Jing and Zhou, Lijin",
+          "bbox": {
+            "x1": 99,
+            "y1": 353,
+            "x2": 564,
+            "y2": 375
+          },
+          "bbox_list": [
+            99,
+            353,
+            564,
+            375
+          ]
+        },
+        {
+          "block_id": "p8_b9",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Standard Book number: ISBN 978- 7- 301- 10091- 2/ F. 1302 Published by Peking University Press",
+          "bbox": {
+            "x1": 98,
+            "y1": 383,
+            "x2": 844,
+            "y2": 426
+          },
+          "bbox_list": [
+            98,
+            383,
+            844,
+            426
+          ]
+        },
+        {
+          "block_id": "p8_b10",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "to",
+          "bbox": {
+            "x1": 98,
+            "y1": 437,
+            "x2": 116,
+            "y2": 453
+          },
+          "bbox_list": [
+            98,
+            437,
+            116,
+            453
+          ]
+        },
+        {
+          "block_id": "p8_b11",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Address: No. 205 Chengfu Road, Haidian District, Beijing 100871 Net",
+          "bbox": {
+            "x1": 98,
+            "y1": 465,
+            "x2": 676,
+            "y2": 488
+          },
+          "bbox_list": [
+            98,
+            465,
+            676,
+            488
+          ]
+        },
+        {
+          "block_id": "p8_b12",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Address: http://www.pup.cn E- mail: ss@pup.pku.edu.cn Tel",
+          "bbox": {
+            "x1": 98,
+            "y1": 495,
+            "x2": 592,
+            "y2": 517
+          },
+          "bbox_list": [
+            98,
+            495,
+            592,
+            517
+          ]
+        },
+        {
+          "block_id": "p8_b13",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Telephone: Mail and Purchase Department 62752015 Distribution Department 62750672 Editorial Department 62765016 Publication Department 62754962 Distributor: Xinhua Bookstore",
+          "bbox": {
+            "x1": 98,
+            "y1": 525,
+            "x2": 825,
+            "y2": 588
+          },
+          "bbox_list": [
+            98,
+            525,
+            825,
+            588
+          ]
+        },
+        {
+          "block_id": "p8_b14",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Printer: World Knowledge Printing House",
+          "bbox": {
+            "x1": 97,
+            "y1": 596,
+            "x2": 444,
+            "y2": 618
+          },
+          "bbox_list": [
+            97,
+            596,
+            444,
+            618
+          ]
+        },
+        {
+          "block_id": "p8_b15",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "730mm x 980mm 16 folio 21.75 printing sheet 415 thousand words",
+          "bbox": {
+            "x1": 97,
+            "y1": 626,
+            "x2": 647,
+            "y2": 649
+          },
+          "bbox_list": [
+            97,
+            626,
+            647,
+            649
+          ]
+        },
+        {
+          "block_id": "p8_b16",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1st Edition March 2006 2nd print set June 2007",
+          "bbox": {
+            "x1": 97,
+            "y1": 656,
+            "x2": 489,
+            "y2": 678
+          },
+          "bbox_list": [
+            97,
+            656,
+            489,
+            678
+          ]
+        },
+        {
+          "block_id": "p8_b17",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Price: \\(\\) 30.00\\(No part or whole of this book may be reproduced or copied in any way without permission.",
+          "bbox": {
+            "x1": 97,
+            "y1": 686,
+            "x2": 855,
+            "y2": 730
+          },
+          "bbox_list": [
+            97,
+            686,
+            855,
+            730
+          ]
+        },
+        {
+          "block_id": "p8_b18",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "All rights reserved. Copyright infringement only",
+          "bbox": {
+            "x1": 96,
+            "y1": 737,
+            "x2": 494,
+            "y2": 760
+          },
+          "bbox_list": [
+            96,
+            737,
+            494,
+            760
+          ]
+        },
+        {
+          "block_id": "p8_b19",
+          "page_number": 8,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Call 010- 62752024 for information. Email: fd@pup.pku.edu.cn",
+          "bbox": {
+            "x1": 96,
+            "y1": 767,
+            "x2": 614,
+            "y2": 791
+          },
+          "bbox_list": [
+            96,
+            767,
+            614,
+            791
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## Cataloging Books in Print (CIP) Data  \n\nMarket Research and Application/Liu, Dehuan (Ed.). Beijing: Peking University Press, 2006.3  \n\nISBN 978- 7- 301- 10091- 2  \n\n(21st Century Journalism and Communication Series)  \n\nI. City...II. Liu... III. Marketing IV. F.713.5  \n\nCIP Data Core Word of China Edition Library (2005) No. 131218  \n\nBook Name: Market Research and Applications  \n\nResponsible author: Liu, Dehuan  \n\nResponsible editor: Zhou Jing, Ren, Jing and Zhou, Lijin  \n\nStandard Book number: ISBN 978- 7- 301- 10091- 2/ F. 1302 Published by Peking University Press  \n\nto  \n\nAddress: No. 205 Chengfu Road, Haidian District, Beijing 100871 Net  \n\nAddress: http://www.pup.cn E- mail: ss@pup.pku.edu.cn Tel  \n\nTelephone: Mail and Purchase Department 62752015 Distribution Department 62750672 Editorial Department 62765016 Publication Department 62754962 Distributor: Xinhua Bookstore  \n\nPrinter: World Knowledge Printing House  \n\n730mm x 980mm 16 folio 21.75 printing sheet 415 thousand words  \n\n1st Edition March 2006 2nd print set June 2007  \n\nPrice: \\(\\) 30.00\\(No part or whole of this book may be reproduced or copied in any way without permission.  \n\nAll rights reserved. Copyright infringement only  \n\nCall 010- 62752024 for information. Email: fd@pup.pku.edu.cn"
+    }
+  ],
+  "total_blocks": 59
+}

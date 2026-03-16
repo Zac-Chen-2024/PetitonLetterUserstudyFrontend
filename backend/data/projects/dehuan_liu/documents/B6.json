@@ -1,0 +1,733 @@
+{
+  "exhibit_id": "B6",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit B-6",
+          "bbox": {
+            "x1": 123,
+            "y1": 450,
+            "x2": 875,
+            "y2": 549
+          },
+          "bbox_list": [
+            123,
+            450,
+            875,
+            549
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit B-6"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 110,
+            "y1": 88,
+            "x2": 192,
+            "y2": 103
+          },
+          "bbox_list": [
+            110,
+            88,
+            192,
+            103
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Qiji Ma - Think Tank Expert - Marketing Research Association",
+          "bbox": {
+            "x1": 203,
+            "y1": 112,
+            "x2": 651,
+            "y2": 131
+          },
+          "bbox_list": [
+            203,
+            112,
+            651,
+            131
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "CIIA Marketing Research Association (CMRA) Member Login | Application for Membership",
+          "bbox": {
+            "x1": 110,
+            "y1": 138,
+            "x2": 876,
+            "y2": 159
+          },
+          "bbox_list": [
+            110,
+            138,
+            876,
+            159
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Homepage About CMRA Membership Meeting Communication Industry Dynamics Industry Investigation Research Think Tank Industry Training Employment Information Contact Us",
+          "bbox": {
+            "x1": 116,
+            "y1": 193,
+            "x2": 875,
+            "y2": 230
+          },
+          "bbox_list": [
+            116,
+            193,
+            875,
+            230
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "| Research Think Tank Think Tank Expert Research Paper Theory Library Industry Data View Paper Award for Excellent Paper",
+          "bbox": {
+            "x1": 110,
+            "y1": 265,
+            "x2": 883,
+            "y2": 303
+          },
+          "bbox_list": [
+            110,
+            265,
+            883,
+            303
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Current Position: Homepage > Research Think Tank > Think Tank Expert > Qiji Ma",
+          "bbox": {
+            "x1": 110,
+            "y1": 340,
+            "x2": 698,
+            "y2": 360
+          },
+          "bbox_list": [
+            110,
+            340,
+            698,
+            360
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Qiji Ma",
+          "bbox": {
+            "x1": 455,
+            "y1": 398,
+            "x2": 540,
+            "y2": 420
+          },
+          "bbox_list": [
+            455,
+            398,
+            540,
+            420
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 365,
+            "y1": 520,
+            "x2": 635,
+            "y2": 790
+          },
+          "bbox_list": [
+            365,
+            520,
+            635,
+            790
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "From 1992 to 1994, one of the founding participants of Horizon Research Group, working as Deputy General Manager and Chief Research Officer;",
+          "bbox": {
+            "x1": 118,
+            "y1": 829,
+            "x2": 890,
+            "y2": 872
+          },
+          "bbox_list": [
+            118,
+            829,
+            890,
+            872
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "From 1994 to 2000, established Panorama Social- Economic research Co. as Founder,",
+          "bbox": {
+            "x1": 194,
+            "y1": 878,
+            "x2": 890,
+            "y2": 900
+          },
+          "bbox_list": [
+            194,
+            878,
+            890,
+            900
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nQiji Ma - Think Tank Expert - Marketing Research Association  \n\nCIIA Marketing Research Association (CMRA) Member Login | Application for Membership  \n\nHomepage About CMRA Membership Meeting Communication Industry Dynamics Industry Investigation Research Think Tank Industry Training Employment Information Contact Us  \n\n| Research Think Tank Think Tank Expert Research Paper Theory Library Industry Data View Paper Award for Excellent Paper  \n\nCurrent Position: Homepage > Research Think Tank > Think Tank Expert > Qiji Ma  \n\n# Qiji Ma  \n\nFrom 1992 to 1994, one of the founding participants of Horizon Research Group, working as Deputy General Manager and Chief Research Officer;  \n\nFrom 1994 to 2000, established Panorama Social- Economic research Co. as Founder,"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 112,
+            "y1": 87,
+            "x2": 192,
+            "y2": 102
+          },
+          "bbox_list": [
+            112,
+            87,
+            192,
+            102
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Qiji Ma - Think Tank Expert - Marketing Research Association",
+          "bbox": {
+            "x1": 203,
+            "y1": 110,
+            "x2": 650,
+            "y2": 129
+          },
+          "bbox_list": [
+            203,
+            110,
+            650,
+            129
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "working as President and Chief Researcher;",
+          "bbox": {
+            "x1": 111,
+            "y1": 137,
+            "x2": 460,
+            "y2": 156
+          },
+          "bbox_list": [
+            111,
+            137,
+            460,
+            156
+          ]
+        },
+        {
+          "block_id": "p3_b3",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "From 2000 to 2003, Senior Vice President and Chief Operating Officer of ChinaLabs;",
+          "bbox": {
+            "x1": 186,
+            "y1": 165,
+            "x2": 868,
+            "y2": 187
+          },
+          "bbox_list": [
+            186,
+            165,
+            868,
+            187
+          ]
+        },
+        {
+          "block_id": "p3_b4",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "From 2003 to 2006, Deputy General Manager of Sinomonitor;",
+          "bbox": {
+            "x1": 188,
+            "y1": 196,
+            "x2": 685,
+            "y2": 216
+          },
+          "bbox_list": [
+            188,
+            196,
+            685,
+            216
+          ]
+        },
+        {
+          "block_id": "p3_b5",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "From 2006 to 2010, Senior Vice President of Nielsen China online, leading product development and research team of China's Internet media and network applications, and committed to promoting the establishment and value realization of evaluation systems of China's Internet marketing and advertising, e- commerce and concerned markets.",
+          "bbox": {
+            "x1": 111,
+            "y1": 225,
+            "x2": 884,
+            "y2": 306
+          },
+          "bbox_list": [
+            111,
+            225,
+            884,
+            306
+          ]
+        },
+        {
+          "block_id": "p3_b6",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "From 2010 to 2014, Co- Founder, Senior Vice President and Chief Marketing Officer of Couneet International, focusing on providing technical innovation and data services for traditional commercial retail;",
+          "bbox": {
+            "x1": 111,
+            "y1": 314,
+            "x2": 884,
+            "y2": 376
+          },
+          "bbox_list": [
+            111,
+            314,
+            884,
+            376
+          ]
+        },
+        {
+          "block_id": "p3_b7",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "One of the earliest practitioners of market research in mainland China and one of the first registered consultants in China.",
+          "bbox": {
+            "x1": 111,
+            "y1": 384,
+            "x2": 884,
+            "y2": 425
+          },
+          "bbox_list": [
+            111,
+            384,
+            884,
+            425
+          ]
+        },
+        {
+          "block_id": "p3_b8",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Main research areas: Research in marketing and consumption, research in media, research in advertising and marketing, and analysis and consultation of commercial market",
+          "bbox": {
+            "x1": 111,
+            "y1": 433,
+            "x2": 884,
+            "y2": 475
+          },
+          "bbox_list": [
+            111,
+            433,
+            884,
+            475
+          ]
+        },
+        {
+          "block_id": "p3_b9",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Member of Information Society 50 Forum",
+          "bbox": {
+            "x1": 190,
+            "y1": 514,
+            "x2": 530,
+            "y2": 534
+          },
+          "bbox_list": [
+            190,
+            514,
+            530,
+            534
+          ]
+        },
+        {
+          "block_id": "p3_b10",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Member of Chinese Cross- border E- commerce 50 Forum",
+          "bbox": {
+            "x1": 190,
+            "y1": 544,
+            "x2": 648,
+            "y2": 564
+          },
+          "bbox_list": [
+            190,
+            544,
+            648,
+            564
+          ]
+        },
+        {
+          "block_id": "p3_b11",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "China Advertising Think Tank Expert",
+          "bbox": {
+            "x1": 191,
+            "y1": 574,
+            "x2": 494,
+            "y2": 594
+          },
+          "bbox_list": [
+            191,
+            574,
+            494,
+            594
+          ]
+        },
+        {
+          "block_id": "p3_b12",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Researcher of China National Institute of Advertising",
+          "bbox": {
+            "x1": 191,
+            "y1": 603,
+            "x2": 619,
+            "y2": 624
+          },
+          "bbox_list": [
+            191,
+            603,
+            619,
+            624
+          ]
+        },
+        {
+          "block_id": "p3_b13",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Researcher of Research Center of Internet Marketing Communication, Peking University",
+          "bbox": {
+            "x1": 115,
+            "y1": 632,
+            "x2": 886,
+            "y2": 674
+          },
+          "bbox_list": [
+            115,
+            632,
+            886,
+            674
+          ]
+        },
+        {
+          "block_id": "p3_b14",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Expert of Internet Research Center, Internet Society of China",
+          "bbox": {
+            "x1": 191,
+            "y1": 682,
+            "x2": 680,
+            "y2": 703
+          },
+          "bbox_list": [
+            191,
+            682,
+            680,
+            703
+          ]
+        },
+        {
+          "block_id": "p3_b15",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Member of Academic Committee of Alibaba Research Institute",
+          "bbox": {
+            "x1": 192,
+            "y1": 712,
+            "x2": 696,
+            "y2": 732
+          },
+          "bbox_list": [
+            192,
+            712,
+            696,
+            732
+          ]
+        },
+        {
+          "block_id": "p3_b16",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Researcher of Pangool Smart City Research Center",
+          "bbox": {
+            "x1": 192,
+            "y1": 742,
+            "x2": 601,
+            "y2": 762
+          },
+          "bbox_list": [
+            192,
+            742,
+            601,
+            762
+          ]
+        },
+        {
+          "block_id": "p3_b17",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Director and Vice Chairman of Digital Marketing Research Center of China Advertising Association of Commerce",
+          "bbox": {
+            "x1": 116,
+            "y1": 770,
+            "x2": 887,
+            "y2": 812
+          },
+          "bbox_list": [
+            116,
+            770,
+            887,
+            812
+          ]
+        },
+        {
+          "block_id": "p3_b18",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Vice Chairman of China Commerce Association for General Merchandise E- commerce Committee, and Chairman of O2O Alliance",
+          "bbox": {
+            "x1": 116,
+            "y1": 819,
+            "x2": 888,
+            "y2": 860
+          },
+          "bbox_list": [
+            116,
+            819,
+            888,
+            860
+          ]
+        },
+        {
+          "block_id": "p3_b19",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Deputy Secretary General of Network Marketing Working Committee, Internet Society",
+          "bbox": {
+            "x1": 192,
+            "y1": 868,
+            "x2": 887,
+            "y2": 890
+          },
+          "bbox_list": [
+            192,
+            868,
+            887,
+            890
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nQiji Ma - Think Tank Expert - Marketing Research Association  \n\nworking as President and Chief Researcher;  \n\nFrom 2000 to 2003, Senior Vice President and Chief Operating Officer of ChinaLabs;  \n\nFrom 2003 to 2006, Deputy General Manager of Sinomonitor;  \n\nFrom 2006 to 2010, Senior Vice President of Nielsen China online, leading product development and research team of China's Internet media and network applications, and committed to promoting the establishment and value realization of evaluation systems of China's Internet marketing and advertising, e- commerce and concerned markets.  \n\nFrom 2010 to 2014, Co- Founder, Senior Vice President and Chief Marketing Officer of Couneet International, focusing on providing technical innovation and data services for traditional commercial retail;  \n\nOne of the earliest practitioners of market research in mainland China and one of the first registered consultants in China.  \n\nMain research areas: Research in marketing and consumption, research in media, research in advertising and marketing, and analysis and consultation of commercial market  \n\nMember of Information Society 50 Forum  \n\nMember of Chinese Cross- border E- commerce 50 Forum  \n\nChina Advertising Think Tank Expert  \n\nResearcher of China National Institute of Advertising  \n\nResearcher of Research Center of Internet Marketing Communication, Peking University  \n\nExpert of Internet Research Center, Internet Society of China  \n\nMember of Academic Committee of Alibaba Research Institute  \n\nResearcher of Pangool Smart City Research Center  \n\nDirector and Vice Chairman of Digital Marketing Research Center of China Advertising Association of Commerce  \n\nVice Chairman of China Commerce Association for General Merchandise E- commerce Committee, and Chairman of O2O Alliance  \n\nDeputy Secretary General of Network Marketing Working Committee, Internet Society"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 115,
+            "y1": 87,
+            "x2": 196,
+            "y2": 102
+          },
+          "bbox_list": [
+            115,
+            87,
+            196,
+            102
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Qiji Ma - Think Tank Expert - Marketing Research Association",
+          "bbox": {
+            "x1": 210,
+            "y1": 111,
+            "x2": 654,
+            "y2": 129
+          },
+          "bbox_list": [
+            210,
+            111,
+            654,
+            129
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "of China",
+          "bbox": {
+            "x1": 115,
+            "y1": 139,
+            "x2": 186,
+            "y2": 156
+          },
+          "bbox_list": [
+            115,
+            139,
+            186,
+            156
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Consultant of China Market Information Survey Association",
+          "bbox": {
+            "x1": 194,
+            "y1": 167,
+            "x2": 673,
+            "y2": 186
+          },
+          "bbox_list": [
+            194,
+            167,
+            673,
+            186
+          ]
+        },
+        {
+          "block_id": "p4_b4",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Serving as a consultant or expert in Tencent Think Tank, NetEase Think Tank, Didi Strategy Research Institute, Alimama Marketing Institute, Letv Marketing Institute, Qihoo Marketing Institute, Storm Marketing Institute, Xiaomi Expert Group, Airmedia Think Tank, Institute of Panorama and other institutes, think tanks and institutions. He is a member or works as judge of several award institutions, including Effie China Effectiveness Award, Tiger Roar Award for Digital Marketing, Golden Mouse Award for Network Marketing, ECI National Digital Business Innovation Award, IAI International Advertising and Marketing Award, China College Students Advertising Competition, and National College Students Innovation, Creativity and Entrepreneurship Contest, etc. And he has been serving as a visiting professor at Peking University, Communication University of China, and other colleges and universities.",
+          "bbox": {
+            "x1": 114,
+            "y1": 225,
+            "x2": 888,
+            "y2": 425
+          },
+          "bbox_list": [
+            114,
+            225,
+            888,
+            425
+          ]
+        },
+        {
+          "block_id": "p4_b5",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Currently, he is active in the information economy, big data application market, e- commerce market, Internet transformation of traditional enterprises and related fields.",
+          "bbox": {
+            "x1": 115,
+            "y1": 434,
+            "x2": 888,
+            "y2": 474
+          },
+          "bbox_list": [
+            115,
+            434,
+            888,
+            474
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nQiji Ma - Think Tank Expert - Marketing Research Association  \n\nof China  \n\nConsultant of China Market Information Survey Association  \n\nServing as a consultant or expert in Tencent Think Tank, NetEase Think Tank, Didi Strategy Research Institute, Alimama Marketing Institute, Letv Marketing Institute, Qihoo Marketing Institute, Storm Marketing Institute, Xiaomi Expert Group, Airmedia Think Tank, Institute of Panorama and other institutes, think tanks and institutions. He is a member or works as judge of several award institutions, including Effie China Effectiveness Award, Tiger Roar Award for Digital Marketing, Golden Mouse Award for Network Marketing, ECI National Digital Business Innovation Award, IAI International Advertising and Marketing Award, China College Students Advertising Competition, and National College Students Innovation, Creativity and Entrepreneurship Contest, etc. And he has been serving as a visiting professor at Peking University, Communication University of China, and other colleges and universities.  \n\nCurrently, he is active in the information economy, big data application market, e- commerce market, Internet transformation of traditional enterprises and related fields."
+    }
+  ],
+  "total_blocks": 37
+}

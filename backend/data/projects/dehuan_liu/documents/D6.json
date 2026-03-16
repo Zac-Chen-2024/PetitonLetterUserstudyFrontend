@@ -1,0 +1,94 @@
+{
+  "exhibit_id": "D6",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit D-6",
+          "bbox": {
+            "x1": 115,
+            "y1": 451,
+            "x2": 875,
+            "y2": 550
+          },
+          "bbox_list": [
+            115,
+            451,
+            875,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit D-6"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Sociological Studies",
+          "bbox": {
+            "x1": 100,
+            "y1": 81,
+            "x2": 330,
+            "y2": 104
+          },
+          "bbox_list": [
+            100,
+            81,
+            330,
+            104
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\"Sociological Studies\" was first published in January 1986. It is a first- level professional academic journal sponsored by the Institute of Sociology, Chinese Academy of Social Sciences. It is a core journal in the Chinese Social Science Citation Index (CSSCI), a journal funded by the National Social Science Fund, and included in the national database of philosophy and social science academic journals. It has been ranked first in the subject rankings by four journal evaluation institutions, including the Chinese Academy of Social Sciences, Nanjing University, Peking University, and Wuhan University, and is hailed as an \"authoritative journal\". From 2012 to 2021, \"Sociological Studies\" was awarded the title of \"China's Most Internationally Influential Academic Journal\" for nine consecutive years, and also won awards such as \"China's Top 100 Journals\" and \"2016 Top 100 Digital Impact Journals\". \"Sociological Studies\" follows the editorial guidelines of fairness, professionalism, standardization, and continuous improvement, emphasizing academic standards and norms in manuscript selection. It implements a three- round review system and practices an anonymous review system.",
+          "bbox": {
+            "x1": 100,
+            "y1": 145,
+            "x2": 890,
+            "y2": 398
+          },
+          "bbox_list": [
+            100,
+            145,
+            890,
+            398
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The predecessor of \"Sociological Studies\" were \"Sociological Communication\" (an internal publication, 1981- 1984) and \"Social Investigation and Research\" (1985). Since its inception, \"Sociological Studies\" has introduced Western sociology, promoted the standardization of sociology research in China, published outstanding research results on major issues related to China's social development, and guided the orientation of sociology research in China. It has gradually attracted attention from sociologists at home and abroad, as well as various sectors interested in studying Chinese society. With the increasing academic orientation, the journal is increasingly regarded as a professional leading journal in the field of sociology research in China.",
+          "bbox": {
+            "x1": 104,
+            "y1": 432,
+            "x2": 870,
+            "y2": 606
+          },
+          "bbox_list": [
+            104,
+            432,
+            870,
+            606
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## Sociological Studies  \n\n\"Sociological Studies\" was first published in January 1986. It is a first- level professional academic journal sponsored by the Institute of Sociology, Chinese Academy of Social Sciences. It is a core journal in the Chinese Social Science Citation Index (CSSCI), a journal funded by the National Social Science Fund, and included in the national database of philosophy and social science academic journals. It has been ranked first in the subject rankings by four journal evaluation institutions, including the Chinese Academy of Social Sciences, Nanjing University, Peking University, and Wuhan University, and is hailed as an \"authoritative journal\". From 2012 to 2021, \"Sociological Studies\" was awarded the title of \"China's Most Internationally Influential Academic Journal\" for nine consecutive years, and also won awards such as \"China's Top 100 Journals\" and \"2016 Top 100 Digital Impact Journals\". \"Sociological Studies\" follows the editorial guidelines of fairness, professionalism, standardization, and continuous improvement, emphasizing academic standards and norms in manuscript selection. It implements a three- round review system and practices an anonymous review system.  \n\nThe predecessor of \"Sociological Studies\" were \"Sociological Communication\" (an internal publication, 1981- 1984) and \"Social Investigation and Research\" (1985). Since its inception, \"Sociological Studies\" has introduced Western sociology, promoted the standardization of sociology research in China, published outstanding research results on major issues related to China's social development, and guided the orientation of sociology research in China. It has gradually attracted attention from sociologists at home and abroad, as well as various sectors interested in studying Chinese society. With the increasing academic orientation, the journal is increasingly regarded as a professional leading journal in the field of sociology research in China."
+    }
+  ],
+  "total_blocks": 4
+}

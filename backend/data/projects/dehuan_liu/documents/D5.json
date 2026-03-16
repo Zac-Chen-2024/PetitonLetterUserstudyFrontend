@@ -1,0 +1,214 @@
+{
+  "exhibit_id": "D5",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit D-5",
+          "bbox": {
+            "x1": 115,
+            "y1": 451,
+            "x2": 875,
+            "y2": 550
+          },
+          "bbox_list": [
+            115,
+            451,
+            875,
+            550
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit D-5"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Children Born in July and August<sup>1</sup>",
+          "bbox": {
+            "x1": 292,
+            "y1": 113,
+            "x2": 696,
+            "y2": 139
+          },
+          "bbox_list": [
+            292,
+            113,
+            696,
+            139
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "A study on the age regulation of primary school admission and student's education access and development",
+          "bbox": {
+            "x1": 100,
+            "y1": 150,
+            "x2": 891,
+            "y2": 194
+          },
+          "bbox_list": [
+            100,
+            150,
+            891,
+            194
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Liu, Dehuan Li, Xuelian",
+          "bbox": {
+            "x1": 338,
+            "y1": 234,
+            "x2": 571,
+            "y2": 254
+          },
+          "bbox_list": [
+            338,
+            234,
+            571,
+            254
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Abstract: This paper discusses at the micro level the educational inequality resulted from the cutoff birthdate regulation in the current primary school admission system. According to our research, among the students who enroll in school, students born in July and August display relative disadvantage and adaptive difficulties in the construction of self- identity and study ability when compared with those born in September and October. Students born between November and June in the following year have medium performance. Moreover, this effect is accumulative. With regard to acquiring education resources, students born in July and August show the lowest possibility of getting into the key senior middle schools, which is \\(16.7\\% - 22.8\\%\\) lower than the rest of the student population, while their possibility to get into vocational school is the highest, \\(54.2\\% - 60.8\\%\\) higher than the others. This disadvantage is more prominent among the male students. Our study also show that the effect above is very strong and cannot be effectively suppressed by social economic factors. There is an insurmountable \"July/August pitfall\".",
+          "bbox": {
+            "x1": 100,
+            "y1": 295,
+            "x2": 895,
+            "y2": 538
+          },
+          "bbox_list": [
+            100,
+            295,
+            895,
+            538
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Key words: Educational equity; adolescent relative age effect; adjustment crisis",
+          "bbox": {
+            "x1": 131,
+            "y1": 548,
+            "x2": 784,
+            "y2": 568
+          },
+          "bbox_list": [
+            131,
+            548,
+            784,
+            568
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "1. Enrollment Deadline: The game process between policy and mentality",
+          "bbox": {
+            "x1": 194,
+            "y1": 608,
+            "x2": 790,
+            "y2": 629
+          },
+          "bbox_list": [
+            194,
+            608,
+            790,
+            629
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The new semester starts on September 1, so the current national practice is to close on August 31. There is always a deadline. If you expand the time to a natural year, now it's \"Virgo's dilemma\" and then it's \"Capricorn dilemma\", which is always a dilemma. Even if it is extended for two, three, four or five days, it won't matter much. There must be a deadline.",
+          "bbox": {
+            "x1": 104,
+            "y1": 638,
+            "x2": 896,
+            "y2": 720
+          },
+          "bbox_list": [
+            104,
+            638,
+            896,
+            720
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In February 2015, \"South Daily\" surveyed netizens on the education issue they were most concerned about. Nearly half of the netizens in the survey were particularly concerned about \"whether the flexible primary school enrollment system can be realized\" and suggested breaking",
+          "bbox": {
+            "x1": 105,
+            "y1": 729,
+            "x2": 896,
+            "y2": 790
+          },
+          "bbox_list": [
+            105,
+            729,
+            896,
+            790
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# Children Born in July and August<sup>1</sup>  \n\nA study on the age regulation of primary school admission and student's education access and development  \n\nLiu, Dehuan Li, Xuelian  \n\nAbstract: This paper discusses at the micro level the educational inequality resulted from the cutoff birthdate regulation in the current primary school admission system. According to our research, among the students who enroll in school, students born in July and August display relative disadvantage and adaptive difficulties in the construction of self- identity and study ability when compared with those born in September and October. Students born between November and June in the following year have medium performance. Moreover, this effect is accumulative. With regard to acquiring education resources, students born in July and August show the lowest possibility of getting into the key senior middle schools, which is \\(16.7\\% - 22.8\\%\\) lower than the rest of the student population, while their possibility to get into vocational school is the highest, \\(54.2\\% - 60.8\\%\\) higher than the others. This disadvantage is more prominent among the male students. Our study also show that the effect above is very strong and cannot be effectively suppressed by social economic factors. There is an insurmountable \"July/August pitfall\".  \n\nKey words: Educational equity; adolescent relative age effect; adjustment crisis  \n\n1. Enrollment Deadline: The game process between policy and mentality  \n\nThe new semester starts on September 1, so the current national practice is to close on August 31. There is always a deadline. If you expand the time to a natural year, now it's \"Virgo's dilemma\" and then it's \"Capricorn dilemma\", which is always a dilemma. Even if it is extended for two, three, four or five days, it won't matter much. There must be a deadline.  \n\nIn February 2015, \"South Daily\" surveyed netizens on the education issue they were most concerned about. Nearly half of the netizens in the survey were particularly concerned about \"whether the flexible primary school enrollment system can be realized\" and suggested breaking"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "the mandatory requirement of August 31 as the birth date for children who are at the age of six. Weiqi Luo, director of Guangdong Provincial Department of Education, made the above answer when answering a reporter's question about the birth date threshold (Xuebin Zhang, Yu Lei, 2015).",
+          "bbox": {
+            "x1": 100,
+            "y1": 77,
+            "x2": 892,
+            "y2": 138
+          },
+          "bbox_list": [
+            100,
+            77,
+            892,
+            138
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nthe mandatory requirement of August 31 as the birth date for children who are at the age of six. Weiqi Luo, director of Guangdong Provincial Department of Education, made the above answer when answering a reporter's question about the birth date threshold (Xuebin Zhang, Yu Lei, 2015)."
+    }
+  ],
+  "total_blocks": 10
+}

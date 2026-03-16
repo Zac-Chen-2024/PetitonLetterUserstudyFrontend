@@ -1,0 +1,1573 @@
+{
+  "exhibit_id": "A1",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Exhibit A",
+          "bbox": {
+            "x1": 142,
+            "y1": 456,
+            "x2": 845,
+            "y2": 562
+          },
+          "bbox_list": [
+            142,
+            456,
+            845,
+            562
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit A"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# HOME NEWS INSIGHTSREARENTSPEOPLEPUBLICARIONEXMESOPDCASTUS",
+          "bbox": {
+            "x1": 30,
+            "y1": 255,
+            "x2": 928,
+            "y2": 285
+          },
+          "bbox_list": [
+            30,
+            255,
+            928,
+            285
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "HOME > PEOPLE > Academic Committee > Content",
+          "bbox": {
+            "x1": 545,
+            "y1": 312,
+            "x2": 960,
+            "y2": 333
+          },
+          "bbox_list": [
+            545,
+            312,
+            960,
+            333
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Academic Committee",
+          "bbox": {
+            "x1": 70,
+            "y1": 400,
+            "x2": 292,
+            "y2": 421
+          },
+          "bbox_list": [
+            70,
+            400,
+            292,
+            421
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 52,
+            "y1": 437,
+            "x2": 299,
+            "y2": 684
+          },
+          "bbox_list": [
+            52,
+            437,
+            299,
+            684
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "image_caption",
+          "block_type_cn": "image_caption",
+          "text_content": "<center>LIU Dehuan </center>",
+          "bbox": {
+            "x1": 66,
+            "y1": 705,
+            "x2": 183,
+            "y2": 725
+          },
+          "bbox_list": [
+            66,
+            705,
+            183,
+            725
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## LIU Dehuan",
+          "bbox": {
+            "x1": 373,
+            "y1": 395,
+            "x2": 575,
+            "y2": 425
+          },
+          "bbox_list": [
+            373,
+            395,
+            575,
+            425
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "LIU Dehuan, male, born in 1966 of Han nationality holds a Ph.D. in Sociology from Peking University. He serves as a Professor at School of New Media at Peking University, the Vice Dean of School of Journalism and Communication at Peking University, the President of National Market Research Association (President of Research Branch of China Information Association & President of Market Research Branch of China Association of Market Information and Research), the Vice President of China Association of Market Information and Research, and the Deputy Director of Center for Market and Media Research at Peking University. Liu was selected as a scholar of Beijing's \"Hundred People Project\", and his work \"On Age\" won the third prize of Outstanding Achievements in Humanities and Social Sciences of the Ministry of Education of China. His research areas are communication, new media and market research.",
+          "bbox": {
+            "x1": 374,
+            "y1": 512,
+            "x2": 912,
+            "y2": 942
+          },
+          "bbox_list": [
+            374,
+            512,
+            912,
+            942
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# HOME NEWS INSIGHTSREARENTSPEOPLEPUBLICARIONEXMESOPDCASTUS  \n\nHOME > PEOPLE > Academic Committee > Content  \n\n## Academic Committee  \n\n<center>LIU Dehuan </center>  \n\n## LIU Dehuan  \n\nLIU Dehuan, male, born in 1966 of Han nationality holds a Ph.D. in Sociology from Peking University. He serves as a Professor at School of New Media at Peking University, the Vice Dean of School of Journalism and Communication at Peking University, the President of National Market Research Association (President of Research Branch of China Information Association & President of Market Research Branch of China Association of Market Information and Research), the Vice President of China Association of Market Information and Research, and the Deputy Director of Center for Market and Media Research at Peking University. Liu was selected as a scholar of Beijing's \"Hundred People Project\", and his work \"On Age\" won the third prize of Outstanding Achievements in Humanities and Social Sciences of the Ministry of Education of China. His research areas are communication, new media and market research."
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# HOME NEWS INSIGHTSESEAFRENTSPEOPLEPUBLICATIONSNDEOSPODCASTS",
+          "bbox": {
+            "x1": 28,
+            "y1": 252,
+            "x2": 928,
+            "y2": 285
+          },
+          "bbox_list": [
+            28,
+            252,
+            928,
+            285
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "University,",
+          "bbox": {
+            "x1": 490,
+            "y1": 331,
+            "x2": 571,
+            "y2": 349
+          },
+          "bbox_list": [
+            490,
+            331,
+            571,
+            349
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "No.5 Yiheyuan Road, Haidian District, Beijing, China, 100871",
+          "bbox": {
+            "x1": 490,
+            "y1": 359,
+            "x2": 945,
+            "y2": 380
+          },
+          "bbox_list": [
+            490,
+            359,
+            945,
+            380
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# HOME NEWS INSIGHTSESEAFRENTSPEOPLEPUBLICATIONSNDEOSPODCASTS  \n\nUniversity,  \n\nNo.5 Yiheyuan Road, Haidian District, Beijing, China, 100871"
+    },
+    {
+      "page_number": 4,
+      "text_blocks": [
+        {
+          "block_id": "p4_b0",
+          "page_number": 4,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Peking University",
+          "bbox": {
+            "x1": 386,
+            "y1": 80,
+            "x2": 592,
+            "y2": 103
+          },
+          "bbox_list": [
+            386,
+            80,
+            592,
+            103
+          ]
+        },
+        {
+          "block_id": "p4_b1",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Ph.D. Graduation Certificate.",
+          "bbox": {
+            "x1": 380,
+            "y1": 140,
+            "x2": 599,
+            "y2": 158
+          },
+          "bbox_list": [
+            380,
+            140,
+            599,
+            158
+          ]
+        },
+        {
+          "block_id": "p4_b2",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Graduate student Liu Dehuan, male, born on March 29, 1966, studied in the Sociology Department's sociology major from September 1999 to July 2002, for a period of three years. He has completed all the courses of the Ph.D. program, passed with satisfactory grades, and successfully defended his graduation thesis, thus qualifying for graduation.",
+          "bbox": {
+            "x1": 96,
+            "y1": 195,
+            "x2": 875,
+            "y2": 269
+          },
+          "bbox_list": [
+            96,
+            195,
+            875,
+            269
+          ]
+        },
+        {
+          "block_id": "p4_b3",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Peking University: Seal",
+          "bbox": {
+            "x1": 98,
+            "y1": 304,
+            "x2": 275,
+            "y2": 322
+          },
+          "bbox_list": [
+            98,
+            304,
+            275,
+            322
+          ]
+        },
+        {
+          "block_id": "p4_b4",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "President: Qizhi Xu",
+          "bbox": {
+            "x1": 725,
+            "y1": 303,
+            "x2": 875,
+            "y2": 320
+          },
+          "bbox_list": [
+            725,
+            303,
+            875,
+            320
+          ]
+        },
+        {
+          "block_id": "p4_b5",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "July 2002",
+          "bbox": {
+            "x1": 796,
+            "y1": 331,
+            "x2": 874,
+            "y2": 348
+          },
+          "bbox_list": [
+            796,
+            331,
+            874,
+            348
+          ]
+        },
+        {
+          "block_id": "p4_b6",
+          "page_number": 4,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Serial Number: 10001120020100513",
+          "bbox": {
+            "x1": 98,
+            "y1": 360,
+            "x2": 370,
+            "y2": 377
+          },
+          "bbox_list": [
+            98,
+            360,
+            370,
+            377
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# Peking University  \n\nPh.D. Graduation Certificate.  \n\nGraduate student Liu Dehuan, male, born on March 29, 1966, studied in the Sociology Department's sociology major from September 1999 to July 2002, for a period of three years. He has completed all the courses of the Ph.D. program, passed with satisfactory grades, and successfully defended his graduation thesis, thus qualifying for graduation.  \n\nPeking University: Seal  \n\nPresident: Qizhi Xu  \n\nJuly 2002  \n\nSerial Number: 10001120020100513"
+    },
+    {
+      "page_number": 5,
+      "text_blocks": [
+        {
+          "block_id": "p5_b0",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Home Universities Peking University",
+          "bbox": {
+            "x1": 76,
+            "y1": 147,
+            "x2": 310,
+            "y2": 161
+          },
+          "bbox_list": [
+            76,
+            147,
+            310,
+            161
+          ]
+        },
+        {
+          "block_id": "p5_b1",
+          "page_number": 5,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 66,
+            "y1": 166,
+            "x2": 916,
+            "y2": 350
+          },
+          "bbox_list": [
+            66,
+            166,
+            916,
+            350
+          ]
+        },
+        {
+          "block_id": "p5_b2",
+          "page_number": 5,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 210,
+            "y1": 415,
+            "x2": 370,
+            "y2": 475
+          },
+          "bbox_list": [
+            210,
+            415,
+            370,
+            475
+          ]
+        },
+        {
+          "block_id": "p5_b3",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "9 Postgraduate programs",
+          "bbox": {
+            "x1": 630,
+            "y1": 440,
+            "x2": 698,
+            "y2": 472
+          },
+          "bbox_list": [
+            630,
+            440,
+            698,
+            472
+          ]
+        },
+        {
+          "block_id": "p5_b4",
+          "page_number": 5,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## About Peking University",
+          "bbox": {
+            "x1": 123,
+            "y1": 542,
+            "x2": 329,
+            "y2": 560
+          },
+          "bbox_list": [
+            123,
+            542,
+            329,
+            560
+          ]
+        },
+        {
+          "block_id": "p5_b5",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The oldest higher education institution in China, Peking University was founded in 1898 as a replacement for the ancient Guozijian school (Imperial College). By the early 1920s, it had become a center for Chinese progressive thought, playing an important role in China's New Culture Movement, the May Fourth Movement, and the Tiananmen Square protest of 1989, among other significant historical events.",
+          "bbox": {
+            "x1": 122,
+            "y1": 573,
+            "x2": 866,
+            "y2": 634
+          },
+          "bbox_list": [
+            122,
+            573,
+            866,
+            634
+          ]
+        },
+        {
+          "block_id": "p5_b6",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The University consists of 30 colleges and 12 departments, with 93 specialties for undergraduates, 2 specialties for the second Bachelor's degree, 199 specialties for Master candidates and 173 specialties for Doctoral candidates. While still laying stress on basic sciences, the university has paid special attention to the development of applied sciences.",
+          "bbox": {
+            "x1": 123,
+            "y1": 700,
+            "x2": 863,
+            "y2": 745
+          },
+          "bbox_list": [
+            123,
+            700,
+            863,
+            745
+          ]
+        },
+        {
+          "block_id": "p5_b7",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "At present, Peking university has 216 research institutes and research centres, and there are 2 national engineering research centres, 81 key national disciplines, 12 national key laboratories.",
+          "bbox": {
+            "x1": 123,
+            "y1": 759,
+            "x2": 847,
+            "y2": 789
+          },
+          "bbox_list": [
+            123,
+            759,
+            847,
+            789
+          ]
+        },
+        {
+          "block_id": "p5_b8",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The university has made an effective combination of the research on important scientific issues with the training of personnel with high level specialized knowledge and professional skill as demanded by the country's socialist modernization. It strives not only for the simultaneous improvements in teaching and research work, but also for the promotion of interaction and mutual promotion among various subjects.",
+          "bbox": {
+            "x1": 123,
+            "y1": 802,
+            "x2": 870,
+            "y2": 862
+          },
+          "bbox_list": [
+            123,
+            802,
+            870,
+            862
+          ]
+        },
+        {
+          "block_id": "p5_b9",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Thus Peking University has become a center for teaching and research and a university of the new type, consisting of diverse branches of learning such as pure and applied sciences, social sciences and the humanities, and sciences of management and education. Its aim is to rank among the world's best universities at the beginning of the next century.",
+          "bbox": {
+            "x1": 124,
+            "y1": 876,
+            "x2": 861,
+            "y2": 921
+          },
+          "bbox_list": [
+            124,
+            876,
+            861,
+            921
+          ]
+        },
+        {
+          "block_id": "p5_b10",
+          "page_number": 5,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Read less",
+          "bbox": {
+            "x1": 125,
+            "y1": 933,
+            "x2": 185,
+            "y2": 945
+          },
+          "bbox_list": [
+            125,
+            933,
+            185,
+            945
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nHome Universities Peking University  \n\n9 Postgraduate programs  \n\n## About Peking University  \n\nThe oldest higher education institution in China, Peking University was founded in 1898 as a replacement for the ancient Guozijian school (Imperial College). By the early 1920s, it had become a center for Chinese progressive thought, playing an important role in China's New Culture Movement, the May Fourth Movement, and the Tiananmen Square protest of 1989, among other significant historical events.  \n\nThe University consists of 30 colleges and 12 departments, with 93 specialties for undergraduates, 2 specialties for the second Bachelor's degree, 199 specialties for Master candidates and 173 specialties for Doctoral candidates. While still laying stress on basic sciences, the university has paid special attention to the development of applied sciences.  \n\nAt present, Peking university has 216 research institutes and research centres, and there are 2 national engineering research centres, 81 key national disciplines, 12 national key laboratories.  \n\nThe university has made an effective combination of the research on important scientific issues with the training of personnel with high level specialized knowledge and professional skill as demanded by the country's socialist modernization. It strives not only for the simultaneous improvements in teaching and research work, but also for the promotion of interaction and mutual promotion among various subjects.  \n\nThus Peking University has become a center for teaching and research and a university of the new type, consisting of diverse branches of learning such as pure and applied sciences, social sciences and the humanities, and sciences of management and education. Its aim is to rank among the world's best universities at the beginning of the next century.  \n\nRead less"
+    },
+    {
+      "page_number": 6,
+      "text_blocks": [
+        {
+          "block_id": "p6_b0",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Search university programs",
+          "bbox": {
+            "x1": 110,
+            "y1": 153,
+            "x2": 277,
+            "y2": 166
+          },
+          "bbox_list": [
+            110,
+            153,
+            277,
+            166
+          ]
+        },
+        {
+          "block_id": "p6_b1",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In addition to the main university campus, a satellite graduate school exists in Shenzhen, Guangdong. It's home to seven research departments, a business school and the Peking University School of Transnational Law. Graduate teaching includes the following... Read More",
+          "bbox": {
+            "x1": 100,
+            "y1": 184,
+            "x2": 856,
+            "y2": 230
+          },
+          "bbox_list": [
+            100,
+            184,
+            856,
+            230
+          ]
+        },
+        {
+          "block_id": "p6_b2",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Peking University HSBC School of Business (Z)",
+          "bbox": {
+            "x1": 105,
+            "y1": 238,
+            "x2": 606,
+            "y2": 260
+          },
+          "bbox_list": [
+            105,
+            238,
+            606,
+            260
+          ]
+        },
+        {
+          "block_id": "p6_b3",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## University information",
+          "bbox": {
+            "x1": 101,
+            "y1": 293,
+            "x2": 261,
+            "y2": 308
+          },
+          "bbox_list": [
+            101,
+            293,
+            261,
+            308
+          ]
+        },
+        {
+          "block_id": "p6_b4",
+          "page_number": 6,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 98,
+            "y1": 360,
+            "x2": 858,
+            "y2": 630
+          },
+          "bbox_list": [
+            98,
+            360,
+            858,
+            630
+          ]
+        },
+        {
+          "block_id": "p6_b5",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "One of the important factors when considering a master's degree is the cost of study. Luckily, there are many options available to help students fund their master's programme. Download your copy of the Scholarship Guide to find out which scholarships from around the world could be available to you, and how to apply for them.",
+          "bbox": {
+            "x1": 100,
+            "y1": 728,
+            "x2": 875,
+            "y2": 775
+          },
+          "bbox_list": [
+            100,
+            728,
+            875,
+            775
+          ]
+        },
+        {
+          "block_id": "p6_b6",
+          "page_number": 6,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## In this guide you will find:",
+          "bbox": {
+            "x1": 101,
+            "y1": 795,
+            "x2": 250,
+            "y2": 808
+          },
+          "bbox_list": [
+            101,
+            795,
+            250,
+            808
+          ]
+        },
+        {
+          "block_id": "p6_b7",
+          "page_number": 6,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Where to look for scholarship opportunities How to apply to scholarships relevant to you A list of available scholarships around the world A scholarship application checklist",
+          "bbox": {
+            "x1": 105,
+            "y1": 820,
+            "x2": 380,
+            "y2": 915
+          },
+          "bbox_list": [
+            105,
+            820,
+            380,
+            915
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nSearch university programs  \n\nIn addition to the main university campus, a satellite graduate school exists in Shenzhen, Guangdong. It's home to seven research departments, a business school and the Peking University School of Transnational Law. Graduate teaching includes the following... Read More  \n\n## Peking University HSBC School of Business (Z)  \n\n## University information  \n\nOne of the important factors when considering a master's degree is the cost of study. Luckily, there are many options available to help students fund their master's programme. Download your copy of the Scholarship Guide to find out which scholarships from around the world could be available to you, and how to apply for them.  \n\n## In this guide you will find:  \n\nWhere to look for scholarship opportunities How to apply to scholarships relevant to you A list of available scholarships around the world A scholarship application checklist"
+    },
+    {
+      "page_number": 7,
+      "text_blocks": [
+        {
+          "block_id": "p7_b0",
+          "page_number": 7,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 97,
+            "y1": 25,
+            "x2": 875,
+            "y2": 70
+          },
+          "bbox_list": [
+            97,
+            25,
+            875,
+            70
+          ]
+        },
+        {
+          "block_id": "p7_b1",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Overview",
+          "bbox": {
+            "x1": 453,
+            "y1": 78,
+            "x2": 530,
+            "y2": 88
+          },
+          "bbox_list": [
+            453,
+            78,
+            530,
+            88
+          ]
+        },
+        {
+          "block_id": "p7_b2",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "LOGIN",
+          "bbox": {
+            "x1": 760,
+            "y1": 88,
+            "x2": 821,
+            "y2": 100
+          },
+          "bbox_list": [
+            760,
+            88,
+            821,
+            100
+          ]
+        },
+        {
+          "block_id": "p7_b3",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "SIGN UP",
+          "bbox": {
+            "x1": 760,
+            "y1": 111,
+            "x2": 835,
+            "y2": 124
+          },
+          "bbox_list": [
+            760,
+            111,
+            835,
+            124
+          ]
+        },
+        {
+          "block_id": "p7_b4",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Download Scholarship Guide",
+          "bbox": {
+            "x1": 390,
+            "y1": 145,
+            "x2": 590,
+            "y2": 160
+          },
+          "bbox_list": [
+            390,
+            145,
+            590,
+            160
+          ]
+        },
+        {
+          "block_id": "p7_b5",
+          "page_number": 7,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Rankings & ratings",
+          "bbox": {
+            "x1": 100,
+            "y1": 202,
+            "x2": 238,
+            "y2": 217
+          },
+          "bbox_list": [
+            100,
+            202,
+            238,
+            217
+          ]
+        },
+        {
+          "block_id": "p7_b6",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "RANKINGS",
+          "bbox": {
+            "x1": 111,
+            "y1": 238,
+            "x2": 176,
+            "y2": 250
+          },
+          "bbox_list": [
+            111,
+            238,
+            176,
+            250
+          ]
+        },
+        {
+          "block_id": "p7_b7",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Peking University is one of the top public universities in Beijing, China (Mainland). It is ranked #17 in QS World University Rankings 2024.",
+          "bbox": {
+            "x1": 98,
+            "y1": 270,
+            "x2": 870,
+            "y2": 302
+          },
+          "bbox_list": [
+            98,
+            270,
+            870,
+            302
+          ]
+        },
+        {
+          "block_id": "p7_b8",
+          "page_number": 7,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 100,
+            "y1": 312,
+            "x2": 845,
+            "y2": 362
+          },
+          "bbox_list": [
+            100,
+            312,
+            845,
+            362
+          ]
+        },
+        {
+          "block_id": "p7_b9",
+          "page_number": 7,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "QS World University Rankings",
+          "bbox": {
+            "x1": 101,
+            "y1": 389,
+            "x2": 308,
+            "y2": 405
+          },
+          "bbox_list": [
+            101,
+            389,
+            308,
+            405
+          ]
+        },
+        {
+          "block_id": "p7_b10",
+          "page_number": 7,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 100,
+            "y1": 419,
+            "x2": 690,
+            "y2": 714
+          },
+          "bbox_list": [
+            100,
+            419,
+            690,
+            714
+          ]
+        },
+        {
+          "block_id": "p7_b11",
+          "page_number": 7,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 100,
+            "y1": 725,
+            "x2": 848,
+            "y2": 912
+          },
+          "bbox_list": [
+            100,
+            725,
+            848,
+            912
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nOverview  \n\nLOGIN  \n\nSIGN UP  \n\nDownload Scholarship Guide  \n\n## Rankings & ratings  \n\nRANKINGS  \n\nPeking University is one of the top public universities in Beijing, China (Mainland). It is ranked #17 in QS World University Rankings 2024.  \n\nQS World University Rankings  "
+    },
+    {
+      "page_number": 8,
+      "text_blocks": [
+        {
+          "block_id": "p8_b0",
+          "page_number": 8,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 95,
+            "y1": 95,
+            "x2": 465,
+            "y2": 305
+          },
+          "bbox_list": [
+            95,
+            95,
+            465,
+            305
+          ]
+        },
+        {
+          "block_id": "p8_b1",
+          "page_number": 8,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Similar Universities",
+          "bbox": {
+            "x1": 102,
+            "y1": 334,
+            "x2": 272,
+            "y2": 351
+          },
+          "bbox_list": [
+            102,
+            334,
+            272,
+            351
+          ]
+        },
+        {
+          "block_id": "p8_b2",
+          "page_number": 8,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 66,
+            "y1": 360,
+            "x2": 930,
+            "y2": 944
+          },
+          "bbox_list": [
+            66,
+            360,
+            930,
+            944
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# Similar Universities  "
+    },
+    {
+      "page_number": 9,
+      "text_blocks": [
+        {
+          "block_id": "p9_b0",
+          "page_number": 9,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 115,
+            "y1": 102,
+            "x2": 388,
+            "y2": 227
+          },
+          "bbox_list": [
+            115,
+            102,
+            388,
+            227
+          ]
+        },
+        {
+          "block_id": "p9_b1",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Are you planning to take an English language test? Sign up for free IELTS webinars and prep material",
+          "bbox": {
+            "x1": 402,
+            "y1": 102,
+            "x2": 857,
+            "y2": 134
+          },
+          "bbox_list": [
+            402,
+            102,
+            857,
+            134
+          ]
+        },
+        {
+          "block_id": "p9_b2",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Sign up today",
+          "bbox": {
+            "x1": 450,
+            "y1": 152,
+            "x2": 549,
+            "y2": 167
+          },
+          "bbox_list": [
+            450,
+            152,
+            549,
+            167
+          ]
+        },
+        {
+          "block_id": "p9_b3",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "About Contact Privacy Users Cookies DATA COPYRIGHT Terms & Conditions",
+          "bbox": {
+            "x1": 88,
+            "y1": 361,
+            "x2": 540,
+            "y2": 400
+          },
+          "bbox_list": [
+            88,
+            361,
+            540,
+            400
+          ]
+        },
+        {
+          "block_id": "p9_b4",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\\(①\\) QS Quacquarelli Symonds Limited 1994 - 2023. All rights reserved.",
+          "bbox": {
+            "x1": 88,
+            "y1": 393,
+            "x2": 410,
+            "y2": 404
+          },
+          "bbox_list": [
+            88,
+            393,
+            410,
+            404
+          ]
+        },
+        {
+          "block_id": "p9_b5",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "f in 0",
+          "bbox": {
+            "x1": 530,
+            "y1": 384,
+            "x2": 720,
+            "y2": 560
+          },
+          "bbox_list": [
+            530,
+            384,
+            720,
+            560
+          ]
+        },
+        {
+          "block_id": "p9_b6",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Subscribe to Our Newsletter",
+          "bbox": {
+            "x1": 628,
+            "y1": 581,
+            "x2": 794,
+            "y2": 594
+          },
+          "bbox_list": [
+            628,
+            581,
+            794,
+            594
+          ]
+        },
+        {
+          "block_id": "p9_b7",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Please enter your email",
+          "bbox": {
+            "x1": 592,
+            "y1": 606,
+            "x2": 732,
+            "y2": 619
+          },
+          "bbox_list": [
+            592,
+            606,
+            732,
+            619
+          ]
+        },
+        {
+          "block_id": "p9_b8",
+          "page_number": 9,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "→",
+          "bbox": {
+            "x1": 590,
+            "y1": 623,
+            "x2": 620,
+            "y2": 636
+          },
+          "bbox_list": [
+            590,
+            623,
+            620,
+            636
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nAre you planning to take an English language test? Sign up for free IELTS webinars and prep material  \n\nSign up today  \n\nAbout Contact Privacy Users Cookies DATA COPYRIGHT Terms & Conditions  \n\n\\(①\\) QS Quacquarelli Symonds Limited 1994 - 2023. All rights reserved.  \n\nf in 0  \n\nSubscribe to Our Newsletter  \n\nPlease enter your email  \n\n→"
+    },
+    {
+      "page_number": 10,
+      "text_blocks": [
+        {
+          "block_id": "p10_b0",
+          "page_number": 10,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## About QS",
+          "bbox": {
+            "x1": 99,
+            "y1": 98,
+            "x2": 230,
+            "y2": 122
+          },
+          "bbox_list": [
+            99,
+            98,
+            230,
+            122
+          ]
+        },
+        {
+          "block_id": "p10_b1",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Skip to next slide You can skip to the next slide in 3 Ad",
+          "bbox": {
+            "x1": 99,
+            "y1": 170,
+            "x2": 347,
+            "y2": 198
+          },
+          "bbox_list": [
+            99,
+            170,
+            347,
+            198
+          ]
+        },
+        {
+          "block_id": "p10_b2",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Skip to next slide You can skip to the next slide in 3 Ad Skip to next slide You can skip to the next slide in 3 Ad <|ref|>text<|/ref|> derechos",
+          "bbox": {
+            "x1": 99,
+            "y1": 228,
+            "x2": 347,
+            "y2": 255
+          },
+          "bbox_list": [
+            99,
+            228,
+            347,
+            255
+          ]
+        },
+        {
+          "block_id": "p10_b3",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "QS Quacquarelli Symonds is the world's leading provider of services, analytics, and insight to the global higher education sector, whose mission is to enable motivated people anywhere in the world to fulfil their potential through educational achievement, international mobility, and career development.",
+          "bbox": {
+            "x1": 100,
+            "y1": 408,
+            "x2": 880,
+            "y2": 456
+          },
+          "bbox_list": [
+            100,
+            408,
+            880,
+            456
+          ]
+        },
+        {
+          "block_id": "p10_b4",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The QS World University Rankings portfolio, inaugurated in 2004, has grown to become the world's most popular source of comparative data about university performance. Their flagship website, www.TopUniversities.com - the home of their rankings - was viewed 149 million times in 2019, and over 94,000 media clippings pertaining to, or mentioning, QS were published by media outlets across the world in 2019.",
+          "bbox": {
+            "x1": 100,
+            "y1": 469,
+            "x2": 884,
+            "y2": 531
+          },
+          "bbox_list": [
+            100,
+            469,
+            884,
+            531
+          ]
+        },
+        {
+          "block_id": "p10_b5",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Beyond QS's publication of the world's market- leading university rankings portfolio, QS also compile the QS international Student Survey - the world's largest survey of the sentiments, motivations, and preferences of prospective international students. Their student- facing event series - The QS World Grad School Tour, QS World MBA Tour, and QS World University Tour - gave 225,000 prospective students the chance to meet admissions directors at some of the world's top universities, across 348 events worldwide.",
+          "bbox": {
+            "x1": 101,
+            "y1": 542,
+            "x2": 880,
+            "y2": 603
+          },
+          "bbox_list": [
+            101,
+            542,
+            880,
+            603
+          ]
+        },
+        {
+          "block_id": "p10_b6",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Throughout the COVID- 19 outbreak, QS has transitioned their event offerings online, ensuring that institutions across the world are still able to connect with talent across the globe. QS's response to the pandemic has also included the development of a series of digital marketing resources for institutions - similarly designed to facilitate continued high- quality engagement with potential students - and the launch of a webinar series empowering university faculty and administrators to share best practices and collaborate as they move their educational offerings into the virtual classroom.",
+          "bbox": {
+            "x1": 102,
+            "y1": 615,
+            "x2": 880,
+            "y2": 692
+          },
+          "bbox_list": [
+            102,
+            615,
+            880,
+            692
+          ]
+        },
+        {
+          "block_id": "p10_b7",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The QS Intelligence Unit - QS's research and professional services division - provides universities across the world with bespoke comparative performance analysis according to metrics central to each institution's mission: teaching, research impact, reputational standing, student employability, and internationalization.",
+          "bbox": {
+            "x1": 103,
+            "y1": 705,
+            "x2": 860,
+            "y2": 751
+          },
+          "bbox_list": [
+            103,
+            705,
+            860,
+            751
+          ]
+        },
+        {
+          "block_id": "p10_b8",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "They also oversee QS's international conferences for higher education leaders: these include:",
+          "bbox": {
+            "x1": 104,
+            "y1": 764,
+            "x2": 636,
+            "y2": 780
+          },
+          "bbox_list": [
+            104,
+            764,
+            636,
+            780
+          ]
+        },
+        {
+          "block_id": "p10_b9",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "- Reimagine Education - the world's leading award program and conference for teaching and learning innovation;- EduData Summit - a space uniting the world's leading practitioners at the intersection of data and education;- QS APPLE - Asia's foremost convention for higher education leaders;- A range of subject-focused summits held with QS's partner universities.",
+          "bbox": {
+            "x1": 120,
+            "y1": 793,
+            "x2": 780,
+            "y2": 860
+          },
+          "bbox_list": [
+            120,
+            793,
+            780,
+            860
+          ]
+        },
+        {
+          "block_id": "p10_b10",
+          "page_number": 10,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In 2019, as part of their commitment to sustainability, QS became a certified CarbonNeutral® Company, reflecting their efforts to reduce its impact on the environment through a range of efficiency initiatives and offsetting unavoidable emissions through a verified carbon offset forestry project in Brazil.",
+          "bbox": {
+            "x1": 104,
+            "y1": 870,
+            "x2": 888,
+            "y2": 917
+          },
+          "bbox_list": [
+            104,
+            870,
+            888,
+            917
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n## About QS  \n\nSkip to next slide You can skip to the next slide in 3 Ad  \n\nSkip to next slide You can skip to the next slide in 3 Ad  \n\nSkip to next slide You can skip to the next slide in 3 Ad  \n\n<|ref|>text<|/ref|> derechos  \n\nQS Quacquarelli Symonds is the world's leading provider of services, analytics, and insight to the global higher education sector, whose mission is to enable motivated people anywhere in the world to fulfil their potential through educational achievement, international mobility, and career development.  \n\nThe QS World University Rankings portfolio, inaugurated in 2004, has grown to become the world's most popular source of comparative data about university performance. Their flagship website, www.TopUniversities.com - the home of their rankings - was viewed 149 million times in 2019, and over 94,000 media clippings pertaining to, or mentioning, QS were published by media outlets across the world in 2019.  \n\nBeyond QS's publication of the world's market- leading university rankings portfolio, QS also compile the QS international Student Survey - the world's largest survey of the sentiments, motivations, and preferences of prospective international students. Their student- facing event series - The QS World Grad School Tour, QS World MBA Tour, and QS World University Tour - gave 225,000 prospective students the chance to meet admissions directors at some of the world's top universities, across 348 events worldwide.  \n\nThroughout the COVID- 19 outbreak, QS has transitioned their event offerings online, ensuring that institutions across the world are still able to connect with talent across the globe. QS's response to the pandemic has also included the development of a series of digital marketing resources for institutions - similarly designed to facilitate continued high- quality engagement with potential students - and the launch of a webinar series empowering university faculty and administrators to share best practices and collaborate as they move their educational offerings into the virtual classroom.  \n\nThe QS Intelligence Unit - QS's research and professional services division - provides universities across the world with bespoke comparative performance analysis according to metrics central to each institution's mission: teaching, research impact, reputational standing, student employability, and internationalization.  \n\nThey also oversee QS's international conferences for higher education leaders: these include:  \n\n- Reimagine Education - the world's leading award program and conference for teaching and learning innovation;- EduData Summit - a space uniting the world's leading practitioners at the intersection of data and education;- QS APPLE - Asia's foremost convention for higher education leaders;- A range of subject-focused summits held with QS's partner universities.  \n\nIn 2019, as part of their commitment to sustainability, QS became a certified CarbonNeutral® Company, reflecting their efforts to reduce its impact on the environment through a range of efficiency initiatives and offsetting unavoidable emissions through a verified carbon offset forestry project in Brazil."
+    },
+    {
+      "page_number": 11,
+      "text_blocks": [
+        {
+          "block_id": "p11_b0",
+          "page_number": 11,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# NEUTRAL",
+          "bbox": {
+            "x1": 115,
+            "y1": 81,
+            "x2": 252,
+            "y2": 100
+          },
+          "bbox_list": [
+            115,
+            81,
+            252,
+            100
+          ]
+        },
+        {
+          "block_id": "p11_b1",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Company",
+          "bbox": {
+            "x1": 120,
+            "y1": 110,
+            "x2": 250,
+            "y2": 140
+          },
+          "bbox_list": [
+            120,
+            110,
+            250,
+            140
+          ]
+        },
+        {
+          "block_id": "p11_b2",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "CarbonNeutral.com",
+          "bbox": {
+            "x1": 95,
+            "y1": 147,
+            "x2": 264,
+            "y2": 162
+          },
+          "bbox_list": [
+            95,
+            147,
+            264,
+            162
+          ]
+        },
+        {
+          "block_id": "p11_b3",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "?",
+          "bbox": {
+            "x1": 98,
+            "y1": 180,
+            "x2": 115,
+            "y2": 193
+          },
+          "bbox_list": [
+            98,
+            180,
+            115,
+            193
+          ]
+        },
+        {
+          "block_id": "p11_b4",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "About Contact Privacy Users Cookies DATA COPYRIGHT Terms & Conditions",
+          "bbox": {
+            "x1": 85,
+            "y1": 214,
+            "x2": 520,
+            "y2": 245
+          },
+          "bbox_list": [
+            85,
+            214,
+            520,
+            245
+          ]
+        },
+        {
+          "block_id": "p11_b5",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "\\(<\\) QS Quacquarelli Symonds Limited 1994 - 2023. All rights reserved.",
+          "bbox": {
+            "x1": 85,
+            "y1": 245,
+            "x2": 404,
+            "y2": 257
+          },
+          "bbox_list": [
+            85,
+            245,
+            404,
+            257
+          ]
+        },
+        {
+          "block_id": "p11_b6",
+          "page_number": 11,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "f 1 1 1 1 1 1 1 1 1 1 11 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 3 1 1 1 1 1 1 1 1 1 4 1 1 1 1 1 1 1 1 1 5 1 1 1 1 1 1 1 1 1 6 1 1 1 1 1 1 1 1 1 7 1 1 1 1 1 1 1 1 1 8 1 1 1 1 1 1 1 1 1 9 1 1 1 1 1 1 1 1 1 10 1 1 1 1 1 1 1 1 1 12 1 1 1 1 1 1 1 1 1 13 1 1 1 1 1 1 1 1 1 14 1 1 1 1 1 1 1 1 1 15 1 1 1 1 1 1 1 1 1 16 1 1 1 1 1 1 1 1 1 17 1 1 1 1 1 1 1 1 1 18 1 1 1 1 1 1 1 1 1 19 1 1 1 1 1 1 1 1 1 20 1 1 1 1 1 1 1 1 1 21 1 1 1 1 1 1 1 1 1 22 1 1 1 1 1 1 1 1 1 23 1 1 1 1 1 1 1 1 1 24 1 1 1 1 1 1 1 1 1 25 1 1 1 1 1 1 1 1 1 26 1 1 1 1 1 1 1 1 1 27 1 1 1 1 1 1 1 1 1 28 1 1 1 1 1 1 1 1 1 29 1 1 1 1 1 1 1 1 1 30 1 1 1 1 1 1 1 1 1 31 1 1 1 1 1 1 1 1 1 32 1 1 1 1 1 1 1 1 1 33 1 1 1 1 1 1 1 1 1 34 1 1 1 1 1 1 1 1 1 35 1 1 1 1 1 1 1 1 1 36 1 1 1 1 1 1 1 1 1 37 1 1 1 1 1 1 1 1 1 38 1 1 1 1 1 1 1 1 1 39 1 1 1 1 1 1 1 1 1 40 1 1 1 1 1 1 1 1 1 41 1 1 1 1 1 1 1 1 1 42 1 1 1 1 1 1 1 1 1 43 1 1 1 1 1 1 1 1 1 44 1 1 1 1 1 1 1 1 1 45 1 1 1 1 1 1 1 1 1 46 1 1 1 1 1 1 1 1 1 47 1 1 1 1 1 1 1 1 1 48 1 1 1 1 1 1 1 1 1 49 1 1 1 1 1 1 1 1 1 50 1 1 1 1 1 1 1 1 1 51 1 1 1 1 1 1 1 1 1 52 1 1 1 1 1 1 1 1 1 53 1 1 1 1 1 1 1 1 1 54 1 1 1 1 1 1 1 1 1 55 1 1 1 1 1 1 1 1 1 56 1 1 1 1 1 1 1 1 1 57 1 1 1 1 1 1 1 1 1 58 1 1 1 1 1 1 1 1 1 59 1 1 1 1 1 1 1 1 1 60 1 1 1 1 1 1 1 1 1 61 1 1 1 1 1 1 1 1 1 62 1 1 1 1 1 1 1 1 1 63 1 1 1 1 1 1 1 1 1 64 1 1 1 1 1 1 1 1 1 65 1 1 1 1 1 1 1 1 1 66 1 1 1 1 1 1 1 1 1 67 1 1 1 1 1 1 1 1 1 68 1 1 1 1 1 1 1 1 1 69 1 1 1 1 1 1 1 1 1 70 1 1 1 1 1 1 1 1 1 71 1 1 1 1 1 1 1 1 1 72 1 1 1 1 1 1 1 1 1 73 1 1 1 1 1 1 1 1 1 74 1 1 1 1 1 1 1 1 1 75 1 1 1 1 1 1 1 1 1 76 1 1 1 1 1 1 1 1 1 77 1 1 1 1 1 1 1 1 1 78 1 1 1 1 1 1 1 1 1 79 1 1 1 1 1 1 1 1 1 80 1 1 1 1 1 1 1 1 1 81 1 1 1 1 1 1 1 1 1 82 1 1 1 1 1 1 1 1 1 83 1 1 1 1 1 1 1 1 1 84 1 1 1 1 1 1 1 1 1 85 1 1 1 1 1 1 1 1 1 86 1 1 1 1 1 1 1 1 1 87 1 1 1 1 1 1 1 1 1 88 1 1 1 1 1 1 1 1 1 89 1 1 1 1 1 1 1 1 1 90 1 1 1 1 1 1 1 1 1 91 1 1 1 1 1 1 1 1 1 92 1 1 1 1 1 1 1 1 1 93 1 1 1 1 1 1 1 1 1 94 1 1 1 1 1 1 1 1 1 95 1 1 1 1 1 1 1 1 1 96 1 1 1 1 1 1 1 1 1 97 1 1 1 1 1 1 1 1 1 98 1 1 1 1 1 1 1 1 1 99 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 101 1 1 1 1 1 1 1 1 1 102 1 1 1 1 1 1 1 1 1 103 1 1 1 1 1 1 1 1 1 104 1 1 1 1 1 1 1 1 1 105 1 1 1 1 1 1 1 1 1 106 1 1 1 1 1 1 1 1 1 107 1 1 1 1 1 1 1 1 1 108 1 1 1 1 1 1 1 1 1 109 1 1 1 1 1 1 1 1 1 110 1 1 1 1 1 1 1 1 1 111 1 1 1 1 1 1 1 1 1 112 1 1 1 1 1 1 1 1 1 113 1 1 1 1 1 1 1 1 1 114 1 1 1 1 1 1 1 1 1 115 1 1 1 1 1 1 1 1 1 116 1 1 1 1 1 1 1 1 1 117 1 1 1 1 1 1 1 1 1 118 1 1 1 1 1 1 1 1 1 119 1 1 1 1 1 1 1 1 1 120 1 1 1 1 1 1 1 1 1 121 1 1 1 1 1 1 1 1 1 122 1 1 1 1 1 1 1 1 1 123 1 1 1 1 1 1 1 1 1 124 1 1 1 1 1 1 1 1 1 125 1 1 1 1 1 1 1 1 1 126 1 1 1 1 1 1 1 1 1 127 1 1 1 1 1 1 1 1 1 128 1 1 1 1 1 1 1 1 1 129 1 1 1 1 1 1 1 1 1 130 1 1 1 1 1 1 1 1 1 131 1 1 1 1 1 1 1 1 1 132 1 1 1 1 1 1 1 1 1 133 1 1 1 1 1 1 1 1 1 134 1 1 1 1 1 1 1 1 1 135 1 1 1 1 1 1 1 1 1 136 1 1 1 1 1 1 1 1 1 137 1 1 1 1 1 1 1 1 1 138 1 1 1 1 1 1 1 1 1 139 1 1 1 1 1 1 1 1 1 140 1 1 1 1 1 1 1 1 1 141 1 1 1 1 1 1 1 1 1 142 1 1 1 1 1 1 1 1 1 143 1 1 1 1 1 1 1 1 1 144 1 1 1 1 1 1 1 1 1 145 1 1 1 1 1 1 1 1 1 146 1 1 1 1 1 1 1 1 1 147 1 1 1 1 1 1 1 1 1 148 1 1 1 1 1 1 1 1 1 149 1 1 1 1 1 1 1 1 1 150 1 1 1 1 1 1 1 1 1 151 1 1 1 1 1 1 1 1 1 152 1 1 1 1 1 1 1 1 1 153 1 1 1 1 1 1 1 1 1 154 1 1 1 1 1 1 1 1 1 155 1 1 1 1 1 1 1 1 1 156 1 1 1 1 1 1 1 1 1 157 1 1 1 1 1 1 1 1 1 158 1 1 1 1 1 1 1 1 1 159 1 1 1 1 1 1 1 1 1 160 1 1 1 1 1 1 1 1 1 161 1 1 1 1 1 1 1 1 1 162 1 1 1 1 1 1 1 1 1 163 1 1 1 1 1 1 1 1 1 164 1 1 1 1 1 1 1 1 1 165 1 1 1 1 1 1 1 1 1 166 1 1 1 1 1 1 1 1 1 167 1 1 1 1 1 1 1 1 1 168 1 1 1 1 1 1 1 1 1 169 1 1 1 1 1 1 1 1 1 170 1 1 1 1 1 1 1 1 1 171 1 1 1 1 1 1 1 1 1 172 1 1 1 1 1 1 1 1 1 173 1 1 1 1 1 1 1 1 1 174 1 1 1 1 1 1 1 1 1 175 1 1 1 1 1 1 1 1 1 176 1 1 1 1 1 1 1 1 1 177 1 1 1 1 1 1 1 1 1 178 1 1 1 1 1 1 1 1 1 179 1 1 1 1 1 1 1 1 1 180 1 1 1 1 1 1 1 1 1 181 1 1 1 1 1 1 1 1 1 182 1 1 1 1 1 1 1 1 1 183 1 1 1 1 1 1 1 1 1 184 1 1 1 1 1 1 1 1 1 185 1 1 1 1 1 1 1 1 1 186 1 1 1 1 1 1 1 1 1 187 1 1 1 1 1 1 1 1 1 188 1 1 1 1 1 1 1 1 1 189 1 1 1 1 1 1 1 1 1 190 1 1 1 1 1 1 1 1 1 191 1 1 1 1 1 1 1 1 1 192 1 1 1 1 1 1 1 1 1 193 1 1 1 1 1 1 1 1 1 194 1 1 1 1 1 1 1 1 1 195 1 1 1 1 1 1 1 1 1 196 1 1 1 1 1 1 1 1 1 197 1 1 1 1 1 1 1 1 1 198 1 1 1 1 1 1 1 1 1 199 1 1 1 1 1 1 1 1 1 200 1 1 1 1 1 1 1 1 1 201 1 1 1 1 1 1 1 1 1 202 1 1 1 1 1 1 1 1 1 203 1 1 1 1 1 1 1 1 1 204 1 1 1 1 1 1 1 1 1 205 1 1 1 1 1 1 1 1 1 206 1 1 1 1 1 1 1 1 1 207 1 1 1 1 1 1 1 1 1 208 1 1 1 1 1 1 1 1 1 209 1 1 1 1 1 1 1 1 1 210 1 1 1 1 1 1 1 1 1 211 1 1 1 1 1 1 1 1 1 212 1 1 1 1 1 1 1 1 1 213 1 1 1 1 1 1 1 1 1 214 1 1 1 1 1 1 1 1 1 215 1 1 1 1 1 1 1 1 1 216 1 1 1 1 1 1 1 1 1 217 1 1 1 1 1 1 1 1 1 218 1 1 1 1 1 1 1 1 1 219 1 1 1 1 1 1 1 1 1 220 1 1 1 1 1 1 1 1 1 221 1 1 1 1 1 1 1 1 1 222 1 1 1 1 1 1 1 1 1 223 1 1 1 1 1 1 1 1 1 224 1 1 1 1 1 1 1 1 1 225 1 1 1 1 1 1 1 1 1 226 1 1 1 1 1 1 1 1 1 227 1 1 1 1 1 1 1 1 1 228 1 1 1 1 1 1 1 1 1 229 1 1 1 1 1 1 1 1 1 230 1 1 1 1 1 1 1 1 1 231 1 1 1 1 1 1 1 1 1 232 1 1 1 1 1 1 1 1 1 233 1 1 1 1 1 1 1 1 1 234 1 1 1 1 1 1 1 1 1 235 1 1 1 1 1 1 1 1 1 236 1 1 1 1 1 1 1 1 1 237 1 1 1 1 1 1 1 1 1 238 1 1 1 1 1 1 1 1 1 239 1 1 1 1 1 1 1 1 1 240 1 1 1 1 1 1 1 1 1 241 1 1 1 1 1 1 1 1 1 242 1 1 1 1 1 1 1 1 1 243 1 1 1 1 1 1 1 1 1 244 1 1 1 1 1 1 1 1 1 245 1 1 1 1 1 1 1 1 1 246 1 1 1 1 1 1 1 1 1 247 1 1 1 1 1 1 1 1 1 248 1 1 1 1 1 1 1 1 1 249 1 1 1 1 1 1 1 1 1 250 1 1 1 1 1 1 1 1 1 251 1 1 1 1 1 1 1 1 1 252 1 1 1 1 1 1 1 1 1 253 1 1 1 1 1 1 1 1 1 254 1 1 1 1 1 1 1 1 1 255 1 1 1 1 1 1 1 1 1 256 1 1 1 1 1 1 1 1 1 257 1 1 1 1 1 1 1 1 1 258 1 1 1 1 1 1 1 1 1 259 1 1 1 1 1 1 1 1 1 260 1 1 1 1 1 1 1 1 1 261 1 1 1 1 1 1 1 1 1 262 1 1 1 1 1 1 1 1 1 263 1 1 1 1 1 1 1 1 1 264 1 1 1 1 1 1 1 1 1 265 1 1 1 1 1 1 1 1 1 266 1 1 1 1 1 1 1 1 1 267 1 1 1 1 1 1 1 1 1 268 1 1 1 1 1 1 1 1 1 269 1 1 1 1 1 1 1 1 1 270 1 1 1 1 1 1 1 1 1 271 1 1 1 1 1 1 1 1 1 272 1 1 1 1 1 1 1 1 1 273 1 1 1 1 1 1 1 1 1 274 1 1 1 1 1 1 1 1 1 275 1 1 1 1 1 1 1 1 1 276 1 1 1 1 1 1 1 1 1 277 1 1 1 1 1 1 1 1 1 278 1 1 1 1 1 1 1 1 1 279 1 1 1 1 1 1 1 1 1 280 1 1 1 1 1 1 1 1 1 281 1 1 1 1 1 1 1 1 1 282 1 1 1 1 1 1 1 1 1 283 1 1 1 1 1 1 1 1 1 284 1 1 1 1 1 1 1 1 1 285 1 1 1 1 1 1 1 1 1 286 1 1 1 1 1 1 1 1 1 287 1 1 1 1 1 1 1 1 1 288 1 1 1 1 1 1 1 1 1 289 1 1 1 1 1 1 1 1 1 290 1 1 1 1 1 1 1 1 1 291 1 1 1 1 1 1 1 1 1 292 1 1 1 1 1 1 1 1 1 293 1 1 1 1 1 1 1 1 1 294 1 1 1 1 1 1 1 1 1 295 1 1 1 1 1 1 1 1 1 296 1 1 1 1 1 1 1 1 1 297 1 1 1 1 1 1 1 1 1 298 1 1 1 1 1 1 1 1 1 299 1 1 1 1 1 1 1 1 1 300 1 1 1 1 1 1 1 1 1 301 1 1 1 1 1 1 1 1 1 302 1 1 1 1 1 1 1 1 1 303 1 1 1 1 1 1 1 1 1 304 1 1 1 1 1 1 1 1 1 305 1 1 1 1 1 1 1 1 1 306 1 1 1 1 1 1 1 1 1 307 1 1 1 1 1 1 1 1 1 308 1 1 1 1 1 1 1 1 1 309 1 1 1 1 1 1 1 1 1 310 1 1 1 1 1 1 1 1 1 311 1 1 1 1 1 1 1 1 1 312 1 1 1 1 1 1 1 1 1 313 1 1 1 1 1 1 1 1 1 314 1 1 1 1 1 1 1 1 1 315 1 1 1 1 1 1 1 1 1 316 1 1 1 1 1 1 1 1 1 317 1 1 1 1 1 1 1 1 1 318 1 1 1 1 1 1 1 1 1 319 1 1 1 1 1 1 1 1 1 320 1 1 1 1 1 1 1 1 1 321 1 1 1 1 1 1 1 1 1 322 1 1 1 1 1 1 1 1 1 323 1 1 1 1 1 1 1 1 1 324 1 1 1 1 1 1 1 1 1 325 1 1 1 1 1 1 1 1 1 326 1 1 1 1 1 1 1 1 1 327 1 1 1 1 1 1 1 1 1 328 1 1 1 1 1 1 1 1 1 329 1 1 1 1 1 1 1 1 1 330 1 1 1 1 1 1 1 1 1 331 1 1 1 1 1 1 1 1 1 332 1 1 1 1 1 1 1 1 1 333 1 1 1 1 1 1 1 1 1 334 1 1 1 1 1 1 1 1 1 335 1 1 1 1 1 1 1 1 1 336 1 1 1 1 1 1 1 1 1 337 1 1 1 1 1 1 1 1 1 338 1 1 1 1 1 1 1 1 1 339 1 1 1 1 1 1 1 1 1 340 1 1 1 1 1 1 1 1 1 341 1 1 1 1 1 1 1 1 1 342 1 1 1 1 1 1 1 1 1 343 1 1 1 1 1 1 1 1 1 344 1 1 1 1 1 1 1 1 1 345 1 1 1 1 1 1 1 1 1 346 1 1 1 1 1 1 1 1 1 347 1 1 1 1 1 1 1 1 1 348 1 1 1 1 1 1 1 1 1 349 1 1 1 1 1 1 1 1 1 350 1 1 1 1 1 1 1 1 1 351 1 1 1 1 1 1 1 1 1 352 1 1 1 1 1 1 1 1 1 353 1 1 1 1 1 1 1 1 1 354 1 1 1 1 1 1 1 1 1 355 1 1 1 1 1 1 1 1 1 356 1 1 1 1 1 1 1 1 1 357 1 1 1 1 1 1 1 1 1 358 1 1 1 1 1 1 1 1 1 359 1 1 1 1 1 1 1 1 1 360 1 1 1 1 1 1 1 1 1 361 1 1 1 1 1 1 1 1 1 362 1 1 1 1 1 1 1 1 1 363 1 1 1 1 1 1 1 1 1 364 1 1 1 1 1 1 1 1 1 365 1 1 1 1 1 1 1 1 1 366 1 1 1 1 1 1 1 1 1 367 1 1 1 1 1 1 1 1 1 368 1 1 1 1 1 1 1 1 1 369 1 1 1 1 1 1 1 1 1 370 1 1 1 1 1 1 1 1 1 371 1 1 1 1 1 1 1 1 372 1 1 1 1 1 1 1 1 1 373 1 1 1 1 1 1 1 1 1 374 1 1 1 1 1 1 1 1 1 375 1 1 1 1 1 1 1 1 1 376 1 1 1 1 1 1 1 1 1 377 1 1 1 1 1 1 1 1 1 378 1 1 1 1 1 1 1 1 1 379 1 1 1 1 1 1 1 1 1 380 1 1 1 1 1 1 1 1 1 381 1 1 1 1 1 1 1 1 1 382 1 1 1 1 1 1 1 1 1 383 1 1 1 1 1 1 1 1 1 384 1 1 1 1 1 1 1 1 1 385 1 1 1 1 1 1 1 1 1 386 1 1 1 1 1 1 1 1 1 387 1 1 1 1 1 1 1 1 1 388 1 1 1 1 1 1 1 1 1 389 1 1 1 1 1 1 1 1 1 390 1 1 1 1 1 1 1 1 1 391 1 1 1 1 1 1 1 1 1 392 1 1 1 1 1 1 1 1 1 393 1 1 1 1 1 1 1 1 1 394 1 1 1 1 1 1 1 1 1 395 1 1 1 1 1 1 1 1 1 396 1 1 1 1 1 1 1 1 1 397 1 1 1 1 1 1 1 1 1 398 1 1 1 1 1 1 1 1 1 399 1 1 1 1 1 1 1 1 1 400 1 1 1 1 1 1 1 1 1 401 1 1 1 1 1 1 1",
+          "bbox": {
+            "x1": 520,
+            "y1": 238,
+            "x2": 707,
+            "y2": 410
+          },
+          "bbox_list": [
+            520,
+            238,
+            707,
+            410
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# NEUTRAL  \n\nCompany  \n\nCarbonNeutral.com  \n\n?  \n\nAbout Contact Privacy Users Cookies DATA COPYRIGHT Terms & Conditions  \n\n\\(<\\) QS Quacquarelli Symonds Limited 1994 - 2023. All rights reserved.  \n\nf 1 1 1 1 1 1 1 1 1 1 11 1 1 1 1 1 1 1 1 1 2 1 1 1 1 1 1 1 1 1 3 1 1 1 1 1 1 1 1 1 4 1 1 1 1 1 1 1 1 1 5 1 1 1 1 1 1 1 1 1 6 1 1 1 1 1 1 1 1 1 7 1 1 1 1 1 1 1 1 1 8 1 1 1 1 1 1 1 1 1 9 1 1 1 1 1 1 1 1 1 10 1 1 1 1 1 1 1 1 1 12 1 1 1 1 1 1 1 1 1 13 1 1 1 1 1 1 1 1 1 14 1 1 1 1 1 1 1 1 1 15 1 1 1 1 1 1 1 1 1 16 1 1 1 1 1 1 1 1 1 17 1 1 1 1 1 1 1 1 1 18 1 1 1 1 1 1 1 1 1 19 1 1 1 1 1 1 1 1 1 20 1 1 1 1 1 1 1 1 1 21 1 1 1 1 1 1 1 1 1 22 1 1 1 1 1 1 1 1 1 23 1 1 1 1 1 1 1 1 1 24 1 1 1 1 1 1 1 1 1 25 1 1 1 1 1 1 1 1 1 26 1 1 1 1 1 1 1 1 1 27 1 1 1 1 1 1 1 1 1 28 1 1 1 1 1 1 1 1 1 29 1 1 1 1 1 1 1 1 1 30 1 1 1 1 1 1 1 1 1 31 1 1 1 1 1 1 1 1 1 32 1 1 1 1 1 1 1 1 1 33 1 1 1 1 1 1 1 1 1 34 1 1 1 1 1 1 1 1 1 35 1 1 1 1 1 1 1 1 1 36 1 1 1 1 1 1 1 1 1 37 1 1 1 1 1 1 1 1 1 38 1 1 1 1 1 1 1 1 1 39 1 1 1 1 1 1 1 1 1 40 1 1 1 1 1 1 1 1 1 41 1 1 1 1 1 1 1 1 1 42 1 1 1 1 1 1 1 1 1 43 1 1 1 1 1 1 1 1 1 44 1 1 1 1 1 1 1 1 1 45 1 1 1 1 1 1 1 1 1 46 1 1 1 1 1 1 1 1 1 47 1 1 1 1 1 1 1 1 1 48 1 1 1 1 1 1 1 1 1 49 1 1 1 1 1 1 1 1 1 50 1 1 1 1 1 1 1 1 1 51 1 1 1 1 1 1 1 1 1 52 1 1 1 1 1 1 1 1 1 53 1 1 1 1 1 1 1 1 1 54 1 1 1 1 1 1 1 1 1 55 1 1 1 1 1 1 1 1 1 56 1 1 1 1 1 1 1 1 1 57 1 1 1 1 1 1 1 1 1 58 1 1 1 1 1 1 1 1 1 59 1 1 1 1 1 1 1 1 1 60 1 1 1 1 1 1 1 1 1 61 1 1 1 1 1 1 1 1 1 62 1 1 1 1 1 1 1 1 1 63 1 1 1 1 1 1 1 1 1 64 1 1 1 1 1 1 1 1 1 65 1 1 1 1 1 1 1 1 1 66 1 1 1 1 1 1 1 1 1 67 1 1 1 1 1 1 1 1 1 68 1 1 1 1 1 1 1 1 1 69 1 1 1 1 1 1 1 1 1 70 1 1 1 1 1 1 1 1 1 71 1 1 1 1 1 1 1 1 1 72 1 1 1 1 1 1 1 1 1 73 1 1 1 1 1 1 1 1 1 74 1 1 1 1 1 1 1 1 1 75 1 1 1 1 1 1 1 1 1 76 1 1 1 1 1 1 1 1 1 77 1 1 1 1 1 1 1 1 1 78 1 1 1 1 1 1 1 1 1 79 1 1 1 1 1 1 1 1 1 80 1 1 1 1 1 1 1 1 1 81 1 1 1 1 1 1 1 1 1 82 1 1 1 1 1 1 1 1 1 83 1 1 1 1 1 1 1 1 1 84 1 1 1 1 1 1 1 1 1 85 1 1 1 1 1 1 1 1 1 86 1 1 1 1 1 1 1 1 1 87 1 1 1 1 1 1 1 1 1 88 1 1 1 1 1 1 1 1 1 89 1 1 1 1 1 1 1 1 1 90 1 1 1 1 1 1 1 1 1 91 1 1 1 1 1 1 1 1 1 92 1 1 1 1 1 1 1 1 1 93 1 1 1 1 1 1 1 1 1 94 1 1 1 1 1 1 1 1 1 95 1 1 1 1 1 1 1 1 1 96 1 1 1 1 1 1 1 1 1 97 1 1 1 1 1 1 1 1 1 98 1 1 1 1 1 1 1 1 1 99 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 101 1 1 1 1 1 1 1 1 1 102 1 1 1 1 1 1 1 1 1 103 1 1 1 1 1 1 1 1 1 104 1 1 1 1 1 1 1 1 1 105 1 1 1 1 1 1 1 1 1 106 1 1 1 1 1 1 1 1 1 107 1 1 1 1 1 1 1 1 1 108 1 1 1 1 1 1 1 1 1 109 1 1 1 1 1 1 1 1 1 110 1 1 1 1 1 1 1 1 1 111 1 1 1 1 1 1 1 1 1 112 1 1 1 1 1 1 1 1 1 113 1 1 1 1 1 1 1 1 1 114 1 1 1 1 1 1 1 1 1 115 1 1 1 1 1 1 1 1 1 116 1 1 1 1 1 1 1 1 1 117 1 1 1 1 1 1 1 1 1 118 1 1 1 1 1 1 1 1 1 119 1 1 1 1 1 1 1 1 1 120 1 1 1 1 1 1 1 1 1 121 1 1 1 1 1 1 1 1 1 122 1 1 1 1 1 1 1 1 1 123 1 1 1 1 1 1 1 1 1 124 1 1 1 1 1 1 1 1 1 125 1 1 1 1 1 1 1 1 1 126 1 1 1 1 1 1 1 1 1 127 1 1 1 1 1 1 1 1 1 128 1 1 1 1 1 1 1 1 1 129 1 1 1 1 1 1 1 1 1 130 1 1 1 1 1 1 1 1 1 131 1 1 1 1 1 1 1 1 1 132 1 1 1 1 1 1 1 1 1 133 1 1 1 1 1 1 1 1 1 134 1 1 1 1 1 1 1 1 1 135 1 1 1 1 1 1 1 1 1 136 1 1 1 1 1 1 1 1 1 137 1 1 1 1 1 1 1 1 1 138 1 1 1 1 1 1 1 1 1 139 1 1 1 1 1 1 1 1 1 140 1 1 1 1 1 1 1 1 1 141 1 1 1 1 1 1 1 1 1 142 1 1 1 1 1 1 1 1 1 143 1 1 1 1 1 1 1 1 1 144 1 1 1 1 1 1 1 1 1 145 1 1 1 1 1 1 1 1 1 146 1 1 1 1 1 1 1 1 1 147 1 1 1 1 1 1 1 1 1 148 1 1 1 1 1 1 1 1 1 149 1 1 1 1 1 1 1 1 1 150 1 1 1 1 1 1 1 1 1 151 1 1 1 1 1 1 1 1 1 152 1 1 1 1 1 1 1 1 1 153 1 1 1 1 1 1 1 1 1 154 1 1 1 1 1 1 1 1 1 155 1 1 1 1 1 1 1 1 1 156 1 1 1 1 1 1 1 1 1 157 1 1 1 1 1 1 1 1 1 158 1 1 1 1 1 1 1 1 1 159 1 1 1 1 1 1 1 1 1 160 1 1 1 1 1 1 1 1 1 161 1 1 1 1 1 1 1 1 1 162 1 1 1 1 1 1 1 1 1 163 1 1 1 1 1 1 1 1 1 164 1 1 1 1 1 1 1 1 1 165 1 1 1 1 1 1 1 1 1 166 1 1 1 1 1 1 1 1 1 167 1 1 1 1 1 1 1 1 1 168 1 1 1 1 1 1 1 1 1 169 1 1 1 1 1 1 1 1 1 170 1 1 1 1 1 1 1 1 1 171 1 1 1 1 1 1 1 1 1 172 1 1 1 1 1 1 1 1 1 173 1 1 1 1 1 1 1 1 1 174 1 1 1 1 1 1 1 1 1 175 1 1 1 1 1 1 1 1 1 176 1 1 1 1 1 1 1 1 1 177 1 1 1 1 1 1 1 1 1 178 1 1 1 1 1 1 1 1 1 179 1 1 1 1 1 1 1 1 1 180 1 1 1 1 1 1 1 1 1 181 1 1 1 1 1 1 1 1 1 182 1 1 1 1 1 1 1 1 1 183 1 1 1 1 1 1 1 1 1 184 1 1 1 1 1 1 1 1 1 185 1 1 1 1 1 1 1 1 1 186 1 1 1 1 1 1 1 1 1 187 1 1 1 1 1 1 1 1 1 188 1 1 1 1 1 1 1 1 1 189 1 1 1 1 1 1 1 1 1 190 1 1 1 1 1 1 1 1 1 191 1 1 1 1 1 1 1 1 1 192 1 1 1 1 1 1 1 1 1 193 1 1 1 1 1 1 1 1 1 194 1 1 1 1 1 1 1 1 1 195 1 1 1 1 1 1 1 1 1 196 1 1 1 1 1 1 1 1 1 197 1 1 1 1 1 1 1 1 1 198 1 1 1 1 1 1 1 1 1 199 1 1 1 1 1 1 1 1 1 200 1 1 1 1 1 1 1 1 1 201 1 1 1 1 1 1 1 1 1 202 1 1 1 1 1 1 1 1 1 203 1 1 1 1 1 1 1 1 1 204 1 1 1 1 1 1 1 1 1 205 1 1 1 1 1 1 1 1 1 206 1 1 1 1 1 1 1 1 1 207 1 1 1 1 1 1 1 1 1 208 1 1 1 1 1 1 1 1 1 209 1 1 1 1 1 1 1 1 1 210 1 1 1 1 1 1 1 1 1 211 1 1 1 1 1 1 1 1 1 212 1 1 1 1 1 1 1 1 1 213 1 1 1 1 1 1 1 1 1 214 1 1 1 1 1 1 1 1 1 215 1 1 1 1 1 1 1 1 1 216 1 1 1 1 1 1 1 1 1 217 1 1 1 1 1 1 1 1 1 218 1 1 1 1 1 1 1 1 1 219 1 1 1 1 1 1 1 1 1 220 1 1 1 1 1 1 1 1 1 221 1 1 1 1 1 1 1 1 1 222 1 1 1 1 1 1 1 1 1 223 1 1 1 1 1 1 1 1 1 224 1 1 1 1 1 1 1 1 1 225 1 1 1 1 1 1 1 1 1 226 1 1 1 1 1 1 1 1 1 227 1 1 1 1 1 1 1 1 1 228 1 1 1 1 1 1 1 1 1 229 1 1 1 1 1 1 1 1 1 230 1 1 1 1 1 1 1 1 1 231 1 1 1 1 1 1 1 1 1 232 1 1 1 1 1 1 1 1 1 233 1 1 1 1 1 1 1 1 1 234 1 1 1 1 1 1 1 1 1 235 1 1 1 1 1 1 1 1 1 236 1 1 1 1 1 1 1 1 1 237 1 1 1 1 1 1 1 1 1 238 1 1 1 1 1 1 1 1 1 239 1 1 1 1 1 1 1 1 1 240 1 1 1 1 1 1 1 1 1 241 1 1 1 1 1 1 1 1 1 242 1 1 1 1 1 1 1 1 1 243 1 1 1 1 1 1 1 1 1 244 1 1 1 1 1 1 1 1 1 245 1 1 1 1 1 1 1 1 1 246 1 1 1 1 1 1 1 1 1 247 1 1 1 1 1 1 1 1 1 248 1 1 1 1 1 1 1 1 1 249 1 1 1 1 1 1 1 1 1 250 1 1 1 1 1 1 1 1 1 251 1 1 1 1 1 1 1 1 1 252 1 1 1 1 1 1 1 1 1 253 1 1 1 1 1 1 1 1 1 254 1 1 1 1 1 1 1 1 1 255 1 1 1 1 1 1 1 1 1 256 1 1 1 1 1 1 1 1 1 257 1 1 1 1 1 1 1 1 1 258 1 1 1 1 1 1 1 1 1 259 1 1 1 1 1 1 1 1 1 260 1 1 1 1 1 1 1 1 1 261 1 1 1 1 1 1 1 1 1 262 1 1 1 1 1 1 1 1 1 263 1 1 1 1 1 1 1 1 1 264 1 1 1 1 1 1 1 1 1 265 1 1 1 1 1 1 1 1 1 266 1 1 1 1 1 1 1 1 1 267 1 1 1 1 1 1 1 1 1 268 1 1 1 1 1 1 1 1 1 269 1 1 1 1 1 1 1 1 1 270 1 1 1 1 1 1 1 1 1 271 1 1 1 1 1 1 1 1 1 272 1 1 1 1 1 1 1 1 1 273 1 1 1 1 1 1 1 1 1 274 1 1 1 1 1 1 1 1 1 275 1 1 1 1 1 1 1 1 1 276 1 1 1 1 1 1 1 1 1 277 1 1 1 1 1 1 1 1 1 278 1 1 1 1 1 1 1 1 1 279 1 1 1 1 1 1 1 1 1 280 1 1 1 1 1 1 1 1 1 281 1 1 1 1 1 1 1 1 1 282 1 1 1 1 1 1 1 1 1 283 1 1 1 1 1 1 1 1 1 284 1 1 1 1 1 1 1 1 1 285 1 1 1 1 1 1 1 1 1 286 1 1 1 1 1 1 1 1 1 287 1 1 1 1 1 1 1 1 1 288 1 1 1 1 1 1 1 1 1 289 1 1 1 1 1 1 1 1 1 290 1 1 1 1 1 1 1 1 1 291 1 1 1 1 1 1 1 1 1 292 1 1 1 1 1 1 1 1 1 293 1 1 1 1 1 1 1 1 1 294 1 1 1 1 1 1 1 1 1 295 1 1 1 1 1 1 1 1 1 296 1 1 1 1 1 1 1 1 1 297 1 1 1 1 1 1 1 1 1 298 1 1 1 1 1 1 1 1 1 299 1 1 1 1 1 1 1 1 1 300 1 1 1 1 1 1 1 1 1 301 1 1 1 1 1 1 1 1 1 302 1 1 1 1 1 1 1 1 1 303 1 1 1 1 1 1 1 1 1 304 1 1 1 1 1 1 1 1 1 305 1 1 1 1 1 1 1 1 1 306 1 1 1 1 1 1 1 1 1 307 1 1 1 1 1 1 1 1 1 308 1 1 1 1 1 1 1 1 1 309 1 1 1 1 1 1 1 1 1 310 1 1 1 1 1 1 1 1 1 311 1 1 1 1 1 1 1 1 1 312 1 1 1 1 1 1 1 1 1 313 1 1 1 1 1 1 1 1 1 314 1 1 1 1 1 1 1 1 1 315 1 1 1 1 1 1 1 1 1 316 1 1 1 1 1 1 1 1 1 317 1 1 1 1 1 1 1 1 1 318 1 1 1 1 1 1 1 1 1 319 1 1 1 1 1 1 1 1 1 320 1 1 1 1 1 1 1 1 1 321 1 1 1 1 1 1 1 1 1 322 1 1 1 1 1 1 1 1 1 323 1 1 1 1 1 1 1 1 1 324 1 1 1 1 1 1 1 1 1 325 1 1 1 1 1 1 1 1 1 326 1 1 1 1 1 1 1 1 1 327 1 1 1 1 1 1 1 1 1 328 1 1 1 1 1 1 1 1 1 329 1 1 1 1 1 1 1 1 1 330 1 1 1 1 1 1 1 1 1 331 1 1 1 1 1 1 1 1 1 332 1 1 1 1 1 1 1 1 1 333 1 1 1 1 1 1 1 1 1 334 1 1 1 1 1 1 1 1 1 335 1 1 1 1 1 1 1 1 1 336 1 1 1 1 1 1 1 1 1 337 1 1 1 1 1 1 1 1 1 338 1 1 1 1 1 1 1 1 1 339 1 1 1 1 1 1 1 1 1 340 1 1 1 1 1 1 1 1 1 341 1 1 1 1 1 1 1 1 1 342 1 1 1 1 1 1 1 1 1 343 1 1 1 1 1 1 1 1 1 344 1 1 1 1 1 1 1 1 1 345 1 1 1 1 1 1 1 1 1 346 1 1 1 1 1 1 1 1 1 347 1 1 1 1 1 1 1 1 1 348 1 1 1 1 1 1 1 1 1 349 1 1 1 1 1 1 1 1 1 350 1 1 1 1 1 1 1 1 1 351 1 1 1 1 1 1 1 1 1 352 1 1 1 1 1 1 1 1 1 353 1 1 1 1 1 1 1 1 1 354 1 1 1 1 1 1 1 1 1 355 1 1 1 1 1 1 1 1 1 356 1 1 1 1 1 1 1 1 1 357 1 1 1 1 1 1 1 1 1 358 1 1 1 1 1 1 1 1 1 359 1 1 1 1 1 1 1 1 1 360 1 1 1 1 1 1 1 1 1 361 1 1 1 1 1 1 1 1 1 362 1 1 1 1 1 1 1 1 1 363 1 1 1 1 1 1 1 1 1 364 1 1 1 1 1 1 1 1 1 365 1 1 1 1 1 1 1 1 1 366 1 1 1 1 1 1 1 1 1 367 1 1 1 1 1 1 1 1 1 368 1 1 1 1 1 1 1 1 1 369 1 1 1 1 1 1 1 1 1 370 1 1 1 1 1 1 1 1 1 371 1 1 1 1 1 1 1 1 372 1 1 1 1 1 1 1 1 1 373 1 1 1 1 1 1 1 1 1 374 1 1 1 1 1 1 1 1 1 375 1 1 1 1 1 1 1 1 1 376 1 1 1 1 1 1 1 1 1 377 1 1 1 1 1 1 1 1 1 378 1 1 1 1 1 1 1 1 1 379 1 1 1 1 1 1 1 1 1 380 1 1 1 1 1 1 1 1 1 381 1 1 1 1 1 1 1 1 1 382 1 1 1 1 1 1 1 1 1 383 1 1 1 1 1 1 1 1 1 384 1 1 1 1 1 1 1 1 1 385 1 1 1 1 1 1 1 1 1 386 1 1 1 1 1 1 1 1 1 387 1 1 1 1 1 1 1 1 1 388 1 1 1 1 1 1 1 1 1 389 1 1 1 1 1 1 1 1 1 390 1 1 1 1 1 1 1 1 1 391 1 1 1 1 1 1 1 1 1 392 1 1 1 1 1 1 1 1 1 393 1 1 1 1 1 1 1 1 1 394 1 1 1 1 1 1 1 1 1 395 1 1 1 1 1 1 1 1 1 396 1 1 1 1 1 1 1 1 1 397 1 1 1 1 1 1 1 1 1 398 1 1 1 1 1 1 1 1 1 399 1 1 1 1 1 1 1 1 1 400 1 1 1 1 1 1 1 1 1 401 1 1 1 1 1 1 1 "
+    }
+  ],
+  "total_blocks": 79
+}

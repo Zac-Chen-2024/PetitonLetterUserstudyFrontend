@@ -1,0 +1,115 @@
+{
+  "version": "4.0",
+  "exhibit_id": "B5",
+  "extracted_at": "2026-03-15T00:00:00+00:00",
+  "applicant_name": "Dehuan Liu",
+  "document_summary": "This exhibit introduces the Zhongguancun Big Data Industry Alliance, a co-sponsor of the Data Awards. The Alliance is an international, industrial, and non-profit industry organization formed under the guidance of the Zhongguancun Science Park Management Committee. It officially registered as the first social organization in the big data industry in China in January 2016 and serves as one of the first cooperative institutions of the National Development and Reform Commission's 'Digital Transformation Partnership Action Initiative.'",
+  "snippets": [
+    {
+      "snippet_id": "snp_B5_b5000001",
+      "exhibit_id": "B5",
+      "document_id": "doc_B5",
+      "text": "Zhongguancun Big Data Industry Alliance (hereinafter referred to as the Alliance) is an international, industrial and non- profit industry organization voluntarily formed by big data- related enterprises, institutions and social organizations in China under the guidance and support of Zhongguancun Science Park Management Committee. The Alliance began to prepare for its establishment in Dec. 2012, and officially registered as the first social organization in the big data industry in China in Jan. 2016.",
+      "page": 2,
+      "bbox": {"x1": 171, "y1": 327, "x2": 968, "y2": 458},
+      "block_id": "p2_b3",
+      "subject": "Zhongguancun Big Data Industry Alliance",
+      "subject_role": "organization",
+      "recommender_name": null,
+      "is_applicant_achievement": false,
+      "evidence_type": "source_credibility",
+      "evidence_purpose": "credibility_evidence",
+      "evidence_layer": "meta",
+      "confidence": 0.92,
+      "reasoning": "Establishes the Alliance as the first registered big data social organization in China, formed under government guidance, demonstrating its authority as a Data Awards co-sponsor.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_B5_b5000002",
+      "exhibit_id": "B5",
+      "document_id": "doc_B5",
+      "text": "As one of the first cooperative institutions of the \"Digital Transformation Partnership Action Initiative\" of the National Development and Reform Commission, the Alliance has carried out a number of promotion and communication services in the fields of technological innovation, theoretical innovation, industry and finance development, capital service, achievement transformation, talent training, intellectual property protection, etc., and actively built a digital ecological operation service system. It has fully promoted the construction of big data industry ecology and the sustainable and innovative development of digital economy.",
+      "page": 2,
+      "bbox": {"x1": 172, "y1": 480, "x2": 968, "y2": 633},
+      "block_id": "p2_b4",
+      "subject": "Zhongguancun Big Data Industry Alliance",
+      "subject_role": "organization",
+      "recommender_name": null,
+      "is_applicant_achievement": false,
+      "evidence_type": "source_credibility",
+      "evidence_purpose": "credibility_evidence",
+      "evidence_layer": "meta",
+      "confidence": 0.9,
+      "reasoning": "The Alliance's role as a cooperative institution of the National Development and Reform Commission demonstrates its governmental recognition and authority in the big data industry.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_B5_b5000003",
+      "exhibit_id": "B5",
+      "document_id": "doc_B5",
+      "text": "On Dec. 11, 2020, the first session of the Second Member Representatives Meeting & General Election Meeting was successfully held in the Beijing Zhongguancun Software Park International Conference Center. The meeting elected the new members of the Council and the Board of Supervisors of the Alliance. 27 members of the Council and 3 members of the Board of Supervisors voted for Hong Xuan as the new Council Chairman of the Alliance. Nine people, Zhigang Bao, Qingguo Meng, Shuicai Shi, Guodong Sui, Renzong Wang, Changjun Xu, Suwen Xue, Jinhui Zhang and Fujun Zhao, were elected as the new Vice Council Chairmen of the Alliance. Guodong Zhao was elected as the new Secretary General of the Alliance and Wenjing Wang was elected as the new Chairman of the Board of Supervisors of the Alliance.",
+      "page": 2,
+      "bbox": {"x1": 173, "y1": 656, "x2": 970, "y2": 853},
+      "block_id": "p2_b5",
+      "subject": "Zhongguancun Big Data Industry Alliance",
+      "subject_role": "organization",
+      "recommender_name": null,
+      "is_applicant_achievement": false,
+      "evidence_type": "source_credibility",
+      "evidence_purpose": "supporting_context",
+      "evidence_layer": "context",
+      "confidence": 0.8,
+      "reasoning": "Details about the Alliance's governance structure with 27 Council members and formal election processes, showing it is a well-organized, substantial industry body.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    }
+  ],
+  "entities": [
+    {
+      "id": "ent_B5_0",
+      "name": "Zhongguancun Big Data Industry Alliance",
+      "type": "organization",
+      "identity": "First registered big data social organization in China, formed under Zhongguancun Science Park Management Committee guidance; co-sponsor of Data Awards",
+      "relation_to_applicant": "other",
+      "snippet_ids": ["snp_B5_b5000001", "snp_B5_b5000002", "snp_B5_b5000003"],
+      "exhibit_ids": ["B5"],
+      "mentioned_in_blocks": ["p2_b3", "p2_b4", "p2_b5"],
+      "aliases": ["the Alliance"],
+      "is_merged": false,
+      "merged_from": []
+    },
+    {
+      "id": "ent_B5_1",
+      "name": "National Development and Reform Commission",
+      "type": "organization",
+      "identity": "Chinese government agency; the Alliance is one of its first cooperative institutions for digital transformation",
+      "relation_to_applicant": "other",
+      "snippet_ids": ["snp_B5_b5000002"],
+      "exhibit_ids": ["B5"],
+      "mentioned_in_blocks": ["p2_b4"],
+      "aliases": ["NDRC"],
+      "is_merged": false,
+      "merged_from": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel_B5_0",
+      "from_entity": "ent_B5_0",
+      "to_entity": "ent_B5_1",
+      "relation_type": "cooperates_with",
+      "context": "The Alliance is one of the first cooperative institutions of the NDRC's Digital Transformation Partnership Action Initiative",
+      "source_snippet_ids": ["snp_B5_b5000002"],
+      "source_blocks": ["p2_b4"]
+    }
+  ],
+  "stats": {
+    "snippet_count": 3,
+    "entity_count": 2,
+    "relation_count": 1,
+    "applicant_snippets": 0,
+    "other_snippets": 3
+  }
+}

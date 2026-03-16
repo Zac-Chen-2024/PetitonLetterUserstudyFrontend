@@ -1,0 +1,474 @@
+{
+  "exhibit_id": "F1",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit F-1",
+          "bbox": {
+            "x1": 128,
+            "y1": 451,
+            "x2": 863,
+            "y2": 545
+          },
+          "bbox_list": [
+            128,
+            451,
+            863,
+            545
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit F-1"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# 在职和薪酬证明",
+          "bbox": {
+            "x1": 384,
+            "y1": 146,
+            "x2": 555,
+            "y2": 170
+          },
+          "bbox_list": [
+            384,
+            146,
+            555,
+            170
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "北大人证[2022007298]号",
+          "bbox": {
+            "x1": 385,
+            "y1": 177,
+            "x2": 552,
+            "y2": 193
+          },
+          "bbox_list": [
+            385,
+            177,
+            552,
+            193
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "刘德寰,男,证件号:110108196603291919,1992年07月来我校工作,系我校新闻与传播学院教授。",
+          "bbox": {
+            "x1": 135,
+            "y1": 213,
+            "x2": 809,
+            "y2": 260
+          },
+          "bbox_list": [
+            135,
+            213,
+            809,
+            260
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "2021年03月至2022年02月:",
+          "bbox": {
+            "x1": 170,
+            "y1": 264,
+            "x2": 377,
+            "y2": 283
+          },
+          "bbox_list": [
+            170,
+            264,
+            377,
+            283
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "薪酬总额(税前)￥961710.00元(大写:玖拾陆万壹仟柒佰壹拾圆整)",
+          "bbox": {
+            "x1": 170,
+            "y1": 285,
+            "x2": 714,
+            "y2": 305
+          },
+          "bbox_list": [
+            170,
+            285,
+            714,
+            305
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "月均薪酬(税前)￥80142.50元(大写:捌万零壹佰肆拾贰圆伍角)",
+          "bbox": {
+            "x1": 170,
+            "y1": 309,
+            "x2": 688,
+            "y2": 328
+          },
+          "bbox_list": [
+            170,
+            309,
+            688,
+            328
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "个人缴纳税款￥161556.85元已由北京大学代扣代缴",
+          "bbox": {
+            "x1": 170,
+            "y1": 333,
+            "x2": 575,
+            "y2": 353
+          },
+          "bbox_list": [
+            170,
+            333,
+            575,
+            353
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "特此证明,仅用于子女入学入托。",
+          "bbox": {
+            "x1": 170,
+            "y1": 357,
+            "x2": 432,
+            "y2": 376
+          },
+          "bbox_list": [
+            170,
+            357,
+            432,
+            376
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 671,
+            "y1": 342,
+            "x2": 879,
+            "y2": 450
+          },
+          "bbox_list": [
+            671,
+            342,
+            879,
+            450
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "地址:北京市海淀区颐和园路5号(100871)",
+          "bbox": {
+            "x1": 277,
+            "y1": 466,
+            "x2": 564,
+            "y2": 481
+          },
+          "bbox_list": [
+            277,
+            466,
+            564,
+            481
+          ]
+        },
+        {
+          "block_id": "p2_b10",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "电话:(010)62751225",
+          "bbox": {
+            "x1": 278,
+            "y1": 486,
+            "x2": 438,
+            "y2": 501
+          },
+          "bbox_list": [
+            278,
+            486,
+            438,
+            501
+          ]
+        },
+        {
+          "block_id": "p2_b11",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "人事部门经办人:李珊",
+          "bbox": {
+            "x1": 278,
+            "y1": 506,
+            "x2": 430,
+            "y2": 521
+          },
+          "bbox_list": [
+            278,
+            506,
+            430,
+            521
+          ]
+        },
+        {
+          "block_id": "p2_b12",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "扫描二维码验真",
+          "bbox": {
+            "x1": 150,
+            "y1": 538,
+            "x2": 256,
+            "y2": 553
+          },
+          "bbox_list": [
+            150,
+            538,
+            256,
+            553
+          ]
+        },
+        {
+          "block_id": "p2_b13",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Certification of Employment and Salary",
+          "bbox": {
+            "x1": 265,
+            "y1": 578,
+            "x2": 680,
+            "y2": 602
+          },
+          "bbox_list": [
+            265,
+            578,
+            680,
+            602
+          ]
+        },
+        {
+          "block_id": "p2_b14",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Mr.Liu Dehuan,ID No.110108196603291919,has been employed by Peking University since Jul.1992,and is working in School of Journalism & Communication as a professor.",
+          "bbox": {
+            "x1": 135,
+            "y1": 621,
+            "x2": 790,
+            "y2": 686
+          },
+          "bbox_list": [
+            135,
+            621,
+            790,
+            686
+          ]
+        },
+        {
+          "block_id": "p2_b15",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "From 03/2021 to 02/2022,his total salary is ￥961710.00 RMB(Pre- tax).",
+          "bbox": {
+            "x1": 170,
+            "y1": 688,
+            "x2": 708,
+            "y2": 707
+          },
+          "bbox_list": [
+            170,
+            688,
+            708,
+            707
+          ]
+        },
+        {
+          "block_id": "p2_b16",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "His monthly salary is ￥80142.50 RMB(Pre- tax).",
+          "bbox": {
+            "x1": 170,
+            "y1": 710,
+            "x2": 536,
+            "y2": 728
+          },
+          "bbox_list": [
+            170,
+            710,
+            536,
+            728
+          ]
+        },
+        {
+          "block_id": "p2_b17",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "His income tax ￥161556.85 RMB has been deducted and paid by our unit.",
+          "bbox": {
+            "x1": 170,
+            "y1": 731,
+            "x2": 720,
+            "y2": 750
+          },
+          "bbox_list": [
+            170,
+            731,
+            720,
+            750
+          ]
+        },
+        {
+          "block_id": "p2_b18",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "It is hereby certified.",
+          "bbox": {
+            "x1": 171,
+            "y1": 754,
+            "x2": 325,
+            "y2": 770
+          },
+          "bbox_list": [
+            171,
+            754,
+            325,
+            770
+          ]
+        },
+        {
+          "block_id": "p2_b19",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Office of Human Resources Peking University Mar.21,2022",
+          "bbox": {
+            "x1": 606,
+            "y1": 783,
+            "x2": 816,
+            "y2": 840
+          },
+          "bbox_list": [
+            606,
+            783,
+            816,
+            840
+          ]
+        },
+        {
+          "block_id": "p2_b20",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Address:5 Yiheyuan Road,Haidian District,Beijing,P.R.China(100871) Tel:86- 10- 62751225",
+          "bbox": {
+            "x1": 139,
+            "y1": 849,
+            "x2": 540,
+            "y2": 880
+          },
+          "bbox_list": [
+            139,
+            849,
+            540,
+            880
+          ]
+        },
+        {
+          "block_id": "p2_b21",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Signature:",
+          "bbox": {
+            "x1": 139,
+            "y1": 890,
+            "x2": 197,
+            "y2": 904
+          },
+          "bbox_list": [
+            139,
+            890,
+            197,
+            904
+          ]
+        },
+        {
+          "block_id": "p2_b22",
+          "page_number": 2,
+          "block_type": "image",
+          "block_type_cn": "图片",
+          "text_content": "",
+          "bbox": {
+            "x1": 248,
+            "y1": 888,
+            "x2": 315,
+            "y2": 911
+          },
+          "bbox_list": [
+            248,
+            888,
+            315,
+            911
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# 在职和薪酬证明  \n\n北大人证[2022007298]号  \n\n刘德寰,男,证件号:110108196603291919,1992年07月来我校工作,系我校新闻与传播学院教授。  \n\n2021年03月至2022年02月:  \n\n薪酬总额(税前)￥961710.00元(大写:玖拾陆万壹仟柒佰壹拾圆整)  \n\n月均薪酬(税前)￥80142.50元(大写:捌万零壹佰肆拾贰圆伍角)  \n\n个人缴纳税款￥161556.85元已由北京大学代扣代缴  \n\n特此证明,仅用于子女入学入托。  \n\n地址:北京市海淀区颐和园路5号(100871)  \n\n电话:(010)62751225  \n\n人事部门经办人:李珊  \n\n扫描二维码验真  \n\n## Certification of Employment and Salary  \n\nMr.Liu Dehuan,ID No.110108196603291919,has been employed by Peking University since Jul.1992,and is working in School of Journalism & Communication as a professor.  \n\nFrom 03/2021 to 02/2022,his total salary is ￥961710.00 RMB(Pre- tax).  \n\nHis monthly salary is ￥80142.50 RMB(Pre- tax).  \n\nHis income tax ￥161556.85 RMB has been deducted and paid by our unit.  \n\nIt is hereby certified.  \n\nOffice of Human Resources Peking University Mar.21,2022  \n\nAddress:5 Yiheyuan Road,Haidian District,Beijing,P.R.China(100871) Tel:86- 10- 62751225  \n\nSignature:  "
+    }
+  ],
+  "total_blocks": 24
+}

@@ -1,0 +1,246 @@
+{
+  "exhibit_id": "E8",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit E-8",
+          "bbox": {
+            "x1": 120,
+            "y1": 451,
+            "x2": 870,
+            "y2": 546
+          },
+          "bbox_list": [
+            120,
+            451,
+            870,
+            546
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit E-8"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# Notice of Meeting: Working Seminar and Project Approval Review of \"Comprehensive Reform of Doctoral Education\" in 2019",
+          "bbox": {
+            "x1": 100,
+            "y1": 75,
+            "x2": 890,
+            "y2": 116
+          },
+          "bbox_list": [
+            100,
+            75,
+            890,
+            116
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "From: Ni Xiang from General Office of Graduate School <xiangni@pku.edu.cn>",
+          "bbox": {
+            "x1": 100,
+            "y1": 135,
+            "x2": 760,
+            "y2": 157
+          },
+          "bbox_list": [
+            100,
+            135,
+            760,
+            157
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "To: <liudehuan@vip.sina.com>",
+          "bbox": {
+            "x1": 102,
+            "y1": 179,
+            "x2": 361,
+            "y2": 198
+          },
+          "bbox_list": [
+            102,
+            179,
+            361,
+            198
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Date: February 28, 2019, 11:38",
+          "bbox": {
+            "x1": 102,
+            "y1": 218,
+            "x2": 359,
+            "y2": 238
+          },
+          "bbox_list": [
+            102,
+            218,
+            359,
+            238
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Dear Mr. Dehuan Liu:",
+          "bbox": {
+            "x1": 102,
+            "y1": 260,
+            "x2": 285,
+            "y2": 278
+          },
+          "bbox_list": [
+            102,
+            260,
+            285,
+            278
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Hello!",
+          "bbox": {
+            "x1": 183,
+            "y1": 300,
+            "x2": 238,
+            "y2": 318
+          },
+          "bbox_list": [
+            183,
+            300,
+            238,
+            318
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "The Graduate School is going to hold the Working Seminar and Project Approval Review of \"Comprehensive Reform of Doctoral Education\" in 2019 on March 5 (next Tuesday) from 1:30 to 4:30 p.m. in the Talent Exchange Center Moonlight Hall. Please take time to attend the meeting.",
+          "bbox": {
+            "x1": 102,
+            "y1": 336,
+            "x2": 896,
+            "y2": 420
+          },
+          "bbox_list": [
+            102,
+            336,
+            896,
+            420
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "In order to innovate the talent training mechanism and accelerate the construction of world- class universities and world- class disciplines, the university launched the application of the project of \"Deepening the Comprehensive Reform of Doctoral Education\" last semester. The project aims to support schools and departments to actively explore the innovation of training mechanisms, and promote the establishment of unique process management systems, funding systems, curriculum systems, etc. at the school and department level. This meeting is not only a project approval review, but also a working seminar, focusing on the comprehensive reform of doctoral education, and carrying out experience exchange and opinions and suggestions collection from different levels such as functional departments, schools and departments, and experts.",
+          "bbox": {
+            "x1": 103,
+            "y1": 437,
+            "x2": 899,
+            "y2": 641
+          },
+          "bbox_list": [
+            103,
+            437,
+            899,
+            641
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "We are looking forward to your attendance. Thank you for your support!",
+          "bbox": {
+            "x1": 188,
+            "y1": 660,
+            "x2": 775,
+            "y2": 681
+          },
+          "bbox_list": [
+            188,
+            660,
+            775,
+            681
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Graduate School",
+          "bbox": {
+            "x1": 740,
+            "y1": 699,
+            "x2": 897,
+            "y2": 718
+          },
+          "bbox_list": [
+            740,
+            699,
+            897,
+            718
+          ]
+        },
+        {
+          "block_id": "p2_b10",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "February 28, 2019",
+          "bbox": {
+            "x1": 735,
+            "y1": 739,
+            "x2": 897,
+            "y2": 758
+          },
+          "bbox_list": [
+            735,
+            739,
+            897,
+            758
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# Notice of Meeting: Working Seminar and Project Approval Review of \"Comprehensive Reform of Doctoral Education\" in 2019  \n\nFrom: Ni Xiang from General Office of Graduate School <xiangni@pku.edu.cn>  \n\nTo: <liudehuan@vip.sina.com>  \n\nDate: February 28, 2019, 11:38  \n\nDear Mr. Dehuan Liu:  \n\nHello!  \n\nThe Graduate School is going to hold the Working Seminar and Project Approval Review of \"Comprehensive Reform of Doctoral Education\" in 2019 on March 5 (next Tuesday) from 1:30 to 4:30 p.m. in the Talent Exchange Center Moonlight Hall. Please take time to attend the meeting.  \n\nIn order to innovate the talent training mechanism and accelerate the construction of world- class universities and world- class disciplines, the university launched the application of the project of \"Deepening the Comprehensive Reform of Doctoral Education\" last semester. The project aims to support schools and departments to actively explore the innovation of training mechanisms, and promote the establishment of unique process management systems, funding systems, curriculum systems, etc. at the school and department level. This meeting is not only a project approval review, but also a working seminar, focusing on the comprehensive reform of doctoral education, and carrying out experience exchange and opinions and suggestions collection from different levels such as functional departments, schools and departments, and experts.  \n\nWe are looking forward to your attendance. Thank you for your support!  \n\nGraduate School  \n\nFebruary 28, 2019"
+    }
+  ],
+  "total_blocks": 12
+}

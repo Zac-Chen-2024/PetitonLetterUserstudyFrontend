@@ -1,0 +1,482 @@
+{
+  "arguments": [
+    {
+      "id": "arg-001",
+      "title": "Awards - Evidence of Nationally or Internationally Recognized Prizes or Awards",
+      "standard_key": "awards",
+      "snippet_ids": [
+        "snp_B1_b1000001",
+        "snp_B1_b1000002",
+        "snp_B1_b1000003",
+        "snp_B3_b3000001",
+        "snp_B3_b3000005",
+        "snp_B3_b3000006",
+        "snp_B3_b3000007",
+        "snp_B3_b3000008",
+        "snp_B3_b3000009",
+        "snp_B4_b4000001",
+        "snp_B4_b4000002",
+        "snp_E4_c9d0e1f2",
+        "snp_A1_a1000001",
+        "snp_B8_b8000001",
+        "snp_B8_b8000002",
+        "snp_B8_b8000003",
+        "snp_B8_b8000004",
+        "snp_B8_b8000005",
+        "snp_B8_b8000006",
+        "snp_B8_b8000007",
+        "snp_B10_e5f6a7b8",
+        "snp_B10_a1b2c3d4",
+        "snp_B10_c9d0e1f2",
+        "snp_B10_13a4b5c6",
+        "snp_B10_d7e8f9a0",
+        "snp_E3_b5a18ab3",
+        "snp_B11_b11_0001",
+        "snp_B11_b11_0002",
+        "snp_B11_b11_0003",
+        "snp_B11_b11_0004",
+        "snp_B12_b12_0001",
+        "snp_B12_b12_0003",
+        "snp_B12_b12_0004"
+      ],
+      "sub_argument_ids": [
+        "subarg-003",
+        "subarg-002",
+        "subarg-004"
+      ],
+      "is_ai_generated": false
+    },
+    {
+      "id": "arg-002",
+      "title": "Judging - Participation as a Judge of the Work of Others",
+      "standard_key": "judging",
+      "snippet_ids": [
+        "snp_C1_e5f6a7b8",
+        "snp_C1_c9d0e1f2",
+        "snp_C1_a3b4c5d6",
+        "snp_C6_a1b2c3d4",
+        "snp_C6_e5f6a7b8",
+        "snp_C7_a1b2c3d4",
+        "snp_C7_e5f6a7b8",
+        "snp_C7_a3b4c5d6",
+        "snp_C7_c9d0e1f2",
+        "snp_C10_a1b2c3d4",
+        "snp_C10_e5f6a7b8",
+        "snp_C10_c9d0e1f2",
+        "snp_C10_a3b4c5d6",
+        "snp_C10_e7f8a9b0",
+        "snp_C8_a1b2c3d4",
+        "snp_C8_e5f6a7b8",
+        "snp_C8_c9d0e1f2",
+        "snp_C8_a3b4c5d6"
+      ],
+      "sub_argument_ids": [
+        "subarg-025",
+        "subarg-008"
+      ],
+      "is_ai_generated": false
+    },
+    {
+      "id": "arg-003",
+      "title": "Scholarly Articles - Authorship of Scholarly Articles in Professional Journals",
+      "standard_key": "scholarly_articles",
+      "snippet_ids": [
+        "snp_D1_a1b2c3d4",
+        "snp_D1_e5f6a7b8",
+        "snp_D1_a3b4c5d6",
+        "snp_D1_c9d0e1f2",
+        "snp_D1_e7f8a9b0",
+        "snp_D2_a1b2c3d4",
+        "snp_D2_e5f6a7b8",
+        "snp_D2_c9d0e1f2",
+        "snp_D3_a1b2c3d4",
+        "snp_D3_e5f6a7b8",
+        "snp_D3_e7f8a9b0",
+        "snp_D4_a1b2c3d4",
+        "snp_D4_e5f6a7b8",
+        "snp_D4_c9d0e1f2",
+        "snp_D4_a3b4c5d6",
+        "snp_D4_e7f8a9b0",
+        "snp_D5_a1b2c3d4",
+        "snp_D5_e5f6a7b8",
+        "snp_D5_c9d0e1f2",
+        "snp_D6_a1b2c3d4",
+        "snp_D6_e5f6a7b8",
+        "snp_G12_c9d0e1f2",
+        "snp_D7_a1b2c3d4",
+        "snp_D7_e5f6a7b8",
+        "snp_D7_c9d0e1f2",
+        "snp_D7_a3b4c5d6",
+        "snp_D7_e7f8a9b0",
+        "snp_D8_a1b2c3d4",
+        "snp_D8_e5f6a7b8",
+        "snp_D8_c9d0e1f2",
+        "snp_D9_a1c2d3e4",
+        "snp_D9_f5a6b7c8"
+      ],
+      "sub_argument_ids": [
+        "subarg-012",
+        "subarg-013",
+        "subarg-014"
+      ],
+      "is_ai_generated": false
+    },
+    {
+      "id": "arg-004",
+      "title": "Leading Role - Performance in a Leading or Critical Role for Distinguished Organizations",
+      "standard_key": "leading_role",
+      "snippet_ids": [
+        "snp_A1_a1000004",
+        "snp_A1_a1000005",
+        "snp_A1_a1000006",
+        "snp_E1_a1b2c3d4",
+        "snp_E1_e5f6a7b8",
+        "snp_E1_c9d0e1f2",
+        "snp_F1_a1b2c3d4",
+        "snp_E3_a1b2c3d4",
+        "snp_E3_e5f6a7b8",
+        "snp_E3_c9d0e1f2",
+        "snp_E5_a1b2c3d4",
+        "snp_E5_e5f6a7b8",
+        "snp_E6_a1b2c3d4",
+        "snp_E6_e5f6a7b8",
+        "snp_E7_a1b2c3d4",
+        "snp_E7_e5f6a7b8",
+        "snp_E7_c9d0e1f2",
+        "snp_E7_a3b4c5d6",
+        "snp_E3_a3b4c5d6",
+        "snp_E4_e7f8a9b0",
+        "snp_E4_60f8ef64",
+        "snp_E2_a1b2c3d4",
+        "snp_E2_e5f6a7b8",
+        "snp_E10_e5f6a7b8",
+        "snp_E10_c9d0e1f2",
+        "snp_E10_a3b4c5d6",
+        "snp_E11_a1b2c3d4",
+        "snp_E11_e5f6a7b8"
+      ],
+      "sub_argument_ids": [
+        "subarg-017",
+        "subarg-018",
+        "subarg-026"
+      ],
+      "is_ai_generated": false
+    },
+    {
+      "id": "arg-005",
+      "title": "High Salary - Evidence of High Salary or Remuneration Relative to Others",
+      "standard_key": "high_salary",
+      "snippet_ids": [
+        "snp_F1_a1b2c3d4",
+        "snp_F1_e5f6a7b8",
+        "snp_F1_c9d0e1f2",
+        "snp_F1_34567890",
+        "snp_F1_ab12cd34",
+        "snp_F2_a1c2e3f4",
+        "snp_F2_b2d4f6a8",
+        "snp_F2_c3e5a7b9",
+        "snp_F2_d4f6b8c0",
+        "snp_F3_e5f6a7b8",
+        "snp_F3_c9d0e1f2",
+        "snp_F3_34567890"
+      ],
+      "sub_argument_ids": [
+        "subarg-023",
+        "subarg-024",
+        "subarg-027"
+      ],
+      "is_ai_generated": false
+    }
+  ],
+  "sub_arguments": [
+    {
+      "id": "subarg-002",
+      "argument_id": "arg-001",
+      "title": "Ministry of Education Outstanding Achievements Award (Third Prize)",
+      "purpose": "National-level academic award with rigorous multi-tiered selection",
+      "relationship": "Major nationally recognized award for Age Theory book",
+      "snippet_ids": [
+        "snp_A1_a1000001",
+        "snp_B8_b8000001",
+        "snp_B8_b8000002",
+        "snp_B8_b8000003",
+        "snp_B8_b8000004",
+        "snp_B8_b8000005",
+        "snp_B8_b8000006",
+        "snp_B8_b8000007",
+        "snp_B10_e5f6a7b8",
+        "snp_B10_a1b2c3d4",
+        "snp_B10_c9d0e1f2",
+        "snp_B10_13a4b5c6",
+        "snp_B10_d7e8f9a0",
+        "snp_E3_b5a18ab3"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "subarg-003",
+      "argument_id": "arg-001",
+      "title": "Data Awards Data Legacy of the Year Award",
+      "purpose": "Industry recognition in data science and big data",
+      "relationship": "Peer-recognized award in data mining field",
+      "snippet_ids": [
+        "snp_B1_b1000001",
+        "snp_B1_b1000002",
+        "snp_B1_b1000003",
+        "snp_B3_b3000001",
+        "snp_B3_b3000005",
+        "snp_B3_b3000006",
+        "snp_B3_b3000007",
+        "snp_B3_b3000008",
+        "snp_B3_b3000009",
+        "snp_B4_b4000001",
+        "snp_B4_b4000002",
+        "snp_E4_c9d0e1f2"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "subarg-004",
+      "argument_id": "arg-001",
+      "title": "China Communication Conference Excellent Paper Award",
+      "purpose": "Peer recognition for academic paper excellence",
+      "relationship": "Award for scholarly paper at national conference",
+      "snippet_ids": [
+        "snp_B11_b11_0001",
+        "snp_B11_b11_0002",
+        "snp_B11_b11_0003",
+        "snp_B11_b11_0004",
+        "snp_B12_b12_0001",
+        "snp_B12_b12_0003",
+        "snp_B12_b12_0004"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "subarg-008",
+      "argument_id": "arg-002",
+      "title": "Judging Role at China Digital Marketing Conference",
+      "purpose": "Demonstrates expert evaluation of peers' work",
+      "relationship": "Served as judge evaluating digital marketing submissions",
+      "snippet_ids": [
+        "snp_C7_a1b2c3d4",
+        "snp_C7_e5f6a7b8",
+        "snp_C7_a3b4c5d6",
+        "snp_C7_c9d0e1f2",
+        "snp_C10_a1b2c3d4",
+        "snp_C10_e5f6a7b8",
+        "snp_C10_c9d0e1f2",
+        "snp_C10_a3b4c5d6",
+        "snp_C10_e7f8a9b0",
+        "snp_C8_a1b2c3d4",
+        "snp_C8_e5f6a7b8",
+        "snp_C8_c9d0e1f2",
+        "snp_C8_a3b4c5d6"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "subarg-012",
+      "argument_id": "arg-003",
+      "title": "Online Shopping Among Chinese Consumers Article (IJCS)",
+      "purpose": "Peer-reviewed publication in international journal",
+      "relationship": "Scholarly article in International Journal of Consumer Studies",
+      "snippet_ids": [
+        "snp_D1_a1b2c3d4",
+        "snp_D1_e5f6a7b8",
+        "snp_D1_a3b4c5d6",
+        "snp_D1_c9d0e1f2",
+        "snp_D1_e7f8a9b0",
+        "snp_D2_a1b2c3d4",
+        "snp_D2_e5f6a7b8",
+        "snp_D2_c9d0e1f2",
+        "snp_D3_a1b2c3d4",
+        "snp_D3_e5f6a7b8",
+        "snp_D3_e7f8a9b0"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "subarg-013",
+      "argument_id": "arg-003",
+      "title": "Educational Equity and Adolescent Relative Age Effect",
+      "purpose": "Research on educational equity using large-scale data",
+      "relationship": "Scholarly publication on relative age effect in education",
+      "snippet_ids": [
+        "snp_D4_a1b2c3d4",
+        "snp_D4_e5f6a7b8",
+        "snp_D4_c9d0e1f2",
+        "snp_D4_a3b4c5d6",
+        "snp_D4_e7f8a9b0",
+        "snp_D5_a1b2c3d4",
+        "snp_D5_e5f6a7b8",
+        "snp_D5_c9d0e1f2",
+        "snp_D6_a1b2c3d4",
+        "snp_D6_e5f6a7b8",
+        "snp_G12_c9d0e1f2"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "subarg-014",
+      "argument_id": "arg-003",
+      "title": "Advertising Research Publication (ISMAS)",
+      "purpose": "Academic contribution to advertising methodology",
+      "relationship": "Scholarly article on advertising research methods",
+      "snippet_ids": [
+        "snp_D7_a1b2c3d4",
+        "snp_D7_e5f6a7b8",
+        "snp_D7_c9d0e1f2",
+        "snp_D7_a3b4c5d6",
+        "snp_D7_e7f8a9b0",
+        "snp_D8_a1b2c3d4",
+        "snp_D8_e5f6a7b8",
+        "snp_D8_c9d0e1f2",
+        "snp_D9_a1c2d3e4",
+        "snp_D9_f5a6b7c8"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "subarg-017",
+      "argument_id": "arg-004",
+      "title": "Peking University's Distinguished Reputation",
+      "purpose": "Establishes the eminence of the institution",
+      "relationship": "Demonstrates distinguished reputation of employer organization",
+      "snippet_ids": [
+        "snp_A1_a1000004",
+        "snp_A1_a1000005",
+        "snp_A1_a1000006",
+        "snp_E1_a1b2c3d4",
+        "snp_E1_e5f6a7b8",
+        "snp_E1_c9d0e1f2",
+        "snp_F1_a1b2c3d4"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "subarg-018",
+      "argument_id": "arg-004",
+      "title": "Leadership Roles and Institutional Contributions at Peking University",
+      "purpose": "Documents leadership positions and institutional development contributions at PKU",
+      "relationship": "Leading roles and talent nurturing at distinguished institution",
+      "snippet_ids": [
+        "snp_E3_a1b2c3d4",
+        "snp_E3_e5f6a7b8",
+        "snp_E3_c9d0e1f2",
+        "snp_E5_a1b2c3d4",
+        "snp_E5_e5f6a7b8",
+        "snp_E6_a1b2c3d4",
+        "snp_E6_e5f6a7b8",
+        "snp_E7_a1b2c3d4",
+        "snp_E7_e5f6a7b8",
+        "snp_E7_c9d0e1f2",
+        "snp_E7_a3b4c5d6",
+        "snp_E3_a3b4c5d6",
+        "snp_E4_e7f8a9b0",
+        "snp_E4_60f8ef64",
+        "snp_E2_a1b2c3d4",
+        "snp_E2_e5f6a7b8"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "subarg-023",
+      "argument_id": "arg-005",
+      "title": "Dehuan Liu's Actual Salary and Tax Information",
+      "purpose": "Documents actual compensation received",
+      "relationship": "Direct evidence of high salary through tax records",
+      "snippet_ids": [
+        "snp_F1_a1b2c3d4",
+        "snp_F1_e5f6a7b8",
+        "snp_F1_c9d0e1f2",
+        "snp_F1_34567890",
+        "snp_F1_ab12cd34"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "subarg-024",
+      "argument_id": "arg-005",
+      "title": "Industry Salary Benchmarks and Projections",
+      "purpose": "Provides comparative salary data for the field",
+      "relationship": "Benchmark data showing salary is high relative to peers",
+      "snippet_ids": [
+        "snp_F2_a1c2e3f4",
+        "snp_F2_b2d4f6a8",
+        "snp_F2_c3e5a7b9",
+        "snp_F2_d4f6b8c0"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "subarg-025",
+      "argument_id": "arg-002",
+      "title": "Deputy Director of Tiger Roar Awards Organizing Committee",
+      "purpose": "Demonstrates judging authority through formal leadership of awards committee",
+      "relationship": "Senior judging role overseeing evaluation of digital marketing submissions",
+      "snippet_ids": [
+        "snp_C1_e5f6a7b8",
+        "snp_C1_c9d0e1f2",
+        "snp_C1_a3b4c5d6",
+        "snp_C6_a1b2c3d4",
+        "snp_C6_e5f6a7b8"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "subarg-026",
+      "argument_id": "arg-004",
+      "title": "Commercial Research Leadership for Mixuebingcheng",
+      "purpose": "Demonstrates leadership of major commercial research projects for distinguished enterprises",
+      "relationship": "Leading role in research project for national beverage chain brand",
+      "snippet_ids": [
+        "snp_E10_e5f6a7b8",
+        "snp_E10_c9d0e1f2",
+        "snp_E10_a3b4c5d6",
+        "snp_E11_a1b2c3d4",
+        "snp_E11_e5f6a7b8"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "subarg-027",
+      "argument_id": "arg-005",
+      "title": "Supplemental Income from iQIYI Training Contract",
+      "purpose": "Additional evidence of high remuneration through external consulting",
+      "relationship": "External income further demonstrating high salary relative to peers",
+      "snippet_ids": [
+        "snp_F3_e5f6a7b8",
+        "snp_F3_c9d0e1f2",
+        "snp_F3_34567890"
+      ],
+      "status": "verified"
+    }
+  ],
+  "stats": {
+    "total_arguments": 5,
+    "total_sub_arguments": 14,
+    "by_standard": {
+      "awards": {
+        "arguments": 1,
+        "sub_arguments": 3
+      },
+      "judging": {
+        "arguments": 1,
+        "sub_arguments": 2
+      },
+      "scholarly_articles": {
+        "arguments": 1,
+        "sub_arguments": 3
+      },
+      "leading_role": {
+        "arguments": 1,
+        "sub_arguments": 3
+      },
+      "high_salary": {
+        "arguments": 1,
+        "sub_arguments": 3
+      }
+    }
+  }
+}

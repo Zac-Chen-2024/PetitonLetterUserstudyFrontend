@@ -1,0 +1,444 @@
+{
+  "version": "4.0",
+  "exhibit_id": "E4",
+  "extracted_at": "2026-03-15T21:32:55.046912+00:00",
+  "applicant_name": "Dehuan Liu",
+  "document_summary": "Recommendation letter from Bangchang Xie, Vice President of Fu Jen Catholic University. Describes Liu's data analysis expertise (R, Python, SPSS), innovation in nonlinear regression and SEM models, leadership as CMRA Chairman, co-founding of APRC, the internet research trilogy, the Data Awards, Age Theory book praised as 'milestone', and service as Vice Dean of School of New Media. Xie has known Liu since 1997.",
+  "snippets": [
+    {
+      "snippet_id": "snp_E4_a1b2c3d4",
+      "exhibit_id": "E4",
+      "document_id": "doc_E4",
+      "text": "I am Bangchang Xie, Vice President of Fu Jen Catholic University, professor of the PhD program of Institute of Business and of the Department of Statistical Information, Chairman of Chung- Hwa DATA MINING Society, part- time professor of the School of Statistics of Central University of Finance and Economics, the School of Statistics of Capital University of Economics and Business in Beijing and the School of Management of Beijing Institute of Technology, chair professor of Department of Statistics of Xiamen University, member of Census Committee of the Accounting and Statistics of Taiwan Executive Yuan, member of Statistics Committee of Ministry of the Interior of Taiwan, China, and member of Statistics Committee of Ministry of Education of Taiwan, China.",
+      "page": 2,
+      "bbox": {
+        "x1": 130,
+        "y1": 282,
+        "x2": 868,
+        "y2": 490
+      },
+      "block_id": "p2_b2",
+      "subject": "Bangchang Xie's credentials as Vice President and professor",
+      "subject_role": "recommender",
+      "recommender_name": "Bangchang Xie",
+      "is_applicant_achievement": false,
+      "evidence_type": "recommendation",
+      "evidence_purpose": "credibility_evidence",
+      "evidence_layer": "meta",
+      "confidence": 0.9,
+      "reasoning": "Establishes recommender's credentials as VP of Fu Jen Catholic University and multiple academic positions.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_E4_e5f6a7b8",
+      "exhibit_id": "E4",
+      "document_id": "doc_E4",
+      "text": "Professor Dehuan Liu has been paying special attention to statistical analysis methods in his sociological research. He excels at R, Python, Spss and other statistical software. In data modeling, he has conducted the deepest data analysis and shown the top data analysis capability and experience. He has achieved great attainments in the field of general linear causal analysis model, innovatively constructed the nonlinear multi- interaction deep description regression analysis model, and created unique ideas for the analysis of the causal model and deep description structural analysis (SEM) model.",
+      "page": 2,
+      "bbox": {
+        "x1": 139,
+        "y1": 712,
+        "x2": 876,
+        "y2": 872
+      },
+      "block_id": "p2_b4",
+      "subject": "Liu's data analysis expertise and innovation in nonlinear regression and SEM models",
+      "subject_role": "recommender",
+      "recommender_name": "Bangchang Xie",
+      "is_applicant_achievement": true,
+      "evidence_type": "contribution",
+      "evidence_purpose": "direct_proof",
+      "evidence_layer": "proof",
+      "confidence": 0.9,
+      "reasoning": "Xie attests to Liu's innovative contributions in nonlinear regression and SEM modeling.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_E4_c9d0e1f2",
+      "exhibit_id": "E4",
+      "document_id": "doc_E4",
+      "text": "Professor Dehuan Liu was awarded the highest award for data mining in China, i.e. the Data Awards in the category of Data Legacy in the first award ceremony of Data Awards held by UBDC. He is also a member and the only one sociological scholar of China Big Data Application 50. He is one of the best talents that are engaged in deep mining of internet big data from the perspective of sociology.",
+      "page": 4,
+      "bbox": {
+        "x1": 108,
+        "y1": 216,
+        "x2": 870,
+        "y2": 585
+      },
+      "block_id": "p4_b0",
+      "subject": "Liu received highest data mining award in China; only sociologist in China Big Data Application 50",
+      "subject_role": "recommender",
+      "recommender_name": "Bangchang Xie",
+      "is_applicant_achievement": true,
+      "evidence_type": "award",
+      "evidence_purpose": "direct_proof",
+      "evidence_layer": "proof",
+      "confidence": 0.9,
+      "reasoning": "Documents Liu's Data Awards (highest for data mining in China) and unique membership in China Big Data Application 50.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_E4_a3b4c5d6",
+      "exhibit_id": "E4",
+      "document_id": "doc_E4",
+      "text": "China Marketing Research Association (CMRA) where Professor Dehuan Liu acts as Chairman has exchanged information and cooperated with Taiwan Market Research Association where I act as Chairman many times in connection with marketing research. Professor Dehuan Liu and his team visited Taiwan Province twice and I and my colleagues in market research industry in Taiwan Province participated the market research submit in China mainland five times, contributing to the smooth communication between the market research industry in Taiwan Province and the market research industry in China mainland. Besides, as Chairman of Marketing Research Association, Professor Dehuan Liu and I jointly established the APRC (Asia- Pacific Marketing Research Consortium) with colleagues from Japan, South Korea, Australia, New Zealand, Thailand, Malaysia, Singapore, Mongolia and other markets in the Asia- Pacific region, promoting academic and industrial exchanges among countries and regions in the Asia- Pacific region.",
+      "page": 6,
+      "bbox": {
+        "x1": 135,
+        "y1": 443,
+        "x2": 871,
+        "y2": 854
+      },
+      "block_id": "p6_b3",
+      "subject": "Liu as CMRA Chairman, co-founder of APRC with Asia-Pacific partners",
+      "subject_role": "recommender",
+      "recommender_name": "Bangchang Xie",
+      "is_applicant_achievement": true,
+      "evidence_type": "leadership",
+      "evidence_purpose": "direct_proof",
+      "evidence_layer": "proof",
+      "confidence": 0.95,
+      "reasoning": "Confirms Liu's leadership as CMRA Chairman and co-founding role in APRC, an Asia-Pacific research consortium.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_E4_e7f8a9b0",
+      "exhibit_id": "E4",
+      "document_id": "doc_E4",
+      "text": "the School of New Media at Peking University, where he serves as Vice Dean. This institution has nurtured numerous talents in sociology, journalism, and communication. Many of these individuals have gone on to become young elites in their respective academic circles. For instance, Lingfei Wu, now working at the University of Pittsburgh, published a research paper titled \"Scientific Research Team Scale and Disruptive Innovation\" as the cover paper in the February 21, 2019 issue of Nature.",
+      "page": 6,
+      "bbox": {
+        "x1": 128,
+        "y1": 216,
+        "x2": 868,
+        "y2": 401
+      },
+      "block_id": "p6_b2",
+      "subject": "Liu as Vice Dean, nurtured talents including Lingfei Wu who published cover paper in Nature",
+      "subject_role": "recommender",
+      "recommender_name": "Bangchang Xie",
+      "is_applicant_achievement": true,
+      "evidence_type": "leadership",
+      "evidence_purpose": "direct_proof",
+      "evidence_layer": "proof",
+      "confidence": 0.9,
+      "reasoning": "Confirms Liu's Vice Dean role and his mentorship impact, citing student Lingfei Wu's Nature cover paper.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_E4_c1d2e3f4",
+      "exhibit_id": "E4",
+      "document_id": "doc_E4",
+      "text": "Bangchang Xie [Signature] Bangchang Xie, Professor Vice President of Fu Jen Catholic University Director of AI Development Center, Fu Jen Catholic University Chairman of Taiwan Institute for the Development of Artificial Intelligence (TIAI) Honorary Chairman of Chung- Hwa China Marketing Research Society (CMRS) Honorary Chairman of Chung- Hwa DATA MINING Society (CDMS)",
+      "page": 7,
+      "bbox": {
+        "x1": 245,
+        "y1": 560,
+        "x2": 870,
+        "y2": 830
+      },
+      "block_id": "p7_b5",
+      "subject": "Xie's signature block with full titles",
+      "subject_role": "recommender",
+      "recommender_name": "Bangchang Xie",
+      "is_applicant_achievement": false,
+      "evidence_type": "recommendation",
+      "evidence_purpose": "credibility_evidence",
+      "evidence_layer": "meta",
+      "confidence": 0.95,
+      "reasoning": "Signature block confirming Xie's identity and multiple leadership positions.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_E4_1cf97aa4",
+      "exhibit_id": "E4",
+      "document_id": "doc_E4",
+      "text": "Professor Dehuan Liu enjoys a high reputation in the academic circle. He has assumed leadership positions in many academic journals and organizations and published numerous research papers concerning internet in China, most of which have been recognized by the academic circle. The research trilogy on Chinese internet, namely The Future is Happening - Ethnic Groups and Trend of Mobile Phone Users, Subversion and Reorganization - Community and Nomadic Mobile Phone Users and The Future without Limits - Comprehensive Structure Industry of Mobile Phone Users, is the most important achievement from research on Chinese internet. It adopts a unique perspective and provides novel ideas, big data collection and strict model analysis. It puts forward the concept of \"ethnic groups of mobile phone users\" in sociology for the first time and conducts in- depth study on the concept. It also classifies the major ethnic groups and thoroughly analyzes the relationship between mobile internet with mobile phones as carrier and culture, modern life and consumption. It has a great academic value and high industry application value.",
+      "page": 3,
+      "bbox": {
+        "x1": 131,
+        "y1": 305,
+        "x2": 868,
+        "y2": 629
+      },
+      "block_id": "p3_b1",
+      "subject": "Bangchang Xie",
+      "subject_role": "recommender",
+      "recommender_name": "Bangchang Xie",
+      "is_applicant_achievement": true,
+      "evidence_type": "contribution",
+      "evidence_purpose": "expert_opinion",
+      "evidence_layer": "proof",
+      "confidence": 0.95,
+      "reasoning": "VP of Fu Jen Catholic University describes Liu's research trilogy as most important achievement in Chinese internet research, with original 'ethnic groups of mobile phone users' concept.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_E4_a92e8af5",
+      "exhibit_id": "E4",
+      "document_id": "doc_E4",
+      "text": "The \"ethnic group research method\" and \"group spectrum research technique\" applied and created by him are becoming the mainstream research methods that the tech enterprises and internet companies in China are racing to learn and apply. It can be said that Professor Dehuan Liu is an innovator and pioneer in the research of the development trend of internet industry in China. His research results have made a great influence on the society and Chinese tech enterprises. As a reward for his outstanding contributions to data analysis and internet big data mining, Professor Dehuan Liu was awarded the highest award for data mining in China, i.e. the Data Awards in the category of Data Legacy in the first award ceremony of Data Awards held by UBDC. He is also a member and the only one sociological scholar of China Big Data Application 50. He is one of the best talents that are engaged in deep mining of internet big data from the perspective of sociology.",
+      "page": 4,
+      "bbox": {
+        "x1": 108,
+        "y1": 216,
+        "x2": 870,
+        "y2": 585
+      },
+      "block_id": "p4_b0",
+      "subject": "Bangchang Xie",
+      "subject_role": "recommender",
+      "recommender_name": "Bangchang Xie",
+      "is_applicant_achievement": true,
+      "evidence_type": "contribution",
+      "evidence_purpose": "expert_opinion",
+      "evidence_layer": "proof",
+      "confidence": 0.95,
+      "reasoning": "Describes Liu's created research methods becoming mainstream, his role as innovator/pioneer, Data Legacy award, and unique status as only sociological scholar in China Big Data Application 50.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_E4_eb5eb33c",
+      "exhibit_id": "E4",
+      "document_id": "doc_E4",
+      "text": "Professor Dehuan Liu has epitomized the theories and practices of the methods of social statistics. He has made the following five academic contributions to statistical analysis methods: 1) he created and constructed non- linear interactive regression in the general linear analysis model (deep description regression); 2) he constructed a nonlinear interactive structural equation; 3) he proposed and completed a top analysis method for satisfaction research; 4) he created and applied the \"ethnic group research method\"; and 5) he created and applied the \"group spectrum research technique\".",
+      "page": 4,
+      "bbox": {
+        "x1": 137,
+        "y1": 624,
+        "x2": 880,
+        "y2": 855
+      },
+      "block_id": "p4_b1",
+      "subject": "Bangchang Xie",
+      "subject_role": "recommender",
+      "recommender_name": "Bangchang Xie",
+      "is_applicant_achievement": true,
+      "evidence_type": "contribution",
+      "evidence_purpose": "expert_opinion",
+      "evidence_layer": "proof",
+      "confidence": 0.95,
+      "reasoning": "Detailed enumeration of Liu's 5 specific academic contributions to statistical analysis by VP Xie - direct evidence of original contributions.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_E4_60f8ef64",
+      "exhibit_id": "E4",
+      "document_id": "doc_E4",
+      "text": "Professor Dehuan Liu sticks to conducting social and market research based on actual conditions. His research results including the trilogy mentioned above, Insight in E- commerce and Road to Internet for the Banking Industry are classic literature on internet research. His book titled Age Theory: Social Time in Social Space published in 2009 sets up a model and is also the best literature for survey and research methods in China. It is praised as \"a milestone of statistical survey and mathematical statistics methods\" and has become a classic literature in the survey industry and the academic circle, opening a new chapter in the development of social statistics in China. In that book, Professor Dehuan Liu has systematically organized and summarized the statistical analyses related to age and innovatively proposed five age analysis mode: social time capitalization, three analysis models for middle- aged individuals (work cycle, status acquisition cycle and burden cycle), generation gap analysis model, fracture analysis model and family life cycle model.",
+      "page": 5,
+      "bbox": {
+        "x1": 133,
+        "y1": 328,
+        "x2": 870,
+        "y2": 741
+      },
+      "block_id": "p5_b3",
+      "subject": "Bangchang Xie",
+      "subject_role": "recommender",
+      "recommender_name": "Bangchang Xie",
+      "is_applicant_achievement": true,
+      "evidence_type": "contribution",
+      "evidence_purpose": "expert_opinion",
+      "evidence_layer": "proof",
+      "confidence": 0.95,
+      "reasoning": "VP Xie praises Age Theory as \"milestone of statistical survey and mathematical statistics methods\" and describes 5 innovative age analysis modes - key evidence for original contribution.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    },
+    {
+      "snippet_id": "snp_E4_e90ee583",
+      "exhibit_id": "E4",
+      "document_id": "doc_E4",
+      "text": "The research and discoveries of Professor Dehuan Liu have a profound influence on the development of China's internet industry. At the emergence of mobile internet industry in China In 2009 (the first year of China's mobile internet industry), Professor Dehuan Liu began to devote himself to the development of China's mobile internet industry. Thereafter, Professor Dehuan Liu has presided over the panorama survey of China's mobile internet industry for 13 consecutive years. He conducted long- term monitoring and research on China's internet industry, especially the mobile internet industry, and has been continuously proposing important opinions about the development trend. Many of his predictions and judgement have been proved by the",
+      "page": 3,
+      "bbox": {
+        "x1": 138,
+        "y1": 668,
+        "x2": 875,
+        "y2": 875
+      },
+      "block_id": "p3_b2",
+      "subject": "Bangchang Xie",
+      "subject_role": "recommender",
+      "recommender_name": "Bangchang Xie",
+      "is_applicant_achievement": true,
+      "evidence_type": "quantitative_impact",
+      "evidence_purpose": "expert_opinion",
+      "evidence_layer": "proof",
+      "confidence": 0.95,
+      "reasoning": "VP Xie describes Liu's 13 consecutive years of internet panorama survey since 2009 - demonstrates sustained, authoritative contribution to the field.",
+      "is_ai_suggested": true,
+      "is_confirmed": false
+    }
+  ],
+  "entities": [
+    {
+      "id": "ent_E4_0",
+      "name": "Dehuan Liu",
+      "type": "person",
+      "identity": "applicant",
+      "relation_to_applicant": "self",
+      "snippet_ids": [
+        "snp_E4_e5f6a7b8",
+        "snp_E4_c9d0e1f2",
+        "snp_E4_a3b4c5d6",
+        "snp_E4_e7f8a9b0"
+      ],
+      "exhibit_ids": [
+        "E4"
+      ],
+      "mentioned_in_blocks": [
+        "p2_b3",
+        "p2_b4",
+        "p4_b0",
+        "p6_b2",
+        "p6_b3"
+      ],
+      "aliases": [],
+      "is_merged": false,
+      "merged_from": []
+    },
+    {
+      "id": "ent_E4_1",
+      "name": "Bangchang Xie",
+      "type": "person",
+      "identity": "recommender",
+      "relation_to_applicant": "recommender",
+      "snippet_ids": [
+        "snp_E4_a1b2c3d4",
+        "snp_E4_c1d2e3f4"
+      ],
+      "exhibit_ids": [
+        "E4"
+      ],
+      "mentioned_in_blocks": [
+        "p2_b2",
+        "p7_b5"
+      ],
+      "aliases": [],
+      "is_merged": false,
+      "merged_from": []
+    },
+    {
+      "id": "ent_E4_2",
+      "name": "Fu Jen Catholic University",
+      "type": "organization",
+      "identity": "university",
+      "relation_to_applicant": "recommender's institution",
+      "snippet_ids": [
+        "snp_E4_a1b2c3d4",
+        "snp_E4_c1d2e3f4"
+      ],
+      "exhibit_ids": [
+        "E4"
+      ],
+      "mentioned_in_blocks": [
+        "p2_b2",
+        "p7_b5"
+      ],
+      "aliases": [],
+      "is_merged": false,
+      "merged_from": []
+    },
+    {
+      "id": "ent_E4_3",
+      "name": "China Marketing Research Association",
+      "type": "organization",
+      "identity": "academic_organization",
+      "relation_to_applicant": "led_by_applicant",
+      "snippet_ids": [
+        "snp_E4_a3b4c5d6"
+      ],
+      "exhibit_ids": [
+        "E4"
+      ],
+      "mentioned_in_blocks": [
+        "p6_b3"
+      ],
+      "aliases": [
+        "CMRA"
+      ],
+      "is_merged": false,
+      "merged_from": []
+    },
+    {
+      "id": "ent_E4_4",
+      "name": "APRC",
+      "type": "organization",
+      "identity": "academic_organization",
+      "relation_to_applicant": "co-founded_by_applicant",
+      "snippet_ids": [
+        "snp_E4_a3b4c5d6"
+      ],
+      "exhibit_ids": [
+        "E4"
+      ],
+      "mentioned_in_blocks": [
+        "p6_b3"
+      ],
+      "aliases": [
+        "Asia-Pacific Marketing Research Consortium"
+      ],
+      "is_merged": false,
+      "merged_from": []
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel_E4_0",
+      "from_entity": "ent_E4_1",
+      "to_entity": "ent_E4_0",
+      "relation_type": "recommends",
+      "context": "Xie writes recommendation letter for Liu",
+      "source_snippet_ids": [
+        "snp_E4_a1b2c3d4"
+      ],
+      "source_blocks": [
+        "p2_b2"
+      ]
+    },
+    {
+      "id": "rel_E4_1",
+      "from_entity": "ent_E4_0",
+      "to_entity": "ent_E4_3",
+      "relation_type": "leads",
+      "context": "Liu acts as Chairman of CMRA",
+      "source_snippet_ids": [
+        "snp_E4_a3b4c5d6"
+      ],
+      "source_blocks": [
+        "p6_b3"
+      ]
+    },
+    {
+      "id": "rel_E4_2",
+      "from_entity": "ent_E4_0",
+      "to_entity": "ent_E4_4",
+      "relation_type": "co-founded",
+      "context": "Liu co-established APRC with colleagues from Asia-Pacific region",
+      "source_snippet_ids": [
+        "snp_E4_a3b4c5d6"
+      ],
+      "source_blocks": [
+        "p6_b3"
+      ]
+    }
+  ],
+  "stats": {
+    "snippet_count": 6,
+    "entity_count": 5,
+    "relation_count": 3,
+    "applicant_snippets": 4,
+    "other_snippets": 2
+  }
+}

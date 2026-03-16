@@ -1,0 +1,366 @@
+{
+  "exhibit_id": "D4",
+  "pages": [
+    {
+      "page_number": 1,
+      "text_blocks": [
+        {
+          "block_id": "p1_b0",
+          "page_number": 1,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "Exhibit D-4",
+          "bbox": {
+            "x1": 120,
+            "y1": 450,
+            "x2": 875,
+            "y2": 547
+          },
+          "bbox_list": [
+            120,
+            450,
+            875,
+            547
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nExhibit D-4"
+    },
+    {
+      "page_number": 2,
+      "text_blocks": [
+        {
+          "block_id": "p2_b0",
+          "page_number": 2,
+          "block_type": "title",
+          "block_type_cn": "标题",
+          "text_content": "# SOCIOLOGICAL STUDIES",
+          "bbox": {
+            "x1": 344,
+            "y1": 78,
+            "x2": 639,
+            "y2": 100
+          },
+          "bbox_list": [
+            344,
+            78,
+            639,
+            100
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Home >> Journal Catalog >> June 2015 Issue",
+          "bbox": {
+            "x1": 96,
+            "y1": 110,
+            "x2": 471,
+            "y2": 130
+          },
+          "bbox_list": [
+            96,
+            110,
+            471,
+            130
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "page_number": 2,
+          "block_type": "sub_title",
+          "block_type_cn": "sub_title",
+          "text_content": "## Children Born in July and August: A study on the age regulation of primary school admission and student's education access and development",
+          "bbox": {
+            "x1": 96,
+            "y1": 168,
+            "x2": 816,
+            "y2": 208
+          },
+          "bbox_list": [
+            96,
+            168,
+            816,
+            208
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "English Title: Children Born in July and August: A study on the age regulation of primary school admission and student’s education access and development",
+          "bbox": {
+            "x1": 96,
+            "y1": 245,
+            "x2": 881,
+            "y2": 285
+          },
+          "bbox_list": [
+            96,
+            245,
+            881,
+            285
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Abstract: This paper discusses at the micro level the educational inequality resulted from the cutoff birthdate regulation in the current primary school admission system. According to our research, among the students who enroll in school, students born in July and August display relative disadvantage and adaptive difficulties in the construction of self- identity and study ability when compared with those born in September and October. Students born between November and June in the following year have medium performance. Moreover, this effect is accumulative. With regard to acquiring education resources, students born in July and August show the lowest possibility of getting into the key senior middle schools, which is \\(16.7\\% - 22.8\\%\\) lower than the rest of the student population, while their possibility to get into vocational school is the highest, \\(54.2\\% - 60.8\\%\\) higher than the others. This disadvantage is more prominent among the male students. Our study also show that the effect above is very strong and cannot be effectively suppressed by social economic factors. There is an insurmountable “July/August pitfall”.",
+          "bbox": {
+            "x1": 95,
+            "y1": 323,
+            "x2": 882,
+            "y2": 570
+          },
+          "bbox_list": [
+            95,
+            323,
+            882,
+            570
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Author: Dehuan Liu, Xuelian Li",
+          "bbox": {
+            "x1": 100,
+            "y1": 608,
+            "x2": 380,
+            "y2": 627
+          },
+          "bbox_list": [
+            100,
+            608,
+            380,
+            627
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Author Affiliation: School of New Media at Peking University, School of Journalism and Communication at Peking University",
+          "bbox": {
+            "x1": 100,
+            "y1": 636,
+            "x2": 824,
+            "y2": 677
+          },
+          "bbox_list": [
+            100,
+            636,
+            824,
+            677
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Journal: Sociological Studies",
+          "bbox": {
+            "x1": 100,
+            "y1": 686,
+            "x2": 338,
+            "y2": 705
+          },
+          "bbox_list": [
+            100,
+            686,
+            338,
+            705
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Year. Issue: Page 2015.6:169- 192",
+          "bbox": {
+            "x1": 100,
+            "y1": 715,
+            "x2": 373,
+            "y2": 734
+          },
+          "bbox_list": [
+            100,
+            715,
+            373,
+            734
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Classification number:",
+          "bbox": {
+            "x1": 100,
+            "y1": 745,
+            "x2": 284,
+            "y2": 763
+          },
+          "bbox_list": [
+            100,
+            745,
+            284,
+            763
+          ]
+        },
+        {
+          "block_id": "p2_b10",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Article ID:",
+          "bbox": {
+            "x1": 100,
+            "y1": 774,
+            "x2": 189,
+            "y2": 792
+          },
+          "bbox_list": [
+            100,
+            774,
+            189,
+            792
+          ]
+        },
+        {
+          "block_id": "p2_b11",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Keywords: educational equity, adolescents, relative age effect, adjustment crisis",
+          "bbox": {
+            "x1": 100,
+            "y1": 802,
+            "x2": 748,
+            "y2": 823
+          },
+          "bbox_list": [
+            100,
+            802,
+            748,
+            823
+          ]
+        },
+        {
+          "block_id": "p2_b12",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "English Keywords:",
+          "bbox": {
+            "x1": 100,
+            "y1": 832,
+            "x2": 258,
+            "y2": 851
+          },
+          "bbox_list": [
+            100,
+            832,
+            258,
+            851
+          ]
+        },
+        {
+          "block_id": "p2_b13",
+          "page_number": 2,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Project fund:",
+          "bbox": {
+            "x1": 100,
+            "y1": 861,
+            "x2": 208,
+            "y2": 880
+          },
+          "bbox_list": [
+            100,
+            861,
+            208,
+            880
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\n# SOCIOLOGICAL STUDIES  \n\nHome >> Journal Catalog >> June 2015 Issue  \n\n## Children Born in July and August: A study on the age regulation of primary school admission and student's education access and development  \n\nEnglish Title: Children Born in July and August: A study on the age regulation of primary school admission and student’s education access and development  \n\nAbstract: This paper discusses at the micro level the educational inequality resulted from the cutoff birthdate regulation in the current primary school admission system. According to our research, among the students who enroll in school, students born in July and August display relative disadvantage and adaptive difficulties in the construction of self- identity and study ability when compared with those born in September and October. Students born between November and June in the following year have medium performance. Moreover, this effect is accumulative. With regard to acquiring education resources, students born in July and August show the lowest possibility of getting into the key senior middle schools, which is \\(16.7\\% - 22.8\\%\\) lower than the rest of the student population, while their possibility to get into vocational school is the highest, \\(54.2\\% - 60.8\\%\\) higher than the others. This disadvantage is more prominent among the male students. Our study also show that the effect above is very strong and cannot be effectively suppressed by social economic factors. There is an insurmountable “July/August pitfall”.  \n\nAuthor: Dehuan Liu, Xuelian Li  \n\nAuthor Affiliation: School of New Media at Peking University, School of Journalism and Communication at Peking University  \n\nJournal: Sociological Studies  \n\nYear. Issue: Page 2015.6:169- 192  \n\nClassification number:  \n\nArticle ID:  \n\nKeywords: educational equity, adolescents, relative age effect, adjustment crisis  \n\nEnglish Keywords:  \n\nProject fund:"
+    },
+    {
+      "page_number": 3,
+      "text_blocks": [
+        {
+          "block_id": "p3_b0",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Translation",
+          "bbox": {
+            "x1": 101,
+            "y1": 34,
+            "x2": 195,
+            "y2": 52
+          },
+          "bbox_list": [
+            101,
+            34,
+            195,
+            52
+          ]
+        },
+        {
+          "block_id": "p3_b1",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "This study and the data used are part of the National Social Science Foundation's key project \"Research on the influence and guidance of online games on adolescent development\", subject number 11AZD112. This study was funded by the National Social Science Foundation.",
+          "bbox": {
+            "x1": 101,
+            "y1": 77,
+            "x2": 870,
+            "y2": 136
+          },
+          "bbox_list": [
+            101,
+            77,
+            870,
+            136
+          ]
+        },
+        {
+          "block_id": "p3_b2",
+          "page_number": 3,
+          "block_type": "text",
+          "block_type_cn": "文本",
+          "text_content": "Welcome to Sociological Studies! You are the 4896th reader of this article!",
+          "bbox": {
+            "x1": 100,
+            "y1": 174,
+            "x2": 707,
+            "y2": 195
+          },
+          "bbox_list": [
+            100,
+            174,
+            707,
+            195
+          ]
+        }
+      ],
+      "markdown_text": "=====================\n\nBASE:  torch.Size([1, 256, 1280])\n\nPATCHES:  torch.Size([6, 100, 1280])\n\n=====================\n\nTranslation  \n\nThis study and the data used are part of the National Social Science Foundation's key project \"Research on the influence and guidance of online games on adolescent development\", subject number 11AZD112. This study was funded by the National Social Science Foundation.  \n\nWelcome to Sociological Studies! You are the 4896th reader of this article!"
+    }
+  ],
+  "total_blocks": 18
+}
