@@ -46,11 +46,12 @@ jobs:
       - name: Merge builds
         run: cp -r frontend/dist dist/app
 
-      # SPA fallback: copy index.html to 404.html for client-side routing
-      - name: SPA fallback
+      # SPA fallback + custom domain CNAME
+      - name: SPA fallback and CNAME
         run: |
           cp dist/index.html dist/404.html
           cp dist/app/index.html dist/app/404.html
+          echo "study.zacchen.win" > dist/CNAME
 
       - uses: actions/upload-pages-artifact@v3
         with:
