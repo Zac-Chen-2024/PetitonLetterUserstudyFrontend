@@ -102,7 +102,7 @@ export default function AdminPage() {
                     })()}
                   </td>
                   <td className="px-4 py-3 text-slate-600">{r.phase1.materialSets.length} sets</td>
-                  <td className="px-4 py-3 text-slate-600">{r.phase2.tasks.length} tasks</td>
+                  <td className="px-4 py-3 text-slate-600">{r.phase2 ? '✓' : '—'}</td>
                   <td className="px-4 py-3 font-mono text-slate-600">
                     {Math.floor(r.totalDuration / 60)}:{String(r.totalDuration % 60).padStart(2, '0')}
                   </td>
