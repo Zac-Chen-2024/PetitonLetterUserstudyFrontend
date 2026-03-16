@@ -129,10 +129,10 @@ export function StudyProvider({ children }: { children: ReactNode }) {
     };
   }, [state]);
 
-  const submitToBackend = useCallback(async (): Promise<boolean> => {
+  const submitToBackend = useCallback(async (override?: Partial<StudyRecord>): Promise<boolean> => {
     if (!state.isVolunteer) return false;
     try {
-      const record = exportRecord();
+      const record = { ...exportRecord(), ...override };
       const res = await fetch(`${API_BASE}/study/submit`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },

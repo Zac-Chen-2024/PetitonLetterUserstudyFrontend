@@ -21,8 +21,8 @@ export default function Phase3Page() {
     dispatch({ type: 'SET_PHASE3_SURVEY', data: responses });
     dispatch({ type: 'SET_STEP', step: 'thank-you' });
 
-    // Auto-submit to backend for volunteers
-    await submitToBackend();
+    // Auto-submit to backend — pass phase3 directly since dispatch hasn't flushed yet
+    await submitToBackend({ phase3: responses });
 
     navigate('/thank-you');
   };
