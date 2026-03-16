@@ -322,17 +322,27 @@ function PDFViewer({
     setIsLoading(false);
     setPdfError(null);
 
-    // Execute pending scroll after PDF pages render
-    if (pendingScrollSnippetId.current) {
+    // Execute pending scroll: watch DOM until target page element appears
+    if (pendingScrollSnippetId.current && containerRef.current) {
       const pending = pendingScrollSnippetId.current;
-      // Wait for react-pdf to render pages into the DOM
-      requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-          if (scrollToSnippet(pending)) {
-            pendingScrollSnippetId.current = null;
+      const snippet = snippets.find(s => s.id === pending);
+      const targetPage = snippet?.boundingBox?.page;
+
+      if (targetPage && containerRef.current) {
+        const container = containerRef.current;
+        const observer = new MutationObserver(() => {
+          const pageEl = container.querySelector(`[data-page="${targetPage}"]`);
+          if (pageEl) {
+            observer.disconnect();
+            if (scrollToSnippet(pending)) {
+              pendingScrollSnippetId.current = null;
+            }
           }
         });
-      });
+        observer.observe(container, { childList: true, subtree: true });
+        // Safety timeout: stop observing after 5s
+        setTimeout(() => observer.disconnect(), 5000);
+      }
     }
   };
 
