@@ -1290,6 +1290,12 @@ interface ArgumentGraphProps {
   subArgumentsOverride?: SubArgument[];
   letterSectionsOverride?: import('../types').LetterSection[];
   removeSubArgumentsOverride?: (subArgumentIds: string[]) => Promise<void> | void;
+  mergeSubArgumentsOverride?: (
+    subArgumentIds: string[],
+    title: string,
+    purpose: string,
+    relationship: string
+  ) => Promise<{ newArgument: Argument; movedSubArgumentIds: string[] }>;
   moveSubArgumentsOverride?: (
     subArgumentIds: string[],
     targetArgumentId: string
@@ -1309,6 +1315,7 @@ export function ArgumentGraph({
   subArgumentsOverride,
   letterSectionsOverride,
   removeSubArgumentsOverride,
+  mergeSubArgumentsOverride,
   moveSubArgumentsOverride,
   consolidateSubArgumentsOverride,
 }: ArgumentGraphProps) {
@@ -1352,7 +1359,7 @@ export function ArgumentGraph({
   const contextArguments = argumentsOverride ?? baseArguments;
   const contextSubArguments = subArgumentsOverride ?? baseSubArguments;
   const letterSections = letterSectionsOverride ?? baseLetterSections;
-  const mergeSubArguments = baseMergeSubArguments;
+  const mergeSubArguments = mergeSubArgumentsOverride ?? baseMergeSubArguments;
   const moveSubArguments = moveSubArgumentsOverride ?? baseMoveSubArguments;
   const consolidateSubArguments = consolidateSubArgumentsOverride ?? baseConsolidateSubArguments;
 

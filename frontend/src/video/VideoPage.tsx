@@ -3,7 +3,7 @@ import { ConnectionLines, DocumentViewer, EvidenceCardPool, ArgumentGraph } from
 import { LetterPanel } from '../components/LetterPanel';
 import { useApp, useArguments, useProject, useSnippets, useWriting } from '../context/AppContext';
 import { buildDrHuVideoScenario, DR_HU_VIDEO_PROJECT_ID } from './drHuVideoScenario';
-import { buildVideoDemoScene, type VideoDemoSceneState } from './videoDemoPresets';
+import { buildVideoDemoScene, type VideoDemoSceneKey, type VideoDemoSceneState } from './videoDemoPresets';
 
 function VideoRouteInitializer() {
   const { setWorkMode, setSelectedDocumentId, setSelectedSnippetId, setFocusState } = useApp();
@@ -59,14 +59,14 @@ export default function VideoPage() {
   const { setFocusState, setSelectedSnippetId } = useApp();
   const [isGenerationDemoActive, setIsGenerationDemoActive] = useState(false);
   const demoTimerRef = useRef<number | null>(null);
-  const [isConsolidateDemoActive, setIsConsolidateDemoActive] = useState(false);
+  const [activeDemoScene, setActiveDemoScene] = useState<VideoDemoSceneKey | null>(null);
   const [demoSceneState, setDemoSceneState] = useState<VideoDemoSceneState | null>(null);
   const [demoSceneVersion, setDemoSceneVersion] = useState(0);
 
-  const loadConsolidateDemoScene = useCallback(() => {
+  const loadDemoScene = useCallback((scene: VideoDemoSceneKey) => {
     setIsGenerationDemoActive(false);
-    setIsConsolidateDemoActive(true);
-    setDemoSceneState(buildVideoDemoScene());
+    setActiveDemoScene(scene);
+    setDemoSceneState(buildVideoDemoScene(scene));
     setDemoSceneVersion(prev => prev + 1);
     setFocusState({ type: 'none', id: null });
     setSelectedSnippetId(null);
@@ -136,6 +136,69 @@ export default function VideoPage() {
     return result;
   }, []);
 
+  const handleDemoMergeSubArguments = useCallback(async (
+    subArgumentIds: string[],
+    fallbackTitle: string,
+    _purpose: string,
+    _relationship: string
+  ) => {
+    let result: { newArgument: VideoDemoSceneState['arguments'][number]; movedSubArgumentIds: string[] } | null = null;
+
+    setDemoSceneState(prev => {
+      if (!prev) return prev;
+
+      const movedIds = new Set(subArgumentIds);
+      const movedSubArguments = prev.subArguments.filter(subArgument => movedIds.has(subArgument.id));
+      if (movedSubArguments.length === 0) return prev;
+
+      const mergedGoodtwoPair = movedIds.size === 2 &&
+        movedIds.has('demo-merge-sub-4') &&
+        movedIds.has('demo-merge-sub-5');
+      const newArgumentId = `demo-merge-arg-${Date.now()}`;
+      const newArgument = {
+        id: newArgumentId,
+        title: mergedGoodtwoPair ? 'Leadership role at Goodtwo University' : fallbackTitle,
+        subject: 'Dr.Hu',
+        claimType: 'leading_role' as const,
+        snippetIds: [],
+        subArgumentIds,
+        status: 'verified' as const,
+        standardKey: 'leading_role',
+        isAIGenerated: false,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      };
+
+      result = {
+        newArgument,
+        movedSubArgumentIds: subArgumentIds,
+      };
+
+      return {
+        ...prev,
+        arguments: [
+          ...prev.arguments.map(argument => ({
+            ...argument,
+            subArgumentIds: (argument.subArgumentIds || []).filter(id => !movedIds.has(id)),
+            updatedAt: new Date(),
+          })),
+          newArgument,
+        ],
+        subArguments: prev.subArguments.map(subArgument =>
+          movedIds.has(subArgument.id)
+            ? { ...subArgument, argumentId: newArgumentId, updatedAt: new Date() }
+            : subArgument
+        ),
+      };
+    });
+
+    if (!result) {
+      throw new Error('Demo merge scene unavailable');
+    }
+
+    return result;
+  }, []);
+
   const handleDemoRemoveSubArguments = useCallback(async (subArgumentIds: string[]) => {
     setDemoSceneState(prev => {
       if (!prev) return prev;
@@ -184,7 +247,13 @@ export default function VideoPage() {
 
       if (event.code === 'Digit2' || event.key === '2') {
         event.preventDefault();
-        loadConsolidateDemoScene();
+        loadDemoScene('consolidate');
+        return;
+      }
+
+      if (event.code === 'Digit3' || event.key === '3') {
+        event.preventDefault();
+        loadDemoScene('merge');
       }
     };
 
@@ -195,7 +264,7 @@ export default function VideoPage() {
         window.clearTimeout(demoTimerRef.current);
       }
     };
-  }, [loadConsolidateDemoScene]);
+  }, [loadDemoScene]);
 
   return (
     <div className="video-layout flex flex-col h-screen bg-slate-100">
@@ -214,19 +283,20 @@ export default function VideoPage() {
         <section className="video-graph-panel flex-1 min-w-0 bg-white overflow-hidden relative z-0">
           <ArgumentGraph
             demoLoading={isGenerationDemoActive}
-            demoPresetActive={isConsolidateDemoActive}
-            demoSceneKey={isConsolidateDemoActive ? 'consolidate' : null}
+            demoPresetActive={activeDemoScene !== null}
+            demoSceneKey={activeDemoScene}
             demoSceneVersion={demoSceneVersion}
             argumentsOverride={demoSceneState?.arguments}
             subArgumentsOverride={demoSceneState?.subArguments}
             letterSectionsOverride={demoSceneState?.letterSections}
-            removeSubArgumentsOverride={isConsolidateDemoActive ? handleDemoRemoveSubArguments : undefined}
-            consolidateSubArgumentsOverride={isConsolidateDemoActive ? handleDemoConsolidateSubArguments : undefined}
+            removeSubArgumentsOverride={activeDemoScene ? handleDemoRemoveSubArguments : undefined}
+            mergeSubArgumentsOverride={activeDemoScene === 'merge' ? handleDemoMergeSubArguments : undefined}
+            consolidateSubArgumentsOverride={activeDemoScene === 'consolidate' ? handleDemoConsolidateSubArguments : undefined}
           />
         </section>
 
         <aside className="video-letter-panel w-[485px] flex-shrink-0 border-l border-slate-200 overflow-hidden bg-white shadow-[-4px_0_12px_rgba(0,0,0,0.08)] z-10">
-          <LetterPanel className="h-full" demoClearContent={isGenerationDemoActive || isConsolidateDemoActive} />
+          <LetterPanel className="h-full" demoClearContent={isGenerationDemoActive || activeDemoScene !== null} />
         </aside>
       </div>
 

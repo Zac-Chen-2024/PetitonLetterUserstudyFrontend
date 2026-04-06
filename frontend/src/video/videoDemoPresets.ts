@@ -1,6 +1,6 @@
 import type { Argument, ArgumentClaimType, ArgumentStatus, LetterSection, SubArgument } from '../types';
 
-export type VideoDemoSceneKey = 'consolidate';
+export type VideoDemoSceneKey = 'consolidate' | 'merge';
 
 export interface VideoDemoSceneState {
   arguments: Argument[];
@@ -70,7 +70,31 @@ function makeSection(id: string, title: string, order: number): LetterSection {
   };
 }
 
-export function buildVideoDemoScene(): VideoDemoSceneState {
+export function buildVideoDemoScene(scene: VideoDemoSceneKey): VideoDemoSceneState {
+  if (scene === 'merge') {
+    const subArguments = [
+      makeSubArgument('demo-merge-sub-1', 'demo-merge-arg-1', 'Goodone institutional reputation'),
+      makeSubArgument('demo-merge-sub-2', 'demo-merge-arg-1', 'Goodone CS department reputation'),
+      makeSubArgument('demo-merge-sub-3', 'demo-merge-arg-1', "Applicant's role at Goodone"),
+      makeSubArgument('demo-merge-sub-4', 'demo-merge-arg-1', 'Goodtwo institutional reputation'),
+      makeSubArgument('demo-merge-sub-5', 'demo-merge-arg-1', "Applicant's role at Goodtwo"),
+    ];
+
+    return {
+      arguments: [
+        makeArgument(
+          'demo-merge-arg-1',
+          'Leadership roles across multiple universities',
+          'leading_role',
+          subArguments.map(subArg => subArg.id),
+          'leading_role'
+        ),
+      ],
+      subArguments,
+      letterSections: [makeSection('leading_role', 'Leading Role', 0)],
+    };
+  }
+
   const subArguments = [
     makeSubArgument('demo-consolidate-sub-1', 'demo-consolidate-arg-1', 'Strong institutional reputation'),
     makeSubArgument('demo-consolidate-sub-2', 'demo-consolidate-arg-1', 'Strong CS department reputation'),
