@@ -1,37 +1,97 @@
-import { Routes, Route, Navigate } from 'react-router-dom';
-import { Toaster } from 'react-hot-toast';
-import { AppProvider } from './context/AppContext';
-import VideoPage from './video/VideoPage';
+import { Routes, Route, Navigate, useNavigate, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
+import { useStudy } from './context/StudyContext.tsx';
+import { useStudyTimer } from './hooks/useStudyTimer.ts';
+import { useCounterbalance } from './hooks/useCounterbalance.ts';
+import type { StudyStep } from './types/index.ts';
+import { STUDY_STEPS } from './types/index.ts';
+import Phase1Page from './pages/Phase1Page.tsx';
+import Phase2Page from './pages/Phase2Page.tsx';
+import Phase3Page from './pages/Phase3Page.tsx';
+import ThankYouPage from './pages/ThankYouPage.tsx';
+import AdminPage from './pages/AdminPage.tsx';
 
-function VideoAppShell() {
-  return (
-    <AppProvider projectIdOverride="dr_hu_eb1a">
-      <VideoPage />
-      <Toaster
-        position="bottom-center"
-        toastOptions={{
-          duration: 3000,
-          style: {
-            borderRadius: '10px',
-            background: '#1e293b',
-            color: '#f1f5f9',
-            fontSize: '13px',
-            padding: '10px 16px',
-          },
-          success: { iconTheme: { primary: '#10b981', secondary: '#fff' } },
-          error: { iconTheme: { primary: '#ef4444', secondary: '#fff' }, duration: 4000 },
-        }}
-      />
-    </AppProvider>
-  );
+const STEP_TO_PATH: Record<StudyStep, string> = {
+  'phase1': '/',
+  'phase2': '/phase2',
+  'phase3': '/phase3',
+  'thank-you': '/thank-you',
+};
+
+const PATH_TO_STEP: Record<string, StudyStep> = Object.fromEntries(
+  Object.entries(STEP_TO_PATH).map(([k, v]) => [v, k as StudyStep])
+) as Record<string, StudyStep>;
+
+function StudyGuard({ children }: { children: React.ReactNode }) {
+  const { state } = useStudy();
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.pathname === '/admin') return;
+
+    const targetStep = PATH_TO_STEP[location.pathname];
+    if (!targetStep) {
+      navigate(STEP_TO_PATH[state.currentStep], { replace: true });
+      return;
+    }
+
+    const targetIndex = STUDY_STEPS.indexOf(targetStep);
+    const currentIndex = STUDY_STEPS.indexOf(state.currentStep);
+
+    if (targetIndex > currentIndex) {
+      navigate(STEP_TO_PATH[state.currentStep], { replace: true });
+    }
+  }, [location.pathname, state.currentStep, navigate]);
+
+  return <>{children}</>;
 }
 
 export default function App() {
+  const { state, dispatch } = useStudy();
+  const timer = useStudyTimer(state.totalElapsed);
+
+  // Auto-assign participant ID and counterbalance on first load
+  const urlParams = new URLSearchParams(window.location.search);
+  const pidFromUrl = urlParams.get('pid') ?? `P${Date.now().toString(36)}`;
+  const counterbalance = useCounterbalance(state.participantId || pidFromUrl);
+
+  useEffect(() => {
+    if (!state.participantId) {
+      dispatch({ type: 'SET_PARTICIPANT', id: pidFromUrl });
+      dispatch({ type: 'SET_COUNTERBALANCE', config: counterbalance });
+    }
+  }, []);
+
+  // Timer runs silently for data collection — not displayed
+  useEffect(() => {
+    if (state.currentStep !== 'thank-you') {
+      timer.start();
+    } else {
+      timer.pause();
+    }
+  }, [state.currentStep]);
+
+  useEffect(() => {
+    if (timer.elapsed > 0 && timer.elapsed % 5 === 0) {
+      dispatch({ type: 'SET_TOTAL_ELAPSED', seconds: timer.elapsed });
+    }
+  }, [timer.elapsed, dispatch]);
+
   return (
-    <Routes>
-      <Route path="/" element={<VideoAppShell />} />
-      <Route path="/video" element={<Navigate to="/" replace />} />
-      <Route path="*" element={<Navigate to="/" replace />} />
-    </Routes>
+    <div className="flex flex-col h-screen bg-slate-50">
+      <div className="flex-1 overflow-hidden">
+        <StudyGuard>
+          <Routes>
+            <Route path="/" element={<Phase1Page />} />
+            <Route path="/phase2" element={<Phase2Page />} />
+            <Route path="/phase3" element={<Phase3Page />} />
+            <Route path="/thank-you" element={<ThankYouPage />} />
+            <Route path="/admin" element={<AdminPage />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </StudyGuard>
+      </div>
+    </div>
   );
 }

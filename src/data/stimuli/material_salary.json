@@ -1,0 +1,73 @@
+{
+  "materialId": "mat_salary",
+  "title": "High Salary - 8 C.F.R. §204.5(h)(3)(ix)",
+  "sources": [
+    {
+      "sourceId": "source_ours",
+      "sections": [
+        {
+          "heading": "Introduction",
+          "content": "As a result of the Beneficiary's tremendous achievement in the field of communication and market research, along with his significant contributions to the field, the Beneficiary has been rewarded with an income which is significantly higher than his peers."
+        },
+        {
+          "heading": "Compensation Details",
+          "content": "The Beneficiary has been employed by Peking University since July 1992 and currently serves as a professor in the School of Journalism and Communication. [Exhibit F1, p.2] According to a certificate issued by the Office of Human Resources at Peking University, the Beneficiary's total pre-tax compensation from March 2021 to February 2022 was **¥961,710.00 RMB**. [Exhibit F1, p.2] This figure corresponds to a monthly pre-tax salary of ¥80,142.50 RMB. [Exhibit F1, p.2] During that same period, Peking University withheld and paid income tax of ¥161,556.85 RMB on the Beneficiary's behalf. [Exhibit F1, p.2]\n\nData from SalaryExpert, powered by the Economic Research Institute (ERI), indicates that the average annual base salary for a professor in China is ¥323,032 CNY. [Exhibit F2, p.2] SalaryExpert further reports that an entry-level professor with one to three years of experience earns approximately ¥228,864 CNY per year, while a senior-level professor with eight or more years of experience earns approximately ¥405,245 CNY per year. [Exhibit F2, p.2] The Beneficiary's annual compensation of ¥961,710 RMB is therefore approximately **three times** the national average professor salary of ¥323,032 CNY and approximately 2.37 times the senior-level professor salary of ¥405,245 CNY. [Exhibit F1, p.2; Exhibit F2, p.2]"
+        },
+        {
+          "heading": "Industry Benchmarks",
+          "content": "SalaryExpert reports that the average professor gross salary in China is ¥323,032 CNY per year, with an average bonus of ¥11,080 CNY and an equivalent hourly rate of $155 USD. [Exhibit F2, p.2] These figures are derived from salary surveys collected directly from employers and anonymous employees in China, and the underlying database encompasses over 11,000 job titles with advanced analytics. [Exhibit F2, p.2] SalaryExpert projects a 29% increase in professor salaries over the next five years, yielding an estimated average salary of ¥418,203 CNY by 2028; the Beneficiary's current compensation of ¥961,710 RMB already exceeds that projected 2028 average by approximately 2.30 times. [Exhibit F2, p.2]"
+        },
+        {
+          "heading": "Supplemental Income",
+          "content": "In addition to his university salary, the Beneficiary earned supplemental income through a training contract with iQIYI, one of the largest online video platforms in the world. [Exhibit F3, p.3; Exhibit F3, p.12] Under the contract, iQIYI appointed the Beneficiary to provide training services in \"User Insights and Data Decisions,\" reflecting the industry's demand for his specialized expertise in data-driven market analysis. [Exhibit F3, p.3] The agreed training fee was **RMB 150,000**, described as \"the total amount hereunder that Party A shall pay to Party B,\" representing substantial supplemental income beyond the Beneficiary's university compensation. [Exhibit F3, p.5] iQIYI is \"currently one of the largest online video sites in the world, with nearly 6 billion hours spent on its service each month and over 500 million monthly active users,\" and raised $2.25 billion in its 2018 U.S. IPO — underscoring the caliber of the enterprise that sought the Beneficiary's expertise. [Exhibit F3, p.12]"
+        },
+        {
+          "heading": "Conclusion",
+          "content": "In sum, the evidence submitted in Exhibit F is sufficient to prove that the Beneficiary has met the criterion under 8 C.F.R. §204.5(h)(3)(ix). Earning a significantly high income which is **three times** the average salary of his peers has demonstrated the Beneficiary's elite status as one of the small percentage who have risen to the very top of his field of endeavor."
+        }
+      ]
+    },
+    {
+      "sourceId": "source_example",
+      "sections": [
+        {
+          "heading": "Introduction",
+          "content": "As a result of Dr. Liu's tremendous achievement in the sociology industry, along with his significant contributions to the industry, Dr. Liu has been rewarded with an income which is significantly higher than his peers."
+        },
+        {
+          "heading": "Compensation Details",
+          "content": "Dr. Liu has been working at Peking University since July 1992, and is currently serving as a professor in the School of Journalism & Communication. **[Exhibit F-1; Certification of Employment and Salary]** As evidenced by the certification of employment issued in March 2022, Dr. Liu's current annual pre-tax base salary is 961,710 RMB (approximately 135,217 USD). **[Exhibit F-1; Certification of Employment and Salary]**\n\nData from SalaryExpert, a leading third-party provider of salary data for various industries in China, revealed the current salaries of professors in Chinese universities as of March 2023. It states that the average gross salary for professors in China is 323,032 RMB (approximately 45,418 USD). Based on the salary information provided by SalaryExpert, Dr. Liu's annual income is approximately **three times** of said average gross salary, which clearly demonstrates that his salary is significantly higher than that of his peers. **[Exhibit F-2; SalaryExpert Data & Introduction]**\n\nAlso, it must be mentioned that in addition to the salary from Peking University, Dr. Liu's income also includes remuneration from providing personal services to companies in the market. For example, in 2022, Dr. Liu signed a training service contract with iQIYI Science & Technology Co., Ltd. This corporation is recognized as one of the world's largest online video platforms, boasting over 500 million monthly active users. Under the stipulations of this contract, Dr. Liu was to provide professional training to the employees of iQIYI. In reciprocation, the company agreed to pay Dr. Liu a training fee amounting to 150,000 RMB (approximately $21,090 USD). **[Exhibit F-3; iQIYI Training Agreement & Introduction of iQIYI]**"
+        },
+        {
+          "heading": "Conclusion",
+          "content": "In sum, the evidence we submitted in Exhibit F are sufficient to prove that Dr. Liu has met the criterion under 8 C.F.R.§204.5(h)(3)(ix). Earning a significantly high income which is three times the average salary of his peers has demonstrated Dr. Liu's elite status as one of the small percentage who have risen to the very top of his field of endeavor."
+        }
+      ]
+    },
+    {
+      "sourceId": "source_baseline",
+      "sections": [
+        {
+          "heading": "Introduction",
+          "content": "Pursuant to 8 C.F.R. §204.5(h)(3)(ix), the record demonstrates that the Beneficiary has commanded remuneration that is significantly high in relation to others working in the field."
+        },
+        {
+          "heading": "Certified Salary Documentation",
+          "content": "Professor Dehuan Liu has been employed by Peking University since July 1992 and serves as a professor in the School of Journalism & Communication [Exhibit X - x]. Peking University's Office of Human Resources certified that, from March 2021 through February 2022, the Beneficiary's total pre-tax salary was RMB 961,710.00 and his pre-tax monthly salary was RMB 80,142.50 [Exhibit X - x]. That same certification also states that individual income tax in the amount of RMB 161,556.85 was deducted and paid by the employing unit [Exhibit X - x].\n\nBecause the exhibits provide the compensation figures in Renminbi, the record establishes the exact foreign-currency amount of the Beneficiary's salary with employer-issued documentary proof [Exhibit X - x]. This certified university record therefore confirms that the Beneficiary's compensation was not speculative or informal, but officially documented by one of China's premier academic institutions [Exhibit X - x]."
+        },
+        {
+          "heading": "Industry Benchmarks and Salary Comparison",
+          "content": "The third-party benchmark in the record is a SalaryExpert compensation report for professors in China [Exhibit X - x]. That report states that the average base salary for a professor in China is RMB 323,032 per year, while the median annual salary is RMB 111,080 [Exhibit X - x]. The report further explains that its salary estimates are based on salary survey data collected directly from employers and anonymous employees in China [Exhibit X - x]. SalaryExpert also states that its compensation data is sourced from internal surveys, third-party surveys, and public sources, and that it applies advanced analytics, machine learning, longitudinal analysis, and meta-analysis in generating compensation results [Exhibit X - x]. In addition, SalaryExpert explains that its analysts conduct quality assurance and double-check results for each job every quarter, which supports the reliability of the benchmark used for comparison here [Exhibit X - x].\n\nWhen the Beneficiary's certified annual salary of RMB 961,710.00 is compared to SalaryExpert's average professor salary of RMB 323,032, his compensation is approximately 2.98 times the average benchmark [Exhibit X - x]. When compared to SalaryExpert's median annual salary of RMB 111,080, the Beneficiary's compensation is approximately 8.66 times the median benchmark [Exhibit X - x]. Either comparison demonstrates that the Beneficiary's remuneration far exceeds ordinary compensation levels for professors in China [Exhibit X - x]. Put differently, the record shows that his certified university salary alone places him well above both the average and median compensation figures identified by an independent compensation source [Exhibit X - x]. This substantial differential is powerful evidence that the marketplace has assigned the Beneficiary an unusually high value relative to others in his profession [Exhibit X - x]."
+        },
+        {
+          "heading": "Additional High-Value Remuneration",
+          "content": "The record also includes additional evidence of high-value remuneration outside the university salary context [Exhibit X - x]. Specifically, under the \"iQIYI Sinan Project Service Training Agreement,\" Beijing iQIYI Science & Technology Co., Ltd. engaged the Beneficiary to provide training services to its employees concerning \"User Insights and Data Decisions\" [Exhibit X - x]. The agreement states that, on March 26, 2022, Dehuan Liu would provide training and sharing services to iQIYI employees, with the specific time, length, course type, and content to be confirmed by the business days before the training day [Exhibit X - x]. The agreement further provides for a training fee of RMB 150,000.00, described as the total amount Party A shall pay Party B [Exhibit X - x]. This separate six-figure consulting-style engagement from a major technology and online video company further confirms that the Beneficiary's expertise commands significant remuneration not only within academia, but also in the commercial marketplace [Exhibit X - x]."
+        },
+        {
+          "heading": "Conclusion",
+          "content": "Accordingly, the documentary record establishes that the Beneficiary has received a high salary and other significantly high remuneration for services, in relation to others in the field."
+        }
+      ]
+    }
+  ]
+}

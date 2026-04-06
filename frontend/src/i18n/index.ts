@@ -1,9 +1,10 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import en from './en.json';
-import zh from './zh.json';
+import en from './locales/en.json';
+import zh from './locales/zh.json';
 
-const savedLang = localStorage.getItem('userstudy_language');
+// Get saved language or detect from browser
+const savedLang = localStorage.getItem('language');
 const browserLang = navigator.language.startsWith('zh') ? 'zh' : 'en';
 const defaultLang = savedLang || browserLang;
 
