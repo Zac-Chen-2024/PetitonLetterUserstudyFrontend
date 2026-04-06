@@ -136,6 +136,24 @@ export default function VideoPage() {
     return result;
   }, []);
 
+  const handleDemoRemoveSubArguments = useCallback(async (subArgumentIds: string[]) => {
+    setDemoSceneState(prev => {
+      if (!prev) return prev;
+
+      const deletedIds = new Set(subArgumentIds);
+
+      return {
+        ...prev,
+        arguments: prev.arguments.map(argument => ({
+          ...argument,
+          subArgumentIds: (argument.subArgumentIds || []).filter(id => !deletedIds.has(id)),
+          updatedAt: new Date(),
+        })),
+        subArguments: prev.subArguments.filter(subArgument => !deletedIds.has(subArgument.id)),
+      };
+    });
+  }, []);
+
   useEffect(() => {
     const isEditableTarget = (target: EventTarget | null) => {
       if (!(target instanceof HTMLElement)) return false;
@@ -202,6 +220,7 @@ export default function VideoPage() {
             argumentsOverride={demoSceneState?.arguments}
             subArgumentsOverride={demoSceneState?.subArguments}
             letterSectionsOverride={demoSceneState?.letterSections}
+            removeSubArgumentsOverride={isConsolidateDemoActive ? handleDemoRemoveSubArguments : undefined}
             consolidateSubArgumentsOverride={isConsolidateDemoActive ? handleDemoConsolidateSubArguments : undefined}
           />
         </section>

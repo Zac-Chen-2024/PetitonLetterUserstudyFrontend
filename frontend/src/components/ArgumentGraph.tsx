@@ -1289,6 +1289,7 @@ interface ArgumentGraphProps {
   argumentsOverride?: Argument[];
   subArgumentsOverride?: SubArgument[];
   letterSectionsOverride?: import('../types').LetterSection[];
+  removeSubArgumentsOverride?: (subArgumentIds: string[]) => Promise<void> | void;
   moveSubArgumentsOverride?: (
     subArgumentIds: string[],
     targetArgumentId: string
@@ -1307,6 +1308,7 @@ export function ArgumentGraph({
   argumentsOverride,
   subArgumentsOverride,
   letterSectionsOverride,
+  removeSubArgumentsOverride,
   moveSubArgumentsOverride,
   consolidateSubArgumentsOverride,
 }: ArgumentGraphProps) {
@@ -1842,18 +1844,23 @@ export function ArgumentGraph({
   }, []);
 
   // Batch delete selected sub-arguments
-  const handleBatchDeleteConfirm = useCallback(() => {
-    if (!removeSubArgument || mergeSelectedIds.size === 0) return;
+  const handleBatchDeleteConfirm = useCallback(async () => {
+    if (mergeSelectedIds.size === 0) return;
     const count = mergeSelectedIds.size;
-    for (const id of mergeSelectedIds) {
-      removeSubArgument(id);
+    if (removeSubArgumentsOverride) {
+      await removeSubArgumentsOverride(Array.from(mergeSelectedIds));
+    } else {
+      if (!removeSubArgument) return;
+      for (const id of mergeSelectedIds) {
+        removeSubArgument(id);
+      }
     }
     setBatchDeleteConfirm(false);
     setIsMergeMode(false);
     setMergeSelectedIds(new Set());
     setSelectedNodeId(null);
     toast.success(`Removed ${count} sub-argument${count > 1 ? 's' : ''}`);
-  }, [removeSubArgument, mergeSelectedIds]);
+  }, [removeSubArgument, removeSubArgumentsOverride, mergeSelectedIds]);
 
   // Handle merge: directly merge with defaults, no modal
   const handleMergeConfirm = useCallback(async () => {
@@ -2488,15 +2495,13 @@ export function ArgumentGraph({
             </button>
             {!isMoveMode && !isConsolidateMode ? (
               <>
-                {!demoPresetActive && (
-                  <button
-                    onClick={() => setBatchDeleteConfirm(true)}
-                    disabled={mergeSelectedIds.size < 1}
-                    className="px-4 py-1.5 text-xs text-white bg-red-600 hover:bg-red-700 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed font-medium"
-                  >
-                    Delete {mergeSelectedIds.size}
-                  </button>
-                )}
+                <button
+                  onClick={() => setBatchDeleteConfirm(true)}
+                  disabled={mergeSelectedIds.size < 1}
+                  className="px-4 py-1.5 text-xs text-white bg-red-600 hover:bg-red-700 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed font-medium"
+                >
+                  Delete {mergeSelectedIds.size}
+                </button>
                 <button
                   onClick={() => setIsMoveMode(true)}
                   disabled={mergeSelectedIds.size < 1 || isMoving}
