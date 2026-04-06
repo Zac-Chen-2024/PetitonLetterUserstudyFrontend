@@ -1353,7 +1353,6 @@ export function ArgumentGraph({
   const mergeSubArguments = baseMergeSubArguments;
   const moveSubArguments = moveSubArgumentsOverride ?? baseMoveSubArguments;
   const consolidateSubArguments = consolidateSubArgumentsOverride ?? baseConsolidateSubArguments;
-  const isConsolidateDemoScene = demoPresetActive && demoSceneKey === 'consolidate';
 
   const containerRef = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(DEFAULT_CANVAS_SCALE);
@@ -2267,9 +2266,7 @@ export function ArgumentGraph({
       {/* Merge mode banner */}
       {isMergeMode && (
         <div className="flex-shrink-0 px-4 py-1.5 bg-amber-50 border-b border-amber-200 text-xs text-amber-700">
-          {isConsolidateDemoScene
-            ? 'Select the first two sub-arguments, then consolidate them into one fixed demo result. Press Escape to cancel.'
-            : 'Click sub-argument cards to select them for merging. All selected must be under the same standard (can be from different arguments). Press Escape to cancel.'}
+          Click sub-argument cards to select them for merging. All selected must be under the same standard (can be from different arguments). Press Escape to cancel.
         </div>
       )}
 
@@ -2312,7 +2309,7 @@ export function ArgumentGraph({
             className={`p-1.5 rounded transition-colors ${
               isMergeMode ? 'bg-amber-100 text-amber-700' : 'hover:bg-slate-100'
             }`}
-            title={isConsolidateDemoScene ? (isMergeMode ? 'Exit Consolidate' : 'Consolidate') : (isMergeMode ? 'Exit Merge' : 'Merge')}
+            title={isMergeMode ? 'Exit Merge' : 'Merge'}
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
@@ -2489,25 +2486,7 @@ export function ArgumentGraph({
             >
               Cancel
             </button>
-            {isConsolidateDemoScene ? (
-              <>
-                <span className="text-xs text-blue-700 font-medium">
-                  Consolidate the first two sub-arguments into one combined title.
-                </span>
-                <button
-                  onClick={() => handleConsolidateConfirm('demo-consolidate-arg-1')}
-                  disabled={
-                    isConsolidating ||
-                    mergeSelectedIds.size !== 2 ||
-                    !mergeSelectedIds.has('demo-consolidate-sub-1') ||
-                    !mergeSelectedIds.has('demo-consolidate-sub-2')
-                  }
-                  className="px-4 py-1.5 text-xs text-white bg-blue-600 hover:bg-blue-700 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed font-medium"
-                >
-                  {isConsolidating ? 'Consolidating...' : 'Consolidate 2'}
-                </button>
-              </>
-            ) : !isMoveMode && !isConsolidateMode ? (
+            {!isMoveMode && !isConsolidateMode ? (
               <>
                 {!demoPresetActive && (
                   <button
