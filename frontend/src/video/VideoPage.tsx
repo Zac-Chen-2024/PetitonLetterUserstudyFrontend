@@ -177,11 +177,18 @@ export default function VideoPage() {
       return {
         ...prev,
         arguments: [
-          ...prev.arguments.map(argument => ({
-            ...argument,
-            subArgumentIds: (argument.subArgumentIds || []).filter(id => !movedIds.has(id)),
-            updatedAt: new Date(),
-          })),
+          ...prev.arguments.map(argument => {
+            const remainingSubArgumentIds = (argument.subArgumentIds || []).filter(id => !movedIds.has(id));
+            const nextTitle = mergedGoodtwoPair && argument.id === 'demo-merge-arg-1'
+              ? 'Leadership role at Goodone University'
+              : argument.title;
+            return {
+              ...argument,
+              title: nextTitle,
+              subArgumentIds: remainingSubArgumentIds,
+              updatedAt: new Date(),
+            };
+          }),
           newArgument,
         ],
         subArguments: prev.subArguments.map(subArgument =>
