@@ -1,8 +1,9 @@
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { ConnectionLines, DocumentViewer, EvidenceCardPool, ArgumentGraph } from '../components';
 import { LetterPanel } from '../components/LetterPanel';
 import { useApp, useArguments, useProject, useSnippets, useWriting } from '../context/AppContext';
 import { buildDrHuVideoScenario, DR_HU_VIDEO_PROJECT_ID } from './drHuVideoScenario';
+import { buildVideoDemoScene, type VideoDemoSceneKey, type VideoDemoSceneState } from './videoDemoPresets';
 
 function VideoRouteInitializer() {
   const { setWorkMode, setSelectedDocumentId, setSelectedSnippetId, setFocusState } = useApp();
@@ -55,8 +56,190 @@ function DrHuVideoScenarioInitializer() {
 }
 
 export default function VideoPage() {
+  const { setFocusState, setSelectedSnippetId } = useApp();
   const [isGenerationDemoActive, setIsGenerationDemoActive] = useState(false);
   const demoTimerRef = useRef<number | null>(null);
+  const [activeDemoScene, setActiveDemoScene] = useState<VideoDemoSceneKey | null>(null);
+  const [demoSceneState, setDemoSceneState] = useState<VideoDemoSceneState | null>(null);
+
+  const loadDemoScene = useCallback((scene: VideoDemoSceneKey) => {
+    setIsGenerationDemoActive(false);
+    setActiveDemoScene(scene);
+    setDemoSceneState(buildVideoDemoScene(scene));
+    setFocusState({ type: 'none', id: null });
+    setSelectedSnippetId(null);
+  }, [setFocusState, setSelectedSnippetId]);
+
+  const clearDemoScene = useCallback(() => {
+    setActiveDemoScene(null);
+    setDemoSceneState(null);
+    setFocusState({ type: 'none', id: null });
+    setSelectedSnippetId(null);
+  }, [setFocusState, setSelectedSnippetId]);
+
+  const handleDemoMergeSubArguments = useCallback(async (
+    subArgumentIds: string[],
+    fallbackTitle: string,
+    _purpose: string,
+    _relationship: string
+  ) => {
+    let result: { newArgument: VideoDemoSceneState['arguments'][number]; movedSubArgumentIds: string[] } | null = null;
+
+    setDemoSceneState(prev => {
+      if (!prev) return prev;
+
+      const targetIds = new Set(subArgumentIds);
+      const selectedSubArguments = prev.subArguments.filter(subArgument => targetIds.has(subArgument.id));
+      if (selectedSubArguments.length === 0) return prev;
+
+      const title = activeDemoScene === 'merge' && targetIds.has('demo-merge-sub-4')
+        ? 'Leadership role at Goodtwo University'
+        : fallbackTitle;
+      const standardKey = prev.arguments.find(argument => argument.id === selectedSubArguments[0].argumentId)?.standardKey || 'leading_role';
+      const claimType = standardKey === 'high_salary' ? 'salary' : 'leading_role';
+      const newArgumentId = `demo-${activeDemoScene}-arg-${Date.now()}`;
+      const newArgument = {
+        id: newArgumentId,
+        title,
+        subject: 'Dr.Hu',
+        claimType,
+        snippetIds: [],
+        subArgumentIds,
+        status: 'verified' as const,
+        standardKey,
+        isAIGenerated: false,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      };
+
+      const nextSubArguments = prev.subArguments.map(subArgument =>
+        targetIds.has(subArgument.id)
+          ? { ...subArgument, argumentId: newArgumentId, updatedAt: new Date() }
+          : subArgument
+      );
+
+      const nextArguments = [
+        ...prev.arguments.map(argument => ({
+          ...argument,
+          subArgumentIds: (argument.subArgumentIds || []).filter(id => !targetIds.has(id)),
+          updatedAt: new Date(),
+        })),
+        newArgument,
+      ];
+
+      result = { newArgument, movedSubArgumentIds: subArgumentIds };
+      return {
+        ...prev,
+        arguments: nextArguments,
+        subArguments: nextSubArguments,
+      };
+    });
+
+    if (!result) {
+      throw new Error('Demo merge scene unavailable');
+    }
+
+    return result;
+  }, [activeDemoScene]);
+
+  const handleDemoMoveSubArguments = useCallback(async (subArgumentIds: string[], targetArgumentId: string) => {
+    setDemoSceneState(prev => {
+      if (!prev) return prev;
+
+      const targetIds = new Set(subArgumentIds);
+      const nextSubArguments = prev.subArguments.map(subArgument =>
+        targetIds.has(subArgument.id)
+          ? { ...subArgument, argumentId: targetArgumentId, updatedAt: new Date() }
+          : subArgument
+      );
+
+      const nextArguments = prev.arguments.map(argument => {
+        const filteredIds = (argument.subArgumentIds || []).filter(id => !targetIds.has(id));
+        if (argument.id === targetArgumentId) {
+          return {
+            ...argument,
+            subArgumentIds: [...filteredIds, ...subArgumentIds.filter(id => !filteredIds.includes(id))],
+            updatedAt: new Date(),
+          };
+        }
+        return {
+          ...argument,
+          subArgumentIds: filteredIds,
+          updatedAt: new Date(),
+        };
+      });
+
+      return {
+        ...prev,
+        arguments: nextArguments,
+        subArguments: nextSubArguments,
+      };
+    });
+  }, []);
+
+  const handleDemoConsolidateSubArguments = useCallback(async (subArgumentIds: string[], targetArgumentId: string) => {
+    let result: { newSubArgument: VideoDemoSceneState['subArguments'][number]; deletedSubArgumentIds: string[] } | null = null;
+
+    setDemoSceneState(prev => {
+      if (!prev) return prev;
+
+      const deletedIds = new Set(subArgumentIds);
+      const title = activeDemoScene === 'consolidate' && deletedIds.has('demo-consolidate-sub-1') && deletedIds.has('demo-consolidate-sub-2')
+        ? 'Strong institutional and departmental reputation'
+        : 'Combined supporting evidence';
+      const newSubArgumentId = `demo-${activeDemoScene}-sub-${Date.now()}`;
+      const mergedSnippetIds = prev.subArguments
+        .filter(subArgument => deletedIds.has(subArgument.id))
+        .flatMap(subArgument => subArgument.snippetIds);
+
+      const newSubArgument = {
+        id: newSubArgumentId,
+        argumentId: targetArgumentId,
+        title,
+        purpose: title,
+        relationship: 'Supports',
+        snippetIds: mergedSnippetIds,
+        isAIGenerated: false,
+        status: 'verified' as const,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      };
+
+      const nextSubArguments = [
+        ...prev.subArguments.filter(subArgument => !deletedIds.has(subArgument.id)),
+        newSubArgument,
+      ];
+
+      const nextArguments = prev.arguments.map(argument => {
+        const filteredIds = (argument.subArgumentIds || []).filter(id => !deletedIds.has(id));
+        if (argument.id === targetArgumentId) {
+          return {
+            ...argument,
+            subArgumentIds: [...filteredIds, newSubArgumentId],
+            updatedAt: new Date(),
+          };
+        }
+        return {
+          ...argument,
+          subArgumentIds: filteredIds,
+          updatedAt: new Date(),
+        };
+      });
+
+      result = { newSubArgument, deletedSubArgumentIds: subArgumentIds };
+      return {
+        ...prev,
+        arguments: nextArguments,
+        subArguments: nextSubArguments,
+      };
+    });
+
+    if (!result) {
+      throw new Error('Demo consolidate scene unavailable');
+    }
+
+    return result;
+  }, [activeDemoScene]);
 
   useEffect(() => {
     const isEditableTarget = (target: EventTarget | null) => {
@@ -79,10 +262,35 @@ export default function VideoPage() {
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.metaKey || event.ctrlKey || event.altKey || event.shiftKey) return;
       if (isEditableTarget(event.target)) return;
-      if (event.code !== 'Digit1' && event.key !== '1') return;
 
-      event.preventDefault();
-      triggerGenerationDemo();
+      if (event.code === 'Digit1' || event.key === '1') {
+        event.preventDefault();
+        triggerGenerationDemo();
+        return;
+      }
+
+      if (event.code === 'Digit2' || event.key === '2') {
+        event.preventDefault();
+        loadDemoScene('consolidate');
+        return;
+      }
+
+      if (event.code === 'Digit3' || event.key === '3') {
+        event.preventDefault();
+        loadDemoScene('merge');
+        return;
+      }
+
+      if (event.code === 'Digit4' || event.key === '4') {
+        event.preventDefault();
+        loadDemoScene('move');
+        return;
+      }
+
+      if (event.code === 'Digit0' || event.key === '0') {
+        event.preventDefault();
+        clearDemoScene();
+      }
     };
 
     window.addEventListener('keydown', handleKeyDown);
@@ -92,7 +300,7 @@ export default function VideoPage() {
         window.clearTimeout(demoTimerRef.current);
       }
     };
-  }, []);
+  }, [clearDemoScene, loadDemoScene]);
 
   return (
     <div className="video-layout flex flex-col h-screen bg-slate-100">
@@ -109,11 +317,20 @@ export default function VideoPage() {
         </aside>
 
         <section className="video-graph-panel flex-1 min-w-0 bg-white overflow-hidden relative z-0">
-          <ArgumentGraph demoLoading={isGenerationDemoActive} />
+          <ArgumentGraph
+            demoLoading={isGenerationDemoActive}
+            demoPresetActive={activeDemoScene !== null}
+            argumentsOverride={demoSceneState?.arguments}
+            subArgumentsOverride={demoSceneState?.subArguments}
+            letterSectionsOverride={demoSceneState?.letterSections}
+            mergeSubArgumentsOverride={activeDemoScene ? handleDemoMergeSubArguments : undefined}
+            moveSubArgumentsOverride={activeDemoScene ? handleDemoMoveSubArguments : undefined}
+            consolidateSubArgumentsOverride={activeDemoScene ? handleDemoConsolidateSubArguments : undefined}
+          />
         </section>
 
         <aside className="video-letter-panel w-[485px] flex-shrink-0 border-l border-slate-200 overflow-hidden bg-white shadow-[-4px_0_12px_rgba(0,0,0,0.08)] z-10">
-          <LetterPanel className="h-full" demoClearContent={isGenerationDemoActive} />
+          <LetterPanel className="h-full" demoClearContent={isGenerationDemoActive || activeDemoScene !== null} />
         </aside>
       </div>
 

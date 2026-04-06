@@ -561,6 +561,7 @@ function SubArgumentNodeComponent({
   mergeDisabled,
   projectId,
   onContextMenu,
+  showActions = true,
 }: DraggableNodeProps & {
   node: SubArgumentNode;
   t: (key: string, options?: Record<string, unknown>) => string;
@@ -577,6 +578,7 @@ function SubArgumentNodeComponent({
   mergeDisabled?: boolean;
   projectId?: string;
   onContextMenu?: (e: React.MouseEvent) => void;
+  showActions?: boolean;
 }) {
   const isVideoLayout = typeof window !== 'undefined' && window.location.pathname === '/video';
   const [isDragging, setIsDragging] = useState(false);
@@ -605,6 +607,7 @@ function SubArgumentNodeComponent({
 
   // Handle double-click to edit title
   const handleDoubleClick = (e: React.MouseEvent) => {
+    if (!showActions) return;
     e.stopPropagation();
     setIsEditing(true);
     setEditTitle(node.data.title);
@@ -807,14 +810,14 @@ function SubArgumentNodeComponent({
             />
           ) : (
             <span
-              className={`${isVideoLayout ? 'text-[18px] line-clamp-3' : 'text-sm line-clamp-2'} font-semibold text-emerald-800 cursor-text hover:bg-emerald-100 rounded px-1 -mx-1`}
+              className={`${isVideoLayout ? 'text-[18px] line-clamp-3' : 'text-sm line-clamp-2'} font-semibold text-emerald-800 rounded px-1 -mx-1 ${showActions ? 'cursor-text hover:bg-emerald-100' : ''}`}
               onDoubleClick={handleDoubleClick}
-              title="Double-click to edit"
+              title={showActions ? 'Double-click to edit' : undefined}
             >
               {node.data.title}
             </span>
           )}
-          {!mergeMode && (
+          {!mergeMode && showActions && (
           <div className="flex items-center gap-0.5 flex-shrink-0 -mt-0.5 -mr-0.5">
             {/* Red dot indicator for pending snippet confirmation */}
             {node.data.needsSnippetConfirmation && (
@@ -1279,16 +1282,43 @@ function StandardMinimap({ standardNodes, onNavigate }: {
 
 interface ArgumentGraphProps {
   demoLoading?: boolean;
+  demoPresetActive?: boolean;
+  argumentsOverride?: Argument[];
+  subArgumentsOverride?: SubArgument[];
+  letterSectionsOverride?: import('../types').LetterSection[];
+  mergeSubArgumentsOverride?: (
+    subArgumentIds: string[],
+    title: string,
+    purpose: string,
+    relationship: string
+  ) => Promise<{ newArgument: Argument; movedSubArgumentIds: string[] }>;
+  moveSubArgumentsOverride?: (
+    subArgumentIds: string[],
+    targetArgumentId: string
+  ) => Promise<void>;
+  consolidateSubArgumentsOverride?: (
+    subArgumentIds: string[],
+    targetArgumentId: string
+  ) => Promise<{ newSubArgument: SubArgument; deletedSubArgumentIds: string[] }>;
 }
 
-export function ArgumentGraph({ demoLoading = false }: ArgumentGraphProps) {
+export function ArgumentGraph({
+  demoLoading = false,
+  demoPresetActive = false,
+  argumentsOverride,
+  subArgumentsOverride,
+  letterSectionsOverride,
+  mergeSubArgumentsOverride,
+  moveSubArgumentsOverride,
+  consolidateSubArgumentsOverride,
+}: ArgumentGraphProps) {
   const { t } = useTranslation();
   const isVideoLayout = typeof window !== 'undefined' && window.location.pathname === '/video';
   const defaultCanvasOffsetX = isVideoLayout ? 120 : 0;
   const legalStandards = useLegalStandards();
   const {
-    arguments: contextArguments,
-    subArguments: contextSubArguments,
+    arguments: baseArguments,
+    subArguments: baseSubArguments,
     argumentGraphPositions,
     updateArgumentGraphPosition,
     clearArgumentGraphPositions,
@@ -1301,16 +1331,16 @@ export function ArgumentGraph({ demoLoading = false }: ArgumentGraphProps) {
     regenerateSubArgument,
     removeSubArgument,
     addSubArgument,
-    mergeSubArguments,
-    moveSubArguments,
-    consolidateSubArguments,
+    mergeSubArguments: baseMergeSubArguments,
+    moveSubArguments: baseMoveSubArguments,
+    consolidateSubArguments: baseConsolidateSubArguments,
     createArgument,
     rewriteStandard,
     removeStandard,
     moveToOverallMerits,
     removeArgument,
     updateArgument,
-    letterSections,
+    letterSections: baseLetterSections,
     projectId,
     llmProvider,
     setWritingTreePanelBounds,
@@ -1318,6 +1348,13 @@ export function ArgumentGraph({ demoLoading = false }: ArgumentGraphProps) {
     workMode,
     projectType,
   } = useApp();
+
+  const contextArguments = argumentsOverride ?? baseArguments;
+  const contextSubArguments = subArgumentsOverride ?? baseSubArguments;
+  const letterSections = letterSectionsOverride ?? baseLetterSections;
+  const mergeSubArguments = mergeSubArgumentsOverride ?? baseMergeSubArguments;
+  const moveSubArguments = moveSubArgumentsOverride ?? baseMoveSubArguments;
+  const consolidateSubArguments = consolidateSubArgumentsOverride ?? baseConsolidateSubArguments;
 
   const containerRef = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(DEFAULT_CANVAS_SCALE);
@@ -2170,6 +2207,7 @@ export function ArgumentGraph({ demoLoading = false }: ArgumentGraphProps) {
 
           {/* Right side: Generate button */}
           <div className="flex items-center gap-2">
+          {!demoPresetActive && (
           <button
               onClick={() => generateArguments(true)}
               disabled={isGeneratingArguments}
@@ -2192,6 +2230,7 @@ export function ArgumentGraph({ demoLoading = false }: ArgumentGraphProps) {
                 </>
               )}
             </button>
+          )}
           </div>
         </div>
       </div>
@@ -2343,20 +2382,21 @@ export function ArgumentGraph({ demoLoading = false }: ArgumentGraphProps) {
                   t={t}
                   onPositionReport={handleSubArgumentPositionReport}
                   transformVersion={transformVersion}
-                  onRegenerate={isMergeMode ? undefined : handleSubArgumentRegenerate}
-                  onTitleChange={isMergeMode ? undefined : handleSubArgumentTitleChange}
-                  onDelete={isMergeMode ? undefined : handleSubArgumentDelete}
+                  onRegenerate={isMergeMode || demoPresetActive ? undefined : handleSubArgumentRegenerate}
+                  onTitleChange={isMergeMode || demoPresetActive ? undefined : handleSubArgumentTitleChange}
+                  onDelete={isMergeMode || demoPresetActive ? undefined : handleSubArgumentDelete}
                   onCancelCreate={handleSubArgumentCancelCreate}
                   autoEdit={node.id === newlyCreatedSubArgId}
                   onAutoEditComplete={() => setNewlyCreatedSubArgId(null)}
                   mergeMode={isMergeMode}
                   mergeChecked={isMergeChecked}
                   mergeDisabled={isMergeDisabled}
-                  projectId={projectId}
-                  onContextMenu={(e) => {
+                  projectId={demoPresetActive ? undefined : projectId}
+                  showActions={!demoPresetActive}
+                  onContextMenu={demoPresetActive ? undefined : ((e) => {
                     const parentArg = contextArguments.find(a => a.id === node.data.argumentId);
                     handleContextMenu(e, 'subargument', node.id, parentArg?.standardKey);
-                  }}
+                  })}
                 />
               );
             })}
@@ -2373,15 +2413,15 @@ export function ArgumentGraph({ demoLoading = false }: ArgumentGraphProps) {
                 onPositionReport={handleArgumentPositionReport}
                 t={t}
                 transformVersion={transformVersion}
-                onAddSubArgument={handleAddSubArgument}
-                onDelete={handleArgumentDelete}
-                onAITitle={handleArgumentAITitle}
-                onRewrite={handleArgumentRewrite}
+                onAddSubArgument={demoPresetActive ? undefined : handleAddSubArgument}
+                onDelete={demoPresetActive ? undefined : handleArgumentDelete}
+                onAITitle={demoPresetActive ? undefined : handleArgumentAITitle}
+                onRewrite={demoPresetActive ? undefined : handleArgumentRewrite}
                 isRewriting={rewritingArgId === node.id}
                 isMoveMode={isMoveMode || isConsolidateMode}
                 isMoveTarget={moveTargetArgumentIds.has(node.id)}
                 onMoveTarget={isConsolidateMode ? handleConsolidateConfirm : handleMoveConfirm}
-                onContextMenu={(e) => handleContextMenu(e, 'argument', node.id, node.data.standardKey)}
+                onContextMenu={demoPresetActive ? undefined : ((e) => handleContextMenu(e, 'argument', node.id, node.data.standardKey))}
               />
             ))}
 
@@ -2395,12 +2435,12 @@ export function ArgumentGraph({ demoLoading = false }: ArgumentGraphProps) {
                 onDrag={handleNodeDrag}
                 scale={scale}
                 t={t}
-                onRewrite={handleStandardRewrite}
-                onRemove={(key) => setRemoveModalStandardKey(key)}
-                onAddArgument={handleAddArgument}
+                onRewrite={demoPresetActive ? undefined : handleStandardRewrite}
+                onRemove={demoPresetActive ? undefined : ((key) => setRemoveModalStandardKey(key))}
+                onAddArgument={demoPresetActive ? undefined : handleAddArgument}
                 isRewriting={rewritingStandardKey === node.id}
                 hasLetterContent={generatedStandardIds.has(node.id)}
-                onContextMenu={(e) => handleContextMenu(e, 'standard', node.id, node.id)}
+                onContextMenu={demoPresetActive ? undefined : ((e) => handleContextMenu(e, 'standard', node.id, node.id))}
               />
             ))}
           </div>
@@ -2420,13 +2460,15 @@ export function ArgumentGraph({ demoLoading = false }: ArgumentGraphProps) {
             </button>
             {!isMoveMode && !isConsolidateMode ? (
               <>
-                <button
-                  onClick={() => setBatchDeleteConfirm(true)}
-                  disabled={mergeSelectedIds.size < 1}
-                  className="px-4 py-1.5 text-xs text-white bg-red-600 hover:bg-red-700 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed font-medium"
-                >
-                  Delete {mergeSelectedIds.size}
-                </button>
+                {!demoPresetActive && (
+                  <button
+                    onClick={() => setBatchDeleteConfirm(true)}
+                    disabled={mergeSelectedIds.size < 1}
+                    className="px-4 py-1.5 text-xs text-white bg-red-600 hover:bg-red-700 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed font-medium"
+                  >
+                    Delete {mergeSelectedIds.size}
+                  </button>
+                )}
                 <button
                   onClick={() => setIsMoveMode(true)}
                   disabled={mergeSelectedIds.size < 1 || isMoving}
@@ -2653,7 +2695,7 @@ export function ArgumentGraph({ demoLoading = false }: ArgumentGraphProps) {
       )}
 
       {/* Context menu */}
-      {contextMenu && (
+      {!demoPresetActive && contextMenu && (
         <Portal>
           <div
             className="fixed z-[9999] bg-white rounded-lg shadow-xl border border-slate-200 py-1 min-w-[200px]"
@@ -2682,7 +2724,7 @@ export function ArgumentGraph({ demoLoading = false }: ArgumentGraphProps) {
       )}
 
       {/* Overall Merits move confirmation modal */}
-      {omMoveConfirm && (
+      {!demoPresetActive && omMoveConfirm && (
         <Portal>
           <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-[9999]">
             <div className="bg-white rounded-xl shadow-2xl p-6 max-w-md mx-4">
