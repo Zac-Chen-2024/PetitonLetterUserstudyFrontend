@@ -1507,6 +1507,7 @@ export function ArgumentGraph({
   // Handle sub-argument selection - set focusState and clear snippet selection
   const handleSubArgumentSelect = useCallback((subArgumentId: string) => {
     setSelectedNodeId(subArgumentId);
+    skipNextSubArgumentFocusCenterRef.current = true;
     setFocusState({ type: 'subargument', id: subArgumentId });
     setSelectedSnippetId(null);  // Clear snippet selection when focusing sub-argument
   }, [setFocusState, setSelectedSnippetId]);
@@ -2094,9 +2095,16 @@ export function ArgumentGraph({
   // Auto-center on SubArgument when focused from LetterPanel
   // Track last centered ID to avoid re-centering on every render
   const lastCenteredSubArgId = useRef<string | null>(null);
+  const skipNextSubArgumentFocusCenterRef = useRef(false);
   useEffect(() => {
     if (focusState.type !== 'subargument' || !focusState.id) {
       lastCenteredSubArgId.current = null;
+      return;
+    }
+
+    if (skipNextSubArgumentFocusCenterRef.current) {
+      skipNextSubArgumentFocusCenterRef.current = false;
+      lastCenteredSubArgId.current = focusState.id;
       return;
     }
 
