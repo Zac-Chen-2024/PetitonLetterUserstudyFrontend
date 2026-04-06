@@ -787,18 +787,6 @@ function SubArgumentNodeComponent({
       >
         {/* Header with title and actions */}
         <div className="flex items-start justify-between gap-2 mb-1">
-          {/* Merge checkbox */}
-          {mergeMode && !mergeDisabled && (
-            <div className={`mt-0.5 w-5 h-5 rounded border-2 flex items-center justify-center flex-shrink-0 ${
-              mergeChecked ? 'border-amber-500 bg-amber-500' : 'border-slate-300'
-            }`}>
-              {mergeChecked && (
-                <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-              )}
-            </div>
-          )}
           {isEditing ? (
             <input
               ref={inputRef}
@@ -818,6 +806,17 @@ function SubArgumentNodeComponent({
             >
               {node.data.title}
             </span>
+          )}
+          {mergeMode && !mergeDisabled && (
+            <div className={`mt-0.5 w-5 h-5 rounded border-2 flex items-center justify-center flex-shrink-0 ${
+              mergeChecked ? 'border-amber-500 bg-amber-500' : 'border-slate-300'
+            }`}>
+              {mergeChecked && (
+                <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+              )}
+            </div>
           )}
           {!mergeMode && showActions && (
           <div className="flex items-center gap-0.5 flex-shrink-0 -mt-0.5 -mr-0.5">
@@ -2395,8 +2394,7 @@ export function ArgumentGraph({
               // Find this sub-arg's standard_key via its parent argument
               const parentArg = contextArguments.find(a => a.id === node.data.argumentId);
               const nodeStandardKey = parentArg?.standardKey || null;
-              const isConsolidateDemoLocked = isConsolidateDemoScene && !['demo-consolidate-sub-1', 'demo-consolidate-sub-2'].includes(node.id);
-              const isMergeDisabled = (isMergeMode && mergeLockedStandardKey !== null && nodeStandardKey !== mergeLockedStandardKey) || (isMergeMode && isConsolidateDemoLocked);
+              const isMergeDisabled = isMergeMode && mergeLockedStandardKey !== null && nodeStandardKey !== mergeLockedStandardKey;
               const isMergeChecked = mergeSelectedIds.has(node.id);
               return (
                 <SubArgumentNodeComponent
