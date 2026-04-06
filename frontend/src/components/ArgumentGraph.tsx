@@ -779,7 +779,7 @@ function SubArgumentNodeComponent({
     >
       <div
         className={`
-          ${isVideoLayout ? 'w-[460px]' : 'w-[320px]'} p-3 rounded-lg border-2 shadow-sm transition-all
+          ${isVideoLayout ? 'w-[460px]' : 'w-[400px]'} p-3 rounded-lg border-2 shadow-sm transition-all
           ${mergeMode && mergeDisabled ? 'border-slate-300 bg-slate-100 opacity-40 cursor-not-allowed' : ''}
           ${mergeMode && !mergeDisabled && mergeChecked ? 'border-amber-500 bg-amber-50 ring-2 ring-offset-2 ring-amber-400 shadow-md' : ''}
           ${mergeMode && !mergeDisabled && !mergeChecked ? 'border-emerald-400 bg-emerald-50 hover:border-amber-400 cursor-pointer' : ''}
@@ -926,7 +926,7 @@ function InternalConnectionLines({ argumentNodes, standardNodes, subArgumentNode
         const argPos = argumentPositions.get(subArgNode.data.argumentId);
         if (!argPos) return null;
 
-        const x1 = subArgNode.position.x + (isVideoLayout ? 230 : 160); // Right edge of subargument node
+        const x1 = subArgNode.position.x + (isVideoLayout ? 230 : 200); // Right edge of subargument node
         const y1 = subArgNode.position.y;
         const x2 = argPos.x - (isVideoLayout ? 230 : 200); // Left edge of argument node
         const y2 = argPos.y;
