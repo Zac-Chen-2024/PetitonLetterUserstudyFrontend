@@ -9,6 +9,7 @@ import StandardActionModal from './StandardActionModal';
 import { Portal } from './Portal';
 import type { Position, Argument, SubArgument } from '../types';
 import { DR_HU_VIDEO_STANDARD_ORDER } from '../video/drHuVideoScenario';
+import type { VideoDemoSceneKey } from '../video/videoDemoPresets';
 
 // ============================================
 // Types for internal use
@@ -1283,15 +1284,11 @@ function StandardMinimap({ standardNodes, onNavigate }: {
 interface ArgumentGraphProps {
   demoLoading?: boolean;
   demoPresetActive?: boolean;
+  demoSceneKey?: VideoDemoSceneKey | null;
+  demoSceneVersion?: number;
   argumentsOverride?: Argument[];
   subArgumentsOverride?: SubArgument[];
   letterSectionsOverride?: import('../types').LetterSection[];
-  mergeSubArgumentsOverride?: (
-    subArgumentIds: string[],
-    title: string,
-    purpose: string,
-    relationship: string
-  ) => Promise<{ newArgument: Argument; movedSubArgumentIds: string[] }>;
   moveSubArgumentsOverride?: (
     subArgumentIds: string[],
     targetArgumentId: string
@@ -1305,10 +1302,11 @@ interface ArgumentGraphProps {
 export function ArgumentGraph({
   demoLoading = false,
   demoPresetActive = false,
+  demoSceneKey = null,
+  demoSceneVersion = 0,
   argumentsOverride,
   subArgumentsOverride,
   letterSectionsOverride,
-  mergeSubArgumentsOverride,
   moveSubArgumentsOverride,
   consolidateSubArgumentsOverride,
 }: ArgumentGraphProps) {
@@ -1352,9 +1350,10 @@ export function ArgumentGraph({
   const contextArguments = argumentsOverride ?? baseArguments;
   const contextSubArguments = subArgumentsOverride ?? baseSubArguments;
   const letterSections = letterSectionsOverride ?? baseLetterSections;
-  const mergeSubArguments = mergeSubArgumentsOverride ?? baseMergeSubArguments;
+  const mergeSubArguments = baseMergeSubArguments;
   const moveSubArguments = moveSubArgumentsOverride ?? baseMoveSubArguments;
   const consolidateSubArguments = consolidateSubArgumentsOverride ?? baseConsolidateSubArguments;
+  const isConsolidateDemoScene = demoPresetActive && demoSceneKey === 'consolidate';
 
   const containerRef = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(DEFAULT_CANVAS_SCALE);
@@ -1420,6 +1419,21 @@ export function ArgumentGraph({
     setScale(DEFAULT_CANVAS_SCALE);
     setOffset(nextOffset);
   }, []);
+
+  useEffect(() => {
+    setSelectedNodeId(null);
+    setIsMergeMode(false);
+    setMergeSelectedIds(new Set());
+    setIsMoveMode(false);
+    setIsConsolidateMode(false);
+    setBatchDeleteConfirm(false);
+    setContextMenu(null);
+    setDeleteSubArgModalId(null);
+    setDeleteArgModalId(null);
+    setRemoveModalStandardKey(null);
+    setOmMoveConfirm(null);
+    resetCanvasView({ x: defaultCanvasOffsetX, y: 0 });
+  }, [defaultCanvasOffsetX, demoSceneVersion, resetCanvasView]);
 
   // Calculate layout
   const { argumentNodes, standardNodes, subArgumentNodes } = calculateTreeLayout(
@@ -2238,7 +2252,9 @@ export function ArgumentGraph({
       {/* Merge mode banner */}
       {isMergeMode && (
         <div className="flex-shrink-0 px-4 py-1.5 bg-amber-50 border-b border-amber-200 text-xs text-amber-700">
-          Click sub-argument cards to select them for merging. All selected must be under the same standard (can be from different arguments). Press Escape to cancel.
+          {isConsolidateDemoScene
+            ? 'Select the first two sub-arguments, then consolidate them into one fixed demo result. Press Escape to cancel.'
+            : 'Click sub-argument cards to select them for merging. All selected must be under the same standard (can be from different arguments). Press Escape to cancel.'}
         </div>
       )}
 
@@ -2281,7 +2297,7 @@ export function ArgumentGraph({
             className={`p-1.5 rounded transition-colors ${
               isMergeMode ? 'bg-amber-100 text-amber-700' : 'hover:bg-slate-100'
             }`}
-            title={isMergeMode ? 'Exit Merge' : 'Merge'}
+            title={isConsolidateDemoScene ? (isMergeMode ? 'Exit Consolidate' : 'Consolidate') : (isMergeMode ? 'Exit Merge' : 'Merge')}
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
@@ -2363,7 +2379,8 @@ export function ArgumentGraph({
               // Find this sub-arg's standard_key via its parent argument
               const parentArg = contextArguments.find(a => a.id === node.data.argumentId);
               const nodeStandardKey = parentArg?.standardKey || null;
-              const isMergeDisabled = isMergeMode && mergeLockedStandardKey !== null && nodeStandardKey !== mergeLockedStandardKey;
+              const isConsolidateDemoLocked = isConsolidateDemoScene && !['demo-consolidate-sub-1', 'demo-consolidate-sub-2'].includes(node.id);
+              const isMergeDisabled = (isMergeMode && mergeLockedStandardKey !== null && nodeStandardKey !== mergeLockedStandardKey) || (isMergeMode && isConsolidateDemoLocked);
               const isMergeChecked = mergeSelectedIds.has(node.id);
               return (
                 <SubArgumentNodeComponent
@@ -2458,7 +2475,25 @@ export function ArgumentGraph({
             >
               Cancel
             </button>
-            {!isMoveMode && !isConsolidateMode ? (
+            {isConsolidateDemoScene ? (
+              <>
+                <span className="text-xs text-blue-700 font-medium">
+                  Consolidate the first two sub-arguments into one combined title.
+                </span>
+                <button
+                  onClick={() => handleConsolidateConfirm('demo-consolidate-arg-1')}
+                  disabled={
+                    isConsolidating ||
+                    mergeSelectedIds.size !== 2 ||
+                    !mergeSelectedIds.has('demo-consolidate-sub-1') ||
+                    !mergeSelectedIds.has('demo-consolidate-sub-2')
+                  }
+                  className="px-4 py-1.5 text-xs text-white bg-blue-600 hover:bg-blue-700 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed font-medium"
+                >
+                  {isConsolidating ? 'Consolidating...' : 'Consolidate 2'}
+                </button>
+              </>
+            ) : !isMoveMode && !isConsolidateMode ? (
               <>
                 {!demoPresetActive && (
                   <button
