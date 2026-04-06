@@ -59,6 +59,7 @@ interface SubArgumentNode {
 
 type NodeType = ArgumentNode | StandardNode | SubArgumentNode;
 const DEFAULT_CANVAS_SCALE = 0.7;
+const SUBARGUMENT_FOCUS_X_OFFSET = 10;
 
 function getCondensedRelationshipLabel(node: SubArgumentNode): string {
   const combined = `${node.data.title} ${node.data.purpose} ${node.data.relationship}`.toLowerCase();
@@ -1426,7 +1427,7 @@ export function ArgumentGraph({
 
     const containerRect = container.getBoundingClientRect();
     resetCanvasView({
-      x: defaultCanvasOffsetX,
+      x: defaultCanvasOffsetX + SUBARGUMENT_FOCUS_X_OFFSET,
       y: (containerRect.height / 2) - (targetY * DEFAULT_CANVAS_SCALE),
     });
   }, [defaultCanvasOffsetX, resetCanvasView]);
