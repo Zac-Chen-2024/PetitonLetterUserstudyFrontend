@@ -58,35 +58,7 @@ interface SubArgumentNode {
 
 type NodeType = ArgumentNode | StandardNode | SubArgumentNode;
 
-function getVideoSubArgumentBadge(node: SubArgumentNode): string {
-  const combined = `${node.data.title} ${node.data.purpose} ${node.data.relationship}`.toLowerCase();
-
-  if (combined.includes('review') || combined.includes('voting') || combined.includes('judg')) {
-    return 'review_authority';
-  }
-  if (combined.includes('project principal') || combined.includes('project-principal') || combined.includes('deliverable')) {
-    return 'project_lead';
-  }
-  if (combined.includes('appointment') || combined.includes('vice dean') || combined.includes('governance')) {
-    return 'governance_role';
-  }
-  if (combined.includes('external')) {
-    return 'external_role';
-  }
-  if (combined.includes('media') || combined.includes('publish')) {
-    return 'media_record';
-  }
-  if (combined.includes('article') || combined.includes('journal') || combined.includes('citation')) {
-    return 'article_record';
-  }
-  if (combined.includes('method') || combined.includes('impact') || combined.includes('contribution')) {
-    return 'impact_record';
-  }
-
-  return 'role_evidence';
-}
-
-function getVideoConnectionLabel(node: SubArgumentNode): string {
+function getCondensedRelationshipLabel(node: SubArgumentNode): string {
   const combined = `${node.data.title} ${node.data.purpose} ${node.data.relationship}`.toLowerCase();
 
   if (combined.includes('independent') || combined.includes('confidentiality') || combined.includes('require')) {
@@ -112,6 +84,26 @@ function getVideoConnectionLabel(node: SubArgumentNode): string {
   }
   if (combined.includes('method') || combined.includes('impact') || combined.includes('contribution')) {
     return 'Demonstrates';
+  }
+  if (
+    combined.includes('support') ||
+    combined.includes('evidence') ||
+    combined.includes('confirm') ||
+    combined.includes('corroborat') ||
+    combined.includes('substantiat') ||
+    combined.includes('prove')
+  ) {
+    return 'Supports';
+  }
+
+  const firstWord = node.data.relationship
+    .trim()
+    .replace(/^[^a-zA-Z]+/, '')
+    .match(/[a-zA-Z]+/);
+
+  if (firstWord) {
+    const normalized = firstWord[0].toLowerCase();
+    return normalized.charAt(0).toUpperCase() + normalized.slice(1);
   }
 
   return 'Supports';
@@ -889,7 +881,7 @@ function SubArgumentNodeComponent({
         {/* Relationship label */}
         <div className={`flex items-center justify-between ${isVideoLayout ? 'text-sm' : 'text-xs'}`}>
           <span className={`px-2 py-0.5 bg-emerald-200 text-emerald-700 rounded-full ${isVideoLayout ? 'text-sm' : 'text-[10px]'}`}>
-            {isVideoLayout ? getVideoSubArgumentBadge(node) : node.data.relationship}
+            {getCondensedRelationshipLabel(node)}
           </span>
           <span className="text-emerald-500">{t('graph.node.snippets', { count: node.data.snippetCount })}</span>
         </div>
@@ -968,7 +960,7 @@ function InternalConnectionLines({ argumentNodes, standardNodes, subArgumentNode
               fill="#059669"
               fontWeight={500}
             >
-              {isVideoLayout ? getVideoConnectionLabel(subArgNode) : subArgNode.data.relationship.slice(0, 12)}
+              {getCondensedRelationshipLabel(subArgNode)}
             </text>
           </g>
         );
