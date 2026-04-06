@@ -57,6 +57,7 @@ interface SubArgumentNode {
 }
 
 type NodeType = ArgumentNode | StandardNode | SubArgumentNode;
+const DEFAULT_CANVAS_SCALE = 0.7;
 
 function getCondensedRelationshipLabel(node: SubArgumentNode): string {
   const combined = `${node.data.title} ${node.data.purpose} ${node.data.relationship}`.toLowerCase();
@@ -1283,7 +1284,6 @@ interface ArgumentGraphProps {
 export function ArgumentGraph({ demoLoading = false }: ArgumentGraphProps) {
   const { t } = useTranslation();
   const isVideoLayout = typeof window !== 'undefined' && window.location.pathname === '/video';
-  const defaultCanvasScale = 0.7;
   const defaultCanvasOffsetX = isVideoLayout ? 120 : 0;
   const legalStandards = useLegalStandards();
   const {
@@ -1320,8 +1320,8 @@ export function ArgumentGraph({ demoLoading = false }: ArgumentGraphProps) {
   } = useApp();
 
   const containerRef = useRef<HTMLDivElement>(null);
-  const [scale, setScale] = useState(defaultCanvasScale);
-  const scaleRef = useRef(defaultCanvasScale);
+  const [scale, setScale] = useState(DEFAULT_CANVAS_SCALE);
+  const scaleRef = useRef(DEFAULT_CANVAS_SCALE);
   const offsetRef = useRef<Position>({ x: defaultCanvasOffsetX, y: 0 });
   const [offset, setOffset] = useState<Position>({ x: defaultCanvasOffsetX, y: 0 });
   const [isPanning, setIsPanning] = useState(false);
@@ -1376,6 +1376,13 @@ export function ArgumentGraph({ demoLoading = false }: ArgumentGraphProps) {
   useEffect(() => {
     setTransformVersion(v => v + 1);
   }, [scale, offset.x, offset.y, workMode]);
+
+  const resetCanvasView = useCallback((nextOffset: Position) => {
+    scaleRef.current = DEFAULT_CANVAS_SCALE;
+    offsetRef.current = nextOffset;
+    setScale(DEFAULT_CANVAS_SCALE);
+    setOffset(nextOffset);
+  }, []);
 
   // Calculate layout
   const { argumentNodes, standardNodes, subArgumentNodes } = calculateTreeLayout(
@@ -1971,9 +1978,8 @@ export function ArgumentGraph({ demoLoading = false }: ArgumentGraphProps) {
   // Handle auto-arrange nodes
   const handleArrangeNodes = useCallback(() => {
     clearArgumentGraphPositions();
-    setScale(defaultCanvasScale);
-    setOffset({ x: defaultCanvasOffsetX, y: 0 });
-  }, [clearArgumentGraphPositions, defaultCanvasScale, defaultCanvasOffsetX]);
+    resetCanvasView({ x: defaultCanvasOffsetX, y: 0 });
+  }, [clearArgumentGraphPositions, defaultCanvasOffsetX, resetCanvasView]);
 
   // Handle mouse wheel zoom — zoom toward mouse cursor
   const handleWheel = useCallback((e: WheelEvent) => {
@@ -2047,16 +2053,15 @@ export function ArgumentGraph({ demoLoading = false }: ArgumentGraphProps) {
     const containerRect = container.getBoundingClientRect();
     const containerHeight = containerRect.height;
 
-    const targetScale = defaultCanvasScale;
-    setScale(targetScale);
+    const targetScale = DEFAULT_CANVAS_SCALE;
 
     // Calculate offset to center the node vertically only
     const targetY = targetNode.position.y;
     const newOffsetY = (containerHeight / 2) - (targetY * targetScale);
 
     // Keep horizontal offset at default (0) like auto-arrange button
-    setOffset({ x: defaultCanvasOffsetX, y: newOffsetY });
-  }, [focusState.type, focusState.id, subArgumentNodes, defaultCanvasScale, defaultCanvasOffsetX]);
+    resetCanvasView({ x: defaultCanvasOffsetX, y: newOffsetY });
+  }, [focusState.type, focusState.id, subArgumentNodes, defaultCanvasOffsetX, resetCanvasView]);
 
   // Navigate to a standard node from the minimap
   const handleNavigateToStandard = useCallback((standardId: string) => {
@@ -2067,13 +2072,12 @@ export function ArgumentGraph({ demoLoading = false }: ArgumentGraphProps) {
     setFocusState({ type: 'none', id: null });
 
     const containerRect = containerRef.current.getBoundingClientRect();
-    const targetScale = defaultCanvasScale;
-    setScale(targetScale);
+    const targetScale = DEFAULT_CANVAS_SCALE;
 
     const newOffsetX = (containerRect.width / 2) - (targetNode.position.x * targetScale) + defaultCanvasOffsetX;
     const newOffsetY = (containerRect.height / 2) - (targetNode.position.y * targetScale);
-    setOffset({ x: newOffsetX, y: newOffsetY });
-  }, [standardNodes, setFocusState, defaultCanvasScale, defaultCanvasOffsetX]);
+    resetCanvasView({ x: newOffsetX, y: newOffsetY });
+  }, [standardNodes, setFocusState, defaultCanvasOffsetX, resetCanvasView]);
 
   // Deferred center: set a pending node ID, effect will center once layout updates
   const pendingCenterNodeId = useRef<string | null>(null);
@@ -2091,13 +2095,12 @@ export function ArgumentGraph({ demoLoading = false }: ArgumentGraphProps) {
 
     pendingCenterNodeId.current = null;
     const containerRect = containerRef.current.getBoundingClientRect();
-    const targetScale = defaultCanvasScale;
-    setScale(targetScale);
-    setOffset({
+    const targetScale = DEFAULT_CANVAS_SCALE;
+    resetCanvasView({
       x: (containerRect.width / 2) - (target.position.x * targetScale) + defaultCanvasOffsetX,
       y: (containerRect.height / 2) - (target.position.y * targetScale),
     });
-  }, [argumentNodes, subArgumentNodes, defaultCanvasScale, defaultCanvasOffsetX]);
+  }, [argumentNodes, subArgumentNodes, defaultCanvasOffsetX, resetCanvasView]);
 
   // Handle keyboard shortcuts
   useEffect(() => {
