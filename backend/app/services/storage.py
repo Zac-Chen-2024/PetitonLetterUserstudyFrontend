@@ -10,7 +10,7 @@ from pathlib import Path
 
 # 数据存储根目录 (backend/data)
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
-PROJECTS_DIR = DATA_DIR / "projects"
+PROJECTS_DIR = Path(os.getenv("PETITON_PROJECTS_DIR", str(DATA_DIR / "projects")))
 
 
 def ensure_dirs():
