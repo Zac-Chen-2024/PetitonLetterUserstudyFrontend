@@ -215,9 +215,14 @@ function DataLoader({ children }: { children: ReactNode }) {
  * UIProvider and WritingProvider are innermost.
  * DataLoader sits inside all providers to access all setters.
  */
-export function AppProviders({ children }: { children: ReactNode }) {
+interface AppProvidersProps {
+  children: ReactNode;
+  projectIdOverride?: string;
+}
+
+export function AppProviders({ children, projectIdOverride }: AppProvidersProps) {
   return (
-    <ProjectProvider>
+    <ProjectProvider projectIdOverride={projectIdOverride}>
       <SnippetsProvider>
         <ArgumentsProvider>
           <UIProvider>

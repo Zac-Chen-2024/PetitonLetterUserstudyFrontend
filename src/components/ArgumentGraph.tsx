@@ -8,6 +8,7 @@ import { apiClient } from '../services/api';
 import StandardActionModal from './StandardActionModal';
 import { Portal } from './Portal';
 import type { Position, Argument, SubArgument } from '../types';
+import { DR_HU_VIDEO_STANDARD_ORDER } from '../video/drHuVideoScenario';
 
 // ============================================
 // Types for internal use
@@ -56,6 +57,65 @@ interface SubArgumentNode {
 }
 
 type NodeType = ArgumentNode | StandardNode | SubArgumentNode;
+
+function getVideoSubArgumentBadge(node: SubArgumentNode): string {
+  const combined = `${node.data.title} ${node.data.purpose} ${node.data.relationship}`.toLowerCase();
+
+  if (combined.includes('review') || combined.includes('voting') || combined.includes('judg')) {
+    return 'review_authority';
+  }
+  if (combined.includes('project principal') || combined.includes('project-principal') || combined.includes('deliverable')) {
+    return 'project_lead';
+  }
+  if (combined.includes('appointment') || combined.includes('vice dean') || combined.includes('governance')) {
+    return 'governance_role';
+  }
+  if (combined.includes('external')) {
+    return 'external_role';
+  }
+  if (combined.includes('media') || combined.includes('publish')) {
+    return 'media_record';
+  }
+  if (combined.includes('article') || combined.includes('journal') || combined.includes('citation')) {
+    return 'article_record';
+  }
+  if (combined.includes('method') || combined.includes('impact') || combined.includes('contribution')) {
+    return 'impact_record';
+  }
+
+  return 'role_evidence';
+}
+
+function getVideoConnectionLabel(node: SubArgumentNode): string {
+  const combined = `${node.data.title} ${node.data.purpose} ${node.data.relationship}`.toLowerCase();
+
+  if (combined.includes('independent') || combined.includes('confidentiality') || combined.includes('require')) {
+    return 'Requires';
+  }
+  if (combined.includes('review') || combined.includes('voting') || combined.includes('judg')) {
+    return 'Delegates';
+  }
+  if (combined.includes('project principal') || combined.includes('project-principal') || combined.includes('deliverable')) {
+    return 'Assigns';
+  }
+  if (combined.includes('appointment') || combined.includes('vice dean') || combined.includes('governance')) {
+    return combined.includes('scope') || combined.includes('governance') ? 'Defines' : 'Establishes';
+  }
+  if (combined.includes('external')) {
+    return 'Shows';
+  }
+  if (combined.includes('media') || combined.includes('publish')) {
+    return 'Profiles';
+  }
+  if (combined.includes('article') || combined.includes('journal') || combined.includes('citation')) {
+    return 'Documents';
+  }
+  if (combined.includes('method') || combined.includes('impact') || combined.includes('contribution')) {
+    return 'Demonstrates';
+  }
+
+  return 'Supports';
+}
 
 // ============================================
 // Icons
@@ -124,6 +184,7 @@ function ArgumentNodeComponent({
   onMoveTarget?: (argumentId: string) => void;
   onContextMenu?: (e: React.MouseEvent) => void;
 }) {
+  const isVideoLayout = typeof window !== 'undefined' && window.location.pathname === '/video';
   const [isDragging, setIsDragging] = useState(false);
   const dragStartPos = useRef<Position | null>(null);
   const nodeStartPos = useRef<Position | null>(null);
@@ -227,7 +288,7 @@ function ArgumentNodeComponent({
     >
       <div
         className={`
-          w-[400px] p-4 rounded-xl border-2 shadow-md transition-all
+          ${isVideoLayout ? 'w-[460px]' : 'w-[400px]'} p-4 rounded-xl border-2 shadow-md transition-all
           ${isMoveMode && isMoveTarget
             ? 'border-purple-500 bg-purple-100 ring-2 ring-purple-400 ring-offset-2 shadow-lg'
             : isMoveMode && !isMoveTarget
@@ -240,7 +301,7 @@ function ArgumentNodeComponent({
       >
         {/* Header */}
         <div className="flex items-start justify-between gap-2 mb-2">
-          <span className="text-base font-bold text-purple-800 line-clamp-3">{node.data.title}</span>
+          <span className={`${isVideoLayout ? 'text-[18px]' : 'text-base'} font-bold text-purple-800 line-clamp-3`}>{node.data.title}</span>
           <div className="flex items-center gap-0.5 flex-shrink-0 -mt-1 -mr-1">
             {/* Add SubArgument button */}
             {onAddSubArgument && (
@@ -307,11 +368,11 @@ function ArgumentNodeComponent({
         {/* Bottom row: standard tag (left) + stats (right) */}
         <div className="mt-auto pt-2 flex items-end justify-between">
           {node.data.standardKey ? (
-            <span className="text-xs px-2 py-1 bg-purple-200 text-purple-700 rounded-full">
+            <span className={`${isVideoLayout ? 'text-sm' : 'text-xs'} px-2 py-1 bg-purple-200 text-purple-700 rounded-full`}>
               {node.data.standardKey}
             </span>
           ) : <span />}
-          <div className="flex items-center gap-2 text-xs">
+          <div className={`flex items-center gap-2 ${isVideoLayout ? 'text-sm' : 'text-xs'}`}>
             {node.data.completenessScore !== undefined && (
               <div className="flex items-center gap-1">
                 <div className={`w-2.5 h-2.5 rounded-full ${getCompletenessColor(node.data.completenessScore)}`} />
@@ -340,6 +401,7 @@ function StandardNodeComponent({
   hasLetterContent?: boolean;
   onContextMenu?: (e: React.MouseEvent) => void;
 }) {
+  const isVideoLayout = typeof window !== 'undefined' && window.location.pathname === '/video';
   const [isDragging, setIsDragging] = useState(false);
   const dragStartPos = useRef<Position | null>(null);
   const nodeStartPos = useRef<Position | null>(null);
@@ -396,7 +458,7 @@ function StandardNodeComponent({
     >
       <div
         className={`
-          w-[240px] p-4 rounded-xl bg-white shadow-lg transition-all
+          ${isVideoLayout ? 'w-[280px]' : 'w-[240px]'} p-4 rounded-xl bg-white shadow-lg transition-all
           ${isSelected ? 'ring-2 ring-offset-2 shadow-xl scale-105' : 'hover:shadow-xl'}
         `}
         style={{
@@ -412,7 +474,7 @@ function StandardNodeComponent({
               className="w-5 h-5 rounded-full flex-shrink-0"
               style={{ backgroundColor: node.data.color }}
             />
-            <span className="text-base font-bold text-slate-800">{node.data.shortName}</span>
+            <span className={`${isVideoLayout ? 'text-[18px]' : 'text-base'} font-bold text-slate-800`}>{node.data.shortName}</span>
           </div>
           <div className="flex items-center gap-0.5 flex-shrink-0 -mt-1 -mr-1">
             {/* Add Argument button */}
@@ -463,7 +525,7 @@ function StandardNodeComponent({
         </div>
         <div className="mt-2 flex items-center justify-between">
           <div className="flex items-center gap-1.5">
-            <span className="text-xs text-slate-400">{t('graph.legend.standard')}</span>
+            <span className={`${isVideoLayout ? 'text-sm' : 'text-xs'} text-slate-400`}>{t('graph.legend.standard')}</span>
             {/* Letter content status indicator */}
             {hasLetterContent ? (
               <svg className="w-3.5 h-3.5 text-emerald-500" fill="currentColor" viewBox="0 0 20 20" title={t('graph.standard.written', 'Written')}>
@@ -476,7 +538,7 @@ function StandardNodeComponent({
             )}
           </div>
           {node.data.argumentCount > 0 && (
-            <span className="text-xs px-2 py-0.5 bg-slate-100 text-slate-600 rounded">
+            <span className={`${isVideoLayout ? 'text-sm' : 'text-xs'} px-2 py-0.5 bg-slate-100 text-slate-600 rounded`}>
               {t('graph.node.args', { count: node.data.argumentCount })}
             </span>
           )}
@@ -523,6 +585,7 @@ function SubArgumentNodeComponent({
   projectId?: string;
   onContextMenu?: (e: React.MouseEvent) => void;
 }) {
+  const isVideoLayout = typeof window !== 'undefined' && window.location.pathname === '/video';
   const [isDragging, setIsDragging] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
   const [editTitle, setEditTitle] = useState(node.data.title);
@@ -716,7 +779,7 @@ function SubArgumentNodeComponent({
     >
       <div
         className={`
-          w-[320px] p-3 rounded-lg border-2 shadow-sm transition-all
+          ${isVideoLayout ? 'w-[460px]' : 'w-[320px]'} p-3 rounded-lg border-2 shadow-sm transition-all
           ${mergeMode && mergeDisabled ? 'border-slate-300 bg-slate-100 opacity-40 cursor-not-allowed' : ''}
           ${mergeMode && !mergeDisabled && mergeChecked ? 'border-amber-500 bg-amber-50 ring-2 ring-offset-2 ring-amber-400 shadow-md' : ''}
           ${mergeMode && !mergeDisabled && !mergeChecked ? 'border-emerald-400 bg-emerald-50 hover:border-amber-400 cursor-pointer' : ''}
@@ -746,12 +809,12 @@ function SubArgumentNodeComponent({
               onChange={(e) => setEditTitle(e.target.value)}
               onKeyDown={handleKeyDown}
               onBlur={handleTitleSave}
-              className="flex-1 text-sm font-semibold text-emerald-800 bg-white border border-emerald-300 rounded px-1 py-0.5 focus:outline-none focus:ring-1 focus:ring-emerald-500"
+              className={`flex-1 ${isVideoLayout ? 'text-[18px]' : 'text-sm'} font-semibold text-emerald-800 bg-white border border-emerald-300 rounded px-1 py-0.5 focus:outline-none focus:ring-1 focus:ring-emerald-500`}
               onClick={(e) => e.stopPropagation()}
             />
           ) : (
             <span
-              className="text-sm font-semibold text-emerald-800 line-clamp-2 cursor-text hover:bg-emerald-100 rounded px-1 -mx-1"
+              className={`${isVideoLayout ? 'text-[18px] line-clamp-3' : 'text-sm line-clamp-2'} font-semibold text-emerald-800 cursor-text hover:bg-emerald-100 rounded px-1 -mx-1`}
               onDoubleClick={handleDoubleClick}
               title="Double-click to edit"
             >
@@ -821,12 +884,12 @@ function SubArgumentNodeComponent({
         </div>
 
         {/* Purpose */}
-        <p className="text-xs text-emerald-600 mb-2 line-clamp-2">{node.data.purpose}</p>
+        <p className={`${isVideoLayout ? 'text-sm' : 'text-xs'} text-emerald-600 mb-2 line-clamp-2`}>{node.data.purpose}</p>
 
         {/* Relationship label */}
-        <div className="flex items-center justify-between text-xs">
-          <span className="px-2 py-0.5 bg-emerald-200 text-emerald-700 rounded-full text-[10px]">
-            {node.data.relationship}
+        <div className={`flex items-center justify-between ${isVideoLayout ? 'text-sm' : 'text-xs'}`}>
+          <span className={`px-2 py-0.5 bg-emerald-200 text-emerald-700 rounded-full ${isVideoLayout ? 'text-sm' : 'text-[10px]'}`}>
+            {isVideoLayout ? getVideoSubArgumentBadge(node) : node.data.relationship}
           </span>
           <span className="text-emerald-500">{t('graph.node.snippets', { count: node.data.snippetCount })}</span>
         </div>
@@ -846,15 +909,13 @@ interface InternalConnectionLinesProps {
 }
 
 function InternalConnectionLines({ argumentNodes, standardNodes, subArgumentNodes }: InternalConnectionLinesProps) {
+  const isVideoLayout = typeof window !== 'undefined' && window.location.pathname === '/video';
   const standardPositions = new Map(standardNodes.map(n => [n.id, n.position]));
   const argumentPositions = new Map(argumentNodes.map(n => [n.id, n.position]));
 
   return (
     <svg className="absolute" style={{ zIndex: 35, pointerEvents: 'none', left: 0, top: 0, width: '4000px', height: '3000px', overflow: 'visible' }}>
       <defs>
-        <marker id="arg-arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-          <polygon points="0 0, 10 3.5, 0 7" fill="#a855f7" />
-        </marker>
         <marker id="subarg-arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
           <polygon points="0 0, 10 3.5, 0 7" fill="#10b981" />
         </marker>
@@ -865,9 +926,9 @@ function InternalConnectionLines({ argumentNodes, standardNodes, subArgumentNode
         const argPos = argumentPositions.get(subArgNode.data.argumentId);
         if (!argPos) return null;
 
-        const x1 = subArgNode.position.x + 160; // Right edge of subargument node (320px / 2)
+        const x1 = subArgNode.position.x + (isVideoLayout ? 230 : 160); // Right edge of subargument node
         const y1 = subArgNode.position.y;
-        const x2 = argPos.x - 200; // Left edge of argument node (400px / 2)
+        const x2 = argPos.x - (isVideoLayout ? 230 : 200); // Left edge of argument node
         const y2 = argPos.y;
 
         const midX = (x1 + x2) / 2;
@@ -889,10 +950,10 @@ function InternalConnectionLines({ argumentNodes, standardNodes, subArgumentNode
             />
             {/* Relationship label */}
             <rect
-              x={labelX - 40}
-              y={labelY - 8}
-              width={80}
-              height={16}
+              x={labelX - (isVideoLayout ? 46 : 40)}
+              y={labelY - (isVideoLayout ? 9 : 8)}
+              width={isVideoLayout ? 92 : 80}
+              height={isVideoLayout ? 18 : 16}
               rx={4}
               fill="white"
               stroke="#10b981"
@@ -903,11 +964,11 @@ function InternalConnectionLines({ argumentNodes, standardNodes, subArgumentNode
               x={labelX}
               y={labelY + 3}
               textAnchor="middle"
-              fontSize={11}
+              fontSize={isVideoLayout ? 13 : 11}
               fill="#059669"
               fontWeight={500}
             >
-              {subArgNode.data.relationship.slice(0, 12)}
+              {isVideoLayout ? getVideoConnectionLabel(subArgNode) : subArgNode.data.relationship.slice(0, 12)}
             </text>
           </g>
         );
@@ -921,9 +982,9 @@ function InternalConnectionLines({ argumentNodes, standardNodes, subArgumentNode
         const standardPos = standardPositions.get(standardId);
         if (!standardPos) return null;
 
-        const x1 = argNode.position.x + 200; // Right edge of argument node (400px / 2)
+        const x1 = argNode.position.x + (isVideoLayout ? 230 : 200); // Right edge of argument node
         const y1 = argNode.position.y;
-        const x2 = standardPos.x - 120; // Left edge of standard node (240px / 2)
+        const x2 = standardPos.x - (isVideoLayout ? 140 : 120); // Left edge of standard node
         const y2 = standardPos.y;
 
         const midX = (x1 + x2) / 2;
@@ -936,7 +997,6 @@ function InternalConnectionLines({ argumentNodes, standardNodes, subArgumentNode
             fill="none"
             stroke="#a855f7"
             strokeWidth={2}
-            markerEnd="url(#arg-arrowhead)"
             opacity={0.6}
           />
         );
@@ -956,6 +1016,7 @@ function calculateTreeLayout(
   legalStandards: import('../types').LegalStandard[],
   projectType?: string
 ): { argumentNodes: ArgumentNode[]; standardNodes: StandardNode[]; subArgumentNodes: SubArgumentNode[] } {
+  const isVideoLayout = typeof window !== 'undefined' && window.location.pathname === '/video';
   // Position layout with sub-arguments on the left
   const SUBARG_X = 200;          // Base X for sub-arguments
   const SUBARG_X_OFFSET = 80;    // Horizontal offset for staggered layout
@@ -963,7 +1024,7 @@ function calculateTreeLayout(
   const STANDARD_X = 1200;
   const START_Y = 100;
   const MIN_ARGUMENT_SPACING = 280;  // Minimum spacing between argument centers
-  const SUBARG_SPACING = 140;    // Vertical spacing between sub-argument centers
+  const SUBARG_SPACING = 180;    // Vertical spacing between sub-argument centers
   const SUBARG_CARD_HEIGHT = 200; // Conservative max height of sub-argument card
   const BETWEEN_GROUP_GAP = 120; // Visual gap between standard groups
   const WITHIN_GROUP_GAP = 60;   // Visual gap between arguments within same standard
@@ -1016,6 +1077,12 @@ function calculateTreeLayout(
       return Array.from(argumentsByStandard.keys()).some(key => STANDARD_KEY_TO_ID[key] === s.id);
     })
     .sort((a, b) => {
+      const isVideoLayout = typeof window !== 'undefined' && window.location.pathname === '/video';
+      if (isVideoLayout) {
+        const aOrder = DR_HU_VIDEO_STANDARD_ORDER.indexOf(a.key as typeof DR_HU_VIDEO_STANDARD_ORDER[number]);
+        const bOrder = DR_HU_VIDEO_STANDARD_ORDER.indexOf(b.key as typeof DR_HU_VIDEO_STANDARD_ORDER[number]);
+        return (aOrder === -1 ? Number.MAX_SAFE_INTEGER : aOrder) - (bOrder === -1 ? Number.MAX_SAFE_INTEGER : bOrder);
+      }
       return getArgumentCount(b.id) - getArgumentCount(a.id);
     });
 
@@ -1157,7 +1224,7 @@ function calculateTreeLayout(
     const startY = argNode.position.y - totalHeight / 2;
 
     // Staggered X position for the entire group based on argument index
-    const groupStaggerX = SUBARG_X + (argIndex % 2) * SUBARG_X_OFFSET;
+    const groupStaggerX = isVideoLayout ? SUBARG_X : SUBARG_X + (argIndex % 2) * SUBARG_X_OFFSET;
 
     argSubArgs.forEach((sa, idx) => {
       const savedPos = savedPositions.get(sa.id);
@@ -1191,21 +1258,22 @@ function StandardMinimap({ standardNodes, onNavigate }: {
   onNavigate: (id: string) => void;
 }) {
   if (standardNodes.length === 0) return null;
+  const isVideoLayout = typeof window !== 'undefined' && window.location.pathname === '/video';
   return (
     <div className="absolute bottom-3 right-3 z-50 flex flex-col gap-1 opacity-40 hover:opacity-100 transition-opacity">
       {standardNodes.map(node => (
         <button
           key={node.id}
           onClick={() => onNavigate(node.id)}
-          className="flex items-center gap-1.5 px-2 py-1 rounded-md bg-white/90 backdrop-blur-sm border border-slate-200
-                     hover:bg-slate-50 transition-colors text-[10px] text-slate-600 shadow-sm"
+          className={`${isVideoLayout ? 'min-w-[148px] px-3 py-1.5 text-xs' : 'px-2 py-1 text-[10px]'} flex items-center justify-start gap-1.5 rounded-md bg-white/90 backdrop-blur-sm border border-slate-200
+                     hover:bg-slate-50 transition-colors text-slate-600 shadow-sm`}
           title={node.data.name}
         >
           <span
             className="w-2 h-2 rounded-full flex-shrink-0"
             style={{ backgroundColor: node.data.color }}
           />
-          <span className="truncate max-w-[80px]">{node.data.shortName}</span>
+          <span className={`truncate ${isVideoLayout ? 'max-w-[118px]' : 'max-w-[80px]'}`}>{node.data.shortName}</span>
         </button>
       ))}
     </div>
@@ -1218,6 +1286,9 @@ function StandardMinimap({ standardNodes, onNavigate }: {
 
 export function ArgumentGraph() {
   const { t } = useTranslation();
+  const isVideoLayout = typeof window !== 'undefined' && window.location.pathname === '/video';
+  const defaultCanvasScale = 0.7;
+  const defaultCanvasOffsetX = isVideoLayout ? 120 : 0;
   const legalStandards = useLegalStandards();
   const {
     arguments: contextArguments,
@@ -1253,10 +1324,10 @@ export function ArgumentGraph() {
   } = useApp();
 
   const containerRef = useRef<HTMLDivElement>(null);
-  const [scale, setScale] = useState(0.7);  // Start at 70% zoom
-  const scaleRef = useRef(0.7);
-  const offsetRef = useRef<Position>({ x: 0, y: 0 });
-  const [offset, setOffset] = useState<Position>({ x: 0, y: 0 });
+  const [scale, setScale] = useState(defaultCanvasScale);
+  const scaleRef = useRef(defaultCanvasScale);
+  const offsetRef = useRef<Position>({ x: defaultCanvasOffsetX, y: 0 });
+  const [offset, setOffset] = useState<Position>({ x: defaultCanvasOffsetX, y: 0 });
   const [isPanning, setIsPanning] = useState(false);
   const [selectedNodeId, setSelectedNodeId] = useState<string | null>(null);
   const [newlyCreatedSubArgId, setNewlyCreatedSubArgId] = useState<string | null>(null);
@@ -1904,9 +1975,9 @@ export function ArgumentGraph() {
   // Handle auto-arrange nodes
   const handleArrangeNodes = useCallback(() => {
     clearArgumentGraphPositions();
-    setScale(0.7);
-    setOffset({ x: 0, y: 0 });
-  }, [clearArgumentGraphPositions]);
+    setScale(defaultCanvasScale);
+    setOffset({ x: defaultCanvasOffsetX, y: 0 });
+  }, [clearArgumentGraphPositions, defaultCanvasScale, defaultCanvasOffsetX]);
 
   // Handle mouse wheel zoom — zoom toward mouse cursor
   const handleWheel = useCallback((e: WheelEvent) => {
@@ -1980,8 +2051,7 @@ export function ArgumentGraph() {
     const containerRect = container.getBoundingClientRect();
     const containerHeight = containerRect.height;
 
-    // Set scale to 70%
-    const targetScale = 0.7;
+    const targetScale = defaultCanvasScale;
     setScale(targetScale);
 
     // Calculate offset to center the node vertically only
@@ -1989,8 +2059,8 @@ export function ArgumentGraph() {
     const newOffsetY = (containerHeight / 2) - (targetY * targetScale);
 
     // Keep horizontal offset at default (0) like auto-arrange button
-    setOffset({ x: 0, y: newOffsetY });
-  }, [focusState.type, focusState.id, subArgumentNodes]);
+    setOffset({ x: defaultCanvasOffsetX, y: newOffsetY });
+  }, [focusState.type, focusState.id, subArgumentNodes, defaultCanvasScale, defaultCanvasOffsetX]);
 
   // Navigate to a standard node from the minimap
   const handleNavigateToStandard = useCallback((standardId: string) => {
@@ -2001,13 +2071,13 @@ export function ArgumentGraph() {
     setFocusState({ type: 'none', id: null });
 
     const containerRect = containerRef.current.getBoundingClientRect();
-    const targetScale = 0.7;
+    const targetScale = defaultCanvasScale;
     setScale(targetScale);
 
-    const newOffsetX = (containerRect.width / 2) - (targetNode.position.x * targetScale);
+    const newOffsetX = (containerRect.width / 2) - (targetNode.position.x * targetScale) + defaultCanvasOffsetX;
     const newOffsetY = (containerRect.height / 2) - (targetNode.position.y * targetScale);
     setOffset({ x: newOffsetX, y: newOffsetY });
-  }, [standardNodes, setFocusState]);
+  }, [standardNodes, setFocusState, defaultCanvasScale, defaultCanvasOffsetX]);
 
   // Deferred center: set a pending node ID, effect will center once layout updates
   const pendingCenterNodeId = useRef<string | null>(null);
@@ -2025,13 +2095,13 @@ export function ArgumentGraph() {
 
     pendingCenterNodeId.current = null;
     const containerRect = containerRef.current.getBoundingClientRect();
-    const targetScale = 0.7;
+    const targetScale = defaultCanvasScale;
     setScale(targetScale);
     setOffset({
-      x: (containerRect.width / 2) - (target.position.x * targetScale),
+      x: (containerRect.width / 2) - (target.position.x * targetScale) + defaultCanvasOffsetX,
       y: (containerRect.height / 2) - (target.position.y * targetScale),
     });
-  }, [argumentNodes, subArgumentNodes]);
+  }, [argumentNodes, subArgumentNodes, defaultCanvasScale, defaultCanvasOffsetX]);
 
   // Handle keyboard shortcuts
   useEffect(() => {
@@ -2141,7 +2211,7 @@ export function ArgumentGraph() {
           <button onClick={() => handleZoom(0.1)} className="p-1.5 hover:bg-slate-100 rounded transition-colors" title="Zoom In">
             <ZoomInIcon />
           </button>
-          <span className="text-[10px] text-slate-500 text-center select-none">{Math.round(scale * 100)}%</span>
+          <span className={`${isVideoLayout ? 'text-xs' : 'text-[10px]'} text-slate-500 text-center select-none`}>{Math.round(scale * 100)}%</span>
           <button onClick={() => handleZoom(-0.1)} className="p-1.5 hover:bg-slate-100 rounded transition-colors" title="Zoom Out">
             <ZoomOutIcon />
           </button>
@@ -2176,7 +2246,7 @@ export function ArgumentGraph() {
         />
 
         {/* Legend */}
-        <div className="absolute top-3 left-3 z-50 bg-white/90 backdrop-blur-sm p-2 rounded-lg border border-slate-200 text-[10px] space-y-1.5">
+        <div className={`absolute top-3 left-3 z-50 bg-white/90 backdrop-blur-sm p-2 rounded-lg border border-slate-200 ${isVideoLayout ? 'text-xs' : 'text-[10px]'} space-y-1.5`}>
           <div className="flex items-center gap-2">
             <div className="w-3 h-3 rounded-lg bg-emerald-100 border-2 border-emerald-400" />
             <span>{t('graph.legend.subArgument')}</span>

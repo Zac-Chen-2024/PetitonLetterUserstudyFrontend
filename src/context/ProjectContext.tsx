@@ -12,7 +12,7 @@ import { legalStandards as defaultEB1AStandards } from '../data/legalStandards';
 
 const STORAGE_KEY_LLM_PROVIDER = 'evidence-system-llm-provider';
 const STORAGE_KEY_PROJECT_ID = 'evidence-system-project-id';
-const DEFAULT_PROJECT_ID = 'dehuan_liu';
+const DEFAULT_PROJECT_ID = 'yaruo_qu';
 
 export interface ProjectContextType {
   projectId: string;
@@ -32,17 +32,29 @@ export interface ProjectContextType {
 
 const ProjectContext = createContext<ProjectContextType | undefined>(undefined);
 
-export function ProjectProvider({ children }: { children: ReactNode }) {
+interface ProjectProviderProps {
+  children: ReactNode;
+  projectIdOverride?: string;
+}
+
+export function ProjectProvider({ children, projectIdOverride }: ProjectProviderProps) {
   const [projectId, setProjectIdState] = useState<string>(() => {
-    // Userstudy: always use dehuan_liu, ignore cached value
-    localStorage.setItem(STORAGE_KEY_PROJECT_ID, DEFAULT_PROJECT_ID);
-    return DEFAULT_PROJECT_ID;
+    return projectIdOverride || localStorage.getItem(STORAGE_KEY_PROJECT_ID) || DEFAULT_PROJECT_ID;
   });
 
   const setProjectId = useCallback((id: string) => {
-    setProjectIdState(id);
-    localStorage.setItem(STORAGE_KEY_PROJECT_ID, id);
-  }, []);
+    const nextId = projectIdOverride || id;
+    setProjectIdState(nextId);
+    if (!projectIdOverride) {
+      localStorage.setItem(STORAGE_KEY_PROJECT_ID, nextId);
+    }
+  }, [projectIdOverride]);
+
+  useEffect(() => {
+    if (projectIdOverride && projectId !== projectIdOverride) {
+      setProjectIdState(projectIdOverride);
+    }
+  }, [projectIdOverride, projectId]);
   const [isLoading, setIsLoading] = useState(true);
   const [loadError, setLoadError] = useState<string | null>(null);
 

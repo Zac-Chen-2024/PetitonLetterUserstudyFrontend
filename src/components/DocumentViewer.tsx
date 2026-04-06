@@ -6,6 +6,7 @@ import type { Snippet, BoundingBox, MaterialType } from '../types';
 import { SnippetCreationModal } from './SnippetCreationModal';
 import { Magnifier } from './Magnifier';
 import { BBoxLightbox } from './BBoxLightbox';
+import { getDrHuVideoExhibitShortTitle, isDrHuVideoExhibitInteractive, isDrHuVideoRoute } from '../video/drHuVideoScenario';
 
 // Configure PDF.js worker - use CDN for compatibility
 pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
@@ -544,6 +545,9 @@ export function DocumentViewer({ compact = false }: DocumentViewerProps) {
   };
 
   const handleExhibitClick = (exhibit: Exhibit) => {
+    if (isDrHuVideoRoute() && !isDrHuVideoExhibitInteractive(exhibit.id)) {
+      return;
+    }
     setSelectedDocumentId(`doc_${exhibit.id}`);
   };
 
@@ -592,7 +596,11 @@ export function DocumentViewer({ compact = false }: DocumentViewerProps) {
               {compact ? 'PDF Preview' : 'Document Viewer'}
             </h2>
             <p className="text-xs text-slate-500">
-              {compact ? (selectedExhibit?.name || 'Select an exhibit') : `${exhibits.length} exhibits`}
+              {compact
+                ? (selectedExhibit
+                    ? (isDrHuVideoRoute() ? getDrHuVideoExhibitShortTitle(selectedExhibit.id) : selectedExhibit.name)
+                    : 'Select an exhibit')
+                : `${exhibits.length} exhibits`}
             </p>
           </div>
           {compact ? (
@@ -721,6 +729,7 @@ export function DocumentViewer({ compact = false }: DocumentViewerProps) {
                         {categoryExhibits.map((exhibit) => {
                           const isSelected = `doc_${exhibit.id}` === selectedDocumentId;
                           const exhibitSnippets = allSnippets.filter(s => s.exhibitId === exhibit.id);
+                          const isInteractive = !isDrHuVideoRoute() || isDrHuVideoExhibitInteractive(exhibit.id);
 
                           return (
                             <button
@@ -730,12 +739,16 @@ export function DocumentViewer({ compact = false }: DocumentViewerProps) {
                                 w-full flex items-center gap-2 px-2 py-1 rounded text-left text-sm transition-colors
                                 ${isSelected
                                   ? 'bg-slate-900 text-white'
-                                  : 'text-slate-600 hover:bg-slate-100'
+                                  : isInteractive
+                                    ? 'text-slate-600 hover:bg-slate-100'
+                                    : 'text-slate-400 bg-slate-50 cursor-not-allowed'
                                 }
                               `}
+                              title={isInteractive ? exhibit.name : 'Video mock exhibit only'}
                             >
                               <FileIcon />
-                              <span className="flex-1 truncate">{exhibit.name}</span>
+                              <span className="w-9 text-xs font-semibold text-slate-400 flex-shrink-0">{exhibit.id}</span>
+                              <span className="flex-1 truncate">{isDrHuVideoRoute() ? getDrHuVideoExhibitShortTitle(exhibit.id) : exhibit.name}</span>
                               <span className={`
                                 text-xs px-1.5 py-0.5 rounded
                                 ${isSelected ? 'bg-white/20' : 'bg-slate-100'}

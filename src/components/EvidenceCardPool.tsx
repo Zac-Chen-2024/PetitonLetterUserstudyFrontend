@@ -7,6 +7,7 @@ import { useLegalStandards } from '../hooks/useLegalStandards';
 import type { Snippet } from '../types';
 import { getStandardKeyColor, STANDARD_KEY_TO_ID } from '../constants/colors';
 import apiClient from '../services/api';
+import { getDrHuVideoExhibitTitle, isDrHuVideoExhibitInteractive, isDrHuVideoRoute } from '../video/drHuVideoScenario';
 
 // Default color for unassigned snippets
 const DEFAULT_SNIPPET_COLOR = '#94a3b8';  // slate-400
@@ -231,12 +232,16 @@ function EvidenceCard({ snippet, isEditMode, isSelectedForEdit, onToggleSelect }
   }, [snippet.id, updateSnippetPosition, isExpanded, focusState, workMode]);
 
   const handleClick = () => {
+    const canNavigateDocument = !isDrHuVideoRoute() || !snippet.exhibitId || isDrHuVideoExhibitInteractive(snippet.exhibitId);
+
     // Clicking card body always navigates to PDF preview (even in edit mode)
     if (selectedSnippetId === snippet.id) {
       setSelectedSnippetId(null);
     } else {
       setSelectedSnippetId(snippet.id);
-      setSelectedDocumentId(snippet.documentId);
+      if (canNavigateDocument) {
+        setSelectedDocumentId(snippet.documentId);
+      }
     }
   };
 
@@ -764,7 +769,10 @@ export function EvidenceCardPool() {
       // Extract exhibit name from docId (e.g., "doc_A1" -> "Exhibit A1")
       const exhibitName = docId.replace('doc_', '');
       groups.push({
-        document: { id: docId, name: `Exhibit ${exhibitName}` },
+        document: {
+          id: docId,
+          name: isDrHuVideoRoute() ? getDrHuVideoExhibitTitle(exhibitName) : `Exhibit ${exhibitName}`,
+        },
         snippets: snips, // All snippets for this document
         relatedSnippets: relatedSnips, // Only related snippets (for display count)
       });

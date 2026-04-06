@@ -2,6 +2,7 @@ import { useState, useCallback, useMemo, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useApp } from '../context/AppContext';
 import type { LetterSection, SentenceWithProvenance, FocusState } from '../types';
+import { isDrHuVideoExhibitInteractive, isDrHuVideoRoute } from '../video/drHuVideoScenario';
 
 // ============================================
 // Section Navigation Component
@@ -270,16 +271,23 @@ function LetterSectionComponent({
 
       parts.push(<span key={`br-${keyIdx++}`}>[</span>);
       exhibits.forEach((ex, i) => {
+        const isInteractive = !isDrHuVideoRoute() || isDrHuVideoExhibitInteractive(ex.id);
         if (i > 0) parts.push(<span key={`sep-${keyIdx++}`}>; </span>);
         parts.push(
           <span
             key={`ex-${keyIdx++}`}
             onClick={(e) => {
               e.stopPropagation();
-              onExhibitClick?.(ex.id, ex.page, sentence.subargument_id, sentence.snippet_ids, section.id, sentenceIdx);
+              if (isInteractive) {
+                onExhibitClick?.(ex.id, ex.page, sentence.subargument_id, sentence.snippet_ids, section.id, sentenceIdx);
+              }
             }}
-            className="text-blue-600 hover:text-blue-800 hover:underline cursor-pointer font-medium"
-            title={`Click to view Exhibit ${ex.id}${ex.page ? `, page ${ex.page}` : ''}`}
+            className={isInteractive
+              ? 'text-blue-600 hover:text-blue-800 hover:underline cursor-pointer font-medium'
+              : 'text-slate-500 font-medium cursor-default'}
+            title={isInteractive
+              ? `Click to view Exhibit ${ex.id}${ex.page ? `, page ${ex.page}` : ''}`
+              : `Video mock exhibit: Exhibit ${ex.id}${ex.page ? `, page ${ex.page}` : ''}`}
           >
             {ex.text}
           </span>
@@ -655,6 +663,10 @@ export function LetterPanel({ className = '' }: LetterPanelProps) {
     sectionId?: string,
     sentenceIdx?: number
   ) => {
+    if (isDrHuVideoRoute() && !isDrHuVideoExhibitInteractive(exhibitId)) {
+      return;
+    }
+
     // 1. Set exhibit-level focus to highlight only this sentence (not entire subargument)
     if (sectionId != null && sentenceIdx != null) {
       setExhibitFocusedKey(`${sectionId}:${sentenceIdx}`);
