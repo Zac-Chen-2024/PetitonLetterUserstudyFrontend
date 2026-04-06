@@ -1276,7 +1276,11 @@ function StandardMinimap({ standardNodes, onNavigate }: {
 // Main Component
 // ============================================
 
-export function ArgumentGraph() {
+interface ArgumentGraphProps {
+  demoLoading?: boolean;
+}
+
+export function ArgumentGraph({ demoLoading = false }: ArgumentGraphProps) {
   const { t } = useTranslation();
   const isVideoLayout = typeof window !== 'undefined' && window.location.pathname === '/video';
   const defaultCanvasScale = 0.7;
@@ -2198,6 +2202,18 @@ export function ArgumentGraph() {
 
       {/* Canvas area */}
       <div className="flex-1 relative overflow-hidden">
+        {demoLoading && (
+          <div className="absolute inset-0 z-[70] flex items-center justify-center bg-white">
+            <div className="text-center">
+              <svg className="w-12 h-12 animate-spin text-violet-600 mx-auto" fill="none" viewBox="0 0 24 24">
+                <circle className="opacity-20" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                <path className="opacity-90" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+              </svg>
+              <p className="mt-4 text-sm font-medium text-slate-600">Generating writing tree...</p>
+            </div>
+          </div>
+        )}
+
         {/* Zoom controls */}
         <div className="absolute top-3 right-3 z-50 flex flex-col gap-1 bg-white rounded-lg shadow-lg border border-slate-200 p-1">
           <button onClick={() => handleZoom(0.1)} className="p-1.5 hover:bg-slate-100 rounded transition-colors" title="Zoom In">

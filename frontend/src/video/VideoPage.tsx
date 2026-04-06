@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { ConnectionLines, DocumentViewer, EvidenceCardPool, ArgumentGraph } from '../components';
 import { LetterPanel } from '../components/LetterPanel';
 import { useApp, useArguments, useProject, useSnippets, useWriting } from '../context/AppContext';
@@ -55,6 +55,45 @@ function DrHuVideoScenarioInitializer() {
 }
 
 export default function VideoPage() {
+  const [isGenerationDemoActive, setIsGenerationDemoActive] = useState(false);
+  const demoTimerRef = useRef<number | null>(null);
+
+  useEffect(() => {
+    const isEditableTarget = (target: EventTarget | null) => {
+      if (!(target instanceof HTMLElement)) return false;
+      const tagName = target.tagName.toLowerCase();
+      return target.isContentEditable || tagName === 'input' || tagName === 'textarea' || tagName === 'select';
+    };
+
+    const triggerGenerationDemo = () => {
+      setIsGenerationDemoActive(true);
+      if (demoTimerRef.current !== null) {
+        window.clearTimeout(demoTimerRef.current);
+      }
+      demoTimerRef.current = window.setTimeout(() => {
+        setIsGenerationDemoActive(false);
+        demoTimerRef.current = null;
+      }, 3000);
+    };
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.metaKey || event.ctrlKey || event.altKey || event.shiftKey) return;
+      if (isEditableTarget(event.target)) return;
+      if (event.code !== 'Digit1' && event.key !== '1') return;
+
+      event.preventDefault();
+      triggerGenerationDemo();
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+      if (demoTimerRef.current !== null) {
+        window.clearTimeout(demoTimerRef.current);
+      }
+    };
+  }, []);
+
   return (
     <div className="video-layout flex flex-col h-screen bg-slate-100">
       <DrHuVideoScenarioInitializer />
@@ -70,11 +109,11 @@ export default function VideoPage() {
         </aside>
 
         <section className="video-graph-panel flex-1 min-w-0 bg-white overflow-hidden relative z-0">
-          <ArgumentGraph />
+          <ArgumentGraph demoLoading={isGenerationDemoActive} />
         </section>
 
         <aside className="video-letter-panel w-[485px] flex-shrink-0 border-l border-slate-200 overflow-hidden bg-white shadow-[-4px_0_12px_rgba(0,0,0,0.08)] z-10">
-          <LetterPanel className="h-full" />
+          <LetterPanel className="h-full" demoClearContent={isGenerationDemoActive} />
         </aside>
       </div>
 

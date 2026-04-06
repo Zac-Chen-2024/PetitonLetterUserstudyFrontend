@@ -528,9 +528,10 @@ function LetterSectionComponent({
 
 interface LetterPanelProps {
   className?: string;
+  demoClearContent?: boolean;
 }
 
-export function LetterPanel({ className = '' }: LetterPanelProps) {
+export function LetterPanel({ className = '', demoClearContent = false }: LetterPanelProps) {
   const { t } = useTranslation();
   const {
     letterSections,
@@ -803,6 +804,10 @@ export function LetterPanel({ className = '' }: LetterPanelProps) {
         </div>
       </div>
 
+      {demoClearContent ? (
+        <div className="flex-1 bg-white" />
+      ) : (
+        <>
       {/* Section Navigation */}
       <SectionNav
         sections={letterSections}
@@ -895,6 +900,8 @@ export function LetterPanel({ className = '' }: LetterPanelProps) {
           </div>
         </div>
       </div>
+        </>
+      )}
     </div>
   );
 }
