@@ -1420,6 +1420,17 @@ export function ArgumentGraph({
     setOffset(nextOffset);
   }, []);
 
+  const resetCanvasViewForSubArgument = useCallback((targetY: number) => {
+    const container = containerRef.current;
+    if (!container) return;
+
+    const containerRect = container.getBoundingClientRect();
+    resetCanvasView({
+      x: defaultCanvasOffsetX,
+      y: (containerRect.height / 2) - (targetY * DEFAULT_CANVAS_SCALE),
+    });
+  }, [defaultCanvasOffsetX, resetCanvasView]);
+
   useEffect(() => {
     setSelectedNodeId(null);
     setIsMergeMode(false);
@@ -2100,19 +2111,8 @@ export function ArgumentGraph({
 
     lastCenteredSubArgId.current = focusState.id;
 
-    // Get container dimensions
-    const containerRect = container.getBoundingClientRect();
-    const containerHeight = containerRect.height;
-
-    const targetScale = DEFAULT_CANVAS_SCALE;
-
-    // Calculate offset to center the node vertically only
-    const targetY = targetNode.position.y;
-    const newOffsetY = (containerHeight / 2) - (targetY * targetScale);
-
-    // Keep horizontal offset at default (0) like auto-arrange button
-    resetCanvasView({ x: defaultCanvasOffsetX, y: newOffsetY });
-  }, [focusState.type, focusState.id, subArgumentNodes, defaultCanvasOffsetX, resetCanvasView]);
+    resetCanvasViewForSubArgument(targetNode.position.y);
+  }, [focusState.type, focusState.id, subArgumentNodes, resetCanvasViewForSubArgument]);
 
   // Navigate to a standard node from the minimap
   const handleNavigateToStandard = useCallback((standardId: string) => {
@@ -2147,11 +2147,18 @@ export function ArgumentGraph({
     pendingCenterNodeId.current = null;
     const containerRect = containerRef.current.getBoundingClientRect();
     const targetScale = DEFAULT_CANVAS_SCALE;
+    const subArgumentTarget = subArgumentNodes.find(n => n.id === nodeId);
+
+    if (subArgumentTarget) {
+      resetCanvasViewForSubArgument(subArgumentTarget.position.y);
+      return;
+    }
+
     resetCanvasView({
       x: (containerRect.width / 2) - (target.position.x * targetScale) + defaultCanvasOffsetX,
       y: (containerRect.height / 2) - (target.position.y * targetScale),
     });
-  }, [argumentNodes, subArgumentNodes, defaultCanvasOffsetX, resetCanvasView]);
+  }, [argumentNodes, subArgumentNodes, defaultCanvasOffsetX, resetCanvasView, resetCanvasViewForSubArgument]);
 
   // Handle keyboard shortcuts
   useEffect(() => {
