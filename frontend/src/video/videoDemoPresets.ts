@@ -1,6 +1,6 @@
 import type { Argument, ArgumentClaimType, ArgumentStatus, LetterSection, SubArgument } from '../types';
 
-export type VideoDemoSceneKey = 'consolidate' | 'merge';
+export type VideoDemoSceneKey = 'consolidate' | 'merge' | 'move';
 
 export interface VideoDemoSceneState {
   arguments: Argument[];
@@ -92,6 +92,39 @@ export function buildVideoDemoScene(scene: VideoDemoSceneKey): VideoDemoSceneSta
       ],
       subArguments,
       letterSections: [makeSection('leading_role', 'Leading Role', 0)],
+    };
+  }
+
+  if (scene === 'move') {
+    const subArguments = [
+      makeSubArgument('demo-move-sub-1', 'demo-move-arg-1', 'Strong institutional reputation'),
+      makeSubArgument('demo-move-sub-2', 'demo-move-arg-1', 'Goodone pays applicant exceptionally well'),
+      makeSubArgument('demo-move-sub-3', 'demo-move-arg-2', 'Compensation benchmark evidence'),
+      makeSubArgument('demo-move-sub-4', 'demo-move-arg-2', 'Peer salary comparison evidence'),
+    ];
+
+    return {
+      arguments: [
+        makeArgument(
+          'demo-move-arg-1',
+          'Leadership role at Goodone University',
+          'leading_role',
+          ['demo-move-sub-1', 'demo-move-sub-2'],
+          'leading_role'
+        ),
+        makeArgument(
+          'demo-move-arg-2',
+          'Applicant commands a high salary',
+          'high_salary',
+          ['demo-move-sub-3', 'demo-move-sub-4'],
+          'salary'
+        ),
+      ],
+      subArguments,
+      letterSections: [
+        makeSection('leading_role', 'Leading Role', 0),
+        makeSection('high_salary', 'High Salary', 1),
+      ],
     };
   }
 

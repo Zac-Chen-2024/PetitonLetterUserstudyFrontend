@@ -206,6 +206,38 @@ export default function VideoPage() {
     return result;
   }, []);
 
+  const handleDemoMoveSubArguments = useCallback(async (subArgumentIds: string[], targetArgumentId: string) => {
+    setDemoSceneState(prev => {
+      if (!prev) return prev;
+
+      const movedIds = new Set(subArgumentIds);
+
+      return {
+        ...prev,
+        arguments: prev.arguments.map(argument => {
+          const retainedSubArgumentIds = (argument.subArgumentIds || []).filter(id => !movedIds.has(id));
+          if (argument.id === targetArgumentId) {
+            return {
+              ...argument,
+              subArgumentIds: [...retainedSubArgumentIds, ...subArgumentIds.filter(id => !retainedSubArgumentIds.includes(id))],
+              updatedAt: new Date(),
+            };
+          }
+          return {
+            ...argument,
+            subArgumentIds: retainedSubArgumentIds,
+            updatedAt: new Date(),
+          };
+        }),
+        subArguments: prev.subArguments.map(subArgument =>
+          movedIds.has(subArgument.id)
+            ? { ...subArgument, argumentId: targetArgumentId, updatedAt: new Date() }
+            : subArgument
+        ),
+      };
+    });
+  }, []);
+
   const handleDemoRemoveSubArguments = useCallback(async (subArgumentIds: string[]) => {
     setDemoSceneState(prev => {
       if (!prev) return prev;
@@ -261,6 +293,12 @@ export default function VideoPage() {
       if (event.code === 'Digit3' || event.key === '3') {
         event.preventDefault();
         loadDemoScene('merge');
+        return;
+      }
+
+      if (event.code === 'Digit4' || event.key === '4') {
+        event.preventDefault();
+        loadDemoScene('move');
       }
     };
 
@@ -298,6 +336,7 @@ export default function VideoPage() {
             letterSectionsOverride={demoSceneState?.letterSections}
             removeSubArgumentsOverride={activeDemoScene ? handleDemoRemoveSubArguments : undefined}
             mergeSubArgumentsOverride={activeDemoScene === 'merge' ? handleDemoMergeSubArguments : undefined}
+            moveSubArgumentsOverride={activeDemoScene === 'move' ? handleDemoMoveSubArguments : undefined}
             consolidateSubArgumentsOverride={activeDemoScene === 'consolidate' ? handleDemoConsolidateSubArguments : undefined}
           />
         </section>
