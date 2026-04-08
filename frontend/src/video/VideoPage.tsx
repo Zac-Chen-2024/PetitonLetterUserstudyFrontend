@@ -105,7 +105,7 @@ export default function VideoPage() {
       setIsGenerationDemoActive(false);
       setFullFlowDemoStage('tree-revealed');
       demoTimerRef.current = null;
-    }, 3000);
+    }, 5000);
   }, [fullFlowDemoStage]);
 
   const finishFullFlowDemo = useCallback(() => {
