@@ -1286,6 +1286,9 @@ interface ArgumentGraphProps {
   demoPresetActive?: boolean;
   demoSceneKey?: VideoDemoSceneKey | null;
   demoSceneVersion?: number;
+  demoClearCanvasContent?: boolean;
+  onGenerateClickOverride?: () => void;
+  generateButtonDisabledOverride?: boolean;
   argumentsOverride?: Argument[];
   subArgumentsOverride?: SubArgument[];
   letterSectionsOverride?: import('../types').LetterSection[];
@@ -1311,6 +1314,9 @@ export function ArgumentGraph({
   demoPresetActive = false,
   demoSceneKey = null,
   demoSceneVersion = 0,
+  demoClearCanvasContent = false,
+  onGenerateClickOverride,
+  generateButtonDisabledOverride = false,
   argumentsOverride,
   subArgumentsOverride,
   letterSectionsOverride,
@@ -2251,8 +2257,14 @@ export function ArgumentGraph({
           <div className="flex items-center gap-2">
           {!demoPresetActive && (
           <button
-              onClick={() => generateArguments(true)}
-              disabled={isGeneratingArguments}
+              onClick={() => {
+                if (onGenerateClickOverride) {
+                  onGenerateClickOverride();
+                  return;
+                }
+                generateArguments(true);
+              }}
+              disabled={isGeneratingArguments || generateButtonDisabledOverride}
               className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-white bg-purple-600 rounded-lg hover:bg-purple-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {isGeneratingArguments ? (
@@ -2297,6 +2309,11 @@ export function ArgumentGraph({
             </div>
           </div>
         )}
+
+        {demoClearCanvasContent ? (
+          <div className="absolute inset-0 bg-white" />
+        ) : (
+          <>
 
         {/* Zoom controls */}
         <div className="absolute top-3 right-3 z-50 flex flex-col gap-1 bg-white rounded-lg shadow-lg border border-slate-200 p-1">
@@ -2541,6 +2558,8 @@ export function ArgumentGraph({
               </span>
             )}
           </div>
+        )}
+          </>
         )}
       </div>
 

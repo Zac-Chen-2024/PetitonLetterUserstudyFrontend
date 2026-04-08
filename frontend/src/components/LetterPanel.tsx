@@ -529,9 +529,16 @@ function LetterSectionComponent({
 interface LetterPanelProps {
   className?: string;
   demoClearContent?: boolean;
+  onGenerateAllOverride?: () => void;
+  generateAllDisabledOverride?: boolean;
 }
 
-export function LetterPanel({ className = '', demoClearContent = false }: LetterPanelProps) {
+export function LetterPanel({
+  className = '',
+  demoClearContent = false,
+  onGenerateAllOverride,
+  generateAllDisabledOverride = false,
+}: LetterPanelProps) {
   const { t } = useTranslation();
   const {
     letterSections,
@@ -766,10 +773,16 @@ export function LetterPanel({ className = '', demoClearContent = false }: Letter
           </div>
           <div className="flex items-center gap-2">
             <button
-              onClick={generatePetition}
-              disabled={pipelineState.stage === 'generating'}
+              onClick={() => {
+                if (onGenerateAllOverride) {
+                  onGenerateAllOverride();
+                  return;
+                }
+                generatePetition();
+              }}
+              disabled={pipelineState.stage === 'generating' || generateAllDisabledOverride}
               className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-lg transition-colors ${
-                pipelineState.stage === 'generating'
+                pipelineState.stage === 'generating' || generateAllDisabledOverride
                   ? 'bg-blue-100 text-blue-400 cursor-not-allowed'
                   : 'bg-blue-600 text-white hover:bg-blue-700'
               }`}
