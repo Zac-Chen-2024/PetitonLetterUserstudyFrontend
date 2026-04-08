@@ -358,11 +358,17 @@ export default function VideoPage() {
     window.addEventListener('keydown', handleKeyDown);
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
-      if (demoTimerRef.current !== null) {
-        window.clearTimeout(demoTimerRef.current);
-      }
     };
   }, [advanceFullFlowDemo, fullFlowDemoStage, loadDemoScene, startFullFlowDemo]);
+
+  useEffect(() => {
+    return () => {
+      if (demoTimerRef.current !== null) {
+        window.clearTimeout(demoTimerRef.current);
+        demoTimerRef.current = null;
+      }
+    };
+  }, []);
 
   const showFullFlowLeftPanel = fullFlowDemoStage !== 'blank' && fullFlowDemoStage !== null;
   const clearFullFlowCanvas = fullFlowDemoStage === 'blank' || fullFlowDemoStage === 'left-revealed' || fullFlowDemoStage === 'tree-generating';
