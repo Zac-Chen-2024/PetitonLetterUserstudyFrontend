@@ -441,9 +441,10 @@ function PDFViewer({
 
 interface DocumentViewerProps {
   compact?: boolean;  // Compact mode for Write view - hides exhibit list
+  demoEmpty?: boolean;
 }
 
-export function DocumentViewer({ compact = false }: DocumentViewerProps) {
+export function DocumentViewer({ compact = false, demoEmpty = false }: DocumentViewerProps) {
   const { projectId, selectedDocumentId, setSelectedDocumentId, addSnippet, allSnippets, reloadSnippets } = useApp();
   const [exhibits, setExhibits] = useState<Exhibit[]>([]);
   const [expandedCategories, setExpandedCategories] = useState<Set<string>>(new Set(['A', 'B']));
@@ -583,8 +584,9 @@ export function DocumentViewer({ compact = false }: DocumentViewerProps) {
   // Get selected exhibit (case-insensitive match — exhibit IDs may differ in case)
   const selectedExhibitId = selectedDocumentId?.replace('doc_', '');
   const selectedExhibitIdLower = selectedExhibitId?.toLowerCase();
-  const selectedExhibit = exhibits.find(e => e.id.toLowerCase() === selectedExhibitIdLower);
-  const selectedSnippets = allSnippets.filter(s => s.exhibitId?.toLowerCase() === selectedExhibitIdLower);
+  const effectiveExhibits = demoEmpty ? [] : exhibits;
+  const selectedExhibit = demoEmpty ? undefined : effectiveExhibits.find(e => e.id.toLowerCase() === selectedExhibitIdLower);
+  const selectedSnippets = demoEmpty ? [] : allSnippets.filter(s => s.exhibitId?.toLowerCase() === selectedExhibitIdLower);
 
   return (
     <div className="flex flex-col h-full bg-slate-50">
@@ -600,7 +602,7 @@ export function DocumentViewer({ compact = false }: DocumentViewerProps) {
                 ? (selectedExhibit
                     ? (isDrHuVideoRoute() ? getDrHuVideoExhibitShortTitle(selectedExhibit.id) : selectedExhibit.name)
                     : 'Select an exhibit')
-                : `${exhibits.length} exhibits`}
+                : `${effectiveExhibits.length} exhibits`}
             </p>
           </div>
           {compact ? (
@@ -670,7 +672,9 @@ export function DocumentViewer({ compact = false }: DocumentViewerProps) {
       {!compact && (
       <div className="flex-shrink-0 border-b border-slate-200 bg-white max-h-48 overflow-y-auto">
         <div className="px-3 py-2">
-          {isLoading ? (
+          {demoEmpty ? (
+            <div className="text-sm text-slate-500 py-2">0 exhibits</div>
+          ) : isLoading ? (
             <div className="text-sm text-slate-500 py-2">Loading exhibits...</div>
           ) : (
             <div className="space-y-1">

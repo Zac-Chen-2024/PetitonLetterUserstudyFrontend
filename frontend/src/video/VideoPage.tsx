@@ -367,6 +367,10 @@ export default function VideoPage() {
   const showFullFlowLeftPanel = fullFlowDemoStage !== 'blank' && fullFlowDemoStage !== null;
   const clearFullFlowCanvas = fullFlowDemoStage === 'blank' || fullFlowDemoStage === 'left-revealed' || fullFlowDemoStage === 'tree-generating';
   const clearFullFlowLetter = fullFlowDemoStage !== null;
+  const showEmptyFullFlowTree = fullFlowDemoStage === 'blank' || fullFlowDemoStage === 'left-revealed' || fullFlowDemoStage === 'tree-generating';
+  const emptyArguments: VideoDemoSceneState['arguments'] = [];
+  const emptySubArguments: VideoDemoSceneState['subArguments'] = [];
+  const emptyLetterSections: VideoDemoSceneState['letterSections'] = [];
 
   return (
     <div className="video-layout flex flex-col h-screen bg-slate-100">
@@ -374,7 +378,7 @@ export default function VideoPage() {
       <VideoRouteInitializer />
       <div className="flex-1 flex overflow-hidden relative">
         <aside className="w-[25%] min-w-[340px] flex-shrink-0 border-r border-slate-200 flex flex-col bg-slate-50 shadow-[4px_0_12px_rgba(0,0,0,0.08)] z-10">
-          {showFullFlowLeftPanel || fullFlowDemoStage === null ? (
+          {fullFlowDemoStage === null ? (
             <>
               <div className="video-evidence-panel h-[42%] min-h-0 border-b border-slate-200 overflow-hidden">
                 <EvidenceCardPool />
@@ -384,7 +388,14 @@ export default function VideoPage() {
               </div>
             </>
           ) : (
-            <div className="h-full bg-white" />
+            <>
+              <div className="video-evidence-panel h-[42%] min-h-0 border-b border-slate-200 overflow-hidden">
+                <EvidenceCardPool demoEmpty={!showFullFlowLeftPanel} />
+              </div>
+              <div className="h-[58%] min-h-0 overflow-hidden bg-white">
+                <DocumentViewer compact demoEmpty={!showFullFlowLeftPanel} />
+              </div>
+            </>
           )}
         </aside>
 
@@ -397,8 +408,8 @@ export default function VideoPage() {
             demoClearCanvasContent={clearFullFlowCanvas}
             onGenerateClickOverride={fullFlowDemoStage !== null ? triggerFullFlowTreeGeneration : undefined}
             generateButtonDisabledOverride={fullFlowDemoStage === 'blank' || fullFlowDemoStage === 'tree-generating' || fullFlowDemoStage === 'tree-revealed'}
-            argumentsOverride={demoSceneState?.arguments}
-            subArgumentsOverride={demoSceneState?.subArguments}
+            argumentsOverride={showEmptyFullFlowTree ? emptyArguments : demoSceneState?.arguments}
+            subArgumentsOverride={showEmptyFullFlowTree ? emptySubArguments : demoSceneState?.subArguments}
             letterSectionsOverride={demoSceneState?.letterSections}
             removeSubArgumentsOverride={activeDemoScene ? handleDemoRemoveSubArguments : undefined}
             mergeSubArgumentsOverride={activeDemoScene === 'merge' ? handleDemoMergeSubArguments : undefined}
@@ -413,6 +424,7 @@ export default function VideoPage() {
             demoClearContent={isGenerationDemoActive || activeDemoScene !== null || clearFullFlowLetter}
             onGenerateAllOverride={fullFlowDemoStage !== null ? finishFullFlowDemo : undefined}
             generateAllDisabledOverride={fullFlowDemoStage === 'blank' || fullFlowDemoStage === 'left-revealed' || fullFlowDemoStage === 'tree-generating'}
+            letterSectionsOverride={fullFlowDemoStage !== null ? emptyLetterSections : undefined}
           />
         </aside>
       </div>

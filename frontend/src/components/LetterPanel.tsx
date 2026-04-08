@@ -531,6 +531,7 @@ interface LetterPanelProps {
   demoClearContent?: boolean;
   onGenerateAllOverride?: () => void;
   generateAllDisabledOverride?: boolean;
+  letterSectionsOverride?: LetterSection[];
 }
 
 export function LetterPanel({
@@ -538,10 +539,11 @@ export function LetterPanel({
   demoClearContent = false,
   onGenerateAllOverride,
   generateAllDisabledOverride = false,
+  letterSectionsOverride,
 }: LetterPanelProps) {
   const { t } = useTranslation();
   const {
-    letterSections,
+    letterSections: contextLetterSections,
     updateLetterSection,
     focusState,
     setFocusState,
@@ -562,6 +564,7 @@ export function LetterPanel({
   const contentRef = useRef<HTMLDivElement>(null);
   const sectionRefs = useRef<Map<string, HTMLDivElement>>(new Map());
   const paragraphRefs = useRef<Map<string, HTMLParagraphElement>>(new Map());
+  const letterSections = letterSectionsOverride ?? contextLetterSections;
 
   // Scroll to section when clicking navigation
   const scrollToSection = useCallback((sectionId: string) => {

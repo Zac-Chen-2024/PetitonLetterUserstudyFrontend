@@ -508,7 +508,11 @@ function DocumentGroup({ document, snippets, filteredSnippets, isEditMode, selec
 }
 
 
-export function EvidenceCardPool() {
+interface EvidenceCardPoolProps {
+  demoEmpty?: boolean;
+}
+
+export function EvidenceCardPool({ demoEmpty = false }: EvidenceCardPoolProps) {
   const { t } = useTranslation();
   const legalStandards = useLegalStandards();
   const { focusState, snippetPositions, connections, viewMode, workMode, setSnippetPanelBounds, allSnippets, arguments: arguments_, argumentMappings, subArguments, updateSubArgument, projectId, markSectionStale, reloadSnippets } = useApp();
@@ -522,7 +526,7 @@ export function EvidenceCardPool() {
   const [selectedSnippetsForEdit, setSelectedSnippetsForEdit] = useState<Set<string>>(new Set());
 
   // Use snippets from context
-  const snippets = allSnippets;
+  const snippets = demoEmpty ? [] : allSnippets;
 
   // Get focused SubArgument info
   const focusedSubArgument = useMemo(() => {
