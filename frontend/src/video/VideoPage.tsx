@@ -5,7 +5,7 @@ import { useApp, useArguments, useProject, useSnippets, useWriting } from '../co
 import { buildDrHuVideoScenario, DR_HU_VIDEO_PROJECT_ID } from './drHuVideoScenario';
 import { buildVideoDemoScene, type VideoDemoSceneKey, type VideoDemoSceneState } from './videoDemoPresets';
 
-type FullFlowDemoStage = 'blank' | 'left-revealed' | 'tree-generating' | 'tree-revealed' | null;
+type FullFlowDemoStage = 'blank' | 'left-revealed' | 'tree-generating' | 'tree-revealed' | 'letter-generating' | null;
 
 function VideoRouteInitializer() {
   const { setWorkMode, setSelectedDocumentId, setSelectedSnippetId, setFocusState } = useApp();
@@ -110,7 +110,14 @@ export default function VideoPage() {
 
   const finishFullFlowDemo = useCallback(() => {
     if (fullFlowDemoStage !== 'tree-revealed') return;
-    setFullFlowDemoStage(null);
+    setFullFlowDemoStage('letter-generating');
+    if (demoTimerRef.current !== null) {
+      window.clearTimeout(demoTimerRef.current);
+    }
+    demoTimerRef.current = window.setTimeout(() => {
+      setFullFlowDemoStage(null);
+      demoTimerRef.current = null;
+    }, 5000);
   }, [fullFlowDemoStage]);
 
   const handleDemoConsolidateSubArguments = useCallback(async (subArgumentIds: string[], targetArgumentId: string) => {
@@ -429,7 +436,8 @@ export default function VideoPage() {
             className="h-full"
             demoClearContent={isGenerationDemoActive || activeDemoScene !== null || clearFullFlowLetter}
             onGenerateAllOverride={fullFlowDemoStage !== null ? finishFullFlowDemo : undefined}
-            generateAllDisabledOverride={fullFlowDemoStage === 'blank' || fullFlowDemoStage === 'left-revealed' || fullFlowDemoStage === 'tree-generating'}
+            generateAllDisabledOverride={fullFlowDemoStage === 'blank' || fullFlowDemoStage === 'left-revealed' || fullFlowDemoStage === 'tree-generating' || fullFlowDemoStage === 'letter-generating'}
+            generateAllLoadingOverride={fullFlowDemoStage === 'letter-generating'}
             letterSectionsOverride={fullFlowDemoStage !== null ? emptyLetterSections : undefined}
           />
         </aside>
