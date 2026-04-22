@@ -359,21 +359,19 @@ function LetterSectionComponent({
       const hasSubArgument = !!sentence.subargument_id;
       const isClickable = hasProvenance || hasSubArgument;
       const isFocused = isSentenceFocused(sentence, idx);
-      const isBody = sentence.sentence_type !== 'opening' && sentence.sentence_type !== 'closing';
 
       // Resolve basis: LLM-provided tag, else structural fallback
       // (evidence when grounded in snippets, inference otherwise).
-      // Opening/closing framing sentences receive no basis tint.
-      const basis: 'evidence' | 'inference' | null = !isBody
-        ? null
-        : sentence.basis === 'evidence' || sentence.basis === 'inference'
+      // Applies to every sentence including opening/closing framing.
+      const basis: 'evidence' | 'inference' =
+        sentence.basis === 'evidence' || sentence.basis === 'inference'
           ? sentence.basis
           : hasProvenance ? 'evidence' : 'inference';
 
       const basisClass =
-        basis === 'evidence' ? (isFocused ? 'bg-blue-200' : 'bg-blue-50 hover:bg-blue-100')
-        : basis === 'inference' ? (isFocused ? 'bg-yellow-200' : 'bg-yellow-50 hover:bg-yellow-100')
-        : isFocused ? 'bg-slate-200' : '';
+        basis === 'evidence'
+          ? (isFocused ? 'bg-blue-300' : 'bg-blue-100 hover:bg-blue-200')
+          : (isFocused ? 'bg-yellow-300' : 'bg-yellow-100 hover:bg-yellow-200');
 
       return (
         <span

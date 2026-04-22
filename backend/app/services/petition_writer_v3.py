@@ -879,10 +879,13 @@ RULES:
 3. Embed 1-2 short direct quotes from snippets naturally within sentences (do NOT use block quote format).
 4. Professional legal tone, 100% English (translate non-English source text).
 5. Write 2-4 sentences — match the evidence available. No filler.
-6. Label each sentence with a "basis" tag:
-   - "evidence" — the sentence's core assertion is directly grounded in one or more snippets (facts, dates, names, quotations taken from the record).
-   - "inference" — the sentence draws a legal conclusion, characterization, or connective argument that goes beyond any single snippet (e.g., "The totality of evidence establishes…", "This demonstrates…", topic-setting or transitional claims).
-   A sentence that quotes or paraphrases a snippet is "evidence" even if it also comments on it; a sentence whose load-bearing claim is interpretive reasoning is "inference".
+6. Label each sentence with a "basis" tag — this is NOT about whether a snippet is cited, it is about what the sentence is *doing*:
+   - "evidence" — a purely factual restatement of what the record shows: who did what, when, dates, titles, quotations. The sentence reports a fact; it does not argue about its meaning.
+     e.g., "The Beneficiary served as an expert reviewer for Program X on May 26, 2017 [Exhibit E9, p.1]."
+   - "inference" — the sentence's load-bearing verb is interpretive, evaluative, or conclusory. It draws meaning, characterizes significance, synthesizes multiple facts, asserts legal sufficiency, or bridges evidence to a legal standard — even if it also cites a snippet.
+     Markers that almost always indicate inference include: "indicates", "demonstrates", "establishes", "evidences", "shows", "confirms", "is sufficient to", "meets the standard", "constitutes", "reflects", "impacts", "the totality of evidence", and topic/transition sentences.
+     e.g., "This participation demonstrates that the Beneficiary served as a judge of the work of others, meeting the regulatory standard [Exhibit E9, p.1]."
+   RULE OF THUMB: if you can strip the citation and the sentence still makes an argumentative or interpretive claim, it is "inference". If removing the citation leaves only a factual report, it is "evidence". Most petition paragraphs mix both — do not default every cited sentence to "evidence".
 
 Return JSON:
 {{
@@ -1056,10 +1059,12 @@ Return JSON:
   ]
 }}
 
-Each sentence MUST include a "basis" tag:
-  - "evidence": the sentence's core assertion is directly grounded in one or more snippets (concrete facts, dates, names, quoted or paraphrased material from the record).
-  - "inference": the sentence draws a legal conclusion, characterization, synthesis, or connective/transitional argument that goes beyond any single snippet (e.g., "The totality of evidence establishes…", "This demonstrates…", topic sentences that set up an argument).
-A sentence that quotes or paraphrases a snippet is "evidence" even if it also comments on it; a sentence whose load-bearing claim is interpretive is "inference".
+Each sentence MUST include a "basis" tag — this is about what the sentence *does*, not whether it cites a snippet:
+  - "evidence": a purely factual restatement of what the record shows (who, what, when, title, quotation). The sentence reports a fact and does not argue about its meaning.
+    e.g., "The Beneficiary served as an expert reviewer for Program X on May 26, 2017 [Exhibit E9, p.1]."
+  - "inference": the sentence's load-bearing verb is interpretive, evaluative, or conclusory — it draws meaning, characterizes significance, synthesizes multiple facts, or bridges evidence to a legal standard. Markers that almost always indicate inference: "indicates", "demonstrates", "establishes", "evidences", "shows", "confirms", "is sufficient to", "meets the standard", "constitutes", "reflects", "impacts", "the totality of evidence", transition/topic sentences.
+    e.g., "This participation demonstrates that the Beneficiary served as a judge of the work of others, meeting the regulatory standard [Exhibit E9, p.1]."
+RULE OF THUMB: if stripping the citation leaves a factual report, tag "evidence"; if it leaves an argumentative or interpretive claim, tag "inference". Most petition paragraphs mix both — do NOT default every cited sentence to "evidence".
 
 CRITICAL: Return ALL {len(subarg_ids)} sub-argument paragraphs. subargument_id values MUST be exactly: {subarg_ids}
 Return ONLY valid JSON, no markdown."""
