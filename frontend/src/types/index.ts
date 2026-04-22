@@ -326,6 +326,7 @@ export interface SentenceWithProvenance {
   argument_id?: string | null;     // V3: Source Argument
   exhibit_refs?: string[];         // V3: Exhibit references [F-1, F-2]
   sentence_type?: 'opening' | 'body' | 'closing';  // V3: Sentence position
+  basis?: 'evidence' | 'inference';  // Evidence-grounded statement vs. inferential argumentation
   isEdited?: boolean;              // V3: Has been manually edited
   originalText?: string;           // V3: Original text before edit
 

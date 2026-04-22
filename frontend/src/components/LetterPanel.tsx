@@ -232,7 +232,6 @@ function LetterSectionComponent({
   const { t } = useTranslation();
   const [isEditing, setIsEditing] = useState(false);
   const [editContent, setEditContent] = useState(section.content);
-  const [hoveredSentenceIdx, setHoveredSentenceIdx] = useState<number | null>(null);
   const [tooltipSentence, setTooltipSentence] = useState<{
     sentence: SentenceWithProvenance;
     position: { x: number; y: number };
@@ -359,20 +358,32 @@ function LetterSectionComponent({
       const hasProvenance = sentence.snippet_ids && sentence.snippet_ids.length > 0;
       const hasSubArgument = !!sentence.subargument_id;
       const isClickable = hasProvenance || hasSubArgument;
-      const isHovered = hoveredSentenceIdx === idx;
       const isFocused = isSentenceFocused(sentence, idx);
+      const isBody = sentence.sentence_type !== 'opening' && sentence.sentence_type !== 'closing';
+
+      // Resolve basis: LLM-provided tag, else structural fallback
+      // (evidence when grounded in snippets, inference otherwise).
+      // Opening/closing framing sentences receive no basis tint.
+      const basis: 'evidence' | 'inference' | null = !isBody
+        ? null
+        : sentence.basis === 'evidence' || sentence.basis === 'inference'
+          ? sentence.basis
+          : hasProvenance ? 'evidence' : 'inference';
+
+      const basisClass =
+        basis === 'evidence' ? (isFocused ? 'bg-blue-200' : 'bg-blue-50 hover:bg-blue-100')
+        : basis === 'inference' ? (isFocused ? 'bg-yellow-200' : 'bg-yellow-50 hover:bg-yellow-100')
+        : isFocused ? 'bg-slate-200' : '';
 
       return (
         <span
           key={idx}
           onClick={() => isClickable && onSentenceClick?.(sentence, idx)}
           onContextMenu={(e) => handleContextMenu(e, sentence)}
-          onMouseEnter={() => setHoveredSentenceIdx(idx)}
-          onMouseLeave={() => setHoveredSentenceIdx(null)}
           className={`
             ${isClickable ? 'cursor-pointer' : ''}
-            ${isHovered && isClickable ? 'bg-blue-100 rounded' : ''}
-            ${isFocused ? 'bg-yellow-200 rounded font-medium' : ''}
+            ${basisClass} rounded
+            ${isFocused ? 'font-medium' : ''}
             ${sentence.isEdited ? 'border-b border-dashed border-orange-300' : ''}
             transition-colors inline
           `}

@@ -37,6 +37,7 @@ class SentenceWithProvenanceV3(BaseModel):
     argument_id: Optional[str] = None
     exhibit_refs: List[str] = []
     sentence_type: str = "body"
+    basis: Optional[str] = None  # "evidence" | "inference"
 
 
 class ProvenanceIndex(BaseModel):

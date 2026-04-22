@@ -35,6 +35,20 @@ _LEAKED_LABEL_RE = re.compile(
 )
 
 
+def _normalize_basis(value, snippet_ids) -> str:
+    """Coerce an LLM-provided basis to 'evidence' | 'inference'.
+
+    Falls back to a structural default when the LLM omits or garbles the tag:
+    a sentence with at least one snippet_id is treated as evidence-grounded;
+    otherwise it is inferential argumentation.
+    """
+    if isinstance(value, str):
+        v = value.strip().lower()
+        if v in ("evidence", "inference"):
+            return v
+    return "evidence" if snippet_ids else "inference"
+
+
 def _strip_leaked_labels(text: str) -> str:
     """Remove analytical framework labels that the LLM leaked into prose."""
     return _LEAKED_LABEL_RE.sub(" ", text).strip()
@@ -865,6 +879,10 @@ RULES:
 3. Embed 1-2 short direct quotes from snippets naturally within sentences (do NOT use block quote format).
 4. Professional legal tone, 100% English (translate non-English source text).
 5. Write 2-4 sentences — match the evidence available. No filler.
+6. Label each sentence with a "basis" tag:
+   - "evidence" — the sentence's core assertion is directly grounded in one or more snippets (facts, dates, names, quotations taken from the record).
+   - "inference" — the sentence draws a legal conclusion, characterization, or connective argument that goes beyond any single snippet (e.g., "The totality of evidence establishes…", "This demonstrates…", topic-setting or transitional claims).
+   A sentence that quotes or paraphrases a snippet is "evidence" even if it also comments on it; a sentence whose load-bearing claim is interpretive reasoning is "inference".
 
 Return JSON:
 {{
@@ -872,7 +890,8 @@ Return JSON:
     {{
       "text": "Argumentative sentence with evidence [Exhibit X, p.Y].",
       "snippet_ids": ["{snippet_ids_list[0] if snippet_ids_list else 'snip_xxx'}"],
-      "exhibit_refs": ["X-Y"]
+      "exhibit_refs": ["X-Y"],
+      "basis": "evidence"
     }}
   ]
 }}
@@ -902,6 +921,7 @@ Return ONLY valid JSON, no markdown."""
         if raw_ids and not sent["snippet_ids"]:
             _logger.warning(f"Step1 snippet_ids ALL invalid: raw={raw_ids}, valid={valid_ids}")
         sent["exhibit_refs"] = sent.get("exhibit_refs", [])
+        sent["basis"] = _normalize_basis(sent.get("basis"), sent["snippet_ids"])
 
     return sentences
 
@@ -994,7 +1014,7 @@ async def _step1_generate_argument_body(
     # Build subargument_id list for JSON example
     subarg_ids = [sa["id"] for sa in sub_arguments]
     subarg_json_example = ",\n    ".join(
-        f'{{"subargument_id": "{sid}", "sentences": [{{"text": "...", "snippet_ids": ["..."], "exhibit_refs": ["..."]}}]}}'
+        f'{{"subargument_id": "{sid}", "sentences": [{{"text": "...", "snippet_ids": ["..."], "exhibit_refs": ["..."], "basis": "evidence"}}]}}'
         for sid in subarg_ids[:2]
     )
     if len(subarg_ids) > 2:
@@ -1035,6 +1055,11 @@ Return JSON:
     {subarg_json_example}
   ]
 }}
+
+Each sentence MUST include a "basis" tag:
+  - "evidence": the sentence's core assertion is directly grounded in one or more snippets (concrete facts, dates, names, quoted or paraphrased material from the record).
+  - "inference": the sentence draws a legal conclusion, characterization, synthesis, or connective/transitional argument that goes beyond any single snippet (e.g., "The totality of evidence establishes…", "This demonstrates…", topic sentences that set up an argument).
+A sentence that quotes or paraphrases a snippet is "evidence" even if it also comments on it; a sentence whose load-bearing claim is interpretive is "inference".
 
 CRITICAL: Return ALL {len(subarg_ids)} sub-argument paragraphs. subargument_id values MUST be exactly: {subarg_ids}
 Return ONLY valid JSON, no markdown."""
@@ -1077,6 +1102,7 @@ Return ONLY valid JSON, no markdown."""
             raw_ids = sent.get("snippet_ids", [])
             sent["snippet_ids"] = [sid for sid in raw_ids if sid in all_available_snippet_ids]
             sent["exhibit_refs"] = sent.get("exhibit_refs", [])
+            sent["basis"] = _normalize_basis(sent.get("basis"), sent["snippet_ids"])
 
         validated_paragraphs.append({
             "subargument_id": subarg_id,
@@ -1830,7 +1856,8 @@ def flatten_sentences(
             "subargument_id": None,
             "argument_id": argument_id,
             "exhibit_refs": [],
-            "sentence_type": "opening"
+            "sentence_type": "opening",
+            "basis": "inference"
         })
 
     # SubArgument paragraphs
@@ -1838,13 +1865,15 @@ def flatten_sentences(
         subarg_id = para.get("subargument_id", "")
 
         for sent in para.get("sentences", []):
+            snippet_ids = sent.get("snippet_ids", [])
             sentences.append({
                 "text": sent.get("text", ""),
-                "snippet_ids": sent.get("snippet_ids", []),
+                "snippet_ids": snippet_ids,
                 "subargument_id": subarg_id,
                 "argument_id": argument_id,
                 "exhibit_refs": sent.get("exhibit_refs", []),
-                "sentence_type": "body"
+                "sentence_type": "body",
+                "basis": _normalize_basis(sent.get("basis"), snippet_ids)
             })
 
     # Closing sentence
@@ -1856,7 +1885,8 @@ def flatten_sentences(
             "subargument_id": None,
             "argument_id": argument_id,
             "exhibit_refs": [],
-            "sentence_type": "closing"
+            "sentence_type": "closing",
+            "basis": "inference"
         })
 
     return sentences
@@ -2073,7 +2103,8 @@ async def write_petition_section_v3(
         "subargument_id": None,
         "argument_id": all_arguments[0].get("id", ""),
         "exhibit_refs": [],
-        "sentence_type": "opening"
+        "sentence_type": "opening",
+        "basis": "inference"
     })
 
     # Body: 按 Argument → SubArgument 顺序
@@ -2083,13 +2114,15 @@ async def write_petition_section_v3(
         for body in arg_polished:
             subarg_id = body["subargument_id"]
             for sent in body.get("sentences", []):
+                snippet_ids = sent.get("snippet_ids", [])
                 all_sentences.append({
                     "text": sent.get("text", ""),
-                    "snippet_ids": sent.get("snippet_ids", []),
+                    "snippet_ids": snippet_ids,
                     "subargument_id": subarg_id,
                     "argument_id": arg_id,
                     "exhibit_refs": sent.get("exhibit_refs", []),
-                    "sentence_type": "body"
+                    "sentence_type": "body",
+                    "basis": _normalize_basis(sent.get("basis"), snippet_ids)
                 })
 
     # Closing
@@ -2099,7 +2132,8 @@ async def write_petition_section_v3(
         "subargument_id": None,
         "argument_id": all_arguments[-1].get("id", ""),
         "exhibit_refs": [],
-        "sentence_type": "closing"
+        "sentence_type": "closing",
+        "basis": "inference"
     })
 
     # Post-process: strip leaked analytical labels from all sentences
