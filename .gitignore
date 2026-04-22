@@ -17,6 +17,13 @@ backend/.env
 backend/**/__pycache__/
 __pycache__/
 
+# Local-only recovery artifact from v0.1.0 userstudy strip
+archive.tar.gz
+archive/
+
+# Userstudy demo project data — kept on server only, not in repo
+backend/data/projects/dr_hu_eb1a/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
