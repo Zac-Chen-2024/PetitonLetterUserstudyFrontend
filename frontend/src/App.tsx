@@ -1,12 +1,11 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
-import { AppProvider } from './context/AppContext';
-import VideoPage from './video/VideoPage';
+import DemoPage from './demo/DemoPage';
 
-function VideoAppShell() {
+function AppShell() {
   return (
-    <AppProvider projectIdOverride="dr_hu_eb1a">
-      <VideoPage />
+    <>
+      <DemoPage />
       <Toaster
         position="bottom-center"
         toastOptions={{
@@ -22,17 +21,15 @@ function VideoAppShell() {
           error: { iconTheme: { primary: '#ef4444', secondary: '#fff' }, duration: 4000 },
         }}
       />
-    </AppProvider>
+    </>
   );
 }
 
 export default function App() {
   return (
     <Routes>
-      <Route path="/" element={<Navigate to="/mapping" replace />} />
-      <Route path="/mapping" element={<VideoAppShell />} />
-      <Route path="/video" element={<Navigate to="/mapping" replace />} />
-      <Route path="*" element={<Navigate to="/mapping" replace />} />
+      <Route path="/" element={<AppShell />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );
 }
