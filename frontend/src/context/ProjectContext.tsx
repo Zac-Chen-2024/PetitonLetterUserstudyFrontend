@@ -12,7 +12,7 @@ import { legalStandards as defaultEB1AStandards } from '../data/legalStandards';
 
 const STORAGE_KEY_LLM_PROVIDER = 'evidence-system-llm-provider';
 const STORAGE_KEY_PROJECT_ID = 'evidence-system-project-id';
-const DEFAULT_PROJECT_ID = 'yaruo_qu';
+const DEFAULT_PROJECT_ID = 'dehuan_liu';
 
 export interface ProjectContextType {
   projectId: string;

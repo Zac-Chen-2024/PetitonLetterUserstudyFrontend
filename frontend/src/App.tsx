@@ -1,11 +1,12 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
-import DemoPage from './demo/DemoPage';
+import { AppProvider } from './context/AppContext';
+import MainPage from './pages/main/MainPage';
 
 function AppShell() {
   return (
-    <>
-      <DemoPage />
+    <AppProvider>
+      <MainPage />
       <Toaster
         position="bottom-center"
         toastOptions={{
@@ -21,7 +22,7 @@ function AppShell() {
           error: { iconTheme: { primary: '#ef4444', secondary: '#fff' }, duration: 4000 },
         }}
       />
-    </>
+    </AppProvider>
   );
 }
 
