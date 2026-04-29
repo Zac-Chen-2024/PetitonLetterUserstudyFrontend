@@ -17,6 +17,7 @@ from datetime import datetime, timezone
 
 from .llm_client import call_llm
 from .unified_extractor import load_combined_extraction
+from app.core.atomic_io import atomic_write_json
 
 
 # 数据目录
@@ -393,8 +394,7 @@ async def analyze_project_entities(
     }
 
     # 保存配置
-    with open(metadata_file, 'w', encoding='utf-8') as f:
-        json.dump(result, f, ensure_ascii=False, indent=2)
+    atomic_write_json(metadata_file, result)
 
     print(f"[EntityAnalyzer] Saved project_metadata.json")
 

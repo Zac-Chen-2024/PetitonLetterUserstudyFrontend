@@ -14,6 +14,7 @@ import json
 from typing import Dict, List, Optional, Tuple
 from pathlib import Path
 from dataclasses import dataclass
+from app.core.atomic_io import atomic_write_json
 
 
 # 数据目录
@@ -343,8 +344,7 @@ def enrich_all_snippets(
         enriched_dir.mkdir(parents=True, exist_ok=True)
 
         enriched_file = enriched_dir / "enriched_snippets.json"
-        with open(enriched_file, 'w', encoding='utf-8') as f:
-            json.dump(result, f, ensure_ascii=False, indent=2)
+        atomic_write_json(enriched_file, result)
 
         print(f"[ContextEnrichment] Saved to {enriched_file}")
 

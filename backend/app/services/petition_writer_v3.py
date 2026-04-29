@@ -26,6 +26,7 @@ from .snippet_registry import load_registry
 from .standards_registry import get_standard_name
 from .writing_strategies import get_writing_strategy
 from .text_utils import text_similarity as _text_similarity
+from app.core.atomic_io import atomic_write_json
 import re
 
 # Labels that LLMs sometimes leak from the argumentation-method prompt
@@ -2460,8 +2461,7 @@ def save_writing(
     }
 
     filename = f"writing_{section}_{version_id}.json"
-    with open(writing_dir / filename, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    atomic_write_json(writing_dir / filename, data)
 
     return version_id
 

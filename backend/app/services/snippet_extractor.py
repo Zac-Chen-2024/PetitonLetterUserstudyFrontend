@@ -18,6 +18,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 
 from .llm_client import call_llm
+from app.core.atomic_io import atomic_write_json
 
 # ==================== LLM Prompts ====================
 
@@ -365,8 +366,7 @@ def save_extracted_snippets(project_id: str, snippets: List[Dict]):
         "snippets": snippets
     }
 
-    with open(extracted_file, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    atomic_write_json(extracted_file, data)
 
     print(f"[Extract] Saved {len(snippets)} snippets to {extracted_file}")
 
@@ -384,8 +384,7 @@ def update_project_pipeline_stage(project_id: str, stage: str):
     metadata["pipeline_stage"] = stage
     metadata["stage_updated_at"] = datetime.now(timezone.utc).isoformat()
 
-    with open(metadata_file, 'w', encoding='utf-8') as f:
-        json.dump(metadata, f, ensure_ascii=False, indent=2)
+    atomic_write_json(metadata_file, metadata)
 
 
 def get_project_pipeline_stage(project_id: str) -> str:

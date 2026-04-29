@@ -18,6 +18,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import List, Dict, Any, Optional
+from app.core.atomic_io import atomic_write_json
 
 
 def get_consolidation_logs_dir(project_id: str) -> Path:
@@ -51,8 +52,7 @@ class ConsolidationArchive:
     def _save_json(self, filename: str, data: Any):
         """保存 JSON 数据"""
         filepath = self.logs_dir / filename
-        with open(filepath, 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
+        atomic_write_json(filepath, data)
 
     def save_original_quotes(self, quotes: List[Dict[str, Any]]) -> str:
         """

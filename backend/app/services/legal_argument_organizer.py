@@ -18,6 +18,7 @@ import uuid
 
 from .llm_client import call_llm
 from .subargument_generator import generate_sub_arguments_for_composed, GeneratedSubArgument
+from app.core.atomic_io import atomic_write_json
 from .standards_registry import get_standards_for_type
 
 
@@ -1475,13 +1476,12 @@ async def _group_snippets_by_standard_topdown(
             args_dir = projects_dir / project_id / "arguments"
             args_dir.mkdir(parents=True, exist_ok=True)
             pickup_file = args_dir / "topdown_pickup.json"
-            with open(pickup_file, 'w', encoding='utf-8') as f:
-                json.dump({
-                    "generated_at": datetime.now(timezone.utc).isoformat(),
-                    "total_applicant_snippets": len(applicant_snippets),
-                    "standards_count": len(legal_stds),
-                    "pickup_by_standard": pickup_report,
-                }, f, ensure_ascii=False, indent=2)
+            atomic_write_json(pickup_file, {
+                "generated_at": datetime.now(timezone.utc).isoformat(),
+                "total_applicant_snippets": len(applicant_snippets),
+                "standards_count": len(legal_stds),
+                "pickup_by_standard": pickup_report,
+            })
             print(f"[TopDown] Saved pickup results to {pickup_file}")
         except Exception as e:
             print(f"[TopDown] Warning: could not save pickup results: {e}")
@@ -1759,13 +1759,12 @@ async def _niw_group_snippets_by_prong_topdown(
             args_dir = projects_dir / project_id / "arguments"
             args_dir.mkdir(parents=True, exist_ok=True)
             pickup_file = args_dir / "niw_topdown_pickup.json"
-            with open(pickup_file, 'w', encoding='utf-8') as f:
-                json.dump({
-                    "generated_at": datetime.now(timezone.utc).isoformat(),
-                    "total_snippets": len(snippets),
-                    "prongs_count": len(NIW_LEGAL_STANDARDS),
-                    "pickup_by_prong": pickup_report,
-                }, f, ensure_ascii=False, indent=2)
+            atomic_write_json(pickup_file, {
+                "generated_at": datetime.now(timezone.utc).isoformat(),
+                "total_snippets": len(snippets),
+                "prongs_count": len(NIW_LEGAL_STANDARDS),
+                "pickup_by_prong": pickup_report,
+            })
             print(f"[NIW-TopDown] Saved pickup results to {pickup_file}")
         except Exception as e:
             print(f"[NIW-TopDown] Warning: could not save pickup results: {e}")
@@ -2392,8 +2391,7 @@ async def full_legal_pipeline(
     # 保存结果
     output_file = project_dir / "arguments" / "legal_arguments.json"
     output_file.parent.mkdir(parents=True, exist_ok=True)
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(result, f, ensure_ascii=False, indent=2)
+    atomic_write_json(output_file, result)
 
     print(f"\n[LegalPipeline] Results saved to {output_file}")
 

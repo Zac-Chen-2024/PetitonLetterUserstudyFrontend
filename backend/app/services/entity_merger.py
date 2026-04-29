@@ -18,6 +18,7 @@ import uuid
 from typing import List, Dict, Optional
 from pathlib import Path
 from datetime import datetime, timezone
+from app.core.atomic_io import atomic_write_json
 from dataclasses import dataclass, asdict
 
 from .llm_client import call_llm
@@ -235,8 +236,7 @@ async def suggest_entity_merges(
         "suggestions": suggestions
     }
 
-    with open(suggestions_file, 'w', encoding='utf-8') as f:
-        json.dump(suggestions_data, f, ensure_ascii=False, indent=2)
+    atomic_write_json(suggestions_file, suggestions_data)
 
     print(f"[EntityMerger] Generated {len(suggestions)} merge suggestions")
 
@@ -277,8 +277,7 @@ def update_merge_suggestion_status(
             break
 
     if updated:
-        with open(suggestions_file, 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
+        atomic_write_json(suggestions_file, data)
 
     return updated
 
@@ -391,8 +390,7 @@ def apply_entity_merges(project_id: str) -> Dict:
 
     extraction_dir = get_extraction_dir(project_id)
     combined_file = extraction_dir / "combined_extraction.json"
-    with open(combined_file, 'w', encoding='utf-8') as f:
-        json.dump(combined, f, ensure_ascii=False, indent=2)
+    atomic_write_json(combined_file, combined)
 
     # 8. 同步更新 snippets 文件
     snippets_dir = PROJECTS_DIR / project_id / "snippets"
@@ -405,8 +403,7 @@ def apply_entity_merges(project_id: str) -> Dict:
         snippets_data["snippets"] = snippets
         snippets_data["merge_applied_at"] = datetime.now(timezone.utc).isoformat()
 
-        with open(snippets_file, 'w', encoding='utf-8') as f:
-            json.dump(snippets_data, f, ensure_ascii=False, indent=2)
+        atomic_write_json(snippets_file, snippets_data)
 
     # 9. 保存合并历史
     merge_history = []
@@ -423,20 +420,18 @@ def apply_entity_merges(project_id: str) -> Dict:
         merge_history.append(record)
 
     history_file = get_entities_dir(project_id) / "merge_history.json"
-    with open(history_file, 'w', encoding='utf-8') as f:
-        json.dump({
-            "applied_at": datetime.now(timezone.utc).isoformat(),
-            "merges": merge_history
-        }, f, ensure_ascii=False, indent=2)
+    atomic_write_json(history_file, {
+        "applied_at": datetime.now(timezone.utc).isoformat(),
+        "merges": merge_history
+    })
 
     # 10. 保存更新后的 entities
     entities_file = get_entities_dir(project_id) / "entities.json"
-    with open(entities_file, 'w', encoding='utf-8') as f:
-        json.dump({
-            "updated_at": datetime.now(timezone.utc).isoformat(),
-            "entity_count": len(new_entities),
-            "entities": new_entities
-        }, f, ensure_ascii=False, indent=2)
+    atomic_write_json(entities_file, {
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "entity_count": len(new_entities),
+        "entities": new_entities
+    })
 
     print(f"[EntityMerger] Applied {len(accepted_merges)} merges, updated {snippets_updated} snippets, {relations_updated} relations")
 
@@ -487,8 +482,7 @@ def add_manual_merge(
 
     data["suggestions"].append(suggestion)
 
-    with open(suggestions_file, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    atomic_write_json(suggestions_file, data)
 
     return suggestion
 

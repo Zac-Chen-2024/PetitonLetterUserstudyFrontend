@@ -17,6 +17,7 @@ import subprocess
 import platform
 from typing import List, Dict, Any, Tuple, Optional, Callable
 from pathlib import Path
+from app.core.atomic_io import atomic_write_json
 
 from app.core.config import settings
 
@@ -162,8 +163,7 @@ def call_deepseek_ocr_batch_gpu(
     with tempfile.TemporaryDirectory() as temp_dir:
         # 创建图片列表文件
         image_list_file = os.path.join(temp_dir, "image_list.json")
-        with open(image_list_file, 'w', encoding='utf-8') as f:
-            json.dump(image_paths, f)
+        atomic_write_json(image_list_file, image_paths)
 
         results_file = os.path.join(temp_dir, "results.json")
         progress_file = os.path.join(temp_dir, "progress.txt")

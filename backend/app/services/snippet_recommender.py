@@ -13,6 +13,7 @@ from datetime import datetime, timezone
 import portalocker
 
 from .snippet_registry import load_registry
+from app.core.atomic_io import atomic_write_json
 from .llm_client import call_llm, call_llm_text
 
 
@@ -43,12 +44,7 @@ def save_legal_arguments(project_id: str, data: Dict):
     args_dir.mkdir(parents=True, exist_ok=True)
     args_file = args_dir / "legal_arguments.json"
 
-    with open(args_file, 'w', encoding='utf-8') as f:
-        portalocker.lock(f, portalocker.LOCK_EX)
-        try:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-        finally:
-            portalocker.unlock(f)
+    atomic_write_json(args_file, data)
 
 
 def get_assigned_snippet_ids(project_id: str) -> Set[str]:

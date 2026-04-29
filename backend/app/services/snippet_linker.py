@@ -17,6 +17,7 @@ import json
 from typing import List, Dict, Tuple, Set
 from collections import defaultdict
 from pathlib import Path
+from app.core.atomic_io import atomic_write_json
 
 # 数据存储根目录
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
@@ -264,8 +265,7 @@ def save_links(project_id: str, links: List[Dict]):
         "links": links
     }
 
-    with open(links_file, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    atomic_write_json(links_file, data)
 
 
 def load_links(project_id: str) -> List[Dict]:

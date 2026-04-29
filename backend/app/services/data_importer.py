@@ -17,6 +17,7 @@ from typing import List, Dict, Optional, Tuple
 from datetime import datetime, timezone
 
 from .snippet_registry import generate_snippet_id, save_registry
+from app.core.atomic_io import atomic_write_json
 
 # 数据目录
 # BASE_DIR 指向 backend/, 项目根目录在上一级
@@ -263,8 +264,7 @@ def save_project_metadata(project_id: str, metadata: Dict):
     project_dir = PROJECTS_DIR / project_id
     metadata_file = project_dir / "metadata.json"
 
-    with open(metadata_file, 'w', encoding='utf-8') as f:
-        json.dump(metadata, f, ensure_ascii=False, indent=2)
+    atomic_write_json(metadata_file, metadata)
 
 
 def save_exhibit_document(project_id: str, exhibit_data: Dict):
@@ -272,8 +272,7 @@ def save_exhibit_document(project_id: str, exhibit_data: Dict):
     project_dir = PROJECTS_DIR / project_id
     doc_file = project_dir / "documents" / f"{exhibit_data['exhibit_id']}.json"
 
-    with open(doc_file, 'w', encoding='utf-8') as f:
-        json.dump(exhibit_data, f, ensure_ascii=False, indent=2)
+    atomic_write_json(doc_file, exhibit_data)
 
 
 def _find_ocr_exhibit_dirs(person_dir: Path) -> List[Path]:
@@ -398,8 +397,7 @@ def import_person_data(person_name: str, visa_type: str = "EB-1A") -> Dict:
 
     # Write documents.json (canonical exhibit list for documents router)
     docs_file = PROJECTS_DIR / project_id / "documents.json"
-    with open(docs_file, 'w', encoding='utf-8') as f:
-        json.dump(exhibit_list, f, ensure_ascii=False, indent=2)
+    atomic_write_json(docs_file, exhibit_list)
 
     # Also create meta.json (new format)
     meta = {
@@ -411,8 +409,7 @@ def import_person_data(person_name: str, visa_type: str = "EB-1A") -> Dict:
         "sourcePath": str(person_dir),
     }
     meta_file = PROJECTS_DIR / project_id / "meta.json"
-    with open(meta_file, 'w', encoding='utf-8') as f:
-        json.dump(meta, f, ensure_ascii=False, indent=2)
+    atomic_write_json(meta_file, meta)
 
     return {
         "success": True,

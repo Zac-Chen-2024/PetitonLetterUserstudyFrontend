@@ -14,6 +14,7 @@ import json
 from typing import List, Dict, Optional
 from pathlib import Path
 from datetime import datetime, timezone
+from app.core.atomic_io import atomic_write_json
 
 # 数据存储根目录
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
@@ -198,8 +199,7 @@ def save_registry(project_id: str, snippets: List[Dict]):
         "snippets": snippets
     }
 
-    with open(registry_file, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    atomic_write_json(registry_file, data)
 
 
 def load_registry(project_id: str) -> List[Dict]:
