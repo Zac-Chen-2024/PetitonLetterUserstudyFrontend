@@ -15,10 +15,17 @@ class Settings(BaseSettings):
     # LLM Provider: "deepseek" (default) or "openai"
     llm_provider: str = "deepseek"
 
-    # CORS — comma-separated list. Default covers prod domain + Vite dev server.
+    # CORS — comma-separated list. Default covers:
+    #   - study.zacchen.win  : production frontend (GitHub Pages custom domain)
+    #   - plus.drziangchen.uk: backend's own host (kept for any same-origin
+    #                          tooling that hits the API from the box)
+    #   - localhost ports    : Vite dev (5173) and `vite preview` (4173)
     # Set to "*" only for explicit local-debug situations.
     allowed_origins: str = (
-        "https://plus.drziangchen.uk,http://localhost:5173,http://localhost:4173"
+        "https://study.zacchen.win,"
+        "https://plus.drziangchen.uk,"
+        "http://localhost:5173,"
+        "http://localhost:4173"
     )
 
     # API Key gate (Phase 1: optional; Phase 3: required)
