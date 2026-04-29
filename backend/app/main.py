@@ -4,6 +4,7 @@ from contextlib import asynccontextmanager
 
 from app.core.config import settings
 from app.core.error_handlers import install as install_error_handlers
+from app.middleware.api_key import APIKeyMiddleware
 from app.routers.projects import router as projects_router
 from app.routers.writing import router as writing_router
 from app.routers.snippets import router as snippets_router
@@ -38,6 +39,14 @@ app.add_middleware(
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     allow_headers=["*"],
+)
+
+# API Key gate — runs before CORS (starlette reverses add_middleware order).
+# No-op when api_key_required=False (default for user studies / local dev).
+app.add_middleware(
+    APIKeyMiddleware,
+    required=settings.api_key_required,
+    expected_key=settings.api_key,
 )
 
 # Include routers (new frontend only)
