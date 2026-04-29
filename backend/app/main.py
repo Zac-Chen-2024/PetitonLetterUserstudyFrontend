@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from contextlib import asynccontextmanager
 
+from app.core.config import settings
 from app.routers.projects import router as projects_router
 from app.routers.writing import router as writing_router
 from app.routers.snippets import router as snippets_router
@@ -28,12 +29,12 @@ app = FastAPI(
     lifespan=lifespan
 )
 
-# CORS
+# CORS — 白名单驱动。带凭证时不能用 "*"。
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=settings.allowed_origins_list,
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     allow_headers=["*"],
 )
 

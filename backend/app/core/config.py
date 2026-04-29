@@ -1,3 +1,5 @@
+from typing import List
+
 from pydantic_settings import BaseSettings
 
 
@@ -12,6 +14,20 @@ class Settings(BaseSettings):
 
     # LLM Provider: "deepseek" (default) or "openai"
     llm_provider: str = "deepseek"
+
+    # CORS — comma-separated list. Default covers prod domain + Vite dev server.
+    # Set to "*" only for explicit local-debug situations.
+    allowed_origins: str = (
+        "https://plus.drziangchen.uk,http://localhost:5173,http://localhost:4173"
+    )
+
+    # API Key gate (Phase 1: optional; Phase 3: required)
+    api_key: str = ""
+    api_key_required: bool = False
+
+    @property
+    def allowed_origins_list(self) -> List[str]:
+        return [o.strip() for o in self.allowed_origins.split(",") if o.strip()]
 
     class Config:
         env_file = ".env"
