@@ -1,0 +1,424 @@
+{
+  "version_id": "20260422_023428",
+  "timestamp": "2026-04-22T02:34:28.808875+00:00",
+  "success": true,
+  "section": "judging",
+  "paragraph_text": "The Beneficiary satisfies 8 C.F.R. §204.5(h)(3)(iv) by demonstrating participation as a judge of the work of others in the field of endeavor. The Beneficiary was appointed as the Deputy Director of the 13th Tiger Roar Awards Organizing Committee in April 2022, a committee under the China Advertising Association of Commerce [Exhibit C1, p.2]. This appointment demonstrates that the Beneficiary was selected for a formal leadership role overseeing the judging process of a prestigious awards committee [Exhibit C1, p.2]. The committee's leadership included Executive President Xubin Chen, whose presence underscores the caliber of the organization [Exhibit C1, p.2]. The Tiger Roar Awards Organizing Committee operates under the China Advertising Association of Commerce, indicating its national scope and recognition in the advertising and marketing field [Exhibit C1, p.2]. As Deputy Director, the Beneficiary would have been responsible for evaluating submissions and determining award winners, though specific numbers of submissions are not provided in the source materials. The committee's judging panel included distinguished academics such as Professor Liping Sun, a Professor at the Department of Sociology, Tsinghua University, and PhD supervisor with over 20 years of teaching and research experience [Exhibit C6, p.2]. Professor Sun has published more than 10 monographs and dozens of papers, including the widely recognized 'Social Fracture Trilogy,' and previously served at Peking University from 1982 to 2000 [Exhibit C6, p.2-3]. The presence of such an esteemed scholar on the committee indicates the high standards and academic rigor of the judging process [Exhibit C6, p.2]. This leadership role in judging the work of others in the advertising and marketing field satisfies the regulatory criterion for participation as a judge [Exhibit C1, p.2]. Furthermore, the Beneficiary served as a Judge for the First China Digital Marketing Conference in January 2016, hosted by the Digital Marketing Committee of China (DMCC) [Exhibit C7, p.2]. This conference was hosted by the Digital Marketing Committee of the China Advertising Association of Commerce under the auspices of the Chinese Ministry of Commerce, indicating its national authority and prestige [Exhibit C8, p.2]. The conference attracted internet giants such as Tencent, Alibaba, Baidu, Google, NetEase, Sohu, Sina, Acxiom, and Criteo, along with hundreds of domestic and foreign brand owners and innovative digital marketing companies [Exhibit C8, p.2]. The Beneficiary was invited as a reviewing judge by the DMCC Secretariat, as shown in email correspondence where he was addressed as 'Professor Liu' and thanked for his valuable suggestions [Exhibit C10, p.2]. This invitation demonstrates that the Beneficiary was selected based on his recognized expertise in digital marketing [Exhibit C10, p.2]. From January 4th to January 7th, 2016, the Beneficiary evaluated award candidates across eight categories, voting according to his professional experience [Exhibit C10, p.3]. The judging process involved award submissions collected from December 7th to December 31st, 2015, with categories including Main Brand (approximately 23%), Digital Enterprises (approximately 45%), Digital Marketing Product Effectiveness (approximately 1%), Personality (approximately 13%), and Media (approximately 13%) [Exhibit C10, p.3]. The Beneficiary's voting power accounted for 80%, which directly determined the final award winners, as stated in the email: '(Your voting power accounts for 80%, which will directly determine the final award winners)' [Exhibit C10, p.3]. This high decision weight underscores the significant impact of the Beneficiary's judgments on the conference outcomes [Exhibit C10, p.3]. The conference aimed to encourage and recognize brand owners, digital companies, media institutions, and practitioners who innovate through digitization, with awards set up to address challenges in Chinese brand building in the 'Internet+' era [Exhibit C8, p.2]. Such participation as a judge of the work of peers in digital marketing establishes that the Beneficiary meets the regulatory standard for judging the work of others in an allied field [Exhibit C7, p.2]. In sum, the foregoing evidence clearly establishes the Beneficiary's qualifying judging roles that meet the regulatory criteria.",
+  "sentences": [
+    {
+      "text": "The Beneficiary satisfies 8 C.F.R. §204.5(h)(3)(iv) by demonstrating participation as a judge of the work of others in the field of endeavor.",
+      "snippet_ids": [],
+      "subargument_id": null,
+      "argument_id": "arg-002",
+      "exhibit_refs": [],
+      "sentence_type": "opening",
+      "basis": "inference"
+    },
+    {
+      "text": "The Beneficiary was appointed as the Deputy Director of the 13th Tiger Roar Awards Organizing Committee in April 2022, a committee under the China Advertising Association of Commerce [Exhibit C1, p.2].",
+      "snippet_ids": [
+        "snp_C1_e5f6a7b8",
+        "snp_C1_c9d0e1f2",
+        "snp_C1_e7f8a9b0"
+      ],
+      "subargument_id": "subarg-025",
+      "argument_id": "arg-002",
+      "exhibit_refs": [
+        "Exhibit C1, p.2"
+      ],
+      "sentence_type": "body",
+      "basis": "evidence"
+    },
+    {
+      "text": "This appointment demonstrates that the Beneficiary was selected for a formal leadership role overseeing the judging process of a prestigious awards committee [Exhibit C1, p.2].",
+      "snippet_ids": [
+        "snp_C1_e5f6a7b8"
+      ],
+      "subargument_id": "subarg-025",
+      "argument_id": "arg-002",
+      "exhibit_refs": [
+        "Exhibit C1, p.2"
+      ],
+      "sentence_type": "body",
+      "basis": "evidence"
+    },
+    {
+      "text": "The committee's leadership included Executive President Xubin Chen, whose presence underscores the caliber of the organization [Exhibit C1, p.2].",
+      "snippet_ids": [
+        "snp_C1_e5f6a7b8"
+      ],
+      "subargument_id": "subarg-025",
+      "argument_id": "arg-002",
+      "exhibit_refs": [
+        "Exhibit C1, p.2"
+      ],
+      "sentence_type": "body",
+      "basis": "evidence"
+    },
+    {
+      "text": "The Tiger Roar Awards Organizing Committee operates under the China Advertising Association of Commerce, indicating its national scope and recognition in the advertising and marketing field [Exhibit C1, p.2].",
+      "snippet_ids": [
+        "snp_C1_c9d0e1f2",
+        "snp_C1_a3b4c5d6"
+      ],
+      "subargument_id": "subarg-025",
+      "argument_id": "arg-002",
+      "exhibit_refs": [
+        "Exhibit C1, p.2"
+      ],
+      "sentence_type": "body",
+      "basis": "evidence"
+    },
+    {
+      "text": "As Deputy Director, the Beneficiary would have been responsible for evaluating submissions and determining award winners, though specific numbers of submissions are not provided in the source materials.",
+      "snippet_ids": [
+        "snp_C1_e5f6a7b8"
+      ],
+      "subargument_id": "subarg-025",
+      "argument_id": "arg-002",
+      "exhibit_refs": [],
+      "sentence_type": "body",
+      "basis": "inference"
+    },
+    {
+      "text": "The committee's judging panel included distinguished academics such as Professor Liping Sun, a Professor at the Department of Sociology, Tsinghua University, and PhD supervisor with over 20 years of teaching and research experience [Exhibit C6, p.2].",
+      "snippet_ids": [
+        "snp_C6_a1b2c3d4",
+        "snp_C6_e5f6a7b8"
+      ],
+      "subargument_id": "subarg-025",
+      "argument_id": "arg-002",
+      "exhibit_refs": [
+        "Exhibit C6, p.2"
+      ],
+      "sentence_type": "body",
+      "basis": "evidence"
+    },
+    {
+      "text": "Professor Sun has published more than 10 monographs and dozens of papers, including the widely recognized 'Social Fracture Trilogy,' and previously served at Peking University from 1982 to 2000 [Exhibit C6, p.2-3].",
+      "snippet_ids": [
+        "snp_C6_e5f6a7b8",
+        "snp_C6_c9d0e1f2",
+        "snp_C6_a3b4c5d6"
+      ],
+      "subargument_id": "subarg-025",
+      "argument_id": "arg-002",
+      "exhibit_refs": [
+        "Exhibit C6, p.2-3"
+      ],
+      "sentence_type": "body",
+      "basis": "evidence"
+    },
+    {
+      "text": "The presence of such an esteemed scholar on the committee indicates the high standards and academic rigor of the judging process [Exhibit C6, p.2].",
+      "snippet_ids": [
+        "snp_C6_a1b2c3d4"
+      ],
+      "subargument_id": "subarg-025",
+      "argument_id": "arg-002",
+      "exhibit_refs": [
+        "Exhibit C6, p.2"
+      ],
+      "sentence_type": "body",
+      "basis": "evidence"
+    },
+    {
+      "text": "This leadership role in judging the work of others in the advertising and marketing field satisfies the regulatory criterion for participation as a judge [Exhibit C1, p.2].",
+      "snippet_ids": [
+        "snp_C1_e5f6a7b8"
+      ],
+      "subargument_id": "subarg-025",
+      "argument_id": "arg-002",
+      "exhibit_refs": [
+        "Exhibit C1, p.2"
+      ],
+      "sentence_type": "body",
+      "basis": "evidence"
+    },
+    {
+      "text": "Furthermore, the Beneficiary served as a Judge for the First China Digital Marketing Conference in January 2016, hosted by the Digital Marketing Committee of China (DMCC) [Exhibit C7, p.2].",
+      "snippet_ids": [
+        "snp_C7_a1b2c3d4",
+        "snp_C7_e5f6a7b8",
+        "snp_C7_c9d0e1f2",
+        "snp_C7_a3b4c5d6"
+      ],
+      "subargument_id": "subarg-008",
+      "argument_id": "arg-002",
+      "exhibit_refs": [
+        "Exhibit C7, p.2"
+      ],
+      "sentence_type": "body",
+      "basis": "evidence"
+    },
+    {
+      "text": "This conference was hosted by the Digital Marketing Committee of the China Advertising Association of Commerce under the auspices of the Chinese Ministry of Commerce, indicating its national authority and prestige [Exhibit C8, p.2].",
+      "snippet_ids": [
+        "snp_C8_a1b2c3d4"
+      ],
+      "subargument_id": "subarg-008",
+      "argument_id": "arg-002",
+      "exhibit_refs": [
+        "Exhibit C8, p.2"
+      ],
+      "sentence_type": "body",
+      "basis": "evidence"
+    },
+    {
+      "text": "The conference attracted internet giants such as Tencent, Alibaba, Baidu, Google, NetEase, Sohu, Sina, Acxiom, and Criteo, along with hundreds of domestic and foreign brand owners and innovative digital marketing companies [Exhibit C8, p.2].",
+      "snippet_ids": [
+        "snp_C8_e5f6a7b8"
+      ],
+      "subargument_id": "subarg-008",
+      "argument_id": "arg-002",
+      "exhibit_refs": [
+        "Exhibit C8, p.2"
+      ],
+      "sentence_type": "body",
+      "basis": "evidence"
+    },
+    {
+      "text": "The Beneficiary was invited as a reviewing judge by the DMCC Secretariat, as shown in email correspondence where he was addressed as 'Professor Liu' and thanked for his valuable suggestions [Exhibit C10, p.2].",
+      "snippet_ids": [
+        "snp_C10_a1b2c3d4",
+        "snp_C10_e5f6a7b8"
+      ],
+      "subargument_id": "subarg-008",
+      "argument_id": "arg-002",
+      "exhibit_refs": [
+        "Exhibit C10, p.2"
+      ],
+      "sentence_type": "body",
+      "basis": "evidence"
+    },
+    {
+      "text": "This invitation demonstrates that the Beneficiary was selected based on his recognized expertise in digital marketing [Exhibit C10, p.2].",
+      "snippet_ids": [
+        "snp_C10_e5f6a7b8"
+      ],
+      "subargument_id": "subarg-008",
+      "argument_id": "arg-002",
+      "exhibit_refs": [
+        "Exhibit C10, p.2"
+      ],
+      "sentence_type": "body",
+      "basis": "evidence"
+    },
+    {
+      "text": "From January 4th to January 7th, 2016, the Beneficiary evaluated award candidates across eight categories, voting according to his professional experience [Exhibit C10, p.3].",
+      "snippet_ids": [
+        "snp_C10_c9d0e1f2"
+      ],
+      "subargument_id": "subarg-008",
+      "argument_id": "arg-002",
+      "exhibit_refs": [
+        "Exhibit C10, p.3"
+      ],
+      "sentence_type": "body",
+      "basis": "evidence"
+    },
+    {
+      "text": "The judging process involved award submissions collected from December 7th to December 31st, 2015, with categories including Main Brand (approximately 23%), Digital Enterprises (approximately 45%), Digital Marketing Product Effectiveness (approximately 1%), Personality (approximately 13%), and Media (approximately 13%) [Exhibit C10, p.3].",
+      "snippet_ids": [
+        "snp_C10_c9d0e1f2"
+      ],
+      "subargument_id": "subarg-008",
+      "argument_id": "arg-002",
+      "exhibit_refs": [
+        "Exhibit C10, p.3"
+      ],
+      "sentence_type": "body",
+      "basis": "evidence"
+    },
+    {
+      "text": "The Beneficiary's voting power accounted for 80%, which directly determined the final award winners, as stated in the email: '(Your voting power accounts for 80%, which will directly determine the final award winners)' [Exhibit C10, p.3].",
+      "snippet_ids": [
+        "snp_C10_a3b4c5d6"
+      ],
+      "subargument_id": "subarg-008",
+      "argument_id": "arg-002",
+      "exhibit_refs": [
+        "Exhibit C10, p.3"
+      ],
+      "sentence_type": "body",
+      "basis": "evidence"
+    },
+    {
+      "text": "This high decision weight underscores the significant impact of the Beneficiary's judgments on the conference outcomes [Exhibit C10, p.3].",
+      "snippet_ids": [
+        "snp_C10_a3b4c5d6"
+      ],
+      "subargument_id": "subarg-008",
+      "argument_id": "arg-002",
+      "exhibit_refs": [
+        "Exhibit C10, p.3"
+      ],
+      "sentence_type": "body",
+      "basis": "evidence"
+    },
+    {
+      "text": "The conference aimed to encourage and recognize brand owners, digital companies, media institutions, and practitioners who innovate through digitization, with awards set up to address challenges in Chinese brand building in the 'Internet+' era [Exhibit C8, p.2].",
+      "snippet_ids": [
+        "snp_C8_c9d0e1f2"
+      ],
+      "subargument_id": "subarg-008",
+      "argument_id": "arg-002",
+      "exhibit_refs": [
+        "Exhibit C8, p.2"
+      ],
+      "sentence_type": "body",
+      "basis": "evidence"
+    },
+    {
+      "text": "Such participation as a judge of the work of peers in digital marketing establishes that the Beneficiary meets the regulatory standard for judging the work of others in an allied field [Exhibit C7, p.2].",
+      "snippet_ids": [
+        "snp_C7_a1b2c3d4"
+      ],
+      "subargument_id": "subarg-008",
+      "argument_id": "arg-002",
+      "exhibit_refs": [
+        "Exhibit C7, p.2"
+      ],
+      "sentence_type": "body",
+      "basis": "evidence"
+    },
+    {
+      "text": "In sum, the foregoing evidence clearly establishes the Beneficiary's qualifying judging roles that meet the regulatory criteria.",
+      "snippet_ids": [],
+      "subargument_id": null,
+      "argument_id": "arg-002",
+      "exhibit_refs": [],
+      "sentence_type": "closing",
+      "basis": "inference"
+    }
+  ],
+  "provenance_index": {
+    "by_subargument": {
+      "subarg-025": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "subarg-008": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    "by_argument": {
+      "arg-002": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    "by_snippet": {
+      "snp_C1_e5f6a7b8": [
+        1,
+        2,
+        3,
+        5,
+        9
+      ],
+      "snp_C1_c9d0e1f2": [
+        1,
+        4
+      ],
+      "snp_C1_e7f8a9b0": [
+        1
+      ],
+      "snp_C1_a3b4c5d6": [
+        4
+      ],
+      "snp_C6_a1b2c3d4": [
+        6,
+        8
+      ],
+      "snp_C6_e5f6a7b8": [
+        6,
+        7
+      ],
+      "snp_C6_c9d0e1f2": [
+        7
+      ],
+      "snp_C6_a3b4c5d6": [
+        7
+      ],
+      "snp_C7_a1b2c3d4": [
+        10,
+        20
+      ],
+      "snp_C7_e5f6a7b8": [
+        10
+      ],
+      "snp_C7_c9d0e1f2": [
+        10
+      ],
+      "snp_C7_a3b4c5d6": [
+        10
+      ],
+      "snp_C8_a1b2c3d4": [
+        11
+      ],
+      "snp_C8_e5f6a7b8": [
+        12
+      ],
+      "snp_C10_a1b2c3d4": [
+        13
+      ],
+      "snp_C10_e5f6a7b8": [
+        13,
+        14
+      ],
+      "snp_C10_c9d0e1f2": [
+        15,
+        16
+      ],
+      "snp_C10_a3b4c5d6": [
+        17,
+        18
+      ],
+      "snp_C8_c9d0e1f2": [
+        19
+      ]
+    }
+  },
+  "validation": {
+    "total_sentences": 22,
+    "traced_sentences": 20,
+    "warnings": []
+  }
+}
