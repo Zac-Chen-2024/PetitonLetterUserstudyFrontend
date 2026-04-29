@@ -36,9 +36,9 @@ _LEAKED_LABEL_RE = re.compile(
 
 
 def _normalize_basis(value, snippet_ids) -> str:
-    """Coerce an LLM-provided basis to 'evidence' | 'inference'.
+    """Coerce a basis value to 'evidence' | 'inference'.
 
-    Falls back to a structural default when the LLM omits or garbles the tag:
+    Falls back to a structural default when the value is missing or garbled:
     a sentence with at least one snippet_id is treated as evidence-grounded;
     otherwise it is inferential argumentation.
     """
@@ -47,6 +47,124 @@ def _normalize_basis(value, snippet_ids) -> str:
         if v in ("evidence", "inference"):
             return v
     return "evidence" if snippet_ids else "inference"
+
+
+_BASIS_CLASSIFIER_SYSTEM_PROMPT = (
+    "You are a careful legal-writing reviewer. For each sentence of a U.S. "
+    "immigration petition paragraph, decide whether the sentence's load-bearing "
+    "clause is a factual report from the record ('evidence') or an interpretive, "
+    "evaluative, causal, or conclusory claim about the record ('inference'). "
+    "Citations like [Exhibit X, p.Y] do NOT decide the tag — the predicate does. "
+    "Return strictly valid JSON."
+)
+
+
+_BASIS_CLASSIFIER_FEWSHOT = [
+    {
+        "text": "The Beneficiary served as an expert reviewer for the National Talent Program on May 26, 2017 [Exhibit E9, p.1].",
+        "basis": "evidence",
+        "why": "Pure factual report of who/what/when; predicate 'served as' is reportorial.",
+    },
+    {
+        "text": "The appointment letter states, \"You are appointed as Deputy Director of the 13th Tiger Roar Awards Organizing Committee\" [Exhibit C1, p.2].",
+        "basis": "evidence",
+        "why": "Direct quotation of a document; no interpretive claim.",
+    },
+    {
+        "text": "This participation demonstrates that the Beneficiary served as a judge of the work of others, meeting the regulatory standard [Exhibit E9, p.1].",
+        "basis": "inference",
+        "why": "'demonstrates … meeting the regulatory standard' — evaluative, maps fact to legal standard.",
+    },
+    {
+        "text": "The Beneficiary's decisions directly influenced the selection outcomes of the program [Exhibit E9, p.3].",
+        "basis": "inference",
+        "why": "'directly influenced' is causal inference, not factual restatement.",
+    },
+    {
+        "text": "The presence of Executive President Xubin Chen on the committee underscores the caliber of leadership overseeing the judging process [Exhibit C1, p.2].",
+        "basis": "inference",
+        "why": "'underscores the caliber of leadership' — evaluative/characterizing.",
+    },
+]
+
+
+async def _classify_sentences_basis(
+    sentence_texts: List[str],
+    provider: str = "deepseek",
+) -> List[str]:
+    """Classify each sentence as 'evidence' or 'inference' in a single focused call.
+
+    Returns a list of labels aligned to sentence_texts. Falls back to
+    'inference' for any sentence the LLM failed to label; caller may
+    further override with a structural default if desired.
+    """
+    if not sentence_texts:
+        return []
+
+    fewshot_block = "\n".join(
+        f'  {i+1}. "{ex["text"]}" → {ex["basis"]}  ({ex["why"]})'
+        for i, ex in enumerate(_BASIS_CLASSIFIER_FEWSHOT)
+    )
+
+    numbered_input = "\n".join(
+        f'  {i+1}. "{t}"' for i, t in enumerate(sentence_texts)
+    )
+
+    user_prompt = (
+        "Classify each sentence as exactly one of: \"evidence\" or \"inference\".\n\n"
+        "DEFINITIONS:\n"
+        "- \"evidence\" = the sentence is a factual report of what the record shows "
+        "(who did what, when, title, date, quotation, figure). Predicate is reportorial.\n"
+        "- \"inference\" = the sentence's predicate is interpretive, evaluative, causal, "
+        "conclusory, or maps facts to a legal standard. Synthesis counts as inference "
+        "even if a snippet is cited.\n\n"
+        "RULE OF THUMB: strip the [Exhibit X, p.Y] citation mentally. If the remainder "
+        "reads as a neutral fact, it's evidence. If the remainder makes an evaluative or "
+        "causal claim, it's inference. In a typical legal paragraph, roughly half of the "
+        "sentences are evidence and half are inference.\n\n"
+        "EXAMPLES:\n"
+        f"{fewshot_block}\n\n"
+        "SENTENCES TO CLASSIFY:\n"
+        f"{numbered_input}\n\n"
+        "Return JSON exactly in this shape (one entry per input sentence, preserving order):\n"
+        "{\n"
+        "  \"labels\": [\n"
+        f"    {{\"idx\": 1, \"basis\": \"evidence\"}},\n"
+        "    ...\n"
+        "  ]\n"
+        "}\n"
+        "Return ONLY valid JSON, no markdown."
+    )
+
+    try:
+        result = await call_llm(
+            prompt=user_prompt,
+            system_prompt=_BASIS_CLASSIFIER_SYSTEM_PROMPT,
+            json_schema={},
+            temperature=0.0,
+            max_tokens=2000,
+            provider=provider,
+        )
+    except Exception as exc:  # noqa: BLE001
+        logger.warning(f"Basis classifier failed, falling back to default: {exc}")
+        return ["inference"] * len(sentence_texts)
+
+    if "error" in result:
+        logger.warning(f"Basis classifier error, falling back to default: {result['error']}")
+        return ["inference"] * len(sentence_texts)
+
+    labels_out: List[str] = ["inference"] * len(sentence_texts)
+    for item in result.get("labels", []) or []:
+        try:
+            idx = int(item.get("idx", 0)) - 1
+        except (TypeError, ValueError):
+            continue
+        if 0 <= idx < len(sentence_texts):
+            v = str(item.get("basis", "")).strip().lower()
+            if v in ("evidence", "inference"):
+                labels_out[idx] = v
+
+    return labels_out
 
 
 def _strip_leaked_labels(text: str) -> str:
@@ -879,13 +997,6 @@ RULES:
 3. Embed 1-2 short direct quotes from snippets naturally within sentences (do NOT use block quote format).
 4. Professional legal tone, 100% English (translate non-English source text).
 5. Write 2-4 sentences — match the evidence available. No filler.
-6. Label each sentence with a "basis" tag — this is NOT about whether a snippet is cited, it is about what the sentence is *doing*:
-   - "evidence" — a purely factual restatement of what the record shows: who did what, when, dates, titles, quotations. The sentence reports a fact; it does not argue about its meaning.
-     e.g., "The Beneficiary served as an expert reviewer for Program X on May 26, 2017 [Exhibit E9, p.1]."
-   - "inference" — the sentence's load-bearing verb is interpretive, evaluative, or conclusory. It draws meaning, characterizes significance, synthesizes multiple facts, asserts legal sufficiency, or bridges evidence to a legal standard — even if it also cites a snippet.
-     Markers that almost always indicate inference include: "indicates", "demonstrates", "establishes", "evidences", "shows", "confirms", "is sufficient to", "meets the standard", "constitutes", "reflects", "impacts", "the totality of evidence", and topic/transition sentences.
-     e.g., "This participation demonstrates that the Beneficiary served as a judge of the work of others, meeting the regulatory standard [Exhibit E9, p.1]."
-   RULE OF THUMB: if you can strip the citation and the sentence still makes an argumentative or interpretive claim, it is "inference". If removing the citation leaves only a factual report, it is "evidence". Most petition paragraphs mix both — do not default every cited sentence to "evidence".
 
 Return JSON:
 {{
@@ -893,8 +1004,7 @@ Return JSON:
     {{
       "text": "Argumentative sentence with evidence [Exhibit X, p.Y].",
       "snippet_ids": ["{snippet_ids_list[0] if snippet_ids_list else 'snip_xxx'}"],
-      "exhibit_refs": ["X-Y"],
-      "basis": "evidence"
+      "exhibit_refs": ["X-Y"]
     }}
   ]
 }}
@@ -924,7 +1034,6 @@ Return ONLY valid JSON, no markdown."""
         if raw_ids and not sent["snippet_ids"]:
             _logger.warning(f"Step1 snippet_ids ALL invalid: raw={raw_ids}, valid={valid_ids}")
         sent["exhibit_refs"] = sent.get("exhibit_refs", [])
-        sent["basis"] = _normalize_basis(sent.get("basis"), sent["snippet_ids"])
 
     return sentences
 
@@ -1017,7 +1126,7 @@ async def _step1_generate_argument_body(
     # Build subargument_id list for JSON example
     subarg_ids = [sa["id"] for sa in sub_arguments]
     subarg_json_example = ",\n    ".join(
-        f'{{"subargument_id": "{sid}", "sentences": [{{"text": "...", "snippet_ids": ["..."], "exhibit_refs": ["..."], "basis": "evidence"}}]}}'
+        f'{{"subargument_id": "{sid}", "sentences": [{{"text": "...", "snippet_ids": ["..."], "exhibit_refs": ["..."]}}]}}'
         for sid in subarg_ids[:2]
     )
     if len(subarg_ids) > 2:
@@ -1058,13 +1167,6 @@ Return JSON:
     {subarg_json_example}
   ]
 }}
-
-Each sentence MUST include a "basis" tag — this is about what the sentence *does*, not whether it cites a snippet:
-  - "evidence": a purely factual restatement of what the record shows (who, what, when, title, quotation). The sentence reports a fact and does not argue about its meaning.
-    e.g., "The Beneficiary served as an expert reviewer for Program X on May 26, 2017 [Exhibit E9, p.1]."
-  - "inference": the sentence's load-bearing verb is interpretive, evaluative, or conclusory — it draws meaning, characterizes significance, synthesizes multiple facts, or bridges evidence to a legal standard. Markers that almost always indicate inference: "indicates", "demonstrates", "establishes", "evidences", "shows", "confirms", "is sufficient to", "meets the standard", "constitutes", "reflects", "impacts", "the totality of evidence", transition/topic sentences.
-    e.g., "This participation demonstrates that the Beneficiary served as a judge of the work of others, meeting the regulatory standard [Exhibit E9, p.1]."
-RULE OF THUMB: if stripping the citation leaves a factual report, tag "evidence"; if it leaves an argumentative or interpretive claim, tag "inference". Most petition paragraphs mix both — do NOT default every cited sentence to "evidence".
 
 CRITICAL: Return ALL {len(subarg_ids)} sub-argument paragraphs. subargument_id values MUST be exactly: {subarg_ids}
 Return ONLY valid JSON, no markdown."""
@@ -1107,7 +1209,6 @@ Return ONLY valid JSON, no markdown."""
             raw_ids = sent.get("snippet_ids", [])
             sent["snippet_ids"] = [sid for sid in raw_ids if sid in all_available_snippet_ids]
             sent["exhibit_refs"] = sent.get("exhibit_refs", [])
-            sent["basis"] = _normalize_basis(sent.get("basis"), sent["snippet_ids"])
 
         validated_paragraphs.append({
             "subargument_id": subarg_id,
@@ -1830,9 +1931,10 @@ def build_provenance_index(
     }
 
 
-def flatten_sentences(
+async def flatten_sentences(
     validated_output: Dict,
-    context: Dict
+    context: Dict,
+    provider: str = "deepseek",
 ) -> List[Dict]:
     """
     将结构化输出扁平化为句子列表
@@ -1865,7 +1967,8 @@ def flatten_sentences(
             "basis": "inference"
         })
 
-    # SubArgument paragraphs
+    # SubArgument paragraphs — collect body sentences first, classify basis in one batched call
+    body_start_idx = len(sentences)
     for para in validated_output.get("subargument_paragraphs", []):
         subarg_id = para.get("subargument_id", "")
 
@@ -1878,8 +1981,16 @@ def flatten_sentences(
                 "argument_id": argument_id,
                 "exhibit_refs": sent.get("exhibit_refs", []),
                 "sentence_type": "body",
-                "basis": _normalize_basis(sent.get("basis"), snippet_ids)
             })
+
+    body_slice = sentences[body_start_idx:]
+    if body_slice:
+        labels = await _classify_sentences_basis(
+            [s["text"] for s in body_slice],
+            provider=provider,
+        )
+        for sent, label in zip(body_slice, labels):
+            sent["basis"] = _normalize_basis(label, sent["snippet_ids"])
 
     # Closing sentence
     closing = validated_output.get("closing_sentence", {})
@@ -2113,6 +2224,7 @@ async def write_petition_section_v3(
     })
 
     # Body: 按 Argument → SubArgument 顺序
+    body_start_idx = len(all_sentences)
     for arg_idx, arg_polished in enumerate(polished_bodies):
         arg_id = per_argument_refs[arg_idx].get("id", "") if arg_idx < len(per_argument_refs) else ""
 
@@ -2127,8 +2239,18 @@ async def write_petition_section_v3(
                     "argument_id": arg_id,
                     "exhibit_refs": sent.get("exhibit_refs", []),
                     "sentence_type": "body",
-                    "basis": _normalize_basis(sent.get("basis"), snippet_ids)
                 })
+
+    # Decoupled basis classifier: one focused LLM pass over all body sentences
+    body_slice = all_sentences[body_start_idx:]
+    if body_slice:
+        logger.info(f"Classifying basis for {len(body_slice)} body sentences")
+        basis_labels = await _classify_sentences_basis(
+            [s["text"] for s in body_slice],
+            provider=provider,
+        )
+        for sent, label in zip(body_slice, basis_labels):
+            sent["basis"] = _normalize_basis(label, sent["snippet_ids"])
 
     # Closing
     all_sentences.append({
