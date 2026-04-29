@@ -24,6 +24,9 @@ archive/
 # Userstudy demo project data — kept on server only, not in repo
 backend/data/projects/dr_hu_eb1a/
 
+# atomic_write_json portalocker artifacts (sibling .lock files next to JSON)
+*.json.lock
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
