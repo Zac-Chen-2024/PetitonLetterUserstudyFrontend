@@ -12,7 +12,10 @@ import { legalStandards as defaultEB1AStandards } from '../data/legalStandards';
 
 const STORAGE_KEY_LLM_PROVIDER = 'evidence-system-llm-provider';
 const STORAGE_KEY_PROJECT_ID = 'evidence-system-project-id';
-const DEFAULT_PROJECT_ID = 'dehuan_liu';
+// Configurable via Vite env (VITE_DEFAULT_PROJECT_ID); empty string means
+// "let the user pick from /api/projects on first load" rather than hard-coding
+// a real beneficiary's name.
+const DEFAULT_PROJECT_ID = import.meta.env.VITE_DEFAULT_PROJECT_ID ?? '';
 
 export interface ProjectContextType {
   projectId: string;
@@ -85,6 +88,19 @@ export function ProjectProvider({ children, projectIdOverride }: ProjectProvider
     let cancelled = false;
 
     async function loadProjectData() {
+      // 0. If no projectId is set yet, pick the first one from the backend.
+      if (!projectId) {
+        try {
+          const list = await apiClient.get<Array<{ id: string }>>('/projects');
+          if (!cancelled && Array.isArray(list) && list.length > 0) {
+            setProjectIdState(list[0].id);
+            localStorage.setItem(STORAGE_KEY_PROJECT_ID, list[0].id);
+          }
+        } catch {
+          // No projects; user will see an empty state. Don't crash.
+        }
+        return;
+      }
       // 1. Load project details (type + number)
       try {
         const project = await apiClient.get<{
