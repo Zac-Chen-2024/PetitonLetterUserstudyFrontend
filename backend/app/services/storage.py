@@ -228,8 +228,7 @@ def save_analysis(project_id: str, analysis_data: Dict) -> str:
     }
 
     filename = f"analysis_{version_id}.json"
-    with open(analysis_dir / filename, 'w', encoding='utf-8') as f:
-        json.dump(version_data, f, ensure_ascii=False, indent=2)
+    atomic_write_json(analysis_dir / filename, version_data)
 
     _update_project_time(project_id)
     return version_id
@@ -295,8 +294,7 @@ def save_relationship(project_id: str, relationship_data: Dict) -> str:
     }
 
     filename = f"relationship_{version_id}.json"
-    with open(rel_dir / filename, 'w', encoding='utf-8') as f:
-        json.dump(version_data, f, ensure_ascii=False, indent=2)
+    atomic_write_json(rel_dir / filename, version_data)
 
     _update_project_time(project_id)
     return version_id
@@ -327,8 +325,7 @@ def save_quote_index_map(project_id: str, quote_index_map: Dict) -> str:
     }
 
     filename = f"quote_index_map_{version_id}.json"
-    with open(rel_dir / filename, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    atomic_write_json(rel_dir / filename, data)
 
     return version_id
 
@@ -487,8 +484,7 @@ def create_relationship_snapshot(
     snapshots_data["current_snap"] = snap_id
 
     # 保存快照元数据
-    with open(snapshots_file, 'w', encoding='utf-8') as f:
-        json.dump(snapshots_data, f, ensure_ascii=False, indent=2)
+    atomic_write_json(snapshots_file, snapshots_data)
 
     return snapshot
 
@@ -536,8 +532,7 @@ def rollback_to_snapshot(project_id: str, snapshot_id: str) -> Dict:
     snapshots_data["current_snap"] = snapshot_id
 
     # 保存快照元数据
-    with open(snapshots_file, 'w', encoding='utf-8') as f:
-        json.dump(snapshots_data, f, ensure_ascii=False, indent=2)
+    atomic_write_json(snapshots_file, snapshots_data)
 
     return {
         "snapshot_id": snapshot_id,
@@ -693,8 +688,7 @@ def save_writing(project_id: str, section: str, text: str, citations: List[Dict]
     }
 
     filename = f"writing_{section}_{version_id}.json"
-    with open(writing_dir / filename, 'w', encoding='utf-8') as f:
-        json.dump(version_data, f, ensure_ascii=False, indent=2)
+    atomic_write_json(writing_dir / filename, version_data)
 
     _update_project_time(project_id)
     return version_id
@@ -811,8 +805,7 @@ def save_chunks(project_id: str, document_id: str, chunks: List[Dict]) -> str:
     }
 
     filename = f"chunks_{document_id}.json"
-    with open(chunks_dir / filename, 'w', encoding='utf-8') as f:
-        json.dump(chunk_data, f, ensure_ascii=False, indent=2)
+    atomic_write_json(chunks_dir / filename, chunk_data)
 
     _update_project_time(project_id)
     return document_id
@@ -849,8 +842,7 @@ def save_l1_analysis(project_id: str, chunk_analyses: List[Dict]) -> str:
     }
 
     filename = f"l1_analysis_{version_id}.json"
-    with open(l1_dir / filename, 'w', encoding='utf-8') as f:
-        json.dump(analysis_data, f, ensure_ascii=False, indent=2)
+    atomic_write_json(l1_dir / filename, analysis_data)
 
     _update_project_time(project_id)
     return version_id
@@ -964,8 +956,7 @@ def save_l1_summary(project_id: str, summary: Dict) -> str:
     summary["version_id"] = version_id
 
     filename = f"l1_summary_{version_id}.json"
-    with open(l1_dir / filename, 'w', encoding='utf-8') as f:
-        json.dump(summary, f, ensure_ascii=False, indent=2)
+    atomic_write_json(l1_dir / filename, summary)
 
     _update_project_time(project_id)
     return version_id
@@ -1204,8 +1195,7 @@ def save_style_template(section: str, name: str, original_text: str, parsed_stru
     }
 
     filepath = section_dir / f"{template_id}.json"
-    with open(filepath, 'w', encoding='utf-8') as f:
-        json.dump(template_data, f, ensure_ascii=False, indent=2)
+    atomic_write_json(filepath, template_data)
 
     return template_data
 
@@ -1325,8 +1315,7 @@ def save_ocr_page(project_id: str, document_id: str, page_number: int, page_resu
     """
     ocr_dir = get_ocr_pages_dir(project_id, document_id)
     filepath = ocr_dir / f"page_{page_number}.json"
-    with open(filepath, 'w', encoding='utf-8') as f:
-        json.dump(page_result, f, ensure_ascii=False, indent=2)
+    atomic_write_json(filepath, page_result)
 
 
 def get_completed_pages(project_id: str, document_id: str) -> List[int]:
@@ -1418,8 +1407,7 @@ def update_style_template(template_id: str, updates: Dict) -> Optional[Dict]:
 
                 template['updated_at'] = datetime.now(timezone.utc).isoformat()
 
-                with open(filepath, 'w', encoding='utf-8') as f:
-                    json.dump(template, f, ensure_ascii=False, indent=2)
+                atomic_write_json(filepath, template)
 
                 return template
 
