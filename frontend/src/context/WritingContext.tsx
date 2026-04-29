@@ -3,6 +3,7 @@ import type { WritingEdge, LetterSection, Position, Snippet, Argument, SubArgume
 import { apiClient } from '../services/api';
 import { writingService } from '../services/writingService';
 import { STANDARD_ID_TO_KEY } from '../constants/colors';
+import { buildProvenanceIndex } from '../utils/provenance';
 
 // ============================================
 // WritingContext
@@ -706,33 +707,7 @@ export function WritingProvider({ children }: { children: ReactNode }) {
         }
 
         const newContent = newSentences.map(sent => sent.text).join(' ');
-
-        const newProvenanceIndex = {
-          bySubArgument: {} as Record<string, number[]>,
-          byArgument: {} as Record<string, number[]>,
-          bySnippet: {} as Record<string, number[]>,
-        };
-
-        newSentences.forEach((sent, idx) => {
-          if (sent.subargument_id) {
-            if (!newProvenanceIndex.bySubArgument[sent.subargument_id]) {
-              newProvenanceIndex.bySubArgument[sent.subargument_id] = [];
-            }
-            newProvenanceIndex.bySubArgument[sent.subargument_id].push(idx);
-          }
-          if (sent.argument_id) {
-            if (!newProvenanceIndex.byArgument[sent.argument_id]) {
-              newProvenanceIndex.byArgument[sent.argument_id] = [];
-            }
-            newProvenanceIndex.byArgument[sent.argument_id].push(idx);
-          }
-          (sent.snippet_ids || []).forEach(snippetId => {
-            if (!newProvenanceIndex.bySnippet[snippetId]) {
-              newProvenanceIndex.bySnippet[snippetId] = [];
-            }
-            newProvenanceIndex.bySnippet[snippetId].push(idx);
-          });
-        });
+        const newProvenanceIndex = buildProvenanceIndex(newSentences);
 
         return {
           ...s,
@@ -882,34 +857,7 @@ export function WritingProvider({ children }: { children: ReactNode }) {
           }));
 
         const newContent = newSentences.map(sent => sent.text).join(' ');
-
-        // Rebuild provenance index
-        const newProvenanceIndex = {
-          bySubArgument: {} as Record<string, number[]>,
-          byArgument: {} as Record<string, number[]>,
-          bySnippet: {} as Record<string, number[]>,
-        };
-
-        newSentences.forEach((sent, idx) => {
-          if (sent.subargument_id) {
-            if (!newProvenanceIndex.bySubArgument[sent.subargument_id]) {
-              newProvenanceIndex.bySubArgument[sent.subargument_id] = [];
-            }
-            newProvenanceIndex.bySubArgument[sent.subargument_id].push(idx);
-          }
-          if (sent.argument_id) {
-            if (!newProvenanceIndex.byArgument[sent.argument_id]) {
-              newProvenanceIndex.byArgument[sent.argument_id] = [];
-            }
-            newProvenanceIndex.byArgument[sent.argument_id].push(idx);
-          }
-          (sent.snippet_ids || []).forEach(snippetId => {
-            if (!newProvenanceIndex.bySnippet[snippetId]) {
-              newProvenanceIndex.bySnippet[snippetId] = [];
-            }
-            newProvenanceIndex.bySnippet[snippetId].push(idx);
-          });
-        });
+        const newProvenanceIndex = buildProvenanceIndex(newSentences);
 
         return {
           ...section,
@@ -952,34 +900,7 @@ export function WritingProvider({ children }: { children: ReactNode }) {
         }));
 
       const newContent = newSentences.map(sent => sent.text).join(' ');
-
-      // Rebuild provenance index
-      const newProvenanceIndex = {
-        bySubArgument: {} as Record<string, number[]>,
-        byArgument: {} as Record<string, number[]>,
-        bySnippet: {} as Record<string, number[]>,
-      };
-
-      newSentences.forEach((sent, idx) => {
-        if (sent.subargument_id) {
-          if (!newProvenanceIndex.bySubArgument[sent.subargument_id]) {
-            newProvenanceIndex.bySubArgument[sent.subargument_id] = [];
-          }
-          newProvenanceIndex.bySubArgument[sent.subargument_id].push(idx);
-        }
-        if (sent.argument_id) {
-          if (!newProvenanceIndex.byArgument[sent.argument_id]) {
-            newProvenanceIndex.byArgument[sent.argument_id] = [];
-          }
-          newProvenanceIndex.byArgument[sent.argument_id].push(idx);
-        }
-        (sent.snippet_ids || []).forEach(snippetId => {
-          if (!newProvenanceIndex.bySnippet[snippetId]) {
-            newProvenanceIndex.bySnippet[snippetId] = [];
-          }
-          newProvenanceIndex.bySnippet[snippetId].push(idx);
-        });
-      });
+      const newProvenanceIndex = buildProvenanceIndex(newSentences);
 
       return {
         ...section,
