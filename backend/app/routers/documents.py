@@ -13,6 +13,7 @@ from pathlib import Path
 from fastapi import APIRouter, HTTPException
 from fastapi.responses import FileResponse
 
+from app.core.safety import EXHIBIT_ID_RE, safe_resolve
 from app.services import storage
 
 logger = logging.getLogger(__name__)
@@ -56,8 +57,6 @@ def list_exhibits(project_id: str):
     project_dir = storage.get_project_dir(project_id)
 
     raw_exhibits = []
-
-    # Try documents.json first (new format)
     docs_file = project_dir / "documents.json"
     if docs_file.exists():
         with open(docs_file, "r", encoding="utf-8") as f:
@@ -69,37 +68,36 @@ def list_exhibits(project_id: str):
         raise HTTPException(status_code=404, detail="No exhibits found for project")
 
     exhibits = [_exhibit_to_frontend(project_id, e) for e in raw_exhibits]
-
-    return {
-        "project_id": project_id,
-        "total": len(exhibits),
-        "exhibits": exhibits,
-    }
+    return {"project_id": project_id, "total": len(exhibits), "exhibits": exhibits}
 
 
 @router.get("/{project_id}/pdf/{exhibit_id}")
 def get_exhibit_pdf(project_id: str, exhibit_id: str):
-    """Serve exhibit PDF file from the project's source data directory."""
+    """Serve exhibit PDF, with strict whitelist + path-traversal defence."""
+    if not EXHIBIT_ID_RE.fullmatch(exhibit_id):
+        raise HTTPException(status_code=400, detail="Invalid exhibit_id format")
+
     source = _get_source_path(project_id)
+    pdf_root = source / "PDF"
     letter = exhibit_id[0].upper()
 
     # Build dash-separated variant: "A1" -> "A-1", "B10" -> "B-10"
-    dash_id = re.sub(r'([A-Za-z])(\d)', r'\1-\2', exhibit_id)
+    dash_id = re.sub(r"([A-Za-z])(\d)", r"\1-\2", exhibit_id)
 
-    # Try multiple naming conventions: A1.pdf, a1.pdf, A-1.pdf
-    candidates = [
-        source / "PDF" / letter / f"{exhibit_id}.pdf",
-        source / "PDF" / letter / f"{exhibit_id.lower()}.pdf",
-        source / "PDF" / letter / f"{exhibit_id.upper()}.pdf",
-        source / "PDF" / letter / f"{dash_id}.pdf",
-        source / "PDF" / letter / f"{dash_id.lower()}.pdf",
-        source / "PDF" / letter / f"{dash_id.upper()}.pdf",
+    raw_candidates = [
+        pdf_root / letter / f"{exhibit_id}.pdf",
+        pdf_root / letter / f"{exhibit_id.lower()}.pdf",
+        pdf_root / letter / f"{exhibit_id.upper()}.pdf",
+        pdf_root / letter / f"{dash_id}.pdf",
+        pdf_root / letter / f"{dash_id.lower()}.pdf",
+        pdf_root / letter / f"{dash_id.upper()}.pdf",
     ]
 
-    for pdf_path in candidates:
-        if pdf_path.exists():
+    for cand in raw_candidates:
+        resolved = safe_resolve(cand, pdf_root)
+        if resolved is not None and resolved.exists():
             return FileResponse(
-                path=str(pdf_path),
+                path=str(resolved),
                 media_type="application/pdf",
                 filename=f"{exhibit_id}.pdf",
             )
