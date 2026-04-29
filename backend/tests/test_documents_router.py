@@ -37,11 +37,14 @@ def test_pdf_route_rejects_traversal(client, tmp_projects_dir, tmp_path):
     source.mkdir()
     pid = _bootstrap_project(tmp_projects_dir, source)
 
-    # FastAPI normalises ".." in the path itself; we still want to verify the
-    # whitelist rejects malformed IDs.
-    for bad_id in ["A", "1A", "A-1", "A%2E1"]:
+    # The whitelist must reject malformed IDs *before* touching the filesystem
+    # — an explicit 400, not an incidental 404 from a missing file. Note
+    # "A%2E1" is excluded because FastAPI URL-decodes it to "A.1" and the
+    # path-segment regex still rejects, but we'd rather assert on shapes that
+    # remain malformed regardless of router-level normalisation.
+    for bad_id in ["A", "1A", "A-1", "A.1", "foo"]:
         resp = client.get(f"/api/documents/{pid}/pdf/{bad_id}")
-        assert resp.status_code in (400, 404), f"{bad_id} should be rejected"
+        assert resp.status_code == 400, f"{bad_id} should return 400, got {resp.status_code}"
 
 
 def test_pdf_route_404_when_pdf_missing(client, tmp_projects_dir, tmp_path):
