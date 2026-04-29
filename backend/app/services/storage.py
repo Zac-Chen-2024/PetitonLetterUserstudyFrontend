@@ -8,6 +8,8 @@ from datetime import datetime, timezone
 from typing import List, Dict, Optional, Any
 from pathlib import Path
 
+from app.core.atomic_io import atomic_write_json
+
 # 数据存储根目录 (backend/data)
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
 PROJECTS_DIR = Path(os.getenv("PETITON_PROJECTS_DIR", str(DATA_DIR / "projects")))
@@ -112,12 +114,10 @@ def create_project(name: str, project_type: str = "EB-1A") -> Dict:
         "updatedAt": datetime.now(timezone.utc).isoformat()
     }
 
-    with open(project_dir / "meta.json", 'w', encoding='utf-8') as f:
-        json.dump(meta, f, ensure_ascii=False, indent=2)
+    atomic_write_json(project_dir / "meta.json", meta)
 
     # 初始化空的文档列表
-    with open(project_dir / "documents.json", 'w', encoding='utf-8') as f:
-        json.dump([], f, ensure_ascii=False, indent=2)
+    atomic_write_json(project_dir / "documents.json", [])
 
     return meta
 
@@ -161,8 +161,7 @@ def update_project_meta(project_id: str, updates: Dict) -> Optional[Dict]:
 
     meta["updatedAt"] = datetime.now(timezone.utc).isoformat()
 
-    with open(meta_file, 'w', encoding='utf-8') as f:
-        json.dump(meta, f, ensure_ascii=False, indent=2)
+    atomic_write_json(meta_file, meta)
 
     return meta
 
@@ -185,8 +184,7 @@ def save_documents(project_id: str, documents: List[Dict]):
     project_dir.mkdir(parents=True, exist_ok=True)
 
     docs_file = project_dir / "documents.json"
-    with open(docs_file, 'w', encoding='utf-8') as f:
-        json.dump(documents, f, ensure_ascii=False, indent=2)
+    atomic_write_json(docs_file, documents)
 
     # 更新项目修改时间
     _update_project_time(project_id)
@@ -1149,8 +1147,7 @@ def _update_project_time(project_id: str):
 
         meta["updatedAt"] = datetime.now(timezone.utc).isoformat()
 
-        with open(meta_file, 'w', encoding='utf-8') as f:
-            json.dump(meta, f, ensure_ascii=False, indent=2)
+        atomic_write_json(meta_file, meta)
 
 
 def get_full_project_data(project_id: str) -> Optional[Dict]:
