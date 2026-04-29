@@ -75,9 +75,9 @@ async def map_snippet_to_standard(project_id: str, request: SnippetMappingReques
                 if snip.get("snippet_id") == request.snippet_id:
                     snip["evidence_type"] = request.standard_key
                     break
+            from app.core.atomic_io import atomic_write_json
             combined_file = get_extraction_dir(project_id) / "combined_extraction.json"
-            with open(combined_file, "w", encoding="utf-8") as f:
-                json.dump(combined, f, ensure_ascii=False, indent=2)
+            atomic_write_json(combined_file, combined)
 
         return {
             "success": True,
