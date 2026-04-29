@@ -1,9 +1,9 @@
-from fastapi import FastAPI, Request
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
 from contextlib import asynccontextmanager
 
 from app.core.config import settings
+from app.core.error_handlers import install as install_error_handlers
 from app.routers.projects import router as projects_router
 from app.routers.writing import router as writing_router
 from app.routers.snippets import router as snippets_router
@@ -29,6 +29,8 @@ app = FastAPI(
     lifespan=lifespan
 )
 
+install_error_handlers(app)
+
 # CORS — 白名单驱动。带凭证时不能用 "*"。
 app.add_middleware(
     CORSMiddleware,
@@ -46,19 +48,6 @@ app.include_router(provenance_router)
 app.include_router(arguments_router)
 app.include_router(extraction_router)
 app.include_router(documents_router)
-
-
-# Global exception handler for unified error responses
-@app.exception_handler(Exception)
-async def global_exception_handler(request: Request, exc: Exception):
-    return JSONResponse(
-        status_code=500,
-        content={
-            "success": False,
-            "error": str(exc),
-            "detail": None,
-        }
-    )
 
 
 @app.get("/")
