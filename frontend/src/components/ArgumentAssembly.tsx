@@ -1,6 +1,8 @@
 import { useState, useRef, useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useApp } from '../context/AppContext';
+import { useArguments } from '../context/ArgumentsContext';
+import { useSnippets } from '../context/SnippetsContext';
+import { useUI } from '../context/UIContext';
 import type { Argument, Snippet, ArgumentStatus, HumanDecision } from '../types';
 import { getStandardKeyColor, STANDARD_KEY_TO_ID } from '../constants/colors';
 import StandardFilterBar from './StandardFilterBar';
@@ -426,25 +428,25 @@ export function ArgumentAssembly() {
   const { t } = useTranslation();
   const {
     arguments: arguments_,
-    allSnippets,
     addArgument,
     updateArgument,
     removeArgument,
     addSnippetToArgument,
     removeSnippetFromArgument,
-    draggedSnippetId,
-    setDraggedArgumentId,
-    updateArgumentPosition2,
-    // AI Generation
     isGeneratingArguments,
     generateArguments,
     generatedMainSubject,
-    // Focus state for filtering
+    argumentMappings,
+  } = useArguments();
+  const { allSnippets } = useSnippets();
+  const {
+    draggedSnippetId,
+    setDraggedArgumentId,
+    updateArgumentPosition2,
     focusState,
     setFocusState,
     setSelectedSnippetId,
-    argumentMappings,
-  } = useApp();
+  } = useUI();
 
   const [expandedIds, setExpandedIds] = useState<Set<string>>(new Set());
   const [isDragOver, setIsDragOver] = useState(false);

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState, useCallback, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useApp } from '../context/AppContext';
+import { useUI } from '../context/UIContext';
 import { materialTypeLabels, getStandardById } from '../data/legalStandards';
 import { useLegalStandards } from '../hooks/useLegalStandards';
 
@@ -440,7 +441,7 @@ interface DocumentGroupProps {
 }
 
 function DocumentGroup({ document, snippets, filteredSnippets, isEditMode, selectedSnippetIds, onToggleSelect }: DocumentGroupProps) {
-  const { focusState, setFocusState } = useApp();
+  const { focusState, setFocusState } = useUI();
   const [isCollapsed, setIsCollapsed] = useState(false);
 
   // Use filtered snippets if provided, otherwise use all snippets
