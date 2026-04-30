@@ -3,8 +3,11 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
 from app.core.config import settings
+from app.core.logging_config import configure_logging
+configure_logging()
 from app.core.error_handlers import install as install_error_handlers
 from app.middleware.api_key import APIKeyMiddleware
+from app.middleware.request_id import RequestIdMiddleware
 from app.routers.projects import router as projects_router
 from app.routers.writing import router as writing_router
 from app.routers.snippets import router as snippets_router
@@ -48,6 +51,10 @@ app.add_middleware(
     required=settings.api_key_required,
     expected_key=settings.api_key,
 )
+
+# RequestId middleware — added LAST so it runs FIRST (Starlette reverses order).
+# Generates / accepts X-Request-ID, binds it to contextvar for log correlation.
+app.add_middleware(RequestIdMiddleware)
 
 # Include routers (new frontend only)
 app.include_router(projects_router)

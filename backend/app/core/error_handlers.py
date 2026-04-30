@@ -1,4 +1,9 @@
-"""Unified exception handlers — clients get a request_id, logs get the detail."""
+"""Unified exception handlers — clients get a request_id, logs get the detail.
+
+The request_id is looked up from ``request.state`` (set by RequestIdMiddleware)
+so the value matches the X-Request-ID response header and any in-request log
+lines.
+"""
 from __future__ import annotations
 
 import logging
@@ -11,12 +16,15 @@ from starlette.exceptions import HTTPException as StarletteHTTPException
 logger = logging.getLogger(__name__)
 
 
+def _request_id(request: Request) -> str:
+    return getattr(request.state, "request_id", None) or uuid.uuid4().hex[:12]
+
+
 def install(app: FastAPI) -> None:
     """Register the unified error handlers on ``app``."""
 
     @app.exception_handler(StarletteHTTPException)
     async def http_exception_handler(request: Request, exc: StarletteHTTPException):
-        # Pass-through for explicit HTTPException(...). detail is intentional.
         return JSONResponse(
             status_code=exc.status_code,
             content={
@@ -28,12 +36,12 @@ def install(app: FastAPI) -> None:
 
     @app.exception_handler(Exception)
     async def unhandled_exception_handler(request: Request, exc: Exception):
-        request_id = uuid.uuid4().hex[:12]
+        request_id = _request_id(request)
         logger.exception(
             "Unhandled exception (request_id=%s) %s %s",
             request_id, request.method, request.url.path,
         )
-        return JSONResponse(
+        response = JSONResponse(
             status_code=500,
             content={
                 "success": False,
@@ -41,3 +49,7 @@ def install(app: FastAPI) -> None:
                 "request_id": request_id,
             },
         )
+        # Also stamp the header here so it's present even when the response is
+        # sent directly by ServerErrorMiddleware (which wraps our middleware).
+        response.headers["X-Request-ID"] = request_id
+        return response
