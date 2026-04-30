@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useApp } from '../context/AppContext';
 import { useProject } from '../context/ProjectContext';
+import { useUI } from '../context/UIContext';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { projectService, type Project } from '../services/projectService';
 import type { LLMProvider, ProjectType } from '../types';
@@ -88,8 +88,8 @@ function SettingsMenu({ llmProvider, setLlmProvider }: {
 }
 
 export function Header() {
-  const { llmProvider, setLlmProvider, workMode, setWorkMode } = useApp();
-  const { projectId, setProjectId, projectType, projectNumber } = useProject();
+  const { projectId, setProjectId, projectType, projectNumber, llmProvider, setLlmProvider } = useProject();
+  const { workMode, setWorkMode } = useUI();
   const { t } = useTranslation();
 
   // Project switcher state

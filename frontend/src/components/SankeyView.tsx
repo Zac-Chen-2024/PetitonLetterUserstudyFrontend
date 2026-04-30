@@ -1,7 +1,8 @@
 import { useMemo, useRef, useEffect, useState } from 'react';
 import { sankey, sankeyLinkHorizontal } from 'd3-sankey';
 import type { SankeyNode, SankeyLink } from 'd3-sankey';
-import { useApp } from '../context/AppContext';
+import { useArguments } from '../context/ArgumentsContext';
+import { useUI } from '../context/UIContext';
 import { useLegalStandards } from '../hooks/useLegalStandards';
 
 interface SankeyNodeData {
@@ -27,12 +28,8 @@ export function SankeyView() {
   const legalStandards = useLegalStandards();
   const containerRef = useRef<HTMLDivElement>(null);
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
-  const {
-    arguments: arguments_,
-    argumentMappings,
-    focusState,
-    setFocusState,
-  } = useApp();
+  const { arguments: arguments_, argumentMappings } = useArguments();
+  const { focusState, setFocusState } = useUI();
 
   // Update dimensions on resize
   useEffect(() => {
