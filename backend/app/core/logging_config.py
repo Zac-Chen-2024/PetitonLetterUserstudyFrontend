@@ -83,6 +83,17 @@ def configure_logging(level: int = logging.INFO) -> None:
     root.addHandler(handler)
     root.setLevel(level)
 
+    # uvicorn ships its own loggers with their own StreamHandlers and
+    # propagate=False, which would bypass our root-level JSON formatter.
+    # Strip those handlers so the records bubble up to root and get
+    # re-formatted as JSON (with request_id stamped on by the filter).
+    for name in ("uvicorn", "uvicorn.error", "uvicorn.access"):
+        ulog = logging.getLogger(name)
+        for h in list(ulog.handlers):
+            ulog.removeHandler(h)
+        ulog.propagate = True
+        ulog.setLevel(level)
+
 
 def _inject_request_id_kv(logger, method_name, event_dict):
     """Copy record.request_id (set by _RequestIdFilter) into the JSON payload."""
