@@ -1,4 +1,4 @@
-import { useApp } from '../context/AppContext';
+import { useUI } from '../context/UIContext';
 import type { ViewMode } from '../types';
 
 interface ViewModeOption {
@@ -36,7 +36,7 @@ const viewModes: ViewModeOption[] = [
 ];
 
 export function ViewModeSwitcher() {
-  const { viewMode, setViewMode } = useApp();
+  const { viewMode, setViewMode } = useUI();
 
   return (
     <div className="flex items-center gap-1 bg-slate-100 p-1 rounded-lg">

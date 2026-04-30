@@ -5,18 +5,15 @@
  */
 
 import { useMemo } from 'react';
-import { useApp } from '../context/AppContext';
+import { useArguments } from '../context/ArgumentsContext';
+import { useUI } from '../context/UIContext';
 import { useLegalStandards } from '../hooks/useLegalStandards';
 import { STANDARD_KEY_TO_ID } from '../constants/colors';
 
 export default function StandardFilterBar() {
   const legalStandards = useLegalStandards();
-  const {
-    arguments: arguments_,
-    argumentMappings,
-    focusState,
-    setFocusState
-  } = useApp();
+  const { arguments: arguments_, argumentMappings } = useArguments();
+  const { focusState, setFocusState } = useUI();
 
   // 计算每个 standard 的 argument 数量
   const standardCounts = useMemo(() => {
