@@ -56,5 +56,8 @@ jobs:
       - name: Type-check (no emit)
         run: npx tsc --noEmit
 
+      - name: Unit tests
+        run: npm test
+
       - name: Production build
         run: npm run build
